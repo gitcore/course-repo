@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "id": "nanjing-yuhua-grade5-semester2-unit2",
+  "name": "五年级下册 Unit 2 - How do you come to school",
+  "description": "学习关于家、居住和上学方式的表达",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "language": "en",
+  "targetAge": "primary-grade-5",
+  "grade": 5,
+  "semester": 2,
+  "unit": 2,
+  "tags": [
+    "上学方式",
+    "交通",
+    "居住"
+  ],
+  "source": {
+    "type": "textbook-markdown",
+    "path": "textbook.md",
+    "wordlist": "wordlist.md"
+  },
+  "supportedActivities": [
+    {
+      "type": "sentence-practice",
+      "name": "拆句练习",
+      "data": "content/sentence-practice.json",
+      "enabled": true
+    },
+    {
+      "type": "conversation-practice",
+      "name": "对话练习",
+      "data": "content/conversation-practice.json",
+      "enabled": true
+    }
+  ],
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-2",
+    "generatedAt": "2026-04-18"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "id": "nanjing-yuhua-grade5-semester2-unit3",
+  "name": "五年级下册 Unit 3 - Asking the way",
+  "description": "学习问路",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "language": "en",
+  "targetAge": "primary-grade-5",
+  "grade": 5,
+  "semester": 2,
+  "unit": 3,
+  "tags": [
+    "问路",
+    "方向",
+    "交通"
+  ],
+  "source": {
+    "type": "textbook-markdown",
+    "path": "textbook.md",
+    "wordlist": "wordlist.md"
+  },
+  "supportedActivities": [
+    {
+      "type": "sentence-practice",
+      "name": "拆句练习",
+      "data": "content/sentence-practice.json",
+      "enabled": true
+    },
+    {
+      "type": "conversation-practice",
+      "name": "对话练习",
+      "data": "content/conversation-practice.json",
+      "enabled": true
+    }
+  ],
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-2",
+    "generatedAt": "2026-04-18"
+  }
+}
