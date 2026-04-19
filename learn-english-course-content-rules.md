@@ -228,11 +228,13 @@ prince | There is | a party | at | the prince's house | There is a party at the 
   - `There is`
   - `a party`
   - `at`
+  - `prince`
   - `the prince's house`
   - `There is a party at the prince's house.`
 - "剩余部分"必须仍然是原句中的连续片段，不能乱拼，也不能和前一个片段重叠。
 - 句子里的连接词、介词、there be 结构等可以单独出片段，但每个结构片段在当前句子里只出现一次。
 - `wordlist` 重点词如果已经自然包含在完整片段里，就不要再单独抽成重复题。
+- 非 wordlist 的人名（如 `Cinderella`、`Yang Ling`）不单独出题，附在相邻片段中。
 
 ### 功能词拆分规则
 
@@ -283,8 +285,8 @@ prince | There is | a party | at | the prince's house | There is a party at the 
 同一个单元内：
 
 - wordlist 词在不同句子中重复出现时，可以重复生成，方便当前句子学习。
+- 非 wordlist 的人名不单独出题，附在相邻片段中。
 - 非 wordlist 的普通重要词，优先首次出现时生成独立拆解，后续不重复生成。
-- 人名、地名首次出现时可以拆一次，后续不重复拆，除非它是当前句子理解关键。
 - 同一个拆解题内部，同一个单词只列一次。
 - 同一个句子里，每个片段只能出现一次，不允许为了强调某个 wordlist 词再额外复制一个重叠片段。
 
