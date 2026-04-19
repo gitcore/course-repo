@@ -3,7 +3,7 @@
   "activityType": "sentence-practice",
   "sourceHash": "",
   "generatorVersion": "learn-language-generator-2",
-  "generatedAt": "2026-04-18",
+  "generatedAt": "2026-04-19",
   "sections": [
     {
       "title": "Breakdown",
@@ -11,69 +11,6 @@
         {
           "sequenceNumber": 1,
           "segmentNumber": 1,
-          "english": "at",
-          "speaker": "narrator",
-          "chinese": "在",
-          "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "at 表示在某处",
-          "words": [
-            {
-              "text": "at",
-              "phonetic": "/æt/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "1-1-1"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 2,
-          "english": "prince",
-          "speaker": "narrator",
-          "chinese": "王子",
-          "difficulty": 1,
-          "hint": "Unit 1 词表词",
-          "grammarAnalysis": "名词，加 's 变所有格",
-          "words": [
-            {
-              "text": "prince",
-              "phonetic": "/prɪns/",
-              "partOfSpeech": "名词",
-              "meaning": "王子"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "1-2-2"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 3,
-          "english": "Cinderella",
-          "speaker": "narrator",
-          "chinese": "灰姑娘",
-          "difficulty": 1,
-          "hint": "人名",
-          "grammarAnalysis": "专有名词，故事女主角",
-          "words": [
-            {
-              "text": "Cinderella",
-              "phonetic": "/ˌsɪndəˈrelə/",
-              "partOfSpeech": "名词",
-              "meaning": "灰姑娘"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "1-3-3"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 4,
           "english": "There is",
           "speaker": "narrator",
           "chinese": "有",
@@ -96,11 +33,11 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "1-4-4"
+          "id": "1-1-1"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 5,
+          "segmentNumber": 2,
           "english": "a party",
           "speaker": "narrator",
           "chinese": "一个派对",
@@ -123,11 +60,53 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "1-5-5"
+          "id": "1-2-2"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 6,
+          "segmentNumber": 3,
+          "english": "at",
+          "speaker": "narrator",
+          "chinese": "在",
+          "difficulty": 1,
+          "hint": "地点介词",
+          "grammarAnalysis": "at 表示在某处",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "1-3-3"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
+          "english": "prince",
+          "speaker": "narrator",
+          "chinese": "王子",
+          "difficulty": 1,
+          "hint": "Unit 1 词表词",
+          "grammarAnalysis": "名词，加 's 变所有格",
+          "words": [
+            {
+              "text": "prince",
+              "phonetic": "/prɪns/",
+              "partOfSpeech": "名词",
+              "meaning": "王子"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "1-4-4"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "the prince's house",
           "speaker": "narrator",
           "chinese": "王子的房子",
@@ -156,11 +135,11 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "1-6-6"
+          "id": "1-5-5"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 7,
+          "segmentNumber": 6,
           "english": "cannot go",
           "speaker": "narrator",
           "chinese": "不能去",
@@ -183,17 +162,17 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "1-7-7"
+          "id": "1-6-6"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 8,
-          "english": "There is a party at the prince's house,",
+          "segmentNumber": 7,
+          "english": "There is a party at the prince's house, but Cinderella cannot go.",
           "speaker": "narrator",
-          "chinese": "王子家有一场聚会，",
+          "chinese": "王子家有一场聚会，但是灰姑娘不能去。",
           "difficulty": 1,
           "hint": "there be 句型",
-          "grammarAnalysis": "There is + 单数名词短语",
+          "grammarAnalysis": "There is + 单数名词短语 + but + 转折",
           "words": [
             {
               "text": "There",
@@ -242,35 +221,7 @@
               "phonetic": "/haʊs/",
               "partOfSpeech": "名词",
               "meaning": "房子"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "存在",
-              "text": "There is"
             },
-            {
-              "label": "事件",
-              "text": "a party"
-            },
-            {
-              "label": "地点",
-              "text": "at the prince's house"
-            }
-          ],
-          "category": "sentence",
-          "id": "1-8-8"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 9,
-          "english": "but Cinderella cannot go.",
-          "speaker": "narrator",
-          "chinese": "但是灰姑娘不能去。",
-          "difficulty": 1,
-          "hint": "转折句",
-          "grammarAnalysis": "but 表示转折",
-          "words": [
             {
               "text": "but",
               "phonetic": "/bʌt/",
@@ -298,6 +249,18 @@
           ],
           "structureBlocks": [
             {
+              "label": "存在",
+              "text": "There is"
+            },
+            {
+              "label": "事件",
+              "text": "a party"
+            },
+            {
+              "label": "地点",
+              "text": "at the prince's house"
+            },
+            {
               "label": "转折",
               "text": "but"
             },
@@ -311,7 +274,7 @@
             }
           ],
           "category": "sentence",
-          "id": "1-9-9"
+          "id": "1-7-7"
         },
         {
           "sequenceNumber": 2,
@@ -320,7 +283,7 @@
           "speaker": "Sister",
           "chinese": "来帮帮我",
           "difficulty": 1,
-          "hint": "祈使句",
+          "hint": "祈使句片段",
           "grammarAnalysis": "祈使句，省略主语 you",
           "words": [
             {
@@ -413,7 +376,7 @@
           "speaker": "Sister",
           "chinese": "我的手套在哪里",
           "difficulty": 1,
-          "hint": "特殊疑问句",
+          "hint": "特殊疑问句片段",
           "grammarAnalysis": "where 询问地点",
           "words": [
             {
@@ -892,6 +855,27 @@
         {
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "clothes",
+          "speaker": "Cinderella",
+          "chinese": "衣服",
+          "difficulty": 1,
+          "hint": "Unit 1 词表词",
+          "grammarAnalysis": "名词，复数形式",
+          "words": [
+            {
+              "text": "clothes",
+              "phonetic": "/kləʊðz/",
+              "partOfSpeech": "名词",
+              "meaning": "衣服"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "8-2-2"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "nice clothes",
           "speaker": "Cinderella",
           "chinese": "好看的衣服",
@@ -914,11 +898,11 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "8-2-2"
+          "id": "8-3-3"
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Because I don't have any nice clothes or shoes.",
           "speaker": "Cinderella",
           "chinese": "因为我没有任何好看的衣服或鞋子。",
@@ -1000,7 +984,7 @@
             }
           ],
           "category": "sentence",
-          "id": "8-3-3"
+          "id": "8-4-4"
         },
         {
           "sequenceNumber": 9,
@@ -1009,7 +993,7 @@
           "speaker": "Fairy",
           "chinese": "让我",
           "difficulty": 1,
-          "hint": "Unit 1 词表词",
+          "hint": "Unit 1 词表短语",
           "grammarAnalysis": "Let me + 动词原形",
           "words": [
             {
@@ -1251,27 +1235,6 @@
         {
           "sequenceNumber": 11,
           "segmentNumber": 1,
-          "english": "before",
-          "speaker": "Fairy",
-          "chinese": "在……以前",
-          "difficulty": 1,
-          "hint": "Unit 1 词表词",
-          "grammarAnalysis": "介词，表示在……以前",
-          "words": [
-            {
-              "text": "before",
-              "phonetic": "/bɪˈfɔː(r)/",
-              "partOfSpeech": "介词",
-              "meaning": "在……以前"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "11-1-1"
-        },
-        {
-          "sequenceNumber": 11,
-          "segmentNumber": 2,
           "english": "Come back",
           "speaker": "Fairy",
           "chinese": "回来",
@@ -1294,6 +1257,27 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
+          "id": "11-1-1"
+        },
+        {
+          "sequenceNumber": 11,
+          "segmentNumber": 2,
+          "english": "before",
+          "speaker": "Fairy",
+          "chinese": "在……以前",
+          "difficulty": 1,
+          "hint": "Unit 1 词表词",
+          "grammarAnalysis": "介词，表示在……以前",
+          "words": [
+            {
+              "text": "before",
+              "phonetic": "/bɪˈfɔː(r)/",
+              "partOfSpeech": "介词",
+              "meaning": "在……以前"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
           "id": "11-2-2"
         },
         {
@@ -1380,27 +1364,6 @@
         {
           "sequenceNumber": 12,
           "segmentNumber": 1,
-          "english": "at",
-          "speaker": "narrator",
-          "chinese": "在",
-          "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "at 表示在某处",
-          "words": [
-            {
-              "text": "at",
-              "phonetic": "/æt/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "12-1-1"
-        },
-        {
-          "sequenceNumber": 12,
-          "segmentNumber": 2,
           "english": "has a good time",
           "speaker": "narrator",
           "chinese": "玩得开心",
@@ -1435,6 +1398,27 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
+          "id": "12-1-1"
+        },
+        {
+          "sequenceNumber": 12,
+          "segmentNumber": 2,
+          "english": "at",
+          "speaker": "narrator",
+          "chinese": "在",
+          "difficulty": 1,
+          "hint": "地点介词",
+          "grammarAnalysis": "at 表示在某处",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
           "id": "12-2-2"
         },
         {
@@ -1575,7 +1559,7 @@
               "text": "have",
               "phonetic": "/hæv/",
               "partOfSpeech": "动词",
-              "meaning": "必须"
+              "meaning": "有"
             },
             {
               "text": "to",
@@ -1641,7 +1625,7 @@
               "text": "have",
               "phonetic": "/hæv/",
               "partOfSpeech": "动词",
-              "meaning": "必须"
+              "meaning": "有"
             },
             {
               "text": "to",
@@ -1728,27 +1712,6 @@
         {
           "sequenceNumber": 15,
           "segmentNumber": 1,
-          "english": "Finally",
-          "speaker": "narrator",
-          "chinese": "最后",
-          "difficulty": 1,
-          "hint": "时间副词",
-          "grammarAnalysis": "放在句首，表示终于",
-          "words": [
-            {
-              "text": "Finally",
-              "phonetic": "/ˈfaɪnəli/",
-              "partOfSpeech": "副词",
-              "meaning": "最后"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "15-1-1"
-        },
-        {
-          "sequenceNumber": 15,
-          "segmentNumber": 2,
           "english": "The prince",
           "speaker": "narrator",
           "chinese": "王子",
@@ -1771,11 +1734,11 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "15-2-2"
+          "id": "15-1-1"
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "visits every house",
           "speaker": "narrator",
           "chinese": "拜访每一栋房子",
@@ -1804,6 +1767,60 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
+          "id": "15-2-2"
+        },
+        {
+          "sequenceNumber": 15,
+          "segmentNumber": 3,
+          "english": "The prince visits every house.",
+          "speaker": "narrator",
+          "chinese": "王子拜访了每一栋房子。",
+          "difficulty": 1,
+          "hint": "简单句",
+          "grammarAnalysis": "主语 + 谓语 + 宾语",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "prince",
+              "phonetic": "/prɪns/",
+              "partOfSpeech": "名词",
+              "meaning": "王子"
+            },
+            {
+              "text": "visits",
+              "phonetic": "/ˈvɪzɪts/",
+              "partOfSpeech": "动词",
+              "meaning": "拜访"
+            },
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "限定词",
+              "meaning": "每一个"
+            },
+            {
+              "text": "house",
+              "phonetic": "/haʊs/",
+              "partOfSpeech": "名词",
+              "meaning": "房子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "人物",
+              "text": "The prince"
+            },
+            {
+              "label": "动作",
+              "text": "visits every house"
+            }
+          ],
+          "category": "sentence",
           "id": "15-3-3"
         },
         {
@@ -1896,93 +1913,6 @@
         {
           "sequenceNumber": 15,
           "segmentNumber": 7,
-          "english": "tries it on",
-          "speaker": "narrator",
-          "chinese": "试穿它",
-          "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "try on 第三人称，代词放中间",
-          "words": [
-            {
-              "text": "tries",
-              "phonetic": "/traɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "试"
-            },
-            {
-              "text": "it",
-              "phonetic": "/ɪt/",
-              "partOfSpeech": "代词",
-              "meaning": "它"
-            },
-            {
-              "text": "on",
-              "phonetic": "/ɒn/",
-              "partOfSpeech": "介词",
-              "meaning": "上"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "15-7-7"
-        },
-        {
-          "sequenceNumber": 15,
-          "segmentNumber": 8,
-          "english": "The prince visits every house.",
-          "speaker": "narrator",
-          "chinese": "王子拜访了每一栋房子。",
-          "difficulty": 1,
-          "hint": "简单句",
-          "grammarAnalysis": "主语 + 谓语 + 宾语",
-          "words": [
-            {
-              "text": "The",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "prince",
-              "phonetic": "/prɪns/",
-              "partOfSpeech": "名词",
-              "meaning": "王子"
-            },
-            {
-              "text": "visits",
-              "phonetic": "/ˈvɪzɪts/",
-              "partOfSpeech": "动词",
-              "meaning": "拜访"
-            },
-            {
-              "text": "every",
-              "phonetic": "/ˈevri/",
-              "partOfSpeech": "限定词",
-              "meaning": "每一个"
-            },
-            {
-              "text": "house",
-              "phonetic": "/haʊs/",
-              "partOfSpeech": "名词",
-              "meaning": "房子"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "人物",
-              "text": "The prince"
-            },
-            {
-              "label": "动作",
-              "text": "visits every house"
-            }
-          ],
-          "category": "sentence",
-          "id": "15-8-8"
-        },
-        {
-          "sequenceNumber": 15,
-          "segmentNumber": 9,
           "english": "Many girls try on the shoe, but it does not fit.",
           "speaker": "narrator",
           "chinese": "很多女孩试穿了这只鞋，但是都不合脚。",
@@ -2076,6 +2006,60 @@
             }
           ],
           "category": "sentence",
+          "id": "15-7-7"
+        },
+        {
+          "sequenceNumber": 15,
+          "segmentNumber": 8,
+          "english": "Finally",
+          "speaker": "narrator",
+          "chinese": "最后",
+          "difficulty": 1,
+          "hint": "时间副词",
+          "grammarAnalysis": "放在句首，表示终于",
+          "words": [
+            {
+              "text": "Finally",
+              "phonetic": "/ˈfaɪnəli/",
+              "partOfSpeech": "副词",
+              "meaning": "最后"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "15-8-8"
+        },
+        {
+          "sequenceNumber": 15,
+          "segmentNumber": 9,
+          "english": "tries it on",
+          "speaker": "narrator",
+          "chinese": "试穿它",
+          "difficulty": 1,
+          "hint": "动作片段",
+          "grammarAnalysis": "try on 第三人称，代词放中间",
+          "words": [
+            {
+              "text": "tries",
+              "phonetic": "/traɪz/",
+              "partOfSpeech": "动词",
+              "meaning": "试"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "代词",
+              "meaning": "它"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "介词",
+              "meaning": "上"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
           "id": "15-9-9"
         },
         {

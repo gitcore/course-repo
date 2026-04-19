@@ -117,7 +117,7 @@ Nice to meet you.
 
 - 先看句子本身怎么拆，不是先看 wordlist。
 - 拆句的目标是形成一条"从片段到整句"的背诵链，不是把句子切成一堆重叠小题。
-- **单词永远在短语和句子之前**。拆句顺序为：单词 → 短语 → 完整句。例如 `prince`（单词）必须在 `the prince's house`（短语）之前出现。
+- **单词必须紧贴在包含它的短语之前**。如果 wordlist 单词需要单独出题，它必须插在包含该单词的短语**正前方**，而不是放在整个句子的最前面。例如 `prince` 属于短语 `the prince's house`，所以 `prince` 紧贴在 `the prince's house` 前面。
 - 短语优先于单词，例如优先 `a party`、`the prince's house`，而不是先拆 `party`、`prince`。
 - 但 wordlist 单词如果需要单独出题，必须放在该单词所在短语**之前**。
 - 功能词按类型区别对待（详见 §8）：
@@ -140,19 +140,19 @@ There is a party at the prince's house.
 正确拆法：
 
 ```text
-prince | There is | a party | at | the prince's house | There is a party at the prince's house.
+There is | a party | at | prince | the prince's house | There is a party at the prince's house.
 ```
 
 错误拆法：
 
 ```text
-There is | a party | at | the prince's house | prince | There is a party at the prince's house.
+prince | There is | a party | at | the prince's house | There is a party at the prince's house.
 ```
 
 原因：
 
-- `prince` 是 wordlist 单词，需要单独出题时，必须放在包含它的短语 `the prince's house` **之前**。
-- 单词永远在短语和句子之前，不能把单词插到短语后面。
+- `prince` 是 wordlist 单词，属于短语 `the prince's house`，必须紧贴在 `the prince's house` **正前方**。
+- 不能把单词提到整个句子的最前面，打断自然语序。
 
 ## 6. 编号规则
 
@@ -184,7 +184,7 @@ There is | a party | at | the prince's house | prince | There is a party at the 
 2. **先按句子自然结构拆解**，形成连续的片段链（短语、介词等），不参考 wordlist。
 3. **再参考 wordlist**，检查句子中哪些单词出现在词表中。
 4. **调整拆分内容**：如果 wordlist 词未被任何片段单独覆盖且是核心学习点，补一道单独单词题。
-5. **调整顺序**：确保最终输出严格按 **单词 → 短语 → 完整句** 排列。单词题必须放在包含该单词的短语题之前。
+5. **调整顺序**：如果补了单词题，将其**紧贴在包含该单词的短语正前方**，保持自然语序不变。
 6. 命中 wordlist 的单词，要优先补齐音标、词性、意思和提示。
 7. 如果 wordlist 词已自然包含在片段链中，不强制单独出题。
 8. 句子中没有出现的 wordlist 词，不要强行塞进当前对话拆解。
@@ -411,7 +411,7 @@ There is | a party | at | the prince's house | prince | There is a party at the 
 - 整句翻译是否没有退化成单个单词翻译。
 - wordlist 中出现在句子里的重点单词是否已覆盖（单独题或包含在片段中均可）。
 - 拆句顺序是否是"当前句单词题 -> 短语题 -> 当前完整句 -> 下一句 ..."。
-- **单词是否在包含它的短语之前出现**（单词永远在短语和句子之前）。
+- **单词是否紧贴在包含它的短语正前方**（不能把单词提到整个句子的最前面）。
 - 完整句词块是否存在且英文片段来自原文。
 - 单词信息是否包含音标、词性、意思。
 - 完整句拆解题是否列出了该句**每一个单词**的详细信息（不允许跳过功能词）。
@@ -461,7 +461,7 @@ I like it very much, but it's far from school.
 1. 保护 `## 对话列表` 原文不变。
 2. 读取当前单元 wordlist（优先 `wordlist.md`）。
 3. 按对话编号逐条拆句。
-4. 每句先按自然结构拆解片段链（不参考 wordlist），再参考 wordlist 调整拆分内容和补单词题，最后调整顺序确保 **单词 → 短语 → 完整句**。
+4. 每句先按自然结构拆解片段链（不参考 wordlist），再参考 wordlist 调整拆分内容和补单词题，最后将单词题**紧贴在包含它的短语正前方**。
 5. 为完整句补中文、语法、提示、词块。
 6. 为词和短语补音标、词性、意思。
 7. 生成后检查：课文原文不变、编号正确、翻译未退化、wordlist 词已覆盖、词块存在。
