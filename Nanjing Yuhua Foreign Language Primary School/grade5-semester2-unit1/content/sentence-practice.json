@@ -140,6 +140,103 @@
         {
           "sequenceNumber": 1,
           "segmentNumber": 6,
+          "english": "There is a party at the prince's house,",
+          "speaker": "narrator",
+          "chinese": "王子家有一场聚会，",
+          "difficulty": 1,
+          "hint": "there be 句型前半句",
+          "grammarAnalysis": "There is + 名词短语 + 介词短语",
+          "words": [
+            {
+              "text": "There",
+              "phonetic": "/ðeə(r)/",
+              "partOfSpeech": "副词",
+              "meaning": "引导 there be 句型"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "动词",
+              "meaning": "是"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "party",
+              "phonetic": "/ˈpɑːti/",
+              "partOfSpeech": "名词",
+              "meaning": "派对"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "prince's",
+              "phonetic": "/ˈprɪnsɪz/",
+              "partOfSpeech": "名词所有格",
+              "meaning": "王子的"
+            },
+            {
+              "text": "house",
+              "phonetic": "/haʊs/",
+              "partOfSpeech": "名词",
+              "meaning": "房子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "存在",
+              "text": "There is"
+            },
+            {
+              "label": "事件",
+              "text": "a party"
+            },
+            {
+              "label": "地点",
+              "text": "at the prince's house"
+            }
+          ],
+          "category": "phrase",
+          "id": "1-6-6-new"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 7,
+          "english": "but",
+          "speaker": "narrator",
+          "chinese": "但是",
+          "difficulty": 1,
+          "hint": "转折连词",
+          "grammarAnalysis": "but 连接两个转折意义的分句",
+          "words": [
+            {
+              "text": "but",
+              "phonetic": "/bʌt/",
+              "partOfSpeech": "连词",
+              "meaning": "但是"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "1-7-7-new"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 8,
           "english": "cannot go",
           "speaker": "narrator",
           "chinese": "不能去",
@@ -166,7 +263,59 @@
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 7,
+          "segmentNumber": 9,
+          "english": "but Cinderella cannot go.",
+          "speaker": "narrator",
+          "chinese": "但是灰姑娘不能去。",
+          "difficulty": 1,
+          "hint": "转折后半句",
+          "grammarAnalysis": "but + 主语 + 情态动词 + 动词原形",
+          "words": [
+            {
+              "text": "but",
+              "phonetic": "/bʌt/",
+              "partOfSpeech": "连词",
+              "meaning": "但是"
+            },
+            {
+              "text": "Cinderella",
+              "phonetic": "/ˌsɪndəˈrelə/",
+              "partOfSpeech": "名词",
+              "meaning": "灰姑娘"
+            },
+            {
+              "text": "cannot",
+              "phonetic": "/ˈkænɒt/",
+              "partOfSpeech": "情态动词",
+              "meaning": "不能"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "动词",
+              "meaning": "去"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "转折",
+              "text": "but"
+            },
+            {
+              "label": "人物",
+              "text": "Cinderella"
+            },
+            {
+              "label": "动作",
+              "text": "cannot go"
+            }
+          ],
+          "category": "phrase",
+          "id": "1-9-9-new"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 10,
           "english": "There is a party at the prince's house, but Cinderella cannot go.",
           "speaker": "narrator",
           "chinese": "王子家有一场聚会，但是灰姑娘不能去。",
@@ -278,7 +427,7 @@
         },
         {
           "sequenceNumber": 2,
-          "segmentNumber": 1,
+          "segmentNumber": 11,
           "english": "come and help me",
           "speaker": "Sister",
           "chinese": "来帮帮我",
@@ -317,7 +466,7 @@
         },
         {
           "sequenceNumber": 2,
-          "segmentNumber": 2,
+          "segmentNumber": 12,
           "english": "Cinderella, come and help me!",
           "speaker": "Sister",
           "chinese": "灰姑娘，来帮帮我！",
@@ -371,7 +520,7 @@
         },
         {
           "sequenceNumber": 3,
-          "segmentNumber": 1,
+          "segmentNumber": 13,
           "english": "where are my gloves",
           "speaker": "Sister",
           "chinese": "我的手套在哪里",
@@ -410,7 +559,7 @@
         },
         {
           "sequenceNumber": 3,
-          "segmentNumber": 2,
+          "segmentNumber": 14,
           "english": "Cinderella, where are my gloves?",
           "speaker": "Sister",
           "chinese": "灰姑娘，我的手套在哪里？",
@@ -468,7 +617,7 @@
         },
         {
           "sequenceNumber": 4,
-          "segmentNumber": 1,
+          "segmentNumber": 15,
           "english": "fairy",
           "speaker": "narrator",
           "chinese": "仙女",
@@ -489,7 +638,7 @@
         },
         {
           "sequenceNumber": 4,
-          "segmentNumber": 2,
+          "segmentNumber": 16,
           "english": "A fairy comes.",
           "speaker": "narrator",
           "chinese": "一位仙女来了。",
@@ -531,7 +680,7 @@
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 1,
+          "segmentNumber": 17,
           "english": "Why",
           "speaker": "Fairy",
           "chinese": "为什么",
@@ -552,7 +701,7 @@
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 2,
+          "segmentNumber": 18,
           "english": "so sad",
           "speaker": "Fairy",
           "chinese": "这么伤心",
@@ -579,7 +728,7 @@
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 3,
+          "segmentNumber": 19,
           "english": "Why are you so sad, dear?",
           "speaker": "Fairy",
           "chinese": "你为什么这么伤心，亲爱的？",
@@ -647,7 +796,7 @@
         },
         {
           "sequenceNumber": 6,
-          "segmentNumber": 1,
+          "segmentNumber": 20,
           "english": "Because",
           "speaker": "Cinderella",
           "chinese": "因为",
@@ -668,7 +817,7 @@
         },
         {
           "sequenceNumber": 6,
-          "segmentNumber": 2,
+          "segmentNumber": 21,
           "english": "go",
           "speaker": "Cinderella",
           "chinese": "去",
@@ -689,7 +838,7 @@
         },
         {
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 22,
           "english": "to",
           "speaker": "Cinderella",
           "chinese": "到",
@@ -710,7 +859,7 @@
         },
         {
           "sequenceNumber": 6,
-          "segmentNumber": 4,
+          "segmentNumber": 23,
           "english": "the party",
           "speaker": "Cinderella",
           "chinese": "派对",
@@ -737,7 +886,7 @@
         },
         {
           "sequenceNumber": 6,
-          "segmentNumber": 5,
+          "segmentNumber": 24,
           "english": "Because I can't go to the party.",
           "speaker": "Cinderella",
           "chinese": "因为我不能去参加聚会。",
@@ -807,7 +956,7 @@
         },
         {
           "sequenceNumber": 7,
-          "segmentNumber": 1,
+          "segmentNumber": 25,
           "english": "Why?",
           "speaker": "Fairy",
           "chinese": "为什么？",
@@ -833,7 +982,7 @@
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 1,
+          "segmentNumber": 26,
           "english": "Because",
           "speaker": "Cinderella",
           "chinese": "因为",
@@ -854,7 +1003,7 @@
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 2,
+          "segmentNumber": 27,
           "english": "clothes",
           "speaker": "Cinderella",
           "chinese": "衣服",
@@ -875,7 +1024,7 @@
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 28,
           "english": "nice clothes",
           "speaker": "Cinderella",
           "chinese": "好看的衣服",
@@ -902,7 +1051,7 @@
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 4,
+          "segmentNumber": 29,
           "english": "Because I don't have any nice clothes or shoes.",
           "speaker": "Cinderella",
           "chinese": "因为我没有任何好看的衣服或鞋子。",
@@ -988,7 +1137,7 @@
         },
         {
           "sequenceNumber": 9,
-          "segmentNumber": 1,
+          "segmentNumber": 30,
           "english": "Let me",
           "speaker": "Fairy",
           "chinese": "让我",
@@ -1015,7 +1164,7 @@
         },
         {
           "sequenceNumber": 9,
-          "segmentNumber": 2,
+          "segmentNumber": 31,
           "english": "help you",
           "speaker": "Fairy",
           "chinese": "帮你",
@@ -1042,7 +1191,7 @@
         },
         {
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 32,
           "english": "Let me help you.",
           "speaker": "Fairy",
           "chinese": "让我来帮你。",
@@ -1086,7 +1235,7 @@
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 1,
+          "segmentNumber": 33,
           "english": "puts on",
           "speaker": "narrator",
           "chinese": "穿上",
@@ -1113,7 +1262,7 @@
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 2,
+          "segmentNumber": 34,
           "english": "the new clothes and shoes",
           "speaker": "narrator",
           "chinese": "新衣服和鞋子",
@@ -1158,7 +1307,7 @@
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 3,
+          "segmentNumber": 35,
           "english": "Cinderella puts on the new clothes and shoes.",
           "speaker": "narrator",
           "chinese": "灰姑娘穿上了新衣服和鞋子。",
@@ -1234,7 +1383,7 @@
         },
         {
           "sequenceNumber": 11,
-          "segmentNumber": 1,
+          "segmentNumber": 36,
           "english": "Come back",
           "speaker": "Fairy",
           "chinese": "回来",
@@ -1261,7 +1410,7 @@
         },
         {
           "sequenceNumber": 11,
-          "segmentNumber": 2,
+          "segmentNumber": 37,
           "english": "before",
           "speaker": "Fairy",
           "chinese": "在……以前",
@@ -1282,7 +1431,7 @@
         },
         {
           "sequenceNumber": 11,
-          "segmentNumber": 3,
+          "segmentNumber": 38,
           "english": "12 o'clock",
           "speaker": "Fairy",
           "chinese": "十二点钟",
@@ -1309,7 +1458,7 @@
         },
         {
           "sequenceNumber": 11,
-          "segmentNumber": 4,
+          "segmentNumber": 39,
           "english": "Come back before 12 o'clock.",
           "speaker": "Fairy",
           "chinese": "在12点以前回来。",
@@ -1363,7 +1512,7 @@
         },
         {
           "sequenceNumber": 12,
-          "segmentNumber": 1,
+          "segmentNumber": 40,
           "english": "has a good time",
           "speaker": "narrator",
           "chinese": "玩得开心",
@@ -1402,7 +1551,7 @@
         },
         {
           "sequenceNumber": 12,
-          "segmentNumber": 2,
+          "segmentNumber": 41,
           "english": "at",
           "speaker": "narrator",
           "chinese": "在",
@@ -1423,7 +1572,7 @@
         },
         {
           "sequenceNumber": 12,
-          "segmentNumber": 3,
+          "segmentNumber": 42,
           "english": "the party",
           "speaker": "narrator",
           "chinese": "聚会上",
@@ -1450,7 +1599,7 @@
         },
         {
           "sequenceNumber": 12,
-          "segmentNumber": 4,
+          "segmentNumber": 43,
           "english": "Cinderella has a good time at the party.",
           "speaker": "narrator",
           "chinese": "灰姑娘在聚会上玩得很开心。",
@@ -1526,7 +1675,7 @@
         },
         {
           "sequenceNumber": 13,
-          "segmentNumber": 1,
+          "segmentNumber": 44,
           "english": "Sorry",
           "speaker": "Cinderella",
           "chinese": "对不起",
@@ -1547,7 +1696,7 @@
         },
         {
           "sequenceNumber": 13,
-          "segmentNumber": 2,
+          "segmentNumber": 45,
           "english": "have to",
           "speaker": "Cinderella",
           "chinese": "不得不；必须",
@@ -1574,7 +1723,7 @@
         },
         {
           "sequenceNumber": 13,
-          "segmentNumber": 3,
+          "segmentNumber": 46,
           "english": "go now",
           "speaker": "Cinderella",
           "chinese": "现在走",
@@ -1601,7 +1750,7 @@
         },
         {
           "sequenceNumber": 13,
-          "segmentNumber": 4,
+          "segmentNumber": 47,
           "english": "Sorry, I have to go now.",
           "speaker": "Cinderella",
           "chinese": "对不起，我现在得走了。",
@@ -1669,7 +1818,7 @@
         },
         {
           "sequenceNumber": 14,
-          "segmentNumber": 1,
+          "segmentNumber": 48,
           "english": "Hey, your shoe!",
           "speaker": "Prince",
           "chinese": "嘿，你的鞋！",
@@ -1711,7 +1860,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 1,
+          "segmentNumber": 49,
           "english": "The prince",
           "speaker": "narrator",
           "chinese": "王子",
@@ -1738,7 +1887,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 2,
+          "segmentNumber": 50,
           "english": "visits every house",
           "speaker": "narrator",
           "chinese": "拜访每一栋房子",
@@ -1771,7 +1920,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 3,
+          "segmentNumber": 51,
           "english": "The prince visits every house.",
           "speaker": "narrator",
           "chinese": "王子拜访了每一栋房子。",
@@ -1825,7 +1974,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 4,
+          "segmentNumber": 52,
           "english": "try on",
           "speaker": "narrator",
           "chinese": "试穿",
@@ -1852,7 +2001,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 5,
+          "segmentNumber": 53,
           "english": "the shoe",
           "speaker": "narrator",
           "chinese": "这只鞋",
@@ -1879,7 +2028,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 6,
+          "segmentNumber": 54,
           "english": "does not fit",
           "speaker": "narrator",
           "chinese": "不合脚",
@@ -1912,7 +2061,65 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 7,
+          "segmentNumber": 55,
+          "english": "but it does not fit.",
+          "speaker": "narrator",
+          "chinese": "但是不合脚。",
+          "difficulty": 1,
+          "hint": "转折后半句",
+          "grammarAnalysis": "but + 主语 + does not + 动词",
+          "words": [
+            {
+              "text": "but",
+              "phonetic": "/bʌt/",
+              "partOfSpeech": "连词",
+              "meaning": "但是"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "代词",
+              "meaning": "它"
+            },
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "助动词",
+              "meaning": "助动词"
+            },
+            {
+              "text": "not",
+              "phonetic": "/nɒt/",
+              "partOfSpeech": "副词",
+              "meaning": "不"
+            },
+            {
+              "text": "fit",
+              "phonetic": "/fɪt/",
+              "partOfSpeech": "动词",
+              "meaning": "合脚"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "转折",
+              "text": "but"
+            },
+            {
+              "label": "主语",
+              "text": "it"
+            },
+            {
+              "label": "否定",
+              "text": "does not fit"
+            }
+          ],
+          "category": "phrase",
+          "id": "15-7-7-new"
+        },
+        {
+          "sequenceNumber": 15,
+          "segmentNumber": 56,
           "english": "Many girls try on the shoe, but it does not fit.",
           "speaker": "narrator",
           "chinese": "很多女孩试穿了这只鞋，但是都不合脚。",
@@ -2010,7 +2217,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 8,
+          "segmentNumber": 57,
           "english": "Finally",
           "speaker": "narrator",
           "chinese": "最后",
@@ -2031,7 +2238,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 9,
+          "segmentNumber": 58,
           "english": "tries it on",
           "speaker": "narrator",
           "chinese": "试穿它",
@@ -2064,7 +2271,7 @@
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 10,
+          "segmentNumber": 59,
           "english": "Finally, Cinderella tries it on.",
           "speaker": "narrator",
           "chinese": "最后，灰姑娘试穿了它。",
@@ -2122,7 +2329,7 @@
         },
         {
           "sequenceNumber": 16,
-          "segmentNumber": 1,
+          "segmentNumber": 60,
           "english": "It fits!",
           "speaker": "Prince",
           "chinese": "它合脚！",
