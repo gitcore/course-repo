@@ -11,6 +11,72 @@
         {
           "sequenceNumber": 1,
           "segmentNumber": 1,
+          "english": "She goes to see",
+          "speaker": "narrator",
+          "chinese": "她去看",
+          "difficulty": 1,
+          "hint": "动作片段",
+          "grammarAnalysis": "go to + 动词原形",
+          "words": [
+            {
+              "text": "She",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "代词",
+              "meaning": "她"
+            },
+            {
+              "text": "goes",
+              "phonetic": "/ɡəʊz/",
+              "partOfSpeech": "动词",
+              "meaning": "去"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "介词",
+              "meaning": "到"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "动词",
+              "meaning": "看"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "1-1-1"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "english": "the doctor.",
+          "speaker": "narrator",
+          "chinese": "医生。",
+          "difficulty": 1,
+          "hint": "人物片段",
+          "grammarAnalysis": "the + 名词",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "doctor",
+              "phonetic": "/ˈdɒktə/",
+              "partOfSpeech": "名词",
+              "meaning": "医生"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "1-2-2"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
           "english": "Su Hai is ill.",
           "speaker": "narrator",
           "chinese": "苏海生病了。",
@@ -54,72 +120,6 @@
             }
           ],
           "category": "sentence",
-          "id": "1-1-1"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 2,
-          "english": "She goes to see",
-          "speaker": "narrator",
-          "chinese": "她去看",
-          "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "go to + 动词原形",
-          "words": [
-            {
-              "text": "She",
-              "phonetic": "/ʃiː/",
-              "partOfSpeech": "代词",
-              "meaning": "她"
-            },
-            {
-              "text": "goes",
-              "phonetic": "/ɡəʊz/",
-              "partOfSpeech": "动词",
-              "meaning": "去"
-            },
-            {
-              "text": "to",
-              "phonetic": "/tuː/",
-              "partOfSpeech": "介词",
-              "meaning": "到"
-            },
-            {
-              "text": "see",
-              "phonetic": "/siː/",
-              "partOfSpeech": "动词",
-              "meaning": "看"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "1-2-2"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 3,
-          "english": "the doctor.",
-          "speaker": "narrator",
-          "chinese": "医生。",
-          "difficulty": 1,
-          "hint": "人物片段",
-          "grammarAnalysis": "the + 名词",
-          "words": [
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "doctor",
-              "phonetic": "/ˈdɒktə/",
-              "partOfSpeech": "名词",
-              "meaning": "医生"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
           "id": "1-3-3"
         },
         {
@@ -463,6 +463,48 @@
         {
           "sequenceNumber": 6,
           "segmentNumber": 1,
+          "english": "at",
+          "speaker": "Doctor",
+          "chinese": "在",
+          "difficulty": 1,
+          "hint": "地点介词",
+          "grammarAnalysis": "at 表示在某处",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "6-1-1"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 2,
+          "english": "home.",
+          "speaker": "Doctor",
+          "chinese": "家。",
+          "difficulty": 1,
+          "hint": "地点名词",
+          "grammarAnalysis": "home 家",
+          "words": [
+            {
+              "text": "home",
+              "phonetic": "/həʊm/",
+              "partOfSpeech": "名词",
+              "meaning": "家"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "6-2-2"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "You should have a rest",
           "speaker": "Doctor",
           "chinese": "你应该休息",
@@ -503,53 +545,101 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "6-1-1"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 2,
-          "english": "at",
-          "speaker": "Doctor",
-          "chinese": "在",
-          "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "at 表示在某处",
-          "words": [
-            {
-              "text": "at",
-              "phonetic": "/æt/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "6-2-2"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 3,
-          "english": "home.",
-          "speaker": "Doctor",
-          "chinese": "家。",
-          "difficulty": 1,
-          "hint": "地点名词",
-          "grammarAnalysis": "home 家",
-          "words": [
-            {
-              "text": "home",
-              "phonetic": "/həʊm/",
-              "partOfSpeech": "名词",
-              "meaning": "家"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
           "id": "6-3-3"
         },
         {
           "sequenceNumber": 6,
           "segmentNumber": 4,
+          "english": "You should take some medicine",
+          "speaker": "Doctor",
+          "chinese": "你应该吃点药",
+          "difficulty": 1,
+          "hint": "建议句",
+          "grammarAnalysis": "should + take medicine",
+          "words": [
+            {
+              "text": "You",
+              "phonetic": "/juː/",
+              "partOfSpeech": "代词",
+              "meaning": "你"
+            },
+            {
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "情态动词",
+              "meaning": "应该"
+            },
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "动词",
+              "meaning": "吃"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "限定词",
+              "meaning": "一些"
+            },
+            {
+              "text": "medicine",
+              "phonetic": "/ˈmedsn/",
+              "partOfSpeech": "名词",
+              "meaning": "药"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "6-4-4"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 5,
+          "english": "and drink some warm water.",
+          "speaker": "Doctor",
+          "chinese": "喝点温水。",
+          "difficulty": 1,
+          "hint": "建议句",
+          "grammarAnalysis": "drink some warm water",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "连词",
+              "meaning": "和"
+            },
+            {
+              "text": "drink",
+              "phonetic": "/drɪŋk/",
+              "partOfSpeech": "动词",
+              "meaning": "喝"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "限定词",
+              "meaning": "一些"
+            },
+            {
+              "text": "warm",
+              "phonetic": "/wɔːm/",
+              "partOfSpeech": "形容词",
+              "meaning": "温的"
+            },
+            {
+              "text": "water",
+              "phonetic": "/ˈwɔːtə/",
+              "partOfSpeech": "名词",
+              "meaning": "水"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "6-5-5"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 6,
           "english": "You should have a rest at home.",
           "speaker": "Doctor",
           "chinese": "你应该在家休息。",
@@ -615,96 +705,6 @@
             }
           ],
           "category": "sentence",
-          "id": "6-4-4"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 5,
-          "english": "You should take some medicine",
-          "speaker": "Doctor",
-          "chinese": "你应该吃点药",
-          "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "should + take medicine",
-          "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "情态动词",
-              "meaning": "应该"
-            },
-            {
-              "text": "take",
-              "phonetic": "/teɪk/",
-              "partOfSpeech": "动词",
-              "meaning": "吃"
-            },
-            {
-              "text": "some",
-              "phonetic": "/sʌm/",
-              "partOfSpeech": "限定词",
-              "meaning": "一些"
-            },
-            {
-              "text": "medicine",
-              "phonetic": "/ˈmedsn/",
-              "partOfSpeech": "名词",
-              "meaning": "药"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "6-5-5"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 6,
-          "english": "and drink some warm water.",
-          "speaker": "Doctor",
-          "chinese": "喝点温水。",
-          "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "drink some warm water",
-          "words": [
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "连词",
-              "meaning": "和"
-            },
-            {
-              "text": "drink",
-              "phonetic": "/drɪŋk/",
-              "partOfSpeech": "动词",
-              "meaning": "喝"
-            },
-            {
-              "text": "some",
-              "phonetic": "/sʌm/",
-              "partOfSpeech": "限定词",
-              "meaning": "一些"
-            },
-            {
-              "text": "warm",
-              "phonetic": "/wɔːm/",
-              "partOfSpeech": "形容词",
-              "meaning": "温的"
-            },
-            {
-              "text": "water",
-              "phonetic": "/ˈwɔːtə/",
-              "partOfSpeech": "名词",
-              "meaning": "水"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
           "id": "6-6-6"
         },
         {
@@ -1338,6 +1338,117 @@
         {
           "sequenceNumber": 13,
           "segmentNumber": 3,
+          "english": "You should brush your teeth",
+          "speaker": "Dentist",
+          "chinese": "你应该刷牙",
+          "difficulty": 1,
+          "hint": "建议句",
+          "grammarAnalysis": "should + brush one's teeth",
+          "words": [
+            {
+              "text": "You",
+              "phonetic": "/juː/",
+              "partOfSpeech": "代词",
+              "meaning": "你"
+            },
+            {
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "情态动词",
+              "meaning": "应该"
+            },
+            {
+              "text": "brush",
+              "phonetic": "/brʌʃ/",
+              "partOfSpeech": "动词",
+              "meaning": "刷"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "代词",
+              "meaning": "你的"
+            },
+            {
+              "text": "teeth",
+              "phonetic": "/tiːθ/",
+              "partOfSpeech": "名词",
+              "meaning": "牙齿"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "13-3-3"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
+          "english": "in the morning",
+          "speaker": "Dentist",
+          "chinese": "在早上",
+          "difficulty": 1,
+          "hint": "时间片段",
+          "grammarAnalysis": "in the morning",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "morning",
+              "phonetic": "/ˈmɔːnɪŋ/",
+              "partOfSpeech": "名词",
+              "meaning": "早上"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "13-4-4"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 5,
+          "english": "and before bedtime.",
+          "speaker": "Dentist",
+          "chinese": "和睡前。",
+          "difficulty": 1,
+          "hint": "时间片段",
+          "grammarAnalysis": "before bedtime",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "连词",
+              "meaning": "和"
+            },
+            {
+              "text": "before",
+              "phonetic": "/bɪˈfɔː/",
+              "partOfSpeech": "介词",
+              "meaning": "在……以前"
+            },
+            {
+              "text": "bedtime",
+              "phonetic": "/ˈbedtaɪm/",
+              "partOfSpeech": "名词",
+              "meaning": "就寝时间"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "13-5-5"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 6,
           "english": "You shouldn't eat too many sweets.",
           "speaker": "Dentist",
           "chinese": "你不应该吃太多糖果。",
@@ -1397,117 +1508,6 @@
             }
           ],
           "category": "sentence",
-          "id": "13-3-3"
-        },
-        {
-          "sequenceNumber": 13,
-          "segmentNumber": 4,
-          "english": "You should brush your teeth",
-          "speaker": "Dentist",
-          "chinese": "你应该刷牙",
-          "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "should + brush one's teeth",
-          "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "情态动词",
-              "meaning": "应该"
-            },
-            {
-              "text": "brush",
-              "phonetic": "/brʌʃ/",
-              "partOfSpeech": "动词",
-              "meaning": "刷"
-            },
-            {
-              "text": "your",
-              "phonetic": "/jɔː/",
-              "partOfSpeech": "代词",
-              "meaning": "你的"
-            },
-            {
-              "text": "teeth",
-              "phonetic": "/tiːθ/",
-              "partOfSpeech": "名词",
-              "meaning": "牙齿"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "13-4-4"
-        },
-        {
-          "sequenceNumber": 13,
-          "segmentNumber": 5,
-          "english": "in the morning",
-          "speaker": "Dentist",
-          "chinese": "在早上",
-          "difficulty": 1,
-          "hint": "时间片段",
-          "grammarAnalysis": "in the morning",
-          "words": [
-            {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "morning",
-              "phonetic": "/ˈmɔːnɪŋ/",
-              "partOfSpeech": "名词",
-              "meaning": "早上"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "13-5-5"
-        },
-        {
-          "sequenceNumber": 13,
-          "segmentNumber": 6,
-          "english": "and before bedtime.",
-          "speaker": "Dentist",
-          "chinese": "和睡前。",
-          "difficulty": 1,
-          "hint": "时间片段",
-          "grammarAnalysis": "before bedtime",
-          "words": [
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "连词",
-              "meaning": "和"
-            },
-            {
-              "text": "before",
-              "phonetic": "/bɪˈfɔː/",
-              "partOfSpeech": "介词",
-              "meaning": "在……以前"
-            },
-            {
-              "text": "bedtime",
-              "phonetic": "/ˈbedtaɪm/",
-              "partOfSpeech": "名词",
-              "meaning": "就寝时间"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
           "id": "13-6-6"
         },
         {

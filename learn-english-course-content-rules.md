@@ -117,7 +117,9 @@ Nice to meet you.
 
 - 先看句子本身怎么拆，不是先看 wordlist。
 - 拆句的目标是形成一条"从片段到整句"的背诵链，不是把句子切成一堆重叠小题。
+- **单词永远在短语和句子之前**。拆句顺序为：单词 → 短语 → 完整句。例如 `prince`（单词）必须在 `the prince's house`（短语）之前出现。
 - 短语优先于单词，例如优先 `a party`、`the prince's house`，而不是先拆 `party`、`prince`。
+- 但 wordlist 单词如果需要单独出题，必须放在该单词所在短语**之前**。
 - 功能词按类型区别对待（详见 §8）：
   - **介词**（`at`、`to`、`from`、`in`、`on`、`before` 等）：当它连接两个不同语义块时应**单独成片段**，保证背诵链的小步推进。
   - **纯连接词**（`and`、`but`、`or`、`so`）：默认不单独拆，除非它是该句语法结构的关键转折/连接点。
@@ -138,19 +140,19 @@ There is a party at the prince's house.
 正确拆法：
 
 ```text
-There is | a party | at | the prince's house | There is a party at the prince's house.
+prince | There is | a party | at | the prince's house | There is a party at the prince's house.
 ```
 
 错误拆法：
 
 ```text
-party | prince | the prince's house | There is a party at the prince's house.
+There is | a party | at | the prince's house | prince | There is a party at the prince's house.
 ```
 
 原因：
 
-- `party`、`prince` 不是这句的完整连续背诵链。
-- `There is` 和 `at` 这种结构片段不能在同一句里重复出现两次。
+- `prince` 是 wordlist 单词，需要单独出题时，必须放在包含它的短语 `the prince's house` **之前**。
+- 单词永远在短语和句子之前，不能把单词插到短语后面。
 
 ## 6. 编号规则
 
@@ -179,12 +181,14 @@ party | prince | the prince's house | There is a party at the prince's house.
 执行顺序：
 
 1. 找到当前单元的词表（`wordlist.md` 中的 `## Unit n`，或 `semester2-wordlists.md` 中对应部分）。
-2. 先完成句子自身的完整连续拆解。
-3. 再检查句子中哪些单词出现在当前 wordlist 中。
-4. 命中 wordlist 的单词，要优先补齐音标、词性、意思和提示，但不要破坏当前句子的连续拆分链。
-5. 如果 wordlist 词已自然包含在片段链中，不强制单独出题；如果该词是本句核心学习点且未被任何片段单独覆盖，则补一道单独题。
-6. 句子中没有出现的 wordlist 词，不要强行塞进当前对话拆解。
-7. wordlist 后面的索引区只能作为补充参考，不能覆盖当前单元词表。
+2. **先按句子自然结构拆解**，形成连续的片段链（短语、介词等），不参考 wordlist。
+3. **再参考 wordlist**，检查句子中哪些单词出现在词表中。
+4. **调整拆分内容**：如果 wordlist 词未被任何片段单独覆盖且是核心学习点，补一道单独单词题。
+5. **调整顺序**：确保最终输出严格按 **单词 → 短语 → 完整句** 排列。单词题必须放在包含该单词的短语题之前。
+6. 命中 wordlist 的单词，要优先补齐音标、词性、意思和提示。
+7. 如果 wordlist 词已自然包含在片段链中，不强制单独出题。
+8. 句子中没有出现的 wordlist 词，不要强行塞进当前对话拆解。
+9. wordlist 后面的索引区只能作为补充参考，不能覆盖当前单元词表。
 
 短语示例：
 
@@ -406,7 +410,8 @@ party | prince | the prince's house | There is a party at the prince's house.
 - 每个完整句是否都有整句中文翻译。
 - 整句翻译是否没有退化成单个单词翻译。
 - wordlist 中出现在句子里的重点单词是否已覆盖（单独题或包含在片段中均可）。
-- 拆句顺序是否是“当前句短语/单词 -> wordlist 单词单独题 -> 剩余部分 -> 当前完整句 -> 下一句 ...”。
+- 拆句顺序是否是"当前句单词题 -> 短语题 -> 当前完整句 -> 下一句 ..."。
+- **单词是否在包含它的短语之前出现**（单词永远在短语和句子之前）。
 - 完整句词块是否存在且英文片段来自原文。
 - 单词信息是否包含音标、词性、意思。
 - 完整句拆解题是否列出了该句**每一个单词**的详细信息（不允许跳过功能词）。
@@ -456,7 +461,7 @@ I like it very much, but it's far from school.
 1. 保护 `## 对话列表` 原文不变。
 2. 读取当前单元 wordlist（优先 `wordlist.md`）。
 3. 按对话编号逐条拆句。
-4. 每句先按句子自然结构拆片段链（介词连接语义块时单独拆，短语优先于单词），再检查 wordlist 词是否需要补充单独题，再生成完整句。
+4. 每句先按自然结构拆解片段链（不参考 wordlist），再参考 wordlist 调整拆分内容和补单词题，最后调整顺序确保 **单词 → 短语 → 完整句**。
 5. 为完整句补中文、语法、提示、词块。
 6. 为词和短语补音标、词性、意思。
 7. 生成后检查：课文原文不变、编号正确、翻译未退化、wordlist 词已覆盖、词块存在。

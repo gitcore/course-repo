@@ -351,60 +351,48 @@
         {
           "sequenceNumber": 3,
           "segmentNumber": 1,
-          "english": "You can take the metro.",
+          "english": "at",
           "speaker": "Su Hai",
-          "chinese": "你可以乘地铁。",
+          "chinese": "在",
           "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "can + 动词原形",
+          "hint": "地点介词",
+          "grammarAnalysis": "at 表示在某个站点",
           "words": [
             {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "情态动词",
-              "meaning": "可以"
-            },
-            {
-              "text": "take",
-              "phonetic": "/teɪk/",
-              "partOfSpeech": "动词",
-              "meaning": "搭乘"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "metro",
-              "phonetic": "/ˈmetrəʊ/",
-              "partOfSpeech": "名词",
-              "meaning": "地铁"
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "人物",
-              "text": "You"
-            },
-            {
-              "label": "动作",
-              "text": "take the metro"
-            }
-          ],
-          "category": "sentence",
+          "structureBlocks": [],
+          "category": "word",
           "id": "3-1-1"
         },
         {
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "Then,",
+          "speaker": "Su Hai",
+          "chinese": "然后，",
+          "difficulty": 1,
+          "hint": "时间连接词",
+          "grammarAnalysis": "Then 表示然后",
+          "words": [
+            {
+              "text": "Then",
+              "phonetic": "/ðen/",
+              "partOfSpeech": "副词",
+              "meaning": "然后"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "3-2-2"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "You can get on",
           "speaker": "Su Hai",
           "chinese": "你可以上车",
@@ -439,11 +427,11 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "3-2-2"
+          "id": "3-3-3"
         },
         {
           "sequenceNumber": 3,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "the metro",
           "speaker": "Su Hai",
           "chinese": "地铁",
@@ -466,27 +454,6 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "3-3-3"
-        },
-        {
-          "sequenceNumber": 3,
-          "segmentNumber": 4,
-          "english": "at",
-          "speaker": "Su Hai",
-          "chinese": "在",
-          "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "at 表示在某个站点",
-          "words": [
-            {
-              "text": "at",
-              "phonetic": "/æt/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
           "id": "3-4-4"
         },
         {
@@ -591,6 +558,165 @@
         {
           "sequenceNumber": 3,
           "segmentNumber": 8,
+          "english": "walk to Moon Street.",
+          "speaker": "Su Hai",
+          "chinese": "走到月亮街。",
+          "difficulty": 1,
+          "hint": "动作片段",
+          "grammarAnalysis": "walk to + 地点",
+          "words": [
+            {
+              "text": "walk",
+              "phonetic": "/wɔːk/",
+              "partOfSpeech": "动词",
+              "meaning": "走"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "介词",
+              "meaning": "到"
+            },
+            {
+              "text": "Moon",
+              "phonetic": "/muːn/",
+              "partOfSpeech": "名词",
+              "meaning": "月亮"
+            },
+            {
+              "text": "Street",
+              "phonetic": "/striːt/",
+              "partOfSpeech": "名词",
+              "meaning": "街道"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "3-8-8"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 9,
+          "english": "There's a bookshop",
+          "speaker": "Su Hai",
+          "chinese": "有一家书店",
+          "difficulty": 1,
+          "hint": "存在片段",
+          "grammarAnalysis": "There's = There is",
+          "words": [
+            {
+              "text": "There's",
+              "phonetic": "/ðeəz/",
+              "partOfSpeech": "短语",
+              "meaning": "有"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "bookshop",
+              "phonetic": "/ˈbʊkʃɒp/",
+              "partOfSpeech": "名词",
+              "meaning": "书店"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "3-9-9"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 10,
+          "english": "on the street.",
+          "speaker": "Su Hai",
+          "chinese": "在街上。",
+          "difficulty": 1,
+          "hint": "地点片段",
+          "grammarAnalysis": "on the street",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……上"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "street",
+              "phonetic": "/striːt/",
+              "partOfSpeech": "名词",
+              "meaning": "街道"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "3-10-10"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 11,
+          "english": "You can take the metro.",
+          "speaker": "Su Hai",
+          "chinese": "你可以乘地铁。",
+          "difficulty": 1,
+          "hint": "建议句",
+          "grammarAnalysis": "can + 动词原形",
+          "words": [
+            {
+              "text": "You",
+              "phonetic": "/juː/",
+              "partOfSpeech": "代词",
+              "meaning": "你"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "情态动词",
+              "meaning": "可以"
+            },
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "动词",
+              "meaning": "搭乘"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "metro",
+              "phonetic": "/ˈmetrəʊ/",
+              "partOfSpeech": "名词",
+              "meaning": "地铁"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "人物",
+              "text": "You"
+            },
+            {
+              "label": "动作",
+              "text": "take the metro"
+            }
+          ],
+          "category": "sentence",
+          "id": "3-11-11"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 12,
           "english": "You can get on the metro at Park Station and get off at City Library Station.",
           "speaker": "Su Hai",
           "chinese": "你可以在公园站上地铁，在城市图书馆站下车。",
@@ -718,71 +844,11 @@
             }
           ],
           "category": "sentence",
-          "id": "3-8-8"
+          "id": "3-12-12"
         },
         {
           "sequenceNumber": 3,
-          "segmentNumber": 9,
-          "english": "Then,",
-          "speaker": "Su Hai",
-          "chinese": "然后，",
-          "difficulty": 1,
-          "hint": "时间连接词",
-          "grammarAnalysis": "Then 表示然后",
-          "words": [
-            {
-              "text": "Then",
-              "phonetic": "/ðen/",
-              "partOfSpeech": "副词",
-              "meaning": "然后"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "3-9-9"
-        },
-        {
-          "sequenceNumber": 3,
-          "segmentNumber": 10,
-          "english": "walk to Moon Street.",
-          "speaker": "Su Hai",
-          "chinese": "走到月亮街。",
-          "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "walk to + 地点",
-          "words": [
-            {
-              "text": "walk",
-              "phonetic": "/wɔːk/",
-              "partOfSpeech": "动词",
-              "meaning": "走"
-            },
-            {
-              "text": "to",
-              "phonetic": "/tuː/",
-              "partOfSpeech": "介词",
-              "meaning": "到"
-            },
-            {
-              "text": "Moon",
-              "phonetic": "/muːn/",
-              "partOfSpeech": "名词",
-              "meaning": "月亮"
-            },
-            {
-              "text": "Street",
-              "phonetic": "/striːt/",
-              "partOfSpeech": "名词",
-              "meaning": "街道"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "3-10-10"
-        },
-        {
-          "sequenceNumber": 3,
-          "segmentNumber": 11,
+          "segmentNumber": 13,
           "english": "Then, walk to Moon Street.",
           "speaker": "Su Hai",
           "chinese": "然后，走到月亮街。",
@@ -832,72 +898,6 @@
             }
           ],
           "category": "sentence",
-          "id": "3-11-11"
-        },
-        {
-          "sequenceNumber": 3,
-          "segmentNumber": 12,
-          "english": "There's a bookshop",
-          "speaker": "Su Hai",
-          "chinese": "有一家书店",
-          "difficulty": 1,
-          "hint": "存在片段",
-          "grammarAnalysis": "There's = There is",
-          "words": [
-            {
-              "text": "There's",
-              "phonetic": "/ðeəz/",
-              "partOfSpeech": "短语",
-              "meaning": "有"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "冠词",
-              "meaning": "一个"
-            },
-            {
-              "text": "bookshop",
-              "phonetic": "/ˈbʊkʃɒp/",
-              "partOfSpeech": "名词",
-              "meaning": "书店"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "3-12-12"
-        },
-        {
-          "sequenceNumber": 3,
-          "segmentNumber": 13,
-          "english": "on the street.",
-          "speaker": "Su Hai",
-          "chinese": "在街上。",
-          "difficulty": 1,
-          "hint": "地点片段",
-          "grammarAnalysis": "on the street",
-          "words": [
-            {
-              "text": "on",
-              "phonetic": "/ɒn/",
-              "partOfSpeech": "介词",
-              "meaning": "在……上"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "street",
-              "phonetic": "/striːt/",
-              "partOfSpeech": "名词",
-              "meaning": "街道"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
           "id": "3-13-13"
         },
         {
@@ -1137,6 +1137,66 @@
         {
           "sequenceNumber": 5,
           "segmentNumber": 3,
+          "english": "She cannot find",
+          "speaker": "narrator",
+          "chinese": "她找不到",
+          "difficulty": 1,
+          "hint": "动作片段",
+          "grammarAnalysis": "cannot + 动词原形",
+          "words": [
+            {
+              "text": "She",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "代词",
+              "meaning": "她"
+            },
+            {
+              "text": "cannot",
+              "phonetic": "/ˈkænɒt/",
+              "partOfSpeech": "情态动词",
+              "meaning": "不能"
+            },
+            {
+              "text": "find",
+              "phonetic": "/faɪnd/",
+              "partOfSpeech": "动词",
+              "meaning": "找到"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "5-3-3"
+        },
+        {
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
+          "english": "the bookshop.",
+          "speaker": "narrator",
+          "chinese": "那家书店。",
+          "difficulty": 1,
+          "hint": "物品片段",
+          "grammarAnalysis": "the + 名词",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "bookshop",
+              "phonetic": "/ˈbʊkʃɒp/",
+              "partOfSpeech": "名词",
+              "meaning": "书店"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "5-4-4"
+        },
+        {
+          "sequenceNumber": 5,
+          "segmentNumber": 5,
           "english": "Yang Ling comes out of City Library Station.",
           "speaker": "narrator",
           "chinese": "杨玲从城市图书馆站出来。",
@@ -1208,11 +1268,11 @@
             }
           ],
           "category": "sentence",
-          "id": "5-3-3"
+          "id": "5-5-5"
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "She is on Sun Street.",
           "speaker": "narrator",
           "chinese": "她在太阳街上。",
@@ -1262,66 +1322,6 @@
             }
           ],
           "category": "sentence",
-          "id": "5-4-4"
-        },
-        {
-          "sequenceNumber": 5,
-          "segmentNumber": 5,
-          "english": "She cannot find",
-          "speaker": "narrator",
-          "chinese": "她找不到",
-          "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "cannot + 动词原形",
-          "words": [
-            {
-              "text": "She",
-              "phonetic": "/ʃiː/",
-              "partOfSpeech": "代词",
-              "meaning": "她"
-            },
-            {
-              "text": "cannot",
-              "phonetic": "/ˈkænɒt/",
-              "partOfSpeech": "情态动词",
-              "meaning": "不能"
-            },
-            {
-              "text": "find",
-              "phonetic": "/faɪnd/",
-              "partOfSpeech": "动词",
-              "meaning": "找到"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "5-5-5"
-        },
-        {
-          "sequenceNumber": 5,
-          "segmentNumber": 6,
-          "english": "the bookshop.",
-          "speaker": "narrator",
-          "chinese": "那家书店。",
-          "difficulty": 1,
-          "hint": "物品片段",
-          "grammarAnalysis": "the + 名词",
-          "words": [
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "bookshop",
-              "phonetic": "/ˈbʊkʃɒp/",
-              "partOfSpeech": "名词",
-              "meaning": "书店"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
           "id": "5-6-6"
         },
         {
@@ -1670,6 +1670,27 @@
         {
           "sequenceNumber": 7,
           "segmentNumber": 1,
+          "english": "at",
+          "speaker": "Policeman",
+          "chinese": "在",
+          "difficulty": 1,
+          "hint": "地点介词",
+          "grammarAnalysis": "at 表示在某个位置",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "word",
+          "id": "7-1-1"
+        },
+        {
+          "sequenceNumber": 7,
+          "segmentNumber": 2,
           "english": "Go along",
           "speaker": "Policeman",
           "chinese": "沿着……走",
@@ -1692,11 +1713,11 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "7-1-1"
+          "id": "7-2-2"
         },
         {
           "sequenceNumber": 7,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "this street.",
           "speaker": "Policeman",
           "chinese": "这条街。",
@@ -1719,11 +1740,164 @@
           ],
           "structureBlocks": [],
           "category": "phrase",
-          "id": "7-2-2"
+          "id": "7-3-3"
         },
         {
           "sequenceNumber": 7,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
+          "english": "Turn right",
+          "speaker": "Policeman",
+          "chinese": "右转",
+          "difficulty": 1,
+          "hint": "动作片段",
+          "grammarAnalysis": "Turn right 右转",
+          "words": [
+            {
+              "text": "Turn",
+              "phonetic": "/tɜːn/",
+              "partOfSpeech": "动词",
+              "meaning": "转"
+            },
+            {
+              "text": "right",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "副词",
+              "meaning": "向右"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "7-4-4"
+        },
+        {
+          "sequenceNumber": 7,
+          "segmentNumber": 5,
+          "english": "the traffic lights.",
+          "speaker": "Policeman",
+          "chinese": "红绿灯处。",
+          "difficulty": 1,
+          "hint": "地点片段",
+          "grammarAnalysis": "交通灯",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "traffic",
+              "phonetic": "/ˈtræfɪk/",
+              "partOfSpeech": "名词",
+              "meaning": "交通"
+            },
+            {
+              "text": "lights",
+              "phonetic": "/laɪts/",
+              "partOfSpeech": "名词",
+              "meaning": "灯"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "7-5-5"
+        },
+        {
+          "sequenceNumber": 7,
+          "segmentNumber": 6,
+          "english": "You can see",
+          "speaker": "Policeman",
+          "chinese": "你能看到",
+          "difficulty": 1,
+          "hint": "动作片段",
+          "grammarAnalysis": "can + 动词原形",
+          "words": [
+            {
+              "text": "You",
+              "phonetic": "/juː/",
+              "partOfSpeech": "代词",
+              "meaning": "你"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "情态动词",
+              "meaning": "可以"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "动词",
+              "meaning": "看见"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "7-6-6"
+        },
+        {
+          "sequenceNumber": 7,
+          "segmentNumber": 7,
+          "english": "the bookshop",
+          "speaker": "Policeman",
+          "chinese": "那家书店",
+          "difficulty": 1,
+          "hint": "物品片段",
+          "grammarAnalysis": "the + 名词",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个"
+            },
+            {
+              "text": "bookshop",
+              "phonetic": "/ˈbʊkʃɒp/",
+              "partOfSpeech": "名词",
+              "meaning": "书店"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "7-7-7"
+        },
+        {
+          "sequenceNumber": 7,
+          "segmentNumber": 8,
+          "english": "on your right.",
+          "speaker": "Policeman",
+          "chinese": "在你的右边。",
+          "difficulty": 1,
+          "hint": "方位片段",
+          "grammarAnalysis": "on one's right",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "代词",
+              "meaning": "你的"
+            },
+            {
+              "text": "right",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "名词",
+              "meaning": "右边"
+            }
+          ],
+          "structureBlocks": [],
+          "category": "phrase",
+          "id": "7-8-8"
+        },
+        {
+          "sequenceNumber": 7,
+          "segmentNumber": 9,
           "english": "Go along this street.",
           "speaker": "Policeman",
           "chinese": "沿着这条街走。",
@@ -1763,92 +1937,11 @@
             }
           ],
           "category": "sentence",
-          "id": "7-3-3"
+          "id": "7-9-9"
         },
         {
           "sequenceNumber": 7,
-          "segmentNumber": 4,
-          "english": "Turn right",
-          "speaker": "Policeman",
-          "chinese": "右转",
-          "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "Turn right 右转",
-          "words": [
-            {
-              "text": "Turn",
-              "phonetic": "/tɜːn/",
-              "partOfSpeech": "动词",
-              "meaning": "转"
-            },
-            {
-              "text": "right",
-              "phonetic": "/raɪt/",
-              "partOfSpeech": "副词",
-              "meaning": "向右"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "7-4-4"
-        },
-        {
-          "sequenceNumber": 7,
-          "segmentNumber": 5,
-          "english": "at",
-          "speaker": "Policeman",
-          "chinese": "在",
-          "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "at 表示在某个位置",
-          "words": [
-            {
-              "text": "at",
-              "phonetic": "/æt/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "7-5-5"
-        },
-        {
-          "sequenceNumber": 7,
-          "segmentNumber": 6,
-          "english": "the traffic lights.",
-          "speaker": "Policeman",
-          "chinese": "红绿灯处。",
-          "difficulty": 1,
-          "hint": "地点片段",
-          "grammarAnalysis": "交通灯",
-          "words": [
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "traffic",
-              "phonetic": "/ˈtræfɪk/",
-              "partOfSpeech": "名词",
-              "meaning": "交通"
-            },
-            {
-              "text": "lights",
-              "phonetic": "/laɪts/",
-              "partOfSpeech": "名词",
-              "meaning": "灯"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "7-6-6"
-        },
-        {
-          "sequenceNumber": 7,
-          "segmentNumber": 7,
+          "segmentNumber": 10,
           "english": "Turn right at the traffic lights.",
           "speaker": "Policeman",
           "chinese": "在红绿灯处右转。",
@@ -1904,11 +1997,11 @@
             }
           ],
           "category": "sentence",
-          "id": "7-7-7"
+          "id": "7-10-10"
         },
         {
           "sequenceNumber": 7,
-          "segmentNumber": 8,
+          "segmentNumber": 11,
           "english": "Then, go along Moon Street.",
           "speaker": "Policeman",
           "chinese": "然后，沿着月亮街走。",
@@ -1958,99 +2051,6 @@
             }
           ],
           "category": "sentence",
-          "id": "7-8-8"
-        },
-        {
-          "sequenceNumber": 7,
-          "segmentNumber": 9,
-          "english": "You can see",
-          "speaker": "Policeman",
-          "chinese": "你能看到",
-          "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "can + 动词原形",
-          "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "情态动词",
-              "meaning": "可以"
-            },
-            {
-              "text": "see",
-              "phonetic": "/siː/",
-              "partOfSpeech": "动词",
-              "meaning": "看见"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "7-9-9"
-        },
-        {
-          "sequenceNumber": 7,
-          "segmentNumber": 10,
-          "english": "the bookshop",
-          "speaker": "Policeman",
-          "chinese": "那家书店",
-          "difficulty": 1,
-          "hint": "物品片段",
-          "grammarAnalysis": "the + 名词",
-          "words": [
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "bookshop",
-              "phonetic": "/ˈbʊkʃɒp/",
-              "partOfSpeech": "名词",
-              "meaning": "书店"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "7-10-10"
-        },
-        {
-          "sequenceNumber": 7,
-          "segmentNumber": 11,
-          "english": "on your right.",
-          "speaker": "Policeman",
-          "chinese": "在你的右边。",
-          "difficulty": 1,
-          "hint": "方位片段",
-          "grammarAnalysis": "on one's right",
-          "words": [
-            {
-              "text": "on",
-              "phonetic": "/ɒn/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            },
-            {
-              "text": "your",
-              "phonetic": "/jɔː/",
-              "partOfSpeech": "代词",
-              "meaning": "你的"
-            },
-            {
-              "text": "right",
-              "phonetic": "/raɪt/",
-              "partOfSpeech": "名词",
-              "meaning": "右边"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
           "id": "7-11-11"
         },
         {
