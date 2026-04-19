@@ -285,7 +285,10 @@ very much | far from | school | I like it very much, | but it's far from | but i
 
 - `and`、`but`、`or`、`so`
 
-例外：当连接词是句子语法结构的关键转折点或学习重点时，可以单独成片段。
+硬性例外：**当连接词连接两个独立分句（各自有主语+谓语）时，必须单独拆出**。例如：
+- `..., but Cinderella cannot go.` — `but` 两侧各有独立分句 → 必须拆
+- `..., but it does not fit.` — 同上 → 必须拆
+- `come and help me` — `and` 连接两个动词，不是独立分句 → 不拆
 
 **C. 冠词 — 不单独拆**
 
