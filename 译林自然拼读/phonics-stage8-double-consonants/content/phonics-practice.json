@@ -1,0 +1,1214 @@
+{
+  "manifestId": "phonics-stage8-double-consonants",
+  "activityType": "phonics-practice",
+  "sourceHash": "",
+  "generatorVersion": "learn-language-generator-1",
+  "generatedAt": "2026-04-19T09:51:33.442083",
+  "wordBank": [
+    {
+      "id": "wb-double-ll-hello",
+      "word": "hello",
+      "wordChinese": "",
+      "audioText": "hello",
+      "lessonId": "lesson-double-ll",
+      "ruleTags": [
+        "double-ll"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-ll-ill",
+      "word": "ill",
+      "wordChinese": "",
+      "audioText": "ill",
+      "lessonId": "lesson-double-ll",
+      "ruleTags": [
+        "double-ll"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-ll-umbrella",
+      "word": "umbrella",
+      "wordChinese": "",
+      "audioText": "umbrella",
+      "lessonId": "lesson-double-ll",
+      "ruleTags": [
+        "double-ll"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-ll-yellowstone",
+      "word": "yellowstone",
+      "wordChinese": "",
+      "audioText": "yellowstone",
+      "lessonId": "lesson-double-ll",
+      "ruleTags": [
+        "double-ll"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-ss-lesson",
+      "word": "lesson",
+      "wordChinese": "课",
+      "audioText": "lesson",
+      "lessonId": "lesson-double-ss",
+      "ruleTags": [
+        "double-ss"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-ss-message",
+      "word": "message",
+      "wordChinese": "",
+      "audioText": "message",
+      "lessonId": "lesson-double-ss",
+      "ruleTags": [
+        "double-ss"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-ss-messy",
+      "word": "messy",
+      "wordChinese": "",
+      "audioText": "messy",
+      "lessonId": "lesson-double-ss",
+      "ruleTags": [
+        "double-ss"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-ff-difficult",
+      "word": "difficult",
+      "wordChinese": "",
+      "audioText": "difficult",
+      "lessonId": "lesson-double-ff",
+      "ruleTags": [
+        "double-ff"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-ff-traffic",
+      "word": "traffic",
+      "wordChinese": "",
+      "audioText": "traffic",
+      "lessonId": "lesson-double-ff",
+      "ruleTags": [
+        "double-ff"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-tt-bottle",
+      "word": "bottle",
+      "wordChinese": "",
+      "audioText": "bottle",
+      "lessonId": "lesson-double-tt",
+      "ruleTags": [
+        "double-tt"
+      ],
+      "isTrickyWord": false
+    },
+    {
+      "id": "wb-double-tt-little",
+      "word": "little",
+      "wordChinese": "小的",
+      "audioText": "little",
+      "lessonId": "lesson-double-tt",
+      "ruleTags": [
+        "double-tt"
+      ],
+      "isTrickyWord": false
+    }
+  ],
+  "stages": [
+    {
+      "id": "stage-stage-8-double_consonants",
+      "title": "自然拼读 第八阶段 - 双辅音",
+      "description": "学习 ll、ss、ff、tt 等双辅音的拼写规律。",
+      "lessons": [
+        {
+          "id": "lesson-double-ll",
+          "title": "Lesson 1 · 双辅音 ll",
+          "description": "学习 双辅音 ll 的发音规律。",
+          "ruleText": "双辅音 ll 发 /l/，如 all、small。",
+          "ruleSound": "/l/",
+          "graphemes": [
+            "ll"
+          ],
+          "examples": [
+            "hello",
+            "ill",
+            "umbrella",
+            "yellowstone"
+          ],
+          "decodableSentences": [],
+          "trickyWords": [],
+          "items": [
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-1-sc",
+              "sequenceNumber": 303,
+              "mode": "sound-choice",
+              "prompt": "hello",
+              "promptChinese": "听 hello 里的发音",
+              "instruction": "听 hello，选择对应的字母组合",
+              "explanation": "在 hello 里，双辅音 ll 发 /l/。",
+              "hint": "想想 hello 里的 双辅音 ll。",
+              "answer": [
+                "ll"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "hello",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-1-bl",
+              "sequenceNumber": 304,
+              "mode": "blend",
+              "prompt": "hello",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 hello 拆成发音块",
+              "answer": [
+                "he",
+                "ll",
+                "o"
+              ],
+              "phonics": [
+                {
+                  "text": "he",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ll",
+                  "sound": "/l/",
+                  "meaning": ""
+                },
+                {
+                  "text": "o",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "hello",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-1-ls",
+              "sequenceNumber": 305,
+              "mode": "listen-and-spell",
+              "prompt": "hello",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "hello 包含 双辅音 ll。",
+              "hint": "听完后，输入 hello",
+              "answer": [
+                "he",
+                "ll",
+                "o"
+              ],
+              "phonics": [
+                {
+                  "text": "he",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ll",
+                  "sound": "/l/",
+                  "meaning": ""
+                },
+                {
+                  "text": "o",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "hello",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-2-sc",
+              "sequenceNumber": 306,
+              "mode": "sound-choice",
+              "prompt": "ill",
+              "promptChinese": "听 ill 里的发音",
+              "instruction": "听 ill，选择对应的字母组合",
+              "explanation": "在 ill 里，双辅音 ll 发 /l/。",
+              "hint": "想想 ill 里的 双辅音 ll。",
+              "answer": [
+                "ll"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "ill",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-2-bl",
+              "sequenceNumber": 307,
+              "mode": "blend",
+              "prompt": "ill",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 ill 拆成发音块",
+              "answer": [
+                "i",
+                "ll"
+              ],
+              "phonics": [
+                {
+                  "text": "i",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ll",
+                  "sound": "/l/",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "ill",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-2-ls",
+              "sequenceNumber": 308,
+              "mode": "listen-and-spell",
+              "prompt": "ill",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "ill 包含 双辅音 ll。",
+              "hint": "听完后，输入 ill",
+              "answer": [
+                "i",
+                "ll"
+              ],
+              "phonics": [
+                {
+                  "text": "i",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ll",
+                  "sound": "/l/",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "ill",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-3-sc",
+              "sequenceNumber": 309,
+              "mode": "sound-choice",
+              "prompt": "umbrella",
+              "promptChinese": "听 umbrella 里的发音",
+              "instruction": "听 umbrella，选择对应的字母组合",
+              "explanation": "在 umbrella 里，双辅音 ll 发 /l/。",
+              "hint": "想想 umbrella 里的 双辅音 ll。",
+              "answer": [
+                "ll"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "umbrella",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-3-bl",
+              "sequenceNumber": 310,
+              "mode": "blend",
+              "prompt": "umbrella",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 umbrella 拆成发音块",
+              "answer": [
+                "umbre",
+                "ll",
+                "a"
+              ],
+              "phonics": [
+                {
+                  "text": "umbre",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ll",
+                  "sound": "/l/",
+                  "meaning": ""
+                },
+                {
+                  "text": "a",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "umbrella",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-3-ls",
+              "sequenceNumber": 311,
+              "mode": "listen-and-spell",
+              "prompt": "umbrella",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "umbrella 包含 双辅音 ll。",
+              "hint": "听完后，输入 umbrella",
+              "answer": [
+                "umbre",
+                "ll",
+                "a"
+              ],
+              "phonics": [
+                {
+                  "text": "umbre",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ll",
+                  "sound": "/l/",
+                  "meaning": ""
+                },
+                {
+                  "text": "a",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "umbrella",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-4-sc",
+              "sequenceNumber": 312,
+              "mode": "sound-choice",
+              "prompt": "yellowstone",
+              "promptChinese": "听 yellowstone 里的发音",
+              "instruction": "听 yellowstone，选择对应的字母组合",
+              "explanation": "在 yellowstone 里，双辅音 ll 发 /l/。",
+              "hint": "想想 yellowstone 里的 双辅音 ll。",
+              "answer": [
+                "ll"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "yellowstone",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-4-bl",
+              "sequenceNumber": 313,
+              "mode": "blend",
+              "prompt": "yellowstone",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 yellowstone 拆成发音块",
+              "answer": [
+                "ye",
+                "ll",
+                "owstone"
+              ],
+              "phonics": [
+                {
+                  "text": "ye",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ll",
+                  "sound": "/l/",
+                  "meaning": ""
+                },
+                {
+                  "text": "owstone",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "yellowstone",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ll-4-ls",
+              "sequenceNumber": 314,
+              "mode": "listen-and-spell",
+              "prompt": "yellowstone",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "yellowstone 包含 双辅音 ll。",
+              "hint": "听完后，输入 yellowstone",
+              "answer": [
+                "ye",
+                "ll",
+                "owstone"
+              ],
+              "phonics": [
+                {
+                  "text": "ye",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ll",
+                  "sound": "/l/",
+                  "meaning": ""
+                },
+                {
+                  "text": "owstone",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "yellowstone",
+              "lessonId": "lesson-double-ll",
+              "ruleTag": "double-ll"
+            }
+          ]
+        },
+        {
+          "id": "lesson-double-ss",
+          "title": "Lesson 2 · 双辅音 ss",
+          "description": "学习 双辅音 ss 的发音规律。",
+          "ruleText": "双辅音 ss 发 /s/，如 class、lesson。",
+          "ruleSound": "/s/",
+          "graphemes": [
+            "ss"
+          ],
+          "examples": [
+            "lesson",
+            "message",
+            "messy"
+          ],
+          "decodableSentences": [],
+          "trickyWords": [],
+          "items": [
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-1-sc",
+              "sequenceNumber": 603,
+              "mode": "sound-choice",
+              "prompt": "lesson",
+              "promptChinese": "听 lesson 里的发音",
+              "instruction": "听 lesson，选择对应的字母组合",
+              "explanation": "在 lesson 里，双辅音 ss 发 /s/。",
+              "hint": "想想 lesson 里的 双辅音 ss。",
+              "answer": [
+                "ss"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "lesson",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-1-bl",
+              "sequenceNumber": 604,
+              "mode": "blend",
+              "prompt": "lesson",
+              "promptChinese": "课",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 lesson 拆成发音块",
+              "answer": [
+                "le",
+                "ss",
+                "on"
+              ],
+              "phonics": [
+                {
+                  "text": "le",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ss",
+                  "sound": "/s/",
+                  "meaning": ""
+                },
+                {
+                  "text": "on",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "lesson",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-1-ls",
+              "sequenceNumber": 605,
+              "mode": "listen-and-spell",
+              "prompt": "lesson",
+              "promptChinese": "课",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "lesson 包含 双辅音 ss。",
+              "hint": "听完后，输入 lesson",
+              "answer": [
+                "le",
+                "ss",
+                "on"
+              ],
+              "phonics": [
+                {
+                  "text": "le",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ss",
+                  "sound": "/s/",
+                  "meaning": ""
+                },
+                {
+                  "text": "on",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "lesson",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-2-sc",
+              "sequenceNumber": 606,
+              "mode": "sound-choice",
+              "prompt": "message",
+              "promptChinese": "听 message 里的发音",
+              "instruction": "听 message，选择对应的字母组合",
+              "explanation": "在 message 里，双辅音 ss 发 /s/。",
+              "hint": "想想 message 里的 双辅音 ss。",
+              "answer": [
+                "ss"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "message",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-2-bl",
+              "sequenceNumber": 607,
+              "mode": "blend",
+              "prompt": "message",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 message 拆成发音块",
+              "answer": [
+                "me",
+                "ss",
+                "age"
+              ],
+              "phonics": [
+                {
+                  "text": "me",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ss",
+                  "sound": "/s/",
+                  "meaning": ""
+                },
+                {
+                  "text": "age",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "message",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-2-ls",
+              "sequenceNumber": 608,
+              "mode": "listen-and-spell",
+              "prompt": "message",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "message 包含 双辅音 ss。",
+              "hint": "听完后，输入 message",
+              "answer": [
+                "me",
+                "ss",
+                "age"
+              ],
+              "phonics": [
+                {
+                  "text": "me",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ss",
+                  "sound": "/s/",
+                  "meaning": ""
+                },
+                {
+                  "text": "age",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "message",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-3-sc",
+              "sequenceNumber": 609,
+              "mode": "sound-choice",
+              "prompt": "messy",
+              "promptChinese": "听 messy 里的发音",
+              "instruction": "听 messy，选择对应的字母组合",
+              "explanation": "在 messy 里，双辅音 ss 发 /s/。",
+              "hint": "想想 messy 里的 双辅音 ss。",
+              "answer": [
+                "ss"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "messy",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-3-bl",
+              "sequenceNumber": 610,
+              "mode": "blend",
+              "prompt": "messy",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 messy 拆成发音块",
+              "answer": [
+                "me",
+                "ss",
+                "y"
+              ],
+              "phonics": [
+                {
+                  "text": "me",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ss",
+                  "sound": "/s/",
+                  "meaning": ""
+                },
+                {
+                  "text": "y",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "messy",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ss-3-ls",
+              "sequenceNumber": 611,
+              "mode": "listen-and-spell",
+              "prompt": "messy",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "messy 包含 双辅音 ss。",
+              "hint": "听完后，输入 messy",
+              "answer": [
+                "me",
+                "ss",
+                "y"
+              ],
+              "phonics": [
+                {
+                  "text": "me",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ss",
+                  "sound": "/s/",
+                  "meaning": ""
+                },
+                {
+                  "text": "y",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "messy",
+              "lessonId": "lesson-double-ss",
+              "ruleTag": "double-ss"
+            }
+          ]
+        },
+        {
+          "id": "lesson-double-ff",
+          "title": "Lesson 3 · 双辅音 ff",
+          "description": "学习 双辅音 ff 的发音规律。",
+          "ruleText": "双辅音 ff 发 /f/，如 off。",
+          "ruleSound": "/f/",
+          "graphemes": [
+            "ff"
+          ],
+          "examples": [
+            "difficult",
+            "traffic"
+          ],
+          "decodableSentences": [],
+          "trickyWords": [],
+          "items": [
+            {
+              "id": "stage-stage-8-double_consonants-double-ff-1-sc",
+              "sequenceNumber": 903,
+              "mode": "sound-choice",
+              "prompt": "difficult",
+              "promptChinese": "听 difficult 里的发音",
+              "instruction": "听 difficult，选择对应的字母组合",
+              "explanation": "在 difficult 里，双辅音 ff 发 /f/。",
+              "hint": "想想 difficult 里的 双辅音 ff。",
+              "answer": [
+                "ff"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "difficult",
+              "lessonId": "lesson-double-ff",
+              "ruleTag": "double-ff"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ff-1-bl",
+              "sequenceNumber": 904,
+              "mode": "blend",
+              "prompt": "difficult",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 difficult 拆成发音块",
+              "answer": [
+                "di",
+                "ff",
+                "icult"
+              ],
+              "phonics": [
+                {
+                  "text": "di",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ff",
+                  "sound": "/f/",
+                  "meaning": ""
+                },
+                {
+                  "text": "icult",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "difficult",
+              "lessonId": "lesson-double-ff",
+              "ruleTag": "double-ff"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ff-1-ls",
+              "sequenceNumber": 905,
+              "mode": "listen-and-spell",
+              "prompt": "difficult",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "difficult 包含 双辅音 ff。",
+              "hint": "听完后，输入 difficult",
+              "answer": [
+                "di",
+                "ff",
+                "icult"
+              ],
+              "phonics": [
+                {
+                  "text": "di",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ff",
+                  "sound": "/f/",
+                  "meaning": ""
+                },
+                {
+                  "text": "icult",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "difficult",
+              "lessonId": "lesson-double-ff",
+              "ruleTag": "double-ff"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ff-2-sc",
+              "sequenceNumber": 906,
+              "mode": "sound-choice",
+              "prompt": "traffic",
+              "promptChinese": "听 traffic 里的发音",
+              "instruction": "听 traffic，选择对应的字母组合",
+              "explanation": "在 traffic 里，双辅音 ff 发 /f/。",
+              "hint": "想想 traffic 里的 双辅音 ff。",
+              "answer": [
+                "ff"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "traffic",
+              "lessonId": "lesson-double-ff",
+              "ruleTag": "double-ff"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ff-2-bl",
+              "sequenceNumber": 907,
+              "mode": "blend",
+              "prompt": "traffic",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 traffic 拆成发音块",
+              "answer": [
+                "tra",
+                "ff",
+                "ic"
+              ],
+              "phonics": [
+                {
+                  "text": "tra",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ff",
+                  "sound": "/f/",
+                  "meaning": ""
+                },
+                {
+                  "text": "ic",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "traffic",
+              "lessonId": "lesson-double-ff",
+              "ruleTag": "double-ff"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-ff-2-ls",
+              "sequenceNumber": 908,
+              "mode": "listen-and-spell",
+              "prompt": "traffic",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "traffic 包含 双辅音 ff。",
+              "hint": "听完后，输入 traffic",
+              "answer": [
+                "tra",
+                "ff",
+                "ic"
+              ],
+              "phonics": [
+                {
+                  "text": "tra",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "ff",
+                  "sound": "/f/",
+                  "meaning": ""
+                },
+                {
+                  "text": "ic",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "traffic",
+              "lessonId": "lesson-double-ff",
+              "ruleTag": "double-ff"
+            }
+          ]
+        },
+        {
+          "id": "lesson-double-tt",
+          "title": "Lesson 4 · 双辅音 tt",
+          "description": "学习 双辅音 tt 的发音规律。",
+          "ruleText": "双辅音 tt 发 /t/，如 letter、little。",
+          "ruleSound": "/t/",
+          "graphemes": [
+            "tt"
+          ],
+          "examples": [
+            "bottle",
+            "little"
+          ],
+          "decodableSentences": [],
+          "trickyWords": [],
+          "items": [
+            {
+              "id": "stage-stage-8-double_consonants-double-tt-1-sc",
+              "sequenceNumber": 1203,
+              "mode": "sound-choice",
+              "prompt": "bottle",
+              "promptChinese": "听 bottle 里的发音",
+              "instruction": "听 bottle，选择对应的字母组合",
+              "explanation": "在 bottle 里，双辅音 tt 发 /t/。",
+              "hint": "想想 bottle 里的 双辅音 tt。",
+              "answer": [
+                "tt"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "bottle",
+              "lessonId": "lesson-double-tt",
+              "ruleTag": "double-tt"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-tt-1-bl",
+              "sequenceNumber": 1204,
+              "mode": "blend",
+              "prompt": "bottle",
+              "promptChinese": "",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 bottle 拆成发音块",
+              "answer": [
+                "bo",
+                "tt",
+                "le"
+              ],
+              "phonics": [
+                {
+                  "text": "bo",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "tt",
+                  "sound": "/t/",
+                  "meaning": ""
+                },
+                {
+                  "text": "le",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "bottle",
+              "lessonId": "lesson-double-tt",
+              "ruleTag": "double-tt"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-tt-1-ls",
+              "sequenceNumber": 1205,
+              "mode": "listen-and-spell",
+              "prompt": "bottle",
+              "promptChinese": "",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "bottle 包含 双辅音 tt。",
+              "hint": "听完后，输入 bottle",
+              "answer": [
+                "bo",
+                "tt",
+                "le"
+              ],
+              "phonics": [
+                {
+                  "text": "bo",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "tt",
+                  "sound": "/t/",
+                  "meaning": ""
+                },
+                {
+                  "text": "le",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "bottle",
+              "lessonId": "lesson-double-tt",
+              "ruleTag": "double-tt"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-tt-2-sc",
+              "sequenceNumber": 1206,
+              "mode": "sound-choice",
+              "prompt": "little",
+              "promptChinese": "听 little 里的发音",
+              "instruction": "听 little，选择对应的字母组合",
+              "explanation": "在 little 里，双辅音 tt 发 /t/。",
+              "hint": "想想 little 里的 双辅音 tt。",
+              "answer": [
+                "tt"
+              ],
+              "options": [
+                "ll",
+                "ss",
+                "ff",
+                "tt"
+              ],
+              "phonics": [],
+              "audioText": "little",
+              "lessonId": "lesson-double-tt",
+              "ruleTag": "double-tt"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-tt-2-bl",
+              "sequenceNumber": 1207,
+              "mode": "blend",
+              "prompt": "little",
+              "promptChinese": "小的",
+              "instruction": "看单词，拆成发音块",
+              "hint": "把 little 拆成发音块",
+              "answer": [
+                "li",
+                "tt",
+                "le"
+              ],
+              "phonics": [
+                {
+                  "text": "li",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "tt",
+                  "sound": "/t/",
+                  "meaning": ""
+                },
+                {
+                  "text": "le",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "little",
+              "lessonId": "lesson-double-tt",
+              "ruleTag": "double-tt"
+            },
+            {
+              "id": "stage-stage-8-double_consonants-double-tt-2-ls",
+              "sequenceNumber": 1208,
+              "mode": "listen-and-spell",
+              "prompt": "little",
+              "promptChinese": "小的",
+              "instruction": "听一听，再输入发音块",
+              "explanation": "little 包含 双辅音 tt。",
+              "hint": "听完后，输入 little",
+              "answer": [
+                "li",
+                "tt",
+                "le"
+              ],
+              "phonics": [
+                {
+                  "text": "li",
+                  "sound": "",
+                  "meaning": ""
+                },
+                {
+                  "text": "tt",
+                  "sound": "/t/",
+                  "meaning": ""
+                },
+                {
+                  "text": "le",
+                  "sound": "",
+                  "meaning": ""
+                }
+              ],
+              "audioText": "little",
+              "lessonId": "lesson-double-tt",
+              "ruleTag": "double-tt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

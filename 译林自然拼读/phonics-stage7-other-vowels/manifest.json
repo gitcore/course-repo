@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0",
+  "id": "phonics-stage7-other-vowels",
+  "name": "自然拼读 第七阶段 - 其他元音组合",
+  "description": "学习 aw、all、ew、ie、y作为元音等特殊元音组合的发音规律。",
+  "courseType": "phonics",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "language": "en",
+  "targetAge": "primary-grade-1-6",
+  "stage": "stage-7",
+  "tags": [
+    "自然拼读",
+    "特殊元音",
+    "aw",
+    "all",
+    "y"
+  ],
+  "source": {
+    "type": "phonics-markdown",
+    "path": "textbook.md",
+    "vocabulary": "../../yilin-primary-vocabulary.json"
+  },
+  "supportedActivities": [
+    {
+      "type": "phonics-practice",
+      "name": "自然拼读",
+      "data": "content/phonics-practice.json",
+      "enabled": true
+    }
+  ],
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-1",
+    "generatedAt": "2026-04-19T09:51:33.436520"
+  }
+}

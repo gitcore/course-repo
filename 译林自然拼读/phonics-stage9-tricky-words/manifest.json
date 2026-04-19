@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "id": "phonics-stage9-tricky-words",
+  "name": "自然拼读 第九阶段 - 不规则词 (Sight Words)",
+  "description": "学习不符合常规拼读规则的高频词，需要整体记忆。",
+  "courseType": "phonics",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "language": "en",
+  "targetAge": "primary-grade-1-6",
+  "stage": "stage-9",
+  "tags": [
+    "自然拼读",
+    "Sight Words",
+    "不规则词"
+  ],
+  "source": {
+    "type": "phonics-markdown",
+    "path": "textbook.md",
+    "vocabulary": "../../yilin-primary-vocabulary.json"
+  },
+  "supportedActivities": [
+    {
+      "type": "phonics-practice",
+      "name": "自然拼读",
+      "data": "content/phonics-practice.json",
+      "enabled": true
+    }
+  ],
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-1",
+    "generatedAt": "2026-04-19T09:51:33.444272"
+  }
+}

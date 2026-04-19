@@ -1,19 +1,25 @@
 {
   "schemaVersion": "1.0",
-  "id": "phonics-stage1-short-vowels",
-  "name": "自然拼读 第一阶段 - 短元音",
-  "description": "学习 a、e、i、o、u 5 个短元音，在 CVC 单词里建立最基础的拼读能力。",
+  "id": "phonics-stage8-double-consonants",
+  "name": "自然拼读 第八阶段 - 双辅音",
+  "description": "学习 ll、ss、ff、tt 等双辅音的拼写规律。",
   "courseType": "phonics",
   "publisher": {
     "name": "Learn with daddy's love"
   },
   "language": "en",
-  "targetAge": "primary-grade-1-5",
-  "stage": "stage-1",
-  "tags": ["自然拼读", "短元音", "CVC"],
+  "targetAge": "primary-grade-1-6",
+  "stage": "stage-8",
+  "tags": [
+    "自然拼读",
+    "双辅音",
+    "ll",
+    "ss"
+  ],
   "source": {
     "type": "phonics-markdown",
-    "path": "textbook.md"
+    "path": "textbook.md",
+    "vocabulary": "../../yilin-primary-vocabulary.json"
   },
   "supportedActivities": [
     {
@@ -26,6 +32,6 @@
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-1",
-    "generatedAt": ""
+    "generatedAt": "2026-04-19T09:51:33.440936"
   }
 }

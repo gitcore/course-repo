@@ -4,6 +4,8 @@
 
 核心方向：**课文是源数据，课程是生成结果**。以后优先维护课文原文，再由规则或工具生成拆句练习、对话练习、翻译、提示、词块和单词信息。
 
+核心方法：**递进链原则**——将每个句子拆成一条从小片段逐步扩展到完整句的递进链，辅助学生高效背课文。
+
 ## 0. 最高优先级
 
 执行任何课程内容修改前，先确认这 4 条：
@@ -117,9 +119,13 @@ Nice to meet you.
 
 - 先看句子本身怎么拆，不是先看 wordlist。
 - 拆句的目标是形成一条"从片段到整句"的背诵链，不是把句子切成一堆重叠小题。
-- **单词必须紧贴在包含它的短语之前**。如果 wordlist 单词需要单独出题，它必须插在包含该单词的短语**正前方**，而不是放在整个句子的最前面。例如 `prince` 属于短语 `the prince's house`，所以 `prince` 紧贴在 `the prince's house` 前面。
+- **递进链原则（最高优先级）**：片段链中，每个片段必须**紧跟在包含它的最小更大片段之前**。这不是只针对单词的规则，而是适用于所有片段的根本原则。
+  - 例如 `very much` 被包含在 `I like it very much,` 中，所以 `very much` 必须紧跟在 `I like it very much,` 之前。
+  - 例如 `far from` 被包含在 `but it's far from` 中，所以 `far from` 必须紧跟在 `but it's far from` 之前。
+  - 例如 `school` 被包含在 `but it's far from school.` 中，所以 `school` 必须紧跟在 `but it's far from school.` 之前。
+  - "单词紧贴在包含它的短语之前"只是递进链原则的一个特例。
 - 短语优先于单词，例如优先 `a party`、`the prince's house`，而不是先拆 `party`、`prince`。
-- 但 wordlist 单词如果需要单独出题，必须放在该单词所在短语**之前**。
+- 但 wordlist 单词如果需要单独出题，必须放在该单词所在短语**之前**（这是递进链原则的自然结果）。
 - 功能词按类型区别对待（详见 §8）：
   - **介词**（`at`、`to`、`from`、`in`、`on`、`before` 等）：当它连接两个不同语义块时应**单独成片段**，保证背诵链的小步推进。
   - **纯连接词**（`and`、`but`、`or`、`so`）：默认不单独拆，除非它是该句语法结构的关键转折/连接点。
@@ -131,7 +137,7 @@ Nice to meet you.
 - 处理完当前句子后，才能开始下一句。
 - 不要把下一句的短语提前放到当前句子前面。
 
-示例：
+示例 1：
 
 ```text
 There is a party at the prince's house.
@@ -151,8 +157,33 @@ prince | There is | a party | at | the prince's house | There is a party at the 
 
 原因：
 
-- `prince` 是 wordlist 单词，属于短语 `the prince's house`，必须紧贴在 `the prince's house` **正前方**。
+- `prince` 是 wordlist 单词，属于短语 `the prince's house`，必须紧贴在 `the prince's house` **正前方**（递进链原则）。
 - 不能把单词提到整个句子的最前面，打断自然语序。
+
+示例 2：
+
+```text
+I like it very much, but it's far from school.
+```
+
+正确拆法：
+
+```text
+very much | I like it very much, | far from | but it's far from | school | but it's far from school. | I like it very much, but it's far from school.
+```
+
+错误拆法：
+
+```text
+very much | far from | school | I like it very much, | but it's far from | but it's far from school. | I like it very much, but it's far from school.
+```
+
+原因：
+
+- `very much` 被包含在 `I like it very much,` 中，所以 `very much` 必须紧跟 `I like it very much,`。
+- `far from` 被包含在 `but it's far from` 中，所以 `far from` 必须紧跟 `but it's far from`。
+- `school` 被包含在 `but it's far from school.` 中，所以 `school` 必须紧跟 `but it's far from school.`。
+- 错误拆法把所有小片段堆在前面，违反了递进链原则。
 
 ## 6. 编号规则
 
@@ -184,7 +215,7 @@ prince | There is | a party | at | the prince's house | There is a party at the 
 2. **先按句子自然结构拆解**，形成连续的片段链（短语、介词等），不参考 wordlist。
 3. **再参考 wordlist**，检查句子中哪些单词出现在词表中。
 4. **调整拆分内容**：如果 wordlist 词未被任何片段单独覆盖且是核心学习点，补一道单独单词题。
-5. **调整顺序**：如果补了单词题，将其**紧贴在包含该单词的短语正前方**，保持自然语序不变。
+5. **调整顺序**：如果补了单词题，将其**紧贴在包含该单词的短语正前方**（递进链原则），保持自然语序不变。
 6. 命中 wordlist 的单词，要优先补齐音标、词性、意思和提示。
 7. 如果 wordlist 词已自然包含在片段链中，不强制单独出题。
 8. 句子中没有出现的 wordlist 词，不要强行塞进当前对话拆解。
@@ -413,7 +444,7 @@ prince | There is | a party | at | the prince's house | There is a party at the 
 - 整句翻译是否没有退化成单个单词翻译。
 - wordlist 中出现在句子里的重点单词是否已覆盖（单独题或包含在片段中均可）。
 - 拆句顺序是否是"当前句单词题 -> 短语题 -> 当前完整句 -> 下一句 ..."。
-- **单词是否紧贴在包含它的短语正前方**（不能把单词提到整个句子的最前面）。
+- **递进链原则**：每个片段是否紧跟在包含它的最小更大片段之前（不能把所有小片段堆在前面）。
 - 完整句词块是否存在且英文片段来自原文。
 - 单词信息是否包含音标、词性、意思。
 - 完整句拆解题是否列出了该句**每一个单词**的详细信息（不允许跳过功能词）。
@@ -444,10 +475,10 @@ I like it very much, but it's far from school.
 
 ```md
 #### 4.1. very much
-#### 4.2. far from
-#### 4.3. school
-#### 4.4. I like it very much,
-#### 4.5. but it's far from
+#### 4.2. I like it very much,
+#### 4.3. far from
+#### 4.4. but it's far from
+#### 4.5. school
 #### 4.6. but it's far from school.
 #### 4.7. I like it very much, but it's far from school.
 ```
@@ -455,6 +486,11 @@ I like it very much, but it's far from school.
 说明：
 
 - `school` 虽然已包含在完整句片段中，但它是本单元 wordlist 核心词且是句末地点词，单独抽出有助于强化记忆。
+- 每个片段都紧跟在包含它的最小更大片段之前（递进链原则）：
+  - `very much` → `I like it very much,`
+  - `far from` → `but it's far from`
+  - `school` → `but it's far from school.`
+  - `but it's far from school.` → 完整句
 
 ## 16. 一句话执行口令
 
@@ -463,7 +499,7 @@ I like it very much, but it's far from school.
 1. 保护 `## 对话列表` 原文不变。
 2. 读取当前单元 wordlist（优先 `wordlist.md`）。
 3. 按对话编号逐条拆句。
-4. 每句先按自然结构拆解片段链（不参考 wordlist），再参考 wordlist 调整拆分内容和补单词题，最后将单词题**紧贴在包含它的短语正前方**。
+4. 每句先按自然结构拆解片段链（不参考 wordlist），再参考 wordlist 调整拆分内容和补单词题，最后按**递进链原则**调整顺序（每个片段紧跟在包含它的最小更大片段之前）。
 5. 为完整句补中文、语法、提示、词块。
 6. 为词和短语补音标、词性、意思。
 7. 生成后检查：课文原文不变、编号正确、翻译未退化、wordlist 词已覆盖、词块存在。
