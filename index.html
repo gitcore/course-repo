@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>混动架构对比 — 增程式 vs 长城Hi4</title>
+    <style>
+        :root {
+            --bg: #f4f6f9;
+            --bg-card: #ffffff;
+            --border: rgba(0, 0, 0, 0.07);
+            --border-accent: rgba(0, 0, 0, 0.12);
+            --text: #1a2332;
+            --text-muted: rgba(60, 80, 100, 0.55);
+            --text-dim: rgba(60, 80, 100, 0.3);
+            --c-amber: #e68a00;
+            --c-blue: #0077cc;
+            --c-green: #00875a;
+            --c-purple: #7c4dff;
+            --c-red: #d32f2f;
+            --accent-re: #e68a00;
+            --accent-hi4: #0077cc;
+            --radius: 6px;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html, body {
+            height: 100%; overflow: hidden;
+            background: var(--bg);
+            color: var(--text);
+            font-family: "SF Mono", "Fira Code", "Cascadia Code", "Consolas", "PingFang SC", monospace;
+            -webkit-font-smoothing: antialiased;
+        }
+        .shell { display: flex; flex-direction: column; height: 100vh; width: 100vw; }
+        .topbar {
+            display: flex; align-items: center; gap: 12px;
+            padding: 8px 20px; background: #fff;
+            border-bottom: 1px solid var(--border); flex-shrink: 0; position: relative;
+        }
+        .topbar::after {
+            content: ""; position: absolute; bottom: -1px; left: 0; right: 0; height: 2px;
+            background: linear-gradient(90deg, var(--c-amber), var(--c-blue)); opacity: 0.5;
+        }
+        .topbar-left { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+        .logo {
+            width: 26px; height: 26px; border-radius: 4px;
+            background: linear-gradient(135deg, var(--c-amber), var(--c-blue));
+            display: flex; align-items: center; justify-content: center;
+            font-size: 11px; color: #fff;
+        }
+        .topbar h1 { font-size: 0.82rem; font-weight: 700; white-space: nowrap; letter-spacing: 0.03em; color: var(--text); }
+        .topbar h1 .hl-re { color: var(--c-amber); }
+        .topbar h1 .hl-vs { color: var(--text-dim); margin: 0 4px; }
+        .topbar h1 .hl-hi4 { color: var(--c-blue); }
+        .tabs { display: flex; gap: 2px; margin-left: 16px; }
+        .tab {
+            padding: 4px 14px; border-radius: 4px; border: 1px solid transparent;
+            background: transparent; color: var(--text-muted);
+            font: inherit; font-size: 0.68rem; font-weight: 600;
+            cursor: pointer; transition: all 0.15s; white-space: nowrap;
+        }
+        .tab:hover { color: var(--text); background: rgba(0,0,0,0.03); }
+        .tab.active { color: var(--c-blue); border-color: var(--c-blue); background: rgba(0,119,204,0.06); }
+        .topbar-right { margin-left: auto; display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+        .btn {
+            padding: 4px 12px; border-radius: 4px; border: 1px solid var(--border-accent);
+            background: #fff; color: var(--text-muted);
+            font: inherit; font-size: 0.65rem; font-weight: 600;
+            cursor: pointer; transition: all 0.15s; white-space: nowrap;
+        }
+        .btn:hover { border-color: var(--c-blue); color: var(--c-blue); }
+        .btn-primary { border-color: var(--c-blue); color: #fff; background: var(--c-blue); }
+        .btn-primary:hover { opacity: 0.85; }
+        .data-strip {
+            display: flex; align-items: center; gap: 6px;
+            padding: 5px 20px; background: #fff;
+            border-bottom: 1px solid var(--border); flex-shrink: 0; font-size: 0.62rem;
+        }
+        .ds-label { color: var(--text-dim); font-weight: 600; }
+        .ds-cell { padding: 2px 10px; border-radius: 4px; background: rgba(0,0,0,0.02); border: 1px solid var(--border); }
+        .ds-cell .k { color: var(--text-dim); }
+        .ds-cell .v-re { color: var(--c-amber); font-weight: 700; }
+        .ds-cell .v-hi4 { color: var(--c-blue); font-weight: 700; }
+        .ds-cell .v-diff { font-weight: 700; }
+        .ds-cell .v-win { color: var(--c-green); }
+        .ds-cell .v-lose { color: var(--c-red); }
+        .ds-sep { color: var(--text-dim); margin: 0 2px; }
+        .load-table {
+            position: absolute; top: 48px; left: 8px; z-index: 10;
+            background: rgba(255,255,255,0.95); border-radius: 4px;
+            border: 1px solid rgba(0,0,0,0.08); box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-size: 0.58rem; overflow: hidden; min-width: 200px;
+        }
+        .load-table table { width: 100%; border-collapse: collapse; }
+        .load-table th { background: rgba(0,0,0,0.04); padding: 4px 6px; font-weight: 600; text-align: center; color: var(--text-muted); font-size: 0.55rem; }
+        .load-table td { padding: 3px 6px; text-align: center; border-top: 1px solid rgba(0,0,0,0.04); }
+        .load-table .lt-title { padding: 5px 8px; font-weight: 700; font-size: 0.6rem; border-bottom: 1px solid rgba(0,0,0,0.08); }
+        .load-table .lt-title.re { background: rgba(230,138,0,0.08); color: var(--c-amber); }
+        .load-table .lt-title.hi4 { background: rgba(0,119,204,0.08); color: var(--c-blue); }
+        .load-table .win { color: var(--c-green); font-weight: 700; }
+        .load-table .lose { color: var(--c-red); }
+        .load-table .hl { background: rgba(0,135,90,0.06); }
+        .main {
+            flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+            padding: 10px 20px 12px; min-height: 0;
+        }
+        .panel {
+            border-radius: var(--radius); background: var(--bg-card);
+            border: 1px solid var(--border); overflow: hidden;
+            display: flex; flex-direction: column; min-height: 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04); position: relative;
+        }
+        .panel::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; z-index: 2; }
+        .panel.re-panel::before { background: linear-gradient(90deg, var(--c-amber), transparent); }
+        .panel.hi4-panel::before { background: linear-gradient(90deg, var(--c-blue), transparent); }
+        .panel-head {
+            display: flex; align-items: center; gap: 8px;
+            padding: 7px 14px; border-bottom: 1px solid var(--border);
+            flex-shrink: 0; background: rgba(0,0,0,0.01);
+        }
+        .badge { padding: 2px 8px; border-radius: 3px; font-size: 0.58rem; font-weight: 700; letter-spacing: 0.06em; }
+        .badge-re { color: #fff; background: var(--c-amber); }
+        .badge-hi4 { color: #fff; background: var(--c-blue); }
+        .panel-name { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.02em; }
+        .panel-sub { font-size: 0.56rem; color: var(--text-dim); letter-spacing: 0.01em; }
+        .panel-eff { margin-left: auto; display: flex; align-items: center; gap: 6px; }
+        .eff-bar { width: 50px; height: 5px; border-radius: 3px; background: rgba(0,0,0,0.06); overflow: hidden; }
+        .eff-fill { height: 100%; border-radius: 3px; transition: width 0.6s ease; }
+        .eff-fill.re { background: var(--c-amber); }
+        .eff-fill.hi4 { background: var(--c-blue); }
+        .eff-pct { font-size: 0.75rem; font-weight: 800; min-width: 32px; text-align: right; }
+        .eff-pct.re-c { color: var(--c-amber); }
+        .eff-pct.hi4-c { color: var(--c-blue); }
+        .canvas-wrap { flex: 1; position: relative; min-height: 0; }
+        .canvas-wrap canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+        .panel-foot {
+            padding: 5px 14px; border-top: 1px solid var(--border);
+            font-size: 0.6rem; color: var(--text-muted); line-height: 1.5;
+            flex-shrink: 0; max-height: 36px; overflow: hidden; background: rgba(0,0,0,0.01);
+        }
+        @media (max-width: 900px) { .main { grid-template-columns: 1fr; } .data-strip { flex-wrap: wrap; } }
+    </style>
+</head>
+<body>
+<div class="shell">
+    <div class="topbar">
+        <div class="topbar-left">
+            <div class="logo">⚡</div>
+            <h1>HYBRID ARCH <span class="hl-re">增程式</span><span class="hl-vs">//</span><span class="hl-hi4">长城Hi4</span></h1>
+        </div>
+        <div class="tabs" id="tabs"></div>
+        <div class="topbar-right">
+            <button class="btn btn-primary" id="btn-play" type="button">⏸ PAUSE</button>
+            <button class="btn" id="btn-replay" type="button">↻ RESET</button>
+        </div>
+    </div>
+    <div class="data-strip" id="data-strip"></div>
+    <div class="main">
+        <section class="panel re-panel">
+            <div class="load-table" id="tbl-re"></div>
+            <div class="panel-head">
+                <span class="badge badge-re">EREV</span>
+                <div>
+                    <div class="panel-name">串联混动 · 增程式</div>
+                    <div class="panel-sub">1.5L发动机只发电 → 电机驱动车轮 · 不需要大排量</div>
+                </div>
+                <div class="panel-eff">
+                    <div class="eff-bar"><div class="eff-fill re" id="re-bar" style="width:0%"></div></div>
+                    <span class="eff-pct re-c" id="re-pct">—</span>
+                </div>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-re"></canvas></div>
+            <div class="panel-foot" id="re-foot">AWAITING INPUT...</div>
+        </section>
+        <section class="panel hi4-panel">
+            <div class="panel-head">
+                <span class="badge badge-hi4">HI4</span>
+                <div>
+                    <div class="panel-name">串并联混动 · P2+P4</div>
+                    <div class="panel-sub">2.0L发动机可直驱车轮 + P2/P4电机 · 需要大排量</div>
+                </div>
+                <div class="panel-eff">
+                    <div class="eff-bar"><div class="eff-fill hi4" id="hi4-bar" style="width:0%"></div></div>
+                    <span class="eff-pct hi4-c" id="hi4-pct">—</span>
+                </div>
+            </div>
+            <div class="canvas-wrap"><canvas id="c-hi4"></canvas></div>
+            <div class="panel-foot" id="hi4-foot">AWAITING INPUT...</div>
+        </section>
+    </div>
+</div>
+
+<script>
+(() => {
+    /* ═══════════════════════════════════════
+       工况数据
+       Hi4核心优势:
+       1. 直驱路径 η≈95%，增程全串联 η≈74%
+       2. P2直驱巡航时空载随转，损耗仅~2kW
+       3. 急加速时P2可发电直供P4，绕过电池充放电损耗
+       4. 大功率时发动机直驱+P4并联，功率叠加效率高
+       ═══════════════════════════════════════ */
+    const scenes = [
+        {
+            icon: "◈", title: "高速巡航", demand: 60,
+            re: { engineOut:70, engineToGen:70, genToMotor:60, genToBatt:10, battToMotor:0, motorToWheel:60, battMode:"charging", efficiency:74,
+                desc:"1.5L发动机70kW→发电→60kW驱动+10kW充电 | 全部功率经 机械→电→机械 双重转换，η仅74%" },
+            hi4: { engineOut:62, engineDirect:60, p2Mode:"idle", p2Gen:0, p2ToBatt:0, p2ToP4:0, battToP4:0, rearMotor:0, efficiency:93,
+                desc:"2.0L发动机62kW→60kW直接机械传动到前轮 η≈95% | P2空载随转损耗仅2kW | 直驱碾压增程" },
+            hi4Adv: "直驱效率碾压",
+            duration: 5
+        },
+        {
+            icon: "◈", title: "城市中低速", demand: 25,
+            re: { engineOut:30, engineToGen:30, genToMotor:25, genToBatt:5, battToMotor:0, motorToWheel:25, battMode:"charging", efficiency:76,
+                desc:"1.5L发动机30kW最优区间发电→25kW驱动+5kW充电 | 小排量刚好够用" },
+            hi4: { engineOut:0, engineDirect:0, p2Mode:"off", p2Gen:0, p2ToBatt:0, p2ToP4:0, battToP4:25, rearMotor:25, efficiency:92,
+                desc:"纯电驱动 η≈92% | 电池25kW→P4后电机驱动后轮 | 发动机不启动，零油耗" },
+            hi4Adv: "纯电零油耗",
+            duration: 5
+        },
+        {
+            icon: "◈", title: "急加速", demand: 150,
+            re: { engineOut:95, engineToGen:95, genToMotor:85, genToBatt:0, battToMotor:65, motorToWheel:150, battMode:"discharging", efficiency:72,
+                desc:"1.5L满载95kW发电+电池65kW=150kW→电机 | 增程不靠发动机驱动车轮，1.5L够发电了" },
+            hi4: { engineOut:95, engineDirect:75, p2Mode:"gen", p2Gen:20, p2ToBatt:0, p2ToP4:18, battToP4:57, rearMotor:75, efficiency:87,
+                desc:"2.0L发动机95kW→75kW直驱前轮 + P2发电20kW→直供P4 18kW + 电池57kW→P4 = 150kW" },
+            hi4Adv: "多路径并联高效",
+            duration: 5.5
+        },
+        {
+            icon: "◈", title: "大功率爬坡", demand: 180,
+            re: { engineOut:95, engineToGen:95, genToMotor:85, genToBatt:0, battToMotor:95, motorToWheel:180, battMode:"discharging", efficiency:68,
+                desc:"1.5L满载95kW+电池95kW=180kW→电机 | 极限功率全靠电池补，发动机只管发电" },
+            hi4: { engineOut:95, engineDirect:80, p2Mode:"gen", p2Gen:15, p2ToBatt:0, p2ToP4:13, battToP4:87, rearMotor:100, efficiency:86,
+                desc:"2.0L发动机95kW→80kW直驱前轮 + P2发电15kW→直供P4 13kW + 电池87kW→P4 = 180kW" },
+            hi4Adv: "直驱+并联无瓶颈",
+            duration: 5.5
+        }
+    ];
+
+    let active = 0, elapsed = 0, playing = true, lastT = performance.now();
+
+    const $tabs = document.getElementById("tabs");
+    const $strip = document.getElementById("data-strip");
+    const $reBar = document.getElementById("re-bar"), $rePct = document.getElementById("re-pct"), $reFoot = document.getElementById("re-foot");
+    const $hi4Bar = document.getElementById("hi4-bar"), $hi4Pct = document.getElementById("hi4-pct"), $hi4Foot = document.getElementById("hi4-foot");
+    const $play = document.getElementById("btn-play"), $replay = document.getElementById("btn-replay");
+    const cRe = document.getElementById("c-re"), xRe = cRe.getContext("2d");
+    const cHi4 = document.getElementById("c-hi4"), xHi4 = cHi4.getContext("2d");
+
+    scenes.forEach((s, i) => {
+        const b = document.createElement("button");
+        b.className = "tab" + (i===0?" active":"");
+        b.innerHTML = `${s.icon} ${s.title}`;
+        b.onclick = () => { active = i; elapsed = 0; ui(); };
+        $tabs.appendChild(b);
+    });
+    $play.onclick = () => { playing = !playing; $play.textContent = playing ? "⏸ PAUSE" : "▶ PLAY"; };
+    $replay.onclick = () => { active = 0; elapsed = 0; playing = true; $play.textContent = "⏸ PAUSE"; ui(); };
+
+    function ui() {
+        const s = scenes[active];
+        $tabs.querySelectorAll(".tab").forEach((t,i) => t.classList.toggle("active", i===active));
+        $reBar.style.width = s.re.efficiency + "%";
+        $rePct.textContent = s.re.efficiency + "%";
+        $reFoot.textContent = s.re.desc;
+        $hi4Bar.style.width = s.hi4.efficiency + "%";
+        $hi4Pct.textContent = s.hi4.efficiency + "%";
+        $hi4Foot.textContent = s.hi4.desc;
+        const d = s.hi4.efficiency - s.re.efficiency;
+        const win = d > 0;
+        $strip.innerHTML = `
+            <span class="ds-label">◈ ${s.title}</span>
+            <span class="ds-cell"><span class="k">PWR </span><b>${s.demand}kW</b></span>
+            <span class="ds-sep">│</span>
+            <span class="ds-cell"><span class="k">EREV </span><span class="v-re">${s.re.efficiency}%</span></span>
+            <span class="ds-cell"><span class="k">HI4 </span><span class="v-hi4">${s.hi4.efficiency}%</span></span>
+            <span class="ds-cell"><span class="k">Δ </span><span class="v-diff ${win?'v-win':'v-lose'}">${d>0?"+":""}${d}%</span> <span class="k">${win?'Hi4胜':'增程胜'}</span></span>
+            <span class="ds-cell" style="border-color:rgba(0,135,90,0.2);background:rgba(0,135,90,0.05)"><span class="k">Hi4优势: </span><span class="v-win">${s.hi4Adv}</span></span>
+        `;
+        // 动态负荷率表格 — 根据当前工况实际计算
+        const curKW = s.re.engineOut;
+        const l15 = Math.round(curKW / 95 * 100);
+        const l20 = Math.round(curKW / 130 * 100);
+        const l15tag = l15 >= 60 && l15 <= 85 ? "高效区间" : l15 > 85 ? "满载" : "偏低";
+        const l20tag = l20 >= 60 && l20 <= 85 ? "高效区间" : l20 < 40 ? "过低" : "负荷不足";
+        document.getElementById("tbl-re").innerHTML = `<div class="lt-title re">📊 增程器负荷率</div><table><tr><th>输出</th><th>1.5L</th><th>2.0L</th><th>结论</th></tr><tr class="hl"><td>${curKW}kW</td><td class="win">${l15}%(${l15tag})</td><td class="lose">${l20}%(${l20tag})</td><td>1.5L更优</td></tr></table>`;
+    }
+
+    function resizeC(c, x) {
+        const dpr = Math.min(devicePixelRatio||1, 2);
+        c.width = Math.round(c.clientWidth * dpr);
+        c.height = Math.round(c.clientHeight * dpr);
+        x.setTransform(dpr,0,0,dpr,0,0);
+    }
+    function resizeAll() { resizeC(cRe, xRe); resizeC(cHi4, xHi4); }
+    addEventListener("resize", resizeAll); resizeAll();
+
+    const lerp = (a,b,t) => a+(b-a)*t;
+    const clamp = (v,lo,hi) => Math.max(lo,Math.min(hi,v));
+
+    function drawGrid(c, w, h) {
+        c.save();
+        c.strokeStyle = "rgba(0, 0, 0, 0.035)";
+        c.lineWidth = 0.5;
+        const gs = 24;
+        for (let x = 0; x < w; x += gs) { c.beginPath(); c.moveTo(x, 0); c.lineTo(x, h); c.stroke(); }
+        for (let y = 0; y < h; y += gs) { c.beginPath(); c.moveTo(0, y); c.lineTo(w, y); c.stroke(); }
+        c.restore();
+    }
+
+    function rRect(c,x,y,w,h,r) {
+        r=Math.min(r,w/2,h/2); c.beginPath();
+        c.moveTo(x+r,y); c.arcTo(x+w,y,x+w,y+h,r); c.arcTo(x+w,y+h,x,y+h,r);
+        c.arcTo(x,y+h,x,y,r); c.arcTo(x,y,x+w,y,r); c.closePath();
+    }
+
+    function hblock(c,x,y,w,h,title,sub,col) {
+        rRect(c,x,y,w,h,4); c.fillStyle="#fff"; c.fill();
+        c.strokeStyle=col; c.lineWidth=1.2; c.stroke();
+        c.fillStyle=col; c.fillRect(x+1, y+1, w-2, 2);
+        c.fillStyle=col; c.font='700 10px "SF Mono","Fira Code","Consolas","PingFang SC",monospace';
+        c.textAlign="left"; c.textBaseline="middle"; c.fillText(title,x+8,y+h/2-7);
+        c.fillStyle="rgba(60,80,100,0.4)"; c.font='500 8px "SF Mono","Fira Code","Consolas","PingFang SC",monospace';
+        c.fillText(sub,x+8,y+h/2+8);
+    }
+
+    function eflow(c,x1,y1,x2,y2,col,pw,mx,spd,t,lbl,a) {
+        if(pw<=0) return;
+        const dx=x2-x1,dy=y2-y1,d=Math.hypot(dx,dy)||1,ux=dx/d,uy=dy/d,nx=-uy,ny=ux;
+        const th=lerp(1.5,5,clamp(pw/mx,0,1));
+        c.save(); c.globalAlpha=a;
+        c.lineCap="round"; c.strokeStyle=col; c.lineWidth=th;
+        c.beginPath(); c.moveTo(x1,y1); c.lineTo(x2,y2); c.stroke();
+        const cnt=Math.max(2,Math.floor(d/36));
+        for(let i=0;i<cnt;i++){
+            const o=((t*spd)+i/cnt)%1;
+            const px=x1+ux*d*o, py=y1+uy*d*o;
+            c.fillStyle=col; c.globalAlpha=a*0.85;
+            c.beginPath(); c.arc(px,py,th*0.55,0,Math.PI*2); c.fill();
+            c.fillStyle="#fff"; c.globalAlpha=a*0.5;
+            c.beginPath(); c.arc(px,py,th*0.25,0,Math.PI*2); c.fill();
+        }
+        c.globalAlpha=a; c.fillStyle=col;
+        c.beginPath(); c.moveTo(x2,y2);
+        c.lineTo(x2-ux*10+nx*4,y2-uy*10+ny*4); c.lineTo(x2-ux*10-nx*4,y2-uy*10-ny*4); c.closePath(); c.fill();
+        c.globalAlpha=a*0.75; c.fillStyle=col;
+        c.font='700 8px "SF Mono","Fira Code","Consolas","PingFang SC",monospace';
+        c.textAlign="center"; c.textBaseline="middle";
+        c.fillText(lbl,(x1+x2)/2+nx*13,(y1+y2)/2+ny*13);
+        c.restore();
+    }
+
+    function pipe(c,x1,y1,x2,y2) {
+        c.strokeStyle="rgba(0,0,0,0.06)"; c.lineWidth=1; c.lineCap="round";
+        c.setLineDash([3,3]);
+        c.beginPath(); c.moveTo(x1,y1); c.lineTo(x2,y2); c.stroke();
+        c.setLineDash([]);
+    }
+    function node(c,x,y,col){c.fillStyle=col;c.beginPath();c.arc(x,y,2.5,0,Math.PI*2);c.fill();}
+
+    /* ═══════════════════════════════════════
+       Draw RE
+       ═══════════════════════════════════════ */
+    function drawRE(c,w,h,s,t,b) {
+        drawGrid(c,w,h);
+        const cy=h*0.38, mx=180;
+        const eX=w*.12,gX=w*.32,bX=w*.32,mX=w*.58,wX=w*.84,bY=cy+h*.24;
+        const bw=Math.min(96,w*.14),bh=Math.min(42,h*.17);
+        pipe(c,eX+bw/2,cy,gX-bw/2,cy);
+        pipe(c,gX,cy+bh/2,bX,bY-bh/2);
+        pipe(c,gX+bw/2,cy,mX-bw/2,cy);
+        pipe(c,bX+bw/2,bY,mX-6,bY,mX-6,cy+bh/2);
+        pipe(c,mX+bw/2,cy,wX-bw/2,cy);
+        node(c,gX,cy+bh/2,"rgba(230,138,0,0.4)"); node(c,mX-6,cy+bh/2,"rgba(0,135,90,0.4)");
+        hblock(c,eX-bw/2,cy-bh/2,bw,bh,"发动机","1.5L · 95kW","#e68a00");
+        hblock(c,gX-bw/2,cy-bh/2,bw,bh,"发电机",s.engineToGen+"kW","#cc7a00");
+        hblock(c,bX-bw/2,bY-bh/2,bw,bh,"电池",
+            s.battMode==="charging"?`CHG +${s.genToBatt}kW`:s.battMode==="discharging"?`DIS ${s.battToMotor}kW`:"IDLE","#0077cc");
+        hblock(c,mX-bw/2,cy-bh/2,bw,bh,"驱动电机",s.motorToWheel+"kW","#00875a");
+        hblock(c,wX-bw/2,cy-bh/2,bw,bh,"车轮",s.motorToWheel+"kW","#7c4dff");
+        eflow(c,eX+bw/2,cy,gX-bw/2,cy,"#e68a00",s.engineToGen,mx,.2,t,s.engineToGen+"kW",b);
+        if(s.genToBatt>0) eflow(c,gX,cy+bh/2+3,bX,bY-bh/2-3,"#0077cc",s.genToBatt,mx,.18,t,`+${s.genToBatt}kW`,b);
+        if(s.battToMotor>0) eflow(c,bX+bw/2+3,bY,mX-10,bY,"#0077cc",s.battToMotor,mx,.25,t,s.battToMotor+"kW",b);
+        eflow(c,gX+bw/2,cy,mX-bw/2,cy,"#00875a",s.genToMotor,mx,.22,t,s.genToMotor+"kW",b);
+        eflow(c,mX+bw/2,cy,wX-bw/2,cy,"#7c4dff",s.motorToWheel,mx,.28,t,s.motorToWheel+"kW",b);
+        c.save();
+        c.fillStyle="#e68a00";
+        c.font='800 16px "SF Mono","Fira Code","Consolas",monospace';
+        c.textAlign="center"; c.fillText(`η ${s.efficiency}%`,w/2,h-12);
+        c.restore();
+    }
+
+    /* ═══════════════════════════════════════
+       Draw Hi4 — 正确体现优势
+       ═══════════════════════════════════════ */
+    function drawHi4(c,w,h,s,t,b) {
+        drawGrid(c,w,h);
+        const mx=180;
+        const r1y = h*0.18, r2y = h*0.50, r3y = h*0.80;
+        const eX=w*.10, dX=w*.34, fwX=w*.82;
+        const p2X=w*.34, bX=w*.58;
+        const p4X=w*.58, rwX=w*.82;
+        const bw=Math.min(88,w*.13), bh=Math.min(36,h*.13);
+
+        // ── Pipes ──
+        pipe(c,eX+bw/2,r1y,dX-bw/2,r1y);
+        pipe(c,dX+bw/2,r1y,fwX-bw/2,r1y);
+        pipe(c,dX,r1y+bh/2,p2X,r2y-bh/2);
+        pipe(c,p2X+bw/2,r2y,bX-bw/2,r2y);
+        pipe(c,bX,r2y+bh/2,p4X,r3y-bh/2);
+        pipe(c,p2X,r2y+bh/2,p4X,r3y-bh/2);
+        pipe(c,p4X+bw/2,r3y,rwX-bw/2,r3y);
+
+        // ── Nodes ──
+        const p2Active = s.p2Mode === "gen";
+        node(c,dX,r1y+bh/2, p2Active ? "rgba(0,119,204,0.4)" : "rgba(0,0,0,0.1)");
+        node(c,p2X+bw/2,r2y, p2Active ? "rgba(0,119,204,0.3)" : "rgba(0,0,0,0.08)");
+        node(c,bX,r2y+bh/2,"rgba(0,119,204,0.3)");
+        if(p2Active) node(c,p2X,r2y+bh/2,"rgba(0,135,90,0.3)");
+        node(c,p4X,r3y-bh/2,"rgba(0,135,90,0.4)");
+
+        // ── Blocks ──
+        const engLabel = s.engineOut > 0 ? `2.0L · ${s.engineOut}kW` : "ENGINE OFF";
+        hblock(c,eX-bw/2,r1y-bh/2,bw,bh,"发动机",engLabel,"#e68a00");
+        const dhtOut = s.engineDirect + (s.p2Gen||0);
+        const dhtLabel = s.engineOut > 0 ? `直驱${s.engineDirect}kW` + (s.p2Gen>0 ? `+${s.p2Gen}kW` : "") : "IDLE";
+        hblock(c,dX-bw/2,r1y-bh/2,bw,bh,"DHT",dhtLabel,"#0077cc");
+        hblock(c,fwX-bw/2,r1y-bh/2,bw,bh,"前轮",s.engineDirect>0?`直驱 ${s.engineDirect}kW`:"—","#7c4dff");
+
+        // P2 block — color depends on mode
+        let p2Col, p2Sub;
+        if(s.p2Mode === "gen") {
+            p2Col = "#0077cc";
+            p2Sub = `发电${s.p2Gen}kW→分流`;
+        } else if(s.p2Mode === "idle") {
+            p2Col = "rgba(0,0,0,0.25)";
+            p2Sub = "空载随转 · 损耗~2kW";
+        } else {
+            p2Col = "rgba(0,0,0,0.15)";
+            p2Sub = "OFF · 无损耗";
+        }
+        hblock(c,p2X-bw/2,r2y-bh/2,bw,bh,"P2 电机",p2Sub,p2Col);
+
+        const battDischarge = s.battToP4 > 0 ? s.battToP4 : 0;
+        const battLabel = s.p2ToBatt > 0 ? `CHG +${s.p2ToBatt}kW` : battDischarge > 0 ? `DIS ${battDischarge}kW` : "IDLE";
+        hblock(c,bX-bw/2,r2y-bh/2,bw,bh,"动力电池",battLabel,"#0077cc");
+
+        hblock(c,p4X-bw/2,r3y-bh/2,bw,bh,"P4 后电机",s.rearMotor>0?`${s.rearMotor}kW`:"IDLE","#00875a");
+        hblock(c,rwX-bw/2,r3y-bh/2,bw,bh,"后轮",s.rearMotor>0?`${s.rearMotor}kW`:"—","#7c4dff");
+
+        // ── Flows ──
+        if(s.engineOut > 0)
+            eflow(c,eX+bw/2,r1y,dX-bw/2,r1y,"#e68a00",s.engineOut,mx,.2,t,s.engineOut+"kW",b);
+        // ★ 直驱 — 粗线高亮，这是Hi4最大优势
+        if(s.engineDirect>0)
+            eflow(c,dX+bw/2,r1y,fwX-bw/2,r1y,"#0077cc",s.engineDirect,mx,.28,t,`直驱 ${s.engineDirect}kW η≈95%`,b);
+        // P2 active — 发电分流
+        if(s.p2Gen > 0)
+            eflow(c,dX,r1y+bh/2+3,p2X,r2y-bh/2-3,"#0077cc",s.p2Gen,mx,.18,t,`${s.p2Gen}kW`,b);
+        if(s.p2ToBatt > 0)
+            eflow(c,p2X+bw/2+3,r2y,bX-bw/2-3,r2y,"#0077cc",s.p2ToBatt,mx,.2,t,`+${s.p2ToBatt}kW`,b);
+        if(s.p2ToP4 > 0)
+            eflow(c,p2X,r2y+bh/2+3,p4X,r3y-bh/2-3,"#00875a",s.p2ToP4,mx,.22,t,`直供P4 ${s.p2ToP4}kW`,b);
+        // Battery → P4
+        if(s.battToP4 > 0)
+            eflow(c,bX,r2y+bh/2+3,p4X,r3y-bh/2-3,"#0077cc",s.battToP4,mx,.24,t,`BAT ${s.battToP4}kW`,b);
+        if(s.rearMotor>0)
+            eflow(c,p4X+bw/2,r3y,rwX-bw/2,r3y,"#7c4dff",s.rearMotor,mx,.26,t,s.rearMotor+"kW",b);
+
+        // ── Advantage annotation ──
+        c.save();
+        c.font='600 8px "SF Mono","Fira Code","Consolas","PingFang SC",monospace';
+        c.textAlign="center";
+        if(s.p2Mode === "idle") {
+            // 高速巡航：直驱优势
+            c.fillStyle="rgba(0,135,90,0.6)";
+            c.fillText(`✓ 直驱路径: 机械能直接到车轮，η≈95% | 增程必须 机械→电→机械，η≈74%`, w/2, r1y+bh/2+14);
+            c.fillStyle="rgba(60,80,100,0.3)";
+            c.fillText(`P2空载随转损耗仅~2kW，可忽略`, w/2, r2y+bh/2+14);
+        } else if(s.p2Mode === "gen") {
+            // 急加速/爬坡：P2发电直供P4优势
+            c.fillStyle="rgba(0,135,90,0.6)";
+            c.fillText(`✓ 直驱${s.engineDirect}kW(η≈95%) + P2发电${s.p2Gen}kW直供P4(绕过电池) + 电池${s.battToP4}kW→P4`, w/2, r2y+bh/2+14);
+            c.fillStyle="rgba(60,80,100,0.3)";
+            c.fillText(`P2→P4直供绕过电池充放电损耗，比增程全串联高效`, w/2, r3y+bh/2+14);
+        } else {
+            // 纯电
+            c.fillStyle="rgba(0,135,90,0.6)";
+            c.fillText(`✓ 纯电驱动，发动机不启动，零油耗`, w/2, r1y+bh/2+14);
+        }
+        c.restore();
+
+        // ── Mode + efficiency ──
+        let mode = s.engineOut===0?"PURE EV":s.engineDirect>0&&s.rearMotor===0?"DIRECT DRIVE":s.engineDirect>0&&s.rearMotor>0?"PARALLEL AWD":"PURE EV";
+        c.save();
+        c.fillStyle="#0077cc";
+        c.font='800 16px "SF Mono","Fira Code","Consolas",monospace';
+        c.textAlign="center"; c.fillText(`η ${s.efficiency}%`,w/2,h-12);
+        c.restore();
+    }
+
+    function render(now) {
+        const dt = Math.min((now-lastT)/1000, 0.05); lastT = now;
+        if(playing){elapsed+=dt;if(elapsed>=scenes[active].duration){active=(active+1)%scenes.length;elapsed=0;ui();}}
+        const s=scenes[active], bl=clamp(elapsed/.6,0,1);
+        const rW=cRe.clientWidth,rH=cRe.clientHeight;
+        xRe.clearRect(0,0,rW,rH);
+        xRe.fillStyle="#f4f6f9"; xRe.fillRect(0,0,rW,rH);
+        drawRE(xRe,rW,rH,s.re,now,bl);
+        const hW=cHi4.clientWidth,hH=cHi4.clientHeight;
+        xHi4.clearRect(0,0,hW,hH);
+        xHi4.fillStyle="#f4f6f9"; xHi4.fillRect(0,0,hW,hH);
+        drawHi4(xHi4,hW,hH,s.hi4,now,bl);
+        requestAnimationFrame(render);
+    }
+    ui(); requestAnimationFrame(render);
+})();
+</script>
+</body>
+</html>
