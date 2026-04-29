@@ -43,12 +43,15 @@
 
 课文源可以包含 `## 拆解列表`，用于人工校对和迁移参考。长期目标是把拆解内容迁移到结构化 JSON 中，但当前阶段两者共存。
 
+课文源可以包含 `## 图片素材`，用于人工指定单元配图和出题意图。图片素材只描述图片和它关联的课文内容，不替代 `## 对话列表`，也不能反向修改课文原文。
+
 ### 2.2 生成课程
 
 生成课程负责保存程序可直接使用的内容：
 
 - 对话练习列表
 - 拆句练习列表
+- 看图问答列表
 - 中文翻译
 - 语法说明
 - 提示
@@ -451,8 +454,135 @@ very much | far from | school | I like it very much, | but it's far from | but i
 - 完整句词块是否存在且英文片段来自原文。
 - 单词信息是否包含音标、词性、意思。
 - 完整句拆解题是否列出了该句**每一个单词**的详细信息（不允许跳过功能词）。
+- 如果有图片题，图片路径是否存在，且使用相对单元目录的路径。
+- 图片题答案是否能追溯到 `## 对话列表` 原文或明确标注的目标句。
+- 图片题干、图片文件名、`alt` 是否没有直接泄露答案。
 
-## 15. 错误示例和正确示例
+## 15. 图片素材和看图问答规则
+
+当用户希望“配图片”“看图出题”“通过图片来出题”时，按本节规则处理。
+
+### 15.1 图片放置规则
+
+图片放在当前单元目录下：
+
+```text
+assets/images/
+```
+
+图片路径必须写成相对当前单元目录的路径，例如：
+
+```text
+assets/images/morning-cleaning-car.png
+```
+
+不要把本机绝对路径写进课程 JSON。不要把答案直接写进文件名，例如避免 `he-is-cleaning-the-car-answer.png`。
+
+### 15.2 `## 图片素材` 格式
+
+`textbook.md` 可以添加：
+
+```md
+## 图片素材
+
+- id: morning-cleaning-car
+  file: assets/images/morning-cleaning-car.png
+  alt: 爸爸早上在门口洗车
+  relatedLines: [1]
+  targets:
+    - My father is cleaning the car.
+    - cleaning the car
+```
+
+字段含义：
+
+- `id`：图片唯一标识，使用英文、数字和短横线。
+- `file`：图片相对当前单元目录的路径。
+- `alt`：图片内容描述，给老师、审核和无障碍场景使用，不直接给学生当答案。
+- `relatedLines`：关联的课文编号，必须来自 `## 对话列表`。
+- `targets`：希望图片触发练习的英文句子、短语或词，优先来自课文原文。
+
+### 15.3 看图问答 JSON
+
+图片题生成到：
+
+```text
+content/image-qa.json
+```
+
+结构示例：
+
+```json
+{
+  "manifestId": "grade5-semester2-unit1",
+  "activityType": "image-qa",
+  "sourceHash": "",
+  "generatorVersion": "learn-language-generator-2",
+  "generatedAt": "2026-04-29",
+  "images": [
+    {
+      "id": "morning-cleaning-car",
+      "src": "assets/images/morning-cleaning-car.png",
+      "alt": "爸爸早上在门口洗车",
+      "relatedLines": [1]
+    }
+  ],
+  "questions": [
+    {
+      "id": "img-u5-q1",
+      "imageId": "morning-cleaning-car",
+      "type": "multiple-choice",
+      "prompt": "图中爸爸正在做什么？",
+      "options": [
+        "He is cleaning the car.",
+        "He is cooking breakfast.",
+        "He is sweeping the floor.",
+        "He is sleeping."
+      ],
+      "correctIndex": 0,
+      "answer": "He is cleaning the car.",
+      "targetEnglish": "My father is cleaning the car.",
+      "targetChinese": "我爸爸正在洗车。",
+      "explanation": "图片对应课文表达：My father is cleaning the car.",
+      "difficulty": 1
+    }
+  ]
+}
+```
+
+### 15.4 图片题类型
+
+优先支持这些类型：
+
+- `multiple-choice`：看图选择正确句子，适合首次练习。
+- `fill-blank`：看图补词，例如 `He is ____ the car.`，适合强化核心词。
+- `speak`：看图说句子，适合口语和背诵检查。
+- `order-words`：看图后给词排序，适合句型巩固。
+
+### 15.5 出题原则
+
+- 图片题的答案必须能追溯到课文原文，或者是课文原文的自然问答变体。
+- 如果使用自然问答变体，必须在 `targetEnglish` 中保留对应课文原句。
+- 低年级优先用选择题；掌握后再生成填空、排序、口语题。
+- 同一张图片可以出多道题，但每道题只考一个清晰目标。
+- 干扰项要来自同单元或相邻单元的相近表达，不能明显离谱。
+- 题干不要直接复述答案；图片文件名和 `alt` 也不要直接泄露答案。
+- 不要为了图片题改写 `## 对话列表` 原文。
+
+### 15.6 manifest 注册
+
+如果生成了 `content/image-qa.json`，必须在 `manifest.json` 的 `supportedActivities` 中添加：
+
+```json
+{
+  "type": "image-qa",
+  "name": "看图问答",
+  "data": "content/image-qa.json",
+  "enabled": true
+}
+```
+
+## 16. 错误示例和正确示例
 
 对话：
 
@@ -495,7 +625,7 @@ I like it very much, but it's far from school.
   - `school` → `but it's far from school.`
   - `but it's far from school.` → 完整句
 
-## 16. 一句话执行口令
+## 17. 一句话执行口令
 
 当用户说"按规则重新生成某单元"时，默认执行：
 
@@ -507,3 +637,12 @@ I like it very much, but it's far from school.
 6. 为词和短语补音标、词性、意思。
 7. 生成后检查：课文原文不变、编号正确、翻译未退化、wordlist 词已覆盖、词块存在。
 8. 生成的 JSON 文件放在本单元文件夹的 `content/` 目录下（如 `content/sentence-practice.json`），如果文件已存在则直接覆盖。
+
+当用户说"给某单元配图出题"时，默认执行：
+
+1. 保护 `## 对话列表` 原文不变。
+2. 读取 `## 图片素材` 和 `assets/images/`。
+3. 校验图片路径存在且是相对单元目录路径。
+4. 根据 `relatedLines` 和 `targets` 生成 `content/image-qa.json`。
+5. 在 `manifest.json` 添加 `image-qa` 活动。
+6. 生成后检查：题目答案可追溯、题干不泄露答案、干扰项合理、图片路径可用。

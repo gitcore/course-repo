@@ -1,0 +1,165 @@
+{
+  "manifestId": "nanjing-yuhua-grade5-semester2-unit5",
+  "activityType": "image-qa",
+  "sourceHash": "",
+  "generatorVersion": "learn-language-generator-2",
+  "generatedAt": "2026-04-29",
+  "images": [
+    {
+      "id": "unit5-knowledge-points",
+      "src": "assets/images/unit5-knowledge-points.png",
+      "alt": "五年级下册英语 Unit 5 Helping our parents 知识点图",
+      "relatedLines": [
+        1,
+        2,
+        8,
+        10,
+        12,
+        14,
+        17,
+        18,
+        22,
+        23,
+        24
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "img-u5-q1",
+      "imageId": "unit5-knowledge-points",
+      "type": "multiple-choice",
+      "prompt": "图中 Unit 5 的单元主题是什么？",
+      "options": [
+        "Helping our parents",
+        "Seeing the doctor",
+        "Cinderella",
+        "Asking the way"
+      ],
+      "correctIndex": 0,
+      "answer": "Helping our parents",
+      "targetEnglish": "Helping our parents",
+      "targetChinese": "帮助父母",
+      "explanation": "知识点图中的单元主题是 Helping our parents。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u5-q2",
+      "imageId": "unit5-knowledge-points",
+      "type": "multiple-choice",
+      "prompt": "图中“擦车”对应哪个英文短语？",
+      "options": [
+        "cleaning the car",
+        "cooking dinner",
+        "sweeping the floor",
+        "making the bed"
+      ],
+      "correctIndex": 0,
+      "answer": "cleaning the car",
+      "targetEnglish": "My father is cleaning the car.",
+      "targetChinese": "我爸爸在洗车。",
+      "explanation": "图片核心词汇区显示 cleaning the car，课文中也有 My father is cleaning the car。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u5-q3",
+      "imageId": "unit5-knowledge-points",
+      "type": "multiple-choice",
+      "prompt": "想问“你正在做什么？”，应该选择哪一句？",
+      "options": [
+        "What are you doing?",
+        "Where are you?",
+        "What do you like?",
+        "How do you come to school?"
+      ],
+      "correctIndex": 0,
+      "answer": "What are you doing?",
+      "targetEnglish": "What are you doing?",
+      "targetChinese": "你正在做什么？",
+      "explanation": "知识点图重点句型中给出了 What are you doing?。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u5-q4",
+      "imageId": "unit5-knowledge-points",
+      "type": "multiple-choice",
+      "prompt": "现在进行时的结构是哪一个？",
+      "options": [
+        "be + 动词 ing",
+        "can + 动词原形",
+        "there is + 名词",
+        "like + 动词 ing"
+      ],
+      "correctIndex": 0,
+      "answer": "be + 动词 ing",
+      "targetEnglish": "I am cleaning the table.",
+      "targetChinese": "我正在擦桌子。",
+      "explanation": "知识点图语法重点写明：现在进行时是 be + 动词 ing。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u5-q5",
+      "imageId": "unit5-knowledge-points",
+      "type": "multiple-choice",
+      "prompt": "主语是 he 或 she 时，be 动词应该用什么？",
+      "options": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "correctIndex": 0,
+      "answer": "is",
+      "targetEnglish": "He's/She's sweeping the floor.",
+      "targetChinese": "他/她正在扫地。",
+      "explanation": "易错提醒中说明 he/she 用 is。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u5-q6",
+      "imageId": "unit5-knowledge-points",
+      "type": "fill-blank",
+      "prompt": "看图补全：I am ____ the table.",
+      "answer": "cleaning",
+      "targetEnglish": "I am cleaning the table.",
+      "targetChinese": "我正在擦桌子。",
+      "explanation": "cleaning the table 表示擦桌子。",
+      "difficulty": 2
+    },
+    {
+      "id": "img-u5-q7",
+      "imageId": "unit5-knowledge-points",
+      "type": "order-words",
+      "prompt": "看图排序，组成句子：我正在洗碗。",
+      "words": [
+        "am",
+        "washing",
+        "I",
+        "the dishes"
+      ],
+      "answer": "I am washing the dishes.",
+      "targetEnglish": "I am washing the dishes.",
+      "targetChinese": "我正在洗碗。",
+      "explanation": "现在进行时句子顺序是：主语 + be + 动词 ing + 宾语。",
+      "difficulty": 2
+    },
+    {
+      "id": "img-u5-q8",
+      "imageId": "unit5-knowledge-points",
+      "type": "multiple-choice",
+      "prompt": "“They are helping their parents.” 的中文意思是什么？",
+      "options": [
+        "他们正在帮助他们的父母。",
+        "他们正在看电视。",
+        "他们正在做早饭。",
+        "他们正在整理床铺。"
+      ],
+      "correctIndex": 0,
+      "answer": "他们正在帮助他们的父母。",
+      "targetEnglish": "They're helping their parents.",
+      "targetChinese": "他们正在帮助他们的父母。",
+      "explanation": "重点句型区给出了 They are helping their parents。",
+      "difficulty": 1
+    }
+  ]
+}

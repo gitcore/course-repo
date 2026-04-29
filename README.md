@@ -15,9 +15,13 @@ my-unit-folder/
 ├── textbook.md                          ← 必需：课文源文件
 ├── wordlist.md                          ← 可选：单元单词表
 ├── manifest.json                        ← 生成：单元元数据
+├── assets/                              ← 可选：单元图片、音频等素材
+│   └── images/
+│       └── cleaning-car.png
 └── content/
     ├── sentence-practice.json           ← 生成：拆句练习
-    └── conversation-practice.json       ← 生成：对话练习
+    ├── conversation-practice.json       ← 生成：对话练习
+    └── image-qa.json                    ← 可选：看图问答
 ```
 
 ## 第一步：准备课文源文件
@@ -60,8 +64,37 @@ my-unit-folder/
 
 ```markdown
 ## 翻译覆盖        ← 可选：人工指定的中文翻译
+## 图片素材        ← 可选：人工指定的配图和出题意图
 ## 生成配置        ← 可选：生成参数
 ```
+
+### 配置图片素材（可选）
+
+如果希望通过图片出题，在单元目录下创建 `assets/images/`，把图片放进去，并在 `textbook.md` 里添加 `## 图片素材`：
+
+```markdown
+## 图片素材
+
+- id: morning-cleaning-car
+  file: assets/images/morning-cleaning-car.png
+  alt: 爸爸早上在门口洗车
+  relatedLines: [1]
+  targets:
+    - My father is cleaning the car.
+    - cleaning the car
+```
+
+字段说明：
+
+| 字段 | 说明 |
+|---|---|
+| `id` | 图片唯一标识，建议用英文短横线 |
+| `file` | 图片相对当前单元目录的路径 |
+| `alt` | 给老师和无障碍场景看的图片描述，不直接给学生当答案 |
+| `relatedLines` | 图片关联的课文编号 |
+| `targets` | 希望图片触发练习的英文句子、短语或词 |
+
+图片出题的目标是让学生先观察场景，再回忆课文表达。不要把答案写进图片文件名、题干或 `alt` 中。
 
 ### 编写 wordlist.md（可选）
 
@@ -185,6 +218,12 @@ AI 将按以下流程执行：
       "name": "对话练习",
       "data": "content/conversation-practice.json",
       "enabled": true
+    },
+    {
+      "type": "image-qa",
+      "name": "看图问答",
+      "data": "content/image-qa.json",
+      "enabled": true
     }
   ],
   "generation": {
@@ -291,6 +330,59 @@ AI 将按以下流程执行：
 
 对话练习直接来自 `## Story time` 原文，不做任何修改。
 
+### content/image-qa.json
+
+看图问答数据，结构如下：
+
+```json
+{
+  "manifestId": "grade5-semester2-unit1",
+  "activityType": "image-qa",
+  "sourceHash": "",
+  "generatorVersion": "learn-language-generator-2",
+  "generatedAt": "2026-04-29",
+  "images": [
+    {
+      "id": "morning-cleaning-car",
+      "src": "assets/images/morning-cleaning-car.png",
+      "alt": "爸爸早上在门口洗车",
+      "relatedLines": [1]
+    }
+  ],
+  "questions": [
+    {
+      "id": "img-u5-q1",
+      "imageId": "morning-cleaning-car",
+      "type": "multiple-choice",
+      "prompt": "图中爸爸正在做什么？",
+      "options": [
+        "He is cleaning the car.",
+        "He is cooking breakfast.",
+        "He is sweeping the floor.",
+        "He is sleeping."
+      ],
+      "correctIndex": 0,
+      "answer": "He is cleaning the car.",
+      "targetEnglish": "My father is cleaning the car.",
+      "targetChinese": "我爸爸正在洗车。",
+      "explanation": "图片对应课文表达：My father is cleaning the car.",
+      "difficulty": 1
+    }
+  ]
+}
+```
+
+图片题推荐类型：
+
+| 类型 | 用途 |
+|---|---|
+| `multiple-choice` | 看图选择正确句子，适合低年级和首次练习 |
+| `fill-blank` | 看图补全关键词，如 `He is ____ the car.` |
+| `speak` | 看图说句子，适合口语和背诵检查 |
+| `order-words` | 看图后给词排序，适合句型巩固 |
+
+生成图片题时，答案必须来自课文原文或课文原文的自然变体；如果是自然变体，要在 `targetEnglish` 里保留对应课文原句，方便追溯。
+
 ## 生成后检查清单
 
 每次生成后，逐项检查：
@@ -305,6 +397,9 @@ AI 将按以下流程执行：
 - [ ] 片段链连续、不重叠、拼起来还原整句
 - [ ] 介词在连接语义块时已单独拆出
 - [ ] 功能词（and/but/or/so/a/the）未单独拆出
+- [ ] 图片路径存在且是相对单元目录的路径
+- [ ] 图片题的答案能追溯到课文原文或明确的目标句
+- [ ] 图片题干、文件名和 `alt` 没有直接泄露答案
 
 ## 快速开始
 

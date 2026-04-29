@@ -33,11 +33,24 @@
       "name": "对话练习",
       "data": "content/conversation-practice.json",
       "enabled": true
+    },
+    {
+      "type": "image-qa",
+      "name": "看图问答",
+      "data": "content/image-qa.json",
+      "enabled": true
+    },
+    {
+      "type": "reading-qa",
+      "name": "阅读理解",
+      "data": "content/reading-qa.json",
+      "enabled": true
     }
   ],
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-2",
-    "generatedAt": "2026-04-18"
-  }
+    "generatedAt": "2026-04-29"
+  },
+  "cover": "assets/images/unit5-knowledge-points.png"
 }
