@@ -1,9 +1,9 @@
 {
   "manifestId": "nanjing-yuhua-grade5-semester2-unit2",
   "activityType": "sentence-practice",
-  "sourceHash": "",
-  "generatorVersion": "learn-language-generator-2",
-  "generatedAt": "2026-04-18",
+  "sourceHash": "manual-rebreak-unit2-progressive-order-fixed-2026-05-01",
+  "generatorVersion": "manual-rebreak-v10-progressive-order-fixed",
+  "generatedAt": "2026-04-30T18:33:32.799Z",
   "sections": [
     {
       "title": "Breakdown",
@@ -11,45 +11,12 @@
         {
           "sequenceNumber": 1,
           "segmentNumber": 1,
-          "english": "Do you like",
-          "speaker": "Yang Ling",
-          "chinese": "你喜欢",
-          "difficulty": 1,
-          "hint": "疑问句",
-          "grammarAnalysis": "Do 引导一般疑问句",
-          "words": [
-            {
-              "text": "Do",
-              "phonetic": "/duː/",
-              "partOfSpeech": "助动词",
-              "meaning": "做"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "like",
-              "phonetic": "/laɪk/",
-              "partOfSpeech": "动词",
-              "meaning": "喜欢"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "1-1-1"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 2,
           "english": "your new home",
           "speaker": "Yang Ling",
           "chinese": "你的新家",
           "difficulty": 1,
-          "hint": "物品片段",
-          "grammarAnalysis": "your + 形容词 + 名词",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
               "text": "your",
@@ -70,31 +37,36 @@
               "meaning": "家"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "物品",
+              "text": "your new home"
+            }
+          ],
           "category": "phrase",
-          "id": "1-2-2"
+          "id": "1-1"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "Do you like your new home, Su Hai?",
           "speaker": "Yang Ling",
-          "chinese": "你喜欢你的新家吗，苏海？",
-          "difficulty": 1,
-          "hint": "一般疑问句",
-          "grammarAnalysis": "Do you like + 宾语",
+          "chinese": "苏海，你喜欢你的新家吗？",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "Do",
+              "text": "do",
               "phonetic": "/duː/",
               "partOfSpeech": "助动词",
-              "meaning": "做"
+              "meaning": "用于疑问句"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "like",
@@ -121,13 +93,13 @@
               "meaning": "家"
             },
             {
-              "text": "Su",
+              "text": "su",
               "phonetic": "/suː/",
               "partOfSpeech": "名词",
               "meaning": "苏"
             },
             {
-              "text": "Hai",
+              "text": "hai",
               "phonetic": "/haɪ/",
               "partOfSpeech": "名词",
               "meaning": "海"
@@ -135,157 +107,29 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "you"
+              "label": "助动词",
+              "text": "Do"
             },
             {
-              "label": "动作",
-              "text": "like"
-            },
-            {
-              "label": "物品",
-              "text": "your new home"
-            },
-            {
-              "label": "称呼",
-              "text": "Su Hai"
+              "label": "内容",
+              "text": "you like your new home, Su Hai"
             }
           ],
           "category": "sentence",
-          "id": "1-3-3"
+          "id": "1-2"
         },
         {
           "sequenceNumber": 2,
           "segmentNumber": 1,
-          "english": "but",
-          "speaker": "Su Hai",
-          "chinese": "但是",
-          "difficulty": 1,
-          "hint": "转折连词",
-          "grammarAnalysis": "but 表示转折",
-          "words": [
-            {
-              "text": "but",
-              "phonetic": "/bʌt/",
-              "partOfSpeech": "连词",
-              "meaning": "但是"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "2-1-1"
-        },
-        {
-          "sequenceNumber": 2,
-          "segmentNumber": 2,
-          "english": "school.",
-          "speaker": "Su Hai",
-          "chinese": "学校。",
-          "difficulty": 1,
-          "hint": "地点名词",
-          "grammarAnalysis": "school 学校",
-          "words": [
-            {
-              "text": "school",
-              "phonetic": "/skuːl/",
-              "partOfSpeech": "名词",
-              "meaning": "学校"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "2-2-2"
-        },
-        {
-          "sequenceNumber": 2,
-          "segmentNumber": 3,
-          "english": "I like it very much,",
-          "speaker": "Su Hai",
-          "chinese": "我非常喜欢它，",
-          "difficulty": 1,
-          "hint": "表达喜好",
-          "grammarAnalysis": "like + 宾语 + very much",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            },
-            {
-              "text": "like",
-              "phonetic": "/laɪk/",
-              "partOfSpeech": "动词",
-              "meaning": "喜欢"
-            },
-            {
-              "text": "it",
-              "phonetic": "/ɪt/",
-              "partOfSpeech": "代词",
-              "meaning": "它"
-            },
-            {
-              "text": "very",
-              "phonetic": "/ˈveri/",
-              "partOfSpeech": "副词",
-              "meaning": "非常"
-            },
-            {
-              "text": "much",
-              "phonetic": "/mʌtʃ/",
-              "partOfSpeech": "副词",
-              "meaning": "多"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "2-3-3"
-        },
-        {
-          "sequenceNumber": 2,
-          "segmentNumber": 4,
-          "english": "it's far from",
-          "speaker": "Su Hai",
-          "chinese": "它离……远",
-          "difficulty": 1,
-          "hint": "地点片段",
-          "grammarAnalysis": "far from 表示离……远",
-          "words": [
-            {
-              "text": "it's",
-              "phonetic": "/ɪts/",
-              "partOfSpeech": "代词+动词",
-              "meaning": "它是"
-            },
-            {
-              "text": "far",
-              "phonetic": "/fɑː/",
-              "partOfSpeech": "形容词",
-              "meaning": "远的"
-            },
-            {
-              "text": "from",
-              "phonetic": "/frɒm/",
-              "partOfSpeech": "介词",
-              "meaning": "从"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "2-4-4"
-        },
-        {
-          "sequenceNumber": 2,
-          "segmentNumber": 5,
           "english": "Yes!",
           "speaker": "Su Hai",
           "chinese": "是的！",
-          "difficulty": 1,
-          "hint": "肯定回答",
-          "grammarAnalysis": "Yes 单独使用",
+          "difficulty": 2,
+          "hint": "感叹句",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "Yes",
+              "text": "yes",
               "phonetic": "/jes/",
               "partOfSpeech": "感叹词",
               "meaning": "是的"
@@ -293,28 +137,28 @@
           ],
           "structureBlocks": [
             {
-              "label": "回答",
+              "label": "内容",
               "text": "Yes"
             }
           ],
           "category": "sentence",
-          "id": "2-5-5"
+          "id": "2-1"
         },
         {
           "sequenceNumber": 2,
-          "segmentNumber": 6,
-          "english": "It's very big.",
+          "segmentNumber": 2,
+          "english": "It's very big",
           "speaker": "Su Hai",
-          "chinese": "它非常大。",
+          "chinese": "它非常大",
           "difficulty": 1,
-          "hint": "描述句",
-          "grammarAnalysis": "It's = It is，very 修饰形容词",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "It's",
+              "text": "it's",
               "phonetic": "/ɪts/",
-              "partOfSpeech": "代词+动词",
-              "meaning": "它是"
+              "partOfSpeech": "缩写",
+              "meaning": "it is，它是"
             },
             {
               "text": "very",
@@ -331,29 +175,63 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "It"
-            },
-            {
               "label": "状态",
-              "text": "very big"
+              "text": "It's very big"
             }
           ],
-          "category": "sentence",
-          "id": "2-6-6"
+          "category": "phrase",
+          "id": "2-2"
         },
         {
           "sequenceNumber": 2,
-          "segmentNumber": 7,
-          "english": "I like it very much, but it's far from school.",
+          "segmentNumber": 3,
+          "english": "It's very big.",
           "speaker": "Su Hai",
-          "chinese": "我非常喜欢它，但是它离学校很远。",
-          "difficulty": 1,
-          "hint": "转折句",
-          "grammarAnalysis": "like + very much + but + far from",
+          "chinese": "它非常大。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "I",
+              "text": "it's",
+              "phonetic": "/ɪts/",
+              "partOfSpeech": "缩写",
+              "meaning": "it is，它是"
+            },
+            {
+              "text": "very",
+              "phonetic": "/ˈveri/",
+              "partOfSpeech": "副词",
+              "meaning": "非常"
+            },
+            {
+              "text": "big",
+              "phonetic": "/bɪɡ/",
+              "partOfSpeech": "形容词",
+              "meaning": "大的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "状态",
+              "text": "It's very big"
+            }
+          ],
+          "category": "sentence",
+          "id": "2-3"
+        },
+        {
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
+          "english": "I like it very much",
+          "speaker": "Su Hai",
+          "chinese": "我非常喜欢它",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -380,19 +258,66 @@
               "text": "much",
               "phonetic": "/mʌtʃ/",
               "partOfSpeech": "副词",
-              "meaning": "多"
+              "meaning": "非常；很多"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "喜好",
+              "text": "I like it very much"
+            }
+          ],
+          "category": "phrase",
+          "id": "2-4"
+        },
+        {
+          "sequenceNumber": 2,
+          "segmentNumber": 5,
+          "english": "far from",
+          "speaker": "wordlist",
+          "chinese": "离······远",
+          "difficulty": 1,
+          "hint": "课本重点短语",
+          "grammarAnalysis": "far from：离······远",
+          "words": [
+            {
+              "text": "far",
+              "phonetic": "/fɑː/",
+              "partOfSpeech": "形容词",
+              "meaning": "远的"
             },
             {
-              "text": "but",
-              "phonetic": "/bʌt/",
-              "partOfSpeech": "连词",
-              "meaning": "但是"
-            },
+              "text": "from",
+              "phonetic": "/frɒm/",
+              "partOfSpeech": "介词",
+              "meaning": "离；从"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点短语",
+              "text": "far from"
+            }
+          ],
+          "category": "phrase",
+          "id": "2-5",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 2,
+          "segmentNumber": 6,
+          "english": "it's far from school",
+          "speaker": "Su Hai",
+          "chinese": "它离学校很远",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
             {
               "text": "it's",
               "phonetic": "/ɪts/",
-              "partOfSpeech": "代词+动词",
-              "meaning": "它是"
+              "partOfSpeech": "缩写",
+              "meaning": "it is，它是"
             },
             {
               "text": "far",
@@ -404,7 +329,7 @@
               "text": "from",
               "phonetic": "/frɒm/",
               "partOfSpeech": "介词",
-              "meaning": "从"
+              "meaning": "离；从"
             },
             {
               "text": "school",
@@ -415,24 +340,100 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "I"
-            },
-            {
-              "label": "动作",
-              "text": "like it very much"
-            },
-            {
-              "label": "转折",
-              "text": "but"
-            },
-            {
-              "label": "状态",
+              "label": "距离",
               "text": "it's far from school"
             }
           ],
+          "category": "phrase",
+          "id": "2-6"
+        },
+        {
+          "sequenceNumber": 2,
+          "segmentNumber": 7,
+          "english": "I like it very much, but it's far from school.",
+          "speaker": "Su Hai",
+          "chinese": "我非常喜欢它，但是它离学校很远。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "i",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "动词",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "代词",
+              "meaning": "它"
+            },
+            {
+              "text": "very",
+              "phonetic": "/ˈveri/",
+              "partOfSpeech": "副词",
+              "meaning": "非常"
+            },
+            {
+              "text": "much",
+              "phonetic": "/mʌtʃ/",
+              "partOfSpeech": "副词",
+              "meaning": "非常；很多"
+            },
+            {
+              "text": "but",
+              "phonetic": "/bʌt/",
+              "partOfSpeech": "连词",
+              "meaning": "但是"
+            },
+            {
+              "text": "it's",
+              "phonetic": "/ɪts/",
+              "partOfSpeech": "缩写",
+              "meaning": "it is，它是"
+            },
+            {
+              "text": "far",
+              "phonetic": "/fɑː/",
+              "partOfSpeech": "形容词",
+              "meaning": "远的"
+            },
+            {
+              "text": "from",
+              "phonetic": "/frɒm/",
+              "partOfSpeech": "介词",
+              "meaning": "离；从"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "名词",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语",
+              "text": "like"
+            },
+            {
+              "label": "补充",
+              "text": "it very much, but it's far from school"
+            }
+          ],
           "category": "sentence",
-          "id": "2-7-7"
+          "id": "2-7"
         },
         {
           "sequenceNumber": 2,
@@ -440,33 +441,33 @@
           "english": "Where do you live now?",
           "speaker": "Su Hai",
           "chinese": "你现在住在哪里？",
-          "difficulty": 1,
-          "hint": "特殊疑问句",
-          "grammarAnalysis": "Where 询问地点",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "Where",
+              "text": "where",
               "phonetic": "/weə/",
-              "partOfSpeech": "疑问词",
-              "meaning": "在哪里"
+              "partOfSpeech": "副词",
+              "meaning": "哪里"
             },
             {
               "text": "do",
               "phonetic": "/duː/",
               "partOfSpeech": "助动词",
-              "meaning": "做"
+              "meaning": "用于疑问句"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "live",
               "phonetic": "/lɪv/",
               "partOfSpeech": "动词",
-              "meaning": "住"
+              "meaning": "居住"
             },
             {
               "text": "now",
@@ -481,20 +482,12 @@
               "text": "Where"
             },
             {
-              "label": "人物",
-              "text": "you"
-            },
-            {
-              "label": "动作",
-              "text": "live"
-            },
-            {
-              "label": "时间",
-              "text": "now"
+              "label": "内容",
+              "text": "do you live now"
             }
           ],
           "category": "sentence",
-          "id": "2-8-8"
+          "id": "2-8"
         },
         {
           "sequenceNumber": 3,
@@ -502,33 +495,33 @@
           "english": "Where do you live now?",
           "speaker": "Yang Ling",
           "chinese": "你现在住在哪里？",
-          "difficulty": 1,
-          "hint": "特殊疑问句",
-          "grammarAnalysis": "Where 询问地点",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "Where",
+              "text": "where",
               "phonetic": "/weə/",
-              "partOfSpeech": "疑问词",
-              "meaning": "在哪里"
+              "partOfSpeech": "副词",
+              "meaning": "哪里"
             },
             {
               "text": "do",
               "phonetic": "/duː/",
               "partOfSpeech": "助动词",
-              "meaning": "做"
+              "meaning": "用于疑问句"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "live",
               "phonetic": "/lɪv/",
               "partOfSpeech": "动词",
-              "meaning": "住"
+              "meaning": "居住"
             },
             {
               "text": "now",
@@ -543,184 +536,169 @@
               "text": "Where"
             },
             {
-              "label": "人物",
-              "text": "you"
-            },
-            {
-              "label": "动作",
-              "text": "live"
-            },
-            {
-              "label": "时间",
-              "text": "now"
+              "label": "内容",
+              "text": "do you live now"
             }
           ],
           "category": "sentence",
-          "id": "3-1-1"
+          "id": "3-1"
         },
         {
           "sequenceNumber": 4,
           "segmentNumber": 1,
-          "english": "near",
-          "speaker": "Su Hai",
-          "chinese": "在……附近",
+          "english": "moon",
+          "speaker": "wordlist",
+          "chinese": "月亮",
           "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "near 表示在……附近",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "moon：月亮",
           "words": [
             {
-              "text": "near",
-              "phonetic": "/nɪə/",
-              "partOfSpeech": "介词",
-              "meaning": "在……附近"
+              "text": "moon",
+              "phonetic": "/muːn/",
+              "partOfSpeech": "名词",
+              "meaning": "月亮"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "moon"
+            }
+          ],
           "category": "word",
-          "id": "4-1-1"
+          "id": "4-1",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 4,
           "segmentNumber": 2,
-          "english": "I live",
-          "speaker": "Su Hai",
-          "chinese": "我住在",
+          "english": "street",
+          "speaker": "wordlist",
+          "chinese": "街，街道",
           "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "live + 地点",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "street：街，街道",
           "words": [
             {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            },
-            {
-              "text": "live",
-              "phonetic": "/lɪv/",
-              "partOfSpeech": "动词",
-              "meaning": "住"
+              "text": "street",
+              "phonetic": "/striːt/",
+              "partOfSpeech": "名词",
+              "meaning": "街道"
             }
           ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "4-2-2"
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "street"
+            }
+          ],
+          "category": "word",
+          "id": "4-2",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 4,
           "segmentNumber": 3,
-          "english": "on",
+          "english": "on Moon Street",
           "speaker": "Su Hai",
-          "chinese": "在",
+          "chinese": "在月亮街",
           "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "on 表示在某条街上",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
               "text": "on",
               "phonetic": "/ɒn/",
               "partOfSpeech": "介词",
-              "meaning": "在……上"
+              "meaning": "在……上；穿上"
+            },
+            {
+              "text": "moon",
+              "phonetic": "/muːn/",
+              "partOfSpeech": "名词",
+              "meaning": "月亮"
+            },
+            {
+              "text": "street",
+              "phonetic": "/striːt/",
+              "partOfSpeech": "名词",
+              "meaning": "街道"
             }
           ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "4-3-3"
+          "structureBlocks": [
+            {
+              "label": "地点",
+              "text": "on Moon Street"
+            }
+          ],
+          "category": "phrase",
+          "id": "4-3"
         },
         {
           "sequenceNumber": 4,
           "segmentNumber": 4,
-          "english": "Moon Street,",
-          "speaker": "Su Hai",
-          "chinese": "月亮街，",
+          "english": "near",
+          "speaker": "wordlist",
+          "chinese": "在······附近",
           "difficulty": 1,
-          "hint": "地点片段",
-          "grammarAnalysis": "街名",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "near：在······附近",
           "words": [
             {
-              "text": "Moon",
-              "phonetic": "/muːn/",
-              "partOfSpeech": "名词",
-              "meaning": "月亮"
-            },
-            {
-              "text": "Street",
-              "phonetic": "/striːt/",
-              "partOfSpeech": "名词",
-              "meaning": "街道"
+              "text": "near",
+              "phonetic": "/nɪə/",
+              "partOfSpeech": "介词",
+              "meaning": "在……附近"
             }
           ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "4-4-4"
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "near"
+            }
+          ],
+          "category": "word",
+          "id": "4-4",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 4,
           "segmentNumber": 5,
-          "english": "City Library.",
-          "speaker": "Su Hai",
-          "chinese": "城市图书馆。",
+          "english": "city",
+          "speaker": "wordlist",
+          "chinese": "城市",
           "difficulty": 1,
-          "hint": "地点片段",
-          "grammarAnalysis": "图书馆",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "city：城市",
           "words": [
             {
-              "text": "City",
+              "text": "city",
               "phonetic": "/ˈsɪti/",
               "partOfSpeech": "名词",
               "meaning": "城市"
-            },
-            {
-              "text": "Library",
-              "phonetic": "/ˈlaɪbrəri/",
-              "partOfSpeech": "名词",
-              "meaning": "图书馆"
             }
           ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "4-5-5"
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "city"
+            }
+          ],
+          "category": "word",
+          "id": "4-5",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 4,
           "segmentNumber": 6,
-          "english": "I live on Moon Street, near City Library.",
+          "english": "near City Library",
           "speaker": "Su Hai",
-          "chinese": "我住在月亮街，城市图书馆附近。",
+          "chinese": "在市图书馆附近",
           "difficulty": 1,
-          "hint": "描述住址",
-          "grammarAnalysis": "live on + 街名 + near + 地点",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            },
-            {
-              "text": "live",
-              "phonetic": "/lɪv/",
-              "partOfSpeech": "动词",
-              "meaning": "住"
-            },
-            {
-              "text": "on",
-              "phonetic": "/ɒn/",
-              "partOfSpeech": "介词",
-              "meaning": "在……上"
-            },
-            {
-              "text": "Moon",
-              "phonetic": "/muːn/",
-              "partOfSpeech": "名词",
-              "meaning": "月亮"
-            },
-            {
-              "text": "Street",
-              "phonetic": "/striːt/",
-              "partOfSpeech": "名词",
-              "meaning": "街道"
-            },
             {
               "text": "near",
               "phonetic": "/nɪə/",
@@ -728,13 +706,13 @@
               "meaning": "在……附近"
             },
             {
-              "text": "City",
+              "text": "city",
               "phonetic": "/ˈsɪti/",
               "partOfSpeech": "名词",
               "meaning": "城市"
             },
             {
-              "text": "Library",
+              "text": "library",
               "phonetic": "/ˈlaɪbrəri/",
               "partOfSpeech": "名词",
               "meaning": "图书馆"
@@ -742,56 +720,111 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "I"
-            },
-            {
-              "label": "动作",
-              "text": "live"
-            },
-            {
               "label": "地点",
-              "text": "on Moon Street"
-            },
-            {
-              "label": "补充",
               "text": "near City Library"
             }
           ],
+          "category": "phrase",
+          "id": "4-6"
+        },
+        {
+          "sequenceNumber": 4,
+          "segmentNumber": 7,
+          "english": "I live on Moon Street, near City Library.",
+          "speaker": "Su Hai",
+          "chinese": "我住在月亮街，市图书馆附近。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "i",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我"
+            },
+            {
+              "text": "live",
+              "phonetic": "/lɪv/",
+              "partOfSpeech": "动词",
+              "meaning": "居住"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……上；穿上"
+            },
+            {
+              "text": "moon",
+              "phonetic": "/muːn/",
+              "partOfSpeech": "名词",
+              "meaning": "月亮"
+            },
+            {
+              "text": "street",
+              "phonetic": "/striːt/",
+              "partOfSpeech": "名词",
+              "meaning": "街道"
+            },
+            {
+              "text": "near",
+              "phonetic": "/nɪə/",
+              "partOfSpeech": "介词",
+              "meaning": "在……附近"
+            },
+            {
+              "text": "city",
+              "phonetic": "/ˈsɪti/",
+              "partOfSpeech": "名词",
+              "meaning": "城市"
+            },
+            {
+              "text": "library",
+              "phonetic": "/ˈlaɪbrəri/",
+              "partOfSpeech": "名词",
+              "meaning": "图书馆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语",
+              "text": "live"
+            },
+            {
+              "label": "补充",
+              "text": "on Moon Street, near City Library"
+            }
+          ],
           "category": "sentence",
-          "id": "4-6-6"
+          "id": "4-7"
         },
         {
           "sequenceNumber": 5,
           "segmentNumber": 1,
-          "english": "to",
+          "english": "come to school",
           "speaker": "Yang Ling",
-          "chinese": "到",
+          "chinese": "来学校",
           "difficulty": 1,
-          "hint": "方向介词",
-          "grammarAnalysis": "to 表示目的地",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
+            {
+              "text": "come",
+              "phonetic": "/kʌm/",
+              "partOfSpeech": "动词",
+              "meaning": "来"
+            },
             {
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "5-1-1"
-        },
-        {
-          "sequenceNumber": 5,
-          "segmentNumber": 2,
-          "english": "school?",
-          "speaker": "Yang Ling",
-          "chinese": "学校？",
-          "difficulty": 1,
-          "hint": "地点名词",
-          "grammarAnalysis": "school",
-          "words": [
+              "meaning": "到；向"
+            },
             {
               "text": "school",
               "phonetic": "/skuːl/",
@@ -799,76 +832,42 @@
               "meaning": "学校"
             }
           ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "5-2-2"
-        },
-        {
-          "sequenceNumber": 5,
-          "segmentNumber": 3,
-          "english": "How do you come",
-          "speaker": "Yang Ling",
-          "chinese": "你怎么来",
-          "difficulty": 1,
-          "hint": "疑问句",
-          "grammarAnalysis": "How 询问方式",
-          "words": [
+          "structureBlocks": [
             {
-              "text": "How",
-              "phonetic": "/haʊ/",
-              "partOfSpeech": "疑问词",
-              "meaning": "怎样"
-            },
-            {
-              "text": "do",
-              "phonetic": "/duː/",
-              "partOfSpeech": "助动词",
-              "meaning": "做"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "come",
-              "phonetic": "/kʌm/",
-              "partOfSpeech": "动词",
-              "meaning": "来"
+              "label": "动作",
+              "text": "come to school"
             }
           ],
-          "structureBlocks": [],
           "category": "phrase",
-          "id": "5-3-3"
+          "id": "5-1"
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 4,
+          "segmentNumber": 2,
           "english": "How do you come to school?",
           "speaker": "Yang Ling",
-          "chinese": "你怎么来上学的？",
-          "difficulty": 1,
-          "hint": "特殊疑问句",
-          "grammarAnalysis": "How 询问交通方式",
+          "chinese": "你怎样来学校？",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "How",
+              "text": "how",
               "phonetic": "/haʊ/",
-              "partOfSpeech": "疑问词",
+              "partOfSpeech": "副词",
               "meaning": "怎样"
             },
             {
               "text": "do",
               "phonetic": "/duː/",
               "partOfSpeech": "助动词",
-              "meaning": "做"
+              "meaning": "用于疑问句"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "come",
@@ -880,7 +879,7 @@
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "到；向"
             },
             {
               "text": "school",
@@ -895,65 +894,22 @@
               "text": "How"
             },
             {
-              "label": "人物",
-              "text": "you"
-            },
-            {
-              "label": "动作",
-              "text": "come to school"
+              "label": "内容",
+              "text": "do you come to school"
             }
           ],
           "category": "sentence",
-          "id": "5-4-4"
+          "id": "5-2"
         },
         {
           "sequenceNumber": 6,
           "segmentNumber": 1,
-          "english": "Su Yang and I",
-          "speaker": "Su Hai",
-          "chinese": "苏阳和我",
-          "difficulty": 1,
-          "hint": "人物片段",
-          "grammarAnalysis": "人名 + and + I",
-          "words": [
-            {
-              "text": "Su",
-              "phonetic": "/suː/",
-              "partOfSpeech": "名词",
-              "meaning": "苏"
-            },
-            {
-              "text": "Yang",
-              "phonetic": "/jæŋ/",
-              "partOfSpeech": "名词",
-              "meaning": "阳"
-            },
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "连词",
-              "meaning": "和"
-            },
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "6-1-1"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 2,
           "english": "come to school",
           "speaker": "Su Hai",
-          "chinese": "来上学",
+          "chinese": "来学校",
           "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "come to + 地点",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
               "text": "come",
@@ -965,7 +921,7 @@
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "到；向"
             },
             {
               "text": "school",
@@ -974,26 +930,25 @@
               "meaning": "学校"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "come to school"
+            }
+          ],
           "category": "phrase",
-          "id": "6-2-2"
+          "id": "6-1"
         },
         {
           "sequenceNumber": 6,
-          "segmentNumber": 3,
-          "english": "by bus.",
-          "speaker": "Su Hai",
-          "chinese": "乘公共汽车。",
+          "segmentNumber": 2,
+          "english": "bus",
+          "speaker": "wordlist",
+          "chinese": "公共汽车，巴士",
           "difficulty": 1,
-          "hint": "交通方式",
-          "grammarAnalysis": "by + 交通工具",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "bus：公共汽车，巴士",
           "words": [
-            {
-              "text": "by",
-              "phonetic": "/baɪ/",
-              "partOfSpeech": "介词",
-              "meaning": "乘"
-            },
             {
               "text": "bus",
               "phonetic": "/bʌs/",
@@ -1001,67 +956,31 @@
               "meaning": "公共汽车"
             }
           ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "6-3-3"
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "bus"
+            }
+          ],
+          "category": "word",
+          "id": "6-2",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 6,
-          "segmentNumber": 4,
-          "english": "Su Yang and I come to school by bus.",
+          "segmentNumber": 3,
+          "english": "by bus",
           "speaker": "Su Hai",
-          "chinese": "苏阳和我乘公共汽车来上学。",
+          "chinese": "乘公共汽车",
           "difficulty": 1,
-          "hint": "描述交通方式",
-          "grammarAnalysis": "by + 交通工具",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
-            {
-              "text": "Su",
-              "phonetic": "/suː/",
-              "partOfSpeech": "名词",
-              "meaning": "苏"
-            },
-            {
-              "text": "Yang",
-              "phonetic": "/jæŋ/",
-              "partOfSpeech": "名词",
-              "meaning": "阳"
-            },
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "连词",
-              "meaning": "和"
-            },
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            },
-            {
-              "text": "come",
-              "phonetic": "/kʌm/",
-              "partOfSpeech": "动词",
-              "meaning": "来"
-            },
-            {
-              "text": "to",
-              "phonetic": "/tuː/",
-              "partOfSpeech": "介词",
-              "meaning": "到"
-            },
-            {
-              "text": "school",
-              "phonetic": "/skuːl/",
-              "partOfSpeech": "名词",
-              "meaning": "学校"
-            },
             {
               "text": "by",
               "phonetic": "/baɪ/",
               "partOfSpeech": "介词",
-              "meaning": "乘"
+              "meaning": "乘坐"
             },
             {
               "text": "bus",
@@ -1072,63 +991,137 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "Su Yang and I"
-            },
-            {
-              "label": "动作",
-              "text": "come to school"
-            },
-            {
-              "label": "交通方式",
+              "label": "方式",
               "text": "by bus"
             }
           ],
+          "category": "phrase",
+          "id": "6-3"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
+          "english": "Su Yang and I come to school by bus.",
+          "speaker": "Su Hai",
+          "chinese": "苏阳和我乘公共汽车来学校。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "su",
+              "phonetic": "/suː/",
+              "partOfSpeech": "名词",
+              "meaning": "苏"
+            },
+            {
+              "text": "yang",
+              "phonetic": "/jæŋ/",
+              "partOfSpeech": "名词",
+              "meaning": "杨"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "连词",
+              "meaning": "和；并且"
+            },
+            {
+              "text": "i",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我"
+            },
+            {
+              "text": "come",
+              "phonetic": "/kʌm/",
+              "partOfSpeech": "动词",
+              "meaning": "来"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "介词",
+              "meaning": "到；向"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "名词",
+              "meaning": "学校"
+            },
+            {
+              "text": "by",
+              "phonetic": "/baɪ/",
+              "partOfSpeech": "介词",
+              "meaning": "乘坐"
+            },
+            {
+              "text": "bus",
+              "phonetic": "/bʌs/",
+              "partOfSpeech": "名词",
+              "meaning": "公共汽车"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "Su Yang and I"
+            },
+            {
+              "label": "谓语",
+              "text": "come"
+            },
+            {
+              "label": "补充",
+              "text": "to school by bus"
+            }
+          ],
           "category": "sentence",
-          "id": "6-4-4"
+          "id": "6-4"
         },
         {
           "sequenceNumber": 7,
           "segmentNumber": 1,
           "english": "Where do you live, Yang Ling?",
           "speaker": "Mike",
-          "chinese": "你住在哪里，杨玲？",
-          "difficulty": 1,
-          "hint": "特殊疑问句",
-          "grammarAnalysis": "Where 询问地点",
+          "chinese": "杨玲，你住在哪里？",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "Where",
+              "text": "where",
               "phonetic": "/weə/",
-              "partOfSpeech": "疑问词",
-              "meaning": "在哪里"
+              "partOfSpeech": "副词",
+              "meaning": "哪里"
             },
             {
               "text": "do",
               "phonetic": "/duː/",
               "partOfSpeech": "助动词",
-              "meaning": "做"
+              "meaning": "用于疑问句"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "live",
               "phonetic": "/lɪv/",
               "partOfSpeech": "动词",
-              "meaning": "住"
+              "meaning": "居住"
             },
             {
-              "text": "Yang",
+              "text": "yang",
               "phonetic": "/jæŋ/",
               "partOfSpeech": "名词",
               "meaning": "杨"
             },
             {
-              "text": "Ling",
+              "text": "ling",
               "phonetic": "/lɪŋ/",
               "partOfSpeech": "名词",
               "meaning": "玲"
@@ -1140,48 +1133,78 @@
               "text": "Where"
             },
             {
-              "label": "人物",
-              "text": "you"
-            },
-            {
-              "label": "动作",
-              "text": "live"
-            },
-            {
-              "label": "称呼",
-              "text": "Yang Ling"
+              "label": "内容",
+              "text": "do you live, Yang Ling"
             }
           ],
           "category": "sentence",
-          "id": "7-1-1"
+          "id": "7-1"
         },
         {
           "sequenceNumber": 7,
           "segmentNumber": 2,
-          "english": "How do you come to school?",
+          "english": "come to school",
           "speaker": "Mike",
-          "chinese": "你怎么来上学的？",
+          "chinese": "来学校",
           "difficulty": 1,
-          "hint": "特殊疑问句",
-          "grammarAnalysis": "How 询问交通方式",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "How",
+              "text": "come",
+              "phonetic": "/kʌm/",
+              "partOfSpeech": "动词",
+              "meaning": "来"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "介词",
+              "meaning": "到；向"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "名词",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "come to school"
+            }
+          ],
+          "category": "phrase",
+          "id": "7-2"
+        },
+        {
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
+          "english": "How do you come to school?",
+          "speaker": "Mike",
+          "chinese": "你怎样来学校？",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
+          "words": [
+            {
+              "text": "how",
               "phonetic": "/haʊ/",
-              "partOfSpeech": "疑问词",
+              "partOfSpeech": "副词",
               "meaning": "怎样"
             },
             {
               "text": "do",
               "phonetic": "/duː/",
               "partOfSpeech": "助动词",
-              "meaning": "做"
+              "meaning": "用于疑问句"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "come",
@@ -1193,7 +1216,7 @@
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "到；向"
             },
             {
               "text": "school",
@@ -1208,44 +1231,28 @@
               "text": "How"
             },
             {
-              "label": "人物",
-              "text": "you"
-            },
-            {
-              "label": "动作",
-              "text": "come to school"
+              "label": "内容",
+              "text": "do you come to school"
             }
           ],
           "category": "sentence",
-          "id": "7-2-2"
+          "id": "7-3"
         },
         {
           "sequenceNumber": 8,
           "segmentNumber": 1,
-          "english": "I come to school",
+          "english": "near school",
           "speaker": "Yang Ling",
-          "chinese": "我来上学",
+          "chinese": "在学校附近",
           "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "come to + 地点",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            },
-            {
-              "text": "come",
-              "phonetic": "/kʌm/",
-              "partOfSpeech": "动词",
-              "meaning": "来"
-            },
-            {
-              "text": "to",
-              "phonetic": "/tuː/",
+              "text": "near",
+              "phonetic": "/nɪə/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "在……附近"
             },
             {
               "text": "school",
@@ -1254,49 +1261,27 @@
               "meaning": "学校"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "地点",
+              "text": "near school"
+            }
+          ],
           "category": "phrase",
-          "id": "8-1-1"
+          "id": "8-1"
         },
         {
           "sequenceNumber": 8,
           "segmentNumber": 2,
-          "english": "on foot.",
-          "speaker": "Yang Ling",
-          "chinese": "步行。",
-          "difficulty": 1,
-          "hint": "交通方式",
-          "grammarAnalysis": "on foot 固定搭配",
-          "words": [
-            {
-              "text": "on",
-              "phonetic": "/ɒn/",
-              "partOfSpeech": "介词",
-              "meaning": "用"
-            },
-            {
-              "text": "foot",
-              "phonetic": "/fʊt/",
-              "partOfSpeech": "名词",
-              "meaning": "脚"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "8-2-2"
-        },
-        {
-          "sequenceNumber": 8,
-          "segmentNumber": 3,
           "english": "I live near school.",
           "speaker": "Yang Ling",
           "chinese": "我住在学校附近。",
-          "difficulty": 1,
-          "hint": "描述住址",
-          "grammarAnalysis": "live near + 地点",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1305,7 +1290,7 @@
               "text": "live",
               "phonetic": "/lɪv/",
               "partOfSpeech": "动词",
-              "meaning": "住"
+              "meaning": "居住"
             },
             {
               "text": "near",
@@ -1322,33 +1307,103 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
+              "label": "谓语",
               "text": "live"
             },
             {
-              "label": "地点",
+              "label": "补充",
               "text": "near school"
             }
           ],
           "category": "sentence",
-          "id": "8-3-3"
+          "id": "8-2"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
+          "english": "come to school",
+          "speaker": "Yang Ling",
+          "chinese": "来学校",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "come",
+              "phonetic": "/kʌm/",
+              "partOfSpeech": "动词",
+              "meaning": "来"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "介词",
+              "meaning": "到；向"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "名词",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "come to school"
+            }
+          ],
+          "category": "phrase",
+          "id": "8-3"
         },
         {
           "sequenceNumber": 8,
           "segmentNumber": 4,
-          "english": "I come to school on foot.",
+          "english": "on foot",
           "speaker": "Yang Ling",
-          "chinese": "我步行来上学。",
+          "chinese": "步行",
           "difficulty": 1,
-          "hint": "描述交通方式",
-          "grammarAnalysis": "on foot 步行",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "I",
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……上；穿上"
+            },
+            {
+              "text": "foot",
+              "phonetic": "/fʊt/",
+              "partOfSpeech": "名词",
+              "meaning": "脚"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "方式",
+              "text": "on foot"
+            }
+          ],
+          "category": "phrase",
+          "id": "8-4"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 5,
+          "english": "I come to school on foot.",
+          "speaker": "Yang Ling",
+          "chinese": "我步行来学校。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1363,7 +1418,7 @@
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "到；向"
             },
             {
               "text": "school",
@@ -1375,7 +1430,7 @@
               "text": "on",
               "phonetic": "/ɒn/",
               "partOfSpeech": "介词",
-              "meaning": "用"
+              "meaning": "在……上；穿上"
             },
             {
               "text": "foot",
@@ -1386,54 +1441,54 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "come to school"
+              "label": "谓语",
+              "text": "come"
             },
             {
-              "label": "交通方式",
-              "text": "on foot"
+              "label": "补充",
+              "text": "to school on foot"
             }
           ],
           "category": "sentence",
-          "id": "8-4-4"
+          "id": "8-5"
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 5,
+          "segmentNumber": 6,
           "english": "Where do you live?",
           "speaker": "Yang Ling",
           "chinese": "你住在哪里？",
-          "difficulty": 1,
-          "hint": "特殊疑问句",
-          "grammarAnalysis": "Where 询问地点",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "Where",
+              "text": "where",
               "phonetic": "/weə/",
-              "partOfSpeech": "疑问词",
-              "meaning": "在哪里"
+              "partOfSpeech": "副词",
+              "meaning": "哪里"
             },
             {
               "text": "do",
               "phonetic": "/duː/",
               "partOfSpeech": "助动词",
-              "meaning": "做"
+              "meaning": "用于疑问句"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "live",
               "phonetic": "/lɪv/",
               "partOfSpeech": "动词",
-              "meaning": "住"
+              "meaning": "居住"
             }
           ],
           "structureBlocks": [
@@ -1442,128 +1497,37 @@
               "text": "Where"
             },
             {
-              "label": "人物",
-              "text": "you"
-            },
-            {
-              "label": "动作",
-              "text": "live"
+              "label": "内容",
+              "text": "do you live"
             }
           ],
           "category": "sentence",
-          "id": "8-5-5"
+          "id": "8-6"
         },
         {
           "sequenceNumber": 9,
           "segmentNumber": 1,
-          "english": "I live",
+          "english": "in Sunshine Town",
           "speaker": "Mike",
-          "chinese": "我住在",
+          "chinese": "在阳光镇",
           "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "live + 地点",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            },
-            {
-              "text": "live",
-              "phonetic": "/lɪv/",
-              "partOfSpeech": "动词",
-              "meaning": "住"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "9-1-1"
-        },
-        {
-          "sequenceNumber": 9,
-          "segmentNumber": 2,
-          "english": "in",
-          "speaker": "Mike",
-          "chinese": "在",
-          "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "in 表示在某城市内",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
               "meaning": "在……里"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "9-2-2"
-        },
-        {
-          "sequenceNumber": 9,
-          "segmentNumber": 3,
-          "english": "Sunshine Town.",
-          "speaker": "Mike",
-          "chinese": "阳光镇。",
-          "difficulty": 1,
-          "hint": "地点片段",
-          "grammarAnalysis": "镇名",
-          "words": [
+            },
             {
-              "text": "Sunshine",
+              "text": "sunshine",
               "phonetic": "/ˈsʌnʃaɪn/",
               "partOfSpeech": "名词",
               "meaning": "阳光"
             },
             {
-              "text": "Town",
-              "phonetic": "/taʊn/",
-              "partOfSpeech": "名词",
-              "meaning": "城镇"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "9-3-3"
-        },
-        {
-          "sequenceNumber": 9,
-          "segmentNumber": 4,
-          "english": "I live in Sunshine Town.",
-          "speaker": "Mike",
-          "chinese": "我住在阳光镇。",
-          "difficulty": 1,
-          "hint": "描述住址",
-          "grammarAnalysis": "live in + 城镇名",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            },
-            {
-              "text": "live",
-              "phonetic": "/lɪv/",
-              "partOfSpeech": "动词",
-              "meaning": "住"
-            },
-            {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在……里"
-            },
-            {
-              "text": "Sunshine",
-              "phonetic": "/ˈsʌnʃaɪn/",
-              "partOfSpeech": "名词",
-              "meaning": "阳光"
-            },
-            {
-              "text": "Town",
+              "text": "town",
               "phonetic": "/taʊn/",
               "partOfSpeech": "名词",
               "meaning": "城镇"
@@ -1571,33 +1535,180 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "I"
-            },
-            {
-              "label": "动作",
-              "text": "live"
-            },
-            {
               "label": "地点",
               "text": "in Sunshine Town"
             }
           ],
+          "category": "phrase",
+          "id": "9-1"
+        },
+        {
+          "sequenceNumber": 9,
+          "segmentNumber": 2,
+          "english": "I live in Sunshine Town.",
+          "speaker": "Mike",
+          "chinese": "我住在阳光镇。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "i",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我"
+            },
+            {
+              "text": "live",
+              "phonetic": "/lɪv/",
+              "partOfSpeech": "动词",
+              "meaning": "居住"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……里"
+            },
+            {
+              "text": "sunshine",
+              "phonetic": "/ˈsʌnʃaɪn/",
+              "partOfSpeech": "名词",
+              "meaning": "阳光"
+            },
+            {
+              "text": "town",
+              "phonetic": "/taʊn/",
+              "partOfSpeech": "名词",
+              "meaning": "城镇"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语",
+              "text": "live"
+            },
+            {
+              "label": "补充",
+              "text": "in Sunshine Town"
+            }
+          ],
           "category": "sentence",
-          "id": "9-4-4"
+          "id": "9-2"
+        },
+        {
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
+          "english": "come to school",
+          "speaker": "Mike",
+          "chinese": "来学校",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "come",
+              "phonetic": "/kʌm/",
+              "partOfSpeech": "动词",
+              "meaning": "来"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "介词",
+              "meaning": "到；向"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "名词",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "come to school"
+            }
+          ],
+          "category": "phrase",
+          "id": "9-3"
+        },
+        {
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
+          "english": "metro",
+          "speaker": "wordlist",
+          "chinese": "地铁",
+          "difficulty": 1,
+          "hint": "课本重点单词",
+          "grammarAnalysis": "metro：地铁",
+          "words": [
+            {
+              "text": "metro",
+              "phonetic": "/ˈmetrəʊ/",
+              "partOfSpeech": "名词",
+              "meaning": "地铁"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "metro"
+            }
+          ],
+          "category": "word",
+          "id": "9-4",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 9,
           "segmentNumber": 5,
-          "english": "I come to school by metro.",
+          "english": "by metro",
           "speaker": "Mike",
-          "chinese": "我乘地铁来上学。",
+          "chinese": "乘地铁",
           "difficulty": 1,
-          "hint": "描述交通方式",
-          "grammarAnalysis": "by metro",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "I",
+              "text": "by",
+              "phonetic": "/baɪ/",
+              "partOfSpeech": "介词",
+              "meaning": "乘坐"
+            },
+            {
+              "text": "metro",
+              "phonetic": "/ˈmetrəʊ/",
+              "partOfSpeech": "名词",
+              "meaning": "地铁"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "方式",
+              "text": "by metro"
+            }
+          ],
+          "category": "phrase",
+          "id": "9-5"
+        },
+        {
+          "sequenceNumber": 9,
+          "segmentNumber": 6,
+          "english": "I come to school by metro.",
+          "speaker": "Mike",
+          "chinese": "我乘地铁来学校。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1612,7 +1723,7 @@
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "到；向"
             },
             {
               "text": "school",
@@ -1624,7 +1735,7 @@
               "text": "by",
               "phonetic": "/baɪ/",
               "partOfSpeech": "介词",
-              "meaning": "乘"
+              "meaning": "乘坐"
             },
             {
               "text": "metro",
@@ -1635,33 +1746,33 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "come to school"
+              "label": "谓语",
+              "text": "come"
             },
             {
-              "label": "交通方式",
-              "text": "by metro"
+              "label": "补充",
+              "text": "to school by metro"
             }
           ],
           "category": "sentence",
-          "id": "9-5-5"
+          "id": "9-6"
         },
         {
           "sequenceNumber": 9,
-          "segmentNumber": 6,
+          "segmentNumber": 7,
           "english": "What about you, Liu Tao?",
           "speaker": "Mike",
-          "chinese": "你呢，刘涛？",
-          "difficulty": 1,
-          "hint": "询问对方",
-          "grammarAnalysis": "What about + 人",
+          "chinese": "刘涛，你呢？",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "What",
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -1676,16 +1787,16 @@
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
-              "text": "Liu",
+              "text": "liu",
               "phonetic": "/ljuː/",
               "partOfSpeech": "名词",
               "meaning": "刘"
             },
             {
-              "text": "Tao",
+              "text": "tao",
               "phonetic": "/taʊ/",
               "partOfSpeech": "名词",
               "meaning": "涛"
@@ -1693,99 +1804,67 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
-              "text": "What about"
+              "label": "疑问词",
+              "text": "What"
             },
             {
-              "label": "人物",
-              "text": "you"
-            },
-            {
-              "label": "称呼",
-              "text": "Liu Tao"
+              "label": "内容",
+              "text": "about you, Liu Tao"
             }
           ],
           "category": "sentence",
-          "id": "9-6-6"
+          "id": "9-7"
         },
         {
           "sequenceNumber": 10,
           "segmentNumber": 1,
-          "english": "My father",
+          "english": "on Park Street",
           "speaker": "Liu Tao",
-          "chinese": "我的爸爸",
+          "chinese": "在公园街",
           "difficulty": 1,
-          "hint": "人物片段",
-          "grammarAnalysis": "My + 名词",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "My",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我的"
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……上；穿上"
             },
             {
-              "text": "father",
-              "phonetic": "/ˈfɑːðə/",
+              "text": "park",
+              "phonetic": "/pɑːk/",
               "partOfSpeech": "名词",
-              "meaning": "爸爸"
+              "meaning": "公园"
+            },
+            {
+              "text": "street",
+              "phonetic": "/striːt/",
+              "partOfSpeech": "名词",
+              "meaning": "街道"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "地点",
+              "text": "on Park Street"
+            }
+          ],
           "category": "phrase",
-          "id": "10-1-1"
+          "id": "10-1"
         },
         {
           "sequenceNumber": 10,
           "segmentNumber": 2,
-          "english": "is a taxi driver.",
-          "speaker": "Liu Tao",
-          "chinese": "是一名出租车司机。",
-          "difficulty": 1,
-          "hint": "职业描述",
-          "grammarAnalysis": "is a + 职业名词",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "冠词",
-              "meaning": "一个"
-            },
-            {
-              "text": "taxi",
-              "phonetic": "/ˈtæksi/",
-              "partOfSpeech": "名词",
-              "meaning": "出租车"
-            },
-            {
-              "text": "driver",
-              "phonetic": "/ˈdraɪvə/",
-              "partOfSpeech": "名词",
-              "meaning": "司机"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "10-2-2"
-        },
-        {
-          "sequenceNumber": 10,
-          "segmentNumber": 3,
           "english": "I live on Park Street.",
           "speaker": "Liu Tao",
           "chinese": "我住在公园街。",
-          "difficulty": 1,
-          "hint": "描述住址",
-          "grammarAnalysis": "live on + 街名",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1794,22 +1873,22 @@
               "text": "live",
               "phonetic": "/lɪv/",
               "partOfSpeech": "动词",
-              "meaning": "住"
+              "meaning": "居住"
             },
             {
               "text": "on",
               "phonetic": "/ɒn/",
               "partOfSpeech": "介词",
-              "meaning": "在……上"
+              "meaning": "在……上；穿上"
             },
             {
-              "text": "Park",
+              "text": "park",
               "phonetic": "/pɑːk/",
               "partOfSpeech": "名词",
               "meaning": "公园"
             },
             {
-              "text": "Street",
+              "text": "street",
               "phonetic": "/striːt/",
               "partOfSpeech": "名词",
               "meaning": "街道"
@@ -1817,33 +1896,130 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
+              "label": "谓语",
               "text": "live"
             },
             {
-              "label": "地点",
+              "label": "补充",
               "text": "on Park Street"
             }
           ],
           "category": "sentence",
-          "id": "10-3-3"
+          "id": "10-2"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
+          "english": "come to school",
+          "speaker": "Liu Tao",
+          "chinese": "来学校",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "come",
+              "phonetic": "/kʌm/",
+              "partOfSpeech": "动词",
+              "meaning": "来"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "介词",
+              "meaning": "到；向"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "名词",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "come to school"
+            }
+          ],
+          "category": "phrase",
+          "id": "10-3"
         },
         {
           "sequenceNumber": 10,
           "segmentNumber": 4,
-          "english": "I come to school by taxi.",
-          "speaker": "Liu Tao",
-          "chinese": "我乘出租车来上学。",
+          "english": "taxi",
+          "speaker": "wordlist",
+          "chinese": "出租车，的士",
           "difficulty": 1,
-          "hint": "描述交通方式",
-          "grammarAnalysis": "by taxi",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "taxi：出租车，的士",
           "words": [
             {
-              "text": "I",
+              "text": "taxi",
+              "phonetic": "/ˈtæksi/",
+              "partOfSpeech": "名词",
+              "meaning": "出租车"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "taxi"
+            }
+          ],
+          "category": "word",
+          "id": "10-4",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 5,
+          "english": "by taxi",
+          "speaker": "Liu Tao",
+          "chinese": "乘出租车",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "by",
+              "phonetic": "/baɪ/",
+              "partOfSpeech": "介词",
+              "meaning": "乘坐"
+            },
+            {
+              "text": "taxi",
+              "phonetic": "/ˈtæksi/",
+              "partOfSpeech": "名词",
+              "meaning": "出租车"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "方式",
+              "text": "by taxi"
+            }
+          ],
+          "category": "phrase",
+          "id": "10-5"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 6,
+          "english": "I come to school by taxi.",
+          "speaker": "Liu Tao",
+          "chinese": "我乘出租车来学校。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1858,7 +2034,7 @@
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "到；向"
             },
             {
               "text": "school",
@@ -1870,7 +2046,7 @@
               "text": "by",
               "phonetic": "/baɪ/",
               "partOfSpeech": "介词",
-              "meaning": "乘"
+              "meaning": "乘坐"
             },
             {
               "text": "taxi",
@@ -1881,33 +2057,71 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "come to school"
+              "label": "谓语",
+              "text": "come"
             },
             {
-              "label": "交通方式",
-              "text": "by taxi"
+              "label": "补充",
+              "text": "to school by taxi"
             }
           ],
           "category": "sentence",
-          "id": "10-4-4"
+          "id": "10-6"
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 5,
-          "english": "My father is a taxi driver.",
+          "segmentNumber": 7,
+          "english": "a taxi driver",
           "speaker": "Liu Tao",
-          "chinese": "我的爸爸是一名出租车司机。",
+          "chinese": "一名出租车司机",
           "difficulty": 1,
-          "hint": "描述职业",
-          "grammarAnalysis": "is a + 职业",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "My",
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "taxi",
+              "phonetic": "/ˈtæksi/",
+              "partOfSpeech": "名词",
+              "meaning": "出租车"
+            },
+            {
+              "text": "driver",
+              "phonetic": "/ˈdraɪvə/",
+              "partOfSpeech": "名词",
+              "meaning": "司机"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "身份",
+              "text": "a taxi driver"
+            }
+          ],
+          "category": "phrase",
+          "id": "10-7"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 8,
+          "english": "My father is a taxi driver.",
+          "speaker": "Liu Tao",
+          "chinese": "我爸爸是一名出租车司机。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "my",
               "phonetic": "/maɪ/",
               "partOfSpeech": "代词",
               "meaning": "我的"
@@ -1916,13 +2130,13 @@
               "text": "father",
               "phonetic": "/ˈfɑːðə/",
               "partOfSpeech": "名词",
-              "meaning": "爸爸"
+              "meaning": "父亲"
             },
             {
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；存在"
             },
             {
               "text": "a",
@@ -1945,16 +2159,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "My father"
             },
             {
-              "label": "状态",
-              "text": "is a taxi driver"
+              "label": "谓语",
+              "text": "is"
+            },
+            {
+              "label": "补充",
+              "text": "a taxi driver"
             }
           ],
           "category": "sentence",
-          "id": "10-5-5"
+          "id": "10-8"
         }
       ]
     }

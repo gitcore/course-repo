@@ -1,0 +1,303 @@
+{
+  "manifestId": "nanjing-yuhua-grade5-semester2-unit6",
+  "activityType": "reading-qa",
+  "sourceHash": "",
+  "generatorVersion": "learn-language-generator-2",
+  "generatedAt": "2026-04-30",
+  "images": [
+    {
+      "id": "unit6-knowledge-points",
+      "src": "assets/images/unit6-knowledge-points.png",
+      "alt": "五年级下册英语第六单元在厨房知识点图，包含厨房、洗蔬菜、做饭、冰箱找果汁和晚饭场景",
+      "relatedLines": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "u6-q1",
+      "question": "故事发生在什么时间？",
+      "options": [
+        "早上六点",
+        "晚上六点",
+        "中午十二点",
+        "晚上九点"
+      ],
+      "correctIndex": 1,
+      "explanation": "开头说 It is six o'clock in the evening。"
+    },
+    {
+      "id": "u6-q2",
+      "question": "刘涛的父母在哪里做晚饭？",
+      "options": [
+        "客厅",
+        "卧室",
+        "厨房",
+        "花园"
+      ],
+      "correctIndex": 2,
+      "explanation": "文中说 His parents are cooking dinner in the kitchen。"
+    },
+    {
+      "id": "u6-q3",
+      "question": "妈妈正在做肉吗？",
+      "options": [
+        "是的，她正在做肉",
+        "不，她正在洗蔬菜",
+        "不，她正在找果汁",
+        "是的，她正在做面包"
+      ],
+      "correctIndex": 1,
+      "explanation": "妈妈回答 No, I'm not. I'm washing some vegetables。"
+    },
+    {
+      "id": "u6-q4",
+      "question": "爸爸正在做什么？",
+      "options": [
+        "土豆烧肉",
+        "西红柿汤",
+        "橙汁",
+        "面包"
+      ],
+      "correctIndex": 0,
+      "explanation": "爸爸说自己正在 cooking meat with potatoes。"
+    },
+    {
+      "id": "u6-q5",
+      "question": "刘涛在冰箱里找什么？",
+      "options": [
+        "肉",
+        "土豆",
+        "果汁",
+        "蔬菜"
+      ],
+      "correctIndex": 2,
+      "explanation": "文中说 Liu Tao is looking for some juice in the fridge。"
+    },
+    {
+      "id": "u6-q6",
+      "question": "冰箱里有苹果汁吗？",
+      "options": [
+        "有很多",
+        "没有，但有橙汁",
+        "没有任何饮料",
+        "只有牛奶"
+      ],
+      "correctIndex": 1,
+      "explanation": "妈妈说 No, but there's some orange juice。"
+    },
+    {
+      "id": "u6-q7",
+      "question": "晚饭准备好后，刘涛正在吃什么？",
+      "options": [
+        "汤",
+        "肉",
+        "面包",
+        "蔬菜"
+      ],
+      "correctIndex": 1,
+      "explanation": "文中说 Liu Tao is eating the meat。"
+    },
+    {
+      "id": "u6-q8",
+      "question": "刘涛觉得肉怎么样？",
+      "options": [
+        "太咸了",
+        "不好吃",
+        "很美味",
+        "太冷了"
+      ],
+      "correctIndex": 2,
+      "explanation": "刘涛说 It's yummy。"
+    },
+    {
+      "id": "u6-q9",
+      "question": "哪一句可以询问“肉怎么样”？",
+      "options": [
+        "How's the meat?",
+        "Where is the meat?",
+        "Are you cooking meat?",
+        "Is there any meat?"
+      ],
+      "correctIndex": 0,
+      "explanation": "How's the meat? 用来询问肉怎么样。"
+    },
+    {
+      "id": "u6-q10",
+      "question": "本单元重点练习哪种问句？",
+      "options": [
+        "现在进行时一般疑问句",
+        "过去时问句",
+        "将来时问句",
+        "比较级问句"
+      ],
+      "correctIndex": 0,
+      "explanation": "本单元重点句型包括 Are you cooking meat? 和 Is there any apple juice...?。"
+    },
+    {
+      "id": "img-u6-q1",
+      "imageId": "unit6-knowledge-points",
+      "type": "multiple-choice",
+      "question": "图中的主要场景在哪里？",
+      "prompt": "图中的主要场景在哪里？",
+      "options": [
+        "厨房",
+        "医院",
+        "图书馆",
+        "车站"
+      ],
+      "correctIndex": 0,
+      "answer": "厨房",
+      "targetEnglish": "In the kitchen",
+      "targetChinese": "在厨房",
+      "explanation": "图片主题是第六单元“在厨房”，画面中有灶台、冰箱、水槽和晚饭。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u6-q2",
+      "imageId": "unit6-knowledge-points",
+      "type": "multiple-choice",
+      "question": "图中妈妈正在做什么？",
+      "prompt": "图中妈妈正在做什么？",
+      "options": [
+        "洗蔬菜",
+        "擦车",
+        "扫地",
+        "睡觉"
+      ],
+      "correctIndex": 0,
+      "answer": "洗蔬菜",
+      "targetEnglish": "I'm washing some vegetables.",
+      "targetChinese": "我正在洗一些蔬菜。",
+      "explanation": "图中妈妈在水槽边洗蔬菜，对应课文里的 washing some vegetables。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u6-q3",
+      "imageId": "unit6-knowledge-points",
+      "type": "multiple-choice",
+      "question": "图中爸爸正在做什么？",
+      "prompt": "图中爸爸正在做什么？",
+      "options": [
+        "做土豆烧肉",
+        "洗蔬菜",
+        "找果汁",
+        "整理床铺"
+      ],
+      "correctIndex": 0,
+      "answer": "做土豆烧肉",
+      "targetEnglish": "I'm cooking meat with potatoes, Taotao.",
+      "targetChinese": "我正在做土豆烧肉。",
+      "explanation": "图中爸爸在炉灶前烹饪肉和土豆。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u6-q4",
+      "imageId": "unit6-knowledge-points",
+      "type": "multiple-choice",
+      "question": "图中孩子在冰箱旁边可能正在找什么？",
+      "prompt": "图中孩子在冰箱旁边可能正在找什么？",
+      "options": [
+        "果汁",
+        "书包",
+        "鞋子",
+        "药"
+      ],
+      "correctIndex": 0,
+      "answer": "果汁",
+      "targetEnglish": "Liu Tao is looking for some juice in the fridge.",
+      "targetChinese": "刘涛正在冰箱里找一些果汁。",
+      "explanation": "画面右侧孩子站在冰箱旁，手里拿着饮料，对应课文找果汁的情节。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u6-q5",
+      "imageId": "unit6-knowledge-points",
+      "type": "multiple-choice",
+      "question": "图中桌上有哪种汤？",
+      "prompt": "图中桌上有哪种汤？",
+      "options": [
+        "西红柿汤",
+        "鱼汤",
+        "鸡汤",
+        "蘑菇汤"
+      ],
+      "correctIndex": 0,
+      "answer": "西红柿汤",
+      "targetEnglish": "I want to cook some tomato soup.",
+      "targetChinese": "我想做一些西红柿汤。",
+      "explanation": "图中桌上有红色汤，与课文里的 tomato soup 对应。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u6-q6",
+      "imageId": "unit6-knowledge-points",
+      "type": "multiple-choice",
+      "question": "图中展示的语法重点是什么？",
+      "prompt": "图中展示的语法重点是什么？",
+      "options": [
+        "现在进行时",
+        "一般将来时",
+        "过去进行时",
+        "比较级"
+      ],
+      "correctIndex": 0,
+      "answer": "现在进行时",
+      "targetEnglish": "be + verb-ing",
+      "targetChinese": "现在进行时",
+      "explanation": "图片右下角语法重点写着“现在进行时”，用于表示正在进行的动作。",
+      "difficulty": 1
+    },
+    {
+      "id": "img-u6-q7",
+      "imageId": "unit6-knowledge-points",
+      "type": "multiple-choice",
+      "question": "如果想问“肉怎么样？”，应该使用哪类表达？",
+      "prompt": "如果想问“肉怎么样？”，应该使用哪类表达？",
+      "options": [
+        "询问评价",
+        "询问地点",
+        "询问时间",
+        "询问年龄"
+      ],
+      "correctIndex": 0,
+      "answer": "询问评价",
+      "targetEnglish": "How's the meat?",
+      "targetChinese": "肉怎么样？",
+      "explanation": "课文中爸爸问 How’s the meat? 是询问食物味道和评价。",
+      "difficulty": 2
+    },
+    {
+      "id": "img-u6-q8",
+      "imageId": "unit6-knowledge-points",
+      "type": "multiple-choice",
+      "question": "这张图最适合帮助复习哪一单元主题？",
+      "prompt": "这张图最适合帮助复习哪一单元主题？",
+      "options": [
+        "在厨房",
+        "看医生",
+        "问路",
+        "灰姑娘"
+      ],
+      "correctIndex": 0,
+      "answer": "在厨房",
+      "targetEnglish": "In the kitchen",
+      "targetChinese": "在厨房",
+      "explanation": "图片中心是家庭厨房和做饭场景，对应 Unit 6 In the kitchen。",
+      "difficulty": 1
+    }
+  ]
+}

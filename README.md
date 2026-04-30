@@ -21,7 +21,7 @@ my-unit-folder/
 └── content/
     ├── sentence-practice.json           ← 生成：拆句练习
     ├── conversation-practice.json       ← 生成：对话练习
-    └── image-qa.json                    ← 可选：看图问答
+    └── reading-qa.json                  ← 可选：阅读理解（可含图片题）
 ```
 
 ## 第一步：准备课文源文件
@@ -220,9 +220,9 @@ AI 将按以下流程执行：
       "enabled": true
     },
     {
-      "type": "image-qa",
-      "name": "看图问答",
-      "data": "content/image-qa.json",
+      "type": "reading-qa",
+      "name": "阅读理解",
+      "data": "content/reading-qa.json",
       "enabled": true
     }
   ],
@@ -330,14 +330,14 @@ AI 将按以下流程执行：
 
 对话练习直接来自 `## Story time` 原文，不做任何修改。
 
-### content/image-qa.json
+### content/reading-qa.json
 
-看图问答数据，结构如下：
+阅读理解图片题数据，结构如下：
 
 ```json
 {
   "manifestId": "grade5-semester2-unit1",
-  "activityType": "image-qa",
+  "activityType": "reading-qa",
   "sourceHash": "",
   "generatorVersion": "learn-language-generator-2",
   "generatedAt": "2026-04-29",

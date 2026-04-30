@@ -1,9 +1,9 @@
 {
   "manifestId": "nanjing-yuhua-grade5-semester2-unit4",
   "activityType": "sentence-practice",
-  "sourceHash": "",
-  "generatorVersion": "learn-language-generator-2",
-  "generatedAt": "2026-04-18",
+  "sourceHash": "manual-rebreak-unit4-progressive-order-fixed-2026-05-01",
+  "generatorVersion": "manual-rebreak-v10-progressive-order-fixed",
+  "generatedAt": "2026-04-30T18:33:32.806Z",
   "sections": [
     {
       "title": "Breakdown",
@@ -11,96 +11,18 @@
         {
           "sequenceNumber": 1,
           "segmentNumber": 1,
-          "english": "She goes to see",
+          "english": "is ill",
           "speaker": "narrator",
-          "chinese": "她去看",
+          "chinese": "生病了",
           "difficulty": 1,
-          "hint": "动作片段",
-          "grammarAnalysis": "go to + 动词原形",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
-            {
-              "text": "She",
-              "phonetic": "/ʃiː/",
-              "partOfSpeech": "代词",
-              "meaning": "她"
-            },
-            {
-              "text": "goes",
-              "phonetic": "/ɡəʊz/",
-              "partOfSpeech": "动词",
-              "meaning": "去"
-            },
-            {
-              "text": "to",
-              "phonetic": "/tuː/",
-              "partOfSpeech": "介词",
-              "meaning": "到"
-            },
-            {
-              "text": "see",
-              "phonetic": "/siː/",
-              "partOfSpeech": "动词",
-              "meaning": "看"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "1-1-1"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 2,
-          "english": "the doctor.",
-          "speaker": "narrator",
-          "chinese": "医生。",
-          "difficulty": 1,
-          "hint": "人物片段",
-          "grammarAnalysis": "the + 名词",
-          "words": [
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "doctor",
-              "phonetic": "/ˈdɒktə/",
-              "partOfSpeech": "名词",
-              "meaning": "医生"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "1-2-2"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 3,
-          "english": "Su Hai is ill.",
-          "speaker": "narrator",
-          "chinese": "苏海生病了。",
-          "difficulty": 1,
-          "hint": "状态描述",
-          "grammarAnalysis": "is + 形容词",
-          "words": [
-            {
-              "text": "Su",
-              "phonetic": "/suː/",
-              "partOfSpeech": "名词",
-              "meaning": "苏"
-            },
-            {
-              "text": "Hai",
-              "phonetic": "/haɪ/",
-              "partOfSpeech": "名词",
-              "meaning": "海"
-            },
             {
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；存在"
             },
             {
               "text": "ill",
@@ -111,29 +33,166 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "Su Hai"
-            },
-            {
               "label": "状态",
               "text": "is ill"
             }
           ],
+          "category": "phrase",
+          "id": "1-1"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "english": "Su Hai is ill.",
+          "speaker": "narrator",
+          "chinese": "苏海生病了。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "su",
+              "phonetic": "/suː/",
+              "partOfSpeech": "名词",
+              "meaning": "苏"
+            },
+            {
+              "text": "hai",
+              "phonetic": "/haɪ/",
+              "partOfSpeech": "名词",
+              "meaning": "海"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "动词",
+              "meaning": "是；存在"
+            },
+            {
+              "text": "ill",
+              "phonetic": "/ɪl/",
+              "partOfSpeech": "形容词",
+              "meaning": "生病的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "Su Hai"
+            },
+            {
+              "label": "谓语",
+              "text": "is"
+            },
+            {
+              "label": "补充",
+              "text": "ill"
+            }
+          ],
           "category": "sentence",
-          "id": "1-3-3"
+          "id": "1-2"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "english": "see the doctor",
+          "speaker": "wordlist",
+          "chinese": "看医生，看病",
+          "difficulty": 1,
+          "hint": "课本重点短语",
+          "grammarAnalysis": "see the doctor：看医生，看病",
+          "words": [
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "动词",
+              "meaning": "看见"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "doctor",
+              "phonetic": "/ˈdɒktə/",
+              "partOfSpeech": "名词",
+              "meaning": "医生"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点短语",
+              "text": "see the doctor"
+            }
+          ],
+          "category": "phrase",
+          "id": "1-3",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "goes to see the doctor",
+          "speaker": "narrator",
+          "chinese": "去看医生",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "goes",
+              "phonetic": "/ɡəʊz/",
+              "partOfSpeech": "动词",
+              "meaning": "去"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "介词",
+              "meaning": "到；向"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "动词",
+              "meaning": "看见"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "doctor",
+              "phonetic": "/ˈdɒktə/",
+              "partOfSpeech": "名词",
+              "meaning": "医生"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "goes to see the doctor"
+            }
+          ],
+          "category": "phrase",
+          "id": "1-4"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "She goes to see the doctor.",
           "speaker": "narrator",
           "chinese": "她去看医生。",
-          "difficulty": 1,
-          "hint": "动作句",
-          "grammarAnalysis": "go to see the doctor",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "She",
+              "text": "she",
               "phonetic": "/ʃiː/",
               "partOfSpeech": "代词",
               "meaning": "她"
@@ -148,19 +207,19 @@
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "到；向"
             },
             {
               "text": "see",
               "phonetic": "/siː/",
               "partOfSpeech": "动词",
-              "meaning": "看"
+              "meaning": "看见"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "doctor",
@@ -171,16 +230,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "She"
             },
             {
-              "label": "动作",
-              "text": "goes to see the doctor"
+              "label": "谓语",
+              "text": "goes"
+            },
+            {
+              "label": "补充",
+              "text": "to see the doctor"
             }
           ],
           "category": "sentence",
-          "id": "1-4-4"
+          "id": "1-5"
         },
         {
           "sequenceNumber": 2,
@@ -188,21 +251,21 @@
           "english": "What's wrong with you?",
           "speaker": "Doctor",
           "chinese": "你怎么了？",
-          "difficulty": 1,
-          "hint": "看病问诊句型",
-          "grammarAnalysis": "What's wrong with + 人",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "What's",
+              "text": "what's",
               "phonetic": "/wɒts/",
-              "partOfSpeech": "短语",
-              "meaning": "什么"
+              "partOfSpeech": "缩写",
+              "meaning": "what is，是什么"
             },
             {
               "text": "wrong",
               "phonetic": "/rɒŋ/",
               "partOfSpeech": "形容词",
-              "meaning": "不对的"
+              "meaning": "有问题的"
             },
             {
               "text": "with",
@@ -214,34 +277,72 @@
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             }
           ],
           "structureBlocks": [
             {
-              "label": "询问",
-              "text": "What's wrong"
+              "label": "疑问词",
+              "text": "What"
             },
             {
-              "label": "人物",
-              "text": "you"
+              "label": "内容",
+              "text": "'s wrong with you"
             }
           ],
           "category": "sentence",
-          "id": "2-1-1"
+          "id": "2-1"
         },
         {
           "sequenceNumber": 3,
           "segmentNumber": 1,
+          "english": "have a headache",
+          "speaker": "Su Hai",
+          "chinese": "头疼",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "动词",
+              "meaning": "有"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "headache",
+              "phonetic": "/ˈhedeɪk/",
+              "partOfSpeech": "名词",
+              "meaning": "头疼"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "症状",
+              "text": "have a headache"
+            }
+          ],
+          "category": "phrase",
+          "id": "3-1"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
           "english": "I have a headache.",
           "speaker": "Su Hai",
           "chinese": "我头疼。",
-          "difficulty": 1,
-          "hint": "描述症状",
-          "grammarAnalysis": "have a + 病症",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -267,29 +368,92 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "症状",
-              "text": "have a headache"
+              "label": "谓语",
+              "text": "have"
+            },
+            {
+              "label": "补充",
+              "text": "a headache"
             }
           ],
           "category": "sentence",
-          "id": "3-1-1"
+          "id": "3-2"
         },
         {
           "sequenceNumber": 3,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
+          "english": "feel",
+          "speaker": "wordlist",
+          "chinese": "感觉，感到",
+          "difficulty": 1,
+          "hint": "课本重点单词",
+          "grammarAnalysis": "feel：感觉，感到",
+          "words": [
+            {
+              "text": "feel",
+              "phonetic": "/fiːl/",
+              "partOfSpeech": "动词",
+              "meaning": "感觉"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "feel"
+            }
+          ],
+          "category": "word",
+          "id": "3-3",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
+          "english": "feel cold",
+          "speaker": "Su Hai",
+          "chinese": "感觉冷",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "feel",
+              "phonetic": "/fiːl/",
+              "partOfSpeech": "动词",
+              "meaning": "感觉"
+            },
+            {
+              "text": "cold",
+              "phonetic": "/kəʊld/",
+              "partOfSpeech": "形容词",
+              "meaning": "冷的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "感觉",
+              "text": "feel cold"
+            }
+          ],
+          "category": "phrase",
+          "id": "3-4"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 5,
           "english": "I feel cold.",
           "speaker": "Su Hai",
           "chinese": "我感觉冷。",
-          "difficulty": 1,
-          "hint": "描述感觉",
-          "grammarAnalysis": "feel + 形容词",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -309,29 +473,60 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "感觉",
-              "text": "feel cold"
+              "label": "谓语",
+              "text": "feel"
+            },
+            {
+              "label": "补充",
+              "text": "cold"
             }
           ],
           "category": "sentence",
-          "id": "3-2-2"
+          "id": "3-5"
         },
         {
           "sequenceNumber": 4,
           "segmentNumber": 1,
+          "english": "check",
+          "speaker": "wordlist",
+          "chinese": "检查",
+          "difficulty": 1,
+          "hint": "课本重点单词",
+          "grammarAnalysis": "check：检查",
+          "words": [
+            {
+              "text": "check",
+              "phonetic": "/tʃek/",
+              "partOfSpeech": "动词",
+              "meaning": "检查"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "check"
+            }
+          ],
+          "category": "word",
+          "id": "4-1",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 4,
+          "segmentNumber": 2,
           "english": "Let me check.",
           "speaker": "Doctor",
           "chinese": "让我检查一下。",
-          "difficulty": 1,
-          "hint": "祈使句",
-          "grammarAnalysis": "Let me + 动词原形",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "Let",
+              "text": "let",
               "phonetic": "/let/",
               "partOfSpeech": "动词",
               "meaning": "让"
@@ -351,28 +546,66 @@
           ],
           "structureBlocks": [
             {
-              "label": "动作",
+              "label": "内容",
               "text": "Let me check"
             }
           ],
           "category": "sentence",
-          "id": "4-1-1"
+          "id": "4-2"
         },
         {
           "sequenceNumber": 4,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
+          "english": "have a fever",
+          "speaker": "Doctor",
+          "chinese": "发烧",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "动词",
+              "meaning": "有"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "fever",
+              "phonetic": "/ˈfiːvə/",
+              "partOfSpeech": "名词",
+              "meaning": "发烧"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "症状",
+              "text": "have a fever"
+            }
+          ],
+          "category": "phrase",
+          "id": "4-3"
+        },
+        {
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "You have a fever.",
           "speaker": "Doctor",
           "chinese": "你发烧了。",
-          "difficulty": 1,
-          "hint": "描述症状",
-          "grammarAnalysis": "have a fever",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "You",
+              "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "have",
@@ -395,29 +628,60 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "You"
             },
             {
-              "label": "症状",
-              "text": "have a fever"
+              "label": "谓语",
+              "text": "have"
+            },
+            {
+              "label": "补充",
+              "text": "a fever"
             }
           ],
           "category": "sentence",
-          "id": "4-2-2"
+          "id": "4-4"
         },
         {
           "sequenceNumber": 5,
           "segmentNumber": 1,
-          "english": "What should I do, Doctor?",
-          "speaker": "Su Hai",
-          "chinese": "我该怎么办，医生？",
+          "english": "should",
+          "speaker": "wordlist",
+          "chinese": "应该",
           "difficulty": 1,
-          "hint": "询问建议",
-          "grammarAnalysis": "should + 动词原形",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "should：应该",
           "words": [
             {
-              "text": "What",
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "情态动词",
+              "meaning": "应该"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "should"
+            }
+          ],
+          "category": "word",
+          "id": "5-1",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 5,
+          "segmentNumber": 2,
+          "english": "What should I do",
+          "speaker": "Su Hai",
+          "chinese": "",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -429,7 +693,7 @@
               "meaning": "应该"
             },
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -437,11 +701,55 @@
             {
               "text": "do",
               "phonetic": "/duː/",
-              "partOfSpeech": "动词",
-              "meaning": "做"
+              "partOfSpeech": "助动词",
+              "meaning": "用于疑问句"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "疑问",
+              "text": "What should I do"
+            }
+          ],
+          "category": "phrase",
+          "id": "5-2"
+        },
+        {
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
+          "english": "What should I do, Doctor?",
+          "speaker": "Su Hai",
+          "chinese": "医生，我应该怎么办？",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
+          "words": [
+            {
+              "text": "what",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "代词",
+              "meaning": "什么"
             },
             {
-              "text": "Doctor",
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "情态动词",
+              "meaning": "应该"
+            },
+            {
+              "text": "i",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "助动词",
+              "meaning": "用于疑问句"
+            },
+            {
+              "text": "doctor",
               "phonetic": "/ˈdɒktə/",
               "partOfSpeech": "名词",
               "meaning": "医生"
@@ -449,234 +757,65 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
-              "text": "What should I do"
+              "label": "疑问词",
+              "text": "What"
             },
             {
-              "label": "称呼",
-              "text": "Doctor"
+              "label": "内容",
+              "text": "should I do, Doctor"
             }
           ],
           "category": "sentence",
-          "id": "5-1-1"
+          "id": "5-3"
         },
         {
           "sequenceNumber": 6,
           "segmentNumber": 1,
-          "english": "home.",
+          "english": "have a rest",
           "speaker": "Doctor",
-          "chinese": "家。",
+          "chinese": "休息",
           "difficulty": 1,
-          "hint": "地点名词",
-          "grammarAnalysis": "home 家",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "home",
-              "phonetic": "/həʊm/",
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "动词",
+              "meaning": "有"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "rest",
+              "phonetic": "/rest/",
               "partOfSpeech": "名词",
-              "meaning": "家"
+              "meaning": "休息"
             }
           ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "6-1-1"
+          "structureBlocks": [
+            {
+              "label": "建议",
+              "text": "have a rest"
+            }
+          ],
+          "category": "phrase",
+          "id": "6-1"
         },
         {
           "sequenceNumber": 6,
           "segmentNumber": 2,
-          "english": "You should have a rest",
+          "english": "at home",
           "speaker": "Doctor",
-          "chinese": "你应该休息",
+          "chinese": "在家",
           "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "should + 动词原形",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "情态动词",
-              "meaning": "应该"
-            },
-            {
-              "text": "have",
-              "phonetic": "/hæv/",
-              "partOfSpeech": "动词",
-              "meaning": "有"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "冠词",
-              "meaning": "一个"
-            },
-            {
-              "text": "rest",
-              "phonetic": "/rest/",
-              "partOfSpeech": "名词",
-              "meaning": "休息"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "6-2-2"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 3,
-          "english": "You should take some medicine",
-          "speaker": "Doctor",
-          "chinese": "你应该吃点药",
-          "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "should + take medicine",
-          "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "情态动词",
-              "meaning": "应该"
-            },
-            {
-              "text": "take",
-              "phonetic": "/teɪk/",
-              "partOfSpeech": "动词",
-              "meaning": "吃"
-            },
-            {
-              "text": "some",
-              "phonetic": "/sʌm/",
-              "partOfSpeech": "限定词",
-              "meaning": "一些"
-            },
-            {
-              "text": "medicine",
-              "phonetic": "/ˈmedsn/",
-              "partOfSpeech": "名词",
-              "meaning": "药"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "6-3-3"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 4,
-          "english": "at",
-          "speaker": "Doctor",
-          "chinese": "在",
-          "difficulty": 1,
-          "hint": "地点介词",
-          "grammarAnalysis": "at 表示在某处",
-          "words": [
-            {
-              "text": "at",
-              "phonetic": "/æt/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "word",
-          "id": "6-4-4"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 5,
-          "english": "and drink some warm water.",
-          "speaker": "Doctor",
-          "chinese": "喝点温水。",
-          "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "drink some warm water",
-          "words": [
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "连词",
-              "meaning": "和"
-            },
-            {
-              "text": "drink",
-              "phonetic": "/drɪŋk/",
-              "partOfSpeech": "动词",
-              "meaning": "喝"
-            },
-            {
-              "text": "some",
-              "phonetic": "/sʌm/",
-              "partOfSpeech": "限定词",
-              "meaning": "一些"
-            },
-            {
-              "text": "warm",
-              "phonetic": "/wɔːm/",
-              "partOfSpeech": "形容词",
-              "meaning": "温的"
-            },
-            {
-              "text": "water",
-              "phonetic": "/ˈwɔːtə/",
-              "partOfSpeech": "名词",
-              "meaning": "水"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "6-5-5"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 6,
-          "english": "You should have a rest at home.",
-          "speaker": "Doctor",
-          "chinese": "你应该在家休息。",
-          "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "should + have a rest + at home",
-          "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "情态动词",
-              "meaning": "应该"
-            },
-            {
-              "text": "have",
-              "phonetic": "/hæv/",
-              "partOfSpeech": "动词",
-              "meaning": "有"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "冠词",
-              "meaning": "一个"
-            },
-            {
-              "text": "rest",
-              "phonetic": "/rest/",
-              "partOfSpeech": "名词",
-              "meaning": "休息"
-            },
             {
               "text": "at",
               "phonetic": "/æt/",
@@ -691,37 +830,243 @@
             }
           ],
           "structureBlocks": [
-            {
-              "label": "人物",
-              "text": "You"
-            },
-            {
-              "label": "动作",
-              "text": "have a rest"
-            },
             {
               "label": "地点",
               "text": "at home"
             }
           ],
+          "category": "phrase",
+          "id": "6-2"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
+          "english": "You should have a rest at home.",
+          "speaker": "Doctor",
+          "chinese": "你应该在家休息。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "should 表示建议",
+          "words": [
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "代词",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "情态动词",
+              "meaning": "应该"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "动词",
+              "meaning": "有"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "rest",
+              "phonetic": "/rest/",
+              "partOfSpeech": "名词",
+              "meaning": "休息"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "介词",
+              "meaning": "在"
+            },
+            {
+              "text": "home",
+              "phonetic": "/həʊm/",
+              "partOfSpeech": "名词",
+              "meaning": "家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "You"
+            },
+            {
+              "label": "建议",
+              "text": "should have a rest at home"
+            }
+          ],
           "category": "sentence",
-          "id": "6-6-6"
+          "id": "6-3"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
+          "english": "take medicine",
+          "speaker": "wordlist",
+          "chinese": "吃药",
+          "difficulty": 1,
+          "hint": "课本重点短语",
+          "grammarAnalysis": "take medicine：吃药",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "动词",
+              "meaning": "拿；服用；搭乘"
+            },
+            {
+              "text": "medicine",
+              "phonetic": "/ˈmedsn/",
+              "partOfSpeech": "名词",
+              "meaning": "药"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点短语",
+              "text": "take medicine"
+            }
+          ],
+          "category": "phrase",
+          "id": "6-4",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 5,
+          "english": "take some medicine",
+          "speaker": "Doctor",
+          "chinese": "吃些药",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "动词",
+              "meaning": "搭乘；拿"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "限定词",
+              "meaning": "一些"
+            },
+            {
+              "text": "medicine",
+              "phonetic": "/ˈmedsn/",
+              "partOfSpeech": "名词",
+              "meaning": "药"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "建议",
+              "text": "take some medicine"
+            }
+          ],
+          "category": "phrase",
+          "id": "6-5"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 6,
+          "english": "drink water",
+          "speaker": "wordlist",
+          "chinese": "喝水",
+          "difficulty": 1,
+          "hint": "课本重点短语",
+          "grammarAnalysis": "drink water：喝水",
+          "words": [
+            {
+              "text": "drink",
+              "phonetic": "/drɪŋk/",
+              "partOfSpeech": "动词",
+              "meaning": "喝"
+            },
+            {
+              "text": "water",
+              "phonetic": "/ˈwɔːtə/",
+              "partOfSpeech": "名词",
+              "meaning": "水"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点短语",
+              "text": "drink water"
+            }
+          ],
+          "category": "phrase",
+          "id": "6-6",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 6,
           "segmentNumber": 7,
-          "english": "You should take some medicine and drink some warm water.",
+          "english": "drink some warm water",
           "speaker": "Doctor",
-          "chinese": "你应该吃点药，喝点温水。",
+          "chinese": "喝些温水",
           "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "should + take medicine + and + drink water",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
-              "text": "You",
+              "text": "drink",
+              "phonetic": "/drɪŋk/",
+              "partOfSpeech": "动词",
+              "meaning": "喝"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "限定词",
+              "meaning": "一些"
+            },
+            {
+              "text": "warm",
+              "phonetic": "/wɔːm/",
+              "partOfSpeech": "形容词",
+              "meaning": "温暖的"
+            },
+            {
+              "text": "water",
+              "phonetic": "/ˈwɔːtə/",
+              "partOfSpeech": "名词",
+              "meaning": "水"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "建议",
+              "text": "drink some warm water"
+            }
+          ],
+          "category": "phrase",
+          "id": "6-7"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 8,
+          "english": "You should take some medicine and drink some warm water.",
+          "speaker": "Doctor",
+          "chinese": "你应该吃些药并喝些温水。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "should 表示建议",
+          "words": [
+            {
+              "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "should",
@@ -733,7 +1078,7 @@
               "text": "take",
               "phonetic": "/teɪk/",
               "partOfSpeech": "动词",
-              "meaning": "吃"
+              "meaning": "搭乘；拿"
             },
             {
               "text": "some",
@@ -751,7 +1096,7 @@
               "text": "and",
               "phonetic": "/ænd/",
               "partOfSpeech": "连词",
-              "meaning": "和"
+              "meaning": "和；并且"
             },
             {
               "text": "drink",
@@ -769,7 +1114,7 @@
               "text": "warm",
               "phonetic": "/wɔːm/",
               "partOfSpeech": "形容词",
-              "meaning": "温的"
+              "meaning": "温暖的"
             },
             {
               "text": "water",
@@ -780,20 +1125,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "You"
             },
             {
-              "label": "动作",
-              "text": "take some medicine"
-            },
-            {
-              "label": "动作",
-              "text": "drink some warm water"
+              "label": "建议",
+              "text": "should take some medicine and drink some warm water"
             }
           ],
           "category": "sentence",
-          "id": "6-7-7"
+          "id": "6-8"
         },
         {
           "sequenceNumber": 7,
@@ -801,12 +1142,12 @@
           "english": "Thank you, Doctor.",
           "speaker": "Su Hai",
           "chinese": "谢谢你，医生。",
-          "difficulty": 1,
-          "hint": "感谢表达",
-          "grammarAnalysis": "Thank you + 称呼",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "Thank",
+              "text": "thank",
               "phonetic": "/θæŋk/",
               "partOfSpeech": "动词",
               "meaning": "感谢"
@@ -815,10 +1156,10 @@
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
-              "text": "Doctor",
+              "text": "doctor",
               "phonetic": "/ˈdɒktə/",
               "partOfSpeech": "名词",
               "meaning": "医生"
@@ -826,38 +1167,55 @@
           ],
           "structureBlocks": [
             {
-              "label": "感谢",
-              "text": "Thank you"
-            },
-            {
-              "label": "称呼",
-              "text": "Doctor"
+              "label": "内容",
+              "text": "Thank you, Doctor"
             }
           ],
           "category": "sentence",
-          "id": "7-1-1"
+          "id": "7-1"
         },
         {
           "sequenceNumber": 8,
           "segmentNumber": 1,
-          "english": "Mike has a toothache.",
-          "speaker": "narrator",
-          "chinese": "迈克牙疼。",
+          "english": "toothache",
+          "speaker": "wordlist",
+          "chinese": "牙疼",
           "difficulty": 1,
-          "hint": "描述症状",
-          "grammarAnalysis": "have a toothache",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "toothache：牙疼",
           "words": [
             {
-              "text": "Mike",
-              "phonetic": "/maɪk/",
+              "text": "toothache",
+              "phonetic": "/ˈtuːθeɪk/",
               "partOfSpeech": "名词",
-              "meaning": "迈克"
-            },
+              "meaning": "牙疼"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "toothache"
+            }
+          ],
+          "category": "word",
+          "id": "8-1",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 2,
+          "english": "has a toothache",
+          "speaker": "narrator",
+          "chinese": "牙疼",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
             {
               "text": "has",
               "phonetic": "/hæz/",
               "partOfSpeech": "动词",
-              "meaning": "有"
+              "meaning": "有；度过"
             },
             {
               "text": "a",
@@ -874,29 +1232,142 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "Mike"
-            },
-            {
               "label": "症状",
               "text": "has a toothache"
             }
           ],
-          "category": "sentence",
-          "id": "8-1-1"
+          "category": "phrase",
+          "id": "8-2"
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
+          "english": "Mike has a toothache.",
+          "speaker": "narrator",
+          "chinese": "迈克牙疼。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
+          "words": [
+            {
+              "text": "mike",
+              "phonetic": "/maɪk/",
+              "partOfSpeech": "名词",
+              "meaning": "迈克"
+            },
+            {
+              "text": "has",
+              "phonetic": "/hæz/",
+              "partOfSpeech": "动词",
+              "meaning": "有；度过"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "toothache",
+              "phonetic": "/ˈtuːθeɪk/",
+              "partOfSpeech": "名词",
+              "meaning": "牙疼"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "Mike"
+            },
+            {
+              "label": "谓语",
+              "text": "has"
+            },
+            {
+              "label": "补充",
+              "text": "a toothache"
+            }
+          ],
+          "category": "sentence",
+          "id": "8-3"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
+          "english": "dentist",
+          "speaker": "wordlist",
+          "chinese": "牙医",
+          "difficulty": 1,
+          "hint": "课本重点单词",
+          "grammarAnalysis": "dentist：牙医",
+          "words": [
+            {
+              "text": "dentist",
+              "phonetic": "/ˈdentɪst/",
+              "partOfSpeech": "名词",
+              "meaning": "牙医"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "dentist"
+            }
+          ],
+          "category": "word",
+          "id": "8-4",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 5,
+          "english": "see the dentist",
+          "speaker": "narrator",
+          "chinese": "看牙医",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "动词",
+              "meaning": "看见"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "dentist",
+              "phonetic": "/ˈdentɪst/",
+              "partOfSpeech": "名词",
+              "meaning": "牙医"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "see the dentist"
+            }
+          ],
+          "category": "phrase",
+          "id": "8-5"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 6,
           "english": "He goes to see the dentist.",
           "speaker": "narrator",
           "chinese": "他去看牙医。",
-          "difficulty": 1,
-          "hint": "动作句",
-          "grammarAnalysis": "go to see the dentist",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "He",
+              "text": "he",
               "phonetic": "/hiː/",
               "partOfSpeech": "代词",
               "meaning": "他"
@@ -911,19 +1382,19 @@
               "text": "to",
               "phonetic": "/tuː/",
               "partOfSpeech": "介词",
-              "meaning": "到"
+              "meaning": "到；向"
             },
             {
               "text": "see",
               "phonetic": "/siː/",
               "partOfSpeech": "动词",
-              "meaning": "看"
+              "meaning": "看见"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "dentist",
@@ -934,16 +1405,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "He"
             },
             {
-              "label": "动作",
-              "text": "goes to see the dentist"
+              "label": "谓语",
+              "text": "goes"
+            },
+            {
+              "label": "补充",
+              "text": "to see the dentist"
             }
           ],
           "category": "sentence",
-          "id": "8-2-2"
+          "id": "8-6"
         },
         {
           "sequenceNumber": 9,
@@ -951,21 +1426,21 @@
           "english": "What's wrong with you?",
           "speaker": "Dentist",
           "chinese": "你怎么了？",
-          "difficulty": 1,
-          "hint": "看病问诊句型",
-          "grammarAnalysis": "What's wrong with + 人",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
           "words": [
             {
-              "text": "What's",
+              "text": "what's",
               "phonetic": "/wɒts/",
-              "partOfSpeech": "短语",
-              "meaning": "什么"
+              "partOfSpeech": "缩写",
+              "meaning": "what is，是什么"
             },
             {
               "text": "wrong",
               "phonetic": "/rɒŋ/",
               "partOfSpeech": "形容词",
-              "meaning": "不对的"
+              "meaning": "有问题的"
             },
             {
               "text": "with",
@@ -977,34 +1452,34 @@
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             }
           ],
           "structureBlocks": [
             {
-              "label": "询问",
-              "text": "What's wrong"
+              "label": "疑问词",
+              "text": "What"
             },
             {
-              "label": "人物",
-              "text": "you"
+              "label": "内容",
+              "text": "'s wrong with you"
             }
           ],
           "category": "sentence",
-          "id": "9-1-1"
+          "id": "9-1"
         },
         {
           "sequenceNumber": 10,
           "segmentNumber": 1,
           "english": "I have a toothache.",
           "speaker": "Mike",
-          "chinese": "我牙疼。",
-          "difficulty": 1,
-          "hint": "描述症状",
-          "grammarAnalysis": "have a toothache",
+          "chinese": "",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1030,29 +1505,98 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "症状",
-              "text": "have a toothache"
+              "label": "谓语",
+              "text": "have"
+            },
+            {
+              "label": "补充",
+              "text": "a toothache"
             }
           ],
           "category": "sentence",
-          "id": "10-1-1"
+          "id": "10-1"
         },
         {
           "sequenceNumber": 10,
           "segmentNumber": 2,
-          "english": "I can't eat anything!",
-          "speaker": "Mike",
-          "chinese": "我什么都吃不了！",
+          "english": "anything",
+          "speaker": "wordlist",
+          "chinese": "任何东西",
           "difficulty": 1,
-          "hint": "否定句",
-          "grammarAnalysis": "can't + 动词 + anything",
+          "hint": "课本重点单词",
+          "grammarAnalysis": "anything：任何东西",
           "words": [
             {
-              "text": "I",
+              "text": "anything",
+              "phonetic": "/ˈeniθɪŋ/",
+              "partOfSpeech": "代词",
+              "meaning": "任何东西"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "anything"
+            }
+          ],
+          "category": "word",
+          "id": "10-2",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
+          "english": "can't eat anything",
+          "speaker": "Mike",
+          "chinese": "不能吃任何东西",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "can't",
+              "phonetic": "/kɑːnt/",
+              "partOfSpeech": "情态动词",
+              "meaning": "不能"
+            },
+            {
+              "text": "eat",
+              "phonetic": "/iːt/",
+              "partOfSpeech": "动词",
+              "meaning": "吃"
+            },
+            {
+              "text": "anything",
+              "phonetic": "/ˈeniθɪŋ/",
+              "partOfSpeech": "代词",
+              "meaning": "任何东西"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "影响",
+              "text": "can't eat anything"
+            }
+          ],
+          "category": "phrase",
+          "id": "10-3"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
+          "english": "I can't eat anything!",
+          "speaker": "Mike",
+          "chinese": "我不能吃任何东西！",
+          "difficulty": 2,
+          "hint": "感叹句",
+          "grammarAnalysis": "情态动词 + 动词原形",
+          "words": [
+            {
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1078,59 +1622,30 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "can't eat anything"
+              "label": "谓语",
+              "text": "can"
+            },
+            {
+              "label": "补充",
+              "text": "'t eat anything"
             }
           ],
           "category": "sentence",
-          "id": "10-2-2"
+          "id": "10-4"
         },
         {
           "sequenceNumber": 11,
           "segmentNumber": 1,
-          "english": "Do you eat",
+          "english": "a lot of sweets",
           "speaker": "Dentist",
-          "chinese": "你吃",
+          "chinese": "许多糖果",
           "difficulty": 1,
-          "hint": "一般疑问句",
-          "grammarAnalysis": "Do 引导一般疑问句",
-          "words": [
-            {
-              "text": "Do",
-              "phonetic": "/duː/",
-              "partOfSpeech": "助动词",
-              "meaning": "做"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "eat",
-              "phonetic": "/iːt/",
-              "partOfSpeech": "动词",
-              "meaning": "吃"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "11-1-1"
-        },
-        {
-          "sequenceNumber": 11,
-          "segmentNumber": 2,
-          "english": "a lot of sweets?",
-          "speaker": "Dentist",
-          "chinese": "很多糖果吗？",
-          "difficulty": 1,
-          "hint": "物品片段",
-          "grammarAnalysis": "a lot of + 名词",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
               "text": "a",
@@ -1146,66 +1661,9 @@
             },
             {
               "text": "of",
-              "phonetic": "/ɒv/",
+              "phonetic": "/əv/",
               "partOfSpeech": "介词",
-              "meaning": "的"
-            },
-            {
-              "text": "sweets",
-              "phonetic": "/swiːts/",
-              "partOfSpeech": "名词",
-              "meaning": "糖果"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "11-2-2"
-        },
-        {
-          "sequenceNumber": 11,
-          "segmentNumber": 3,
-          "english": "Do you eat a lot of sweets?",
-          "speaker": "Dentist",
-          "chinese": "你吃很多糖果吗？",
-          "difficulty": 1,
-          "hint": "一般疑问句",
-          "grammarAnalysis": "Do you eat + 宾语",
-          "words": [
-            {
-              "text": "Do",
-              "phonetic": "/duː/",
-              "partOfSpeech": "助动词",
-              "meaning": "做"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "eat",
-              "phonetic": "/iːt/",
-              "partOfSpeech": "动词",
-              "meaning": "吃"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "冠词",
-              "meaning": "一个"
-            },
-            {
-              "text": "lot",
-              "phonetic": "/lɒt/",
-              "partOfSpeech": "名词",
-              "meaning": "许多"
-            },
-            {
-              "text": "of",
-              "phonetic": "/ɒv/",
-              "partOfSpeech": "介词",
-              "meaning": "的"
+              "meaning": "……的"
             },
             {
               "text": "sweets",
@@ -1216,20 +1674,78 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "you"
-            },
-            {
-              "label": "动作",
-              "text": "eat"
-            },
-            {
-              "label": "物品",
+              "label": "数量",
               "text": "a lot of sweets"
             }
           ],
+          "category": "phrase",
+          "id": "11-1"
+        },
+        {
+          "sequenceNumber": 11,
+          "segmentNumber": 2,
+          "english": "Do you eat a lot of sweets?",
+          "speaker": "Dentist",
+          "chinese": "你吃很多糖果吗？",
+          "difficulty": 2,
+          "hint": "问句",
+          "grammarAnalysis": "疑问句结构",
+          "words": [
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "助动词",
+              "meaning": "用于疑问句"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "代词",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "eat",
+              "phonetic": "/iːt/",
+              "partOfSpeech": "动词",
+              "meaning": "吃"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "lot",
+              "phonetic": "/lɒt/",
+              "partOfSpeech": "名词",
+              "meaning": "许多"
+            },
+            {
+              "text": "of",
+              "phonetic": "/əv/",
+              "partOfSpeech": "介词",
+              "meaning": "……的"
+            },
+            {
+              "text": "sweets",
+              "phonetic": "/swiːts/",
+              "partOfSpeech": "名词",
+              "meaning": "糖果"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "助动词",
+              "text": "Do"
+            },
+            {
+              "label": "内容",
+              "text": "you eat a lot of sweets"
+            }
+          ],
           "category": "sentence",
-          "id": "11-3-3"
+          "id": "11-2"
         },
         {
           "sequenceNumber": 12,
@@ -1237,18 +1753,18 @@
           "english": "Yes, I do.",
           "speaker": "Mike",
           "chinese": "是的，我吃。",
-          "difficulty": 1,
-          "hint": "肯定回答",
-          "grammarAnalysis": "Yes + 主语 + 助动词",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "Yes",
+              "text": "yes",
               "phonetic": "/jes/",
               "partOfSpeech": "感叹词",
               "meaning": "是的"
             },
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1257,34 +1773,28 @@
               "text": "do",
               "phonetic": "/duː/",
               "partOfSpeech": "助动词",
-              "meaning": "做"
+              "meaning": "用于疑问句"
             }
           ],
           "structureBlocks": [
             {
-              "label": "回答",
+              "label": "内容",
               "text": "Yes, I do"
             }
           ],
           "category": "sentence",
-          "id": "12-1-1"
+          "id": "12-1"
         },
         {
           "sequenceNumber": 13,
           "segmentNumber": 1,
-          "english": "You shouldn't eat",
+          "english": "shouldn't eat",
           "speaker": "Dentist",
-          "chinese": "你不应该吃",
+          "chinese": "不应该吃",
           "difficulty": 1,
-          "hint": "否定建议",
-          "grammarAnalysis": "shouldn't = should not",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
             {
               "text": "shouldn't",
               "phonetic": "/ˈʃʊdnt/",
@@ -1298,30 +1808,35 @@
               "meaning": "吃"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "建议",
+              "text": "shouldn't eat"
+            }
+          ],
           "category": "phrase",
-          "id": "13-1-1"
+          "id": "13-1"
         },
         {
           "sequenceNumber": 13,
           "segmentNumber": 2,
-          "english": "too many sweets.",
+          "english": "too many sweets",
           "speaker": "Dentist",
-          "chinese": "太多糖果。",
+          "chinese": "太多糖果",
           "difficulty": 1,
-          "hint": "物品片段",
-          "grammarAnalysis": "too many + 名词",
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
           "words": [
             {
               "text": "too",
               "phonetic": "/tuː/",
               "partOfSpeech": "副词",
-              "meaning": "太"
+              "meaning": "太；也"
             },
             {
               "text": "many",
               "phonetic": "/ˈmeni/",
-              "partOfSpeech": "形容词",
+              "partOfSpeech": "限定词",
               "meaning": "许多"
             },
             {
@@ -1331,136 +1846,30 @@
               "meaning": "糖果"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "数量",
+              "text": "too many sweets"
+            }
+          ],
           "category": "phrase",
-          "id": "13-2-2"
+          "id": "13-2"
         },
         {
           "sequenceNumber": 13,
           "segmentNumber": 3,
-          "english": "You should brush your teeth",
-          "speaker": "Dentist",
-          "chinese": "你应该刷牙",
-          "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "should + brush one's teeth",
-          "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "情态动词",
-              "meaning": "应该"
-            },
-            {
-              "text": "brush",
-              "phonetic": "/brʌʃ/",
-              "partOfSpeech": "动词",
-              "meaning": "刷"
-            },
-            {
-              "text": "your",
-              "phonetic": "/jɔː/",
-              "partOfSpeech": "代词",
-              "meaning": "你的"
-            },
-            {
-              "text": "teeth",
-              "phonetic": "/tiːθ/",
-              "partOfSpeech": "名词",
-              "meaning": "牙齿"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "13-3-3"
-        },
-        {
-          "sequenceNumber": 13,
-          "segmentNumber": 4,
-          "english": "in the morning",
-          "speaker": "Dentist",
-          "chinese": "在早上",
-          "difficulty": 1,
-          "hint": "时间片段",
-          "grammarAnalysis": "in the morning",
-          "words": [
-            {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "morning",
-              "phonetic": "/ˈmɔːnɪŋ/",
-              "partOfSpeech": "名词",
-              "meaning": "早上"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "13-4-4"
-        },
-        {
-          "sequenceNumber": 13,
-          "segmentNumber": 5,
-          "english": "and before bedtime.",
-          "speaker": "Dentist",
-          "chinese": "和睡前。",
-          "difficulty": 1,
-          "hint": "时间片段",
-          "grammarAnalysis": "before bedtime",
-          "words": [
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "连词",
-              "meaning": "和"
-            },
-            {
-              "text": "before",
-              "phonetic": "/bɪˈfɔː/",
-              "partOfSpeech": "介词",
-              "meaning": "在……以前"
-            },
-            {
-              "text": "bedtime",
-              "phonetic": "/ˈbedtaɪm/",
-              "partOfSpeech": "名词",
-              "meaning": "就寝时间"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "13-5-5"
-        },
-        {
-          "sequenceNumber": 13,
-          "segmentNumber": 6,
           "english": "You shouldn't eat too many sweets.",
           "speaker": "Dentist",
           "chinese": "你不应该吃太多糖果。",
-          "difficulty": 1,
-          "hint": "否定建议",
-          "grammarAnalysis": "shouldn't + 动词原形",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "should 表示建议",
           "words": [
             {
-              "text": "You",
+              "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "shouldn't",
@@ -1478,12 +1887,12 @@
               "text": "too",
               "phonetic": "/tuː/",
               "partOfSpeech": "副词",
-              "meaning": "太"
+              "meaning": "太；也"
             },
             {
               "text": "many",
               "phonetic": "/ˈmeni/",
-              "partOfSpeech": "形容词",
+              "partOfSpeech": "限定词",
               "meaning": "许多"
             },
             {
@@ -1495,43 +1904,27 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "You"
             },
             {
-              "label": "动作",
-              "text": "shouldn't eat"
-            },
-            {
-              "label": "物品",
-              "text": "too many sweets"
+              "label": "建议",
+              "text": "shouldn't eat too many sweets"
             }
           ],
           "category": "sentence",
-          "id": "13-6-6"
+          "id": "13-3"
         },
         {
           "sequenceNumber": 13,
-          "segmentNumber": 7,
-          "english": "You should brush your teeth in the morning and before bedtime.",
-          "speaker": "Dentist",
-          "chinese": "你应该在早上和睡前刷牙。",
+          "segmentNumber": 4,
+          "english": "brush one's teeth",
+          "speaker": "wordlist",
+          "chinese": "刷牙",
           "difficulty": 1,
-          "hint": "建议句",
-          "grammarAnalysis": "should + brush teeth + 时间",
+          "hint": "课本重点短语",
+          "grammarAnalysis": "brush one's teeth：刷牙",
           "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "代词",
-              "meaning": "你"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "情态动词",
-              "meaning": "应该"
-            },
             {
               "text": "brush",
               "phonetic": "/brʌʃ/",
@@ -1549,31 +1942,131 @@
               "phonetic": "/tiːθ/",
               "partOfSpeech": "名词",
               "meaning": "牙齿"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点短语",
+              "text": "brush one's teeth"
+            }
+          ],
+          "category": "phrase",
+          "id": "13-4",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 5,
+          "english": "brush your teeth",
+          "speaker": "Dentist",
+          "chinese": "刷牙",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "brush",
+              "phonetic": "/brʌʃ/",
+              "partOfSpeech": "动词",
+              "meaning": "刷"
             },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "代词",
+              "meaning": "你的"
+            },
+            {
+              "text": "teeth",
+              "phonetic": "/tiːθ/",
+              "partOfSpeech": "名词",
+              "meaning": "牙齿"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "brush your teeth"
+            }
+          ],
+          "category": "phrase",
+          "id": "13-5"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 6,
+          "english": "in the morning",
+          "speaker": "Dentist",
+          "chinese": "在早上",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "morning",
               "phonetic": "/ˈmɔːnɪŋ/",
               "partOfSpeech": "名词",
               "meaning": "早上"
-            },
+            }
+          ],
+          "structureBlocks": [
             {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "连词",
-              "meaning": "和"
-            },
+              "label": "时间",
+              "text": "in the morning"
+            }
+          ],
+          "category": "phrase",
+          "id": "13-6"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 7,
+          "english": "bedtime",
+          "speaker": "wordlist",
+          "chinese": "就寝时间",
+          "difficulty": 1,
+          "hint": "课本重点单词",
+          "grammarAnalysis": "bedtime：就寝时间",
+          "words": [
+            {
+              "text": "bedtime",
+              "phonetic": "/ˈbedtaɪm/",
+              "partOfSpeech": "名词",
+              "meaning": "就寝时间"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "bedtime"
+            }
+          ],
+          "category": "word",
+          "id": "13-7",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 8,
+          "english": "before bedtime",
+          "speaker": "Dentist",
+          "chinese": "睡觉前",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
             {
               "text": "before",
               "phonetic": "/bɪˈfɔː/",
@@ -1588,25 +2081,103 @@
             }
           ],
           "structureBlocks": [
-            {
-              "label": "人物",
-              "text": "You"
-            },
-            {
-              "label": "动作",
-              "text": "brush your teeth"
-            },
-            {
-              "label": "时间",
-              "text": "in the morning"
-            },
             {
               "label": "时间",
               "text": "before bedtime"
             }
           ],
+          "category": "phrase",
+          "id": "13-8"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 9,
+          "english": "You should brush your teeth in the morning and before bedtime.",
+          "speaker": "Dentist",
+          "chinese": "你应该在早上和睡觉前刷牙。",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "should 表示建议",
+          "words": [
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "代词",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "情态动词",
+              "meaning": "应该"
+            },
+            {
+              "text": "brush",
+              "phonetic": "/brʌʃ/",
+              "partOfSpeech": "动词",
+              "meaning": "刷"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "代词",
+              "meaning": "你的"
+            },
+            {
+              "text": "teeth",
+              "phonetic": "/tiːθ/",
+              "partOfSpeech": "名词",
+              "meaning": "牙齿"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "morning",
+              "phonetic": "/ˈmɔːnɪŋ/",
+              "partOfSpeech": "名词",
+              "meaning": "早上"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "连词",
+              "meaning": "和；并且"
+            },
+            {
+              "text": "before",
+              "phonetic": "/bɪˈfɔː/",
+              "partOfSpeech": "介词",
+              "meaning": "在……以前"
+            },
+            {
+              "text": "bedtime",
+              "phonetic": "/ˈbedtaɪm/",
+              "partOfSpeech": "名词",
+              "meaning": "就寝时间"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "You"
+            },
+            {
+              "label": "建议",
+              "text": "should brush your teeth in the morning and before bedtime"
+            }
+          ],
           "category": "sentence",
-          "id": "13-7-7"
+          "id": "13-9"
         },
         {
           "sequenceNumber": 14,
@@ -1614,18 +2185,18 @@
           "english": "Ok, Thanks.",
           "speaker": "Mike",
           "chinese": "好的，谢谢。",
-          "difficulty": 1,
-          "hint": "口语表达",
-          "grammarAnalysis": "Ok 表示同意",
+          "difficulty": 2,
+          "hint": "完整句子",
+          "grammarAnalysis": "主语 + 谓语 + 补充",
           "words": [
             {
-              "text": "Ok",
-              "phonetic": "/ˌəʊˈkeɪ/",
+              "text": "ok",
+              "phonetic": "/əʊˈkeɪ/",
               "partOfSpeech": "感叹词",
               "meaning": "好的"
             },
             {
-              "text": "Thanks",
+              "text": "thanks",
               "phonetic": "/θæŋks/",
               "partOfSpeech": "感叹词",
               "meaning": "谢谢"
@@ -1633,12 +2204,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "回答",
+              "label": "内容",
               "text": "Ok, Thanks"
             }
           ],
           "category": "sentence",
-          "id": "14-1-1"
+          "id": "14-1"
         }
       ]
     }

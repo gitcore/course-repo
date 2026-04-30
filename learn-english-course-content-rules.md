@@ -51,7 +51,7 @@
 
 - 对话练习列表
 - 拆句练习列表
-- 看图问答列表
+- 阅读理解图片题列表
 - 中文翻译
 - 语法说明
 - 提示
@@ -458,7 +458,7 @@ very much | far from | school | I like it very much, | but it's far from | but i
 - 图片题答案是否能追溯到 `## 对话列表` 原文或明确标注的目标句。
 - 图片题干、图片文件名、`alt` 是否没有直接泄露答案。
 
-## 15. 图片素材和看图问答规则
+## 15. 图片素材和阅读理解图片题规则
 
 当用户希望“配图片”“看图出题”“通过图片来出题”时，按本节规则处理。
 
@@ -502,12 +502,12 @@ assets/images/morning-cleaning-car.png
 - `relatedLines`：关联的课文编号，必须来自 `## 对话列表`。
 - `targets`：希望图片触发练习的英文句子、短语或词，优先来自课文原文。
 
-### 15.3 看图问答 JSON
+### 15.3 阅读理解图片题 JSON
 
 图片题生成到：
 
 ```text
-content/image-qa.json
+content/reading-qa.json
 ```
 
 结构示例：
@@ -515,7 +515,7 @@ content/image-qa.json
 ```json
 {
   "manifestId": "grade5-semester2-unit1",
-  "activityType": "image-qa",
+  "activityType": "reading-qa",
   "sourceHash": "",
   "generatorVersion": "learn-language-generator-2",
   "generatedAt": "2026-04-29",
@@ -571,13 +571,13 @@ content/image-qa.json
 
 ### 15.6 manifest 注册
 
-如果生成了 `content/image-qa.json`，必须在 `manifest.json` 的 `supportedActivities` 中添加：
+图片题不再注册独立活动；如果生成图片题，必须合并进 `content/reading-qa.json`，并在 `manifest.json` 的 `supportedActivities` 中保留：
 
 ```json
 {
-  "type": "image-qa",
-  "name": "看图问答",
-  "data": "content/image-qa.json",
+  "type": "reading-qa",
+  "name": "阅读理解",
+  "data": "content/reading-qa.json",
   "enabled": true
 }
 ```
@@ -643,6 +643,6 @@ I like it very much, but it's far from school.
 1. 保护 `## 对话列表` 原文不变。
 2. 读取 `## 图片素材` 和 `assets/images/`。
 3. 校验图片路径存在且是相对单元目录路径。
-4. 根据 `relatedLines` 和 `targets` 生成 `content/image-qa.json`。
-5. 在 `manifest.json` 添加 `image-qa` 活动。
+4. 根据 `relatedLines` 和 `targets` 生成 `content/reading-qa.json`。
+5. 在 `manifest.json` 中只保留 `reading-qa` 活动，不再添加独立图片题活动。
 6. 生成后检查：题目答案可追溯、题干不泄露答案、干扰项合理、图片路径可用。

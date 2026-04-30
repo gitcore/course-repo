@@ -2,8 +2,8 @@
   "manifestId": "nanjing-yuhua-grade5-semester2-unit5",
   "activityType": "sentence-practice",
   "sourceHash": "",
-  "generatorVersion": "learn-language-generator-2",
-  "generatedAt": "2026-04-20",
+  "generatorVersion": "learn-language-generator-3-manual-split",
+  "generatedAt": "2026-04-30",
   "sections": [
     {
       "title": "Breakdown",
@@ -15,11 +15,11 @@
           "speaker": "narrator",
           "chinese": "星期六早上",
           "difficulty": 1,
-          "hint": "时间表达",
-          "grammarAnalysis": "",
+          "hint": "时间短语",
+          "grammarAnalysis": "时间",
           "words": [
             {
-              "text": "Saturday",
+              "text": "saturday",
               "phonetic": "/ˈsætədeɪ/",
               "partOfSpeech": "名词",
               "meaning": "星期六"
@@ -31,53 +31,25 @@
               "meaning": "早上"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "时间",
+              "text": "Saturday morning"
+            }
+          ],
           "category": "phrase",
-          "id": "1-1-1"
+          "id": "1-1"
         },
         {
           "sequenceNumber": 1,
           "segmentNumber": 2,
-          "english": "My father",
+          "english": "cleaning the car",
           "speaker": "narrator",
-          "chinese": "我爸爸",
+          "chinese": "洗车",
           "difficulty": 1,
-          "hint": "人物短语",
-          "grammarAnalysis": "",
+          "hint": "核心动作",
+          "grammarAnalysis": "动词ing + 宾语",
           "words": [
-            {
-              "text": "My",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我的"
-            },
-            {
-              "text": "father",
-              "phonetic": "/ˈfɑːðə/",
-              "partOfSpeech": "名词",
-              "meaning": "父亲"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "1-2-2"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 3,
-          "english": "is cleaning the car",
-          "speaker": "narrator",
-          "chinese": "在洗车",
-          "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "is + doing",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
             {
               "text": "cleaning",
               "phonetic": "/ˈkliːnɪŋ/",
@@ -88,7 +60,7 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "car",
@@ -97,10 +69,16 @@
               "meaning": "汽车"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "cleaning the car"
+            }
+          ],
           "category": "phrase",
-          "id": "1-3-3",
+          "id": "1-2",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/cleaning-the-car.png",
             "alt": "擦车",
             "caption": "擦车画面"
@@ -108,67 +86,28 @@
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 4,
-          "english": "I am helping him.",
-          "speaker": "narrator",
-          "chinese": "我在帮他。",
-          "difficulty": 1,
-          "hint": "现在进行时句",
-          "grammarAnalysis": "I am + doing",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我"
-            },
-            {
-              "text": "am",
-              "phonetic": "/æm/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
-            {
-              "text": "helping",
-              "phonetic": "/ˈhelpɪŋ/",
-              "partOfSpeech": "动词",
-              "meaning": "帮助（现在分词）"
-            },
-            {
-              "text": "him",
-              "phonetic": "/hɪm/",
-              "partOfSpeech": "代词",
-              "meaning": "他"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "1-4-4"
-        },
-        {
-          "sequenceNumber": 1,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "english": "It is Saturday morning.",
           "speaker": "narrator",
           "chinese": "今天是星期六早上。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "时间描述",
           "grammarAnalysis": "It is + 时间",
           "words": [
             {
-              "text": "It",
+              "text": "it",
               "phonetic": "/ɪt/",
               "partOfSpeech": "代词",
-              "meaning": "它"
+              "meaning": "它；这里指时间"
             },
             {
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
-              "text": "Saturday",
+              "text": "saturday",
               "phonetic": "/ˈsætədeɪ/",
               "partOfSpeech": "名词",
               "meaning": "星期六"
@@ -191,20 +130,20 @@
             }
           ],
           "category": "sentence",
-          "id": "1-5-5"
+          "id": "1-3"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 6,
+          "segmentNumber": 4,
           "english": "My father is cleaning the car.",
           "speaker": "narrator",
           "chinese": "我爸爸在洗车。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "My",
+              "text": "my",
               "phonetic": "/maɪ/",
               "partOfSpeech": "代词",
               "meaning": "我的"
@@ -219,7 +158,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "cleaning",
@@ -231,7 +170,7 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "car",
@@ -242,17 +181,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "My father"
             },
             {
-              "label": "动作",
-              "text": "is cleaning the car"
+              "label": "谓语",
+              "text": "is cleaning"
+            },
+            {
+              "label": "宾语",
+              "text": "the car"
             }
           ],
           "category": "sentence",
-          "id": "1-6-6",
+          "id": "1-4",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/cleaning-the-car.png",
             "alt": "擦车",
             "caption": "擦车画面"
@@ -260,16 +204,16 @@
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 7,
+          "segmentNumber": 5,
           "english": "I am helping him.",
           "speaker": "narrator",
           "chinese": "我在帮他。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
-          "grammarAnalysis": "I am + doing",
+          "grammarAnalysis": "主语 + am + doing",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -278,7 +222,7 @@
               "text": "am",
               "phonetic": "/æm/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "helping",
@@ -295,60 +239,31 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "am helping him"
+              "label": "谓语",
+              "text": "am helping"
+            },
+            {
+              "label": "宾语",
+              "text": "him"
             }
           ],
           "category": "sentence",
-          "id": "1-7-7"
+          "id": "1-5"
         },
         {
           "sequenceNumber": 2,
           "segmentNumber": 1,
-          "english": "My mother",
+          "english": "cooking breakfast",
           "speaker": "narrator",
-          "chinese": "我妈妈",
+          "chinese": "做早饭",
           "difficulty": 1,
-          "hint": "人物短语",
-          "grammarAnalysis": "",
+          "hint": "核心动作",
+          "grammarAnalysis": "动词ing + 宾语",
           "words": [
-            {
-              "text": "My",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我的"
-            },
-            {
-              "text": "mother",
-              "phonetic": "/ˈmʌðə/",
-              "partOfSpeech": "名词",
-              "meaning": "母亲"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "2-1-1"
-        },
-        {
-          "sequenceNumber": 2,
-          "segmentNumber": 2,
-          "english": "is cooking breakfast",
-          "speaker": "narrator",
-          "chinese": "在做早饭",
-          "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "is + doing",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
             {
               "text": "cooking",
               "phonetic": "/ˈkʊkɪŋ/",
@@ -362,10 +277,16 @@
               "meaning": "早餐"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "cooking breakfast"
+            }
+          ],
           "category": "phrase",
-          "id": "2-2-2",
+          "id": "2-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/cooking-dinner.png",
             "alt": "做饭",
             "caption": "做饭画面"
@@ -373,88 +294,25 @@
         },
         {
           "sequenceNumber": 2,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "in the kitchen",
           "speaker": "narrator",
           "chinese": "在厨房里",
           "difficulty": 1,
           "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
+          "grammarAnalysis": "介词短语",
           "words": [
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "kitchen",
-              "phonetic": "/ˈkɪtʃɪn/",
-              "partOfSpeech": "名词",
-              "meaning": "厨房"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "2-3-3"
-        },
-        {
-          "sequenceNumber": 2,
-          "segmentNumber": 4,
-          "english": "My mother is cooking breakfast in the kitchen.",
-          "speaker": "narrator",
-          "chinese": "我妈妈在厨房做早饭。",
-          "difficulty": 1,
-          "hint": "现在进行时+地点",
-          "grammarAnalysis": "主语 + is + doing + 地点",
-          "words": [
-            {
-              "text": "My",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我的"
-            },
-            {
-              "text": "mother",
-              "phonetic": "/ˈmʌðə/",
-              "partOfSpeech": "名词",
-              "meaning": "母亲"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
-            {
-              "text": "cooking",
-              "phonetic": "/ˈkʊkɪŋ/",
-              "partOfSpeech": "动词",
-              "meaning": "烧，煮（现在分词）"
-            },
-            {
-              "text": "breakfast",
-              "phonetic": "/ˈbrekfəst/",
-              "partOfSpeech": "名词",
-              "meaning": "早餐"
-            },
-            {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在...里"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "kitchen",
@@ -465,12 +323,84 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "地点",
+              "text": "in the kitchen"
+            }
+          ],
+          "category": "phrase",
+          "id": "2-2"
+        },
+        {
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
+          "english": "My mother is cooking breakfast in the kitchen.",
+          "speaker": "narrator",
+          "chinese": "我妈妈在厨房做早饭。",
+          "difficulty": 2,
+          "hint": "现在进行时+地点",
+          "grammarAnalysis": "主语 + is + doing + 地点",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我的"
+            },
+            {
+              "text": "mother",
+              "phonetic": "/ˈmʌðə/",
+              "partOfSpeech": "名词",
+              "meaning": "母亲"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "动词",
+              "meaning": "是；正在"
+            },
+            {
+              "text": "cooking",
+              "phonetic": "/ˈkʊkɪŋ/",
+              "partOfSpeech": "动词",
+              "meaning": "烧，煮（现在分词）"
+            },
+            {
+              "text": "breakfast",
+              "phonetic": "/ˈbrekfəst/",
+              "partOfSpeech": "名词",
+              "meaning": "早餐"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "kitchen",
+              "phonetic": "/ˈkɪtʃɪn/",
+              "partOfSpeech": "名词",
+              "meaning": "厨房"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
               "text": "My mother"
             },
             {
-              "label": "动作",
-              "text": "is cooking breakfast"
+              "label": "谓语",
+              "text": "is cooking"
+            },
+            {
+              "label": "宾语",
+              "text": "breakfast"
             },
             {
               "label": "地点",
@@ -478,8 +408,9 @@
             }
           ],
           "category": "sentence",
-          "id": "2-4-4",
+          "id": "2-3",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/cooking-dinner.png",
             "alt": "做饭",
             "caption": "做饭画面"
@@ -487,31 +418,31 @@
         },
         {
           "sequenceNumber": 2,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "in the living room",
           "speaker": "narrator",
           "chinese": "在客厅里",
           "difficulty": 1,
           "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
+          "grammarAnalysis": "介词短语",
           "words": [
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "living",
               "phonetic": "/ˈlɪvɪŋ/",
-              "partOfSpeech": "形容词",
-              "meaning": "居住的"
+              "partOfSpeech": "名词",
+              "meaning": "生活；居住"
             },
             {
               "text": "room",
@@ -520,9 +451,58 @@
               "meaning": "房间"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "地点",
+              "text": "in the living room"
+            }
+          ],
           "category": "phrase",
-          "id": "2-5-5"
+          "id": "2-4"
+        },
+        {
+          "sequenceNumber": 2,
+          "segmentNumber": 5,
+          "english": "sweeping the floor",
+          "speaker": "narrator",
+          "chinese": "扫地",
+          "difficulty": 1,
+          "hint": "核心动作",
+          "grammarAnalysis": "动词ing + 宾语",
+          "words": [
+            {
+              "text": "sweeping",
+              "phonetic": "/ˈswiːpɪŋ/",
+              "partOfSpeech": "动词",
+              "meaning": "扫（现在分词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "floor",
+              "phonetic": "/flɔː/",
+              "partOfSpeech": "名词",
+              "meaning": "地板"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "sweeping the floor"
+            }
+          ],
+          "category": "phrase",
+          "id": "2-5",
+          "media": {
+            "type": "image",
+            "src": "assets/images/sentence-media/sweeping-the-floor.png",
+            "alt": "扫地",
+            "caption": "扫地画面"
+          }
         },
         {
           "sequenceNumber": 2,
@@ -530,12 +510,12 @@
           "english": "Helen is in the living room.",
           "speaker": "narrator",
           "chinese": "海伦在客厅。",
-          "difficulty": 1,
-          "hint": "人物位置",
+          "difficulty": 2,
+          "hint": "地点描述",
           "grammarAnalysis": "主语 + is + 地点",
           "words": [
             {
-              "text": "Helen",
+              "text": "helen",
               "phonetic": "/ˈhelən/",
               "partOfSpeech": "名词",
               "meaning": "海伦"
@@ -544,25 +524,25 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "living",
               "phonetic": "/ˈlɪvɪŋ/",
-              "partOfSpeech": "形容词",
-              "meaning": "居住的"
+              "partOfSpeech": "名词",
+              "meaning": "生活；居住"
             },
             {
               "text": "room",
@@ -573,99 +553,29 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Helen"
             },
             {
-              "label": "位置",
+              "label": "状态",
               "text": "is in the living room"
             }
           ],
           "category": "sentence",
-          "id": "2-6-6"
+          "id": "2-6"
         },
         {
           "sequenceNumber": 2,
           "segmentNumber": 7,
-          "english": "sweep the floor",
-          "speaker": "narrator",
-          "chinese": "扫地",
-          "difficulty": 1,
-          "hint": "wordlist短语",
-          "grammarAnalysis": "sweep + the floor",
-          "words": [
-            {
-              "text": "sweep the floor",
-              "phonetic": "/swiːp ðə flɔː/",
-              "partOfSpeech": "动词短语",
-              "meaning": "扫地"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "2-7-7",
-          "media": {
-            "src": "assets/images/sentence-media/sweeping-the-floor.png",
-            "alt": "扫地",
-            "caption": "扫地画面"
-          }
-        },
-        {
-          "sequenceNumber": 2,
-          "segmentNumber": 8,
-          "english": "is sweeping the floor",
-          "speaker": "narrator",
-          "chinese": "在扫地",
-          "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "is + sweeping the floor",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
-            {
-              "text": "sweeping",
-              "phonetic": "/ˈswiːpɪŋ/",
-              "partOfSpeech": "动词",
-              "meaning": "扫（现在分词）"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "floor",
-              "phonetic": "/flɔː/",
-              "partOfSpeech": "名词",
-              "meaning": "地板"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "2-8-8",
-          "media": {
-            "src": "assets/images/sentence-media/sweeping-the-floor.png",
-            "alt": "扫地",
-            "caption": "扫地画面"
-          }
-        },
-        {
-          "sequenceNumber": 2,
-          "segmentNumber": 9,
           "english": "She is sweeping the floor.",
           "speaker": "narrator",
           "chinese": "她在扫地。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "She",
+              "text": "she",
               "phonetic": "/ʃiː/",
               "partOfSpeech": "代词",
               "meaning": "她"
@@ -674,7 +584,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "sweeping",
@@ -686,7 +596,7 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "floor",
@@ -697,17 +607,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "She"
             },
             {
-              "label": "动作",
-              "text": "is sweeping the floor"
+              "label": "谓语",
+              "text": "is sweeping"
+            },
+            {
+              "label": "宾语",
+              "text": "the floor"
             }
           ],
           "category": "sentence",
-          "id": "2-9-9",
+          "id": "2-7",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/sweeping-the-floor.png",
             "alt": "扫地",
             "caption": "扫地画面"
@@ -721,13 +636,13 @@
           "chinese": "在他的卧室里",
           "difficulty": 1,
           "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
+          "grammarAnalysis": "介词短语",
           "words": [
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "his",
@@ -742,9 +657,14 @@
               "meaning": "卧室"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "地点",
+              "text": "in his bedroom"
+            }
+          ],
           "category": "phrase",
-          "id": "3-1-1"
+          "id": "3-1"
         },
         {
           "sequenceNumber": 3,
@@ -752,12 +672,12 @@
           "english": "Tim is in his bedroom.",
           "speaker": "narrator",
           "chinese": "蒂姆在他的卧室里。",
-          "difficulty": 1,
-          "hint": "人物位置",
+          "difficulty": 2,
+          "hint": "地点描述",
           "grammarAnalysis": "主语 + is + 地点",
           "words": [
             {
-              "text": "Tim",
+              "text": "tim",
               "phonetic": "/tɪm/",
               "partOfSpeech": "名词",
               "meaning": "蒂姆"
@@ -766,13 +686,13 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "his",
@@ -789,16 +709,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Tim"
             },
             {
-              "label": "位置",
+              "label": "状态",
               "text": "is in his bedroom"
             }
           ],
           "category": "sentence",
-          "id": "3-2-2"
+          "id": "3-2"
         },
         {
           "sequenceNumber": 3,
@@ -806,12 +726,12 @@
           "english": "He is sleeping.",
           "speaker": "narrator",
           "chinese": "他在睡觉。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "He",
+              "text": "he",
               "phonetic": "/hiː/",
               "partOfSpeech": "代词",
               "meaning": "他"
@@ -820,7 +740,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "sleeping",
@@ -831,95 +751,29 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "He"
             },
             {
-              "label": "动作",
+              "label": "谓语",
               "text": "is sleeping"
             }
           ],
           "category": "sentence",
-          "id": "3-3-3"
+          "id": "3-3"
         },
         {
           "sequenceNumber": 3,
           "segmentNumber": 4,
-          "english": "Ben the dog",
-          "speaker": "narrator",
-          "chinese": "小狗本",
-          "difficulty": 1,
-          "hint": "人物短语",
-          "grammarAnalysis": "",
-          "words": [
-            {
-              "text": "Ben",
-              "phonetic": "/ben/",
-              "partOfSpeech": "名词",
-              "meaning": "本"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "dog",
-              "phonetic": "/dɒɡ/",
-              "partOfSpeech": "名词",
-              "meaning": "狗"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "3-4-4"
-        },
-        {
-          "sequenceNumber": 3,
-          "segmentNumber": 5,
-          "english": "is sleeping too",
-          "speaker": "narrator",
-          "chinese": "也在睡觉",
-          "difficulty": 1,
-          "hint": "现在进行时+too",
-          "grammarAnalysis": "",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
-            {
-              "text": "sleeping",
-              "phonetic": "/ˈsliːpɪŋ/",
-              "partOfSpeech": "动词",
-              "meaning": "睡觉（现在分词）"
-            },
-            {
-              "text": "too",
-              "phonetic": "/tuː/",
-              "partOfSpeech": "副词",
-              "meaning": "也"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "3-5-5"
-        },
-        {
-          "sequenceNumber": 3,
-          "segmentNumber": 6,
           "english": "Ben the dog is sleeping too.",
           "speaker": "narrator",
           "chinese": "小狗本也在睡觉。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing + too",
           "words": [
             {
-              "text": "Ben",
+              "text": "ben",
               "phonetic": "/ben/",
               "partOfSpeech": "名词",
               "meaning": "本"
@@ -928,7 +782,7 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "dog",
@@ -940,7 +794,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "sleeping",
@@ -957,16 +811,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Ben the dog"
             },
             {
-              "label": "动作",
-              "text": "is sleeping too"
+              "label": "谓语",
+              "text": "is sleeping"
+            },
+            {
+              "label": "补充",
+              "text": "too"
             }
           ],
           "category": "sentence",
-          "id": "3-6-6"
+          "id": "3-4"
         },
         {
           "sequenceNumber": 4,
@@ -974,24 +832,24 @@
           "english": "Where is Mike?",
           "speaker": "narrator",
           "chinese": "迈克在哪里？",
-          "difficulty": 1,
-          "hint": "询问位置",
-          "grammarAnalysis": "Where is + 人？",
+          "difficulty": 2,
+          "hint": "询问地点",
+          "grammarAnalysis": "Where is + 人名",
           "words": [
             {
-              "text": "Where",
+              "text": "where",
               "phonetic": "/weə/",
               "partOfSpeech": "副词",
-              "meaning": "哪里"
+              "meaning": "在哪里"
             },
             {
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
-              "text": "Mike",
+              "text": "mike",
               "phonetic": "/maɪk/",
               "partOfSpeech": "名词",
               "meaning": "迈克"
@@ -999,16 +857,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
-              "text": "Where"
+              "label": "疑问",
+              "text": "Where is"
             },
             {
               "label": "人物",
-              "text": "is Mike"
+              "text": "Mike"
             }
           ],
           "category": "sentence",
-          "id": "4-1-1"
+          "id": "4-1"
         },
         {
           "sequenceNumber": 5,
@@ -1018,34 +876,40 @@
           "chinese": "在花园里",
           "difficulty": 1,
           "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
+          "grammarAnalysis": "介词短语",
           "words": [
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "garden",
-              "phonetic": "/ˈɡɑːdən/",
+              "phonetic": "/ˈɡɑːdn/",
               "partOfSpeech": "名词",
-              "meaning": "花园，果园"
+              "meaning": "花园；果园"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "地点",
+              "text": "in the garden"
+            }
+          ],
           "category": "phrase",
-          "id": "5-1-1",
+          "id": "5-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/garden.png",
             "alt": "花园",
-            "caption": "花园"
+            "caption": "花园画面"
           }
         },
         {
@@ -1054,12 +918,12 @@
           "english": "Mike is in the garden.",
           "speaker": "narrator",
           "chinese": "迈克在花园里。",
-          "difficulty": 1,
-          "hint": "人物位置",
+          "difficulty": 2,
+          "hint": "地点描述",
           "grammarAnalysis": "主语 + is + 地点",
           "words": [
             {
-              "text": "Mike",
+              "text": "mike",
               "phonetic": "/maɪk/",
               "partOfSpeech": "名词",
               "meaning": "迈克"
@@ -1068,66 +932,85 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "garden",
-              "phonetic": "/ˈɡɑːdən/",
+              "phonetic": "/ˈɡɑːdn/",
               "partOfSpeech": "名词",
-              "meaning": "花园，果园"
+              "meaning": "花园；果园"
             }
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Mike"
             },
             {
-              "label": "位置",
+              "label": "状态",
               "text": "is in the garden"
             }
           ],
           "category": "sentence",
-          "id": "5-2-2",
+          "id": "5-2",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/garden.png",
             "alt": "花园",
-            "caption": "花园"
+            "caption": "花园画面"
           }
         },
         {
           "sequenceNumber": 5,
           "segmentNumber": 3,
-          "english": "wash the dishes",
+          "english": "washing the dishes",
           "speaker": "narrator",
           "chinese": "洗碗",
           "difficulty": 1,
-          "hint": "wordlist短语",
-          "grammarAnalysis": "wash + the dishes",
+          "hint": "核心动作",
+          "grammarAnalysis": "动词ing + 宾语",
           "words": [
             {
-              "text": "wash the dishes",
-              "phonetic": "/wɒʃ ðə ˈdɪʃɪz/",
-              "partOfSpeech": "动词短语",
-              "meaning": "洗碗"
+              "text": "washing",
+              "phonetic": "/ˈwɒʃɪŋ/",
+              "partOfSpeech": "动词",
+              "meaning": "洗（现在分词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "dishes",
+              "phonetic": "/ˈdɪʃɪz/",
+              "partOfSpeech": "名词",
+              "meaning": "碗碟"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "washing the dishes"
+            }
+          ],
           "category": "phrase",
-          "id": "5-3-3",
+          "id": "5-3",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/washing-the-dishes.png",
             "alt": "洗碗",
             "caption": "洗碗画面"
@@ -1136,59 +1019,15 @@
         {
           "sequenceNumber": 5,
           "segmentNumber": 4,
-          "english": "is washing the dishes",
-          "speaker": "narrator",
-          "chinese": "在洗碗",
-          "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "is + washing the dishes",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
-            {
-              "text": "washing",
-              "phonetic": "/ˈwɒʃɪŋ/",
-              "partOfSpeech": "动词",
-              "meaning": "洗（现在分词）"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "dishes",
-              "phonetic": "/ˈdɪʃɪz/",
-              "partOfSpeech": "名词",
-              "meaning": "盘子"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "5-4-4",
-          "media": {
-            "src": "assets/images/sentence-media/washing-the-dishes.png",
-            "alt": "洗碗",
-            "caption": "洗碗画面"
-          }
-        },
-        {
-          "sequenceNumber": 5,
-          "segmentNumber": 5,
           "english": "He is washing the dishes.",
           "speaker": "narrator",
           "chinese": "他在洗碗。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "He",
+              "text": "he",
               "phonetic": "/hiː/",
               "partOfSpeech": "代词",
               "meaning": "他"
@@ -1197,7 +1036,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "washing",
@@ -1209,28 +1048,33 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "dishes",
               "phonetic": "/ˈdɪʃɪz/",
               "partOfSpeech": "名词",
-              "meaning": "盘子"
+              "meaning": "碗碟"
             }
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "He"
             },
             {
-              "label": "动作",
-              "text": "is washing the dishes"
+              "label": "谓语",
+              "text": "is washing"
+            },
+            {
+              "label": "宾语",
+              "text": "the dishes"
             }
           ],
           "category": "sentence",
-          "id": "5-5-5",
+          "id": "5-4",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/washing-the-dishes.png",
             "alt": "洗碗",
             "caption": "洗碗画面"
@@ -1238,16 +1082,16 @@
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "What about Tim and Ben?",
           "speaker": "narrator",
           "chinese": "蒂姆和本呢？",
-          "difficulty": 1,
-          "hint": "询问他人",
-          "grammarAnalysis": "What about + 人？",
+          "difficulty": 2,
+          "hint": "询问补充",
+          "grammarAnalysis": "What about + 人物",
           "words": [
             {
-              "text": "What",
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -1259,7 +1103,7 @@
               "meaning": "关于"
             },
             {
-              "text": "Tim",
+              "text": "tim",
               "phonetic": "/tɪm/",
               "partOfSpeech": "名词",
               "meaning": "蒂姆"
@@ -1271,7 +1115,7 @@
               "meaning": "和"
             },
             {
-              "text": "Ben",
+              "text": "ben",
               "phonetic": "/ben/",
               "partOfSpeech": "名词",
               "meaning": "本"
@@ -1279,7 +1123,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
+              "label": "疑问",
               "text": "What about"
             },
             {
@@ -1288,24 +1132,18 @@
             }
           ],
           "category": "sentence",
-          "id": "5-6-6"
+          "id": "5-5"
         },
         {
           "sequenceNumber": 6,
           "segmentNumber": 1,
-          "english": "are watching TV",
+          "english": "watching TV",
           "speaker": "narrator",
-          "chinese": "在看电视",
+          "chinese": "看电视",
           "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "are + doing",
+          "hint": "动作短语",
+          "grammarAnalysis": "动词ing + 宾语",
           "words": [
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
             {
               "text": "watching",
               "phonetic": "/ˈwɒtʃɪŋ/",
@@ -1314,66 +1152,32 @@
             },
             {
               "text": "TV",
-              "phonetic": "/ˌtiːˈviː/",
+              "phonetic": "/ˌtiː ˈviː/",
               "partOfSpeech": "名词",
               "meaning": "电视"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "watching TV"
+            }
+          ],
           "category": "phrase",
-          "id": "6-1-1"
+          "id": "6-1"
         },
         {
           "sequenceNumber": 6,
           "segmentNumber": 2,
-          "english": "in the living room",
-          "speaker": "narrator",
-          "chinese": "在客厅里",
-          "difficulty": 1,
-          "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
-          "words": [
-            {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在...里"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "living",
-              "phonetic": "/ˈlɪvɪŋ/",
-              "partOfSpeech": "形容词",
-              "meaning": "居住的"
-            },
-            {
-              "text": "room",
-              "phonetic": "/ruːm/",
-              "partOfSpeech": "名词",
-              "meaning": "房间"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "6-2-2"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 3,
           "english": "Tim and Ben are watching TV in the living room.",
           "speaker": "narrator",
           "chinese": "蒂姆和本在客厅看电视。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时+地点",
           "grammarAnalysis": "主语 + are + doing + 地点",
           "words": [
             {
-              "text": "Tim",
+              "text": "tim",
               "phonetic": "/tɪm/",
               "partOfSpeech": "名词",
               "meaning": "蒂姆"
@@ -1385,7 +1189,7 @@
               "meaning": "和"
             },
             {
-              "text": "Ben",
+              "text": "ben",
               "phonetic": "/ben/",
               "partOfSpeech": "名词",
               "meaning": "本"
@@ -1394,7 +1198,7 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "watching",
@@ -1404,7 +1208,7 @@
             },
             {
               "text": "TV",
-              "phonetic": "/ˌtiːˈviː/",
+              "phonetic": "/ˌtiː ˈviː/",
               "partOfSpeech": "名词",
               "meaning": "电视"
             },
@@ -1412,19 +1216,19 @@
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "living",
               "phonetic": "/ˈlɪvɪŋ/",
-              "partOfSpeech": "形容词",
-              "meaning": "居住的"
+              "partOfSpeech": "名词",
+              "meaning": "生活；居住"
             },
             {
               "text": "room",
@@ -1435,12 +1239,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Tim and Ben"
             },
             {
-              "label": "动作",
-              "text": "are watching TV"
+              "label": "谓语",
+              "text": "are watching"
+            },
+            {
+              "label": "宾语",
+              "text": "TV"
             },
             {
               "label": "地点",
@@ -1448,7 +1256,7 @@
             }
           ],
           "category": "sentence",
-          "id": "6-3-3"
+          "id": "6-2"
         },
         {
           "sequenceNumber": 7,
@@ -1456,12 +1264,12 @@
           "english": "What are you doing, Dad?",
           "speaker": "narrator",
           "chinese": "你在做什么，爸爸？",
-          "difficulty": 1,
-          "hint": "询问动作",
-          "grammarAnalysis": "What are you doing?",
+          "difficulty": 2,
+          "hint": "询问正在做什么",
+          "grammarAnalysis": "What are you doing",
           "words": [
             {
-              "text": "What",
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -1470,13 +1278,13 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "doing",
@@ -1485,7 +1293,7 @@
               "meaning": "做（现在分词）"
             },
             {
-              "text": "Dad",
+              "text": "dad",
               "phonetic": "/dæd/",
               "partOfSpeech": "名词",
               "meaning": "爸爸"
@@ -1493,7 +1301,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
+              "label": "疑问",
               "text": "What are you doing"
             },
             {
@@ -1502,25 +1310,26 @@
             }
           ],
           "category": "sentence",
-          "id": "7-1-1",
+          "id": "7-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/what-are-you-doing.png",
-            "alt": "你正在做什么",
-            "caption": "询问正在做什么"
+            "alt": "询问正在做什么",
+            "caption": "问答画面"
           }
         },
         {
           "sequenceNumber": 8,
           "segmentNumber": 1,
           "english": "I am cleaning the car.",
-          "speaker": "Dad",
+          "speaker": "narrator",
           "chinese": "我在洗车。",
-          "difficulty": 1,
-          "hint": "现在进行时",
+          "difficulty": 2,
+          "hint": "现在进行时回答",
           "grammarAnalysis": "I am + doing",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1529,7 +1338,7 @@
               "text": "am",
               "phonetic": "/æm/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "cleaning",
@@ -1541,7 +1350,7 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "car",
@@ -1552,17 +1361,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "am cleaning the car"
+              "label": "谓语",
+              "text": "am cleaning"
+            },
+            {
+              "label": "宾语",
+              "text": "the car"
             }
           ],
           "category": "sentence",
-          "id": "8-1-1",
+          "id": "8-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/cleaning-the-car.png",
             "alt": "擦车",
             "caption": "擦车画面"
@@ -1574,12 +1388,12 @@
           "english": "What are you doing, Mum?",
           "speaker": "narrator",
           "chinese": "你在做什么，妈妈？",
-          "difficulty": 1,
-          "hint": "询问动作",
-          "grammarAnalysis": "What are you doing?",
+          "difficulty": 2,
+          "hint": "询问正在做什么",
+          "grammarAnalysis": "What are you doing",
           "words": [
             {
-              "text": "What",
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -1588,13 +1402,13 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "doing",
@@ -1603,7 +1417,7 @@
               "meaning": "做（现在分词）"
             },
             {
-              "text": "Mum",
+              "text": "mum",
               "phonetic": "/mʌm/",
               "partOfSpeech": "名词",
               "meaning": "妈妈"
@@ -1611,7 +1425,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
+              "label": "疑问",
               "text": "What are you doing"
             },
             {
@@ -1620,25 +1434,26 @@
             }
           ],
           "category": "sentence",
-          "id": "9-1-1",
+          "id": "9-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/what-are-you-doing.png",
-            "alt": "你正在做什么",
-            "caption": "询问正在做什么"
+            "alt": "询问正在做什么",
+            "caption": "问答画面"
           }
         },
         {
           "sequenceNumber": 10,
           "segmentNumber": 1,
           "english": "I am cooking breakfast.",
-          "speaker": "Mum",
+          "speaker": "narrator",
           "chinese": "我在做早饭。",
-          "difficulty": 1,
-          "hint": "现在进行时",
+          "difficulty": 2,
+          "hint": "现在进行时回答",
           "grammarAnalysis": "I am + doing",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1647,7 +1462,7 @@
               "text": "am",
               "phonetic": "/æm/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "cooking",
@@ -1664,17 +1479,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "am cooking breakfast"
+              "label": "谓语",
+              "text": "am cooking"
+            },
+            {
+              "label": "宾语",
+              "text": "breakfast"
             }
           ],
           "category": "sentence",
-          "id": "10-1-1",
+          "id": "10-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/cooking-dinner.png",
             "alt": "做饭",
             "caption": "做饭画面"
@@ -1686,12 +1506,12 @@
           "english": "What are you doing, Helen?",
           "speaker": "narrator",
           "chinese": "你在做什么，海伦？",
-          "difficulty": 1,
-          "hint": "询问动作",
-          "grammarAnalysis": "What are you doing?",
+          "difficulty": 2,
+          "hint": "询问正在做什么",
+          "grammarAnalysis": "What are you doing",
           "words": [
             {
-              "text": "What",
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -1700,13 +1520,13 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "doing",
@@ -1715,7 +1535,7 @@
               "meaning": "做（现在分词）"
             },
             {
-              "text": "Helen",
+              "text": "helen",
               "phonetic": "/ˈhelən/",
               "partOfSpeech": "名词",
               "meaning": "海伦"
@@ -1723,7 +1543,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
+              "label": "疑问",
               "text": "What are you doing"
             },
             {
@@ -1732,51 +1552,26 @@
             }
           ],
           "category": "sentence",
-          "id": "11-1-1",
+          "id": "11-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/what-are-you-doing.png",
-            "alt": "你正在做什么",
-            "caption": "询问正在做什么"
+            "alt": "询问正在做什么",
+            "caption": "问答画面"
           }
         },
         {
           "sequenceNumber": 12,
           "segmentNumber": 1,
-          "english": "sweep the floor",
-          "speaker": "narrator",
-          "chinese": "扫地",
-          "difficulty": 1,
-          "hint": "wordlist短语",
-          "grammarAnalysis": "sweep + the floor",
-          "words": [
-            {
-              "text": "sweep the floor",
-              "phonetic": "/swiːp ðə flɔː/",
-              "partOfSpeech": "动词短语",
-              "meaning": "扫地"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "12-1-1",
-          "media": {
-            "src": "assets/images/sentence-media/sweeping-the-floor.png",
-            "alt": "扫地",
-            "caption": "扫地画面"
-          }
-        },
-        {
-          "sequenceNumber": 12,
-          "segmentNumber": 2,
           "english": "I am sweeping the floor.",
-          "speaker": "Helen",
+          "speaker": "narrator",
           "chinese": "我在扫地。",
-          "difficulty": 1,
-          "hint": "现在进行时",
+          "difficulty": 2,
+          "hint": "现在进行时回答",
           "grammarAnalysis": "I am + doing",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1785,7 +1580,7 @@
               "text": "am",
               "phonetic": "/æm/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "sweeping",
@@ -1797,7 +1592,7 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "floor",
@@ -1808,17 +1603,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "am sweeping the floor"
+              "label": "谓语",
+              "text": "am sweeping"
+            },
+            {
+              "label": "宾语",
+              "text": "the floor"
             }
           ],
           "category": "sentence",
-          "id": "12-2-2",
+          "id": "12-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/sweeping-the-floor.png",
             "alt": "扫地",
             "caption": "扫地画面"
@@ -1830,12 +1630,12 @@
           "english": "What are you doing, Mike?",
           "speaker": "narrator",
           "chinese": "你在做什么，迈克？",
-          "difficulty": 1,
-          "hint": "询问动作",
-          "grammarAnalysis": "What are you doing?",
+          "difficulty": 2,
+          "hint": "询问正在做什么",
+          "grammarAnalysis": "What are you doing",
           "words": [
             {
-              "text": "What",
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -1844,13 +1644,13 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "you",
               "phonetic": "/juː/",
               "partOfSpeech": "代词",
-              "meaning": "你"
+              "meaning": "你；你们"
             },
             {
               "text": "doing",
@@ -1859,7 +1659,7 @@
               "meaning": "做（现在分词）"
             },
             {
-              "text": "Mike",
+              "text": "mike",
               "phonetic": "/maɪk/",
               "partOfSpeech": "名词",
               "meaning": "迈克"
@@ -1867,7 +1667,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
+              "label": "疑问",
               "text": "What are you doing"
             },
             {
@@ -1876,51 +1676,26 @@
             }
           ],
           "category": "sentence",
-          "id": "13-1-1",
+          "id": "13-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/what-are-you-doing.png",
-            "alt": "你正在做什么",
-            "caption": "询问正在做什么"
+            "alt": "询问正在做什么",
+            "caption": "问答画面"
           }
         },
         {
           "sequenceNumber": 14,
           "segmentNumber": 1,
-          "english": "wash the dishes",
-          "speaker": "narrator",
-          "chinese": "洗碗",
-          "difficulty": 1,
-          "hint": "wordlist短语",
-          "grammarAnalysis": "wash + the dishes",
-          "words": [
-            {
-              "text": "wash the dishes",
-              "phonetic": "/wɒʃ ðə ˈdɪʃɪz/",
-              "partOfSpeech": "动词短语",
-              "meaning": "洗碗"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "14-1-1",
-          "media": {
-            "src": "assets/images/sentence-media/washing-the-dishes.png",
-            "alt": "洗碗",
-            "caption": "洗碗画面"
-          }
-        },
-        {
-          "sequenceNumber": 14,
-          "segmentNumber": 2,
           "english": "I am washing the dishes.",
-          "speaker": "Mike",
+          "speaker": "narrator",
           "chinese": "我在洗碗。",
-          "difficulty": 1,
-          "hint": "现在进行时",
+          "difficulty": 2,
+          "hint": "现在进行时回答",
           "grammarAnalysis": "I am + doing",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -1929,7 +1704,7 @@
               "text": "am",
               "phonetic": "/æm/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "washing",
@@ -1941,28 +1716,33 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "dishes",
               "phonetic": "/ˈdɪʃɪz/",
               "partOfSpeech": "名词",
-              "meaning": "盘子"
+              "meaning": "碗碟"
             }
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "am washing the dishes"
+              "label": "谓语",
+              "text": "am washing"
+            },
+            {
+              "label": "宾语",
+              "text": "the dishes"
             }
           ],
           "category": "sentence",
-          "id": "14-2-2",
+          "id": "14-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/washing-the-dishes.png",
             "alt": "洗碗",
             "caption": "洗碗画面"
@@ -1974,12 +1754,12 @@
           "english": "What are Tim and Ben doing?",
           "speaker": "narrator",
           "chinese": "蒂姆和本在做什么？",
-          "difficulty": 1,
-          "hint": "询问动作",
-          "grammarAnalysis": "What are + 人 + doing?",
+          "difficulty": 2,
+          "hint": "询问多人正在做什么",
+          "grammarAnalysis": "What are + 人物 + doing",
           "words": [
             {
-              "text": "What",
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -1988,10 +1768,10 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
-              "text": "Tim",
+              "text": "tim",
               "phonetic": "/tɪm/",
               "partOfSpeech": "名词",
               "meaning": "蒂姆"
@@ -2003,7 +1783,7 @@
               "meaning": "和"
             },
             {
-              "text": "Ben",
+              "text": "ben",
               "phonetic": "/ben/",
               "partOfSpeech": "名词",
               "meaning": "本"
@@ -2017,7 +1797,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
+              "label": "疑问",
               "text": "What are"
             },
             {
@@ -2030,11 +1810,12 @@
             }
           ],
           "category": "sentence",
-          "id": "15-1-1",
+          "id": "15-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/what-are-they-doing.png",
-            "alt": "他们正在做什么",
-            "caption": "询问他们正在做什么"
+            "alt": "询问他们正在做什么",
+            "caption": "问答画面"
           }
         },
         {
@@ -2043,12 +1824,12 @@
           "english": "They are watching TV.",
           "speaker": "narrator",
           "chinese": "他们在看电视。",
-          "difficulty": 1,
-          "hint": "现在进行时",
+          "difficulty": 2,
+          "hint": "现在进行时回答",
           "grammarAnalysis": "They are + doing",
           "words": [
             {
-              "text": "They",
+              "text": "they",
               "phonetic": "/ðeɪ/",
               "partOfSpeech": "代词",
               "meaning": "他们"
@@ -2057,7 +1838,7 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "watching",
@@ -2067,23 +1848,27 @@
             },
             {
               "text": "TV",
-              "phonetic": "/ˌtiːˈviː/",
+              "phonetic": "/ˌtiː ˈviː/",
               "partOfSpeech": "名词",
               "meaning": "电视"
             }
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "They"
             },
             {
-              "label": "动作",
-              "text": "are watching TV"
+              "label": "谓语",
+              "text": "are watching"
+            },
+            {
+              "label": "宾语",
+              "text": "TV"
             }
           ],
           "category": "sentence",
-          "id": "16-1-1"
+          "id": "16-1"
         },
         {
           "sequenceNumber": 17,
@@ -2093,19 +1878,19 @@
           "chinese": "在下午",
           "difficulty": 1,
           "hint": "时间短语",
-          "grammarAnalysis": "介词 In + 时间",
+          "grammarAnalysis": "时间短语",
           "words": [
             {
-              "text": "In",
+              "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在..."
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "afternoon",
@@ -2114,31 +1899,90 @@
               "meaning": "下午"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "时间",
+              "text": "In the afternoon"
+            }
+          ],
           "category": "phrase",
-          "id": "17-1-1"
+          "id": "17-1"
         },
         {
           "sequenceNumber": 17,
           "segmentNumber": 2,
+          "english": "my mother is busy",
+          "speaker": "narrator",
+          "chinese": "我妈妈很忙",
+          "difficulty": 1,
+          "hint": "状态描述",
+          "grammarAnalysis": "主语 + is + 形容词",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我的"
+            },
+            {
+              "text": "mother",
+              "phonetic": "/ˈmʌðə/",
+              "partOfSpeech": "名词",
+              "meaning": "母亲"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "动词",
+              "meaning": "是；正在"
+            },
+            {
+              "text": "busy",
+              "phonetic": "/ˈbɪzi/",
+              "partOfSpeech": "形容词",
+              "meaning": "忙碌的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "my mother"
+            },
+            {
+              "label": "状态",
+              "text": "is busy"
+            }
+          ],
+          "category": "phrase",
+          "id": "17-2",
+          "media": {
+            "type": "image",
+            "src": "assets/images/sentence-media/busy.png",
+            "alt": "忙碌",
+            "caption": "忙碌画面"
+          }
+        },
+        {
+          "sequenceNumber": 17,
+          "segmentNumber": 3,
           "english": "In the afternoon, my mother is busy.",
           "speaker": "narrator",
           "chinese": "下午，我妈妈很忙。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "时间+状态",
-          "grammarAnalysis": "时间, 主语 + is + 形容词",
+          "grammarAnalysis": "时间 + 主语 + is + 形容词",
           "words": [
             {
-              "text": "In",
+              "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在..."
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "afternoon",
@@ -2162,13 +2006,13 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "busy",
               "phonetic": "/ˈbɪzi/",
               "partOfSpeech": "形容词",
-              "meaning": "忙，忙碌"
+              "meaning": "忙碌的"
             }
           ],
           "structureBlocks": [
@@ -2177,7 +2021,7 @@
               "text": "In the afternoon"
             },
             {
-              "label": "人物",
+              "label": "主语",
               "text": "my mother"
             },
             {
@@ -2186,37 +2030,12 @@
             }
           ],
           "category": "sentence",
-          "id": "17-2-2",
+          "id": "17-3",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/busy.png",
             "alt": "忙碌",
-            "caption": "忙碌"
-          }
-        },
-        {
-          "sequenceNumber": 17,
-          "segmentNumber": 3,
-          "english": "wash the dishes",
-          "speaker": "narrator",
-          "chinese": "洗碗",
-          "difficulty": 1,
-          "hint": "wordlist短语",
-          "grammarAnalysis": "wash + the dishes",
-          "words": [
-            {
-              "text": "wash the dishes",
-              "phonetic": "/wɒʃ ðə ˈdɪʃɪz/",
-              "partOfSpeech": "动词短语",
-              "meaning": "洗碗"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "17-3-3",
-          "media": {
-            "src": "assets/images/sentence-media/washing-the-dishes.png",
-            "alt": "洗碗",
-            "caption": "洗碗画面"
+            "caption": "忙碌画面"
           }
         },
         {
@@ -2225,12 +2044,12 @@
           "english": "She is washing the dishes.",
           "speaker": "narrator",
           "chinese": "她在洗碗。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "She",
+              "text": "she",
               "phonetic": "/ʃiː/",
               "partOfSpeech": "代词",
               "meaning": "她"
@@ -2239,7 +2058,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "washing",
@@ -2251,28 +2070,33 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "dishes",
               "phonetic": "/ˈdɪʃɪz/",
               "partOfSpeech": "名词",
-              "meaning": "盘子"
+              "meaning": "碗碟"
             }
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "She"
             },
             {
-              "label": "动作",
-              "text": "is washing the dishes"
+              "label": "谓语",
+              "text": "is washing"
+            },
+            {
+              "label": "宾语",
+              "text": "the dishes"
             }
           ],
           "category": "sentence",
-          "id": "17-4-4",
+          "id": "17-4",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/washing-the-dishes.png",
             "alt": "洗碗",
             "caption": "洗碗画面"
@@ -2281,24 +2105,42 @@
         {
           "sequenceNumber": 17,
           "segmentNumber": 5,
-          "english": "make the bed",
+          "english": "making the bed",
           "speaker": "narrator",
           "chinese": "整理床铺",
           "difficulty": 1,
-          "hint": "wordlist短语",
-          "grammarAnalysis": "make + the bed",
+          "hint": "核心动作",
+          "grammarAnalysis": "动词ing + 宾语",
           "words": [
             {
-              "text": "make the bed",
-              "phonetic": "/meɪk ðə bed/",
-              "partOfSpeech": "动词短语",
-              "meaning": "整理床铺"
+              "text": "making",
+              "phonetic": "/ˈmeɪkɪŋ/",
+              "partOfSpeech": "动词",
+              "meaning": "做；整理（现在分词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "bed",
+              "phonetic": "/bed/",
+              "partOfSpeech": "名词",
+              "meaning": "床"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "making the bed"
+            }
+          ],
           "category": "phrase",
-          "id": "17-5-5",
+          "id": "17-5",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/making-the-bed.png",
             "alt": "整理床铺",
             "caption": "整理床铺画面"
@@ -2310,12 +2152,12 @@
           "english": "I am making the bed.",
           "speaker": "narrator",
           "chinese": "我在整理床铺。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "I am + doing",
           "words": [
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -2324,19 +2166,19 @@
               "text": "am",
               "phonetic": "/æm/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "making",
               "phonetic": "/ˈmeɪkɪŋ/",
               "partOfSpeech": "动词",
-              "meaning": "制作（现在分词）"
+              "meaning": "做；整理（现在分词）"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "bed",
@@ -2347,17 +2189,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "I"
             },
             {
-              "label": "动作",
-              "text": "am making the bed"
+              "label": "谓语",
+              "text": "am making"
+            },
+            {
+              "label": "宾语",
+              "text": "the bed"
             }
           ],
           "category": "sentence",
-          "id": "17-6-6",
+          "id": "17-6",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/making-the-bed.png",
             "alt": "整理床铺",
             "caption": "整理床铺画面"
@@ -2369,12 +2216,12 @@
           "english": "Helen is sweeping the floor.",
           "speaker": "narrator",
           "chinese": "海伦在扫地。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "Helen",
+              "text": "helen",
               "phonetic": "/ˈhelən/",
               "partOfSpeech": "名词",
               "meaning": "海伦"
@@ -2383,7 +2230,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "sweeping",
@@ -2395,7 +2242,7 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "floor",
@@ -2406,17 +2253,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Helen"
             },
             {
-              "label": "动作",
-              "text": "is sweeping the floor"
+              "label": "谓语",
+              "text": "is sweeping"
+            },
+            {
+              "label": "宾语",
+              "text": "the floor"
             }
           ],
           "category": "sentence",
-          "id": "17-7-7",
+          "id": "17-7",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/sweeping-the-floor.png",
             "alt": "扫地",
             "caption": "扫地画面"
@@ -2425,46 +2277,13 @@
         {
           "sequenceNumber": 18,
           "segmentNumber": 1,
-          "english": "My father",
+          "english": "cleaning the table",
           "speaker": "narrator",
-          "chinese": "我爸爸",
+          "chinese": "擦桌子",
           "difficulty": 1,
-          "hint": "人物短语",
-          "grammarAnalysis": "",
+          "hint": "核心动作",
+          "grammarAnalysis": "动词ing + 宾语",
           "words": [
-            {
-              "text": "My",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我的"
-            },
-            {
-              "text": "father",
-              "phonetic": "/ˈfɑːðə/",
-              "partOfSpeech": "名词",
-              "meaning": "父亲"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "18-1-1"
-        },
-        {
-          "sequenceNumber": 18,
-          "segmentNumber": 2,
-          "english": "is cleaning the table",
-          "speaker": "narrator",
-          "chinese": "在擦桌子",
-          "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "is + doing",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
             {
               "text": "cleaning",
               "phonetic": "/ˈkliːnɪŋ/",
@@ -2475,63 +2294,7 @@
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "table",
-              "phonetic": "/ˈteɪbl/",
-              "partOfSpeech": "名词",
-              "meaning": "桌子"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "18-2-2",
-          "media": {
-            "src": "assets/images/sentence-media/cleaning-the-table.png",
-            "alt": "擦桌子",
-            "caption": "擦桌子画面"
-          }
-        },
-        {
-          "sequenceNumber": 18,
-          "segmentNumber": 3,
-          "english": "My father is cleaning the table.",
-          "speaker": "narrator",
-          "chinese": "我爸爸在擦桌子。",
-          "difficulty": 1,
-          "hint": "现在进行时",
-          "grammarAnalysis": "主语 + is + doing",
-          "words": [
-            {
-              "text": "My",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "代词",
-              "meaning": "我的"
-            },
-            {
-              "text": "father",
-              "phonetic": "/ˈfɑːðə/",
-              "partOfSpeech": "名词",
-              "meaning": "父亲"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
-            {
-              "text": "cleaning",
-              "phonetic": "/ˈkliːnɪŋ/",
-              "partOfSpeech": "动词",
-              "meaning": "擦，洗（现在分词）"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "table",
@@ -2542,17 +2305,14 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "My father"
-            },
-            {
               "label": "动作",
-              "text": "is cleaning the table"
+              "text": "cleaning the table"
             }
           ],
-          "category": "sentence",
-          "id": "18-3-3",
+          "category": "phrase",
+          "id": "18-1",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/cleaning-the-table.png",
             "alt": "擦桌子",
             "caption": "擦桌子画面"
@@ -2560,20 +2320,84 @@
         },
         {
           "sequenceNumber": 18,
-          "segmentNumber": 4,
-          "english": "are eating fruit",
+          "segmentNumber": 2,
+          "english": "My father is cleaning the table.",
           "speaker": "narrator",
-          "chinese": "在吃水果",
-          "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "are + doing",
+          "chinese": "我爸爸在擦桌子。",
+          "difficulty": 2,
+          "hint": "现在进行时",
+          "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我的"
             },
+            {
+              "text": "father",
+              "phonetic": "/ˈfɑːðə/",
+              "partOfSpeech": "名词",
+              "meaning": "父亲"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "动词",
+              "meaning": "是；正在"
+            },
+            {
+              "text": "cleaning",
+              "phonetic": "/ˈkliːnɪŋ/",
+              "partOfSpeech": "动词",
+              "meaning": "擦，洗（现在分词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "冠词",
+              "meaning": "这个；那个"
+            },
+            {
+              "text": "table",
+              "phonetic": "/ˈteɪbl/",
+              "partOfSpeech": "名词",
+              "meaning": "桌子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "My father"
+            },
+            {
+              "label": "谓语",
+              "text": "is cleaning"
+            },
+            {
+              "label": "宾语",
+              "text": "the table"
+            }
+          ],
+          "category": "sentence",
+          "id": "18-2",
+          "media": {
+            "type": "image",
+            "src": "assets/images/sentence-media/cleaning-the-table.png",
+            "alt": "擦桌子",
+            "caption": "擦桌子画面"
+          }
+        },
+        {
+          "sequenceNumber": 18,
+          "segmentNumber": 3,
+          "english": "eating fruit",
+          "speaker": "narrator",
+          "chinese": "吃水果",
+          "difficulty": 1,
+          "hint": "动作短语",
+          "grammarAnalysis": "动词ing + 宾语",
+          "words": [
             {
               "text": "eating",
               "phonetic": "/ˈiːtɪŋ/",
@@ -2587,61 +2411,27 @@
               "meaning": "水果"
             }
           ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "18-4-4"
-        },
-        {
-          "sequenceNumber": 18,
-          "segmentNumber": 5,
-          "english": "in the living room",
-          "speaker": "narrator",
-          "chinese": "在客厅里",
-          "difficulty": 1,
-          "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
-          "words": [
+          "structureBlocks": [
             {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在...里"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "living",
-              "phonetic": "/ˈlɪvɪŋ/",
-              "partOfSpeech": "形容词",
-              "meaning": "居住的"
-            },
-            {
-              "text": "room",
-              "phonetic": "/ruːm/",
-              "partOfSpeech": "名词",
-              "meaning": "房间"
+              "label": "动作",
+              "text": "eating fruit"
             }
           ],
-          "structureBlocks": [],
           "category": "phrase",
-          "id": "18-5-5"
+          "id": "18-3"
         },
         {
           "sequenceNumber": 18,
-          "segmentNumber": 6,
+          "segmentNumber": 4,
           "english": "Tim and Ben are eating fruit in the living room.",
           "speaker": "narrator",
           "chinese": "蒂姆和本在客厅吃水果。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时+地点",
           "grammarAnalysis": "主语 + are + doing + 地点",
           "words": [
             {
-              "text": "Tim",
+              "text": "tim",
               "phonetic": "/tɪm/",
               "partOfSpeech": "名词",
               "meaning": "蒂姆"
@@ -2653,7 +2443,7 @@
               "meaning": "和"
             },
             {
-              "text": "Ben",
+              "text": "ben",
               "phonetic": "/ben/",
               "partOfSpeech": "名词",
               "meaning": "本"
@@ -2662,7 +2452,7 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "eating",
@@ -2680,19 +2470,19 @@
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "living",
               "phonetic": "/ˈlɪvɪŋ/",
-              "partOfSpeech": "形容词",
-              "meaning": "居住的"
+              "partOfSpeech": "名词",
+              "meaning": "生活；居住"
             },
             {
               "text": "room",
@@ -2703,12 +2493,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Tim and Ben"
             },
             {
-              "label": "动作",
-              "text": "are eating fruit"
+              "label": "谓语",
+              "text": "are eating"
+            },
+            {
+              "label": "宾语",
+              "text": "fruit"
             },
             {
               "label": "地点",
@@ -2716,7 +2510,7 @@
             }
           ],
           "category": "sentence",
-          "id": "18-6-6"
+          "id": "18-4"
         },
         {
           "sequenceNumber": 19,
@@ -2724,30 +2518,30 @@
           "english": "Where is Su Hai?",
           "speaker": "narrator",
           "chinese": "苏海在哪里？",
-          "difficulty": 1,
-          "hint": "询问位置",
-          "grammarAnalysis": "Where is + 人？",
+          "difficulty": 2,
+          "hint": "询问地点",
+          "grammarAnalysis": "Where is + 人名",
           "words": [
             {
-              "text": "Where",
+              "text": "where",
               "phonetic": "/weə/",
               "partOfSpeech": "副词",
-              "meaning": "哪里"
+              "meaning": "在哪里"
             },
             {
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
-              "text": "Su",
+              "text": "su",
               "phonetic": "/suː/",
               "partOfSpeech": "名词",
               "meaning": "苏"
             },
             {
-              "text": "Hai",
+              "text": "hai",
               "phonetic": "/haɪ/",
               "partOfSpeech": "名词",
               "meaning": "海"
@@ -2755,16 +2549,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "询问",
-              "text": "Where"
+              "label": "疑问",
+              "text": "Where is"
             },
             {
               "label": "人物",
-              "text": "is Su Hai"
+              "text": "Su Hai"
             }
           ],
           "category": "sentence",
-          "id": "19-1-1"
+          "id": "19-1"
         },
         {
           "sequenceNumber": 20,
@@ -2774,64 +2568,13 @@
           "chinese": "在她的卧室里",
           "difficulty": 1,
           "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
+          "grammarAnalysis": "介词短语",
           "words": [
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
-            },
-            {
-              "text": "her",
-              "phonetic": "/hɜː/",
-              "partOfSpeech": "代词",
-              "meaning": "她的"
-            },
-            {
-              "text": "bedroom",
-              "phonetic": "/ˈbedruːm/",
-              "partOfSpeech": "名词",
-              "meaning": "卧室"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "20-1-1"
-        },
-        {
-          "sequenceNumber": 20,
-          "segmentNumber": 2,
-          "english": "Su Hai is in her bedroom.",
-          "speaker": "narrator",
-          "chinese": "苏海在她的卧室里。",
-          "difficulty": 1,
-          "hint": "人物位置",
-          "grammarAnalysis": "主语 + is + 地点",
-          "words": [
-            {
-              "text": "Su",
-              "phonetic": "/suː/",
-              "partOfSpeech": "名词",
-              "meaning": "苏"
-            },
-            {
-              "text": "Hai",
-              "phonetic": "/haɪ/",
-              "partOfSpeech": "名词",
-              "meaning": "海"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
-            {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "her",
@@ -2848,50 +2591,94 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "Su Hai"
-            },
-            {
-              "label": "位置",
-              "text": "is in her bedroom"
+              "label": "地点",
+              "text": "in her bedroom"
             }
           ],
-          "category": "sentence",
-          "id": "20-2-2"
+          "category": "phrase",
+          "id": "20-1"
         },
         {
           "sequenceNumber": 20,
-          "segmentNumber": 3,
-          "english": "She is reading a storybook.",
+          "segmentNumber": 2,
+          "english": "Su Hai is in her bedroom.",
           "speaker": "narrator",
-          "chinese": "她在看故事书。",
-          "difficulty": 1,
-          "hint": "现在进行时",
-          "grammarAnalysis": "主语 + is + doing",
+          "chinese": "苏海在她的卧室里。",
+          "difficulty": 2,
+          "hint": "地点描述",
+          "grammarAnalysis": "主语 + is + 地点",
           "words": [
             {
-              "text": "She",
-              "phonetic": "/ʃiː/",
-              "partOfSpeech": "代词",
-              "meaning": "她"
+              "text": "su",
+              "phonetic": "/suː/",
+              "partOfSpeech": "名词",
+              "meaning": "苏"
+            },
+            {
+              "text": "hai",
+              "phonetic": "/haɪ/",
+              "partOfSpeech": "名词",
+              "meaning": "海"
             },
             {
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……里"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "代词",
+              "meaning": "她的"
+            },
+            {
+              "text": "bedroom",
+              "phonetic": "/ˈbedruːm/",
+              "partOfSpeech": "名词",
+              "meaning": "卧室"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "Su Hai"
+            },
+            {
+              "label": "状态",
+              "text": "is in her bedroom"
+            }
+          ],
+          "category": "sentence",
+          "id": "20-2"
+        },
+        {
+          "sequenceNumber": 20,
+          "segmentNumber": 3,
+          "english": "reading a storybook",
+          "speaker": "narrator",
+          "chinese": "看故事书",
+          "difficulty": 1,
+          "hint": "动作短语",
+          "grammarAnalysis": "动词ing + 宾语",
+          "words": [
             {
               "text": "reading",
               "phonetic": "/ˈriːdɪŋ/",
               "partOfSpeech": "动词",
-              "meaning": "阅读（现在分词）"
+              "meaning": "读（现在分词）"
             },
             {
               "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "冠词",
-              "meaning": "一个"
+              "phonetic": "/a/",
+              "partOfSpeech": "单词",
+              "meaning": ""
             },
             {
               "text": "storybook",
@@ -2902,29 +2689,83 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "She"
-            },
-            {
               "label": "动作",
-              "text": "is reading a storybook"
+              "text": "reading a storybook"
             }
           ],
-          "category": "sentence",
-          "id": "20-3-3"
+          "category": "phrase",
+          "id": "20-3"
         },
         {
           "sequenceNumber": 20,
           "segmentNumber": 4,
+          "english": "She is reading a storybook.",
+          "speaker": "narrator",
+          "chinese": "她在看故事书。",
+          "difficulty": 2,
+          "hint": "现在进行时",
+          "grammarAnalysis": "主语 + is + doing",
+          "words": [
+            {
+              "text": "she",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "代词",
+              "meaning": "她"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "动词",
+              "meaning": "是；正在"
+            },
+            {
+              "text": "reading",
+              "phonetic": "/ˈriːdɪŋ/",
+              "partOfSpeech": "动词",
+              "meaning": "读（现在分词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/a/",
+              "partOfSpeech": "单词",
+              "meaning": ""
+            },
+            {
+              "text": "storybook",
+              "phonetic": "/ˈstɔːribʊk/",
+              "partOfSpeech": "名词",
+              "meaning": "故事书"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "She"
+            },
+            {
+              "label": "谓语",
+              "text": "is reading"
+            },
+            {
+              "label": "宾语",
+              "text": "a storybook"
+            }
+          ],
+          "category": "sentence",
+          "id": "20-4"
+        },
+        {
+          "sequenceNumber": 20,
+          "segmentNumber": 5,
           "english": "What about Su Yang?",
           "speaker": "narrator",
           "chinese": "苏阳呢？",
-          "difficulty": 1,
-          "hint": "询问他人",
-          "grammarAnalysis": "What about + 人？",
+          "difficulty": 2,
+          "hint": "询问补充",
+          "grammarAnalysis": "What about + 人物",
           "words": [
             {
-              "text": "What",
+              "text": "what",
               "phonetic": "/wɒt/",
               "partOfSpeech": "代词",
               "meaning": "什么"
@@ -2936,21 +2777,21 @@
               "meaning": "关于"
             },
             {
-              "text": "Su",
+              "text": "su",
               "phonetic": "/suː/",
               "partOfSpeech": "名词",
               "meaning": "苏"
             },
             {
-              "text": "Yang",
+              "text": "yang",
               "phonetic": "/jæŋ/",
               "partOfSpeech": "名词",
-              "meaning": "杨"
+              "meaning": "阳"
             }
           ],
           "structureBlocks": [
             {
-              "label": "询问",
+              "label": "疑问",
               "text": "What about"
             },
             {
@@ -2959,7 +2800,7 @@
             }
           ],
           "category": "sentence",
-          "id": "20-4-4"
+          "id": "20-5"
         },
         {
           "sequenceNumber": 21,
@@ -2967,33 +2808,33 @@
           "english": "Su Yang is in her bedroom too.",
           "speaker": "narrator",
           "chinese": "苏阳也在她的卧室里。",
-          "difficulty": 1,
-          "hint": "人物位置",
+          "difficulty": 2,
+          "hint": "地点描述",
           "grammarAnalysis": "主语 + is + 地点 + too",
           "words": [
             {
-              "text": "Su",
+              "text": "su",
               "phonetic": "/suː/",
               "partOfSpeech": "名词",
               "meaning": "苏"
             },
             {
-              "text": "Yang",
+              "text": "yang",
               "phonetic": "/jæŋ/",
               "partOfSpeech": "名词",
-              "meaning": "杨"
+              "meaning": "阳"
             },
             {
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "her",
@@ -3016,55 +2857,33 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Su Yang"
             },
             {
-              "label": "位置",
-              "text": "is in her bedroom too"
+              "label": "状态",
+              "text": "is in her bedroom"
+            },
+            {
+              "label": "补充",
+              "text": "too"
             }
           ],
           "category": "sentence",
-          "id": "21-1-1"
+          "id": "21-1"
         },
         {
           "sequenceNumber": 21,
           "segmentNumber": 2,
-          "english": "make the bed",
-          "speaker": "narrator",
-          "chinese": "整理床铺",
-          "difficulty": 1,
-          "hint": "wordlist短语",
-          "grammarAnalysis": "make + the bed",
-          "words": [
-            {
-              "text": "make the bed",
-              "phonetic": "/meɪk ðə bed/",
-              "partOfSpeech": "动词短语",
-              "meaning": "整理床铺"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "21-2-2",
-          "media": {
-            "src": "assets/images/sentence-media/making-the-bed.png",
-            "alt": "整理床铺",
-            "caption": "整理床铺画面"
-          }
-        },
-        {
-          "sequenceNumber": 21,
-          "segmentNumber": 3,
           "english": "She is making the bed.",
           "speaker": "narrator",
           "chinese": "她在整理床铺。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "She",
+              "text": "she",
               "phonetic": "/ʃiː/",
               "partOfSpeech": "代词",
               "meaning": "她"
@@ -3073,19 +2892,19 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "making",
               "phonetic": "/ˈmeɪkɪŋ/",
               "partOfSpeech": "动词",
-              "meaning": "制作（现在分词）"
+              "meaning": "做；整理（现在分词）"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "bed",
@@ -3096,17 +2915,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "She"
             },
             {
-              "label": "动作",
-              "text": "is making the bed"
+              "label": "谓语",
+              "text": "is making"
+            },
+            {
+              "label": "宾语",
+              "text": "the bed"
             }
           ],
           "category": "sentence",
-          "id": "21-3-3",
+          "id": "21-2",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/making-the-bed.png",
             "alt": "整理床铺",
             "caption": "整理床铺画面"
@@ -3120,19 +2944,19 @@
           "chinese": "在晚上",
           "difficulty": 1,
           "hint": "时间短语",
-          "grammarAnalysis": "介词 In + 时间",
+          "grammarAnalysis": "时间短语",
           "words": [
             {
-              "text": "In",
+              "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在..."
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "evening",
@@ -3141,31 +2965,100 @@
               "meaning": "晚上"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "时间",
+              "text": "In the evening"
+            }
+          ],
           "category": "phrase",
-          "id": "22-1-1"
+          "id": "22-1"
         },
         {
           "sequenceNumber": 22,
           "segmentNumber": 2,
+          "english": "my father is reading a book",
+          "speaker": "narrator",
+          "chinese": "我爸爸在看书",
+          "difficulty": 1,
+          "hint": "现在进行时",
+          "grammarAnalysis": "主语 + is + doing",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "代词",
+              "meaning": "我的"
+            },
+            {
+              "text": "father",
+              "phonetic": "/ˈfɑːðə/",
+              "partOfSpeech": "名词",
+              "meaning": "父亲"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "动词",
+              "meaning": "是；正在"
+            },
+            {
+              "text": "reading",
+              "phonetic": "/ˈriːdɪŋ/",
+              "partOfSpeech": "动词",
+              "meaning": "读（现在分词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/a/",
+              "partOfSpeech": "单词",
+              "meaning": ""
+            },
+            {
+              "text": "book",
+              "phonetic": "/bʊk/",
+              "partOfSpeech": "名词",
+              "meaning": "书"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "主语",
+              "text": "my father"
+            },
+            {
+              "label": "谓语",
+              "text": "is reading"
+            },
+            {
+              "label": "宾语",
+              "text": "a book"
+            }
+          ],
+          "category": "phrase",
+          "id": "22-2"
+        },
+        {
+          "sequenceNumber": 22,
+          "segmentNumber": 3,
           "english": "In the evening, my father is reading a book.",
           "speaker": "narrator",
           "chinese": "晚上，我爸爸在看书。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "时间+现在进行时",
-          "grammarAnalysis": "时间, 主语 + is + doing",
+          "grammarAnalysis": "时间 + 主语 + is + doing",
           "words": [
             {
-              "text": "In",
+              "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在..."
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "evening",
@@ -3189,25 +3082,25 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "reading",
               "phonetic": "/ˈriːdɪŋ/",
               "partOfSpeech": "动词",
-              "meaning": "阅读（现在分词）"
+              "meaning": "读（现在分词）"
             },
             {
               "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "冠词",
-              "meaning": "一个"
+              "phonetic": "/a/",
+              "partOfSpeech": "单词",
+              "meaning": ""
             },
             {
               "text": "book",
-              "phonetic": "",
-              "partOfSpeech": "",
-              "meaning": ""
+              "phonetic": "/bʊk/",
+              "partOfSpeech": "名词",
+              "meaning": "书"
             }
           ],
           "structureBlocks": [
@@ -3216,29 +3109,33 @@
               "text": "In the evening"
             },
             {
-              "label": "人物",
+              "label": "主语",
               "text": "my father"
             },
             {
-              "label": "动作",
-              "text": "is reading a book"
+              "label": "谓语",
+              "text": "is reading"
+            },
+            {
+              "label": "宾语",
+              "text": "a book"
             }
           ],
           "category": "sentence",
-          "id": "22-2-2"
+          "id": "22-3"
         },
         {
           "sequenceNumber": 22,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "My mother is writing a story.",
           "speaker": "narrator",
           "chinese": "我妈妈在写故事。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + is + doing",
           "words": [
             {
-              "text": "My",
+              "text": "my",
               "phonetic": "/maɪ/",
               "partOfSpeech": "代词",
               "meaning": "我的"
@@ -3253,7 +3150,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "writing",
@@ -3263,9 +3160,9 @@
             },
             {
               "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "冠词",
-              "meaning": "一个"
+              "phonetic": "/a/",
+              "partOfSpeech": "单词",
+              "meaning": ""
             },
             {
               "text": "story",
@@ -3276,29 +3173,33 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "My mother"
             },
             {
-              "label": "动作",
-              "text": "is writing a story"
+              "label": "谓语",
+              "text": "is writing"
+            },
+            {
+              "label": "宾语",
+              "text": "a story"
             }
           ],
           "category": "sentence",
-          "id": "22-3-3"
+          "id": "22-4"
         },
         {
           "sequenceNumber": 22,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
           "english": "Tim and Ben are eating fruit.",
           "speaker": "narrator",
           "chinese": "蒂姆和本在吃水果。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + are + doing",
           "words": [
             {
-              "text": "Tim",
+              "text": "tim",
               "phonetic": "/tɪm/",
               "partOfSpeech": "名词",
               "meaning": "蒂姆"
@@ -3310,7 +3211,7 @@
               "meaning": "和"
             },
             {
-              "text": "Ben",
+              "text": "ben",
               "phonetic": "/ben/",
               "partOfSpeech": "名词",
               "meaning": "本"
@@ -3319,7 +3220,7 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "eating",
@@ -3336,91 +3237,57 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Tim and Ben"
             },
             {
-              "label": "动作",
-              "text": "are eating fruit"
+              "label": "谓语",
+              "text": "are eating"
+            },
+            {
+              "label": "宾语",
+              "text": "fruit"
             }
           ],
           "category": "sentence",
-          "id": "22-4-4"
+          "id": "22-5"
         },
         {
           "sequenceNumber": 22,
-          "segmentNumber": 5,
-          "english": "are growing flowers",
+          "segmentNumber": 6,
+          "english": "growing flowers",
           "speaker": "narrator",
-          "chinese": "在种花",
+          "chinese": "种花",
           "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "are + doing",
+          "hint": "核心动作",
+          "grammarAnalysis": "动词ing + 宾语",
           "words": [
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
             {
               "text": "growing",
               "phonetic": "/ˈɡrəʊɪŋ/",
               "partOfSpeech": "动词",
-              "meaning": "种植（现在分词）"
+              "meaning": "种植；生长（现在分词）"
             },
             {
               "text": "flowers",
               "phonetic": "/ˈflaʊəz/",
               "partOfSpeech": "名词",
-              "meaning": "花（复数）"
+              "meaning": "花"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "growing flowers"
+            }
+          ],
           "category": "phrase",
-          "id": "22-5-5",
+          "id": "22-6",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/grow.png",
-            "alt": "生长",
-            "caption": "生长画面"
-          }
-        },
-        {
-          "sequenceNumber": 22,
-          "segmentNumber": 6,
-          "english": "in the garden",
-          "speaker": "narrator",
-          "chinese": "在花园里",
-          "difficulty": 1,
-          "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
-          "words": [
-            {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在...里"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "garden",
-              "phonetic": "/ˈɡɑːdən/",
-              "partOfSpeech": "名词",
-              "meaning": "花园，果园"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "22-6-6",
-          "media": {
-            "src": "assets/images/sentence-media/garden.png",
-            "alt": "花园",
-            "caption": "花园"
+            "alt": "种植",
+            "caption": "种植画面"
           }
         },
         {
@@ -3429,12 +3296,12 @@
           "english": "Helen and I are growing flowers in the garden.",
           "speaker": "narrator",
           "chinese": "海伦和我在花园种花。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时+地点",
           "grammarAnalysis": "主语 + are + doing + 地点",
           "words": [
             {
-              "text": "Helen",
+              "text": "helen",
               "phonetic": "/ˈhelən/",
               "partOfSpeech": "名词",
               "meaning": "海伦"
@@ -3446,7 +3313,7 @@
               "meaning": "和"
             },
             {
-              "text": "I",
+              "text": "i",
               "phonetic": "/aɪ/",
               "partOfSpeech": "代词",
               "meaning": "我"
@@ -3455,47 +3322,51 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "growing",
               "phonetic": "/ˈɡrəʊɪŋ/",
               "partOfSpeech": "动词",
-              "meaning": "种植（现在分词）"
+              "meaning": "种植；生长（现在分词）"
             },
             {
               "text": "flowers",
               "phonetic": "/ˈflaʊəz/",
               "partOfSpeech": "名词",
-              "meaning": "花（复数）"
+              "meaning": "花"
             },
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "garden",
-              "phonetic": "/ˈɡɑːdən/",
+              "phonetic": "/ˈɡɑːdn/",
               "partOfSpeech": "名词",
-              "meaning": "花园，果园"
+              "meaning": "花园；果园"
             }
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Helen and I"
             },
             {
-              "label": "动作",
-              "text": "are growing flowers"
+              "label": "谓语",
+              "text": "are growing"
+            },
+            {
+              "label": "宾语",
+              "text": "flowers"
             },
             {
               "label": "地点",
@@ -3503,11 +3374,12 @@
             }
           ],
           "category": "sentence",
-          "id": "22-7-7",
+          "id": "22-7",
           "media": {
-            "src": "assets/images/sentence-media/grow.png",
-            "alt": "生长",
-            "caption": "生长画面"
+            "type": "image",
+            "src": "assets/images/sentence-media/garden.png",
+            "alt": "花园",
+            "caption": "花园画面"
           }
         },
         {
@@ -3516,12 +3388,12 @@
           "english": "Look!",
           "speaker": "narrator",
           "chinese": "看！",
-          "difficulty": 1,
-          "hint": "祈使句",
-          "grammarAnalysis": "Look! 引起注意",
+          "difficulty": 2,
+          "hint": "提醒别人看",
+          "grammarAnalysis": "祈使句",
           "words": [
             {
-              "text": "Look",
+              "text": "look",
               "phonetic": "/lʊk/",
               "partOfSpeech": "动词",
               "meaning": "看"
@@ -3529,101 +3401,63 @@
           ],
           "structureBlocks": [
             {
-              "label": "祈使",
-              "text": "Look!"
+              "label": "动作",
+              "text": "Look"
             }
           ],
           "category": "sentence",
-          "id": "23-1-1"
+          "id": "23-1"
         },
         {
           "sequenceNumber": 23,
           "segmentNumber": 2,
-          "english": "is growing grapes",
+          "english": "growing grapes",
           "speaker": "narrator",
-          "chinese": "在种葡萄",
+          "chinese": "种葡萄",
           "difficulty": 1,
-          "hint": "现在进行时短语",
-          "grammarAnalysis": "is + doing",
+          "hint": "核心动作",
+          "grammarAnalysis": "动词ing + 宾语",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "动词",
-              "meaning": "是"
-            },
             {
               "text": "growing",
               "phonetic": "/ˈɡrəʊɪŋ/",
               "partOfSpeech": "动词",
-              "meaning": "种植（现在分词）"
+              "meaning": "种植；生长（现在分词）"
             },
             {
               "text": "grapes",
               "phonetic": "/ɡreɪps/",
               "partOfSpeech": "名词",
-              "meaning": "葡萄（复数）"
+              "meaning": "葡萄"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "growing grapes"
+            }
+          ],
           "category": "phrase",
-          "id": "23-2-2",
+          "id": "23-2",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/grow.png",
-            "alt": "生长",
-            "caption": "生长画面"
+            "alt": "种植",
+            "caption": "种植画面"
           }
         },
         {
           "sequenceNumber": 23,
           "segmentNumber": 3,
-          "english": "in the garden",
-          "speaker": "narrator",
-          "chinese": "在花园里",
-          "difficulty": 1,
-          "hint": "地点短语",
-          "grammarAnalysis": "介词 in + 地点",
-          "words": [
-            {
-              "text": "in",
-              "phonetic": "/ɪn/",
-              "partOfSpeech": "介词",
-              "meaning": "在...里"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "冠词",
-              "meaning": "这个"
-            },
-            {
-              "text": "garden",
-              "phonetic": "/ˈɡɑːdən/",
-              "partOfSpeech": "名词",
-              "meaning": "花园，果园"
-            }
-          ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "23-3-3",
-          "media": {
-            "src": "assets/images/sentence-media/garden.png",
-            "alt": "花园",
-            "caption": "花园"
-          }
-        },
-        {
-          "sequenceNumber": 23,
-          "segmentNumber": 4,
           "english": "Bobby is growing grapes in the garden.",
           "speaker": "narrator",
           "chinese": "波比在花园种葡萄。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时+地点",
           "grammarAnalysis": "主语 + is + doing + 地点",
           "words": [
             {
-              "text": "Bobby",
+              "text": "bobby",
               "phonetic": "/ˈbɒbi/",
               "partOfSpeech": "名词",
               "meaning": "波比"
@@ -3632,47 +3466,51 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "growing",
               "phonetic": "/ˈɡrəʊɪŋ/",
               "partOfSpeech": "动词",
-              "meaning": "种植（现在分词）"
+              "meaning": "种植；生长（现在分词）"
             },
             {
               "text": "grapes",
               "phonetic": "/ɡreɪps/",
               "partOfSpeech": "名词",
-              "meaning": "葡萄（复数）"
+              "meaning": "葡萄"
             },
             {
               "text": "in",
               "phonetic": "/ɪn/",
               "partOfSpeech": "介词",
-              "meaning": "在...里"
+              "meaning": "在……里"
             },
             {
               "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "garden",
-              "phonetic": "/ˈɡɑːdən/",
+              "phonetic": "/ˈɡɑːdn/",
               "partOfSpeech": "名词",
-              "meaning": "花园，果园"
+              "meaning": "花园；果园"
             }
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Bobby"
             },
             {
-              "label": "动作",
-              "text": "is growing grapes"
+              "label": "谓语",
+              "text": "is growing"
+            },
+            {
+              "label": "宾语",
+              "text": "grapes"
             },
             {
               "label": "地点",
@@ -3680,11 +3518,56 @@
             }
           ],
           "category": "sentence",
-          "id": "23-4-4",
+          "id": "23-3",
           "media": {
-            "src": "assets/images/sentence-media/grow.png",
-            "alt": "生长",
-            "caption": "生长画面"
+            "type": "image",
+            "src": "assets/images/sentence-media/garden.png",
+            "alt": "花园",
+            "caption": "花园画面"
+          }
+        },
+        {
+          "sequenceNumber": 23,
+          "segmentNumber": 4,
+          "english": "big and sweet",
+          "speaker": "narrator",
+          "chinese": "又大又甜",
+          "difficulty": 1,
+          "hint": "形容词并列",
+          "grammarAnalysis": "形容词 + and + 形容词",
+          "words": [
+            {
+              "text": "big",
+              "phonetic": "/bɪɡ/",
+              "partOfSpeech": "形容词",
+              "meaning": "大的"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "连词",
+              "meaning": "和"
+            },
+            {
+              "text": "sweet",
+              "phonetic": "/swiːt/",
+              "partOfSpeech": "形容词",
+              "meaning": "甜的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "特点",
+              "text": "big and sweet"
+            }
+          ],
+          "category": "phrase",
+          "id": "23-4",
+          "media": {
+            "type": "image",
+            "src": "assets/images/sentence-media/sweet.png",
+            "alt": "甜的",
+            "caption": "甜的画面"
           }
         },
         {
@@ -3693,27 +3576,27 @@
           "english": "The grapes are big and sweet.",
           "speaker": "narrator",
           "chinese": "葡萄又大又甜。",
-          "difficulty": 1,
-          "hint": "描述特征",
+          "difficulty": 2,
+          "hint": "事物特点",
           "grammarAnalysis": "主语 + are + 形容词",
           "words": [
             {
-              "text": "The",
+              "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "grapes",
               "phonetic": "/ɡreɪps/",
               "partOfSpeech": "名词",
-              "meaning": "葡萄（复数）"
+              "meaning": "葡萄"
             },
             {
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "big",
@@ -3740,37 +3623,49 @@
               "text": "The grapes"
             },
             {
-              "label": "特征",
+              "label": "状态",
               "text": "are big and sweet"
             }
           ],
           "category": "sentence",
-          "id": "23-5-5"
+          "id": "23-5",
+          "media": {
+            "type": "image",
+            "src": "assets/images/sentence-media/sweet.png",
+            "alt": "甜的",
+            "caption": "甜的画面"
+          }
         },
         {
           "sequenceNumber": 23,
           "segmentNumber": 6,
-          "english": "ladybird",
+          "english": "ladybirds",
           "speaker": "narrator",
           "chinese": "瓢虫",
           "difficulty": 1,
-          "hint": "wordlist单词",
-          "grammarAnalysis": "",
+          "hint": "核心单词",
+          "grammarAnalysis": "名词",
           "words": [
             {
-              "text": "ladybird",
-              "phonetic": "/ˈleɪdibɜːd/",
+              "text": "ladybirds",
+              "phonetic": "/ˈleɪdibɜːdz/",
               "partOfSpeech": "名词",
               "meaning": "瓢虫"
             }
           ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "23-6-6",
+          "structureBlocks": [
+            {
+              "label": "事物",
+              "text": "ladybirds"
+            }
+          ],
+          "category": "word",
+          "id": "23-6",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/ladybird.png",
             "alt": "瓢虫",
-            "caption": "瓢虫"
+            "caption": "瓢虫画面"
           }
         },
         {
@@ -3779,21 +3674,21 @@
           "english": "Some ladybirds come.",
           "speaker": "narrator",
           "chinese": "一些瓢虫来了。",
-          "difficulty": 1,
-          "hint": "一般现在时",
-          "grammarAnalysis": "主语 + 动词",
+          "difficulty": 2,
+          "hint": "人物/事物动作",
+          "grammarAnalysis": "主语 + 动作",
           "words": [
             {
-              "text": "Some",
+              "text": "some",
               "phonetic": "/sʌm/",
-              "partOfSpeech": "代词",
+              "partOfSpeech": "限定词",
               "meaning": "一些"
             },
             {
               "text": "ladybirds",
               "phonetic": "/ˈleɪdibɜːdz/",
               "partOfSpeech": "名词",
-              "meaning": "瓢虫（复数）"
+              "meaning": "瓢虫"
             },
             {
               "text": "come",
@@ -3813,25 +3708,58 @@
             }
           ],
           "category": "sentence",
-          "id": "23-7-7",
+          "id": "23-7",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/ladybird.png",
             "alt": "瓢虫",
-            "caption": "瓢虫"
+            "caption": "瓢虫画面"
           }
         },
         {
           "sequenceNumber": 23,
           "segmentNumber": 8,
+          "english": "Bobby's grapes",
+          "speaker": "narrator",
+          "chinese": "波比的葡萄",
+          "difficulty": 1,
+          "hint": "名词所有格",
+          "grammarAnalysis": "名词所有格 + 名词",
+          "words": [
+            {
+              "text": "Bobby's",
+              "phonetic": "/ˈbɒbiz/",
+              "partOfSpeech": "名词所有格",
+              "meaning": "波比的"
+            },
+            {
+              "text": "grapes",
+              "phonetic": "/ɡreɪps/",
+              "partOfSpeech": "名词",
+              "meaning": "葡萄"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "事物",
+              "text": "Bobby's grapes"
+            }
+          ],
+          "category": "phrase",
+          "id": "23-8"
+        },
+        {
+          "sequenceNumber": 23,
+          "segmentNumber": 9,
           "english": "They are eating Bobby's grapes.",
           "speaker": "narrator",
           "chinese": "它们在吃波比的葡萄。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "现在进行时",
           "grammarAnalysis": "主语 + are + doing",
           "words": [
             {
-              "text": "They",
+              "text": "they",
               "phonetic": "/ðeɪ/",
               "partOfSpeech": "代词",
               "meaning": "他们"
@@ -3840,7 +3768,7 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "eating",
@@ -3851,49 +3779,64 @@
             {
               "text": "Bobby's",
               "phonetic": "/ˈbɒbiz/",
-              "partOfSpeech": "名词",
+              "partOfSpeech": "名词所有格",
               "meaning": "波比的"
             },
             {
               "text": "grapes",
               "phonetic": "/ɡreɪps/",
               "partOfSpeech": "名词",
-              "meaning": "葡萄（复数）"
+              "meaning": "葡萄"
             }
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "They"
             },
             {
-              "label": "动作",
-              "text": "are eating Bobby's grapes"
+              "label": "谓语",
+              "text": "are eating"
+            },
+            {
+              "label": "宾语",
+              "text": "Bobby's grapes"
             }
           ],
           "category": "sentence",
-          "id": "23-8-8"
+          "id": "23-9"
         },
         {
           "sequenceNumber": 24,
           "segmentNumber": 1,
           "english": "go away",
           "speaker": "narrator",
-          "chinese": "走开",
+          "chinese": "走开；离开",
           "difficulty": 1,
-          "hint": "wordlist短语",
-          "grammarAnalysis": "go away",
+          "hint": "核心短语",
+          "grammarAnalysis": "动词 + 副词",
           "words": [
             {
-              "text": "go away",
-              "phonetic": "/ɡəʊ əˈweɪ/",
-              "partOfSpeech": "动词短语",
-              "meaning": "走了，离开"
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "动词",
+              "meaning": "走；去"
+            },
+            {
+              "text": "away",
+              "phonetic": "/əˈweɪ/",
+              "partOfSpeech": "副词",
+              "meaning": "离开"
             }
           ],
-          "structureBlocks": [],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "go away"
+            }
+          ],
           "category": "phrase",
-          "id": "24-1-1"
+          "id": "24-1"
         },
         {
           "sequenceNumber": 24,
@@ -3901,27 +3844,27 @@
           "english": "The ladybirds go away.",
           "speaker": "narrator",
           "chinese": "瓢虫们走了。",
-          "difficulty": 1,
-          "hint": "固定短语",
-          "grammarAnalysis": "主语 + go away",
+          "difficulty": 2,
+          "hint": "事物动作",
+          "grammarAnalysis": "主语 + 动作短语",
           "words": [
             {
-              "text": "The",
+              "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "ladybirds",
               "phonetic": "/ˈleɪdibɜːdz/",
               "partOfSpeech": "名词",
-              "meaning": "瓢虫（复数）"
+              "meaning": "瓢虫"
             },
             {
               "text": "go",
               "phonetic": "/ɡəʊ/",
               "partOfSpeech": "动词",
-              "meaning": "走"
+              "meaning": "走；去"
             },
             {
               "text": "away",
@@ -3941,7 +3884,13 @@
             }
           ],
           "category": "sentence",
-          "id": "24-2-2"
+          "id": "24-2",
+          "media": {
+            "type": "image",
+            "src": "assets/images/sentence-media/ladybird.png",
+            "alt": "瓢虫",
+            "caption": "瓢虫画面"
+          }
         },
         {
           "sequenceNumber": 24,
@@ -3949,12 +3898,12 @@
           "english": "Bobby is very angry.",
           "speaker": "narrator",
           "chinese": "波比非常生气。",
-          "difficulty": 1,
-          "hint": "描述情绪",
-          "grammarAnalysis": "主语 + is + very + 形容词",
+          "difficulty": 2,
+          "hint": "状态描述",
+          "grammarAnalysis": "主语 + is + 形容词",
           "words": [
             {
-              "text": "Bobby",
+              "text": "bobby",
               "phonetic": "/ˈbɒbi/",
               "partOfSpeech": "名词",
               "meaning": "波比"
@@ -3963,7 +3912,7 @@
               "text": "is",
               "phonetic": "/ɪz/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "very",
@@ -3980,16 +3929,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
+              "label": "主语",
               "text": "Bobby"
             },
             {
-              "label": "情绪",
+              "label": "状态",
               "text": "is very angry"
             }
           ],
           "category": "sentence",
-          "id": "24-3-3"
+          "id": "24-3"
         },
         {
           "sequenceNumber": 24,
@@ -3997,33 +3946,33 @@
           "english": "The grapes are gone.",
           "speaker": "narrator",
           "chinese": "葡萄没了。",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "状态描述",
           "grammarAnalysis": "主语 + are + 形容词",
           "words": [
             {
-              "text": "The",
+              "text": "the",
               "phonetic": "/ðə/",
               "partOfSpeech": "冠词",
-              "meaning": "这个"
+              "meaning": "这个；那个"
             },
             {
               "text": "grapes",
               "phonetic": "/ɡreɪps/",
               "partOfSpeech": "名词",
-              "meaning": "葡萄（复数）"
+              "meaning": "葡萄"
             },
             {
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "gone",
               "phonetic": "/ɡɒn/",
               "partOfSpeech": "形容词",
-              "meaning": "没了"
+              "meaning": "没有了"
             }
           ],
           "structureBlocks": [
@@ -4037,32 +3986,38 @@
             }
           ],
           "category": "sentence",
-          "id": "24-4-4"
+          "id": "24-4"
         },
         {
           "sequenceNumber": 24,
           "segmentNumber": 5,
-          "english": "pest",
+          "english": "pests",
           "speaker": "narrator",
           "chinese": "害虫",
           "difficulty": 1,
-          "hint": "wordlist单词",
-          "grammarAnalysis": "",
+          "hint": "核心单词",
+          "grammarAnalysis": "名词",
           "words": [
             {
-              "text": "pest",
-              "phonetic": "/pest/",
+              "text": "pests",
+              "phonetic": "/pests/",
               "partOfSpeech": "名词",
               "meaning": "害虫"
             }
           ],
-          "structureBlocks": [],
-          "category": "phrase",
-          "id": "24-5-5",
+          "structureBlocks": [
+            {
+              "label": "事物",
+              "text": "pests"
+            }
+          ],
+          "category": "word",
+          "id": "24-5",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/pest.png",
             "alt": "害虫",
-            "caption": "害虫"
+            "caption": "害虫画面"
           }
         },
         {
@@ -4071,12 +4026,12 @@
           "english": "They are pests!",
           "speaker": "narrator",
           "chinese": "它们是害虫！",
-          "difficulty": 1,
+          "difficulty": 2,
           "hint": "判断句",
           "grammarAnalysis": "主语 + are + 名词",
           "words": [
             {
-              "text": "They",
+              "text": "they",
               "phonetic": "/ðeɪ/",
               "partOfSpeech": "代词",
               "meaning": "他们"
@@ -4085,13 +4040,13 @@
               "text": "are",
               "phonetic": "/ɑː/",
               "partOfSpeech": "动词",
-              "meaning": "是"
+              "meaning": "是；正在"
             },
             {
               "text": "pests",
               "phonetic": "/pests/",
               "partOfSpeech": "名词",
-              "meaning": "害虫（复数）"
+              "meaning": "害虫"
             }
           ],
           "structureBlocks": [
@@ -4105,11 +4060,12 @@
             }
           ],
           "category": "sentence",
-          "id": "24-6-6",
+          "id": "24-6",
           "media": {
+            "type": "image",
             "src": "assets/images/sentence-media/pest.png",
             "alt": "害虫",
-            "caption": "害虫"
+            "caption": "害虫画面"
           }
         }
       ]
