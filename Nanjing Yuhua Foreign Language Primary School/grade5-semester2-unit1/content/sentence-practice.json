@@ -234,16 +234,28 @@
           ],
           "structureBlocks": [
             {
+              "label": "结构",
+              "text": "There is"
+            },
+            {
+              "label": "事物",
+              "text": "a party"
+            },
+            {
+              "label": "地点",
+              "text": "at the prince's house"
+            },
+            {
+              "label": "转折",
+              "text": "but"
+            },
+            {
               "label": "主语",
-              "text": "There"
+              "text": "Cinderella"
             },
             {
-              "label": "谓语",
-              "text": "is"
-            },
-            {
-              "label": "补充",
-              "text": "a party at the prince's house, but Cinderella cannot go"
+              "label": "否定动作",
+              "text": "cannot go"
             }
           ],
           "category": "sentence",
@@ -336,15 +348,15 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "Cinderella,"
+              "label": "称呼",
+              "text": "Cinderella"
             },
             {
-              "label": "谓语",
+              "label": "祈使动作",
               "text": "come"
             },
             {
-              "label": "补充",
+              "label": "并列动作",
               "text": "and help me"
             }
           ],
@@ -438,15 +450,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "Cinderella, where"
+              "label": "称呼",
+              "text": "Cinderella"
             },
             {
-              "label": "谓语",
+              "label": "疑问词",
+              "text": "where"
+            },
+            {
+              "label": "系动词",
               "text": "are"
             },
             {
-              "label": "补充",
+              "label": "主语",
               "text": "my gloves"
             }
           ],
@@ -607,8 +623,20 @@
               "text": "Why"
             },
             {
-              "label": "内容",
-              "text": "are you so sad, dear"
+              "label": "系动词",
+              "text": "are"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "状态",
+              "text": "so sad"
+            },
+            {
+              "label": "称呼",
+              "text": "dear"
             }
           ],
           "category": "sentence",
@@ -746,16 +774,20 @@
           ],
           "structureBlocks": [
             {
+              "label": "原因",
+              "text": "Because"
+            },
+            {
               "label": "主语",
-              "text": "Because I"
+              "text": "I"
             },
             {
-              "label": "谓语",
-              "text": "can"
+              "label": "否定动作",
+              "text": "can't go"
             },
             {
-              "label": "补充",
-              "text": "'t go to the party"
+              "label": "地点",
+              "text": "to the party"
             }
           ],
           "category": "sentence",
@@ -963,15 +995,19 @@
           ],
           "structureBlocks": [
             {
+              "label": "原因",
+              "text": "Because"
+            },
+            {
               "label": "主语",
-              "text": "Because I don't"
+              "text": "I"
             },
             {
-              "label": "谓语",
-              "text": "have"
+              "label": "否定动作",
+              "text": "don't have"
             },
             {
-              "label": "补充",
+              "label": "物品",
               "text": "any nice clothes or shoes"
             }
           ],
@@ -1042,8 +1078,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Let me help you"
+              "label": "祈使结构",
+              "text": "Let me"
+            },
+            {
+              "label": "动作",
+              "text": "help"
+            },
+            {
+              "label": "对象",
+              "text": "you"
             }
           ],
           "category": "sentence",
@@ -1229,12 +1273,12 @@
               "text": "Cinderella"
             },
             {
-              "label": "谓语",
-              "text": "puts"
+              "label": "谓语短语",
+              "text": "puts on"
             },
             {
-              "label": "补充",
-              "text": "on the new clothes and shoes"
+              "label": "物品",
+              "text": "the new clothes and shoes"
             }
           ],
           "category": "sentence",
@@ -1336,8 +1380,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Come back before 12 o'clock"
+              "label": "祈使动作",
+              "text": "Come back"
+            },
+            {
+              "label": "时间",
+              "text": "before 12 o'clock"
             }
           ],
           "category": "sentence",
@@ -1452,12 +1500,12 @@
               "text": "Cinderella"
             },
             {
-              "label": "谓语",
-              "text": "has"
+              "label": "谓语短语",
+              "text": "has a good time"
             },
             {
-              "label": "补充",
-              "text": "a good time at the party"
+              "label": "地点",
+              "text": "at the party"
             }
           ],
           "category": "sentence",
@@ -1589,16 +1637,24 @@
           ],
           "structureBlocks": [
             {
+              "label": "礼貌语",
+              "text": "Sorry"
+            },
+            {
               "label": "主语",
-              "text": "Sorry, I"
+              "text": "I"
             },
             {
-              "label": "谓语",
-              "text": "have"
+              "label": "必须",
+              "text": "have to"
             },
             {
-              "label": "补充",
-              "text": "to go now"
+              "label": "动作",
+              "text": "go"
+            },
+            {
+              "label": "时间",
+              "text": "now"
             }
           ],
           "category": "sentence",
@@ -1635,8 +1691,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Hey, your shoe"
+              "label": "提醒",
+              "text": "Hey"
+            },
+            {
+              "label": "物品",
+              "text": "your shoe"
             }
           ],
           "category": "sentence",
@@ -1731,7 +1791,7 @@
               "text": "visits"
             },
             {
-              "label": "补充",
+              "label": "宾语",
               "text": "every house"
             }
           ],
@@ -1963,12 +2023,24 @@
               "text": "Many girls"
             },
             {
-              "label": "谓语",
-              "text": "try"
+              "label": "动作短语",
+              "text": "try on"
             },
             {
-              "label": "补充",
-              "text": "on the shoe, but it does not fit"
+              "label": "宾语",
+              "text": "the shoe"
+            },
+            {
+              "label": "转折",
+              "text": "but"
+            },
+            {
+              "label": "主语",
+              "text": "it"
+            },
+            {
+              "label": "否定结果",
+              "text": "does not fit"
             }
           ],
           "category": "sentence",
@@ -2055,16 +2127,16 @@
           ],
           "structureBlocks": [
             {
+              "label": "时间",
+              "text": "Finally"
+            },
+            {
               "label": "主语",
-              "text": "Finally, Cinderella"
+              "text": "Cinderella"
             },
             {
-              "label": "谓语",
-              "text": "tries"
-            },
-            {
-              "label": "补充",
-              "text": "it on"
+              "label": "动作短语",
+              "text": "tries it on"
             }
           ],
           "category": "sentence",
@@ -2095,8 +2167,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "It fits"
+              "label": "主语",
+              "text": "It"
+            },
+            {
+              "label": "谓语",
+              "text": "fits"
             }
           ],
           "category": "sentence",

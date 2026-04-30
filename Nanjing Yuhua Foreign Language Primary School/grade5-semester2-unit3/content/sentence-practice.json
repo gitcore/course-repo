@@ -127,8 +127,12 @@
               "text": "wants"
             },
             {
-              "label": "补充",
-              "text": "to visit Su Hai's new home"
+              "label": "动作",
+              "text": "to visit"
+            },
+            {
+              "label": "地点",
+              "text": "Su Hai's new home"
             }
           ],
           "category": "sentence",
@@ -282,8 +286,24 @@
               "text": "How"
             },
             {
-              "label": "内容",
-              "text": "do I get to your home, Su Hai"
+              "label": "助动词",
+              "text": "do"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "动词短语",
+              "text": "get to"
+            },
+            {
+              "label": "地点",
+              "text": "your home"
+            },
+            {
+              "label": "称呼",
+              "text": "Su Hai"
             }
           ],
           "category": "sentence",
@@ -401,12 +421,16 @@
               "text": "You"
             },
             {
-              "label": "谓语",
+              "label": "情态动词",
               "text": "can"
             },
             {
-              "label": "补充",
-              "text": "take the metro"
+              "label": "动作",
+              "text": "take"
+            },
+            {
+              "label": "交通",
+              "text": "the metro"
             }
           ],
           "category": "sentence",
@@ -743,12 +767,28 @@
               "text": "You"
             },
             {
-              "label": "谓语",
+              "label": "情态动词",
               "text": "can"
             },
             {
-              "label": "补充",
-              "text": "get on the metro at Park Station and get off at City Library Station"
+              "label": "动作一",
+              "text": "get on the metro"
+            },
+            {
+              "label": "地点一",
+              "text": "at Park Station"
+            },
+            {
+              "label": "并列",
+              "text": "and"
+            },
+            {
+              "label": "动作二",
+              "text": "get off"
+            },
+            {
+              "label": "地点二",
+              "text": "at City Library Station"
             }
           ],
           "category": "sentence",
@@ -868,8 +908,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Then, walk to Moon Street"
+              "label": "顺序",
+              "text": "Then"
+            },
+            {
+              "label": "动作",
+              "text": "walk"
+            },
+            {
+              "label": "方向",
+              "text": "to Moon Street"
             }
           ],
           "category": "sentence",
@@ -1001,8 +1049,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "There's a bookshop on the street"
+              "label": "结构",
+              "text": "There's"
+            },
+            {
+              "label": "事物",
+              "text": "a bookshop"
+            },
+            {
+              "label": "地点",
+              "text": "on the street"
             }
           ],
           "category": "sentence",
@@ -1132,11 +1188,11 @@
               "text": "My Home"
             },
             {
-              "label": "谓语",
+              "label": "系动词",
               "text": "is"
             },
             {
-              "label": "补充",
+              "label": "位置",
               "text": "next to it"
             }
           ],
@@ -1168,7 +1224,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
+              "label": "回答",
               "text": "All right"
             }
           ],
@@ -1296,12 +1352,12 @@
               "text": "Yang Ling"
             },
             {
-              "label": "谓语",
-              "text": "comes"
+              "label": "谓语短语",
+              "text": "comes out of"
             },
             {
-              "label": "补充",
-              "text": "out of City Library Station"
+              "label": "地点",
+              "text": "City Library Station"
             }
           ],
           "category": "sentence",
@@ -1419,11 +1475,11 @@
               "text": "She"
             },
             {
-              "label": "谓语",
+              "label": "系动词",
               "text": "is"
             },
             {
-              "label": "补充",
+              "label": "地点",
               "text": "on Sun Street"
             }
           ],
@@ -1521,12 +1577,12 @@
               "text": "She"
             },
             {
-              "label": "谓语",
-              "text": "cannot"
+              "label": "否定动作",
+              "text": "cannot find"
             },
             {
-              "label": "补充",
-              "text": "find the bookshop"
+              "label": "宾语",
+              "text": "the bookshop"
             }
           ],
           "category": "sentence",
@@ -1678,8 +1734,12 @@
               "text": "asks"
             },
             {
-              "label": "补充",
-              "text": "a policeman for help"
+              "label": "对象",
+              "text": "a policeman"
+            },
+            {
+              "label": "目的",
+              "text": "for help"
             }
           ],
           "category": "sentence",
@@ -1884,8 +1944,28 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Excuse me, how do I get to the bookshop on Moon Street"
+              "label": "礼貌语",
+              "text": "Excuse me"
+            },
+            {
+              "label": "疑问词",
+              "text": "how"
+            },
+            {
+              "label": "助动词",
+              "text": "do"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "动词短语",
+              "text": "get to"
+            },
+            {
+              "label": "地点",
+              "text": "the bookshop on Moon Street"
             }
           ],
           "category": "sentence",
@@ -1972,8 +2052,12 @@
           ],
           "structureBlocks": [
             {
+              "label": "祈使动作",
+              "text": "Go along"
+            },
+            {
               "label": "路线",
-              "text": "Go along this street"
+              "text": "this street"
             }
           ],
           "category": "sentence",
@@ -2104,8 +2188,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Turn right at the traffic lights"
+              "label": "祈使动作",
+              "text": "Turn right"
+            },
+            {
+              "label": "地点",
+              "text": "at the traffic lights"
             }
           ],
           "category": "sentence",
@@ -2154,16 +2242,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "Then,"
+              "label": "顺序",
+              "text": "Then"
             },
             {
-              "label": "谓语",
-              "text": "go"
+              "label": "祈使动作",
+              "text": "go along"
             },
             {
-              "label": "补充",
-              "text": "along Moon Street"
+              "label": "路线",
+              "text": "Moon Street"
             }
           ],
           "category": "sentence",
@@ -2272,12 +2360,20 @@
               "text": "You"
             },
             {
-              "label": "谓语",
+              "label": "情态动词",
               "text": "can"
             },
             {
-              "label": "补充",
-              "text": "see the bookshop on your right"
+              "label": "动词",
+              "text": "see"
+            },
+            {
+              "label": "宾语",
+              "text": "the bookshop"
+            },
+            {
+              "label": "位置",
+              "text": "on your right"
             }
           ],
           "category": "sentence",
@@ -2308,7 +2404,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
+              "label": "感谢",
               "text": "Thank you"
             }
           ],

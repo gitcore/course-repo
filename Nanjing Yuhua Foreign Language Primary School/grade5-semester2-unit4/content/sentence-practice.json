@@ -81,11 +81,11 @@
               "text": "Su Hai"
             },
             {
-              "label": "谓语",
+              "label": "系动词",
               "text": "is"
             },
             {
-              "label": "补充",
+              "label": "状态",
               "text": "ill"
             }
           ],
@@ -238,7 +238,7 @@
               "text": "goes"
             },
             {
-              "label": "补充",
+              "label": "目的",
               "text": "to see the doctor"
             }
           ],
@@ -282,12 +282,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "疑问词",
-              "text": "What"
+              "label": "疑问结构",
+              "text": "What's wrong"
             },
             {
-              "label": "内容",
-              "text": "'s wrong with you"
+              "label": "对象",
+              "text": "with you"
             }
           ],
           "category": "sentence",
@@ -376,7 +376,7 @@
               "text": "have"
             },
             {
-              "label": "补充",
+              "label": "症状",
               "text": "a headache"
             }
           ],
@@ -481,7 +481,7 @@
               "text": "feel"
             },
             {
-              "label": "补充",
+              "label": "感觉",
               "text": "cold"
             }
           ],
@@ -546,8 +546,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Let me check"
+              "label": "祈使结构",
+              "text": "Let me"
+            },
+            {
+              "label": "动作",
+              "text": "check"
             }
           ],
           "category": "sentence",
@@ -636,7 +640,7 @@
               "text": "have"
             },
             {
-              "label": "补充",
+              "label": "症状",
               "text": "a fever"
             }
           ],
@@ -761,8 +765,20 @@
               "text": "What"
             },
             {
-              "label": "内容",
-              "text": "should I do, Doctor"
+              "label": "情态动词",
+              "text": "should"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "动词",
+              "text": "do"
+            },
+            {
+              "label": "称呼",
+              "text": "Doctor"
             }
           ],
           "category": "sentence",
@@ -897,8 +913,16 @@
               "text": "You"
             },
             {
-              "label": "建议",
-              "text": "should have a rest at home"
+              "label": "情态动词",
+              "text": "should"
+            },
+            {
+              "label": "动作短语",
+              "text": "have a rest"
+            },
+            {
+              "label": "地点",
+              "text": "at home"
             }
           ],
           "category": "sentence",
@@ -1129,8 +1153,20 @@
               "text": "You"
             },
             {
-              "label": "建议",
-              "text": "should take some medicine and drink some warm water"
+              "label": "情态动词",
+              "text": "should"
+            },
+            {
+              "label": "动作一",
+              "text": "take some medicine"
+            },
+            {
+              "label": "并列",
+              "text": "and"
+            },
+            {
+              "label": "动作二",
+              "text": "drink some warm water"
             }
           ],
           "category": "sentence",
@@ -1167,8 +1203,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Thank you, Doctor"
+              "label": "感谢",
+              "text": "Thank you"
+            },
+            {
+              "label": "称呼",
+              "text": "Doctor"
             }
           ],
           "category": "sentence",
@@ -1284,7 +1324,7 @@
               "text": "has"
             },
             {
-              "label": "补充",
+              "label": "症状",
               "text": "a toothache"
             }
           ],
@@ -1413,7 +1453,7 @@
               "text": "goes"
             },
             {
-              "label": "补充",
+              "label": "目的",
               "text": "to see the dentist"
             }
           ],
@@ -1457,12 +1497,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "疑问词",
-              "text": "What"
+              "label": "疑问结构",
+              "text": "What's wrong"
             },
             {
-              "label": "内容",
-              "text": "'s wrong with you"
+              "label": "对象",
+              "text": "with you"
             }
           ],
           "category": "sentence",
@@ -1551,7 +1591,7 @@
               "text": "have"
             },
             {
-              "label": "补充",
+              "label": "症状",
               "text": "a toothache"
             }
           ],
@@ -1664,12 +1704,12 @@
               "text": "I"
             },
             {
-              "label": "谓语",
-              "text": "can"
+              "label": "否定动作",
+              "text": "can't eat"
             },
             {
-              "label": "补充",
-              "text": "'t eat anything"
+              "label": "宾语",
+              "text": "anything"
             }
           ],
           "category": "sentence",
@@ -1778,8 +1818,16 @@
               "text": "Do"
             },
             {
-              "label": "内容",
-              "text": "you eat a lot of sweets"
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语",
+              "text": "eat"
+            },
+            {
+              "label": "宾语",
+              "text": "a lot of sweets"
             }
           ],
           "category": "sentence",
@@ -1816,8 +1864,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Yes, I do"
+              "label": "回答",
+              "text": "Yes"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "助动词",
+              "text": "do"
             }
           ],
           "category": "sentence",
@@ -1946,8 +2002,12 @@
               "text": "You"
             },
             {
-              "label": "建议",
-              "text": "shouldn't eat too many sweets"
+              "label": "否定建议",
+              "text": "shouldn't eat"
+            },
+            {
+              "label": "宾语",
+              "text": "too many sweets"
             }
           ],
           "category": "sentence",
@@ -2210,8 +2270,24 @@
               "text": "You"
             },
             {
-              "label": "建议",
-              "text": "should brush your teeth in the morning and before bedtime"
+              "label": "情态动词",
+              "text": "should"
+            },
+            {
+              "label": "动作",
+              "text": "brush your teeth"
+            },
+            {
+              "label": "时间一",
+              "text": "in the morning"
+            },
+            {
+              "label": "并列",
+              "text": "and"
+            },
+            {
+              "label": "时间二",
+              "text": "before bedtime"
             }
           ],
           "category": "sentence",
@@ -2242,8 +2318,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "内容",
-              "text": "Ok, Thanks"
+              "label": "回答",
+              "text": "Ok"
+            },
+            {
+              "label": "感谢",
+              "text": "Thanks"
             }
           ],
           "category": "sentence",
