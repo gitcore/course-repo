@@ -1,9 +1,9 @@
 {
   "manifestId": "nanjing-yuhua-grade5-semester2-unit3",
   "activityType": "sentence-practice",
-  "sourceHash": "manual-rebreak-unit3-progressive-order-fixed-2026-05-01",
-  "generatorVersion": "manual-rebreak-v10-progressive-order-fixed",
-  "generatedAt": "2026-04-30T18:33:32.804Z",
+  "sourceHash": "manual-unit3-careful-audit-fixes-2026-05-01",
+  "generatorVersion": "manual-careful-audit-v1",
+  "generatedAt": "2026-04-30T19:10:54.818Z",
   "sections": [
     {
       "title": "Breakdown",
@@ -13,7 +13,7 @@
           "segmentNumber": 1,
           "english": "Su Hai's new home",
           "speaker": "narrator",
-          "chinese": "",
+          "chinese": "苏海的新家",
           "difficulty": 1,
           "hint": "重点短语",
           "grammarAnalysis": "短语拆分",
@@ -172,7 +172,7 @@
           "segmentNumber": 2,
           "english": "get to your home",
           "speaker": "Yang Ling",
-          "chinese": "",
+          "chinese": "到你家",
           "difficulty": 1,
           "hint": "重点短语",
           "grammarAnalysis": "短语拆分",
@@ -1688,44 +1688,6 @@
         {
           "sequenceNumber": 6,
           "segmentNumber": 1,
-          "english": "on Moon Street",
-          "speaker": "Yang Ling",
-          "chinese": "在月亮街",
-          "difficulty": 1,
-          "hint": "重点短语",
-          "grammarAnalysis": "短语拆分",
-          "words": [
-            {
-              "text": "on",
-              "phonetic": "/ɒn/",
-              "partOfSpeech": "介词",
-              "meaning": "在……上；穿上"
-            },
-            {
-              "text": "moon",
-              "phonetic": "/muːn/",
-              "partOfSpeech": "名词",
-              "meaning": "月亮"
-            },
-            {
-              "text": "street",
-              "phonetic": "/striːt/",
-              "partOfSpeech": "名词",
-              "meaning": "街道"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "地点",
-              "text": "on Moon Street"
-            }
-          ],
-          "category": "phrase",
-          "id": "6-1"
-        },
-        {
-          "sequenceNumber": 6,
-          "segmentNumber": 2,
           "english": "Excuse me",
           "speaker": "Yang Ling",
           "chinese": "打扰一下",
@@ -1753,11 +1715,11 @@
             }
           ],
           "category": "phrase",
-          "id": "6-2"
+          "id": "6-1"
         },
         {
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "get to the bookshop",
           "speaker": "Yang Ling",
           "chinese": "到达书店",
@@ -1794,6 +1756,44 @@
             {
               "label": "动作",
               "text": "get to the bookshop"
+            }
+          ],
+          "category": "phrase",
+          "id": "6-2"
+        },
+        {
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
+          "english": "on Moon Street",
+          "speaker": "Yang Ling",
+          "chinese": "在月亮街",
+          "difficulty": 1,
+          "hint": "重点短语",
+          "grammarAnalysis": "短语拆分",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……上；穿上"
+            },
+            {
+              "text": "moon",
+              "phonetic": "/muːn/",
+              "partOfSpeech": "名词",
+              "meaning": "月亮"
+            },
+            {
+              "text": "street",
+              "phonetic": "/striːt/",
+              "partOfSpeech": "名词",
+              "meaning": "街道"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "地点",
+              "text": "on Moon Street"
             }
           ],
           "category": "phrase",

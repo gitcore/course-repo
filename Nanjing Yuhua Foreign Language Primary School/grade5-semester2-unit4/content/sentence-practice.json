@@ -1,9 +1,9 @@
 {
   "manifestId": "nanjing-yuhua-grade5-semester2-unit4",
   "activityType": "sentence-practice",
-  "sourceHash": "manual-rebreak-unit4-progressive-order-fixed-2026-05-01",
-  "generatorVersion": "manual-rebreak-v10-progressive-order-fixed",
-  "generatedAt": "2026-04-30T18:33:32.806Z",
+  "sourceHash": "manual-unit4-careful-audit-fixes-2026-05-01",
+  "generatorVersion": "manual-careful-audit-v1",
+  "generatedAt": "2026-04-30T19:10:54.819Z",
   "sections": [
     {
       "title": "Breakdown",
@@ -675,7 +675,7 @@
           "segmentNumber": 2,
           "english": "What should I do",
           "speaker": "Su Hai",
-          "chinese": "",
+          "chinese": "我应该怎么办",
           "difficulty": 1,
           "hint": "重点短语",
           "grammarAnalysis": "短语拆分",
@@ -1471,9 +1471,47 @@
         {
           "sequenceNumber": 10,
           "segmentNumber": 1,
+          "english": "have a toothache",
+          "speaker": "Mike",
+          "chinese": "牙疼",
+          "difficulty": 1,
+          "hint": "症状表达",
+          "grammarAnalysis": "have + 症状",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "动词",
+              "meaning": "有；患有"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "冠词",
+              "meaning": "一个"
+            },
+            {
+              "text": "toothache",
+              "phonetic": "/ˈtuːθeɪk/",
+              "partOfSpeech": "名词",
+              "meaning": "牙疼"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "症状",
+              "text": "have a toothache"
+            }
+          ],
+          "category": "phrase",
+          "id": "10-1"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 2,
           "english": "I have a toothache.",
           "speaker": "Mike",
-          "chinese": "",
+          "chinese": "我牙疼。",
           "difficulty": 2,
           "hint": "完整句子",
           "grammarAnalysis": "主语 + 谓语 + 补充",
@@ -1518,11 +1556,11 @@
             }
           ],
           "category": "sentence",
-          "id": "10-1"
+          "id": "10-2"
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "anything",
           "speaker": "wordlist",
           "chinese": "任何东西",
@@ -1544,12 +1582,12 @@
             }
           ],
           "category": "word",
-          "id": "10-2",
+          "id": "10-3",
           "source": "wordlist"
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "can't eat anything",
           "speaker": "Mike",
           "chinese": "不能吃任何东西",
@@ -1583,11 +1621,11 @@
             }
           ],
           "category": "phrase",
-          "id": "10-3"
+          "id": "10-4"
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
           "english": "I can't eat anything!",
           "speaker": "Mike",
           "chinese": "我不能吃任何东西！",
@@ -1635,7 +1673,7 @@
             }
           ],
           "category": "sentence",
-          "id": "10-4"
+          "id": "10-5"
         },
         {
           "sequenceNumber": 11,

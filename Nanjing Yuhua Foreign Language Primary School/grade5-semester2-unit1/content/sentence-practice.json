@@ -1,9 +1,9 @@
 {
   "manifestId": "nanjing-yuhua-grade5-semester2-unit1",
   "activityType": "sentence-practice",
-  "sourceHash": "manual-rebreak-unit1-prince-order-fixed-2026-05-01",
-  "generatorVersion": "manual-rebreak-v9-prince-order-fixed",
-  "generatedAt": "2026-04-30T18:22:09.228Z",
+  "sourceHash": "manual-unit1-careful-audit-fixes-2026-05-01",
+  "generatorVersion": "manual-careful-audit-v1",
+  "generatedAt": "2026-04-30T19:10:54.813Z",
   "sections": [
     {
       "title": "Breakdown",
@@ -1645,66 +1645,44 @@
         {
           "sequenceNumber": 15,
           "segmentNumber": 1,
-          "english": "fit",
-          "speaker": "wordlist",
-          "chinese": "合适，合身",
+          "english": "visits every house",
+          "speaker": "narrator",
+          "chinese": "拜访每一户人家",
           "difficulty": 1,
-          "hint": "课本重点单词",
-          "grammarAnalysis": "fit：合适，合身",
+          "hint": "动作短语",
+          "grammarAnalysis": "动词 + 宾语",
           "words": [
             {
-              "text": "fit",
-              "phonetic": "/fɪt/",
+              "text": "visits",
+              "phonetic": "/ˈvɪzɪts/",
               "partOfSpeech": "动词",
-              "meaning": "合适"
+              "meaning": "拜访"
+            },
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "限定词",
+              "meaning": "每一个"
+            },
+            {
+              "text": "house",
+              "phonetic": "/haʊs/",
+              "partOfSpeech": "名词",
+              "meaning": "房子"
             }
           ],
           "structureBlocks": [
             {
-              "label": "重点单词",
-              "text": "fit"
+              "label": "动作",
+              "text": "visits every house"
             }
           ],
-          "category": "word",
-          "id": "15-1",
-          "source": "wordlist"
+          "category": "phrase",
+          "id": "15-1"
         },
         {
           "sequenceNumber": 15,
           "segmentNumber": 2,
-          "english": "try on",
-          "speaker": "wordlist",
-          "chinese": "试穿",
-          "difficulty": 1,
-          "hint": "课本重点短语",
-          "grammarAnalysis": "try on：试穿",
-          "words": [
-            {
-              "text": "try",
-              "phonetic": "/traɪ/",
-              "partOfSpeech": "动词",
-              "meaning": "试"
-            },
-            {
-              "text": "on",
-              "phonetic": "/ɒn/",
-              "partOfSpeech": "介词",
-              "meaning": "在……上；穿上"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点短语",
-              "text": "try on"
-            }
-          ],
-          "category": "phrase",
-          "id": "15-2",
-          "source": "wordlist"
-        },
-        {
-          "sequenceNumber": 15,
-          "segmentNumber": 3,
           "english": "The prince visits every house.",
           "speaker": "narrator",
           "chinese": "王子拜访每一户人家。",
@@ -1758,7 +1736,40 @@
             }
           ],
           "category": "sentence",
-          "id": "15-3"
+          "id": "15-2"
+        },
+        {
+          "sequenceNumber": 15,
+          "segmentNumber": 3,
+          "english": "try on",
+          "speaker": "wordlist",
+          "chinese": "试穿",
+          "difficulty": 1,
+          "hint": "课本重点短语",
+          "grammarAnalysis": "try on：试穿",
+          "words": [
+            {
+              "text": "try",
+              "phonetic": "/traɪ/",
+              "partOfSpeech": "动词",
+              "meaning": "试"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "介词",
+              "meaning": "在……上；穿上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点短语",
+              "text": "try on"
+            }
+          ],
+          "category": "phrase",
+          "id": "15-3",
+          "source": "wordlist"
         },
         {
           "sequenceNumber": 15,
@@ -1807,6 +1818,33 @@
         {
           "sequenceNumber": 15,
           "segmentNumber": 5,
+          "english": "fit",
+          "speaker": "wordlist",
+          "chinese": "合适，合身",
+          "difficulty": 1,
+          "hint": "课本重点单词",
+          "grammarAnalysis": "fit：合适，合身",
+          "words": [
+            {
+              "text": "fit",
+              "phonetic": "/fɪt/",
+              "partOfSpeech": "动词",
+              "meaning": "合适"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "fit"
+            }
+          ],
+          "category": "word",
+          "id": "15-5",
+          "source": "wordlist"
+        },
+        {
+          "sequenceNumber": 15,
+          "segmentNumber": 6,
           "english": "does not fit",
           "speaker": "narrator",
           "chinese": "不合适",
@@ -1840,11 +1878,11 @@
             }
           ],
           "category": "phrase",
-          "id": "15-5"
+          "id": "15-6"
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 6,
+          "segmentNumber": 7,
           "english": "Many girls try on the shoe, but it does not fit.",
           "speaker": "narrator",
           "chinese": "许多女孩试穿这只鞋，但它不合适。",
@@ -1934,14 +1972,14 @@
             }
           ],
           "category": "sentence",
-          "id": "15-6"
+          "id": "15-7"
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 7,
+          "segmentNumber": 8,
           "english": "tries it on",
           "speaker": "narrator",
-          "chinese": "",
+          "chinese": "试穿它",
           "difficulty": 1,
           "hint": "重点短语",
           "grammarAnalysis": "短语拆分",
@@ -1972,11 +2010,11 @@
             }
           ],
           "category": "phrase",
-          "id": "15-7"
+          "id": "15-8"
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 8,
+          "segmentNumber": 9,
           "english": "Finally, Cinderella tries it on.",
           "speaker": "narrator",
           "chinese": "最后，灰姑娘试穿它。",
@@ -2030,7 +2068,7 @@
             }
           ],
           "category": "sentence",
-          "id": "15-8"
+          "id": "15-9"
         },
         {
           "sequenceNumber": 16,
