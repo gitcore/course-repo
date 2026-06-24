@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "id": "nanjing-yuhua-grade5-semester2-unit5",
-  "name": "五年级下册 Unit 5 - Helping our parents",
-  "description": "学习帮助父母相关的表达和短语",
+  "id": "nanjing-yuhua-grade5-semester2-unit8",
+  "name": "五年级下册 Unit 8 - Birthdays",
+  "description": "学习询问生日、序数词和描述生日活动",
   "publisher": {
     "name": "Learn with daddy's love"
   },
@@ -10,11 +10,12 @@
   "targetAge": "primary-grade-5",
   "grade": 5,
   "semester": 2,
-  "unit": 5,
+  "unit": 8,
   "tags": [
-    "家务",
-    "帮助",
-    "现在进行时"
+    "生日",
+    "序数词",
+    "月份",
+    "询问日期"
   ],
   "source": {
     "type": "textbook-markdown",
@@ -33,25 +34,18 @@
       "name": "对话练习",
       "data": "content/conversation-practice.json",
       "enabled": true
-    },
-    {
-      "type": "reading-qa",
-      "name": "阅读理解",
-      "data": "content/reading-qa.json",
-      "enabled": true
     }
   ],
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-2",
-    "generatedAt": "2026-04-29"
+    "generatedAt": "2026-06-24"
   },
-  "cover": "assets/images/unit5-knowledge-points.png",
   "audience": {
     "stage": "primary",
     "grade": 5,
     "ageRange": "10-11",
     "languageLevel": "primary-grade-5",
-    "teachingGoal": "围绕译林版五年级下册 Unit 5课文原句，先背熟核心句子，再通过少量变式和对话使用。"
+    "teachingGoal": "围绕译林版五年级下册 Unit 8课文原句，先背熟核心句子，再通过少量变式和对话使用。"
   }
 }
