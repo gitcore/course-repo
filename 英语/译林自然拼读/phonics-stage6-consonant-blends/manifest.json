@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "id": "phonics-stage6-consonant-blends",
+  "name": "自然拼读 第六阶段 - 辅音丛",
+  "description": "学习辅音丛（两个辅音连在一起但各自发音），包括 l 系列、r 系列、s 系列和词尾辅音丛。",
+  "courseType": "phonics",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "language": "en",
+  "targetAge": "primary-grade-1-6",
+  "stage": "stage-6",
+  "tags": [
+    "自然拼读",
+    "辅音丛",
+    "blends"
+  ],
+  "source": {
+    "type": "phonics-markdown",
+    "path": "textbook.md",
+    "vocabulary": "../../yilin-primary-vocabulary.json"
+  },
+  "supportedActivities": [
+    {
+      "type": "phonics-practice",
+      "name": "自然拼读",
+      "data": "content/phonics-practice.json",
+      "enabled": true
+    }
+  ],
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-1",
+    "generatedAt": "2026-04-19T09:51:33.433784"
+  },
+  "audience": {
+    "stage": "primary",
+    "grade": null,
+    "ageRange": "6-12",
+    "languageLevel": "beginner-phonics",
+    "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+  }
+}

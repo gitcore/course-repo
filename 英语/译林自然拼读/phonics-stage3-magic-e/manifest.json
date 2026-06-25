@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0",
+  "id": "phonics-stage3-magic-e",
+  "name": "自然拼读 第三阶段 - Magic E",
+  "description": "学习不发音的 e 如何让前面的元音发长音，掌握 a_e、i_e、o_e、u_e、e_e 5 种模式。",
+  "courseType": "phonics",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "language": "en",
+  "targetAge": "primary-grade-1-6",
+  "stage": "stage-3",
+  "tags": [
+    "自然拼读",
+    "Magic E",
+    "长元音",
+    "Silent E"
+  ],
+  "source": {
+    "type": "phonics-markdown",
+    "path": "textbook.md",
+    "vocabulary": "../../yilin-primary-vocabulary.json"
+  },
+  "supportedActivities": [
+    {
+      "type": "phonics-practice",
+      "name": "自然拼读",
+      "data": "content/phonics-practice.json",
+      "enabled": true
+    }
+  ],
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-1",
+    "generatedAt": "2026-04-19T09:51:33.412261"
+  },
+  "audience": {
+    "stage": "primary",
+    "grade": null,
+    "ageRange": "6-12",
+    "languageLevel": "beginner-phonics",
+    "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0",
+  "id": "phonics-stage4-vowel-digraphs",
+  "name": "自然拼读 第四阶段 - 元音二合字母",
+  "description": "学习 ai、ay、ee、ea、igh、oa、oo、ow、ou、oy 10 种元音字母组合的发音规律。",
+  "courseType": "phonics",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "language": "en",
+  "targetAge": "primary-grade-1-6",
+  "stage": "stage-4",
+  "tags": [
+    "自然拼读",
+    "元音二合字母",
+    "长元音"
+  ],
+  "source": {
+    "type": "phonics-markdown",
+    "path": "textbook.md",
+    "vocabulary": "../../yilin-primary-vocabulary.json"
+  },
+  "supportedActivities": [
+    {
+      "type": "phonics-practice",
+      "name": "自然拼读",
+      "data": "content/phonics-practice.json",
+      "enabled": true
+    }
+  ],
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-1",
+    "generatedAt": "2026-04-19T09:51:33.417910"
+  },
+  "audience": {
+    "stage": "primary",
+    "grade": null,
+    "ageRange": "6-12",
+    "languageLevel": "beginner-phonics",
+    "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+  }
+}
