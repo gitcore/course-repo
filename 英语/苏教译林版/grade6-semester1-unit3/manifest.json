@@ -1,8 +1,8 @@
 {
   "schemaVersion": "2.0",
-  "id": "nanjing-yuhua-grade5-semester2-unit2",
-  "name": "五年级下册 Unit 2 - How do you come to school",
-  "description": "学习关于家、居住和上学方式的表达",
+  "id": "nanjing-yuhua-grade6-semester1-unit3",
+  "name": "六年级上册 Unit 3 - Holiday fun",
+  "description": "学习一般过去时，谈论假期活动和旅行经历",
   "subject": "english",
   "publisher": {
     "name": "Learn with daddy's love"
@@ -10,7 +10,7 @@
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-2",
-    "generatedAt": "2026-04-18"
+    "generatedAt": "2026-07-23"
   },
   "domain": {
     "key": "english",
@@ -18,30 +18,30 @@
       "language": "en",
       "wordlist": "wordlist.md",
       "vocabulary": null,
-      "languageLevel": "primary-grade-5",
+      "languageLevel": "primary-grade-6",
       "phonicsStage": null,
       "courseType": null,
       "growth": {
         "growthAvailable": false,
         "growthTypes": [],
         "foundationActivityTypes": [
-          "sentence-practice",
           "conversation-practice"
         ],
         "growthActivityTypes": []
       },
       "audience": {
         "stage": "primary",
-        "ageRange": "10-11",
-        "teachingGoal": "围绕译林版五年级下册 Unit 2课文原句，先背熟核心句子，再通过少量变式和对话使用。"
+        "ageRange": "11-12",
+        "teachingGoal": "围绕译林版六年级上册 Unit 3课文原句，先背熟核心句子，再通过少量变式和对话使用。"
       },
-      "grade": 5,
-      "semester": 2,
-      "unit": 2,
+      "grade": 6,
+      "semester": 1,
+      "unit": 3,
       "tags": [
-        "上学方式",
-        "交通",
-        "居住"
+        "假期",
+        "一般过去时",
+        "疑问句",
+        "旅行"
       ]
     },
     "package": {
@@ -50,12 +50,6 @@
         "path": "textbook.md"
       },
       "activities": [
-        {
-          "type": "sentence-practice",
-          "name": "拆句练习",
-          "data": "content/sentence-practice.json",
-          "enabled": true
-        },
         {
           "type": "conversation-practice",
           "name": "对话练习",

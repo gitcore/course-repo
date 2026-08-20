@@ -1,45 +1,63 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "id": "phonics-stage5-r-controlled",
   "name": "自然拼读 第五阶段 - R控制元音",
   "description": "学习当元音后面跟着 r 时，发音会发生变化，掌握 ar、or、er、ir、ur 5 种模式。",
-  "courseType": "phonics",
+  "subject": "english",
   "publisher": {
     "name": "Learn with daddy's love"
   },
-  "language": "en",
-  "targetAge": "primary-grade-1-6",
-  "stage": "stage-5",
-  "tags": [
-    "自然拼读",
-    "R控制元音",
-    "ar",
-    "or",
-    "er"
-  ],
-  "source": {
-    "type": "phonics-markdown",
-    "path": "textbook.md",
-    "vocabulary": "../../yilin-primary-vocabulary.json"
-  },
-  "supportedActivities": [
-    {
-      "type": "phonics-practice",
-      "name": "自然拼读",
-      "data": "content/phonics-practice.json",
-      "enabled": true
-    }
-  ],
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-1",
     "generatedAt": "2026-04-19T09:51:33.427811"
   },
-  "audience": {
-    "stage": "primary",
-    "grade": null,
-    "ageRange": "6-12",
-    "languageLevel": "beginner-phonics",
-    "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": "../../yilin-primary-vocabulary.json",
+      "languageLevel": "beginner-phonics",
+      "phonicsStage": "stage-5",
+      "courseType": "phonics",
+      "growth": {
+        "growthAvailable": false,
+        "growthTypes": [],
+        "foundationActivityTypes": [
+          "phonics-practice"
+        ],
+        "growthActivityTypes": []
+      },
+      "audience": {
+        "stage": "primary",
+        "ageRange": "6-12",
+        "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+      },
+      "grade": null,
+      "semester": null,
+      "unit": null,
+      "tags": [
+        "自然拼读",
+        "R控制元音",
+        "ar",
+        "or",
+        "er"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "phonics-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "phonics-practice",
+          "name": "自然拼读",
+          "data": "content/phonics-practice.json",
+          "enabled": true
+        }
+      ]
+    }
   }
 }

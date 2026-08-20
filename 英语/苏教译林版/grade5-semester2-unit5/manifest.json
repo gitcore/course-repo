@@ -1,57 +1,94 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "id": "nanjing-yuhua-grade5-semester2-unit5",
   "name": "五年级下册 Unit 5 - Helping our parents",
   "description": "学习帮助父母相关的表达和短语",
+  "subject": "english",
   "publisher": {
     "name": "Learn with daddy's love"
   },
-  "language": "en",
-  "targetAge": "primary-grade-5",
-  "grade": 5,
-  "semester": 2,
-  "unit": 5,
-  "tags": [
-    "家务",
-    "帮助",
-    "现在进行时"
-  ],
-  "source": {
-    "type": "textbook-markdown",
-    "path": "textbook.md",
-    "wordlist": "wordlist.md"
-  },
-  "supportedActivities": [
-    {
-      "type": "sentence-practice",
-      "name": "拆句练习",
-      "data": "content/sentence-practice.json",
-      "enabled": true
-    },
-    {
-      "type": "conversation-practice",
-      "name": "对话练习",
-      "data": "content/conversation-practice.json",
-      "enabled": true
-    },
-    {
-      "type": "reading-qa",
-      "name": "阅读理解",
-      "data": "content/reading-qa.json",
-      "enabled": true
-    }
-  ],
+  "cover": "assets/images/unit5-knowledge-points.png",
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-2",
     "generatedAt": "2026-04-29"
   },
-  "cover": "assets/images/unit5-knowledge-points.png",
-  "audience": {
-    "stage": "primary",
-    "grade": 5,
-    "ageRange": "10-11",
-    "languageLevel": "primary-grade-5",
-    "teachingGoal": "围绕译林版五年级下册 Unit 5课文原句，先背熟核心句子，再通过少量变式和对话使用。"
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": "wordlist.md",
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+    "growth": {
+      "growthAvailable": true,
+      "growthTypes": [
+        "word-family",
+        "pattern-transfer"
+      ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice",
+          "reading-qa"
+        ],
+      "growthActivityTypes": [
+        "word-family-practice",
+        "pattern-transfer-practice"
+      ]
+      },
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "围绕译林版五年级下册 Unit 5课文原句，先背熟核心句子，再通过少量变式和对话使用。"
+      },
+      "grade": 5,
+      "semester": 2,
+      "unit": 5,
+      "tags": [
+        "家务",
+        "帮助",
+        "现在进行时"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+      {
+        "type": "reading-qa",
+          "name": "阅读理解",
+          "data": "content/reading-qa.json",
+        "enabled": true
+      },
+      {
+        "type": "word-family-practice",
+        "name": "词族进化",
+        "data": "content/growth-content.json",
+        "enabled": true
+      },
+      {
+        "type": "pattern-transfer-practice",
+        "name": "句型迁移",
+        "data": "content/growth-content.json",
+        "enabled": true
+      }
+      ]
+    }
   }
 }

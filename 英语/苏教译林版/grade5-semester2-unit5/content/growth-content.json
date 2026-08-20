@@ -1,0 +1,94 @@
+{
+  "manifestId": "nanjing-yuhua-grade5-semester2-unit5",
+  "activityType": "word-family-practice",
+  "sourceHash": "",
+  "generatorVersion": "weekly-english-growth-1",
+  "generatedAt": "2026-08-20",
+  "wordFamilies": [
+    {
+      "rootWord": "clean",
+      "sourceItemKeys": ["line-1", "line-8", "line-18"],
+      "requiredMasteryTags": ["source-sentence"],
+      "unlockRules": ["stable-source-expression"],
+      "nodes": [
+        { "word": "clean", "role": "verb", "exampleSentence": "I clean the table.", "chinese": "擦、清洁", "difficulty": 1, "isSourceText": false },
+        { "word": "cleaning", "role": "present-participle", "exampleSentence": "My father is cleaning the car.", "chinese": "正在擦", "difficulty": 1, "isSourceText": true },
+        { "word": "cleaner", "role": "noun", "exampleSentence": "The cleaner is in the room.", "chinese": "清洁工；清洁器", "difficulty": 3, "isSourceText": false },
+        { "word": "cleanly", "role": "adverb", "exampleSentence": "Please write cleanly.", "chinese": "干净地；清楚地", "difficulty": 4, "isSourceText": false }
+      ]
+    },
+    {
+      "rootWord": "cook",
+      "sourceItemKeys": ["line-2", "line-10"],
+      "requiredMasteryTags": ["source-sentence"],
+      "unlockRules": ["stable-source-expression"],
+      "nodes": [
+        { "word": "cook", "role": "verb", "exampleSentence": "I cook dinner.", "chinese": "做饭", "difficulty": 1, "isSourceText": false },
+        { "word": "cooking", "role": "present-participle", "exampleSentence": "My mother is cooking breakfast.", "chinese": "正在做饭", "difficulty": 1, "isSourceText": true },
+        { "word": "cooker", "role": "noun", "exampleSentence": "The cooker is hot.", "chinese": "炊具", "difficulty": 3, "isSourceText": false },
+        { "word": "cookery", "role": "noun", "exampleSentence": "She enjoys cookery lessons.", "chinese": "烹饪", "difficulty": 4, "isSourceText": false }
+      ]
+    },
+    {
+      "rootWord": "wash",
+      "sourceItemKeys": ["line-5", "line-14", "line-17"],
+      "requiredMasteryTags": ["source-sentence"],
+      "unlockRules": ["stable-source-expression"],
+      "nodes": [
+        { "word": "wash", "role": "verb", "exampleSentence": "We wash the dishes.", "chinese": "洗", "difficulty": 1, "isSourceText": false },
+        { "word": "washing", "role": "present-participle", "exampleSentence": "Mike is washing the dishes.", "chinese": "正在洗", "difficulty": 1, "isSourceText": true },
+        { "word": "washer", "role": "noun", "exampleSentence": "The washer is working.", "chinese": "洗衣机；清洗者", "difficulty": 3, "isSourceText": false },
+        { "word": "washable", "role": "adjective", "exampleSentence": "This coat is washable.", "chinese": "可洗的", "difficulty": 4, "isSourceText": false }
+      ]
+    },
+    {
+      "rootWord": "make",
+      "sourceItemKeys": ["line-17", "line-21"],
+      "requiredMasteryTags": ["source-sentence"],
+      "unlockRules": ["stable-source-expression"],
+      "nodes": [
+        { "word": "make", "role": "verb", "exampleSentence": "I make the bed.", "chinese": "整理；制作", "difficulty": 1, "isSourceText": false },
+        { "word": "making", "role": "present-participle", "exampleSentence": "I am making the bed.", "chinese": "正在整理", "difficulty": 1, "isSourceText": true },
+        { "word": "maker", "role": "noun", "exampleSentence": "She is a careful maker.", "chinese": "制作者", "difficulty": 3, "isSourceText": false },
+        { "word": "remake", "role": "verb", "exampleSentence": "Please remake the bed.", "chinese": "重新制作；重新整理", "difficulty": 4, "isSourceText": false }
+      ]
+    },
+    {
+      "rootWord": "grow",
+      "sourceItemKeys": ["line-22", "line-23"],
+      "requiredMasteryTags": ["source-sentence"],
+      "unlockRules": ["stable-source-expression"],
+      "nodes": [
+        { "word": "grow", "role": "verb", "exampleSentence": "We grow flowers.", "chinese": "种植；生长", "difficulty": 1, "isSourceText": false },
+        { "word": "growing", "role": "present-participle", "exampleSentence": "Helen and I are growing flowers.", "chinese": "正在种植", "difficulty": 1, "isSourceText": true },
+        { "word": "growth", "role": "noun", "exampleSentence": "The flowers show new growth.", "chinese": "生长", "difficulty": 3, "isSourceText": false },
+        { "word": "growing", "role": "adjective", "exampleSentence": "The growing plants need water.", "chinese": "正在生长的", "difficulty": 4, "isSourceText": false }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "patternKey": "present-continuous-action",
+      "displayName": "正在做什么",
+      "examples": ["I am cleaning the car.", "She is sweeping the floor."],
+      "transferExamples": ["He is helping his mother.", "They are making the bed."],
+      "relatedWordFamilies": ["clean", "cook", "wash", "make"]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "I am helping him.",
+      "targetPattern": "She is helping her mother.",
+      "prompt": "把 I 改成 She，并说出她正在帮妈妈。",
+      "answer": "She is helping her mother.",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "What are you doing?",
+      "targetPattern": "What is he doing?",
+      "prompt": "把问句换成询问他正在做什么。",
+      "answer": "What is he doing?",
+      "isSourceText": false
+    }
+  ]
+}

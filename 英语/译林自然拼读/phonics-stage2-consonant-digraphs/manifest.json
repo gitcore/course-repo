@@ -1,45 +1,63 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "id": "phonics-stage2-consonant-digraphs",
   "name": "自然拼读 第二阶段 - 辅音二合字母",
   "description": "学习 ch、sh、th、wh、ck、ng 6 个辅音二合字母，掌握两个辅音字母组合发一个音的规律。",
-  "courseType": "phonics",
+  "subject": "english",
   "publisher": {
     "name": "Learn with daddy's love"
   },
-  "language": "en",
-  "targetAge": "primary-grade-1-6",
-  "stage": "stage-2",
-  "tags": [
-    "自然拼读",
-    "辅音二合字母",
-    "ch",
-    "sh",
-    "th"
-  ],
-  "source": {
-    "type": "phonics-markdown",
-    "path": "textbook.md",
-    "vocabulary": "../../yilin-primary-vocabulary.json"
-  },
-  "supportedActivities": [
-    {
-      "type": "phonics-practice",
-      "name": "自然拼读",
-      "data": "content/phonics-practice.json",
-      "enabled": true
-    }
-  ],
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-1",
     "generatedAt": "2026-04-19T09:51:33.405085"
   },
-  "audience": {
-    "stage": "primary",
-    "grade": null,
-    "ageRange": "6-12",
-    "languageLevel": "beginner-phonics",
-    "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": "../../yilin-primary-vocabulary.json",
+      "languageLevel": "beginner-phonics",
+      "phonicsStage": "stage-2",
+      "courseType": "phonics",
+      "growth": {
+        "growthAvailable": false,
+        "growthTypes": [],
+        "foundationActivityTypes": [
+          "phonics-practice"
+        ],
+        "growthActivityTypes": []
+      },
+      "audience": {
+        "stage": "primary",
+        "ageRange": "6-12",
+        "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+      },
+      "grade": null,
+      "semester": null,
+      "unit": null,
+      "tags": [
+        "自然拼读",
+        "辅音二合字母",
+        "ch",
+        "sh",
+        "th"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "phonics-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "phonics-practice",
+          "name": "自然拼读",
+          "data": "content/phonics-practice.json",
+          "enabled": true
+        }
+      ]
+    }
   }
 }

@@ -21,7 +21,8 @@ my-unit-folder/
 └── content/
     ├── sentence-practice.json           ← 生成：拆句练习
     ├── conversation-practice.json       ← 生成：对话练习
-    └── reading-qa.json                  ← 可选：阅读理解（可含图片题）
+    ├── reading-qa.json                  ← 可选：阅读理解（可含图片题）
+    └── growth-content.json              ← 可选：语言成长线（词族、句型迁移）
 ```
 
 ## 第一步：准备课文源文件
@@ -188,44 +189,63 @@ AI 将按以下流程执行：
 
 ```json
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "id": "grade5-semester2-unit1",
   "name": "五年级下册 Unit 1 - Cinderella",
   "description": "学习关于灰姑娘故事的表达",
+  "subject": "english",
   "publisher": {
     "name": "Learn with daddy's love"
   },
-  "language": "en",
-  "targetAge": "primary-grade-5",
-  "grade": 5,
-  "semester": 2,
-  "unit": 1,
-  "tags": ["灰姑娘", "故事", "童话"],
-  "source": {
-    "type": "textbook-markdown",
-    "path": "textbook.md",
-    "wordlist": "wordlist.md"
-  },
-  "supportedActivities": [
-    {
-      "type": "sentence-practice",
-      "name": "拆句练习",
-      "data": "content/sentence-practice.json",
-      "enabled": true
+  "domain": {
+    "key": "english",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "使用课文原句表达故事"
+      },
+      "grade": 5,
+      "semester": 2,
+      "unit": 1,
+      "tags": ["灰姑娘", "故事", "童话"],
+      "language": "en",
+      "wordlist": "wordlist.md",
+      "languageLevel": "primary-grade-5",
+      "growth": {
+        "growthAvailable": false,
+        "growthTypes": [],
+        "foundationActivityTypes": ["sentence-practice", "conversation-practice", "reading-qa"],
+        "growthActivityTypes": []
+      }
     },
-    {
-      "type": "conversation-practice",
-      "name": "对话练习",
-      "data": "content/conversation-practice.json",
-      "enabled": true
-    },
-    {
-      "type": "reading-qa",
-      "name": "阅读理解",
-      "data": "content/reading-qa.json",
-      "enabled": true
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "reading-qa",
+          "name": "阅读理解",
+          "data": "content/reading-qa.json",
+          "enabled": true
+        }
+      ]
     }
-  ],
+  },
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-2",
@@ -240,9 +260,12 @@ AI 将按以下流程执行：
 |---|---|
 | `id` | 唯一标识，格式 `grade{年级}-semester{学期}-unit{单元号}` |
 | `name` | 显示名称，中文 |
-| `grade` / `semester` / `unit` | 年级、学期（1=上册 2=下册）、单元号 |
-| `tags` | 标签数组，用于分类和搜索 |
-| `supportedActivities` | 支持的练习类型列表 |
+| `subject` | 必填；英语课程固定为 `english` |
+| `domain.key` | 领域标识；英语课程固定为 `english`，必须与 `subject` 一致 |
+| `domain.planning` | 英语域拥有的规划上下文：受众、教材坐标、标签、语言与成长声明 |
+| `domain.package` | 英语域拥有的执行数据：源课文和活动列表 |
+
+Weekly 核心不会解释 `domain.planning` 或 `domain.package` 的字段。英语课程生成器必须生成上述英语领域 payload；新的数学等领域可以在自己的 `domain` 包裹中使用不同字段。活动 type 是领域字符串，英语领域只接受 `WeeklyEnglishActivityTypes` 声明的类型；未知 type 会被过滤并告警。
 
 ### content/sentence-practice.json
 
@@ -400,6 +423,9 @@ AI 将按以下流程执行：
 - [ ] 图片路径存在且是相对单元目录的路径
 - [ ] 图片题的答案能追溯到课文原文或明确的目标句
 - [ ] 图片题干、文件名和 `alt` 没有直接泄露答案
+- [ ] manifest 使用 `schemaVersion: "2.0"`，并包含 `subject: "english"` 与 `domain.key: "english"`
+- [ ] `domain.package.activities` 中声明的每个数据文件都存在
+- [ ] 只有存在 `content/growth-content.json` 且完成稳定度门槛时，才声明成长活动
 
 ## 快速开始
 

@@ -1,43 +1,61 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "id": "phonics-stage1-short-vowels",
   "name": "自然拼读 第一阶段 - 短元音 (CVC)",
   "description": "学习 a、e、i、o、u 5 个短元音，在 CVC 单词里建立最基础的拼读能力。",
-  "courseType": "phonics",
+  "subject": "english",
   "publisher": {
     "name": "Learn with daddy's love"
   },
-  "language": "en",
-  "targetAge": "primary-grade-1-6",
-  "stage": "stage-1",
-  "tags": [
-    "自然拼读",
-    "短元音",
-    "CVC"
-  ],
-  "source": {
-    "type": "phonics-markdown",
-    "path": "textbook.md",
-    "vocabulary": "../../yilin-primary-vocabulary.json"
-  },
-  "supportedActivities": [
-    {
-      "type": "phonics-practice",
-      "name": "自然拼读",
-      "data": "content/phonics-practice.json",
-      "enabled": true
-    }
-  ],
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-1",
     "generatedAt": "2026-04-19T09:51:33.398651"
   },
-  "audience": {
-    "stage": "primary",
-    "grade": null,
-    "ageRange": "6-12",
-    "languageLevel": "beginner-phonics",
-    "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": "../../yilin-primary-vocabulary.json",
+      "languageLevel": "beginner-phonics",
+      "phonicsStage": "stage-1",
+      "courseType": "phonics",
+      "growth": {
+        "growthAvailable": false,
+        "growthTypes": [],
+        "foundationActivityTypes": [
+          "phonics-practice"
+        ],
+        "growthActivityTypes": []
+      },
+      "audience": {
+        "stage": "primary",
+        "ageRange": "6-12",
+        "teachingGoal": "建立小学阶段自然拼读规则、音形对应、拆音输入和常见词自动化识别。"
+      },
+      "grade": null,
+      "semester": null,
+      "unit": null,
+      "tags": [
+        "自然拼读",
+        "短元音",
+        "CVC"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "phonics-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "phonics-practice",
+          "name": "自然拼读",
+          "data": "content/phonics-practice.json",
+          "enabled": true
+        }
+      ]
+    }
   }
 }

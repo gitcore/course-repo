@@ -1,51 +1,69 @@
 {
-  "schemaVersion": "1.0",
+  "schemaVersion": "2.0",
   "id": "nanjing-yuhua-grade5-semester2-unit8",
   "name": "五年级下册 Unit 8 - Birthdays",
   "description": "学习询问生日、序数词和描述生日活动",
+  "subject": "english",
   "publisher": {
     "name": "Learn with daddy's love"
   },
-  "language": "en",
-  "targetAge": "primary-grade-5",
-  "grade": 5,
-  "semester": 2,
-  "unit": 8,
-  "tags": [
-    "生日",
-    "序数词",
-    "月份",
-    "询问日期"
-  ],
-  "source": {
-    "type": "textbook-markdown",
-    "path": "textbook.md",
-    "wordlist": "wordlist.md"
-  },
-  "supportedActivities": [
-    {
-      "type": "sentence-practice",
-      "name": "拆句练习",
-      "data": "content/sentence-practice.json",
-      "enabled": true
-    },
-    {
-      "type": "conversation-practice",
-      "name": "对话练习",
-      "data": "content/conversation-practice.json",
-      "enabled": true
-    }
-  ],
   "generation": {
     "sourceHash": "",
     "generatorVersion": "learn-language-generator-2",
     "generatedAt": "2026-06-24"
   },
-  "audience": {
-    "stage": "primary",
-    "grade": 5,
-    "ageRange": "10-11",
-    "languageLevel": "primary-grade-5",
-    "teachingGoal": "围绕译林版五年级下册 Unit 8课文原句，先背熟核心句子，再通过少量变式和对话使用。"
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": "wordlist.md",
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "growth": {
+        "growthAvailable": false,
+        "growthTypes": [],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": []
+      },
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "围绕译林版五年级下册 Unit 8课文原句，先背熟核心句子，再通过少量变式和对话使用。"
+      },
+      "grade": 5,
+      "semester": 2,
+      "unit": 8,
+      "tags": [
+        "生日",
+        "序数词",
+        "月份",
+        "询问日期"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        }
+      ]
+    }
   }
 }

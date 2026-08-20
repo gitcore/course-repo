@@ -66,6 +66,26 @@
 
 新生成规则中，`## 拆解列表` 不再是必须手写的长期维护内容，优先由工具从对话列表自动生成。
 
+### 2.4 manifest v2 契约
+
+每个可安装的英语课程包都必须使用 v2 领域包裹。`manifest.json` 是课程包的入口，生成或修改课程时必须同时校验它：
+
+- 外层必须包含 `schemaVersion: "2.0"`、`id`、`name`、`description`、`subject: "english"`、`publisher`、`generation`；`cover` 可选。
+- 外层必须包含 `domain`，且 `domain.key` 固定为 `english`；`domain.planning` 和 `domain.package` 必须是对象。
+- `domain.planning` 保存英语排课信息：`audience`、`grade` / `semester` / `unit`、`tags`、`language`、`wordlist` / `vocabulary`、`languageLevel`、`phonicsStage`、`courseType` 和 `growth`。不适用的字段写 `null`，不要移到外层。
+- `domain.package` 保存执行数据：`source { type, path }` 和 `activities[]`。源文件与活动数据路径都必须是相对当前课程目录的路径，并且目标文件真实存在。
+- 每个 activity 必须包含 `type`、`name`、`data`、`enabled`。基础活动类型包括 `sentence-practice`、`conversation-practice`、`phonics-practice`、`listening-practice`、`reading-qa`、`speaking-practice`、`dictation-practice`；成长活动类型包括 `word-family-practice`、`pattern-transfer-practice`、`context-output-practice`、`mistake-review-practice`。
+- v1 的顶层 `language`、`targetAge`、`grade`、`semester`、`unit`、`tags`、`source`、`supportedActivities`、`audience` 不得继续使用；它们必须迁入 `domain.planning` 或 `domain.package`。
+
+manifest 迁移不能只改版本号。每次生成后都要检查：`domain.package.source.path` 存在；每个 activity 的 `data` 存在；`growthAvailable` 为 `false` 时不注册成长 activity；所有 JSON 文件可解析。未知 activity type 不得被悄悄改名或替换成其他练习。
+
+### 2.5 生成文件与 manifest 的对应关系
+
+- 生成 JSON 的 `manifestId` 必须与当前 `manifest.json` 的 `id` 一致。
+- 普通活动的 `activityType` 必须与 `domain.package.activities[].type` 一致；`growth-content.json` 可以被多个已声明的成长活动共享，但必须同时提供这些活动所需的 `wordFamilies`、`patterns` 或 `transferPrompts` 数据。
+- `sourceHash`、`generatorVersion`、`generatedAt` 用于追踪生成来源；重新生成内容时更新生成信息，不改写课文源文件。
+- 活动缺少数据、路径越界、JSON 损坏或 manifestId 不匹配时，课程包视为不完整，应修复或移除对应 activity 声明，不能生成空占位活动。
+
 ## 3. 对话列表规则
 
 处理 `## 对话列表` 时：
@@ -457,6 +477,9 @@ very much | far from | school | I like it very much, | but it's far from | but i
 - 如果有图片题，图片路径是否存在，且使用相对单元目录的路径。
 - 图片题答案是否能追溯到 `## 对话列表` 原文或明确标注的目标句。
 - 图片题干、图片文件名、`alt` 是否没有直接泄露答案。
+- manifest 是否为 v2 领域包裹，并显式声明 `subject: "english"` 与 `domain.key: "english"`。
+- `domain.package.activities` 中声明的数据文件是否全部存在。
+- 只有存在 `growth-content.json` 且资源声明成长能力时，才注册成长 activity。
 
 ## 15. 图片素材和阅读理解图片题规则
 
@@ -571,7 +594,7 @@ content/reading-qa.json
 
 ### 15.6 manifest 注册
 
-图片题不再注册独立活动；如果生成图片题，必须合并进 `content/reading-qa.json`，并在 `manifest.json` 的 `supportedActivities` 中保留：
+图片题不再注册独立活动；如果生成图片题，必须合并进 `content/reading-qa.json`，并在 `manifest.json` 的 `domain.package.activities` 中保留：
 
 ```json
 {
@@ -646,3 +669,48 @@ I like it very much, but it's far from school.
 4. 根据 `relatedLines` 和 `targets` 生成 `content/reading-qa.json`。
 5. 在 `manifest.json` 中只保留 `reading-qa` 活动，不再添加独立图片题活动。
 6. 生成后检查：题目答案可追溯、题干不泄露答案、干扰项合理、图片路径可用。
+
+## 18. 教材掌握线与语言成长线
+
+课程资源分成两条互不替代的线：
+
+- **教材掌握线**使用课本原句、核心短语和单词，所有内容必须可追溯到 `## 对话列表` 或当前单元词表。
+- **语言成长线**只在资源明确声明并且学习记录稳定后出现，用于词族、句型迁移和情境表达；它不能改写、覆盖或替代教材原文练习。
+
+英语课程 manifest 使用 v2 领域包裹。外层包含市场元数据与 `subject: "english"`；英语字段只放在 `domain` 内：
+
+```json
+{
+  "schemaVersion": "2.0",
+  "id": "grade5-semester2-unit5",
+  "subject": "english",
+  "domain": {
+    "key": "english",
+    "planning": {
+      "audience": { "stage": "primary" },
+      "grade": 5,
+      "semester": 2,
+      "unit": 5,
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": ["word-family", "pattern-transfer"],
+        "foundationActivityTypes": ["sentence-practice"],
+        "growthActivityTypes": ["word-family-practice", "pattern-transfer-practice"]
+      }
+    },
+    "package": {
+      "source": { "type": "textbook-markdown", "path": "textbook.md" },
+      "activities": []
+    }
+  }
+}
+```
+
+上例只突出 v2 的领域边界和成长声明；实际课程仍须按 §2.4 补齐外层元数据、英语 planning 字段、源文件和可执行 activities，不能把这个缩略示例当成可直接安装的最小文件。
+
+当 `growthAvailable` 为真，成长活动可引用 `content/growth-content.json`。文件中的内容必须遵循：
+
+1. `wordFamilies` 的根词和至少一个词形来自当前单元原文或词表；派生内容必须标记 `isSourceText: false`。
+2. 每个词族节点保留词、作用、例句、中文、难度与来源标记；不以“为了扩展”修改原句。
+3. `patterns` 与 `transferPrompts` 从本单元已出现的表达出发；迁移句必须显示与原句的关联。
+4. 没有成长数据时不得声明对应成长 activity；UI 不显示词族树，也不把成长任务替换成其他内容。
