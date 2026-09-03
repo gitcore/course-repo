@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade6-semester1-unit1",
+  "name": "六年级上册 Unit 1 - Try your best",
+  "description": "学习一般过去时，讲述苏海参演校园话剧、尽力而为的故事",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-3",
+    "generatedAt": "2026-09-02"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": "wordlist.md",
+      "vocabulary": null,
+      "languageLevel": "primary-grade-6",
+      "phonicsStage": null,
+      "courseType": null,
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "word-family",
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice",
+          "reading-qa"
+        ],
+        "growthActivityTypes": [
+          "word-family-practice",
+          "pattern-transfer-practice"
+        ]
+      },
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "围绕新苏教译林版六年级上册 Unit 1（Try your best）课文原句，先背熟核心句子，再通过少量变式和对话使用。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 1,
+      "tags": [
+        "尽力而为",
+        "一般过去时",
+        "there was/were",
+        "校园话剧",
+        "花木兰"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "reading-qa",
+          "name": "阅读理解",
+          "data": "content/reading-qa.json",
+          "enabled": true
+        },
+        {
+          "type": "word-family-practice",
+          "name": "词族进化",
+          "data": "content/growth-content.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

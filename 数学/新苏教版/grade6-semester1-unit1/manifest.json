@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-sujiao-grade6-semester1-unit1-math",
+  "name": "六年级上册第一单元 - 小数乘法和除法（二）",
+  "description": "学习一个数乘小数、一个数除以小数，以及积和商的近似值。",
+  "subject": "math",
+  "publisher": {
+    "name": "苏教版"
+  },
+  "generation": {
+    "sourceHash": "manual-new-sujiao-grade6-semester1-unit1-2026-09-03",
+    "generatorVersion": "manual-math-course-generator-1",
+    "generatedAt": "2026-09-03"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "理解小数乘除法的算理，能正确计算并依据题意取积、商的近似值。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 1,
+      "tags": [
+        "苏教版",
+        "六年级上册",
+        "小数乘法",
+        "小数除法",
+        "近似值"
+      ],
+      "math": {
+        "courseType": "math-unit-course",
+        "topic": "小数乘法和除法（二）"
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "知识卡",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "例题讲解",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "reading-qa",
+          "name": "单元闯关",
+          "data": "content/reading-qa.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

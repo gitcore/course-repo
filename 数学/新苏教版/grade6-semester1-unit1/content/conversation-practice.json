@@ -1,0 +1,96 @@
+{
+  "manifestId": "new-sujiao-grade6-semester1-unit1-math",
+  "activityType": "conversation-practice",
+  "sourceHash": "manual-new-sujiao-grade6-semester1-unit1-2026-09-03",
+  "generatorVersion": "manual-math-course-generator-1",
+  "generatedAt": "2026-09-03T00:00:00.000Z",
+  "sections": [
+    {
+      "title": "例题 1：小数乘小数",
+      "lines": [
+        {
+          "sequenceNumber": 1,
+          "speaker": "题目",
+          "english": "计算：0.36 × 0.5。",
+          "chinese": "两个因数一共有 3 位小数。"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "步骤 1",
+          "english": "先按整数乘法算：36 × 5 = 180。",
+          "chinese": "暂时不看小数点。"
+        },
+        {
+          "sequenceNumber": 3,
+          "speaker": "步骤 2",
+          "english": "从积的右边起数出 3 位，得到 0.180。",
+          "chinese": "位数不够时，在积的左边补 0。"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "答案",
+          "english": "0.36 × 0.5 = 0.18。",
+          "chinese": "小数末尾的 0 可以去掉。"
+        }
+      ]
+    },
+    {
+      "title": "例题 2：一个数除以小数",
+      "lines": [
+        {
+          "sequenceNumber": 1,
+          "speaker": "题目",
+          "english": "计算：4.68 ÷ 0.12。",
+          "chinese": "除数 0.12 有两位小数。"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "步骤 1",
+          "english": "把除数的小数点向右移动两位：0.12 → 12。",
+          "chinese": "目标是把除数转化为整数。"
+        },
+        {
+          "sequenceNumber": 3,
+          "speaker": "步骤 2",
+          "english": "被除数的小数点也向右移动两位：4.68 → 468。",
+          "chinese": "被除数和除数同时扩大 100 倍，商不变。"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "答案",
+          "english": "4.68 ÷ 0.12 = 468 ÷ 12 = 39。",
+          "chinese": "转化后按整数除法计算。"
+        }
+      ]
+    },
+    {
+      "title": "例题 3：结合实际取近似值",
+      "lines": [
+        {
+          "sequenceNumber": 1,
+          "speaker": "题目",
+          "english": "11.2 千克面粉，每袋装 2.5 千克，至少需要几个袋子？",
+          "chinese": "先求需要装几袋：11.2 ÷ 2.5。"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "计算",
+          "english": "11.2 ÷ 2.5 = 4.48。",
+          "chinese": "4 袋装不下全部面粉。"
+        },
+        {
+          "sequenceNumber": 3,
+          "speaker": "判断",
+          "english": "题目问“至少需要”，有剩余也要多用一个袋子。",
+          "chinese": "这是进一法。"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "答案",
+          "english": "至少需要 5 个袋子。",
+          "chinese": "答题时写清单位和完整答案。"
+        }
+      ]
+    }
+  ]
+}

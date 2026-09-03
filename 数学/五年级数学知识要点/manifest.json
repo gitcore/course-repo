@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "2.0",
+  "id": "primary-math-grade5-knowledge-points",
+  "name": "五年级数学知识要点",
+  "description": "围绕五年级小数、分数、因数倍数、方程、平面图形面积和长方体正方体等核心知识点进行复习。",
+  "subject": "math",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "manual-math-knowledge-pack-1",
+    "generatedAt": "2026-06-25"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "帮助五年级学生系统复习数学核心知识点，重点掌握小数乘除法、因数倍数、分数运算、方程、面积公式和立体图形表面积体积。"
+      },
+      "grade": 5,
+      "semester": 0,
+      "unit": 0,
+      "tags": [
+        "数学",
+        "五年级",
+        "知识点",
+        "复习",
+        "小数",
+        "分数",
+        "方程",
+        "几何"
+      ],
+      "math": {
+        "courseType": "math-knowledge-summary"
+      }
+    },
+    "package": {
+      "source": {
+        "type": "shared",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "知识点拆解",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

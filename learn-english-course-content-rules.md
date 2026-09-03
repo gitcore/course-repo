@@ -6,6 +6,33 @@
 
 核心方法：**递进链原则**——将每个句子拆成一条从小片段逐步扩展到完整句的递进链，辅助学生高效背课文。
 
+## 开始制作一个课程包
+
+一个英语课程包以一个独立目录保存；目录名可按教材坐标命名，但课程身份以 `manifest.json` 的 `id` 为准。
+
+```text
+my-unit/
+├── textbook.md                    # 必需：人工维护的教材源
+├── wordlist.md                    # 可选：本单元重点词表
+├── manifest.json                  # 必需：v2 课程入口
+├── assets/                        # 可选：图片、音频等素材
+└── content/                       # 生成的结构化练习数据
+    ├── sentence-practice.json
+    ├── conversation-practice.json
+    ├── reading-qa.json             # 可选
+    └── growth-content.json         # 可选
+```
+
+快速开始：
+
+1. 新建课程目录并写好 `textbook.md`；其中必须有 `## 对话列表`，它是不可随意改写的课文原文。
+2. 如有单元重点词，补充 `wordlist.md`；如有图片，在 `assets/` 放置文件并在课文源的 `## 图片素材` 中说明关联意图。
+3. 新建或更新 v2 `manifest.json`：`domain.key` 为 `english`，`domain.package.source.path` 指向课文源，activities 只声明真实存在的生成数据。
+4. 按本规则从 `## 对话列表` 生成拆句、对话、阅读或成长内容；生成数据的 `manifestId` 和 activity type 必须与 manifest 对应。
+5. 校验 JSON、相对路径、原文保真与 activity 数据后，再交付课程包。
+
+课程包进入根 README 资源目录时，还应同步目录条目并运行 `scripts/validate_resource_catalog.py`；该目录只描述选择范围，不代替本文件或教材原文。
+
 ## 0. 最高优先级
 
 执行任何课程内容修改前，先确认这 4 条：

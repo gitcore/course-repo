@@ -1,0 +1,244 @@
+{
+  "manifestId": "new-sujiao-grade6-semester1-unit1-math",
+  "activityType": "sentence-practice",
+  "sourceHash": "manual-new-sujiao-grade6-semester1-unit1-2026-09-03",
+  "generatorVersion": "manual-math-course-generator-1",
+  "generatedAt": "2026-09-03T00:00:00.000Z",
+  "sections": [
+    {
+      "title": "小数乘法：算理与算法",
+      "sentences": [
+        {
+          "id": "multiply-1",
+          "sequenceNumber": 1,
+          "segmentNumber": 1,
+          "english": "求一个数的十分之几、百分之几等，可以用小数乘法计算。",
+          "speaker": "teacher",
+          "chinese": "小数乘法表示“求一个数的几分之几是多少”。",
+          "difficulty": 1,
+          "category": "concept",
+          "hint": "把 0.3 看作 3/10，帮助理解乘小数的意义。",
+          "grammarAnalysis": "小数可以表示十分之几、百分之几等，因此“求一个数的 0.3 是多少”用乘法计算。",
+          "words": [
+            { "text": "小数乘法", "phonetic": "", "partOfSpeech": "概念", "meaning": "含有小数的乘法运算" },
+            { "text": "因数", "phonetic": "", "partOfSpeech": "术语", "meaning": "乘法算式中的数" }
+          ],
+          "structureBlocks": [
+            { "label": "意义", "text": "求一个数的几分之几" },
+            { "label": "方法", "text": "用小数乘法" }
+          ]
+        },
+        {
+          "id": "multiply-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "english": "计算小数乘法时，先按整数乘法计算，再确定积的小数位数。",
+          "speaker": "teacher",
+          "chinese": "先算数，再点小数点。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "两个因数的小数位数相加，就是积应有的小数位数。",
+          "grammarAnalysis": "积的小数位数等于两个因数小数位数之和；位数不够时，在积的左边补 0。",
+          "words": [
+            { "text": "积", "phonetic": "", "partOfSpeech": "术语", "meaning": "乘法计算的结果" },
+            { "text": "小数位数", "phonetic": "", "partOfSpeech": "术语", "meaning": "小数点后数字的个数" }
+          ],
+          "structureBlocks": [
+            { "label": "步骤 1", "text": "按整数乘法计算" },
+            { "label": "步骤 2", "text": "确定积的小数位数" }
+          ]
+        },
+        {
+          "id": "multiply-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "english": "一个非零数乘大于 1 的小数，积比原数大；乘小于 1 的小数，积比原数小。",
+          "speaker": "teacher",
+          "chinese": "先估一估积的大小，可以检查计算结果是否合理。",
+          "difficulty": 2,
+          "category": "reasoning",
+          "hint": "5.2 × 0.9 的结果应小于 5.2。",
+          "grammarAnalysis": "乘大于 1 的数相当于扩大，乘小于 1 的正数相当于缩小。",
+          "words": [
+            { "text": "原数", "phonetic": "", "partOfSpeech": "术语", "meaning": "相乘前作为比较对象的数" },
+            { "text": "估算", "phonetic": "", "partOfSpeech": "方法", "meaning": "用接近的数快速判断结果范围" }
+          ],
+          "structureBlocks": [
+            { "label": "乘大于 1", "text": "积变大" },
+            { "label": "乘小于 1", "text": "积变小" }
+          ]
+        },
+        {
+          "id": "multiply-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
+          "english": "求积的近似值时，先算出准确值，再按要求用四舍五入法取近似值。",
+          "speaker": "teacher",
+          "chinese": "不要在中间步骤过早取近似数。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "保留一位小数，要看百分位上的数字。",
+          "grammarAnalysis": "四舍五入时，先确定保留到哪一位，再根据下一位数字决定舍或入。",
+          "words": [
+            { "text": "准确值", "phonetic": "", "partOfSpeech": "术语", "meaning": "没有取近似数前的实际计算结果" },
+            { "text": "四舍五入", "phonetic": "", "partOfSpeech": "方法", "meaning": "按指定数位取近似值的方法" }
+          ],
+          "structureBlocks": [
+            { "label": "先", "text": "算准确值" },
+            { "label": "后", "text": "按要求取近似值" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "小数除法：转化与竖式",
+      "sentences": [
+        {
+          "id": "divide-1",
+          "sequenceNumber": 2,
+          "segmentNumber": 1,
+          "english": "一个数除以小数时，要先把除数转化成整数。",
+          "speaker": "teacher",
+          "chinese": "除数是小数，先转化；除数是整数，按整数除法计算。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "看除数有几位小数。",
+          "grammarAnalysis": "这是把新问题转化为已学的“除数是整数的小数除法”。",
+          "words": [
+            { "text": "被除数", "phonetic": "", "partOfSpeech": "术语", "meaning": "除法算式中被除的数" },
+            { "text": "除数", "phonetic": "", "partOfSpeech": "术语", "meaning": "除法算式中用来除的数" }
+          ],
+          "structureBlocks": [
+            { "label": "目标", "text": "除数转化成整数" },
+            { "label": "依据", "text": "商不变规律" }
+          ]
+        },
+        {
+          "id": "divide-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 2,
+          "english": "除数的小数点向右移动几位，被除数的小数点也要向右移动相同的位数。",
+          "speaker": "teacher",
+          "chinese": "被除数和除数要同时扩大相同的倍数，商不变。",
+          "difficulty": 3,
+          "category": "easy-mistake",
+          "hint": "4.68 ÷ 0.12 可以转化为 468 ÷ 12。",
+          "grammarAnalysis": "商不变规律：被除数和除数同时乘同一个非零数，商不变。",
+          "words": [
+            { "text": "商不变规律", "phonetic": "", "partOfSpeech": "规律", "meaning": "被除数和除数同时扩大或缩小相同倍数，商不变" },
+            { "text": "转化", "phonetic": "", "partOfSpeech": "数学思想", "meaning": "把新问题变成已学问题" }
+          ],
+          "structureBlocks": [
+            { "label": "除数", "text": "移动几位" },
+            { "label": "被除数", "text": "也移动相同位数" }
+          ]
+        },
+        {
+          "id": "divide-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
+          "english": "小数除法的商的小数点，要和被除数移动后的小数点对齐。",
+          "speaker": "teacher",
+          "chinese": "竖式中先确定商的小数点位置，再继续计算。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "不够除时，在被除数末尾添 0 继续除。",
+          "grammarAnalysis": "小数除法竖式与整数除法步骤相同，关键是正确处理小数点。",
+          "words": [
+            { "text": "商", "phonetic": "", "partOfSpeech": "术语", "meaning": "除法计算的结果" },
+            { "text": "竖式", "phonetic": "", "partOfSpeech": "方法", "meaning": "按位计算的书写形式" }
+          ],
+          "structureBlocks": [
+            { "label": "关键", "text": "商的小数点位置" },
+            { "label": "继续计算", "text": "不够除可添 0" }
+          ]
+        },
+        {
+          "id": "divide-4",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
+          "english": "求商的近似值时，要除到比要求保留的小数位数多一位。",
+          "speaker": "teacher",
+          "chinese": "多除出的一位用来决定四舍还是五入。",
+          "difficulty": 3,
+          "category": "method",
+          "hint": "保留两位小数，就要先算到千分位。",
+          "grammarAnalysis": "四舍五入需要观察保留位右边的一位，因此计算时要多除一位。",
+          "words": [
+            { "text": "商的近似值", "phonetic": "", "partOfSpeech": "概念", "meaning": "按要求保留数位后的商" },
+            { "text": "保留", "phonetic": "", "partOfSpeech": "方法", "meaning": "留下指定数位上的数字" }
+          ],
+          "structureBlocks": [
+            { "label": "要求", "text": "多除一位" },
+            { "label": "最后", "text": "四舍五入" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "实际问题：判断与检验",
+      "sentences": [
+        {
+          "id": "apply-1",
+          "sequenceNumber": 3,
+          "segmentNumber": 1,
+          "english": "实际问题中，求至少需要多少个时，通常要用进一法。",
+          "speaker": "teacher",
+          "chinese": "有剩余也要多准备一个，才能保证够用。",
+          "difficulty": 2,
+          "category": "application",
+          "hint": "装袋、装箱、坐车等“至少”问题常用进一法。",
+          "grammarAnalysis": "答案表示物品数量时一般取整数，并由实际含义决定取值方法。",
+          "words": [
+            { "text": "进一法", "phonetic": "", "partOfSpeech": "方法", "meaning": "有剩余也向上取整" },
+            { "text": "至少", "phonetic": "", "partOfSpeech": "关键词", "meaning": "数量不能少于实际需要" }
+          ],
+          "structureBlocks": [
+            { "label": "关键词", "text": "至少" },
+            { "label": "取值", "text": "进一法" }
+          ]
+        },
+        {
+          "id": "apply-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
+          "english": "实际问题中，求最多能做多少个时，通常要用去尾法。",
+          "speaker": "teacher",
+          "chinese": "剩下的不够做一个，就不能算作完整的一个。",
+          "difficulty": 2,
+          "category": "application",
+          "hint": "裁纸、装盒、做零件等“最多”问题常用去尾法。",
+          "grammarAnalysis": "去尾法是只保留整数部分，不足一个的部分舍去。",
+          "words": [
+            { "text": "去尾法", "phonetic": "", "partOfSpeech": "方法", "meaning": "舍去不足一个的尾数" },
+            { "text": "最多", "phonetic": "", "partOfSpeech": "关键词", "meaning": "在现有条件下能完成的最大整数个数" }
+          ],
+          "structureBlocks": [
+            { "label": "关键词", "text": "最多" },
+            { "label": "取值", "text": "去尾法" }
+          ]
+        },
+        {
+          "id": "apply-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
+          "english": "计算后要用估算、单位和生活常识检查答案是否合理。",
+          "speaker": "teacher",
+          "chinese": "计算正确还不够，答案还要符合题目的实际意义。",
+          "difficulty": 2,
+          "category": "reasoning",
+          "hint": "乘 0.2 后结果不应比原数大；袋子数量一般应是整数。",
+          "grammarAnalysis": "检验包括结果范围、单位是否统一、近似值取法和答案单位。",
+          "words": [
+            { "text": "合理性", "phonetic": "", "partOfSpeech": "数学素养", "meaning": "结果是否符合数量关系和实际情境" },
+            { "text": "单位", "phonetic": "", "partOfSpeech": "术语", "meaning": "表示量的名称，如千克、米、元" }
+          ],
+          "structureBlocks": [
+            { "label": "检查 1", "text": "估算结果范围" },
+            { "label": "检查 2", "text": "单位和题意" }
+          ]
+        }
+      ]
+    }
+  ]
+}

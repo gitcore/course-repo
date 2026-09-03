@@ -1,0 +1,329 @@
+{
+  "manifestId": "primary-math-grade5-knowledge-points",
+  "activityType": "sentence-practice",
+  "sourceHash": "manual-grade5-math-knowledge-2026-06-25",
+  "generatorVersion": "manual-math-sentence-practice-1",
+  "generatedAt": "2026-06-25T00:00:00.000Z",
+  "sections": [
+    {
+      "title": "数与计算",
+      "sentences": [
+        {
+          "id": "number-1",
+          "sequenceNumber": 1,
+          "segmentNumber": 1,
+          "english": "小数乘法先按整数乘法计算，再根据因数的小数位数确定积的小数位数。",
+          "speaker": "teacher",
+          "chinese": "小数乘法的核心是先算整数乘法，再处理小数点。",
+          "difficulty": 2,
+          "category": "knowledge-point",
+          "hint": "先算数，再定位小数点。",
+          "grammarAnalysis": "小数乘法：积的小数位数等于两个因数小数位数之和。",
+          "words": [
+            { "text": "小数乘法", "phonetic": "", "partOfSpeech": "概念", "meaning": "含有小数的乘法运算" },
+            { "text": "积", "phonetic": "", "partOfSpeech": "术语", "meaning": "乘法计算的结果" }
+          ],
+          "structureBlocks": [
+            { "label": "方法", "text": "先按整数乘法算" },
+            { "label": "关键", "text": "再确定积的小数位数" }
+          ]
+        },
+        {
+          "id": "number-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "english": "小数除法要先把除数转化成整数，被除数的小数点也要相应移动。",
+          "speaker": "teacher",
+          "chinese": "除数是小数时，要利用商不变规律转化。",
+          "difficulty": 2,
+          "category": "knowledge-point",
+          "hint": "除数移动几位，被除数也移动几位。",
+          "grammarAnalysis": "商不变规律：被除数和除数同时扩大相同倍数，商不变。",
+          "words": [
+            { "text": "小数除法", "phonetic": "", "partOfSpeech": "概念", "meaning": "含有小数的除法运算" },
+            { "text": "商不变规律", "phonetic": "", "partOfSpeech": "规律", "meaning": "被除数和除数同时乘或除以同一个非零数，商不变" }
+          ],
+          "structureBlocks": [
+            { "label": "转化", "text": "把除数转化成整数" },
+            { "label": "注意", "text": "被除数小数点同步移动" }
+          ]
+        },
+        {
+          "id": "number-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "english": "求近似值时，要根据题意选择四舍五入、进一法或去尾法。",
+          "speaker": "teacher",
+          "chinese": "近似值不能只机械四舍五入，要结合生活情境。",
+          "difficulty": 2,
+          "category": "application",
+          "hint": "装车、装箱常用进一法；裁剪、最多可做常用去尾法。",
+          "grammarAnalysis": "实际问题中的取值策略由情境决定。",
+          "words": [
+            { "text": "四舍五入", "phonetic": "", "partOfSpeech": "方法", "meaning": "按指定数位取近似值" },
+            { "text": "进一法", "phonetic": "", "partOfSpeech": "方法", "meaning": "有剩余也要多算一份" },
+            { "text": "去尾法", "phonetic": "", "partOfSpeech": "方法", "meaning": "剩余不足一份时舍去" }
+          ],
+          "structureBlocks": [
+            { "label": "判断", "text": "先读题意" },
+            { "label": "选择", "text": "再决定取近似值方法" }
+          ]
+        },
+        {
+          "id": "number-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
+          "english": "1 既不是质数，也不是合数。",
+          "speaker": "teacher",
+          "chinese": "质数和合数都讨论大于 1 的自然数。",
+          "difficulty": 1,
+          "category": "easy-mistake",
+          "hint": "判断质数和合数时，先排除 1。",
+          "grammarAnalysis": "质数只有 1 和它本身两个因数；合数除了 1 和它本身还有其他因数。",
+          "words": [
+            { "text": "质数", "phonetic": "", "partOfSpeech": "概念", "meaning": "只有 1 和它本身两个因数的数" },
+            { "text": "合数", "phonetic": "", "partOfSpeech": "概念", "meaning": "除了 1 和它本身还有其他因数的数" }
+          ],
+          "structureBlocks": [
+            { "label": "结论", "text": "1 既不是质数，也不是合数" }
+          ]
+        },
+        {
+          "id": "number-5",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
+          "english": "异分母分数相加减，要先通分，再按照同分母分数加减法计算。",
+          "speaker": "teacher",
+          "chinese": "分数单位不同，不能直接相加减。",
+          "difficulty": 3,
+          "category": "knowledge-point",
+          "hint": "先找公分母。",
+          "grammarAnalysis": "通分的目的是把不同分母转化成相同分母。",
+          "words": [
+            { "text": "异分母分数", "phonetic": "", "partOfSpeech": "概念", "meaning": "分母不同的分数" },
+            { "text": "通分", "phonetic": "", "partOfSpeech": "方法", "meaning": "把异分母分数化成同分母分数" }
+          ],
+          "structureBlocks": [
+            { "label": "步骤 1", "text": "通分" },
+            { "label": "步骤 2", "text": "分子相加减，分母不变" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "方程与数量关系",
+      "sentences": [
+        {
+          "id": "equation-1",
+          "sequenceNumber": 2,
+          "segmentNumber": 1,
+          "english": "含有未知数的等式叫方程。",
+          "speaker": "teacher",
+          "chinese": "方程必须同时满足两个条件：有未知数、是等式。",
+          "difficulty": 1,
+          "category": "concept",
+          "hint": "不是所有含 x 的式子都是方程。",
+          "grammarAnalysis": "方程是表达数量关系的重要工具。",
+          "words": [
+            { "text": "未知数", "phonetic": "", "partOfSpeech": "概念", "meaning": "暂时不知道的数，常用字母表示" },
+            { "text": "等式", "phonetic": "", "partOfSpeech": "概念", "meaning": "用等号连接的式子" }
+          ],
+          "structureBlocks": [
+            { "label": "条件 1", "text": "含有未知数" },
+            { "label": "条件 2", "text": "是等式" }
+          ]
+        },
+        {
+          "id": "equation-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 2,
+          "english": "解方程时，等号两边要同时做相同的运算。",
+          "speaker": "teacher",
+          "chinese": "这是等式性质的应用。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "两边同加、同减、同乘或同除一个非零数。",
+          "grammarAnalysis": "等式两边保持平衡，方程的解不变。",
+          "words": [
+            { "text": "等式性质", "phonetic": "", "partOfSpeech": "规律", "meaning": "等式两边同时做相同运算，等式仍成立" },
+            { "text": "解方程", "phonetic": "", "partOfSpeech": "方法", "meaning": "求出未知数的值" }
+          ],
+          "structureBlocks": [
+            { "label": "核心", "text": "等号两边同时做相同运算" }
+          ]
+        },
+        {
+          "id": "equation-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
+          "english": "列方程解决问题时，要先找出题目中的等量关系。",
+          "speaker": "teacher",
+          "chinese": "等量关系是列方程的依据。",
+          "difficulty": 3,
+          "category": "application",
+          "hint": "先写关系句，再设未知数。",
+          "grammarAnalysis": "应用题中的关键词要转化成数学关系。",
+          "words": [
+            { "text": "等量关系", "phonetic": "", "partOfSpeech": "概念", "meaning": "两个量或两个表达式相等的关系" },
+            { "text": "列方程", "phonetic": "", "partOfSpeech": "方法", "meaning": "根据等量关系建立方程" }
+          ],
+          "structureBlocks": [
+            { "label": "步骤 1", "text": "找等量关系" },
+            { "label": "步骤 2", "text": "设未知数并列方程" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "图形与几何",
+      "sentences": [
+        {
+          "id": "geometry-1",
+          "sequenceNumber": 3,
+          "segmentNumber": 1,
+          "english": "平行四边形的面积等于底乘高。",
+          "speaker": "teacher",
+          "chinese": "可以通过割补转化成长方形来理解。",
+          "difficulty": 2,
+          "category": "formula",
+          "hint": "高必须对应所选的底。",
+          "grammarAnalysis": "面积公式：S = 底 × 高。",
+          "words": [
+            { "text": "平行四边形", "phonetic": "", "partOfSpeech": "图形", "meaning": "两组对边分别平行的四边形" },
+            { "text": "高", "phonetic": "", "partOfSpeech": "几何量", "meaning": "从一条底到对边的垂直距离" }
+          ],
+          "structureBlocks": [
+            { "label": "公式", "text": "S = 底 × 高" },
+            { "label": "理解", "text": "割补转化成长方形" }
+          ]
+        },
+        {
+          "id": "geometry-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
+          "english": "三角形的面积等于底乘高除以 2。",
+          "speaker": "teacher",
+          "chinese": "两个完全一样的三角形可以拼成一个平行四边形。",
+          "difficulty": 2,
+          "category": "formula",
+          "hint": "不要忘记除以 2。",
+          "grammarAnalysis": "面积公式：S = 底 × 高 ÷ 2。",
+          "words": [
+            { "text": "三角形面积", "phonetic": "", "partOfSpeech": "公式", "meaning": "底乘高除以 2" },
+            { "text": "转化", "phonetic": "", "partOfSpeech": "数学思想", "meaning": "把新问题变成熟悉问题" }
+          ],
+          "structureBlocks": [
+            { "label": "公式", "text": "S = 底 × 高 ÷ 2" },
+            { "label": "易错", "text": "漏掉 ÷ 2" }
+          ]
+        },
+        {
+          "id": "geometry-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
+          "english": "长方体的体积等于长乘宽乘高。",
+          "speaker": "teacher",
+          "chinese": "体积表示物体所占空间的大小。",
+          "difficulty": 2,
+          "category": "formula",
+          "hint": "体积单位是立方单位。",
+          "grammarAnalysis": "体积公式：V = 长 × 宽 × 高。",
+          "words": [
+            { "text": "长方体", "phonetic": "", "partOfSpeech": "立体图形", "meaning": "有 6 个面的立体图形，相对的面完全相同" },
+            { "text": "体积", "phonetic": "", "partOfSpeech": "概念", "meaning": "物体所占空间的大小" }
+          ],
+          "structureBlocks": [
+            { "label": "公式", "text": "V = 长 × 宽 × 高" },
+            { "label": "单位", "text": "立方厘米、立方分米、立方米" }
+          ]
+        },
+        {
+          "id": "geometry-4",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
+          "english": "表面积是所有面的面积总和，体积是物体所占空间大小。",
+          "speaker": "teacher",
+          "chinese": "表面积和体积是五年级几何中的高频易混点。",
+          "difficulty": 2,
+          "category": "easy-mistake",
+          "hint": "表面积看外面，体积看里面占空间。",
+          "grammarAnalysis": "表面积用面积单位，体积用体积单位。",
+          "words": [
+            { "text": "表面积", "phonetic": "", "partOfSpeech": "概念", "meaning": "所有外表面的面积总和" },
+            { "text": "体积", "phonetic": "", "partOfSpeech": "概念", "meaning": "物体占据空间的大小" }
+          ],
+          "structureBlocks": [
+            { "label": "表面积", "text": "所有面的面积总和" },
+            { "label": "体积", "text": "物体所占空间大小" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "统计、可能性与综合易错点",
+      "sentences": [
+        {
+          "id": "statistics-1",
+          "sequenceNumber": 4,
+          "segmentNumber": 1,
+          "english": "折线统计图适合表示数据随时间变化的趋势。",
+          "speaker": "teacher",
+          "chinese": "看折线统计图时，要关注上升、下降和平稳。",
+          "difficulty": 1,
+          "category": "knowledge-point",
+          "hint": "折线的方向反映变化趋势。",
+          "grammarAnalysis": "统计图要结合横轴、纵轴和单位一起读。",
+          "words": [
+            { "text": "折线统计图", "phonetic": "", "partOfSpeech": "统计工具", "meaning": "用折线表示数据变化的统计图" },
+            { "text": "趋势", "phonetic": "", "partOfSpeech": "概念", "meaning": "数据变化的方向" }
+          ],
+          "structureBlocks": [
+            { "label": "观察", "text": "看横轴、纵轴、单位" },
+            { "label": "判断", "text": "看数据变化趋势" }
+          ]
+        },
+        {
+          "id": "probability-1",
+          "sequenceNumber": 4,
+          "segmentNumber": 2,
+          "english": "可能性可以用一定、可能、不可能等词描述。",
+          "speaker": "teacher",
+          "chinese": "判断可能性时，要看所有可能出现的结果。",
+          "difficulty": 1,
+          "category": "concept",
+          "hint": "先列出所有可能情况。",
+          "grammarAnalysis": "可能性描述的是事件发生的确定程度。",
+          "words": [
+            { "text": "一定", "phonetic": "", "partOfSpeech": "判断词", "meaning": "必然发生" },
+            { "text": "可能", "phonetic": "", "partOfSpeech": "判断词", "meaning": "有机会发生" },
+            { "text": "不可能", "phonetic": "", "partOfSpeech": "判断词", "meaning": "不会发生" }
+          ],
+          "structureBlocks": [
+            { "label": "判断", "text": "看所有可能出现的结果" }
+          ]
+        },
+        {
+          "id": "review-1",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
+          "english": "读应用题时，要先弄清已知什么、要求什么、数量之间有什么关系。",
+          "speaker": "teacher",
+          "chinese": "五年级应用题常常需要先找数量关系。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "先分析，再列式，不要急着计算。",
+          "grammarAnalysis": "应用题解题顺序：读题、找关系、列式、计算、检查。",
+          "words": [
+            { "text": "已知条件", "phonetic": "", "partOfSpeech": "解题元素", "meaning": "题目已经给出的信息" },
+            { "text": "数量关系", "phonetic": "", "partOfSpeech": "解题元素", "meaning": "数量之间的相等或变化关系" }
+          ],
+          "structureBlocks": [
+            { "label": "读题", "text": "已知什么" },
+            { "label": "目标", "text": "要求什么" },
+            { "label": "关键", "text": "数量之间有什么关系" }
+          ]
+        }
+      ]
+    }
+  ]
+}
