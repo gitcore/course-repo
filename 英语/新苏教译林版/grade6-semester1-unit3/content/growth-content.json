@@ -1,0 +1,190 @@
+{
+  "version": "2.0.0",
+  "unit": "Unit 3 Great people",
+  "description": "成长内容：词族进化 + 句型迁移",
+  "wordFamilies": [
+    {
+      "id": "develop",
+      "rootWord": "develop",
+      "meaning": "发展；开发",
+      "family": [
+        {"word": "develop", "pos": "verb", "meaning": "发展；开发；研制", "example": "He developed hybrid rice.", "exampleCn": "他研发了杂交水稻。"},
+        {"word": "developer", "pos": "noun", "meaning": "开发者；开发商", "example": "He is a great software developer.", "exampleCn": "他是一位优秀的软件开发者。"},
+        {"word": "development", "pos": "noun", "meaning": "发展；进展", "example": "The development of hybrid rice helped many people.", "exampleCn": "杂交水稻的发展帮助了许多人。"},
+        {"word": "developing", "pos": "adjective", "meaning": "发展中的", "example": "China is a developing country.", "exampleCn": "中国是一个发展中国家。"},
+        {"word": "developed", "pos": "adjective", "meaning": "发达的", "example": "Japan is a developed country.", "exampleCn": "日本是一个发达国家。"}
+      ],
+      "evolutionTip": "动词develop加-ment变成名词development，加-er变成人developer。过去分词developed也可以作形容词表「发达的」。"
+    },
+    {
+      "id": "science",
+      "rootWord": "science",
+      "meaning": "科学",
+      "family": [
+        {"word": "science", "pos": "noun", "meaning": "科学", "example": "I like science class.", "exampleCn": "我喜欢科学课。"},
+        {"word": "scientist", "pos": "noun", "meaning": "科学家", "example": "Yuan Longping was a great scientist.", "exampleCn": "袁隆平是一位伟大的科学家。"},
+        {"word": "scientific", "pos": "adjective", "meaning": "科学的", "example": "He did scientific research.", "exampleCn": "他做了科学研究。"},
+        {"word": "scientifically", "pos": "adverb", "meaning": "科学地", "example": "We should study scientifically.", "exampleCn": "我们应该科学地学习。"}
+      ],
+      "evolutionTip": "science是「科学」，加-ist变成做科学的人scientist（科学家），加-ific变成形容词scientific（科学的）。"
+    },
+    {
+      "id": "invent",
+      "rootWord": "invent",
+      "meaning": "发明",
+      "family": [
+        {"word": "invent", "pos": "verb", "meaning": "发明；创造", "example": "Edison invented the light bulb.", "exampleCn": "爱迪生发明了电灯泡。"},
+        {"word": "inventor", "pos": "noun", "meaning": "发明家", "example": "Edison was a great inventor.", "exampleCn": "爱迪生是一位伟大的发明家。"},
+        {"word": "invention", "pos": "noun", "meaning": "发明物；发明", "example": "The phone is a great invention.", "exampleCn": "电话是一项伟大的发明。"},
+        {"word": "inventive", "pos": "adjective", "meaning": "有创造力的", "example": "She is very inventive.", "exampleCn": "她很有创造力。"}
+      ],
+      "evolutionTip": "invent加-or变成人inventor（发明家），加-ion变成名词invention（发明物）。"
+    },
+    {
+      "id": "farm",
+      "rootWord": "farm",
+      "meaning": "农场；耕作",
+      "family": [
+        {"word": "farm", "pos": "noun", "meaning": "农场", "example": "My grandpa has a big farm.", "exampleCn": "我爷爷有一个大农场。"},
+        {"word": "farmer", "pos": "noun", "meaning": "农民；农场主", "example": "The farmer grows rice.", "exampleCn": "农民种水稻。"},
+        {"word": "farming", "pos": "noun", "meaning": "农业；耕作", "example": "He liked farming at an early age.", "exampleCn": "他很小的时候就喜欢农业。"},
+        {"word": "farmland", "pos": "noun", "meaning": "农田", "example": "There is a lot of farmland here.", "exampleCn": "这里有很多农田。"}
+      ],
+      "evolutionTip": "farm是农场，加-er变成在农场工作的人farmer（农民），加-ing变成farming（农业/耕作这个行业）。"
+    },
+    {
+      "id": "hard",
+      "rootWord": "hard",
+      "meaning": "努力的；困难的",
+      "family": [
+        {"word": "hard", "pos": "adjective", "meaning": "困难的；硬的", "example": "The work is very hard.", "exampleCn": "这项工作很难。"},
+        {"word": "hard", "pos": "adverb", "meaning": "努力地；用力地", "example": "He worked hard every day.", "exampleCn": "他每天都努力工作。"},
+        {"word": "hardly", "pos": "adverb", "meaning": "几乎不", "example": "I can hardly believe it.", "exampleCn": "我几乎不敢相信。"},
+        {"word": "hardworking", "pos": "adjective", "meaning": "勤奋的", "example": "She is a hardworking student.", "exampleCn": "她是一个勤奋的学生。"}
+      ],
+      "evolutionTip": "hard既可以作形容词（困难的）也可以作副词（努力地）。hardly意思完全不同，是「几乎不」。hard+working = hardworking（勤奋的）。"
+    },
+    {
+      "id": "great",
+      "rootWord": "great",
+      "meaning": "伟大的；极好的",
+      "family": [
+        {"word": "great", "pos": "adjective", "meaning": "伟大的；极好的", "example": "He was a great scientist.", "exampleCn": "他是一位伟大的科学家。"},
+        {"word": "greatly", "pos": "adverb", "meaning": "非常；大大地", "example": "I greatly admire him.", "exampleCn": "我非常钦佩他。"},
+        {"word": "greatness", "pos": "noun", "meaning": "伟大；卓越", "example": "His greatness is in helping others.", "exampleCn": "他的伟大在于帮助他人。"}
+      ],
+      "evolutionTip": "great加-ly变成副词greatly（非常），加-ness变成名词greatness（伟大）。-ness是常见的名词后缀。"
+    }
+  ],
+  "sentencePatterns": [
+    {
+      "id": "was-born-in",
+      "pattern": "主语 + was/were born in + 时间/地点",
+      "patternCn": "某人出生于……",
+      "textbookExample": "He was born in 1930 in Beijing.",
+      "textbookExampleCn": "他1930年出生于北京。",
+      "grammarExplanation": "be born 表示「出生」，因为人是被生下来的，所以用被动语态。常用过去时 was/were born。注意：表示出生年份和城市都用介词in。",
+      "transferExamples": [
+        {"english": "I was born in 2014 in Nanjing.", "chinese": "我2014年出生于南京。"},
+        {"english": "She was born in Shanghai.", "chinese": "她出生于上海。"},
+        {"english": "They were born in the same year.", "chinese": "他们同年出生。"},
+        {"english": "My dad was born in a small town.", "chinese": "我爸爸出生在一个小镇上。"}
+      ]
+    },
+    {
+      "id": "never-gave-up",
+      "pattern": "主语 + never + 动词过去式 + ...",
+      "patternCn": "某人从不……（过去从不做某事）",
+      "textbookExample": "It was very difficult, but he never gave up.",
+      "textbookExampleCn": "这非常困难，但他从不放弃。",
+      "grammarExplanation": "never + 动词过去式 表示「过去从不做某事」，比一般否定句语气更强，强调「从来没有」。never放在行为动词之前，be动词之后。",
+      "transferExamples": [
+        {"english": "He never told a lie.", "chinese": "他从不说谎。"},
+        {"english": "She never ate junk food.", "chinese": "她从不吃垃圾食品。"},
+        {"english": "They never gave up their dream.", "chinese": "他们从不放弃梦想。"},
+        {"english": "I never forgot his words.", "chinese": "我从未忘记他的话。"}
+      ]
+    },
+    {
+      "id": "thanks-for-doing",
+      "pattern": "Thanks for + 动词-ing + ...",
+      "patternCn": "感谢你做了……",
+      "textbookExample": "Thanks for taking my baby to the park yesterday.",
+      "textbookExampleCn": "谢谢你昨天带我宝宝去公园。",
+      "grammarExplanation": "Thanks for doing sth. 表示「为做了某事而感谢」。for是介词，后面要跟动名词（动词-ing形式）。",
+      "transferExamples": [
+        {"english": "Thanks for helping me.", "chinese": "谢谢你帮助我。"},
+        {"english": "Thanks for coming to my party.", "chinese": "谢谢你来参加我的派对。"},
+        {"english": "Thanks for telling me the news.", "chinese": "谢谢你告诉我这个消息。"},
+        {"english": "Thanks for lending me your book.", "chinese": "谢谢你借我书。"}
+      ]
+    },
+    {
+      "id": "be-ready-to",
+      "pattern": "主语 + be ready to + 动词原形",
+      "patternCn": "某人准备好/乐意做某事",
+      "textbookExample": "You're always ready to help others.",
+      "textbookExampleCn": "你总是乐于助人。",
+      "grammarExplanation": "be ready to do sth. 有两个意思：一是「准备好做某事」，二是「乐意做某事」。本单元中表示「乐意」的意思。",
+      "transferExamples": [
+        {"english": "I'm ready to start.", "chinese": "我准备好开始了。"},
+        {"english": "She is always ready to help.", "chinese": "她总是乐于助人。"},
+        {"english": "They are ready to try again.", "chinese": "他们准备好再试一次。"},
+        {"english": "He is ready to face the challenge.", "chinese": "他准备好面对挑战了。"}
+      ]
+    },
+    {
+      "id": "dont-have-to",
+      "pattern": "主语 + don't/doesn't have to + 动词原形",
+      "patternCn": "某人不必做某事",
+      "textbookExample": "Great people don't have to be famous.",
+      "textbookExampleCn": "伟大的人不必出名。",
+      "grammarExplanation": "don't have to do sth. 表示「不必做某事」，和 needn't 意思相近。注意这里的to后面跟动词原形。",
+      "transferExamples": [
+        {"english": "You don't have to go now.", "chinese": "你不必现在走。"},
+        {"english": "She doesn't have to finish it today.", "chinese": "她不必今天完成。"},
+        {"english": "We don't have to be perfect.", "chinese": "我们不必完美。"},
+        {"english": "He doesn't have to come early.", "chinese": "他不必早来。"}
+      ]
+    }
+  ],
+  "growthExercises": [
+    {
+      "id": 1,
+      "type": "word-family",
+      "question": "选择正确的词填空：Yuan Longping was a great ______. (science)",
+      "options": ["scientist", "scientific", "science"],
+      "answer": "scientist",
+      "explanation": "这里需要一个表示「人」的名词，scientist是科学家的意思。"
+    },
+    {
+      "id": 2,
+      "type": "word-family",
+      "question": "选择正确的词填空：He ______ hybrid rice in 1973. (develop)",
+      "options": ["developer", "developed", "development"],
+      "answer": "developed",
+      "explanation": "这里需要一个动词作谓语，in 1973是过去时间，所以用过去式developed。"
+    },
+    {
+      "id": 3,
+      "type": "sentence-pattern",
+      "question": "用所给词造句：I / be born / 2014 / Wuhan",
+      "answer": "I was born in 2014 in Wuhan.",
+      "explanation": "be born in + 年份/地点，表示出生于某年某地。"
+    },
+    {
+      "id": 4,
+      "type": "sentence-pattern",
+      "question": "翻译：谢谢你告诉我这个故事。",
+      "answer": "Thanks for telling me this story.",
+      "explanation": "Thanks for doing sth. 感谢做某事，for后跟动名词。"
+    },
+    {
+      "id": 5,
+      "type": "sentence-pattern",
+      "question": "翻译：你不必每天都来。",
+      "answer": "You don't have to come every day.",
+      "explanation": "don't have to do sth. 不必做某事。"
+    }
+  ]
+}

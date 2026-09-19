@@ -1,0 +1,642 @@
+{
+  "version": "2.0.0",
+  "unit": "Unit 5 Keeping our city clean",
+  "description": "拆句练习：按递进链原则拆分课文对话，逐句掌握句型结构",
+  "sentences": [
+    {
+      "id": 1,
+      "fullSentence": "What's your plan for the weekend, Su Hai?",
+      "source": "Story time",
+      "chinese": "苏海，你周末有什么计划？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "What's",
+          "type": "question-word",
+          "chinese": "是什么",
+          "note": "what is的缩写"
+        },
+        {
+          "order": 2,
+          "text": "your plan",
+          "type": "subject",
+          "chinese": "你的计划",
+          "note": "名词短语作主语",
+          "wordBreakdown": [
+            {"word": "plan", "phonetic": "/plæn/", "pos": "n.", "meaning": "计划"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "for the weekend",
+          "type": "adverbial",
+          "chinese": "对于周末",
+          "note": "for表示对象，the weekend 周末",
+          "wordBreakdown": [
+            {"word": "weekend", "phonetic": "/ˌwiːkˈend/", "pos": "n.", "meaning": "周末"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullSentence": "I'll go plogging with my family.",
+      "source": "Story time",
+      "chinese": "我要和家人一起去慢跑捡垃圾。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'll",
+          "type": "subject-verb",
+          "chinese": "我将要",
+          "note": "I will的缩写，一般将来时"
+        },
+        {
+          "order": 2,
+          "text": "go plogging",
+          "type": "verb-phrase",
+          "chinese": "去慢跑捡垃圾",
+          "note": "go + doing 表示去做某项活动",
+          "wordBreakdown": [
+            {"word": "plogging", "phonetic": "/ˈplɒɡɪŋ/", "pos": "n.", "meaning": "慢跑捡垃圾"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "with my family",
+          "type": "adverbial",
+          "chinese": "和我的家人",
+          "note": "with sb. 和某人一起"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullSentence": "It's jogging and picking up rubbish at the same time.",
+      "source": "Story time",
+      "chinese": "就是同时慢跑和捡垃圾。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "It's",
+          "type": "subject-verb",
+          "chinese": "它是",
+          "note": "it is的缩写"
+        },
+        {
+          "order": 2,
+          "text": "jogging and picking up rubbish",
+          "type": "predicative",
+          "chinese": "慢跑和捡垃圾",
+          "note": "两个动名词并列作表语",
+          "wordBreakdown": [
+            {"word": "jog", "phonetic": "/dʒɒɡ/", "pos": "v.", "meaning": "慢跑"},
+            {"word": "rubbish", "phonetic": "/ˈrʌbɪʃ/", "pos": "n.", "meaning": "垃圾"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "at the same time",
+          "type": "adverbial",
+          "chinese": "同时",
+          "note": "固定短语，表示同时发生"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullSentence": "It can keep us healthy and make our city clean.",
+      "source": "Story time",
+      "chinese": "它既能让我们保持健康，又能让城市变干净。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "It can",
+          "type": "subject-modal",
+          "chinese": "它能",
+          "note": "can是情态动词，后接动词原形"
+        },
+        {
+          "order": 2,
+          "text": "keep us healthy",
+          "type": "predicate-1",
+          "chinese": "让我们保持健康",
+          "note": "keep sb. + adj. 使某人保持某种状态",
+          "wordBreakdown": [
+            {"word": "healthy", "phonetic": "/ˈhelθi/", "pos": "adj.", "meaning": "健康的"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "and make our city clean",
+          "type": "predicate-2",
+          "chinese": "并且让我们的城市变干净",
+          "note": "make sth. + adj. 使某物变得……",
+          "wordBreakdown": [
+            {"word": "clean", "phonetic": "/kliːn/", "pos": "adj.", "meaning": "干净的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullSentence": "That sounds great! Can I join you?",
+      "source": "Story time",
+      "chinese": "听起来很棒！我能加入你们吗？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "That sounds great",
+          "type": "clause-1",
+          "chinese": "那听起来很棒",
+          "note": "sound是系动词，后接形容词"
+        },
+        {
+          "order": 2,
+          "text": "Can I join you",
+          "type": "clause-2",
+          "chinese": "我能加入你们吗",
+          "note": "情态动词can引导的一般疑问句",
+          "wordBreakdown": [
+            {"word": "join", "phonetic": "/dʒɔɪn/", "pos": "v.", "meaning": "加入"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullSentence": "Let's meet at the school gate at nine o'clock on Saturday morning.",
+      "source": "Story time",
+      "chinese": "我们周六上午九点在学校门口集合吧。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Let's meet",
+          "type": "verb-phrase",
+          "chinese": "让我们集合",
+          "note": "let's = let us，后接动词原形"
+        },
+        {
+          "order": 2,
+          "text": "at the school gate",
+          "type": "adverbial-place",
+          "chinese": "在学校门口",
+          "note": "地点状语，小地点前用at",
+          "wordBreakdown": [
+            {"word": "gate", "phonetic": "/ɡeɪt/", "pos": "n.", "meaning": "大门"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "at nine o'clock",
+          "type": "adverbial-time",
+          "chinese": "在九点钟",
+          "note": "具体时间点前用at"
+        },
+        {
+          "order": 4,
+          "text": "on Saturday morning",
+          "type": "adverbial-time",
+          "chinese": "在周六上午",
+          "note": "具体某天的上午前用on"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullSentence": "I'll be there on time.",
+      "source": "Story time",
+      "chinese": "我会准时到的。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'll be",
+          "type": "subject-verb",
+          "chinese": "我会在",
+          "note": "I will be，一般将来时"
+        },
+        {
+          "order": 2,
+          "text": "there",
+          "type": "adverbial",
+          "chinese": "那里",
+          "note": "地点副词"
+        },
+        {
+          "order": 3,
+          "text": "on time",
+          "type": "adverbial",
+          "chinese": "准时",
+          "note": "固定短语，表示准时"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullSentence": "Here are rubbish bags.",
+      "source": "Story time",
+      "chinese": "这是垃圾袋。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Here are",
+          "type": "structure",
+          "chinese": "这里有",
+          "note": "Here are + 复数名词，表示「这里有……」"
+        },
+        {
+          "order": 2,
+          "text": "rubbish bags",
+          "type": "subject",
+          "chinese": "垃圾袋",
+          "note": "名词短语，rubbish作定语修饰bags，bags用复数"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullSentence": "They jogged and picked up rubbish together.",
+      "source": "Story time",
+      "chinese": "他们一起慢跑，一起捡垃圾。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "They",
+          "type": "subject",
+          "chinese": "他们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "jogged",
+          "type": "predicate-1",
+          "chinese": "慢跑了",
+          "note": "jog的过去式，双写g加ed"
+        },
+        {
+          "order": 3,
+          "text": "and picked up rubbish",
+          "type": "predicate-2",
+          "chinese": "并且捡垃圾",
+          "note": "pick up 捡起，picked是pick的过去式",
+          "wordBreakdown": [
+            {"word": "pick", "phonetic": "/pɪk/", "pos": "v.", "meaning": "捡；采摘"}
+          ]
+        },
+        {
+          "order": 4,
+          "text": "together",
+          "type": "adverbial",
+          "chinese": "一起",
+          "note": "副词，表示方式"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullSentence": "We did a great job!",
+      "source": "Story time",
+      "chinese": "我们干得太棒了！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We",
+          "type": "subject",
+          "chinese": "我们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "did a great job",
+          "type": "verb-phrase",
+          "chinese": "干得很棒",
+          "note": "do a great job 干得好，did是do的过去式"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullSentence": "Let's go plogging again next weekend!",
+      "source": "Story time",
+      "chinese": "我们下周末再去慢跑捡垃圾吧！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Let's go plogging",
+          "type": "verb-phrase",
+          "chinese": "让我们去慢跑捡垃圾",
+          "note": "Let's + 动词原形，go + doing"
+        },
+        {
+          "order": 2,
+          "text": "again",
+          "type": "adverbial",
+          "chinese": "再一次",
+          "note": "副词，表示再一次"
+        },
+        {
+          "order": 3,
+          "text": "next weekend",
+          "type": "adverbial",
+          "chinese": "下周末",
+          "note": "时间状语，next 下一个"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullSentence": "Our city is clean and beautiful.",
+      "source": "Cartoon time",
+      "chinese": "我们的城市干净又美丽。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Our city",
+          "type": "subject",
+          "chinese": "我们的城市",
+          "note": "名词短语作主语",
+          "wordBreakdown": [
+            {"word": "city", "phonetic": "/ˈsɪti/", "pos": "n.", "meaning": "城市"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "is",
+          "type": "verb",
+          "chinese": "是",
+          "note": "be动词一般现在时"
+        },
+        {
+          "order": 3,
+          "text": "clean and beautiful",
+          "type": "predicative",
+          "chinese": "干净又美丽",
+          "note": "两个形容词并列作表语",
+          "wordBreakdown": [
+            {"word": "beautiful", "phonetic": "/ˈbjuːtɪfl/", "pos": "adj.", "meaning": "美丽的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullSentence": "Don't throw the banana skin on the ground!",
+      "source": "Cartoon time",
+      "chinese": "不要把香蕉皮扔在地上！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Don't throw",
+          "type": "verb",
+          "chinese": "不要扔",
+          "note": "否定祈使句：Don't + 动词原形",
+          "wordBreakdown": [
+            {"word": "throw", "phonetic": "/θrəʊ/", "pos": "v.", "meaning": "扔；投"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "the banana skin",
+          "type": "object",
+          "chinese": "香蕉皮",
+          "note": "名词短语作宾语",
+          "wordBreakdown": [
+            {"word": "banana skin", "phonetic": "/bəˈnɑːnə skɪn/", "pos": "n.", "meaning": "香蕉皮"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "on the ground",
+          "type": "adverbial",
+          "chinese": "在地上",
+          "note": "地点状语",
+          "wordBreakdown": [
+            {"word": "ground", "phonetic": "/ɡraʊnd/", "pos": "n.", "meaning": "地面"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullSentence": "It makes the street dirty.",
+      "source": "Cartoon time",
+      "chinese": "它把街道弄脏了。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "It",
+          "type": "subject",
+          "chinese": "它",
+          "note": "指代扔香蕉皮这件事"
+        },
+        {
+          "order": 2,
+          "text": "makes",
+          "type": "verb",
+          "chinese": "使得",
+          "note": "make的第三人称单数形式"
+        },
+        {
+          "order": 3,
+          "text": "the street",
+          "type": "object",
+          "chinese": "街道",
+          "note": "宾语",
+          "wordBreakdown": [
+            {"word": "street", "phonetic": "/striːt/", "pos": "n.", "meaning": "街道"}
+          ]
+        },
+        {
+          "order": 4,
+          "text": "dirty",
+          "type": "complement",
+          "chinese": "脏的",
+          "note": "形容词作宾语补足语",
+          "wordBreakdown": [
+            {"word": "dirty", "phonetic": "/ˈdɜːti/", "pos": "adj.", "meaning": "脏的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullSentence": "I'm sorry. I'll pick it up.",
+      "source": "Cartoon time",
+      "chinese": "对不起。我来把它捡起来。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'm sorry",
+          "type": "clause-1",
+          "chinese": "对不起",
+          "note": "道歉用语",
+          "wordBreakdown": [
+            {"word": "sorry", "phonetic": "/ˈsɒri/", "pos": "adj.", "meaning": "抱歉的"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "I'll pick it up",
+          "type": "clause-2",
+          "chinese": "我来把它捡起来",
+          "note": "pick up 捡起，代词it放中间"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullSentence": "Willy slipped on the banana skin and fell down.",
+      "source": "Cartoon time",
+      "chinese": "Willy踩在香蕉皮上滑倒了。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Willy",
+          "type": "subject",
+          "chinese": "Willy",
+          "note": "人名作主语"
+        },
+        {
+          "order": 2,
+          "text": "slipped on the banana skin",
+          "type": "predicate-1",
+          "chinese": "在香蕉皮上滑倒",
+          "note": "slip的过去式，双写p加ed",
+          "wordBreakdown": [
+            {"word": "slip", "phonetic": "/slɪp/", "pos": "v.", "meaning": "滑倒"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "and fell down",
+          "type": "predicate-2",
+          "chinese": "并且摔倒了",
+          "note": "fall down 摔倒，fell是fall的过去式",
+          "wordBreakdown": [
+            {"word": "fall", "phonetic": "/fɔːl/", "pos": "v.", "meaning": "落下；跌倒"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "fullSentence": "My arm hurts a little.",
+      "source": "Cartoon time",
+      "chinese": "我的胳膊有点疼。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "My arm",
+          "type": "subject",
+          "chinese": "我的胳膊",
+          "note": "名词短语作主语",
+          "wordBreakdown": [
+            {"word": "arm", "phonetic": "/ɑːm/", "pos": "n.", "meaning": "胳膊"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "hurts",
+          "type": "verb",
+          "chinese": "疼",
+          "note": "hurt的第三人称单数形式",
+          "wordBreakdown": [
+            {"word": "hurt", "phonetic": "/hɜːt/", "pos": "v.", "meaning": "受伤；疼痛"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "a little",
+          "type": "adverbial",
+          "chinese": "一点点",
+          "note": "程度状语，表示轻微"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "fullSentence": "I shouldn't throw rubbish on the ground.",
+      "source": "Cartoon time",
+      "chinese": "我不应该把垃圾扔在地上。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I shouldn't",
+          "type": "subject-modal",
+          "chinese": "我不应该",
+          "note": "should not的缩写，表不应该"
+        },
+        {
+          "order": 2,
+          "text": "throw rubbish",
+          "type": "verb-phrase",
+          "chinese": "扔垃圾",
+          "note": "谓语+宾语"
+        },
+        {
+          "order": 3,
+          "text": "on the ground",
+          "type": "adverbial",
+          "chinese": "在地上",
+          "note": "地点状语"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "fullSentence": "We should keep our city clean.",
+      "source": "Cartoon time",
+      "chinese": "我们应该保持城市清洁。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We should",
+          "type": "subject-modal",
+          "chinese": "我们应该",
+          "note": "should是情态动词，表应该"
+        },
+        {
+          "order": 2,
+          "text": "keep our city clean",
+          "type": "verb-phrase",
+          "chinese": "保持我们的城市干净",
+          "note": "keep sth. + adj. 保持某物某种状态"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "fullSentence": "I'll never do that again.",
+      "source": "Cartoon time",
+      "chinese": "我再也不会那样做了。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'll never do",
+          "type": "verb-phrase",
+          "chinese": "我绝不会做",
+          "note": "will + 动词原形，never加强否定语气"
+        },
+        {
+          "order": 2,
+          "text": "that",
+          "type": "object",
+          "chinese": "那样",
+          "note": "代词作宾语，指代扔垃圾这件事"
+        },
+        {
+          "order": 3,
+          "text": "again",
+          "type": "adverbial",
+          "chinese": "再一次",
+          "note": "副词，再一次"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalFragments": 85,
+    "totalSentences": 20,
+    "sources": ["Story time", "Cartoon time"]
+  }
+}

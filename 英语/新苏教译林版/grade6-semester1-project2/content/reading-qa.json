@@ -1,0 +1,255 @@
+{
+  "version": "2.0.0",
+  "unit": "Project 2 A better home",
+  "description": "阅读理解：基于项目内容的选择题，检验理解程度",
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": 1,
+      "type": "multiple-choice",
+      "source": "Home survey",
+      "question": "What is this project about?",
+      "questionCn": "这个项目是关于什么的？",
+      "options": [
+        {"label": "A", "text": "About making more money.", "textCn": "关于赚更多钱。"},
+        {"label": "B", "text": "About making our home better and greener.", "textCn": "关于让我们的家园更好、更环保。"},
+        {"label": "C", "text": "About cooking.", "textCn": "关于烹饪。"},
+        {"label": "D", "text": "About traveling.", "textCn": "关于旅行。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "项目名称是 A better home（更好的家园），主题是让家园更环保、更美好。"
+    },
+    {
+      "id": 2,
+      "difficulty": 1,
+      "type": "multiple-choice",
+      "source": "Home survey",
+      "question": "How many rubbish bins do they have before the plan?",
+      "questionCn": "计划之前他们有几个垃圾桶？",
+      "options": [
+        {"label": "A", "text": "One.", "textCn": "一个。"},
+        {"label": "B", "text": "Two.", "textCn": "两个。"},
+        {"label": "C", "text": "Three.", "textCn": "三个。"},
+        {"label": "D", "text": "Four.", "textCn": "四个。"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "And we have only one rubbish bin. 而且我们只有一个垃圾桶。"
+    },
+    {
+      "id": 3,
+      "difficulty": 1,
+      "type": "multiple-choice",
+      "source": "Home survey",
+      "question": "What is not very green in the kitchen?",
+      "questionCn": "厨房里什么不够环保？",
+      "options": [
+        {"label": "A", "text": "Using cloth bags.", "textCn": "使用布袋。"},
+        {"label": "B", "text": "Using plastic bags.", "textCn": "使用塑料袋。"},
+        {"label": "C", "text": "Sorting rubbish.", "textCn": "分类垃圾。"},
+        {"label": "D", "text": "Saving water.", "textCn": "节约用水。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "My mum uses plastic bags when she goes shopping. That's not very green. 我妈妈购物时使用塑料袋，那不是很环保。"
+    },
+    {
+      "id": 4,
+      "difficulty": 1,
+      "type": "multiple-choice",
+      "source": "Home survey",
+      "question": "What wastes a lot of water in the bathroom?",
+      "questionCn": "卫生间里什么浪费很多水？",
+      "options": [
+        {"label": "A", "text": "Turning off the tap when brushing teeth.", "textCn": "刷牙时关水龙头。"},
+        {"label": "B", "text": "Leaving the tap running when brushing teeth.", "textCn": "刷牙时让水龙头一直流着。"},
+        {"label": "C", "text": "Taking short showers.", "textCn": "短时间淋浴。"},
+        {"label": "D", "text": "Drinking water.", "textCn": "喝水。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sometimes my dad leaves the tap running when he brushes his teeth. That wastes a lot of water. 有时候我爸爸刷牙时让水龙头一直流着，那浪费很多水。"
+    },
+    {
+      "id": 5,
+      "difficulty": 2,
+      "type": "multiple-choice",
+      "source": "Green home plan",
+      "question": "How many parts are there in the green home plan?",
+      "questionCn": "绿色家园计划有几部分？",
+      "options": [
+        {"label": "A", "text": "Two parts.", "textCn": "两部分。"},
+        {"label": "B", "text": "Three parts.", "textCn": "三部分。"},
+        {"label": "C", "text": "Four parts.", "textCn": "四部分。"},
+        {"label": "D", "text": "Five parts.", "textCn": "五部分。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "we have a three-part plan. 我们有一个三部分的计划。分别是：First节约能源水，Second减少浪费回收，Third旧物再利用。"
+    },
+    {
+      "id": 6,
+      "difficulty": 2,
+      "type": "multiple-choice",
+      "source": "Green home plan",
+      "question": "What is the first thing in the plan?",
+      "questionCn": "计划的第一件事是什么？",
+      "options": [
+        {"label": "A", "text": "Reduce waste and recycle more.", "textCn": "减少浪费，更多回收。"},
+        {"label": "B", "text": "Save energy and water.", "textCn": "节约能源和水。"},
+        {"label": "C", "text": "Reuse old things.", "textCn": "旧物再利用。"},
+        {"label": "D", "text": "Buy more new things.", "textCn": "买更多新东西。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "First, we will save energy and water. 第一，我们要节约能源和水。"
+    },
+    {
+      "id": 7,
+      "difficulty": 2,
+      "type": "multiple-choice",
+      "source": "Green home plan",
+      "question": "What will they use instead of plastic bags?",
+      "questionCn": "他们要用什么代替塑料袋？",
+      "options": [
+        {"label": "A", "text": "Paper bags.", "textCn": "纸袋。"},
+        {"label": "B", "text": "Cloth bags.", "textCn": "布袋。"},
+        {"label": "C", "text": "Glass bags.", "textCn": "玻璃袋。"},
+        {"label": "D", "text": "No bags at all.", "textCn": "不用袋子。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "We will use cloth bags instead of plastic bags. 我们要用布袋代替塑料袋。"
+    },
+    {
+      "id": 8,
+      "difficulty": 2,
+      "type": "multiple-choice",
+      "source": "Green home plan",
+      "question": "What can they make with old cans?",
+      "questionCn": "他们可以用旧易拉罐做什么？",
+      "options": [
+        {"label": "A", "text": "Pencil holders.", "textCn": "笔筒。"},
+        {"label": "B", "text": "Shopping bags.", "textCn": "购物袋。"},
+        {"label": "C", "text": "Pictures.", "textCn": "画。"},
+        {"label": "D", "text": "Books.", "textCn": "书。"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "We can make pencil holders with old cans. 我们可以用旧易拉罐做笔筒。"
+    },
+    {
+      "id": 9,
+      "difficulty": 2,
+      "type": "multiple-choice",
+      "source": "Green home plan",
+      "question": "What does \"Small changes make a big difference.\" mean?",
+      "questionCn": "「Small changes make a big difference.」是什么意思？",
+      "options": [
+        {"label": "A", "text": "Small changes are useless.", "textCn": "小改变没有用。"},
+        {"label": "B", "text": "Even small changes can have a big effect.", "textCn": "即使是小改变也能有大影响。"},
+        {"label": "C", "text": "We only need big changes.", "textCn": "我们只需要大改变。"},
+        {"label": "D", "text": "Changes are always small.", "textCn": "改变总是很小的。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "make a difference 是固定短语，意思是「有影响；有作用」。这句话的意思是：小小的改变也能带来大大的不同/大影响。"
+    },
+    {
+      "id": 10,
+      "difficulty": 1,
+      "type": "multiple-choice",
+      "source": "Home showcase",
+      "question": "How was their home before?",
+      "questionCn": "他们的家以前怎么样？",
+      "options": [
+        {"label": "A", "text": "Very green.", "textCn": "非常环保。"},
+        {"label": "B", "text": "Not very green.", "textCn": "不是很环保。"},
+        {"label": "C", "text": "Very big.", "textCn": "非常大。"},
+        {"label": "D", "text": "Very clean.", "textCn": "非常干净。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Our home was not very green before. 我们的家以前不是很环保。"
+    },
+    {
+      "id": 11,
+      "difficulty": 2,
+      "type": "multiple-choice",
+      "source": "Home showcase",
+      "question": "What did they make with old T-shirts?",
+      "questionCn": "他们用旧T恤做了什么？",
+      "options": [
+        {"label": "A", "text": "Pencil holders.", "textCn": "笔筒。"},
+        {"label": "B", "text": "Shopping bags.", "textCn": "购物袋。"},
+        {"label": "C", "text": "Pictures.", "textCn": "画。"},
+        {"label": "D", "text": "Jars.", "textCn": "罐子。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "And this shopping bag! We made it with an old T-shirt. 还有这个购物袋！我们用一件旧T恤做的。"
+    },
+    {
+      "id": 12,
+      "difficulty": 2,
+      "type": "multiple-choice",
+      "source": "Home showcase",
+      "question": "What did they make with old buttons?",
+      "questionCn": "他们用旧纽扣做了什么？",
+      "options": [
+        {"label": "A", "text": "A pretty picture.", "textCn": "一幅漂亮的画。"},
+        {"label": "B", "text": "A shopping bag.", "textCn": "一个购物袋。"},
+        {"label": "C", "text": "A pencil holder.", "textCn": "一个笔筒。"},
+        {"label": "D", "text": "A T-shirt.", "textCn": "一件T恤。"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "We also made this pretty picture with old buttons. 我们还用旧纽扣做了这幅漂亮的画。"
+    },
+    {
+      "id": 13,
+      "difficulty": 3,
+      "type": "multiple-choice",
+      "source": "Project",
+      "question": "What are the three stages of this project?",
+      "questionCn": "这个项目的三个阶段是什么？",
+      "options": [
+        {"label": "A", "text": "Reading, writing, speaking.", "textCn": "读、写、说。"},
+        {"label": "B", "text": "Home survey, Green home plan, Home showcase.", "textCn": "家居环境调查、绿色家园计划、成果展示。"},
+        {"label": "C", "text": "Breakfast, lunch, dinner.", "textCn": "早餐、午餐、晚餐。"},
+        {"label": "D", "text": "Monday, Tuesday, Wednesday.", "textCn": "周一、周二、周三。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "项目分为三个阶段：Home survey（家居环境调查）→ Green home plan（绿色家园计划）→ Home showcase（成果展示）。"
+    },
+    {
+      "id": 14,
+      "difficulty": 3,
+      "type": "multiple-choice",
+      "source": "Project",
+      "question": "Which units does Project 2 integrate?",
+      "questionCn": "Project 2 整合了哪几个单元的知识？",
+      "options": [
+        {"label": "A", "text": "Unit 1-Unit 4", "textCn": "第一到第四单元。"},
+        {"label": "B", "text": "Unit 5-Unit 8", "textCn": "第五到第八单元。"},
+        {"label": "C", "text": "All 8 units.", "textCn": "全部8个单元。"},
+        {"label": "D", "text": "Only Unit 6.", "textCn": "只有第六单元。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Project 2 A better home 整合了后四单元（Unit 5-Unit 8）的内容：Keeping our city clean、Going green、Old things new life、Then and now。"
+    },
+    {
+      "id": 15,
+      "difficulty": 3,
+      "type": "multiple-choice",
+      "source": "Project",
+      "question": "What is the main idea of this project?",
+      "questionCn": "这个项目的主旨是什么？",
+      "options": [
+        {"label": "A", "text": "We should buy more new things for our home.", "textCn": "我们应该为家里买更多新东西。"},
+        {"label": "B", "text": "We can make our home better and greener through small changes and reusing old things.", "textCn": "我们可以通过小改变和旧物再利用让家园更好、更环保。"},
+        {"label": "C", "text": "It's impossible to change our home.", "textCn": "改变我们的家是不可能的。"},
+        {"label": "D", "text": "We should waste more water and electricity.", "textCn": "我们应该浪费更多水和电。"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "项目主题是 A better home（更好的家园），通过家居调查、绿色计划和成果展示，告诉我们小小的改变加上旧物再利用，可以让我们的家园变得更环保、更美好。"
+    }
+  ],
+  "stats": {
+    "totalQuestions": 15,
+    "difficultyDistribution": {
+      "1": 5,
+      "2": 7,
+      "3": 3
+    }
+  }
+}

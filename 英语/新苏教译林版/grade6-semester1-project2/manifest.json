@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0",
+  "id": "grade6-semester1-project2",
+  "name": "六年级上册 Project 2 - A better home",
+  "description": "综合项目：城市清洁、绿色生活与旧物再利用，围绕让地球成为更好的共同家园组织演讲",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-3",
+    "generatedAt": "2026-09-14"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": "wordlist.md",
+      "vocabulary": null,
+      "languageLevel": "primary-grade-6",
+      "phonicsStage": null,
+      "courseType": null,
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "word-family",
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice",
+          "reading-qa"
+        ],
+        "growthActivityTypes": [
+          "word-family-practice",
+          "pattern-transfer-practice"
+        ]
+      },
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "整合后四单元，通过行动判断、绿色生活清单、旧物配对与交流，完成共同地球家园主题演讲。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "project": 2,
+      "tags": [
+        "共同家园",
+        "城市清洁",
+        "绿色生活",
+        "旧物再利用",
+        "项目演讲",
+        "行动计划"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "reading-qa",
+          "name": "阅读理解",
+          "data": "content/reading-qa.json",
+          "enabled": true
+        },
+        {
+          "type": "word-family-practice",
+          "name": "词族进化",
+          "data": "content/growth-content.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

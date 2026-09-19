@@ -1,0 +1,192 @@
+{
+  "version": "2.0.0",
+  "unit": "Unit 4 Getting together",
+  "description": "成长内容：词族进化 + 句型迁移",
+  "wordFamilies": [
+    {
+      "id": "care",
+      "rootWord": "care",
+      "meaning": "关心；照顾",
+      "family": [
+        {"word": "care", "pos": "noun / verb", "meaning": "关心；照顾；在意", "example": "Take good care of yourself.", "exampleCn": "好好照顾你自己。"},
+        {"word": "careful", "pos": "adjective", "meaning": "小心的；仔细的", "example": "Be careful when you cross the road.", "exampleCn": "过马路时要小心。"},
+        {"word": "carefully", "pos": "adverb", "meaning": "小心地；仔细地", "example": "She listened carefully.", "exampleCn": "她仔细地听着。"},
+        {"word": "careless", "pos": "adjective", "meaning": "粗心的", "example": "He is a careless boy.", "exampleCn": "他是一个粗心的男孩。"},
+        {"word": "take care of", "pos": "phrase", "meaning": "照顾", "example": "I can take care of my grandparents.", "exampleCn": "我可以照顾爷爷奶奶。"}
+      ],
+      "evolutionTip": "care加-ful变成形容词careful（小心的），加-less变成反义词careless（粗心的）。-ful和-less是常见的形容词后缀。"
+    },
+    {
+      "id": "happy",
+      "rootWord": "happy",
+      "meaning": "开心的",
+      "family": [
+        {"word": "happy", "pos": "adjective", "meaning": "开心的；快乐的", "example": "Grandma was very happy.", "exampleCn": "奶奶非常开心。"},
+        {"word": "happily", "pos": "adverb", "meaning": "开心地", "example": "They played happily together.", "exampleCn": "他们一起开心地玩耍。"},
+        {"word": "happiness", "pos": "noun", "meaning": "幸福；快乐", "example": "Money can't buy happiness.", "exampleCn": "金钱买不到幸福。"},
+        {"word": "unhappy", "pos": "adjective", "meaning": "不开心的", "example": "She looked unhappy.", "exampleCn": "她看起来不开心。"},
+        {"word": "happy birthday", "pos": "phrase", "meaning": "生日快乐", "example": "Happy birthday to you!", "exampleCn": "祝你生日快乐！"}
+      ],
+      "evolutionTip": "happy变y为i加-ly变成副词happily，加-ness变成名词happiness，加un-前缀变成反义词unhappy。"
+    },
+    {
+      "id": "cook",
+      "rootWord": "cook",
+      "meaning": "烹饪",
+      "family": [
+        {"word": "cook", "pos": "verb", "meaning": "烹饪；做饭", "example": "I can cook dinner for you.", "exampleCn": "我可以给你做晚饭。"},
+        {"word": "cook", "pos": "noun", "meaning": "厨师", "example": "He is a good cook.", "exampleCn": "他是一位好厨师。"},
+        {"word": "cooker", "pos": "noun", "meaning": "炊具；厨具", "example": "We need a new cooker.", "exampleCn": "我们需要一个新炊具。"},
+        {"word": "cooking", "pos": "noun", "meaning": "烹饪（行业）", "example": "I like cooking.", "exampleCn": "我喜欢烹饪。"}
+      ],
+      "evolutionTip": "cook既作动词也作名词。注意：cooker不是「做饭的人」，而是「炊具」！cook才是厨师。"
+    },
+    {
+      "id": "nine",
+      "rootWord": "nine",
+      "meaning": "九",
+      "family": [
+        {"word": "nine", "pos": "number", "meaning": "九（基数词）", "example": "I have nine books.", "exampleCn": "我有九本书。"},
+        {"word": "ninth", "pos": "ordinal number", "meaning": "第九（序数词）", "example": "It's on the ninth day.", "exampleCn": "它在第九天。"},
+        {"word": "nineteen", "pos": "number", "meaning": "十九", "example": "There are nineteen students.", "exampleCn": "有十九个学生。"},
+        {"word": "ninety", "pos": "number", "meaning": "九十", "example": "My grandpa is ninety years old.", "exampleCn": "我爷爷九十岁了。"}
+      ],
+      "evolutionTip": "nine加-th变成序数词ninth（注意去掉e），加-teen变成nineteen（十九），加-ty变成ninety（九十）。"
+    },
+    {
+      "id": "birth",
+      "rootWord": "birth",
+      "meaning": "出生",
+      "family": [
+        {"word": "birth", "pos": "noun", "meaning": "出生", "example": "The birth of the baby made everyone happy.", "exampleCn": "宝宝的出生让每个人都很开心。"},
+        {"word": "birthday", "pos": "noun", "meaning": "生日", "example": "Today is my birthday.", "exampleCn": "今天是我的生日。"},
+        {"word": "birthplace", "pos": "noun", "meaning": "出生地", "example": "Beijing is his birthplace.", "exampleCn": "北京是他的出生地。"},
+        {"word": "give birth to", "pos": "phrase", "meaning": "生下；产生", "example": "She gave birth to a baby girl.", "exampleCn": "她生下了一个女婴。"}
+      ],
+      "evolutionTip": "birth + day = birthday（出生的日子=生日），birth + place = birthplace（出生的地方=出生地）。合成词的意思可以从组成部分推导出来。"
+    },
+    {
+      "id": "spend",
+      "rootWord": "spend",
+      "meaning": "花费；度过",
+      "family": [
+        {"word": "spend", "pos": "verb", "meaning": "花费；度过", "example": "I want to spend more time with them.", "exampleCn": "我想多陪陪他们。"},
+        {"word": "spend time", "pos": "phrase", "meaning": "花时间", "example": "She spends a lot of time reading.", "exampleCn": "她花很多时间阅读。"},
+        {"word": "spend money", "pos": "phrase", "meaning": "花钱", "example": "Don't spend too much money.", "exampleCn": "不要花太多钱。"},
+        {"word": "spender", "pos": "noun", "meaning": "花钱的人", "example": "He is a big spender.", "exampleCn": "他花钱大手大脚。"}
+      ],
+      "evolutionTip": "spend既可以表示「花时间」也可以表示「花钱」。spend time with sb. 表示「花时间陪伴某人」。"
+    }
+  ],
+  "sentencePatterns": [
+    {
+      "id": "it-was-birthday",
+      "pattern": "It was + 某人的 + 序数词 + birthday.",
+      "patternCn": "那是某人的第……个生日。",
+      "textbookExample": "It was Grandma's 66th birthday.",
+      "textbookExampleCn": "那是奶奶的66岁生日。",
+      "grammarExplanation": "表示某人几岁生日，用「物主代词/所有格 + 序数词 + birthday」。66th = sixty-sixth，注意序数词的用法。",
+      "transferExamples": [
+        {"english": "It was my 12th birthday yesterday.", "chinese": "昨天是我的12岁生日。"},
+        {"english": "It was his father's 50th birthday.", "chinese": "那是他爸爸的50岁生日。"},
+        {"english": "Tomorrow will be my grandma's 70th birthday.", "chinese": "明天是我奶奶的70岁生日。"},
+        {"english": "It was the baby's first birthday.", "chinese": "那是宝宝的第一个生日。"}
+      ]
+    },
+    {
+      "id": "give-sb-sth",
+      "pattern": "主语 + gave + 间接宾语(人) + 直接宾语(物).",
+      "patternCn": "某人给了某人某物。",
+      "textbookExample": "His parents gave Grandma a nice smartphone.",
+      "textbookExampleCn": "他的父母送给奶奶一部漂亮的智能手机。",
+      "grammarExplanation": "give sb. sth. = give sth. to sb. 这是双宾语结构。间接宾语（人）在前，直接宾语（物）在后。如果直接宾语在前，需要加to。",
+      "transferExamples": [
+        {"english": "I gave my sister a toy car.", "chinese": "我给了我妹妹一辆玩具车。"},
+        {"english": "She gave him a book as a gift.", "chinese": "她送给他一本书作为礼物。"},
+        {"english": "My teacher gave me some advice.", "chinese": "我的老师给了我一些建议。"},
+        {"english": "Grandma gave me a red envelope.", "chinese": "奶奶给了我一个红包。"}
+      ]
+    },
+    {
+      "id": "blow-out-candles",
+      "pattern": "主语 + blew out + the candles.",
+      "patternCn": "某人吹灭了蜡烛。",
+      "textbookExample": "Grandma blew out the candles.",
+      "textbookExampleCn": "奶奶吹灭了蜡烛。",
+      "grammarExplanation": "blow out 是「吹灭」的意思，blow的过去式是blew（不规则变化）。类似的短语动词还有：blow up（爆炸/充气）, blow away（吹走）。",
+      "transferExamples": [
+        {"english": "The girl blew out all the candles.", "chinese": "女孩吹灭了所有蜡烛。"},
+        {"english": "The wind blew out the fire.", "chinese": "风吹灭了火。"},
+        {"english": "Make a wish and blow out the candles.", "chinese": "许个愿，然后吹灭蜡烛。"},
+        {"english": "He blew out the candles in one breath.", "chinese": "他一口气吹灭了蜡烛。"}
+      ]
+    },
+    {
+      "id": "take-care-of",
+      "pattern": "主语 + take/took care of + 宾语.",
+      "patternCn": "某人照顾……",
+      "textbookExample": "Grandpa and Grandma took care of me.",
+      "textbookExampleCn": "爷爷奶奶照顾我。",
+      "grammarExplanation": "take care of 表示「照顾；照料」，和 look after 意思相近。take的过去式是took。",
+      "transferExamples": [
+        {"english": "I take care of my little brother.", "chinese": "我照顾我的小弟弟。"},
+        {"english": "She took care of her sick mother.", "chinese": "她照顾生病的妈妈。"},
+        {"english": "Please take care of my cat when I'm away.", "chinese": "我不在的时候请照顾我的猫。"},
+        {"english": "We should take care of the elderly.", "chinese": "我们应该照顾老人。"}
+      ]
+    },
+    {
+      "id": "double-ninth-festival",
+      "pattern": "It is + 节日名称 + today.",
+      "patternCn": "今天是……节。",
+      "textbookExample": "It is the Double Ninth Festival today.",
+      "textbookExampleCn": "今天是重阳节。",
+      "grammarExplanation": "表达「今天是某个节日」用这个句型。注意：中国传统节日名称前要加the，每个实词首字母大写。",
+      "transferExamples": [
+        {"english": "It is the Spring Festival today.", "chinese": "今天是春节。"},
+        {"english": "It is the Mid-Autumn Festival today.", "chinese": "今天是中秋节。"},
+        {"english": "It is Children's Day today.", "chinese": "今天是儿童节。"},
+        {"english": "It is the Dragon Boat Festival today.", "chinese": "今天是端午节。"}
+      ]
+    }
+  ],
+  "growthExercises": [
+    {
+      "id": 1,
+      "type": "word-family",
+      "question": "选择正确的词填空：Be ______ when you use the knife. (care)",
+      "options": ["careful", "careless", "carefully"],
+      "answer": "careful",
+      "explanation": "这里需要形容词作表语，careful表示「小心的」，符合句意。"
+    },
+    {
+      "id": 2,
+      "type": "word-family",
+      "question": "选择正确的词填空：He is a good ______. (cook)",
+      "options": ["cook", "cooker", "cooking"],
+      "answer": "cook",
+      "explanation": "cook作名词时表示「厨师」，cooker是「炊具」，不能指人。"
+    },
+    {
+      "id": 3,
+      "type": "sentence-pattern",
+      "question": "用所给词造句：yesterday / it / my / 12th / birthday",
+      "answer": "Yesterday was my 12th birthday.",
+      "explanation": "表示昨天是某人的第几个生日，用Yesterday was + 物主代词 + 序数词 + birthday."
+    },
+    {
+      "id": 4,
+      "type": "sentence-pattern",
+      "question": "翻译：我妈妈给了我一本书。",
+      "answer": "My mother gave me a book.",
+      "explanation": "give sb. sth. 给某人某物，双宾语结构。"
+    },
+    {
+      "id": 5,
+      "type": "sentence-pattern",
+      "question": "翻译：我们应该照顾老人。",
+      "answer": "We should take care of the elderly.",
+      "explanation": "take care of 照顾；the elderly 老年人。"
+    }
+  ]
+}

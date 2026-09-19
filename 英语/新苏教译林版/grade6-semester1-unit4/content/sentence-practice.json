@@ -1,0 +1,802 @@
+{
+  "version": "2.0.0",
+  "unit": "Unit 4 Getting together",
+  "description": "拆句练习：按递进链原则拆分课文句子，逐句掌握句型结构",
+  "sentences": [
+    {
+      "id": 1,
+      "fullSentence": "Yesterday was 21st October.",
+      "source": "Story time",
+      "chinese": "昨天是10月21日。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Yesterday",
+          "type": "adverbial",
+          "chinese": "昨天",
+          "note": "时间副词作状语"
+        },
+        {
+          "order": 2,
+          "text": "was",
+          "type": "verb",
+          "chinese": "是",
+          "note": "be动词过去式"
+        },
+        {
+          "order": 3,
+          "text": "21st October",
+          "type": "predicative",
+          "chinese": "10月21日",
+          "note": "日期作表语，21st是序数词twenty-first的缩写",
+          "wordBreakdown": [
+            {"word": "October", "phonetic": "/ɒkˈtəʊbə(r)/", "pos": "n.", "meaning": "十月"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullSentence": "It was Grandma's 66th birthday.",
+      "source": "Story time",
+      "chinese": "那天是奶奶的66岁生日。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "It",
+          "type": "subject",
+          "chinese": "它",
+          "note": "指代那一天"
+        },
+        {
+          "order": 2,
+          "text": "was",
+          "type": "verb",
+          "chinese": "是",
+          "note": "be动词过去式"
+        },
+        {
+          "order": 3,
+          "text": "Grandma's 66th birthday",
+          "type": "predicative",
+          "chinese": "奶奶的66岁生日",
+          "note": "名词所有格Grandma's修饰birthday，66th是序数词",
+          "wordBreakdown": [
+            {"word": "birthday", "phonetic": "/ˈbɜːθdeɪ/", "pos": "n.", "meaning": "生日"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullSentence": "Wang Bing and his parents went to their grandparents' house.",
+      "source": "Story time",
+      "chinese": "王兵和他的父母去了爷爷奶奶家。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Wang Bing and his parents",
+          "type": "subject",
+          "chinese": "王兵和他的父母",
+          "note": "并列主语"
+        },
+        {
+          "order": 2,
+          "text": "went",
+          "type": "verb",
+          "chinese": "去了",
+          "note": "go的过去式"
+        },
+        {
+          "order": 3,
+          "text": "to their grandparents' house",
+          "type": "adverbial",
+          "chinese": "去他们爷爷奶奶家",
+          "note": "地点状语，grandparents'是复数名词所有格",
+          "wordBreakdown": [
+            {"word": "grandparent", "phonetic": "/ˈɡrænpeərənt/", "pos": "n.", "meaning": "祖父母"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullSentence": "His parents gave Grandma a nice smartphone.",
+      "source": "Story time",
+      "chinese": "他的父母送给奶奶一部漂亮的智能手机。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "His parents",
+          "type": "subject",
+          "chinese": "他的父母",
+          "note": "主语"
+        },
+        {
+          "order": 2,
+          "text": "gave",
+          "type": "verb",
+          "chinese": "给了",
+          "note": "give的过去式，双宾语动词"
+        },
+        {
+          "order": 3,
+          "text": "Grandma",
+          "type": "indirect-object",
+          "chinese": "奶奶",
+          "note": "间接宾语（人）"
+        },
+        {
+          "order": 4,
+          "text": "a nice smartphone",
+          "type": "direct-object",
+          "chinese": "一部漂亮的智能手机",
+          "note": "直接宾语（物）",
+          "wordBreakdown": [
+            {"word": "smartphone", "phonetic": "/ˈsmɑːtfəʊn/", "pos": "n.", "meaning": "智能手机"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullSentence": "Wang Bing drew a picture for her.",
+      "source": "Story time",
+      "chinese": "王兵为她画了一幅画。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Wang Bing",
+          "type": "subject",
+          "chinese": "王兵",
+          "note": "人名作主语"
+        },
+        {
+          "order": 2,
+          "text": "drew",
+          "type": "verb",
+          "chinese": "画了",
+          "note": "draw的过去式"
+        },
+        {
+          "order": 3,
+          "text": "a picture",
+          "type": "object",
+          "chinese": "一幅画",
+          "note": "直接宾语"
+        },
+        {
+          "order": 4,
+          "text": "for her",
+          "type": "adverbial",
+          "chinese": "为她",
+          "note": "目的状语，for sb. 为某人"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullSentence": "They also brought a big birthday cake.",
+      "source": "Story time",
+      "chinese": "他们还带了一个大生日蛋糕。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "They",
+          "type": "subject",
+          "chinese": "他们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "also brought",
+          "type": "verb",
+          "chinese": "还带来了",
+          "note": "also放在行为动词前，brought是bring的过去式"
+        },
+        {
+          "order": 3,
+          "text": "a big birthday cake",
+          "type": "object",
+          "chinese": "一个大生日蛋糕",
+          "note": "名词短语作宾语，birthday作定语修饰cake",
+          "wordBreakdown": [
+            {"word": "cake", "phonetic": "/keɪk/", "pos": "n.", "meaning": "蛋糕"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullSentence": "Grandpa and Grandma were so happy to see them.",
+      "source": "Story time",
+      "chinese": "爷爷奶奶看到他们非常开心。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Grandpa and Grandma",
+          "type": "subject",
+          "chinese": "爷爷和奶奶",
+          "note": "并列主语"
+        },
+        {
+          "order": 2,
+          "text": "were so happy",
+          "type": "predicative",
+          "chinese": "非常开心",
+          "note": "so加强语气，意为「如此」"
+        },
+        {
+          "order": 3,
+          "text": "to see them",
+          "type": "infinitive",
+          "chinese": "见到他们",
+          "note": "不定式作原因状语，be happy to do sth."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullSentence": "We had a big lunch. We ate noodles and wished Grandma a long life.",
+      "source": "Story time",
+      "chinese": "我们吃了一顿丰盛的午餐。我们吃了面条，祝奶奶长寿。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We had a big lunch",
+          "type": "clause",
+          "chinese": "我们吃了一顿丰盛的午餐",
+          "note": "have lunch 吃午餐",
+          "wordBreakdown": [
+            {"word": "lunch", "phonetic": "/lʌntʃ/", "pos": "n.", "meaning": "午餐"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "We ate noodles",
+          "type": "predicate-1",
+          "chinese": "我们吃了面条",
+          "note": "ate是eat的过去式",
+          "wordBreakdown": [
+            {"word": "noodle", "phonetic": "/ˈnuːdl/", "pos": "n.", "meaning": "面条"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "and wished Grandma a long life",
+          "type": "predicate-2",
+          "chinese": "并且祝奶奶长寿",
+          "note": "wish sb. sth. 祝愿某人……，wished是wish的过去式",
+          "wordBreakdown": [
+            {"word": "wish", "phonetic": "/wɪʃ/", "pos": "v.", "meaning": "祝愿"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullSentence": "Then Grandma blew out the candles, and we ate the cake.",
+      "source": "Story time",
+      "chinese": "然后奶奶吹灭了蜡烛，我们吃了蛋糕。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Then",
+          "type": "adverbial",
+          "chinese": "然后",
+          "note": "时间副词，表示顺序"
+        },
+        {
+          "order": 2,
+          "text": "Grandma blew out the candles",
+          "type": "clause-1",
+          "chinese": "奶奶吹灭了蜡烛",
+          "note": "前一分句，blow out 吹灭，blew是blow的过去式",
+          "wordBreakdown": [
+            {"word": "blow", "phonetic": "/bləʊ/", "pos": "v.", "meaning": "吹"},
+            {"word": "candle", "phonetic": "/ˈkændl/", "pos": "n.", "meaning": "蜡烛"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "and we ate the cake",
+          "type": "clause-2",
+          "chinese": "我们吃了蛋糕",
+          "note": "后一分句，and连接两个并列句"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullSentence": "In the afternoon, I chatted with Grandma.",
+      "source": "Story time",
+      "chinese": "下午，我和奶奶聊天。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "In the afternoon",
+          "type": "adverbial",
+          "chinese": "在下午",
+          "note": "时间状语"
+        },
+        {
+          "order": 2,
+          "text": "I",
+          "type": "subject",
+          "chinese": "我",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 3,
+          "text": "chatted with Grandma",
+          "type": "verb-phrase",
+          "chinese": "和奶奶聊天",
+          "note": "chat with sb. 和某人聊天，chatted是chat的过去式",
+          "wordBreakdown": [
+            {"word": "chat", "phonetic": "/tʃæt/", "pos": "v.", "meaning": "聊天"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullSentence": "We also took a family photo. It was our 12th family photo.",
+      "source": "Story time",
+      "chinese": "我们还拍了一张全家福。那是我们的第12张全家福。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We also took a family photo",
+          "type": "clause-1",
+          "chinese": "我们还拍了一张全家福",
+          "note": "take a photo 拍照，took是take的过去式",
+          "wordBreakdown": [
+            {"word": "photo", "phonetic": "/ˈfəʊtəʊ/", "pos": "n.", "meaning": "照片"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "It was our 12th family photo",
+          "type": "clause-2",
+          "chinese": "那是我们的第12张全家福",
+          "note": "12th = twelfth，序数词表示「第12」"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullSentence": "When I was a little kid, Grandpa and Grandma took care of me.",
+      "source": "Story time",
+      "chinese": "当我还是个小孩的时候，爷爷奶奶照顾我。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "When I was a little kid",
+          "type": "clause",
+          "chinese": "当我还是个小孩的时候",
+          "note": "时间状语从句，when引导"
+        },
+        {
+          "order": 2,
+          "text": "Grandpa and Grandma",
+          "type": "subject",
+          "chinese": "爷爷和奶奶",
+          "note": "主句主语"
+        },
+        {
+          "order": 3,
+          "text": "took care of me",
+          "type": "verb-phrase",
+          "chinese": "照顾我",
+          "note": "take care of 照顾，took是take的过去式"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullSentence": "Now I am a big boy. I can take care of them. I want to spend more time with them.",
+      "source": "Story time",
+      "chinese": "现在我是个大男孩了。我可以照顾他们。我想多陪陪他们。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Now I am a big boy",
+          "type": "clause-1",
+          "chinese": "现在我是个大男孩了",
+          "note": "一般现在时，主系表结构"
+        },
+        {
+          "order": 2,
+          "text": "I can take care of them",
+          "type": "clause-2",
+          "chinese": "我可以照顾他们",
+          "note": "can + 动词原形，表能力"
+        },
+        {
+          "order": 3,
+          "text": "I want to spend more time with them",
+          "type": "clause-3",
+          "chinese": "我想多陪陪他们",
+          "note": "want to do sth. 想要做某事；spend time with sb. 花时间陪某人",
+          "wordBreakdown": [
+            {"word": "spend", "phonetic": "/spend/", "pos": "v.", "meaning": "度过；花费"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullSentence": "It is the Double Ninth Festival today.",
+      "source": "Cartoon time",
+      "chinese": "今天是重阳节。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "It",
+          "type": "subject",
+          "chinese": "它",
+          "note": "指代今天"
+        },
+        {
+          "order": 2,
+          "text": "is",
+          "type": "verb",
+          "chinese": "是",
+          "note": "be动词一般现在时"
+        },
+        {
+          "order": 3,
+          "text": "the Double Ninth Festival",
+          "type": "predicative",
+          "chinese": "重阳节",
+          "note": "节日名称，每个实词首字母大写",
+          "wordBreakdown": [
+            {"word": "festival", "phonetic": "/ˈfestɪvl/", "pos": "n.", "meaning": "节日"}
+          ]
+        },
+        {
+          "order": 4,
+          "text": "today",
+          "type": "adverbial",
+          "chinese": "今天",
+          "note": "时间副词"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullSentence": "It's a day for old people.",
+      "source": "Cartoon time",
+      "chinese": "这是老年人的节日。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "It's",
+          "type": "subject-verb",
+          "chinese": "它是",
+          "note": "it is的缩写"
+        },
+        {
+          "order": 2,
+          "text": "a day",
+          "type": "predicative",
+          "chinese": "一天；一个日子",
+          "note": "名词作表语"
+        },
+        {
+          "order": 3,
+          "text": "for old people",
+          "type": "adverbial",
+          "chinese": "为老年人的",
+          "note": "for sb. 表示对象"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullSentence": "It's on the ninth day of the ninth lunar month.",
+      "source": "Cartoon time",
+      "chinese": "它在农历九月初九。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "It's",
+          "type": "subject-verb",
+          "chinese": "它是",
+          "note": "it is的缩写"
+        },
+        {
+          "order": 2,
+          "text": "on the ninth day",
+          "type": "adverbial",
+          "chinese": "在第九天",
+          "note": "具体某一天用介词on，ninth是序数词",
+          "wordBreakdown": [
+            {"word": "ninth", "phonetic": "/naɪnθ/", "pos": "ord.", "meaning": "第九"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "of the ninth lunar month",
+          "type": "attribute",
+          "chinese": "农历第九个月的",
+          "note": "of结构作定语，lunar month 农历月",
+          "wordBreakdown": [
+            {"word": "lunar", "phonetic": "/ˈluːnə(r)/", "pos": "adj.", "meaning": "农历的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "fullSentence": "They show their love for their grandmothers and grandfathers.",
+      "source": "Cartoon time",
+      "chinese": "他们表达对爷爷奶奶的爱。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "They",
+          "type": "subject",
+          "chinese": "他们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "show their love",
+          "type": "verb-phrase",
+          "chinese": "表达他们的爱",
+          "note": "show love 表达爱"
+        },
+        {
+          "order": 3,
+          "text": "for their grandmothers and grandfathers",
+          "type": "adverbial",
+          "chinese": "对他们的爷爷奶奶",
+          "note": "for表示对象，grandmothers和grandfathers并列"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "fullSentence": "They give them gifts and do chores for them.",
+      "source": "Cartoon time",
+      "chinese": "他们给他们送礼物，为他们做家务。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "They",
+          "type": "subject",
+          "chinese": "他们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "give them gifts",
+          "type": "predicate-1",
+          "chinese": "给他们礼物",
+          "note": "第一个谓语，give sb. sth. 双宾语",
+          "wordBreakdown": [
+            {"word": "gift", "phonetic": "/ɡɪft/", "pos": "n.", "meaning": "礼物"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "and do chores for them",
+          "type": "predicate-2",
+          "chinese": "并且为他们做家务",
+          "note": "第二个谓语，do chores 做家务",
+          "wordBreakdown": [
+            {"word": "chore", "phonetic": "/tʃɔː(r)/", "pos": "n.", "meaning": "家务；杂活"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "fullSentence": "What should we do for Grandpa?",
+      "source": "Cartoon time",
+      "chinese": "我们应该为爷爷做什么呢？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "What",
+          "type": "question-word",
+          "chinese": "什么",
+          "note": "疑问代词"
+        },
+        {
+          "order": 2,
+          "text": "should we do",
+          "type": "verb-phrase",
+          "chinese": "我们应该做",
+          "note": "should是情态动词，后接动词原形"
+        },
+        {
+          "order": 3,
+          "text": "for Grandpa",
+          "type": "adverbial",
+          "chinese": "为爷爷",
+          "note": "目的状语"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "fullSentence": "We can cook dinner for him.",
+      "source": "Cartoon time",
+      "chinese": "我们可以给他做晚饭。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We",
+          "type": "subject",
+          "chinese": "我们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "can cook dinner",
+          "type": "verb-phrase",
+          "chinese": "可以做晚饭",
+          "note": "can + 动词原形，cook dinner 做晚饭",
+          "wordBreakdown": [
+            {"word": "cook", "phonetic": "/kʊk/", "pos": "v.", "meaning": "烹饪"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "for him",
+          "type": "adverbial",
+          "chinese": "给他",
+          "note": "for sb. 为某人"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "fullSentence": "Good idea! We can make a card for him too.",
+      "source": "Cartoon time",
+      "chinese": "好主意！我们也可以给他做一张卡片。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Good idea",
+          "type": "exclamation",
+          "chinese": "好主意",
+          "note": "口语中表示赞同"
+        },
+        {
+          "order": 2,
+          "text": "We can make a card",
+          "type": "clause",
+          "chinese": "我们可以做一张卡片",
+          "note": "make a card 制作卡片"
+        },
+        {
+          "order": 3,
+          "text": "for him too",
+          "type": "adverbial",
+          "chinese": "也给他",
+          "note": "too表示「也」，放在句尾"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "fullSentence": "In the afternoon, Bobby, Tina and their parents went to see Grandpa.",
+      "source": "Cartoon time",
+      "chinese": "下午，Bobby、Tina和他们的父母去看望爷爷。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "In the afternoon",
+          "type": "adverbial",
+          "chinese": "在下午",
+          "note": "时间状语"
+        },
+        {
+          "order": 2,
+          "text": "Bobby, Tina and their parents",
+          "type": "subject",
+          "chinese": "Bobby、Tina和他们的父母",
+          "note": "并列主语"
+        },
+        {
+          "order": 3,
+          "text": "went to see Grandpa",
+          "type": "verb-phrase",
+          "chinese": "去看望爷爷",
+          "note": "go to see sb. 去看望某人，went是go的过去式"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "fullSentence": "Happy Double Ninth Festival, Grandpa! We love you!",
+      "source": "Cartoon time",
+      "chinese": "爷爷，重阳节快乐！我们爱您！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Happy Double Ninth Festival",
+          "type": "greeting",
+          "chinese": "重阳节快乐",
+          "note": "节日祝福语，Happy + 节日名"
+        },
+        {
+          "order": 2,
+          "text": "Grandpa",
+          "type": "vocative",
+          "chinese": "爷爷",
+          "note": "称呼语"
+        },
+        {
+          "order": 3,
+          "text": "We love you",
+          "type": "clause",
+          "chinese": "我们爱您",
+          "note": "表达爱意的常用句"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "fullSentence": "Thank you! I love you too!",
+      "source": "Cartoon time",
+      "chinese": "谢谢！我也爱你们！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Thank you",
+          "type": "expression",
+          "chinese": "谢谢你",
+          "note": "感谢用语"
+        },
+        {
+          "order": 2,
+          "text": "I love you too",
+          "type": "clause",
+          "chinese": "我也爱你们",
+          "note": "回应爱意，too表示也"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "fullSentence": "The Double Ninth Festival is a time to show love for the elderly.",
+      "source": "Cartoon time",
+      "chinese": "重阳节是向长辈表达关爱的日子。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "The Double Ninth Festival",
+          "type": "subject",
+          "chinese": "重阳节",
+          "note": "节日名称作主语"
+        },
+        {
+          "order": 2,
+          "text": "is a time",
+          "type": "verb-predicative",
+          "chinese": "是一个日子",
+          "note": "主系表结构"
+        },
+        {
+          "order": 3,
+          "text": "to show love for the elderly",
+          "type": "infinitive",
+          "chinese": "向长辈表达关爱",
+          "note": "不定式短语作定语修饰time，the elderly 老年人",
+          "wordBreakdown": [
+            {"word": "elderly", "phonetic": "/ˈeldəli/", "pos": "adj.", "meaning": "年长的"}
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalFragments": 108,
+    "totalSentences": 25,
+    "sources": ["Story time", "Cartoon time"]
+  }
+}

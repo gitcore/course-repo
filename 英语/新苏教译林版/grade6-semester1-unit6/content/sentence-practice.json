@@ -1,0 +1,478 @@
+{
+  "version": "2.0.0",
+  "unit": "Unit 6 Going green",
+  "description": "拆句练习：按递进链原则拆分课文句子，逐句掌握句型结构",
+  "sentences": [
+    {
+      "id": 1,
+      "fullSentence": "Earth is our home.",
+      "source": "Story time",
+      "chinese": "地球是我们的家园。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Earth",
+          "type": "subject",
+          "chinese": "地球",
+          "note": "专有名词，首字母大写，指独一无二的事物",
+          "wordBreakdown": [
+            {"word": "Earth", "phonetic": "/ɜːθ/", "pos": "n.", "meaning": "地球"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "is",
+          "type": "verb",
+          "chinese": "是",
+          "note": "be动词一般现在时"
+        },
+        {
+          "order": 3,
+          "text": "our home",
+          "type": "predicative",
+          "chinese": "我们的家园",
+          "note": "名词短语作表语"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullSentence": "We should protect the Earth.",
+      "source": "Story time",
+      "chinese": "我们应该保护地球。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We",
+          "type": "subject",
+          "chinese": "我们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "should protect",
+          "type": "verb",
+          "chinese": "应该保护",
+          "note": "情态动词should + 动词原形",
+          "wordBreakdown": [
+            {"word": "protect", "phonetic": "/prəˈtekt/", "pos": "v.", "meaning": "保护"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "the Earth",
+          "type": "object",
+          "chinese": "地球",
+          "note": "the Earth 指独一无二的地球"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullSentence": "What can we do to go green?",
+      "source": "Story time",
+      "chinese": "我们能做些什么来践行绿色生活？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "What",
+          "type": "question-word",
+          "chinese": "什么",
+          "note": "疑问代词，作do的宾语"
+        },
+        {
+          "order": 2,
+          "text": "can we do",
+          "type": "verb-phrase",
+          "chinese": "我们能做",
+          "note": "情态动词can + 主语 + 动词原形（疑问句语序）"
+        },
+        {
+          "order": 3,
+          "text": "to go green",
+          "type": "infinitive",
+          "chinese": "来践行绿色生活",
+          "note": "不定式短语作目的状语",
+          "wordBreakdown": [
+            {"word": "green", "phonetic": "/ɡriːn/", "pos": "adj.", "meaning": "绿色的；环保的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullSentence": "Turn off the tap when you brush your teeth.",
+      "source": "Story time",
+      "chinese": "刷牙时关掉水龙头。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Turn off the tap",
+          "type": "main-clause",
+          "chinese": "关掉水龙头",
+          "note": "祈使句，动词原形开头，turn off 关掉",
+          "wordBreakdown": [
+            {"word": "tap", "phonetic": "/tæp/", "pos": "n.", "meaning": "水龙头"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "when you brush your teeth",
+          "type": "clause",
+          "chinese": "当你刷牙的时候",
+          "note": "时间状语从句，when引导",
+          "wordBreakdown": [
+            {"word": "brush", "phonetic": "/brʌʃ/", "pos": "v.", "meaning": "刷"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullSentence": "Don't waste water.",
+      "source": "Story time",
+      "chinese": "不要浪费水。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Don't waste",
+          "type": "verb",
+          "chinese": "不要浪费",
+          "note": "否定祈使句：Don't + 动词原形",
+          "wordBreakdown": [
+            {"word": "waste", "phonetic": "/weɪst/", "pos": "v.", "meaning": "浪费"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "water",
+          "type": "object",
+          "chinese": "水",
+          "note": "不可数名词作宾语",
+          "wordBreakdown": [
+            {"word": "water", "phonetic": "/ˈwɔːtə(r)/", "pos": "n.", "meaning": "水"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullSentence": "Turn off lights when you leave the room.",
+      "source": "Story time",
+      "chinese": "离开房间时关灯。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Turn off lights",
+          "type": "main-clause",
+          "chinese": "关掉灯",
+          "note": "祈使句，lights用复数",
+          "wordBreakdown": [
+            {"word": "light", "phonetic": "/laɪt/", "pos": "n.", "meaning": "灯"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "when you leave the room",
+          "type": "clause",
+          "chinese": "当你离开房间的时候",
+          "note": "时间状语从句"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullSentence": "Use both sides of the paper.",
+      "source": "Story time",
+      "chinese": "使用纸的两面。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Use",
+          "type": "verb",
+          "chinese": "使用",
+          "note": "祈使句，动词原形开头"
+        },
+        {
+          "order": 2,
+          "text": "both sides",
+          "type": "object",
+          "chinese": "两面",
+          "note": "both 两个都，后面接复数名词",
+          "wordBreakdown": [
+            {"word": "side", "phonetic": "/saɪd/", "pos": "n.", "meaning": "面；边"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "of the paper",
+          "type": "attribute",
+          "chinese": "纸的",
+          "note": "of结构作定语",
+          "wordBreakdown": [
+            {"word": "paper", "phonetic": "/ˈpeɪpə(r)/", "pos": "n.", "meaning": "纸"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullSentence": "Don't use too many plastic bags.",
+      "source": "Story time",
+      "chinese": "不要使用太多塑料袋。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Don't use",
+          "type": "verb",
+          "chinese": "不要使用",
+          "note": "否定祈使句"
+        },
+        {
+          "order": 2,
+          "text": "too many plastic bags",
+          "type": "object",
+          "chinese": "太多塑料袋",
+          "note": "too many修饰可数名词复数，plastic作定语修饰bags",
+          "wordBreakdown": [
+            {"word": "plastic", "phonetic": "/ˈplæstɪk/", "pos": "adj.", "meaning": "塑料的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullSentence": "Take part in Earth Hour!",
+      "source": "Story time",
+      "chinese": "参加地球一小时！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Take part in",
+          "type": "verb-phrase",
+          "chinese": "参加",
+          "note": "固定短语，后接活动"
+        },
+        {
+          "order": 2,
+          "text": "Earth Hour",
+          "type": "object",
+          "chinese": "地球一小时",
+          "note": "专有名词，每个实词首字母大写"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullSentence": "Let's make a poster about it.",
+      "source": "Cartoon time",
+      "chinese": "我们来做一张关于它的海报吧。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Let's make",
+          "type": "verb-phrase",
+          "chinese": "让我们制作",
+          "note": "Let's = Let us，后接动词原形"
+        },
+        {
+          "order": 2,
+          "text": "a poster",
+          "type": "object",
+          "chinese": "一张海报",
+          "note": "名词作宾语",
+          "wordBreakdown": [
+            {"word": "poster", "phonetic": "/ˈpəʊstə(r)/", "pos": "n.", "meaning": "海报"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "about it",
+          "type": "adverbial",
+          "chinese": "关于它",
+          "note": "about 关于"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullSentence": "Will you join me?",
+      "source": "Cartoon time",
+      "chinese": "你愿意加入我吗？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Will",
+          "type": "auxiliary",
+          "chinese": "将要",
+          "note": "will的一般疑问句形式，置于句首"
+        },
+        {
+          "order": 2,
+          "text": "you",
+          "type": "subject",
+          "chinese": "你",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 3,
+          "text": "join me",
+          "type": "verb-phrase",
+          "chinese": "加入我",
+          "note": "join sb. 加入某人"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullSentence": "I'll draw the Earth and colour it green and blue.",
+      "source": "Cartoon time",
+      "chinese": "我要画地球，把它涂成绿色和蓝色。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'll draw the Earth",
+          "type": "predicate-1",
+          "chinese": "我要画地球",
+          "note": "I'll = I will，一般将来时",
+          "wordBreakdown": [
+            {"word": "draw", "phonetic": "/drɔː/", "pos": "v.", "meaning": "画"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "and colour it green and blue",
+          "type": "predicate-2",
+          "chinese": "并且把它涂成绿色和蓝色",
+          "note": "colour sth. + 颜色，把某物涂成某种颜色",
+          "wordBreakdown": [
+            {"word": "colour", "phonetic": "/ˈkʌlə(r)/", "pos": "v.", "meaning": "给……涂色"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullSentence": "Reduce, reuse and recycle!",
+      "source": "Cartoon time",
+      "chinese": "减少、再利用、回收利用！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Reduce",
+          "type": "verb-1",
+          "chinese": "减少",
+          "note": "第一个R：减少使用",
+          "wordBreakdown": [
+            {"word": "reduce", "phonetic": "/rɪˈdjuːs/", "pos": "v.", "meaning": "减少"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "reuse",
+          "type": "verb-2",
+          "chinese": "再利用",
+          "note": "第二个R：重复使用",
+          "wordBreakdown": [
+            {"word": "reuse", "phonetic": "/ˌriːˈjuːz/", "pos": "v.", "meaning": "再利用"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "and recycle",
+          "type": "verb-3",
+          "chinese": "和回收利用",
+          "note": "第三个R：回收循环",
+          "wordBreakdown": [
+            {"word": "recycle", "phonetic": "/ˌriːˈsaɪkl/", "pos": "v.", "meaning": "回收利用"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullSentence": "I'll draw some banana trees. I like bananas.",
+      "source": "Cartoon time",
+      "chinese": "我要画一些香蕉树。我喜欢香蕉。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'll draw some banana trees",
+          "type": "clause-1",
+          "chinese": "我要画一些香蕉树",
+          "note": "一般将来时，banana作定语修饰trees"
+        },
+        {
+          "order": 2,
+          "text": "I like bananas",
+          "type": "clause-2",
+          "chinese": "我喜欢香蕉",
+          "note": "一般现在时，bananas用复数表示一类事物"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullSentence": "I'll help protect the Earth.",
+      "source": "Cartoon time",
+      "chinese": "我会帮助保护地球。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'll help",
+          "type": "subject-verb",
+          "chinese": "我会帮助",
+          "note": "I will help，一般将来时"
+        },
+        {
+          "order": 2,
+          "text": "protect the Earth",
+          "type": "infinitive",
+          "chinese": "保护地球",
+          "note": "help (to) do sth. 帮助做某事，to可省略"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullSentence": "I won't throw banana skins on the ground any more.",
+      "source": "Cartoon time",
+      "chinese": "我再也不会把香蕉皮扔在地上了。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I won't throw",
+          "type": "verb-phrase",
+          "chinese": "我不会扔",
+          "note": "won't = will not，一般将来时否定"
+        },
+        {
+          "order": 2,
+          "text": "banana skins",
+          "type": "object",
+          "chinese": "香蕉皮",
+          "note": "名词短语作宾语，skins用复数"
+        },
+        {
+          "order": 3,
+          "text": "on the ground",
+          "type": "adverbial",
+          "chinese": "在地上",
+          "note": "地点状语"
+        },
+        {
+          "order": 4,
+          "text": "any more",
+          "type": "adverbial",
+          "chinese": "再；还",
+          "note": "not...any more 不再"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalFragments": 72,
+    "totalSentences": 16,
+    "sources": ["Story time", "Cartoon time"]
+  }
+}

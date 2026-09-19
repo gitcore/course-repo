@@ -1,0 +1,197 @@
+{
+  "version": "2.0.0",
+  "unit": "Project 1 A better me",
+  "description": "成长内容：词族进化 + 句型迁移",
+  "wordFamilies": [
+    {
+      "id": "good-better-best",
+      "rootWord": "good",
+      "meaning": "好的",
+      "family": [
+        {"word": "good", "pos": "adjective", "meaning": "好的", "example": "He is a good student.", "exampleCn": "他是一个好学生。"},
+        {"word": "better", "pos": "adjective", "meaning": "更好的（比较级）", "example": "I want to be a better me.", "exampleCn": "我想成为更好的自己。"},
+        {"word": "best", "pos": "adjective", "meaning": "最好的（最高级）", "example": "She is the best student in our class.", "exampleCn": "她是我们班最好的学生。"},
+        {"word": "well", "pos": "adverb", "meaning": "好地", "example": "He sings well.", "exampleCn": "他唱歌唱得好。"},
+        {"word": "goodness", "pos": "noun", "meaning": "善良；美德", "example": "We should believe in the goodness of people.", "exampleCn": "我们应该相信人性的善良。"},
+        {"word": "good-looking", "pos": "adjective", "meaning": "好看的", "example": "She is a good-looking girl.", "exampleCn": "她是一个好看的女孩。"}
+      ],
+      "evolutionTip": "good的比较级是better，最高级是best，都是不规则变化。well是副词形式「好地」，它的比较级和最高级也是better和best。"
+    },
+    {
+      "id": "honest",
+      "rootWord": "honest",
+      "meaning": "诚实的",
+      "family": [
+        {"word": "honest", "pos": "adjective", "meaning": "诚实的", "example": "I'm honest. I always tell the truth.", "exampleCn": "我很诚实，我总是说实话。"},
+        {"word": "honesty", "pos": "noun", "meaning": "诚实", "example": "Honesty is the best policy.", "exampleCn": "诚实是最好的品格。"},
+        {"word": "honestly", "pos": "adverb", "meaning": "诚实地", "example": "Speak honestly, please.", "exampleCn": "请诚实地说。"},
+        {"word": "dishonest", "pos": "adjective", "meaning": "不诚实的", "example": "He is a dishonest man.", "exampleCn": "他是一个不诚实的人。"},
+        {"word": "dishonesty", "pos": "noun", "meaning": "不诚实", "example": "Dishonesty is a bad habit.", "exampleCn": "不诚实是个坏习惯。"}
+      ],
+      "evolutionTip": "honest是形容词，变成名词是honesty（把t去掉加y）。加上dis-否定前缀变成dishonest（不诚实的），dishonesty（不诚实）。注意honest的h不发音。"
+    },
+    {
+      "id": "improve",
+      "rootWord": "improve",
+      "meaning": "改进；提高",
+      "family": [
+        {"word": "improve", "pos": "verb", "meaning": "改进；提高", "example": "I want to improve my English.", "exampleCn": "我想提高我的英语。"},
+        {"word": "improvement", "pos": "noun", "meaning": "改进；进步", "example": "You have made great improvement.", "exampleCn": "你取得了很大的进步。"},
+        {"word": "improved", "pos": "adjective", "meaning": "改进的", "example": "This is an improved version.", "exampleCn": "这是改进版。"},
+        {"word": "improving", "pos": "adjective", "meaning": "改善中的", "example": "My English is improving.", "exampleCn": "我的英语正在提高。"},
+        {"word": "self-improvement", "pos": "noun", "meaning": "自我提升", "example": "This project is about self-improvement.", "exampleCn": "这个项目是关于自我提升的。"}
+      ],
+      "evolutionTip": "improve是动词，加上-ment变成名词improvement（改进；进步）。加上self-前缀变成self-improvement（自我提升）。"
+    },
+    {
+      "id": "believe",
+      "rootWord": "believe",
+      "meaning": "相信",
+      "family": [
+        {"word": "believe", "pos": "verb", "meaning": "相信", "example": "I believe I can make it.", "exampleCn": "我相信我能做到。"},
+        {"word": "belief", "pos": "noun", "meaning": "信念；信仰", "example": "He has a strong belief.", "exampleCn": "他有坚定的信念。"},
+        {"word": "believer", "pos": "noun", "meaning": "信徒；相信者", "example": "She is a believer in hard work.", "exampleCn": "她相信努力工作的力量。"},
+        {"word": "believable", "pos": "adjective", "meaning": "可信的", "example": "His story is believable.", "exampleCn": "他的故事是可信的。"},
+        {"word": "unbelievable", "pos": "adjective", "meaning": "难以置信的", "example": "The news is unbelievable!", "exampleCn": "这个消息难以置信！"},
+        {"word": "believe in", "pos": "phrasal verb", "meaning": "信任；信仰", "example": "I believe in you.", "exampleCn": "我信任你。"}
+      ],
+      "evolutionTip": "believe是动词，believe in sb.表示「信任某人」。加上-f变成名词belief（注意拼写变化：ve变f）。加上-able变成believable（可信的），加上un-前缀变成unbelievable（难以置信的）。"
+    },
+    {
+      "id": "different",
+      "rootWord": "different",
+      "meaning": "不同的",
+      "family": [
+        {"word": "different", "pos": "adjective", "meaning": "不同的", "example": "We have different habits.", "exampleCn": "我们有不同的习惯。"},
+        {"word": "difference", "pos": "noun", "meaning": "差异；不同", "example": "Small changes make a big difference.", "exampleCn": "小小的改变带来大大的不同。"},
+        {"word": "differently", "pos": "adverb", "meaning": "不同地", "example": "They think differently.", "exampleCn": "他们想法不同。"},
+        {"word": "same", "pos": "adjective", "meaning": "相同的（反义词）", "example": "We are in the same class.", "exampleCn": "我们在同一个班。"},
+        {"word": "make a difference", "pos": "phrase", "meaning": "有影响；有作用", "example": "You can make a difference.", "exampleCn": "你可以有所作为。"}
+      ],
+      "evolutionTip": "different是形容词，把t变成ce变成名词difference（差异）。加上-ly变成副词differently（不同地）。make a difference是固定短语，表示「有影响；有作用」。"
+    },
+    {
+      "id": "develop",
+      "rootWord": "develop",
+      "meaning": "发展；养成",
+      "family": [
+        {"word": "develop", "pos": "verb", "meaning": "发展；养成", "example": "I want to develop good habits.", "exampleCn": "我想养成好习惯。"},
+        {"word": "development", "pos": "noun", "meaning": "发展", "example": "The development of technology is fast.", "exampleCn": "科技发展很快。"},
+        {"word": "developing", "pos": "adjective", "meaning": "发展中的", "example": "China is a developing country.", "exampleCn": "中国是一个发展中国家。"},
+        {"word": "developed", "pos": "adjective", "meaning": "发达的", "example": "Japan is a developed country.", "exampleCn": "日本是一个发达国家。"},
+        {"word": "developer", "pos": "noun", "meaning": "开发者", "example": "He is a software developer.", "exampleCn": "他是一名软件开发者。"}
+      ],
+      "evolutionTip": "develop是动词，加上-ment变成名词development（发展）。developing是「发展中的」，developed是「发达的」，注意区分。"
+    }
+  ],
+  "sentencePatterns": [
+    {
+      "id": "by-doing",
+      "pattern": "主语 + can/become + ... + by + doing sth.",
+      "patternCn": "某人可以通过做某事来……",
+      "textbookExample": "We can become better by being honest and hard-working.",
+      "textbookExampleCn": "我们可以通过诚实和勤奋变得更好。",
+      "grammarExplanation": "by + doing sth. 是方式状语，表示「通过做某事」。by是介词，后面接动名词（动词+ing形式）。",
+      "transferExamples": [
+        {"english": "You can learn English well by reading every day.", "chinese": "你可以通过每天阅读来学好英语。"},
+        {"english": "We keep healthy by doing exercise.", "chinese": "我们通过运动保持健康。"},
+        {"english": "She improves her writing by keeping a diary.", "chinese": "她通过写日记提高写作。"},
+        {"english": "I make friends by joining clubs.", "chinese": "我通过加入俱乐部交朋友。"}
+      ]
+    },
+    {
+      "id": "first-second-third",
+      "pattern": "First, ... Second, ... Third, ...",
+      "patternCn": "第一，…… 第二，…… 第三，……",
+      "textbookExample": "First, I will limit my screen time. Second, I'm going to help with housework. Third, I will join the speech club.",
+      "textbookExampleCn": "第一，我要限制屏幕时间。第二，我打算帮忙做家务。第三，我要加入演讲俱乐部。",
+      "grammarExplanation": "First, Second, Third 是表示顺序的词，用来列举三点内容，让结构更清晰。每一点后面接完整的句子。",
+      "transferExamples": [
+        {"english": "First, get up early. Second, eat breakfast. Third, go to school.", "chinese": "第一，早起。第二，吃早餐。第三，去上学。"},
+        {"english": "First, I will study harder. Second, I will exercise more. Third, I will be more helpful.", "chinese": "第一，我要更努力学习。第二，我要多运动。第三，我要更乐于助人。"},
+        {"english": "First, cut the vegetables. Second, heat the oil. Third, put in the vegetables.", "chinese": "第一，切菜。第二，热油。第三，放入蔬菜。"}
+      ]
+    },
+    {
+      "id": "be-afraid-of",
+      "pattern": "主语 + be afraid of + 名词/动名词",
+      "patternCn": "某人害怕……",
+      "textbookExample": "I'm afraid of speaking in public.",
+      "textbookExampleCn": "我害怕在公共场合讲话。",
+      "grammarExplanation": "be afraid of + 名词/动名词，表示「害怕……」。of是介词，后面如果接动词要变成动名词（ing形式）。",
+      "transferExamples": [
+        {"english": "She is afraid of dogs.", "chinese": "她怕狗。"},
+        {"english": "I'm afraid of the dark.", "chinese": "我怕黑。"},
+        {"english": "He is afraid of making mistakes.", "chinese": "他害怕犯错误。"},
+        {"english": "They are afraid of swimming in the sea.", "chinese": "他们害怕在海里游泳。"}
+      ]
+    },
+    {
+      "id": "spend-time-on",
+      "pattern": "主语 + spend + 时间 + on sth.",
+      "patternCn": "某人在某事上花费……时间",
+      "textbookExample": "Sometimes I spend too much time on my phone.",
+      "textbookExampleCn": "有时候我在手机上花太多时间。",
+      "grammarExplanation": "spend time on sth. 表示「在某事上花费时间」。on后面接名词或代词。也可以说 spend time (in) doing sth. 花费时间做某事。",
+      "transferExamples": [
+        {"english": "I spend two hours on homework every day.", "chinese": "我每天花两小时做作业。"},
+        {"english": "She spends a lot of time on reading.", "chinese": "她花很多时间阅读。"},
+        {"english": "He spends too much time on computer games.", "chinese": "他在电脑游戏上花太多时间。"},
+        {"english": "We spend one hour on sports every afternoon.", "chinese": "我们每天下午花一小时运动。"}
+      ]
+    },
+    {
+      "id": "i-believe-i-can",
+      "pattern": "I believe (that) + 句子",
+      "patternCn": "我相信……",
+      "textbookExample": "I believe I can make it.",
+      "textbookExampleCn": "我相信我能做到。",
+      "grammarExplanation": "I believe (that)... 后面接宾语从句，that可以省略。make it 是固定短语，意思是「成功做到；成功」。",
+      "transferExamples": [
+        {"english": "I believe you can do it.", "chinese": "我相信你能做到。"},
+        {"english": "I believe she will come.", "chinese": "我相信她会来的。"},
+        {"english": "I believe we can win.", "chinese": "我相信我们能赢。"},
+        {"english": "I believe dreams can come true.", "chinese": "我相信梦想可以成真。"}
+      ]
+    }
+  ],
+  "growthExercises": [
+    {
+      "id": 1,
+      "type": "word-family",
+      "question": "选择正确的词填空：______ is the best policy. (honest)",
+      "options": ["Honesty", "Honest", "Dishonest"],
+      "answer": "Honesty",
+      "explanation": "Honesty是名词，在句子中作主语。Honesty is the best policy. 诚实是最好的品格。"
+    },
+    {
+      "id": 2,
+      "type": "word-family",
+      "question": "选择正确的词填空：You have made great ______. (improve)",
+      "options": ["improve", "improvement", "improved"],
+      "answer": "improvement",
+      "explanation": "improvement是名词，表示「改进；进步」，作make的宾语。"
+    },
+    {
+      "id": 3,
+      "type": "sentence-pattern",
+      "question": "用所给词造句：we / keep healthy / by doing exercise",
+      "answer": "We keep healthy by doing exercise.",
+      "explanation": "by + 动名词短语，表示「通过做某事」。"
+    },
+    {
+      "id": 4,
+      "type": "sentence-pattern",
+      "question": "翻译：我害怕在公共场合讲话。",
+      "answer": "I'm afraid of speaking in public.",
+      "explanation": "be afraid of + 动名词，表示「害怕做某事」。"
+    },
+    {
+      "id": 5,
+      "type": "sentence-pattern",
+      "question": "翻译：我相信我能做到。",
+      "answer": "I believe I can make it.",
+      "explanation": "I believe + 宾语从句；make it 是固定短语，表示「成功做到」。"
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "version": "2.0.0",
+  "unit": "Project 2 A better home",
+  "description": "拆句练习：按递进链原则拆分项目核心句子，逐句掌握句型结构",
+  "sentences": [
+    {
+      "id": 1,
+      "fullSentence": "Let's do a home survey today.",
+      "source": "Project",
+      "chinese": "今天我们来做一个家居调查吧。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Let's do",
+          "type": "verb-phrase",
+          "chinese": "让我们做",
+          "note": "Let's = Let us，后接动词原形"
+        },
+        {
+          "order": 2,
+          "text": "a home survey",
+          "type": "object",
+          "chinese": "一个家居调查",
+          "note": "名词短语作宾语",
+          "wordBreakdown": [
+            {"word": "survey", "phonetic": "/ˈsɜːveɪ/", "pos": "n.", "meaning": "调查"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "today",
+          "type": "adverbial",
+          "chinese": "今天",
+          "note": "时间副词"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullSentence": "We want to find out how green our home is.",
+      "source": "Project",
+      "chinese": "我们想弄清楚我们的家有多环保。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We want to find out",
+          "type": "verb-phrase",
+          "chinese": "我们想弄清楚",
+          "note": "want to do sth. 想要做某事；find out 找出；弄清楚"
+        },
+        {
+          "order": 2,
+          "text": "how green our home is",
+          "type": "clause",
+          "chinese": "我们的家有多环保",
+          "note": "宾语从句，用陈述语序；green在这里表示「环保的」"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullSentence": "We have only one rubbish bin. We don't sort the rubbish.",
+      "source": "Project",
+      "chinese": "我们只有一个垃圾桶。我们不分类垃圾。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We have only one rubbish bin",
+          "type": "clause-1",
+          "chinese": "我们只有一个垃圾桶",
+          "note": "only表示「只有；仅仅」",
+          "wordBreakdown": [
+            {"word": "rubbish", "phonetic": "/ˈrʌbɪʃ/", "pos": "n.", "meaning": "垃圾"},
+            {"word": "bin", "phonetic": "/bɪn/", "pos": "n.", "meaning": "箱子；垃圾桶"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "We don't sort the rubbish",
+          "type": "clause-2",
+          "chinese": "我们不分类垃圾",
+          "note": "一般现在时否定句；sort分类",
+          "wordBreakdown": [
+            {"word": "sort", "phonetic": "/sɔːt/", "pos": "v.", "meaning": "分类"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullSentence": "That wastes a lot of water.",
+      "source": "Project",
+      "chinese": "那浪费很多水。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "That",
+          "type": "subject",
+          "chinese": "那",
+          "note": "指示代词作主语"
+        },
+        {
+          "order": 2,
+          "text": "wastes",
+          "type": "verb",
+          "chinese": "浪费",
+          "note": "waste的第三人称单数形式wastes",
+          "wordBreakdown": [
+            {"word": "waste", "phonetic": "/weɪst/", "pos": "v.", "meaning": "浪费"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "a lot of water",
+          "type": "object",
+          "chinese": "很多水",
+          "note": "a lot of 既可修饰可数也可修饰不可数名词"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullSentence": "To make our home greener, we have a three-part plan.",
+      "source": "Project",
+      "chinese": "为了让我们的家更环保，我们制定了一个三部分的计划。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "To make our home greener",
+          "type": "infinitive",
+          "chinese": "为了让我们的家更环保",
+          "note": "不定式短语作目的状语；greener是green的比较级"
+        },
+        {
+          "order": 2,
+          "text": "we have a three-part plan",
+          "type": "main-clause",
+          "chinese": "我们有一个三部分的计划",
+          "note": "three-part 复合形容词，表示「三部分的」"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullSentence": "First, we will save energy and water.",
+      "source": "Project",
+      "chinese": "第一，我们要节约能源和水。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "First",
+          "type": "adverb",
+          "chinese": "第一；首先",
+          "note": "序数词，表示顺序"
+        },
+        {
+          "order": 2,
+          "text": "we will save",
+          "type": "subject-verb",
+          "chinese": "我们要节约",
+          "note": "一般将来时：will + 动词原形",
+          "wordBreakdown": [
+            {"word": "save", "phonetic": "/seɪv/", "pos": "v.", "meaning": "节约；拯救"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "energy and water",
+          "type": "object",
+          "chinese": "能源和水",
+          "note": "两个并列的不可数名词作宾语",
+          "wordBreakdown": [
+            {"word": "energy", "phonetic": "/ˈenədʒi/", "pos": "n.", "meaning": "能源；能量"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullSentence": "We will turn off lights when we leave a room.",
+      "source": "Project",
+      "chinese": "我们离开房间时会关灯。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We will turn off lights",
+          "type": "main-clause",
+          "chinese": "我们会关灯",
+          "note": "一般将来时；turn off 关掉"
+        },
+        {
+          "order": 2,
+          "text": "when we leave a room",
+          "type": "clause",
+          "chinese": "当我们离开房间的时候",
+          "note": "when引导时间状语从句"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullSentence": "We will use cloth bags instead of plastic bags.",
+      "source": "Project",
+      "chinese": "我们要用布袋代替塑料袋。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We will use cloth bags",
+          "type": "main-clause",
+          "chinese": "我们要用布袋",
+          "note": "一般将来时；cloth bags 布袋",
+          "wordBreakdown": [
+            {"word": "cloth", "phonetic": "/klɒθ/", "pos": "n.", "meaning": "布"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "instead of plastic bags",
+          "type": "prepositional-phrase",
+          "chinese": "代替塑料袋",
+          "note": "instead of 代替；而不是，后接名词",
+          "wordBreakdown": [
+            {"word": "plastic", "phonetic": "/ˈplæstɪk/", "pos": "adj.", "meaning": "塑料的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullSentence": "We can make pencil holders with old cans.",
+      "source": "Project",
+      "chinese": "我们可以用旧易拉罐做笔筒。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We can make pencil holders",
+          "type": "subject-verb-object",
+          "chinese": "我们可以做笔筒",
+          "note": "can + 动词原形；pencil holders 笔筒（复数）",
+          "wordBreakdown": [
+            {"word": "holder", "phonetic": "/ˈhəʊldə(r)/", "pos": "n.", "meaning": "支架；持有者"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "with old cans",
+          "type": "prepositional-phrase",
+          "chinese": "用旧易拉罐",
+          "note": "make...with... 用……制作……",
+          "wordBreakdown": [
+            {"word": "can", "phonetic": "/kæn/", "pos": "n.", "meaning": "易拉罐"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullSentence": "Small changes make a big difference.",
+      "source": "Project",
+      "chinese": "小小的改变带来大大的不同。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Small changes",
+          "type": "subject",
+          "chinese": "小小的改变",
+          "note": "small修饰复数名词changes",
+          "wordBreakdown": [
+            {"word": "change", "phonetic": "/tʃeɪndʒ/", "pos": "n.", "meaning": "改变；变化"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "make a big difference",
+          "type": "verb-object",
+          "chinese": "产生大大的不同",
+          "note": "make a difference 有影响；有作用",
+          "wordBreakdown": [
+            {"word": "difference", "phonetic": "/ˈdɪfrəns/", "pos": "n.", "meaning": "差异；不同"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullSentence": "Our home was not very green before.",
+      "source": "Project",
+      "chinese": "我们的家以前不是很环保。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Our home",
+          "type": "subject",
+          "chinese": "我们的家",
+          "note": "our是形容词性物主代词"
+        },
+        {
+          "order": 2,
+          "text": "was not very green",
+          "type": "predicate",
+          "chinese": "不是很环保",
+          "note": "一般过去时，was是is/am的过去式"
+        },
+        {
+          "order": 3,
+          "text": "before",
+          "type": "adverb",
+          "chinese": "以前",
+          "note": "时间副词，表示过去"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullSentence": "But now things are different.",
+      "source": "Project",
+      "chinese": "但是现在情况不同了。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "But now",
+          "type": "adverbial",
+          "chinese": "但是现在",
+          "note": "but表示转折；now表示现在时间"
+        },
+        {
+          "order": 2,
+          "text": "things are different",
+          "type": "main-clause",
+          "chinese": "情况是不同的",
+          "note": "一般现在时；things泛指「情况；事物」",
+          "wordBreakdown": [
+            {"word": "different", "phonetic": "/ˈdɪfrənt/", "pos": "adj.", "meaning": "不同的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullSentence": "We made a green home plan and we stuck to it.",
+      "source": "Project",
+      "chinese": "我们制定了一个绿色家园计划，并且坚持执行。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We made a green home plan",
+          "type": "clause-1",
+          "chinese": "我们制定了一个绿色家园计划",
+          "note": "make的过去式made；make a plan 制定计划"
+        },
+        {
+          "order": 2,
+          "text": "and we stuck to it",
+          "type": "clause-2",
+          "chinese": "并且我们坚持它",
+          "note": "stick的过去式stuck；stick to 坚持",
+          "wordBreakdown": [
+            {"word": "stick", "phonetic": "/stɪk/", "pos": "v.", "meaning": "坚持；粘"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullSentence": "Old things can have new life!",
+      "source": "Project",
+      "chinese": "旧物可以有新生！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Old things",
+          "type": "subject",
+          "chinese": "旧物品",
+          "note": "old修饰复数名词things"
+        },
+        {
+          "order": 2,
+          "text": "can have new life",
+          "type": "verb-object",
+          "chinese": "可以有新生命",
+          "note": "can + 动词原形have；new life 新生命"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullSentence": "Now our home is greener and more beautiful.",
+      "source": "Project",
+      "chinese": "现在我们的家更环保、更美丽了。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Now our home is",
+          "type": "subject-verb",
+          "chinese": "现在我们的家是",
+          "note": "一般现在时；our home作主语"
+        },
+        {
+          "order": 2,
+          "text": "greener and more beautiful",
+          "type": "predicative",
+          "chinese": "更环保、更美丽",
+          "note": "两个比较级并列；greener是单音节，more beautiful是多音节"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullSentence": "We will keep working to make our home even better.",
+      "source": "Project",
+      "chinese": "我们将继续努力，让我们的家园变得更好。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We will keep working",
+          "type": "verb-phrase",
+          "chinese": "我们将继续努力",
+          "note": "keep doing sth. 继续做某事；一般将来时"
+        },
+        {
+          "order": 2,
+          "text": "to make our home even better",
+          "type": "infinitive",
+          "chinese": "让我们的家园变得更好",
+          "note": "不定式作目的状语；even修饰比较级better"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalFragments": 62,
+    "totalSentences": 16,
+    "sources": ["Project 2"]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "version": "2.0.0",
+  "unit": "Unit 8 Then and now",
+  "description": "成长内容：词族进化 + 句型迁移",
+  "wordFamilies": [
+    {
+      "id": "change",
+      "rootWord": "change",
+      "meaning": "改变；变化",
+      "family": [
+        {"word": "change", "pos": "verb", "meaning": "改变", "example": "Many things change over time.", "exampleCn": "许多事情随着时间推移而改变。"},
+        {"word": "change", "pos": "noun", "meaning": "变化", "example": "There are many changes in our life.", "exampleCn": "我们的生活中有很多变化。"},
+        {"word": "changeable", "pos": "adjective", "meaning": "多变的；易变的", "example": "The weather is changeable in spring.", "exampleCn": "春天的天气多变。"},
+        {"word": "unchanged", "pos": "adjective", "meaning": "未改变的", "example": "The city has remained unchanged for 50 years.", "exampleCn": "这座城市50年来一直没有变化。"},
+        {"word": "exchange", "pos": "verb / noun", "meaning": "交换", "example": "Let's exchange our phone numbers.", "exampleCn": "我们交换一下电话号码吧。"}
+      ],
+      "evolutionTip": "change既是动词也是名词。加-able变成changeable（多变的），加un-前缀变成unchanged（未改变的），加ex-前缀变成exchange（交换）。"
+    },
+    {
+      "id": "use",
+      "rootWord": "use",
+      "meaning": "使用",
+      "family": [
+        {"word": "use", "pos": "verb", "meaning": "使用", "example": "Dad used the telephone to call people.", "exampleCn": "爸爸用电话给人们打电话。"},
+        {"word": "used", "pos": "adjective", "meaning": "用过的；习惯于", "example": "I bought a used car.", "exampleCn": "我买了一辆二手车。"},
+        {"word": "useful", "pos": "adjective", "meaning": "有用的", "example": "A smartphone is very useful.", "exampleCn": "智能手机非常有用。"},
+        {"word": "useless", "pos": "adjective", "meaning": "无用的", "example": "That old phone is useless now.", "exampleCn": "那部旧手机现在没用了。"},
+        {"word": "user", "pos": "noun", "meaning": "使用者；用户", "example": "He is a heavy user of the Internet.", "exampleCn": "他是一个重度互联网用户。"},
+        {"word": "reuse", "pos": "verb", "meaning": "再利用", "example": "We should reuse old things.", "exampleCn": "我们应该重复利用旧物品。"}
+      ],
+      "evolutionTip": "use加-ful变成useful（有用的），加-less变成useless（无用的），加-er变成user（使用者），加re-前缀变成reuse（再利用）。"
+    },
+    {
+      "id": "read",
+      "rootWord": "read",
+      "meaning": "读",
+      "family": [
+        {"word": "read", "pos": "verb", "meaning": "读（原形/过去式读音不同）", "example": "I read books every day. I read a book yesterday.", "exampleCn": "我每天读书。我昨天读了一本书。"},
+        {"word": "reading", "pos": "noun", "meaning": "阅读", "example": "Reading is good for you.", "exampleCn": "阅读对你有好处。"},
+        {"word": "reader", "pos": "noun", "meaning": "读者", "example": "She is a great reader.", "exampleCn": "她是一个很棒的读者。"},
+        {"word": "readable", "pos": "adjective", "meaning": "可读的", "example": "This book is very readable.", "exampleCn": "这本书非常好读。"},
+        {"word": "unread", "pos": "adjective", "meaning": "未读的", "example": "I have many unread emails.", "exampleCn": "我有很多未读邮件。"},
+        {"word": "e-book", "pos": "noun", "meaning": "电子书", "example": "He reads e-books on the Internet.", "exampleCn": "他在网上看电子书。"}
+      ],
+      "evolutionTip": "read是不规则动词，原形和过去式拼写一样，但读音不同（原形/riːd/，过去式/red/）。加上-ing变成reading（阅读），加上-er变成reader（读者）。e-book是electronic book的缩写。"
+    },
+    {
+      "id": "write",
+      "rootWord": "write",
+      "meaning": "写",
+      "family": [
+        {"word": "write", "pos": "verb", "meaning": "写", "example": "Grandma wrote letters to her friends.", "exampleCn": "奶奶给她的朋友们写信。"},
+        {"word": "wrote", "pos": "verb", "meaning": "写（过去式）", "example": "She wrote an email yesterday.", "exampleCn": "她昨天写了一封电子邮件。"},
+        {"word": "written", "pos": "verb", "meaning": "写（过去分词）", "example": "This book was written by a famous writer.", "exampleCn": "这本书是一位著名作家写的。"},
+        {"word": "writer", "pos": "noun", "meaning": "作家", "example": "He wants to be a writer.", "exampleCn": "他想成为一名作家。"},
+        {"word": "writing", "pos": "noun", "meaning": "写作；书写", "example": "I practice writing every day.", "exampleCn": "我每天练习写作。"},
+        {"word": "handwriting", "pos": "noun", "meaning": "手写；书法", "example": "Her handwriting is beautiful.", "exampleCn": "她的书法很漂亮。"},
+        {"word": "email", "pos": "noun", "meaning": "电子邮件", "example": "Now she writes emails.", "exampleCn": "现在她写电子邮件。"}
+      ],
+      "evolutionTip": "write是不规则动词，过去式wrote，过去分词written。加-er变成writer（作家），加-ing变成writing（写作）。email是electronic mail的缩写。"
+    },
+    {
+      "id": "smart",
+      "rootWord": "smart",
+      "meaning": "聪明的；智能的",
+      "family": [
+        {"word": "smart", "pos": "adjective", "meaning": "聪明的；智能的", "example": "The robot is very smart!", "exampleCn": "这个机器人非常聪明！"},
+        {"word": "smartphone", "pos": "noun", "meaning": "智能手机", "example": "She pays on her smartphone.", "exampleCn": "她用智能手机支付。"},
+        {"word": "smartwatch", "pos": "noun", "meaning": "智能手表", "example": "My dad has a smartwatch.", "exampleCn": "我爸爸有一块智能手表。"},
+        {"word": "smart home", "pos": "noun", "meaning": "智能家居", "example": "We live in a smart home.", "exampleCn": "我们住在一个智能家居里。"},
+        {"word": "smarter", "pos": "adjective", "meaning": "更聪明的（比较级）", "example": "The robot is smarter than me.", "exampleCn": "机器人比我聪明。"},
+        {"word": "smartest", "pos": "adjective", "meaning": "最聪明的（最高级）", "example": "He is the smartest boy in our class.", "exampleCn": "他是我们班最聪明的男孩。"}
+      ],
+      "evolutionTip": "smart加-er变成比较级smarter，加-est变成最高级smartest。smart可以和很多词组成复合词：smartphone（智能手机）、smartwatch（智能手表）、smart home（智能家居）。"
+    },
+    {
+      "id": "work",
+      "rootWord": "work",
+      "meaning": "工作；运转",
+      "family": [
+        {"word": "work", "pos": "verb / noun", "meaning": "工作；运转", "example": "The robot didn't work.", "exampleCn": "机器人不工作了。"},
+        {"word": "worker", "pos": "noun", "meaning": "工人", "example": "Workers put us into different groups.", "exampleCn": "工人们把我们分成不同的组。"},
+        {"word": "working", "pos": "adjective", "meaning": "工作的", "example": "He is a working man.", "exampleCn": "他是一个劳动者。"},
+        {"word": "workplace", "pos": "noun", "meaning": "工作场所", "example": "The office is my workplace.", "exampleCn": "办公室是我的工作场所。"},
+        {"word": "homework", "pos": "noun", "meaning": "家庭作业", "example": "I do my homework every day.", "exampleCn": "我每天都做作业。"},
+        {"word": "housework", "pos": "noun", "meaning": "家务", "example": "She does housework on weekends.", "exampleCn": "她周末做家务。"},
+        {"word": "teamwork", "pos": "noun", "meaning": "团队合作", "example": "Teamwork is very important.", "exampleCn": "团队合作非常重要。"}
+      ],
+      "evolutionTip": "work加上-er变成worker（工人），加上-ing变成working（工作的）。work可以和很多词组成复合词：homework（家庭作业）、housework（家务）、teamwork（团队合作）、workplace（工作场所）。"
+    }
+  ],
+  "sentencePatterns": [
+    {
+      "id": "ago-could",
+      "pattern": "... years ago, 主语 + could/couldn't + 动词原形",
+      "patternCn": "……年前，某人能/不能做某事",
+      "textbookExample": "Six years ago, Mike could read and draw, but he could not write.",
+      "textbookExampleCn": "六年前，Mike会读和画，但他不会写。",
+      "grammarExplanation": "表示过去的能力用could（can的过去式），否定形式是could not = couldn't。... years ago表示「……年前」，用于一般过去时。",
+      "transferExamples": [
+        {"english": "Ten years ago, I could not swim.", "chinese": "十年前，我不会游泳。"},
+        {"english": "Five years ago, she could play the piano.", "chinese": "五年前，她就会弹钢琴了。"},
+        {"english": "Twenty years ago, people could not use smartphones.", "chinese": "二十年前，人们不能使用智能手机。"},
+        {"english": "Last year, he could not ride a bike.", "chinese": "去年，他还不会骑自行车。"}
+      ]
+    },
+    {
+      "id": "now-can",
+      "pattern": "Now + 主语 + can/can't + 动词原形",
+      "patternCn": "现在某人能/不能做某事",
+      "textbookExample": "Now he can do many things.",
+      "textbookExampleCn": "现在他会做很多事情。",
+      "grammarExplanation": "表示现在的能力用can，否定形式是can not = can't。now表示「现在」，用于一般现在时。常和过去的情况对比使用。",
+      "transferExamples": [
+        {"english": "Now I can swim very well.", "chinese": "现在我游泳游得很好。"},
+        {"english": "Now she can speak English.", "chinese": "现在她会说英语了。"},
+        {"english": "Now we can shop online at home.", "chinese": "现在我们可以在家网上购物。"},
+        {"english": "Now he can't live without his phone.", "chinese": "现在他离不开手机了。"}
+      ]
+    },
+    {
+      "id": "ago-past-tense",
+      "pattern": "... years ago, 主语 + 动词过去式 + 其他",
+      "patternCn": "……年前，某人做了某事",
+      "textbookExample": "Twenty years ago, Grandma wrote letters to her friends.",
+      "textbookExampleCn": "二十年前，奶奶给她的朋友们写信。",
+      "grammarExplanation": "一般过去时的句子结构：主语 + 动词过去式 + 其他。时间状语用... years ago, yesterday, last week等。注意不规则动词的过去式变化。",
+      "transferExamples": [
+        {"english": "Last week, I went to Beijing.", "chinese": "上周，我去了北京。"},
+        {"english": "Yesterday, he bought a new bike.", "chinese": "昨天，他买了一辆新自行车。"},
+        {"english": "Three days ago, we watched a movie.", "chinese": "三天前，我们看了一场电影。"},
+        {"english": "Last year, she visited her grandma.", "chinese": "去年，她看望了她的奶奶。"}
+      ]
+    },
+    {
+      "id": "then-and-now",
+      "pattern": "... ago, 主语 + 过去式... Now 主语 + 现在时...",
+      "patternCn": "过去……，现在……（对比）",
+      "textbookExample": "Thirty years ago, Grandpa listened to the radio. Now he can read news on the Internet.",
+      "textbookExampleCn": "三十年前，爷爷听收音机。现在他可以在互联网上看新闻。",
+      "grammarExplanation": "过去和现在对比的句型，先讲过去的情况（一般过去时），再讲现在的情况（一般现在时）。常用于描述变化。",
+      "transferExamples": [
+        {"english": "Five years ago, I lived in a small house. Now I live in a big apartment.", "chinese": "五年前，我住在一个小房子里。现在我住在一个大公寓里。"},
+        {"english": "Before, people walked or rode bikes. Now people drive cars or take the subway.", "chinese": "以前，人们走路或骑自行车。现在人们开车或乘地铁。"},
+        {"english": "In the past, we wrote letters. Now we send emails and messages.", "chinese": "过去，我们写信。现在我们发电子邮件和消息。"},
+        {"english": "When I was little, I couldn't cook. Now I can cook many dishes.", "chinese": "我小的时候不会做饭。现在我会做很多菜。"}
+      ]
+    },
+    {
+      "id": "what-happened",
+      "pattern": "What happened? / What's wrong with...?",
+      "patternCn": "发生了什么事？/……怎么了？",
+      "textbookExample": "What happened? What's wrong with the robot?",
+      "textbookExampleCn": "发生了什么事？机器人怎么了？",
+      "grammarExplanation": "What happened? 用来询问发生了什么事。What's wrong with sb./sth.? 用来询问某人或某物出了什么问题。",
+      "transferExamples": [
+        {"english": "What happened? Why are you crying?", "chinese": "发生了什么事？你为什么哭？"},
+        {"english": "What's wrong with your bike?", "chinese": "你的自行车怎么了？"},
+        {"english": "What happened to the cake? It's gone!", "chinese": "蛋糕怎么了？不见了！"},
+        {"english": "What's wrong with him? He looks sad.", "chinese": "他怎么了？他看起来很伤心。"}
+      ]
+    }
+  ],
+  "growthExercises": [
+    {
+      "id": 1,
+      "type": "word-family",
+      "question": "选择正确的词填空：A smartphone is very ______. (use)",
+      "options": ["useful", "useless", "user"],
+      "answer": "useful",
+      "explanation": "useful是形容词，表示「有用的」，用来描述事物的属性。"
+    },
+    {
+      "id": 2,
+      "type": "word-family",
+      "question": "选择正确的词填空：My mother is a great ______. (write)",
+      "options": ["writer", "writing", "wrote"],
+      "answer": "writer",
+      "explanation": "writer是名词，表示「作家」，-er后缀表示做某事的人。"
+    },
+    {
+      "id": 3,
+      "type": "sentence-pattern",
+      "question": "用所给词造句：three years ago / I / could / swim / not",
+      "answer": "Three years ago, I could not swim.",
+      "explanation": "... years ago + 主语 + couldn't + 动词原形，表示过去不能做某事。"
+    },
+    {
+      "id": 4,
+      "type": "sentence-pattern",
+      "question": "翻译：二十年前，人们没有手机。现在几乎人人都有手机。",
+      "answer": "Twenty years ago, people didn't have mobile phones. Now almost everyone has a mobile phone.",
+      "explanation": "过去和现在对比的句型：过去用一般过去时，现在用一般现在时。"
+    },
+    {
+      "id": 5,
+      "type": "sentence-pattern",
+      "question": "翻译：你的电脑怎么了？",
+      "answer": "What's wrong with your computer?",
+      "explanation": "What's wrong with sth.? 某物怎么了？"
+    }
+  ]
+}

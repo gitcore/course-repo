@@ -1,0 +1,482 @@
+{
+  "version": "2.0.0",
+  "unit": "Unit 8 Then and now",
+  "description": "拆句练习：按递进链原则拆分课文句子，逐句掌握句型结构",
+  "sentences": [
+    {
+      "id": 1,
+      "fullSentence": "Six years ago, Mike could read and draw, but he could not write.",
+      "source": "Story time",
+      "chinese": "六年前，Mike会读和画，但他不会写。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Six years ago",
+          "type": "time-adverbial",
+          "chinese": "六年前",
+          "note": "时间状语，表示过去，用于一般过去时",
+          "wordBreakdown": [
+            {"word": "ago", "phonetic": "/əˈɡəʊ/", "pos": "adv.", "meaning": "以前"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "Mike could read and draw",
+          "type": "main-clause",
+          "chinese": "Mike会读和画",
+          "note": "could是can的过去式，表示过去的能力，后接动词原形"
+        },
+        {
+          "order": 3,
+          "text": "but he could not write",
+          "type": "clause",
+          "chinese": "但他不会写",
+          "note": "but表示转折，could not = couldn't，过去能力的否定"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullSentence": "Now he can do many things.",
+      "source": "Story time",
+      "chinese": "现在他会做很多事情。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Now",
+          "type": "time-adverbial",
+          "chinese": "现在",
+          "note": "时间副词，表示现在，用于一般现在时"
+        },
+        {
+          "order": 2,
+          "text": "he can do",
+          "type": "subject-verb",
+          "chinese": "他会做",
+          "note": "can + 动词原形，表示现在的能力"
+        },
+        {
+          "order": 3,
+          "text": "many things",
+          "type": "object",
+          "chinese": "很多事情",
+          "note": "many修饰可数名词复数"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullSentence": "Thirty years ago, Grandpa listened to the radio and read newspapers for news.",
+      "source": "Story time",
+      "chinese": "三十年前，爷爷听收音机、看报纸来获取新闻。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Thirty years ago",
+          "type": "time-adverbial",
+          "chinese": "三十年前",
+          "note": "时间状语，过去时态标志"
+        },
+        {
+          "order": 2,
+          "text": "Grandpa listened to the radio",
+          "type": "predicate-1",
+          "chinese": "爷爷听收音机",
+          "note": "listen to 听……，过去式listened",
+          "wordBreakdown": [
+            {"word": "radio", "phonetic": "/ˈreɪdiəʊ/", "pos": "n.", "meaning": "收音机"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "and read newspapers for news",
+          "type": "predicate-2",
+          "chinese": "并且看报纸获取新闻",
+          "note": "read的过去式还是read（读音变化）；for news表示目的",
+          "wordBreakdown": [
+            {"word": "newspaper", "phonetic": "/ˈnjuːzpeɪpə(r)/", "pos": "n.", "meaning": "报纸"},
+            {"word": "news", "phonetic": "/njuːz/", "pos": "n.", "meaning": "新闻"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullSentence": "Now he can read and watch news on the Internet.",
+      "source": "Story time",
+      "chinese": "现在他可以在互联网上阅读和观看新闻。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Now",
+          "type": "time-adverbial",
+          "chinese": "现在",
+          "note": "现在时间，一般现在时"
+        },
+        {
+          "order": 2,
+          "text": "he can read and watch news",
+          "type": "subject-verb-object",
+          "chinese": "他可以阅读和观看新闻",
+          "note": "can + 两个并列动词原形"
+        },
+        {
+          "order": 3,
+          "text": "on the Internet",
+          "type": "prepositional-phrase",
+          "chinese": "在互联网上",
+          "note": "地点/方式状语，Internet首字母大写",
+          "wordBreakdown": [
+            {"word": "Internet", "phonetic": "/ˈɪntənet/", "pos": "n.", "meaning": "互联网"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullSentence": "Twenty years ago, Grandma wrote letters to her friends.",
+      "source": "Story time",
+      "chinese": "二十年前，奶奶给她的朋友们写信。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Twenty years ago",
+          "type": "time-adverbial",
+          "chinese": "二十年前",
+          "note": "过去时间状语"
+        },
+        {
+          "order": 2,
+          "text": "Grandma wrote letters",
+          "type": "subject-verb-object",
+          "chinese": "奶奶写信",
+          "note": "write的过去式wrote，不规则变化",
+          "wordBreakdown": [
+            {"word": "letter", "phonetic": "/ˈletə(r)/", "pos": "n.", "meaning": "信"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "to her friends",
+          "type": "prepositional-phrase",
+          "chinese": "给她的朋友们",
+          "note": "write letters to sb. 给某人写信"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullSentence": "Now she writes emails to her e-friends.",
+      "source": "Story time",
+      "chinese": "现在她给她的网友们写电子邮件。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Now",
+          "type": "time-adverbial",
+          "chinese": "现在",
+          "note": "现在时间状语"
+        },
+        {
+          "order": 2,
+          "text": "she writes emails",
+          "type": "subject-verb-object",
+          "chinese": "她写电子邮件",
+          "note": "一般现在时，主语第三人称单数，动词加s",
+          "wordBreakdown": [
+            {"word": "email", "phonetic": "/ˈiːmeɪl/", "pos": "n.", "meaning": "电子邮件"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "to her e-friends",
+          "type": "prepositional-phrase",
+          "chinese": "给她的网友们",
+          "note": "e-friend = electronic friend，网友",
+          "wordBreakdown": [
+            {"word": "e-friend", "phonetic": "/ˈiː frend/", "pos": "n.", "meaning": "网友"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullSentence": "She does shopping on the Internet.",
+      "source": "Story time",
+      "chinese": "她在互联网上购物。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "She",
+          "type": "subject",
+          "chinese": "她",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "does shopping",
+          "type": "verb-object",
+          "chinese": "购物",
+          "note": "do shopping = go shopping 购物，主语三单，does"
+        },
+        {
+          "order": 3,
+          "text": "on the Internet",
+          "type": "prepositional-phrase",
+          "chinese": "在互联网上",
+          "note": "地点状语"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullSentence": "Now he has a mobile phone and he can call people anywhere.",
+      "source": "Story time",
+      "chinese": "现在他有一部手机，他可以在任何地方给人们打电话。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Now he has a mobile phone",
+          "type": "clause-1",
+          "chinese": "现在他有一部手机",
+          "note": "have的第三人称单数形式has",
+          "wordBreakdown": [
+            {"word": "mobile", "phonetic": "/ˈməʊbaɪl/", "pos": "adj.", "meaning": "移动的"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "and he can call people anywhere",
+          "type": "clause-2",
+          "chinese": "并且他可以在任何地方给人们打电话",
+          "note": "and连接并列句；anywhere任何地方",
+          "wordBreakdown": [
+            {"word": "anywhere", "phonetic": "/ˈeniweə(r)/", "pos": "adv.", "meaning": "任何地方"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullSentence": "Now she often shops online and pays on her smartphone.",
+      "source": "Story time",
+      "chinese": "现在她经常在网上购物，用智能手机支付。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Now she often shops online",
+          "type": "clause-1",
+          "chinese": "现在她经常在网上购物",
+          "note": "shop作动词「购物」，主语三单加s；often频率副词"
+        },
+        {
+          "order": 2,
+          "text": "and pays on her smartphone",
+          "type": "clause-2",
+          "chinese": "并且用她的智能手机支付",
+          "note": "pay的过去式paid；smartphone智能手机",
+          "wordBreakdown": [
+            {"word": "smartphone", "phonetic": "/ˈsmɑːtfəʊn/", "pos": "n.", "meaning": "智能手机"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullSentence": "Two weeks ago, Bobby's parents bought a robot from a shop.",
+      "source": "Cartoon time",
+      "chinese": "两周前，Bobby的父母从商店买了一个机器人。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Two weeks ago",
+          "type": "time-adverbial",
+          "chinese": "两周前",
+          "note": "过去时间状语"
+        },
+        {
+          "order": 2,
+          "text": "Bobby's parents bought a robot",
+          "type": "subject-verb-object",
+          "chinese": "Bobby的父母买了一个机器人",
+          "note": "buy的过去式bought，不规则变化；Bobby's名词所有格",
+          "wordBreakdown": [
+            {"word": "robot", "phonetic": "/ˈrəʊbɒt/", "pos": "n.", "meaning": "机器人"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "from a shop",
+          "type": "prepositional-phrase",
+          "chinese": "从一家商店",
+          "note": "buy...from... 从……买……"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullSentence": "Look at this robot! He's very smart!",
+      "source": "Cartoon time",
+      "chinese": "看这个机器人！他非常聪明！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Look at this robot",
+          "type": "imperative",
+          "chinese": "看这个机器人",
+          "note": "祈使句，look at 看……"
+        },
+        {
+          "order": 2,
+          "text": "He's very smart",
+          "type": "exclamation",
+          "chinese": "他非常聪明",
+          "note": "He's = He is；smart聪明的/智能的",
+          "wordBreakdown": [
+            {"word": "smart", "phonetic": "/smɑːt/", "pos": "adj.", "meaning": "聪明的；智能的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullSentence": "The robot played chess with Bobby. He won every time.",
+      "source": "Cartoon time",
+      "chinese": "机器人和Bobby下国际象棋。他每次都赢。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "The robot played chess with Bobby",
+          "type": "clause-1",
+          "chinese": "机器人和Bobby下国际象棋",
+          "note": "play chess 下国际象棋；play的过去式played",
+          "wordBreakdown": [
+            {"word": "chess", "phonetic": "/tʃes/", "pos": "n.", "meaning": "国际象棋"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "He won every time",
+          "type": "clause-2",
+          "chinese": "他每次都赢",
+          "note": "win的过去式won，不规则变化；every time每次",
+          "wordBreakdown": [
+            {"word": "win", "phonetic": "/wɪn/", "pos": "v.", "meaning": "赢；获胜"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullSentence": "Our robot is cooking dinner for us. He'll give us a surprise.",
+      "source": "Cartoon time",
+      "chinese": "我们的机器人正在给我们做晚餐。他会给我们一个惊喜。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Our robot is cooking dinner for us",
+          "type": "clause-1",
+          "chinese": "我们的机器人正在给我们做晚餐",
+          "note": "现在进行时：is cooking；cook dinner做晚餐",
+          "wordBreakdown": [
+            {"word": "dinner", "phonetic": "/ˈdɪnə(r)/", "pos": "n.", "meaning": "晚餐；正餐"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "He'll give us a surprise",
+          "type": "clause-2",
+          "chinese": "他会给我们一个惊喜",
+          "note": "He'll = He will，一般将来时；give sb. sth.给某人某物",
+          "wordBreakdown": [
+            {"word": "surprise", "phonetic": "/səˈpraɪz/", "pos": "n.", "meaning": "惊喜"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullSentence": "What happened?",
+      "source": "Cartoon time",
+      "chinese": "发生了什么事？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "What",
+          "type": "question-word",
+          "chinese": "什么",
+          "note": "疑问代词作主语"
+        },
+        {
+          "order": 2,
+          "text": "happened",
+          "type": "verb",
+          "chinese": "发生了",
+          "note": "happen的过去式，疑问词作主语用陈述语序",
+          "wordBreakdown": [
+            {"word": "happen", "phonetic": "/ˈhæpən/", "pos": "v.", "meaning": "发生"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullSentence": "What's wrong with the robot?",
+      "source": "Cartoon time",
+      "chinese": "机器人怎么了？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "What's wrong",
+          "type": "question-phrase",
+          "chinese": "怎么了",
+          "note": "What's wrong? = What's the matter? 怎么了？出什么问题了？"
+        },
+        {
+          "order": 2,
+          "text": "with the robot",
+          "type": "prepositional-phrase",
+          "chinese": "关于机器人",
+          "note": "What's wrong with sb./sth.? 某人/某物怎么了？"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullSentence": "Many things change over time.",
+      "source": "Story time",
+      "chinese": "许多事情随着时间推移而改变。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Many things",
+          "type": "subject",
+          "chinese": "许多事情",
+          "note": "many修饰可数名词复数"
+        },
+        {
+          "order": 2,
+          "text": "change",
+          "type": "verb",
+          "chinese": "改变",
+          "note": "change作动词，一般现在时",
+          "wordBreakdown": [
+            {"word": "change", "phonetic": "/tʃeɪndʒ/", "pos": "v.", "meaning": "改变；变化"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "over time",
+          "type": "adverbial",
+          "chinese": "随着时间推移",
+          "note": "固定短语，表示「随着时间的推移」"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalFragments": 66,
+    "totalSentences": 16,
+    "sources": ["Story time", "Cartoon time"]
+  }
+}

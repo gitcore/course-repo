@@ -1,8 +1,8 @@
 {
   "manifestId": "new-yilin-grade6-semester1-unit1",
   "activityType": "word-family-practice",
-  "generatorVersion": "weekly-english-growth-1",
-  "generatedAt": "2026-09-02",
+  "generatorVersion": "unit1-source-sync-20260919",
+  "generatedAt": "2026-09-19",
   "wordlist": [
     "try one's best",
     "act",
@@ -15,51 +15,111 @@
     "forget",
     "remember",
     "begin",
-    "words",
+    "the words",
     "movement",
     "skill",
     "ready",
     "finally",
     "great",
     "calm",
+    "calm down",
+    "finish",
+    "enjoy",
     "excited",
     "ago",
-    "give it a go"
+    "have a go",
+    "keep trying",
+    "You can do it!"
   ],
   "keyVerbs": [
-    { "base": "want", "past": "wanted" },
-    { "base": "ask", "past": "asked" },
-    { "base": "use", "past": "used" },
-    { "base": "act", "past": "acted" },
-    { "base": "practise", "past": "practised" },
-    { "base": "see", "past": "saw" },
-    { "base": "forget", "past": "forgot" },
-    { "base": "remember", "past": "remembered" },
-    { "base": "calm", "past": "calmed" },
-    { "base": "be", "past": "was/were" }
+    {
+      "base": "want",
+      "past": "wanted"
+    },
+    {
+      "base": "ask",
+      "past": "asked"
+    },
+    {
+      "base": "use",
+      "past": "used"
+    },
+    {
+      "base": "act",
+      "past": "acted"
+    },
+    {
+      "base": "practise",
+      "past": "practised"
+    },
+    {
+      "base": "see",
+      "past": "saw"
+    },
+    {
+      "base": "forget",
+      "past": "forgot"
+    },
+    {
+      "base": "remember",
+      "past": "remembered"
+    },
+    {
+      "base": "calm",
+      "past": "calmed"
+    },
+    {
+      "base": "be",
+      "past": "was/were"
+    },
+    {
+      "base": "begin",
+      "past": "began"
+    },
+    {
+      "base": "finish",
+      "past": "finished"
+    },
+    {
+      "base": "enjoy",
+      "past": "enjoyed"
+    }
   ],
   "wordFamilies": [
     {
       "rootWord": "practise",
-      "sourceItemKeys": ["line-5", "line-9", "line-10"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
+      "sourceItemKeys": [
+        "line-5",
+        "line-8",
+        "line-10",
+        "line-23",
+        "line-27",
+        "line-28"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
       "nodes": [
         {
           "word": "practise",
           "role": "verb (base)",
-          "exampleSentence": "We should practise English every day.",
+          "exampleSentence": "She asked Su Yang to practise with her.",
           "chinese": "练习",
           "difficulty": 1,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-23"
         },
         {
           "word": "practised",
           "role": "verb (past tense)",
-          "exampleSentence": "They practised the play after school last week.",
+          "exampleSentence": "Bobby practised singing in the morning.",
           "chinese": "练习了（过去式）",
           "difficulty": 2,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-5"
         },
         {
           "word": "practising",
@@ -81,9 +141,16 @@
     },
     {
       "rootWord": "remember",
-      "sourceItemKeys": ["line-11", "line-20"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
+      "sourceItemKeys": [
+        "line-14",
+        "line-29"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
       "nodes": [
         {
           "word": "remember",
@@ -91,15 +158,16 @@
           "exampleSentence": "Please remember to bring your book to school.",
           "chinese": "记得，想起",
           "difficulty": 1,
-          "isSourceText": true
+          "isSourceText": false
         },
         {
           "word": "remembered",
           "role": "verb (past tense)",
-          "exampleSentence": "Suddenly, she remembered all the words of the song.",
+          "exampleSentence": "She remembered all the words and movements.",
           "chinese": "想起了（过去式）",
           "difficulty": 2,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-29"
         },
         {
           "word": "remembering",
@@ -121,9 +189,15 @@
     },
     {
       "rootWord": "forget",
-      "sourceItemKeys": ["line-20"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
+      "sourceItemKeys": [
+        "line-14"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
       "nodes": [
         {
           "word": "forget",
@@ -131,21 +205,22 @@
           "exampleSentence": "Don't forget your homework tomorrow.",
           "chinese": "忘记",
           "difficulty": 1,
-          "isSourceText": true
+          "isSourceText": false
         },
         {
           "word": "forgot",
           "role": "verb (past tense)",
-          "exampleSentence": "He was nervous and forgot his lines on the stage.",
+          "exampleSentence": "First he forgot the words, but then he remembered them.",
           "chinese": "忘了（过去式）",
           "difficulty": 2,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-14"
         },
         {
           "word": "forgetting",
           "role": "verb (present participle)",
-          "exampleSentence": "I am forgetting how to ride a bike because I haven't ridden for years.",
-          "chinese": "渐渐忘记",
+          "exampleSentence": "I keep forgetting my umbrella.",
+          "chinese": "忘记（forget 的 -ing 形式）",
           "difficulty": 3,
           "isSourceText": false
         },
@@ -161,9 +236,16 @@
     },
     {
       "rootWord": "act",
-      "sourceItemKeys": ["line-8", "line-14"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
+      "sourceItemKeys": [
+        "line-26",
+        "line-32"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
       "nodes": [
         {
           "word": "act",
@@ -171,20 +253,21 @@
           "exampleSentence": "The children will act out a story in class.",
           "chinese": "表演，行动",
           "difficulty": 1,
-          "isSourceText": true
+          "isSourceText": false
         },
         {
           "word": "acted",
           "role": "verb (past tense)",
-          "exampleSentence": "Tom acted the role of the king in the school play.",
+          "exampleSentence": "Su Hai acted well.",
           "chinese": "表演了（过去式）",
           "difficulty": 2,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-32"
         },
         {
           "word": "acting",
           "role": "verb (present participle)",
-          "exampleSentence": "They are acting a funny story on the stage now.",
+          "exampleSentence": "They are acting out a funny story now.",
           "chinese": "正在表演",
           "difficulty": 3,
           "isSourceText": false
@@ -201,9 +284,15 @@
     },
     {
       "rootWord": "begin",
-      "sourceItemKeys": ["line-13"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
+      "sourceItemKeys": [
+        "line-14"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
       "nodes": [
         {
           "word": "begin",
@@ -211,15 +300,16 @@
           "exampleSentence": "Classes begin at eight o'clock in the morning.",
           "chinese": "开始",
           "difficulty": 1,
-          "isSourceText": true
+          "isSourceText": false
         },
         {
           "word": "began",
           "role": "verb (past tense)",
-          "exampleSentence": "The school play began at two o'clock yesterday afternoon.",
+          "exampleSentence": "Bobby began to sing.",
           "chinese": "开始了（过去式）",
           "difficulty": 2,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-14"
         },
         {
           "word": "beginning",
@@ -241,17 +331,27 @@
     },
     {
       "rootWord": "play",
-      "sourceItemKeys": ["line-1", "line-2", "line-4"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
+      "sourceItemKeys": [
+        "line-19",
+        "line-20",
+        "line-22",
+        "line-31"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
       "nodes": [
         {
           "word": "play",
           "role": "verb (base)",
-          "exampleSentence": "The children often play football after school.",
+          "exampleSentence": "Two weeks ago, Su Hai wanted to play Mulan in a school play.",
           "chinese": "玩，演奏，扮演",
           "difficulty": 1,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-19"
         },
         {
           "word": "played",
@@ -259,7 +359,7 @@
           "exampleSentence": "They played a guessing game at the party last night.",
           "chinese": "玩了（过去式）",
           "difficulty": 2,
-          "isSourceText": true
+          "isSourceText": false
         },
         {
           "word": "playing",
@@ -272,10 +372,11 @@
         {
           "word": "play",
           "role": "noun (drama)",
-          "exampleSentence": "There was a wonderful school play last Friday.",
+          "exampleSentence": "It was her first school play.",
           "chinese": "戏剧，话剧",
           "difficulty": 4,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-20"
         }
       ]
     }
@@ -286,81 +387,148 @@
       "displayName": "主语 + 动词过去式 + 宾语/状语（一般过去时陈述句）",
       "examples": [
         {
-          "sentence": "They practised the play every afternoon last week.",
+          "sentence": "Bobby practised singing in the morning.",
           "sourceLine": "line-5",
-          "chinese": "他们上周每天下午都排练这部剧。"
+          "chinese": "Bobby 在早上练习唱歌。",
+          "isSourceText": true
         },
         {
-          "sentence": "Tom acted the role of the brave prince.",
-          "sourceLine": "line-8",
-          "chinese": "汤姆扮演了勇敢的王子这个角色。"
+          "sentence": "Su Hai acted well.",
+          "sourceLine": "line-32",
+          "chinese": "苏海表演得很好。",
+          "isSourceText": true
         }
       ],
       "transferExamples": [
         {
           "sentence": "My sister practised the piano for two hours yesterday.",
-          "chinese": "我妹妹昨天练了两个小时钢琴。"
+          "chinese": "我妹妹昨天练了两个小时钢琴。",
+          "isSourceText": false
         },
         {
           "sentence": "We remembered to bring our umbrellas that day.",
-          "chinese": "我们那天记得带伞了。"
+          "chinese": "我们那天记得带伞了。",
+          "isSourceText": false
         }
       ],
-      "relatedWordFamilies": ["practise", "act", "remember"]
+      "relatedWordFamilies": [
+        "practise",
+        "act",
+        "remember"
+      ]
     },
     {
       "patternKey": "there-was-were",
       "displayName": "There was/were + 名词（there be过去时）",
       "examples": [
         {
-          "sentence": "There was a school play in the hall last week.",
-          "sourceLine": "line-1",
-          "chinese": "上周大厅里有一场校园剧演出。"
+          "sentence": "There were a lot of words in the play.",
+          "sourceLine": "line-22",
+          "chinese": "话剧里有很多台词。",
+          "isSourceText": true
         },
         {
-          "sentence": "There were many parents in the audience.",
-          "sourceLine": "line-4",
-          "chinese": "观众席里有很多家长。"
+          "sentence": "There were also a lot of movements.",
+          "sourceLine": "line-24",
+          "chinese": "还有很多动作。",
+          "isSourceText": true
         }
       ],
       "transferExamples": [
         {
           "sentence": "There was a birthday party at my home last Saturday.",
-          "chinese": "上周六我家有一场生日派对。"
+          "chinese": "上周六我家有一场生日派对。",
+          "isSourceText": false
         },
         {
           "sentence": "There were lots of beautiful flowers in the park.",
-          "chinese": "公园里有许多漂亮的花。"
+          "chinese": "公园里有许多漂亮的花。",
+          "isSourceText": false
         }
       ],
-      "relatedWordFamilies": ["play"]
+      "relatedWordFamilies": [
+        "play"
+      ]
     },
     {
       "patternKey": "first-but-then",
       "displayName": "First + 过去时句子, but then + 过去时句子（转折变化）",
       "examples": [
         {
-          "sentence": "First, he was very nervous, but then he calmed down.",
-          "sourceLine": "line-12",
-          "chinese": "起初他非常紧张，但后来他冷静下来了。"
+          "sentence": "First he was afraid, but then he calmed down.",
+          "sourceLine": "line-13",
+          "chinese": "起初他很害怕，但后来他平静了下来。",
+          "isSourceText": true
         },
         {
-          "sentence": "First, she forgot her lines, but then she remembered them quickly.",
-          "sourceLine": "line-20",
-          "chinese": "起初她忘了台词，但很快就想起来了。"
+          "sentence": "First he forgot the words, but then he remembered them.",
+          "sourceLine": "line-14",
+          "chinese": "起初他忘了歌词，但后来他想起来了。",
+          "isSourceText": true
         }
       ],
       "transferExamples": [
         {
           "sentence": "First, it was sunny, but then it began to rain.",
-          "chinese": "起初天气晴朗，但后来开始下雨了。"
+          "chinese": "起初天气晴朗，但后来开始下雨了。",
+          "isSourceText": false
         },
         {
           "sentence": "First, he was afraid of dogs, but then he made friends with a little dog.",
-          "chinese": "起初他害怕狗，但后来他和一只小狗成了朋友。"
+          "chinese": "起初他害怕狗，但后来他和一只小狗成了朋友。",
+          "isSourceText": false
         }
       ],
-      "relatedWordFamilies": ["forget", "remember", "begin"]
+      "relatedWordFamilies": [
+        "forget",
+        "remember",
+        "begin"
+      ]
+    },
+    {
+      "patternKey": "ask-sb-to-do-sth",
+      "displayName": "ask somebody to do something（请某人做某事）",
+      "examples": [
+        {
+          "sentence": "She asked Su Yang to practise with her.",
+          "sourceLine": "line-23",
+          "chinese": "她请苏洋和她一起练习。",
+          "isSourceText": true
+        }
+      ],
+      "transferExamples": [
+        {
+          "sentence": "The teacher asked me to play a role in the school play.",
+          "chinese": "老师请我在校园话剧中扮演一个角色。",
+          "isSourceText": false
+        }
+      ],
+      "relatedWordFamilies": [
+        "practise",
+        "play"
+      ]
+    },
+    {
+      "patternKey": "be-afraid-of-doing-sth",
+      "displayName": "be afraid of doing something（害怕做某事）",
+      "examples": [
+        {
+          "sentence": "Su Hai was afraid of acting in front of many people.",
+          "sourceLine": "line-26",
+          "chinese": "苏海害怕在许多人面前表演。",
+          "isSourceText": true
+        }
+      ],
+      "transferExamples": [
+        {
+          "sentence": "I was afraid of singing in front of people.",
+          "chinese": "我以前害怕在众人面前唱歌。",
+          "isSourceText": false
+        }
+      ],
+      "relatedWordFamilies": [
+        "act"
+      ]
     }
   ],
   "transferPrompts": [
@@ -386,18 +554,19 @@
       "isSourceText": false
     },
     {
-      "sourcePattern": "past-tense-action",
+      "sourcePattern": "ask-sb-to-do-sth",
       "targetPattern": "ask-sb-to-do-sth",
       "prompt": "用 'ask sb to do sth' 句型造一个过去时句子，描述老师请你在剧中扮演一个角色。",
-      "answer": "The teacher asked me to act a role in the school play.",
+      "answer": "The teacher asked me to play a role in the school play.",
       "isSourceText": false
     },
     {
-      "sourcePattern": "past-tense-action",
+      "sourcePattern": "be-afraid-of-doing-sth",
       "targetPattern": "be-afraid-of-doing-sth",
       "prompt": "用 'be afraid of doing sth' 句型造一个过去时句子，描述你以前害怕在众人面前唱歌。",
       "answer": "I was afraid of singing in front of people when I was younger.",
       "isSourceText": false
     }
-  ]
+  ],
+  "sourceHash": "a0bc98f8bdb8fcced257f983874548d4e6ca6367c449efc361c27f6e54ae527a"
 }

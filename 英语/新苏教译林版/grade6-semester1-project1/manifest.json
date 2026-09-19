@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "2.0",
+  "id": "grade6-semester1-project1",
+  "name": "六年级上册 Project 1 - A better me",
+  "description": "综合项目：用事例说明好品质，制作伟人信息卡，与同伴交流并分享成为更好的人的想法",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "learn-language-generator-3",
+    "generatedAt": "2026-09-14"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": "wordlist.md",
+      "vocabulary": null,
+      "languageLevel": "primary-grade-6",
+      "phonicsStage": null,
+      "courseType": null,
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "word-family",
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice",
+          "reading-qa"
+        ],
+        "growthActivityTypes": [
+          "word-family-practice",
+          "pattern-transfer-practice"
+        ]
+      },
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "整合前四单元，完成品质举例、伟人信息卡、同伴交流与成长想法分享四项任务。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "project": 1,
+      "tags": [
+        "更好的自己",
+        "优秀品质",
+        "伟人信息卡",
+        "项目式学习",
+        "个人经历",
+        "榜样学习"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "reading-qa",
+          "name": "阅读理解",
+          "data": "content/reading-qa.json",
+          "enabled": true
+        },
+        {
+          "type": "word-family-practice",
+          "name": "词族进化",
+          "data": "content/growth-content.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

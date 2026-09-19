@@ -1,0 +1,483 @@
+{
+  "version": "2.0.0",
+  "unit": "Unit 7 Old things, new life",
+  "description": "拆句练习：按递进链原则拆分课文句子，逐句掌握句型结构",
+  "sentences": [
+    {
+      "id": 1,
+      "fullSentence": "I'm a cardboard box.",
+      "source": "Story time",
+      "chinese": "我是一个硬纸板箱。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I",
+          "type": "subject",
+          "chinese": "我",
+          "note": "人称代词主格，第一人称单数"
+        },
+        {
+          "order": 2,
+          "text": "'m",
+          "type": "verb",
+          "chinese": "是",
+          "note": "am的缩写，be动词第一人称单数形式"
+        },
+        {
+          "order": 3,
+          "text": "a cardboard box",
+          "type": "predicative",
+          "chinese": "一个硬纸板箱",
+          "note": "名词短语作表语，cardboard作定语修饰box",
+          "wordBreakdown": [
+            {"word": "cardboard", "phonetic": "/ˈkɑːdbɔːd/", "pos": "n.", "meaning": "硬纸板"},
+            {"word": "box", "phonetic": "/bɒks/", "pos": "n.", "meaning": "箱子；盒子"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullSentence": "What will they do with me?",
+      "source": "Story time",
+      "chinese": "他们会怎么处理我呢？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "What",
+          "type": "question-word",
+          "chinese": "什么",
+          "note": "疑问代词，作do的宾语"
+        },
+        {
+          "order": 2,
+          "text": "will they do",
+          "type": "verb-phrase",
+          "chinese": "他们会做",
+          "note": "一般将来时疑问句：will + 主语 + 动词原形"
+        },
+        {
+          "order": 3,
+          "text": "with me",
+          "type": "prepositional-phrase",
+          "chinese": "用我/处理我",
+          "note": "do with 处理；对待"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullSentence": "Will they throw me away?",
+      "source": "Story time",
+      "chinese": "他们会把我扔掉吗？",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Will",
+          "type": "auxiliary",
+          "chinese": "将要",
+          "note": "一般将来时的助动词，疑问句置于句首"
+        },
+        {
+          "order": 2,
+          "text": "they",
+          "type": "subject",
+          "chinese": "他们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 3,
+          "text": "throw me away",
+          "type": "verb-phrase",
+          "chinese": "把我扔掉",
+          "note": "throw away 扔掉，代词放中间",
+          "wordBreakdown": [
+            {"word": "throw", "phonetic": "/θrəʊ/", "pos": "v.", "meaning": "扔；投"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullSentence": "A man picked me up and put me into a recycling bin.",
+      "source": "Story time",
+      "chinese": "一个男人把我捡起来，放进了回收箱。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "A man",
+          "type": "subject",
+          "chinese": "一个男人",
+          "note": "名词短语作主语"
+        },
+        {
+          "order": 2,
+          "text": "picked me up",
+          "type": "verb-1",
+          "chinese": "把我捡起来",
+          "note": "pick up 拾起，过去式picked",
+          "wordBreakdown": [
+            {"word": "pick", "phonetic": "/pɪk/", "pos": "v.", "meaning": "拾起；采摘"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "and put me into a recycling bin",
+          "type": "verb-2",
+          "chinese": "并且把我放进一个回收箱",
+          "note": "put的过去式还是put；put...into... 把……放进……",
+          "wordBreakdown": [
+            {"word": "recycle", "phonetic": "/ˌriːˈsaɪkl/", "pos": "v.", "meaning": "回收利用"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullSentence": "There were plastic cups, plastic bottles and glass bottles on the truck too.",
+      "source": "Story time",
+      "chinese": "卡车上也有塑料杯、塑料瓶和玻璃瓶。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "There were",
+          "type": "there-be",
+          "chinese": "有",
+          "note": "There be句型一般过去时，主语是复数用were"
+        },
+        {
+          "order": 2,
+          "text": "plastic cups, plastic bottles and glass bottles",
+          "type": "subject",
+          "chinese": "塑料杯、塑料瓶和玻璃瓶",
+          "note": "三个并列的名词短语作主语",
+          "wordBreakdown": [
+            {"word": "plastic", "phonetic": "/ˈplæstɪk/", "pos": "adj.", "meaning": "塑料的"},
+            {"word": "cup", "phonetic": "/kʌp/", "pos": "n.", "meaning": "杯子"},
+            {"word": "bottle", "phonetic": "/ˈbɒtl/", "pos": "n.", "meaning": "瓶子"},
+            {"word": "glass", "phonetic": "/ɡlɑːs/", "pos": "n.", "meaning": "玻璃"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "on the truck too",
+          "type": "adverbial",
+          "chinese": "也在卡车上",
+          "note": "地点状语，too表示「也」",
+          "wordBreakdown": [
+            {"word": "truck", "phonetic": "/trʌk/", "pos": "n.", "meaning": "卡车"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullSentence": "The truck took us to a recycling centre.",
+      "source": "Story time",
+      "chinese": "卡车把我们带到了一个回收中心。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "The truck",
+          "type": "subject",
+          "chinese": "卡车",
+          "note": "名词短语作主语，the表示特指"
+        },
+        {
+          "order": 2,
+          "text": "took us to",
+          "type": "verb-phrase",
+          "chinese": "带我们去",
+          "note": "take sb. to sp. 带某人去某地，take的过去式took"
+        },
+        {
+          "order": 3,
+          "text": "a recycling centre",
+          "type": "object",
+          "chinese": "一个回收中心",
+          "note": "名词短语作地点宾语",
+          "wordBreakdown": [
+            {"word": "centre", "phonetic": "/ˈsentə(r)/", "pos": "n.", "meaning": "中心"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullSentence": "Workers put us into different groups.",
+      "source": "Story time",
+      "chinese": "工人们把我们分成不同的组。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Workers",
+          "type": "subject",
+          "chinese": "工人们",
+          "note": "worker的复数形式",
+          "wordBreakdown": [
+            {"word": "worker", "phonetic": "/ˈwɜːkə(r)/", "pos": "n.", "meaning": "工人"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "put us into",
+          "type": "verb-phrase",
+          "chinese": "把我们放进",
+          "note": "put...into... 把……放进……"
+        },
+        {
+          "order": 3,
+          "text": "different groups",
+          "type": "object",
+          "chinese": "不同的组",
+          "note": "形容词different修饰名词groups",
+          "wordBreakdown": [
+            {"word": "different", "phonetic": "/ˈdɪfrənt/", "pos": "adj.", "meaning": "不同的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullSentence": "There I went to sleep. What a long sleep!",
+      "source": "Story time",
+      "chinese": "在那里我睡着了。好长的一觉啊！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "There",
+          "type": "adverbial",
+          "chinese": "在那里",
+          "note": "地点副词，置于句首表强调"
+        },
+        {
+          "order": 2,
+          "text": "I went to sleep",
+          "type": "main-clause",
+          "chinese": "我睡着了",
+          "note": "go to sleep 入睡，go的过去式went"
+        },
+        {
+          "order": 3,
+          "text": "What a long sleep!",
+          "type": "exclamation",
+          "chinese": "好长的一觉啊！",
+          "note": "What + a + 形容词 + 名词！感叹句结构"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullSentence": "Now I'm in a library. Yes, I'm a book now!",
+      "source": "Story time",
+      "chinese": "现在我在一个图书馆里。是的，我现在是一本书了！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Now I'm in a library",
+          "type": "clause-1",
+          "chinese": "现在我在一个图书馆里",
+          "note": "主系表结构，in a library是地点状语",
+          "wordBreakdown": [
+            {"word": "library", "phonetic": "/ˈlaɪbrəri/", "pos": "n.", "meaning": "图书馆"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "Yes, I'm a book now",
+          "type": "clause-2",
+          "chinese": "是的，我现在是一本书了",
+          "note": "主系表结构，a book作表语"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullSentence": "Children like me very much. How wonderful!",
+      "source": "Story time",
+      "chinese": "孩子们非常喜欢我。多么奇妙啊！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Children like me very much",
+          "type": "main-clause",
+          "chinese": "孩子们非常喜欢我",
+          "note": "主谓宾结构，very much作程度状语"
+        },
+        {
+          "order": 2,
+          "text": "How wonderful!",
+          "type": "exclamation",
+          "chinese": "多么奇妙啊！",
+          "note": "How + 形容词！感叹句结构",
+          "wordBreakdown": [
+            {"word": "wonderful", "phonetic": "/ˈwʌndəfl/", "pos": "adj.", "meaning": "奇妙的；极好的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullSentence": "I made this bag with old trousers.",
+      "source": "Cartoon time",
+      "chinese": "我用旧裤子做了这个袋子。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I",
+          "type": "subject",
+          "chinese": "我",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "made this bag",
+          "type": "verb-object",
+          "chinese": "做了这个袋子",
+          "note": "make的过去式made，make sth. 制作某物"
+        },
+        {
+          "order": 3,
+          "text": "with old trousers",
+          "type": "prepositional-phrase",
+          "chinese": "用旧裤子",
+          "note": "with表示「用（某种材料/工具）」",
+          "wordBreakdown": [
+            {"word": "trousers", "phonetic": "/ˈtraʊzəz/", "pos": "n.", "meaning": "裤子"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullSentence": "What a big fish!",
+      "source": "Cartoon time",
+      "chinese": "好大的一条鱼啊！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "What",
+          "type": "exclamation-word",
+          "chinese": "多么",
+          "note": "感叹句引导词，修饰名词短语"
+        },
+        {
+          "order": 2,
+          "text": "a big fish",
+          "type": "noun-phrase",
+          "chinese": "一条大鱼",
+          "note": "a + 形容词 + 可数名词单数"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullSentence": "What a beautiful picture!",
+      "source": "Cartoon time",
+      "chinese": "好漂亮的一幅画啊！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "What",
+          "type": "exclamation-word",
+          "chinese": "多么",
+          "note": "感叹句引导词，修饰名词短语"
+        },
+        {
+          "order": 2,
+          "text": "a beautiful picture",
+          "type": "noun-phrase",
+          "chinese": "一幅漂亮的画",
+          "note": "a + 形容词 + 可数名词单数",
+          "wordBreakdown": [
+            {"word": "beautiful", "phonetic": "/ˈbjuːtɪfl/", "pos": "adj.", "meaning": "美丽的；漂亮的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullSentence": "How nice!",
+      "source": "Cartoon time",
+      "chinese": "真好看啊！",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "How",
+          "type": "exclamation-word",
+          "chinese": "多么",
+          "note": "感叹句引导词，修饰形容词/副词"
+        },
+        {
+          "order": 2,
+          "text": "nice",
+          "type": "adjective",
+          "chinese": "好看的；美好的",
+          "note": "形容词作表语"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullSentence": "I made this hat with a cardboard box.",
+      "source": "Cartoon time",
+      "chinese": "我用一个硬纸板箱做了这顶帽子。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I made this hat",
+          "type": "subject-verb-object",
+          "chinese": "我做了这顶帽子",
+          "note": "主谓宾结构，make的过去式made",
+          "wordBreakdown": [
+            {"word": "hat", "phonetic": "/hæt/", "pos": "n.", "meaning": "帽子"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "with a cardboard box",
+          "type": "prepositional-phrase",
+          "chinese": "用一个硬纸板箱",
+          "note": "with表示「用（某种材料）」"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullSentence": "The hat got wet and broke.",
+      "source": "Cartoon time",
+      "chinese": "帽子湿了，然后坏了。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "The hat",
+          "type": "subject",
+          "chinese": "帽子",
+          "note": "名词短语作主语，the表示特指"
+        },
+        {
+          "order": 2,
+          "text": "got wet",
+          "type": "predicate-1",
+          "chinese": "变湿了",
+          "note": "get + 形容词，表示「变得……」，get的过去式got"
+        },
+        {
+          "order": 3,
+          "text": "and broke",
+          "type": "predicate-2",
+          "chinese": "并且坏了",
+          "note": "break的过去式broke，表示「弄坏；破碎」",
+          "wordBreakdown": [
+            {"word": "break", "phonetic": "/breɪk/", "pos": "v.", "meaning": "打破；弄坏"}
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalFragments": 68,
+    "totalSentences": 16,
+    "sources": ["Story time", "Cartoon time"]
+  }
+}

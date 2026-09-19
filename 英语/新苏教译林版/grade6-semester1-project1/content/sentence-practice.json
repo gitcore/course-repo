@@ -1,0 +1,479 @@
+{
+  "version": "2.0.0",
+  "unit": "Project 1 A better me",
+  "description": "拆句练习：按递进链原则拆分项目核心句子，逐句掌握句型结构",
+  "sentences": [
+    {
+      "id": 1,
+      "fullSentence": "We can become better by being honest and hard-working.",
+      "source": "Project",
+      "chinese": "我们可以通过诚实和勤奋变得更好。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We",
+          "type": "subject",
+          "chinese": "我们",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "can become better",
+          "type": "verb-phrase",
+          "chinese": "可以变得更好",
+          "note": "can + 动词原形；better是good的比较级",
+          "wordBreakdown": [
+            {"word": "become", "phonetic": "/bɪˈkʌm/", "pos": "v.", "meaning": "变成；成为"},
+            {"word": "better", "phonetic": "/ˈbetə(r)/", "pos": "adj.", "meaning": "更好的"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "by being honest and hard-working",
+          "type": "prepositional-phrase",
+          "chinese": "通过诚实和勤奋",
+          "note": "by + 动名词短语作方式状语",
+          "wordBreakdown": [
+            {"word": "honest", "phonetic": "/ˈɒnɪst/", "pos": "adj.", "meaning": "诚实的"},
+            {"word": "hard-working", "phonetic": "/ˌhɑːd ˈwɜːkɪŋ/", "pos": "adj.", "meaning": "勤奋的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullSentence": "I have many good habits.",
+      "source": "Project",
+      "chinese": "我有很多好习惯。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I",
+          "type": "subject",
+          "chinese": "我",
+          "note": "人称代词主格"
+        },
+        {
+          "order": 2,
+          "text": "have",
+          "type": "verb",
+          "chinese": "有",
+          "note": "have表示「有」，一般现在时"
+        },
+        {
+          "order": 3,
+          "text": "many good habits",
+          "type": "object",
+          "chinese": "很多好习惯",
+          "note": "many修饰可数名词复数",
+          "wordBreakdown": [
+            {"word": "habit", "phonetic": "/ˈhæbɪt/", "pos": "n.", "meaning": "习惯"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "fullSentence": "I'm honest. I always tell the truth.",
+      "source": "Project",
+      "chinese": "我很诚实。我总是说实话。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'm honest",
+          "type": "clause-1",
+          "chinese": "我很诚实",
+          "note": "主系表结构，honest是形容词作表语"
+        },
+        {
+          "order": 2,
+          "text": "I always tell the truth",
+          "type": "clause-2",
+          "chinese": "我总是说实话",
+          "note": "tell the truth 说实话；always频率副词",
+          "wordBreakdown": [
+            {"word": "truth", "phonetic": "/truːθ/", "pos": "n.", "meaning": "真相；事实"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "fullSentence": "But I also have some bad habits.",
+      "source": "Project",
+      "chinese": "但是我也有一些坏习惯。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "But",
+          "type": "conjunction",
+          "chinese": "但是",
+          "note": "转折连词，表示转折"
+        },
+        {
+          "order": 2,
+          "text": "I also have",
+          "type": "subject-verb",
+          "chinese": "我也有",
+          "note": "also放在实义动词前，表示「也」"
+        },
+        {
+          "order": 3,
+          "text": "some bad habits",
+          "type": "object",
+          "chinese": "一些坏习惯",
+          "note": "some修饰可数名词复数"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "fullSentence": "Sometimes I spend too much time on my phone.",
+      "source": "Project",
+      "chinese": "有时候我在手机上花太多时间。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Sometimes",
+          "type": "adverb",
+          "chinese": "有时候",
+          "note": "频率副词，可置于句首"
+        },
+        {
+          "order": 2,
+          "text": "I spend too much time",
+          "type": "subject-verb-object",
+          "chinese": "我花太多时间",
+          "note": "spend time 花费时间；too much修饰不可数名词",
+          "wordBreakdown": [
+            {"word": "spend", "phonetic": "/spend/", "pos": "v.", "meaning": "花费"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "on my phone",
+          "type": "prepositional-phrase",
+          "chinese": "在我的手机上",
+          "note": "spend...on sth. 在……上花费……"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "fullSentence": "I'm afraid of speaking in public.",
+      "source": "Project",
+      "chinese": "我害怕在公共场合讲话。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'm afraid of",
+          "type": "verb-phrase",
+          "chinese": "我害怕",
+          "note": "be afraid of 害怕……，后接名词或动名词",
+          "wordBreakdown": [
+            {"word": "afraid", "phonetic": "/əˈfreɪd/", "pos": "adj.", "meaning": "害怕的"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "speaking in public",
+          "type": "object",
+          "chinese": "在公共场合讲话",
+          "note": "of是介词，后面接动名词speaking",
+          "wordBreakdown": [
+            {"word": "public", "phonetic": "/ˈpʌblɪk/", "pos": "n.", "meaning": "公众；公共场合"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "fullSentence": "I'm going to make a plan for myself.",
+      "source": "Project",
+      "chinese": "我打算为自己制定一个计划。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'm going to make",
+          "type": "verb-phrase",
+          "chinese": "我打算制作",
+          "note": "be going to + 动词原形，表示计划、打算",
+          "wordBreakdown": [
+            {"word": "plan", "phonetic": "/plæn/", "pos": "n.", "meaning": "计划"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "a plan",
+          "type": "object",
+          "chinese": "一个计划",
+          "note": "名词作宾语"
+        },
+        {
+          "order": 3,
+          "text": "for myself",
+          "type": "prepositional-phrase",
+          "chinese": "为我自己",
+          "note": "for oneself 为自己；myself是反身代词"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "fullSentence": "First, I will limit my screen time to one hour a day.",
+      "source": "Project",
+      "chinese": "第一，我要把屏幕时间限制在每天一小时。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "First",
+          "type": "adverb",
+          "chinese": "第一；首先",
+          "note": "序数词，表示顺序"
+        },
+        {
+          "order": 2,
+          "text": "I will limit my screen time",
+          "type": "subject-verb-object",
+          "chinese": "我要限制我的屏幕时间",
+          "note": "一般将来时：will + 动词原形",
+          "wordBreakdown": [
+            {"word": "limit", "phonetic": "/ˈlɪmɪt/", "pos": "v.", "meaning": "限制"},
+            {"word": "screen", "phonetic": "/skriːn/", "pos": "n.", "meaning": "屏幕"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "to one hour a day",
+          "type": "prepositional-phrase",
+          "chinese": "到每天一小时",
+          "note": "limit...to... 把……限制在……"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "fullSentence": "Second, I'm going to help my parents with housework every weekend.",
+      "source": "Project",
+      "chinese": "第二，我打算每个周末帮我父母做家务。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Second",
+          "type": "adverb",
+          "chinese": "第二",
+          "note": "序数词，表示顺序"
+        },
+        {
+          "order": 2,
+          "text": "I'm going to help my parents with housework",
+          "type": "subject-verb-object",
+          "chinese": "我打算帮我父母做家务",
+          "note": "help sb. with sth. 帮助某人做某事",
+          "wordBreakdown": [
+            {"word": "housework", "phonetic": "/ˈhaʊswɜːk/", "pos": "n.", "meaning": "家务"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "every weekend",
+          "type": "adverbial",
+          "chinese": "每个周末",
+          "note": "时间状语，every + 名词表示频率"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "fullSentence": "Third, I will join the school speech club to become braver.",
+      "source": "Project",
+      "chinese": "第三，我要加入学校演讲俱乐部来变得更勇敢。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Third",
+          "type": "adverb",
+          "chinese": "第三",
+          "note": "序数词，表示顺序"
+        },
+        {
+          "order": 2,
+          "text": "I will join the school speech club",
+          "type": "subject-verb-object",
+          "chinese": "我要加入学校演讲俱乐部",
+          "note": "join + 组织，表示加入某个团体",
+          "wordBreakdown": [
+            {"word": "join", "phonetic": "/dʒɔɪn/", "pos": "v.", "meaning": "参加；加入"},
+            {"word": "speech", "phonetic": "/spiːtʃ/", "pos": "n.", "meaning": "演讲"},
+            {"word": "club", "phonetic": "/klʌb/", "pos": "n.", "meaning": "俱乐部"}
+          ]
+        },
+        {
+          "order": 3,
+          "text": "to become braver",
+          "type": "infinitive",
+          "chinese": "来变得更勇敢",
+          "note": "不定式作目的状语；braver是brave的比较级",
+          "wordBreakdown": [
+            {"word": "brave", "phonetic": "/breɪv/", "pos": "adj.", "meaning": "勇敢的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "fullSentence": "I will try my best to become a better me.",
+      "source": "Project",
+      "chinese": "我会尽我最大努力成为更好的自己。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I will try my best",
+          "type": "subject-verb",
+          "chinese": "我会尽我最大努力",
+          "note": "try one's best 尽某人最大努力",
+          "wordBreakdown": [
+            {"word": "try", "phonetic": "/traɪ/", "pos": "v.", "meaning": "尝试"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "to become a better me",
+          "type": "infinitive",
+          "chinese": "成为更好的自己",
+          "note": "不定式作目的状语；a better me 一个更好的我"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "fullSentence": "Small changes can make a big difference.",
+      "source": "Project",
+      "chinese": "小小的改变能带来大大的不同。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "Small changes",
+          "type": "subject",
+          "chinese": "小小的改变",
+          "note": "small修饰名词复数changes",
+          "wordBreakdown": [
+            {"word": "change", "phonetic": "/tʃeɪndʒ/", "pos": "n.", "meaning": "改变；变化"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "can make a big difference",
+          "type": "verb-object",
+          "chinese": "能带来大大的不同",
+          "note": "make a difference 有影响；有作用",
+          "wordBreakdown": [
+            {"word": "difference", "phonetic": "/ˈdɪfrəns/", "pos": "n.", "meaning": "差异；不同"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "fullSentence": "I'd like to share my plan for becoming a better me.",
+      "source": "Project",
+      "chinese": "我想分享我成为更好的自己的计划。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I'd like to share",
+          "type": "verb-phrase",
+          "chinese": "我想分享",
+          "note": "I'd like to = I would like to 我想要",
+          "wordBreakdown": [
+            {"word": "share", "phonetic": "/ʃeə(r)/", "pos": "v.", "meaning": "分享"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "my plan for becoming a better me",
+          "type": "object",
+          "chinese": "我成为更好的自己的计划",
+          "note": "plan for... 关于……的计划；for是介词，后接动名词"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "fullSentence": "I believe I can make it.",
+      "source": "Project",
+      "chinese": "我相信我能做到。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I believe",
+          "type": "subject-verb",
+          "chinese": "我相信",
+          "note": "believe后接宾语从句",
+          "wordBreakdown": [
+            {"word": "believe", "phonetic": "/bɪˈliːv/", "pos": "v.", "meaning": "相信"}
+          ]
+        },
+        {
+          "order": 2,
+          "text": "I can make it",
+          "type": "clause",
+          "chinese": "我能做到",
+          "note": "宾语从句；make it 成功做到"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "fullSentence": "We can become better by working on our weak points.",
+      "source": "Project",
+      "chinese": "我们可以通过改进我们的不足来变得更好。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "We can become better",
+          "type": "main-clause",
+          "chinese": "我们可以变得更好",
+          "note": "can + 动词原形；better比较级"
+        },
+        {
+          "order": 2,
+          "text": "by working on our weak points",
+          "type": "prepositional-phrase",
+          "chinese": "通过改进我们的不足",
+          "note": "by + 动名词；work on 致力于；改进",
+          "wordBreakdown": [
+            {"word": "weak", "phonetic": "/wiːk/", "pos": "adj.", "meaning": "弱的；差的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "fullSentence": "I study hard and I try my best in everything.",
+      "source": "Project",
+      "chinese": "我学习努力，每件事都尽我最大努力。",
+      "fragments": [
+        {
+          "order": 1,
+          "text": "I study hard",
+          "type": "clause-1",
+          "chinese": "我学习努力",
+          "note": "study hard 努力学习；hard作副词"
+        },
+        {
+          "order": 2,
+          "text": "and I try my best in everything",
+          "type": "clause-2",
+          "chinese": "并且我每件事都尽最大努力",
+          "note": "try one's best in... 在……方面尽最大努力"
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "totalFragments": 64,
+    "totalSentences": 16,
+    "sources": ["Project 1"]
+  }
+}

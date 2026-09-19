@@ -1,0 +1,81 @@
+{
+  "packageName": "grade6-semester1-unit4",
+  "version": "2.0.0",
+  "domain": "english",
+  "title": "Unit 4 Getting together",
+  "subtitle": "六年级上册 · 第四单元 · 聚在一起",
+  "semester": "上学期",
+  "grade": "六年级",
+  "publisher": "译林出版社",
+  "textbookVersion": "2026秋新教材",
+  "module": "Module 2 Great times",
+  "unitTheme": "聚在一起 — 奶奶的生日与重阳节，感受亲情与传统文化",
+  "grammarFocus": [
+    "序数词：66th, 21st, 9th 等",
+    "日期表达：21st October",
+    "一般过去时：生日活动叙述",
+    "be going to / will 表达计划与安排",
+    "节日表达：the Double Ninth Festival"
+  ],
+  "keyVocabulary": [
+    "together", "birthday", "grandparent", "gift", "smartphone",
+    "cake", "candle", "blow out", "noodle", "long life",
+    "chat", "family photo", "Double Ninth Festival", "lunar",
+    "chore", "cook dinner", "festival", "ninth", "October"
+  ],
+  "culturalFocus": [
+    "生日吃长寿面的习俗",
+    "重阳节的由来与习俗",
+    "尊老爱幼的传统美德"
+  ],
+  "growthAvailable": true,
+  "storyTime": {
+    "title": "Grandma's birthday",
+    "character": "Wang Bing",
+    "sentenceCount": 13
+  },
+  "cartoonTime": {
+    "title": "The Double Ninth Festival",
+    "characters": ["Bobby", "Tina", "Grandpa"],
+    "sentenceCount": 16
+  },
+  "activities": [
+    {
+      "id": "sentence-practice",
+      "name": "拆句练习",
+      "type": "sentence-breakdown",
+      "path": "content/sentence-practice.json",
+      "description": "按递进链原则拆分课文对话，逐句掌握句型结构"
+    },
+    {
+      "id": "conversation-practice",
+      "name": "对话练习",
+      "type": "conversation",
+      "path": "content/conversation-practice.json",
+      "description": "Story time + Cartoon time 完整对话，角色扮演跟读"
+    },
+    {
+      "id": "reading-qa",
+      "name": "阅读理解",
+      "type": "reading-comprehension",
+      "path": "content/reading-qa.json",
+      "description": "基于课文的阅读理解选择题，检验理解程度"
+    },
+    {
+      "id": "word-family-evolution",
+      "name": "词族进化",
+      "type": "growth",
+      "path": "content/growth-content.json",
+      "subType": "word-family",
+      "description": "核心词汇的词族扩展与用法演变"
+    },
+    {
+      "id": "sentence-pattern-transfer",
+      "name": "句型迁移",
+      "type": "growth",
+      "path": "content/growth-content.json",
+      "subType": "sentence-pattern",
+      "description": "从课文句型迁移到生活表达"
+    }
+  ]
+}
