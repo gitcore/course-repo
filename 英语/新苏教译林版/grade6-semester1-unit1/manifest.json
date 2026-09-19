@@ -28,6 +28,7 @@
           "pattern-transfer"
         ],
         "foundationActivityTypes": [
+          "readalong",
           "sentence-practice",
           "conversation-practice"
         ],
@@ -58,6 +59,12 @@
         "path": "textbook.md"
       },
       "activities": [
+        {
+          "type": "readalong",
+          "name": "课文阅读",
+          "data": "assets/readalong/Try-your-best.web.html",
+          "enabled": true
+        },
         {
           "type": "sentence-practice",
           "name": "拆句练习",

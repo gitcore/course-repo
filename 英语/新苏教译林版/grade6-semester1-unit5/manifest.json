@@ -1,80 +1,59 @@
 {
-  "packageName": "grade6-semester1-unit5",
-  "version": "2.0.0",
-  "domain": "english",
-  "title": "Unit 5 Keeping our city clean",
-  "subtitle": "六年级上册 · 第五单元 · 保持城市清洁",
-  "semester": "上学期",
-  "grade": "六年级",
-  "publisher": "译林出版社",
-  "textbookVersion": "2026秋新教材",
-  "module": "Module 2 Great times",
-  "unitTheme": "保持城市清洁 — Plogging运动与环保意识",
-  "grammarFocus": [
-    "一般将来时：will + 动词原形",
-    "表达计划与安排：I'll / We'll / What's your plan for...?",
-    "祈使句：Don't + 动词原形",
-    "情态动词 should / shouldn't"
-  ],
-  "keyVocabulary": [
-    "keep", "clean", "city", "plan", "weekend", "plogging",
-    "jog", "rubbish", "pick up", "throw", "banana skin",
-    "dirty", "sorry", "fall", "ground", "gate", "join",
-    "sound great", "on time", "do a great job"
-  ],
-  "culturalFocus": [
-    "Plogging运动起源与意义",
-    "城市环保意识",
-    "不乱扔垃圾的公共道德"
-  ],
-  "growthAvailable": true,
-  "storyTime": {
-    "title": "Plogging day",
-    "characters": ["Su Hai", "Liu Tao", "Su Yang"],
-    "sentenceCount": 14
+  "schemaVersion": "2.0",
+  "id": "grade6-semester1-unit5",
+  "name": "Unit 5 Keeping our city clean",
+  "description": "保持城市清洁 — Plogging运动与环保意识",
+  "subject": "english",
+  "publisher": {
+    "name": "译林出版社"
   },
-  "cartoonTime": {
-    "title": "A banana skin",
-    "characters": ["Bobby", "Tina", "Willy"],
-    "sentenceCount": 15
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "",
+    "generatedAt": ""
   },
-  "activities": [
-    {
-      "id": "sentence-practice",
-      "name": "拆句练习",
-      "type": "sentence-breakdown",
-      "path": "content/sentence-practice.json",
-      "description": "按递进链原则拆分课文对话，逐句掌握句型结构"
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": "wordlist.md",
+      "vocabulary": null,
+      "languageLevel": "primary-grade-6",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "阅读教材配套有声读本，熟悉本单元原文表达。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 5,
+      "tags": [
+        "保持城市清洁 — Plogging运动与环保意识"
+      ],
+      "growth": {
+        "growthAvailable": false,
+        "growthTypes": [],
+        "foundationActivityTypes": [
+          "readalong"
+        ],
+        "growthActivityTypes": []
+      }
     },
-    {
-      "id": "conversation-practice",
-      "name": "对话练习",
-      "type": "conversation",
-      "path": "content/conversation-practice.json",
-      "description": "Story time + Cartoon time 完整对话，角色扮演跟读"
-    },
-    {
-      "id": "reading-qa",
-      "name": "阅读理解",
-      "type": "reading-comprehension",
-      "path": "content/reading-qa.json",
-      "description": "基于课文的阅读理解选择题，检验理解程度"
-    },
-    {
-      "id": "word-family-evolution",
-      "name": "词族进化",
-      "type": "growth",
-      "path": "content/growth-content.json",
-      "subType": "word-family",
-      "description": "核心词汇的词族扩展与用法演变"
-    },
-    {
-      "id": "sentence-pattern-transfer",
-      "name": "句型迁移",
-      "type": "growth",
-      "path": "content/growth-content.json",
-      "subType": "sentence-pattern",
-      "description": "从课文句型迁移到生活表达"
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "readalong",
+          "name": "课文阅读",
+          "data": "assets/readalong/Keeping-our-city-clean.web.html",
+          "enabled": true
+        }
+      ]
     }
-  ]
+  }
 }

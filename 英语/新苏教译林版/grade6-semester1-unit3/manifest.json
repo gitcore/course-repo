@@ -1,79 +1,59 @@
 {
-  "packageName": "grade6-semester1-unit3",
-  "version": "2.0.0",
-  "domain": "english",
-  "title": "Unit 3 Great people",
-  "subtitle": "六年级上册 · 第三单元 · 伟大人物",
-  "semester": "上学期",
-  "grade": "六年级",
-  "publisher": "译林出版社",
-  "textbookVersion": "2026秋新教材",
-  "module": "Module 1 Good qualities",
-  "unitTheme": "伟大人物 — 学习袁隆平的科学精神，发现身边的平凡英雄",
-  "grammarFocus": [
-    "一般过去时：Who/What/How/When 特殊疑问句",
-    "be born in / passed away 表达出生与去世",
-    "He worked hard and never gave up. 并列谓语",
-    "It feeds people all over the world. 一般现在时表客观事实"
-  ],
-  "keyVocabulary": [
-    "hero", "scientist", "inventor", "famous", "born", "pass away",
-    "farming", "develop", "hybrid rice", "feed", "dream", "give up",
-    "hard", "field", "experiment", "all over the world", "great"
-  ],
-  "culturalFocus": [
-    "袁隆平：杂交水稻之父",
-    "平凡人物也可以是英雄",
-    "乐于助人的美好品质"
-  ],
-  "growthAvailable": true,
-  "storyTime": {
-    "title": "A great scientist",
-    "character": "袁隆平",
-    "sentenceCount": 13
+  "schemaVersion": "2.0",
+  "id": "grade6-semester1-unit3",
+  "name": "Unit 3 Great people",
+  "description": "伟大人物 — 学习袁隆平的科学精神，发现身边的平凡英雄",
+  "subject": "english",
+  "publisher": {
+    "name": "译林出版社"
   },
-  "cartoonTime": {
-    "title": "My hero",
-    "characters": ["Bobby", "Mum", "Mrs Mouse"],
-    "sentenceCount": 16
+  "generation": {
+    "sourceHash": "",
+    "generatorVersion": "",
+    "generatedAt": ""
   },
-  "activities": [
-    {
-      "id": "sentence-practice",
-      "name": "拆句练习",
-      "type": "sentence-breakdown",
-      "path": "content/sentence-practice.json",
-      "description": "按递进链原则拆分课文对话，逐句掌握句型结构"
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": "wordlist.md",
+      "vocabulary": null,
+      "languageLevel": "primary-grade-6",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "阅读教材配套有声读本，熟悉本单元原文表达。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 3,
+      "tags": [
+        "伟大人物 — 学习袁隆平的科学精神，发现身边的平凡英雄"
+      ],
+      "growth": {
+        "growthAvailable": false,
+        "growthTypes": [],
+        "foundationActivityTypes": [
+          "readalong"
+        ],
+        "growthActivityTypes": []
+      }
     },
-    {
-      "id": "conversation-practice",
-      "name": "对话练习",
-      "type": "conversation",
-      "path": "content/conversation-practice.json",
-      "description": "Story time + Cartoon time 完整对话，角色扮演跟读"
-    },
-    {
-      "id": "reading-qa",
-      "name": "阅读理解",
-      "type": "reading-comprehension",
-      "path": "content/reading-qa.json",
-      "description": "基于课文的阅读理解选择题，检验理解程度"
-    },
-    {
-      "id": "word-family-evolution",
-      "name": "词族进化",
-      "type": "growth",
-      "path": "content/growth-content.json",
-      "subType": "word-family",
-      "description": "核心词汇的词族扩展与用法演变"
-    },
-    {
-      "id": "sentence-pattern-transfer",
-      "name": "句型迁移",
-      "type": "growth",
-      "path": "content/growth-content.json",
-      "subType": "sentence-pattern",
-      "description": "从课文句型迁移到生活表达"
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "readalong",
+          "name": "课文阅读",
+          "data": "assets/readalong/Great-people.web.html",
+          "enabled": true
+        }
+      ]
     }
-  ]
+  }
 }
