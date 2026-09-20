@@ -2,7 +2,7 @@
   "manifestId": "new-yilin-grade6-semester1-unit1",
   "activityType": "sentence-practice",
   "sourceHash": "a0bc98f8bdb8fcced257f983874548d4e6ca6367c449efc361c27f6e54ae527a",
-  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatorVersion": "unit1-progressive-chains-20260920",
   "generatedAt": "2026-09-20",
   "sections": [
     {
@@ -15,8 +15,8 @@
           "speaker": "narrator",
           "chinese": "上周",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：上周",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "Last",
@@ -33,7 +33,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间",
               "text": "Last week,"
             }
           ],
@@ -47,8 +47,8 @@
           "speaker": "narrator",
           "chinese": "Bobby 和 Sam 看到了",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 和 Sam 看到了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "Bobby",
@@ -77,7 +77,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby and Sam saw"
             }
           ],
@@ -87,12 +87,38 @@
         {
           "sequenceNumber": 1,
           "segmentNumber": 3,
+          "english": "poster",
+          "speaker": "narrator",
+          "chinese": "海报",
+          "difficulty": 1,
+          "hint": "回忆物品的表达",
+          "grammarAnalysis": "名词，指张贴出来的海报。",
+          "words": [
+            {
+              "text": "poster",
+              "phonetic": "/ˈpəʊstə/",
+              "partOfSpeech": "n.",
+              "meaning": "海报，招贴画"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "物品",
+              "text": "poster"
+            }
+          ],
+          "category": "word",
+          "id": "1-3"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
           "english": "a new poster",
           "speaker": "narrator",
           "chinese": "一张新海报",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：一张新海报",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆物品的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "a",
@@ -115,22 +141,84 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "物品",
               "text": "a new poster"
             }
           ],
           "category": "phrase",
-          "id": "1-3"
+          "id": "1-4"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
+          "english": "Bobby and Sam saw a new poster",
+          "speaker": "narrator",
+          "chinese": "Bobby 和 Sam 看到了一张新海报",
+          "difficulty": 1,
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
+          "words": [
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和"
+            },
+            {
+              "text": "Sam",
+              "phonetic": "/sæm/",
+              "partOfSpeech": "n.",
+              "meaning": "萨姆（人名）"
+            },
+            {
+              "text": "saw",
+              "phonetic": "/sɔː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见（see的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "new",
+              "phonetic": "/njuː/",
+              "partOfSpeech": "adj.",
+              "meaning": "新的"
+            },
+            {
+              "text": "poster",
+              "phonetic": "/ˈpəʊstə/",
+              "partOfSpeech": "n.",
+              "meaning": "海报，招贴画"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "人物和动作",
+              "text": "Bobby and Sam saw a new poster"
+            }
+          ],
+          "category": "phrase",
+          "id": "1-5"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 6,
           "english": "at",
           "speaker": "narrator",
           "chinese": "在",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：在",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆位置的表达",
+          "grammarAnalysis": "介词连接前面的事情与后面的时间、地点或活动。",
           "words": [
             {
               "text": "at",
@@ -141,22 +229,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "位置",
               "text": "at"
             }
           ],
-          "category": "phrase",
-          "id": "1-4"
+          "category": "word",
+          "id": "1-6"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 5,
+          "segmentNumber": 7,
           "english": "school.",
           "speaker": "narrator",
           "chinese": "学校",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：学校",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆地点的表达",
+          "grammarAnalysis": "这个短语补充动作发生的地点或同行的人。",
           "words": [
             {
               "text": "school",
@@ -167,16 +255,122 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "地点",
               "text": "school."
             }
           ],
-          "category": "phrase",
-          "id": "1-5"
+          "category": "word",
+          "id": "1-7"
         },
         {
           "sequenceNumber": 1,
-          "segmentNumber": 6,
+          "segmentNumber": 8,
+          "english": "at school.",
+          "speaker": "narrator",
+          "chinese": "在学校",
+          "difficulty": 1,
+          "hint": "回忆地点的表达",
+          "grammarAnalysis": "这个短语补充动作发生的地点或同行的人。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "地点",
+              "text": "at school."
+            }
+          ],
+          "category": "phrase",
+          "id": "1-8"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 9,
+          "english": "Bobby and Sam saw a new poster at school.",
+          "speaker": "narrator",
+          "chinese": "Bobby 和 Sam 在学校看到了一张新海报。",
+          "difficulty": 1,
+          "hint": "回忆事情的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
+          "words": [
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和"
+            },
+            {
+              "text": "Sam",
+              "phonetic": "/sæm/",
+              "partOfSpeech": "n.",
+              "meaning": "萨姆（人名）"
+            },
+            {
+              "text": "saw",
+              "phonetic": "/sɔː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见（see的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "new",
+              "phonetic": "/njuː/",
+              "partOfSpeech": "adj.",
+              "meaning": "新的"
+            },
+            {
+              "text": "poster",
+              "phonetic": "/ˈpəʊstə/",
+              "partOfSpeech": "n.",
+              "meaning": "海报，招贴画"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "事情",
+              "text": "Bobby and Sam saw a new poster at school."
+            }
+          ],
+          "category": "phrase",
+          "id": "1-9"
+        },
+        {
+          "sequenceNumber": 1,
+          "segmentNumber": 10,
           "english": "Last week, Bobby and Sam saw a new poster at school.",
           "speaker": "narrator",
           "chinese": "上周，Bobby 和 Sam 在学校看到了一张新海报。",
@@ -253,28 +447,28 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间",
               "text": "Last week,"
             },
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby and Sam saw"
             },
             {
-              "label": "词块",
+              "label": "物品",
               "text": "a new poster"
             },
             {
-              "label": "词块",
+              "label": "位置",
               "text": "at"
             },
             {
-              "label": "词块",
+              "label": "地点",
               "text": "school."
             }
           ],
           "category": "sentence",
-          "id": "1-6"
+          "id": "1-10"
         },
         {
           "sequenceNumber": 2,
@@ -283,8 +477,8 @@
           "speaker": "Sam",
           "chinese": "Bobby，你为什么不",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby，你为什么不",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆建议句式的表达",
+          "grammarAnalysis": "Why don't you + 动词原形，用来提出建议。",
           "words": [
             {
               "text": "Bobby",
@@ -313,7 +507,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "建议句式",
               "text": "Bobby, why don't you"
             }
           ],
@@ -327,8 +521,8 @@
           "speaker": "Sam",
           "chinese": "参加",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：参加",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "take part 表示参加活动。",
           "words": [
             {
               "text": "take",
@@ -345,7 +539,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "动作",
               "text": "take part?"
             }
           ],
@@ -401,15 +595,15 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "称呼",
               "text": "Bobby,"
             },
             {
-              "label": "词块",
+              "label": "建议句式",
               "text": "why don't you"
             },
             {
-              "label": "词块",
+              "label": "动作",
               "text": "take part?"
             }
           ],
@@ -419,38 +613,12 @@
         {
           "sequenceNumber": 3,
           "segmentNumber": 1,
-          "english": "Er,",
-          "speaker": "Bobby",
-          "chinese": "呃",
-          "difficulty": 1,
-          "hint": "回忆这部分的意思：呃",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
-          "words": [
-            {
-              "text": "Er",
-              "phonetic": "/ɜː/",
-              "partOfSpeech": "interj.",
-              "meaning": "呃（犹豫时的声音）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "词块",
-              "text": "Er,"
-            }
-          ],
-          "category": "phrase",
-          "id": "3-1"
-        },
-        {
-          "sequenceNumber": 3,
-          "segmentNumber": 2,
           "english": "I'm not good at",
           "speaker": "Bobby",
           "chinese": "我不擅长",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：我不擅长",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆表达能力的表达",
+          "grammarAnalysis": "be good at 表示擅长；not 表示否定。",
           "words": [
             {
               "text": "I'm",
@@ -479,22 +647,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "表达能力",
               "text": "I'm not good at"
             }
           ],
           "category": "phrase",
-          "id": "3-2"
+          "id": "3-1"
         },
         {
           "sequenceNumber": 3,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "singing.",
           "speaker": "Bobby",
           "chinese": "唱歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：唱歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆活动的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "singing",
@@ -505,8 +673,58 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "活动",
               "text": "singing."
+            }
+          ],
+          "category": "word",
+          "id": "3-2"
+        },
+        {
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
+          "english": "I'm not good at singing.",
+          "speaker": "Bobby",
+          "chinese": "我不擅长唱歌。",
+          "difficulty": 1,
+          "hint": "回忆表达能力的表达",
+          "grammarAnalysis": "be good at 后面接动词 -ing 形式。",
+          "words": [
+            {
+              "text": "I'm",
+              "phonetic": "/aɪm/",
+              "partOfSpeech": "contraction",
+              "meaning": "我是（I am的缩写）"
+            },
+            {
+              "text": "not",
+              "phonetic": "/nɒt/",
+              "partOfSpeech": "adv.",
+              "meaning": "不"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            },
+            {
+              "text": "singing",
+              "phonetic": "/ˈsɪŋɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌（sing 的 -ing 形式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "表达能力",
+              "text": "I'm not good at singing."
             }
           ],
           "category": "phrase",
@@ -561,15 +779,15 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "语气",
               "text": "Er,"
             },
             {
-              "label": "词块",
+              "label": "表达能力",
               "text": "I'm not good at"
             },
             {
-              "label": "词块",
+              "label": "活动",
               "text": "singing."
             }
           ],
@@ -583,8 +801,8 @@
           "speaker": "Sam",
           "chinese": "但是你喜欢",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：但是你喜欢",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和态度的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "But",
@@ -607,7 +825,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和态度",
               "text": "But you like"
             }
           ],
@@ -621,8 +839,8 @@
           "speaker": "Sam",
           "chinese": "唱歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：唱歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆活动的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "singing",
@@ -633,11 +851,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "活动",
               "text": "singing!"
             }
           ],
-          "category": "phrase",
+          "category": "word",
           "id": "4-2"
         },
         {
@@ -677,11 +895,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和态度",
               "text": "But you like"
             },
             {
-              "label": "词块",
+              "label": "活动",
               "text": "singing!"
             }
           ],
@@ -719,7 +937,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "鼓励",
               "text": "Have a go!"
             }
           ],
@@ -729,12 +947,44 @@
         {
           "sequenceNumber": 5,
           "segmentNumber": 1,
+          "english": "practised singing",
+          "speaker": "narrator",
+          "chinese": "练习唱歌",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "practise 后接动词 -ing 形式；practised 表示过去的练习。",
+          "words": [
+            {
+              "text": "practised",
+              "phonetic": "/ˈpræktɪst/",
+              "partOfSpeech": "v.",
+              "meaning": "练习（practise的过去式）"
+            },
+            {
+              "text": "singing",
+              "phonetic": "/ˈsɪŋɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌（sing 的 -ing 形式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "practised singing"
+            }
+          ],
+          "category": "phrase",
+          "id": "5-1"
+        },
+        {
+          "sequenceNumber": 5,
+          "segmentNumber": 2,
           "english": "Bobby practised singing",
           "speaker": "narrator",
           "chinese": "Bobby 练习唱歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 练习唱歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "Bobby",
@@ -757,22 +1007,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby practised singing"
             }
           ],
           "category": "phrase",
-          "id": "5-1"
+          "id": "5-2"
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "in",
           "speaker": "narrator",
           "chinese": "在",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：在",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间连接的表达",
+          "grammarAnalysis": "介词连接前面的事情与后面的时间、地点或活动。",
           "words": [
             {
               "text": "in",
@@ -783,22 +1033,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间连接",
               "text": "in"
             }
           ],
-          "category": "phrase",
-          "id": "5-2"
+          "category": "word",
+          "id": "5-3"
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "the morning.",
           "speaker": "narrator",
           "chinese": "早上",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：早上",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "the",
@@ -815,16 +1065,54 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间",
               "text": "the morning."
             }
           ],
           "category": "phrase",
-          "id": "5-3"
+          "id": "5-4"
         },
         {
           "sequenceNumber": 5,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
+          "english": "in the morning.",
+          "speaker": "narrator",
+          "chinese": "在早上",
+          "difficulty": 1,
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "morning",
+              "phonetic": "/ˈmɔːnɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "早晨，上午"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "时间",
+              "text": "in the morning."
+            }
+          ],
+          "category": "phrase",
+          "id": "5-5"
+        },
+        {
+          "sequenceNumber": 5,
+          "segmentNumber": 6,
           "english": "Bobby practised singing in the morning.",
           "speaker": "narrator",
           "chinese": "Bobby 在早上练习唱歌。",
@@ -871,20 +1159,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby practised singing"
             },
             {
-              "label": "词块",
+              "label": "时间连接",
               "text": "in"
             },
             {
-              "label": "词块",
+              "label": "时间",
               "text": "the morning."
             }
           ],
           "category": "sentence",
-          "id": "5-4"
+          "id": "5-6"
         },
         {
           "sequenceNumber": 6,
@@ -905,7 +1193,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "歌声",
               "text": "La la la ..."
             }
           ],
@@ -919,8 +1207,8 @@
           "speaker": "Rooster",
           "chinese": "Bobby 正在唱歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 正在唱歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆正在做的表达",
+          "grammarAnalysis": "is + 动词 -ing 形式表示正在做的动作。",
           "words": [
             {
               "text": "Bobby",
@@ -943,7 +1231,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "正在做",
               "text": "Bobby is singing"
             }
           ],
@@ -957,8 +1245,8 @@
           "speaker": "Rooster",
           "chinese": "又一次",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：又一次",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆次数的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "again",
@@ -969,11 +1257,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "次数",
               "text": "again!"
             }
           ],
-          "category": "phrase",
+          "category": "word",
           "id": "7-2"
         },
         {
@@ -1013,11 +1301,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "正在做",
               "text": "Bobby is singing"
             },
             {
-              "label": "词块",
+              "label": "次数",
               "text": "again!"
             }
           ],
@@ -1027,12 +1315,44 @@
         {
           "sequenceNumber": 8,
           "segmentNumber": 1,
+          "english": "practised singing",
+          "speaker": "narrator",
+          "chinese": "练习唱歌",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "practise 后接动词 -ing 形式；practised 表示过去的练习。",
+          "words": [
+            {
+              "text": "practised",
+              "phonetic": "/ˈpræktɪst/",
+              "partOfSpeech": "v.",
+              "meaning": "练习（practise的过去式）"
+            },
+            {
+              "text": "singing",
+              "phonetic": "/ˈsɪŋɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌（sing 的 -ing 形式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "practised singing"
+            }
+          ],
+          "category": "phrase",
+          "id": "8-1"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 2,
           "english": "Bobby practised singing",
           "speaker": "narrator",
           "chinese": "Bobby 练习唱歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 练习唱歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "Bobby",
@@ -1055,22 +1375,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby practised singing"
             }
           ],
           "category": "phrase",
-          "id": "8-1"
+          "id": "8-2"
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "in",
           "speaker": "narrator",
           "chinese": "在",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：在",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间连接的表达",
+          "grammarAnalysis": "介词连接前面的事情与后面的时间、地点或活动。",
           "words": [
             {
               "text": "in",
@@ -1081,22 +1401,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间连接",
               "text": "in"
             }
           ],
-          "category": "phrase",
-          "id": "8-2"
+          "category": "word",
+          "id": "8-3"
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "the afternoon.",
           "speaker": "narrator",
           "chinese": "下午",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：下午",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "the",
@@ -1113,16 +1433,54 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间",
               "text": "the afternoon."
             }
           ],
           "category": "phrase",
-          "id": "8-3"
+          "id": "8-4"
         },
         {
           "sequenceNumber": 8,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
+          "english": "in the afternoon.",
+          "speaker": "narrator",
+          "chinese": "在下午",
+          "difficulty": 1,
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "afternoon",
+              "phonetic": "/ˌɑːftəˈnuːn/",
+              "partOfSpeech": "n.",
+              "meaning": "下午"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "时间",
+              "text": "in the afternoon."
+            }
+          ],
+          "category": "phrase",
+          "id": "8-5"
+        },
+        {
+          "sequenceNumber": 8,
+          "segmentNumber": 6,
           "english": "Bobby practised singing in the afternoon.",
           "speaker": "narrator",
           "chinese": "Bobby 在下午练习唱歌。",
@@ -1169,20 +1527,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby practised singing"
             },
             {
-              "label": "词块",
+              "label": "时间连接",
               "text": "in"
             },
             {
-              "label": "词块",
+              "label": "时间",
               "text": "the afternoon."
             }
           ],
           "category": "sentence",
-          "id": "8-4"
+          "id": "8-6"
         },
         {
           "sequenceNumber": 9,
@@ -1203,7 +1561,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "歌声",
               "text": "La la la ..."
             }
           ],
@@ -1213,12 +1571,44 @@
         {
           "sequenceNumber": 10,
           "segmentNumber": 1,
+          "english": "practised singing",
+          "speaker": "narrator",
+          "chinese": "练习唱歌",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "practise 后接动词 -ing 形式；practised 表示过去的练习。",
+          "words": [
+            {
+              "text": "practised",
+              "phonetic": "/ˈpræktɪst/",
+              "partOfSpeech": "v.",
+              "meaning": "练习（practise的过去式）"
+            },
+            {
+              "text": "singing",
+              "phonetic": "/ˈsɪŋɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌（sing 的 -ing 形式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "practised singing"
+            }
+          ],
+          "category": "phrase",
+          "id": "10-1"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 2,
           "english": "Bobby practised singing",
           "speaker": "narrator",
           "chinese": "Bobby 练习唱歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 练习唱歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "Bobby",
@@ -1241,22 +1631,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby practised singing"
             }
           ],
           "category": "phrase",
-          "id": "10-1"
+          "id": "10-2"
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "in",
           "speaker": "narrator",
           "chinese": "在",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：在",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间连接的表达",
+          "grammarAnalysis": "介词连接前面的事情与后面的时间、地点或活动。",
           "words": [
             {
               "text": "in",
@@ -1267,22 +1657,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间连接",
               "text": "in"
             }
           ],
-          "category": "phrase",
-          "id": "10-2"
+          "category": "word",
+          "id": "10-3"
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "the evening.",
           "speaker": "narrator",
           "chinese": "晚上",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：晚上",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "the",
@@ -1299,16 +1689,54 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间",
               "text": "the evening."
             }
           ],
           "category": "phrase",
-          "id": "10-3"
+          "id": "10-4"
         },
         {
           "sequenceNumber": 10,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
+          "english": "in the evening.",
+          "speaker": "narrator",
+          "chinese": "在晚上",
+          "difficulty": 1,
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "evening",
+              "phonetic": "/ˈiːvnɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "晚上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "时间",
+              "text": "in the evening."
+            }
+          ],
+          "category": "phrase",
+          "id": "10-5"
+        },
+        {
+          "sequenceNumber": 10,
+          "segmentNumber": 6,
           "english": "Bobby practised singing in the evening.",
           "speaker": "narrator",
           "chinese": "Bobby 在晚上练习唱歌。",
@@ -1355,20 +1783,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby practised singing"
             },
             {
-              "label": "词块",
+              "label": "时间连接",
               "text": "in"
             },
             {
-              "label": "词块",
+              "label": "时间",
               "text": "the evening."
             }
           ],
           "category": "sentence",
-          "id": "10-4"
+          "id": "10-6"
         },
         {
           "sequenceNumber": 11,
@@ -1389,7 +1817,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "歌声",
               "text": "La la la ..."
             }
           ],
@@ -1403,8 +1831,8 @@
           "speaker": "Tina",
           "chinese": "Bobby 正在唱歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 正在唱歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆正在做的表达",
+          "grammarAnalysis": "is + 动词 -ing 形式表示正在做的动作。",
           "words": [
             {
               "text": "Bobby",
@@ -1427,7 +1855,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "正在做",
               "text": "Bobby is singing"
             }
           ],
@@ -1441,8 +1869,8 @@
           "speaker": "Tina",
           "chinese": "又一次",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：又一次",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆次数的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "again",
@@ -1453,11 +1881,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "次数",
               "text": "again!"
             }
           ],
-          "category": "phrase",
+          "category": "word",
           "id": "12-2"
         },
         {
@@ -1497,11 +1925,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "正在做",
               "text": "Bobby is singing"
             },
             {
-              "label": "词块",
+              "label": "次数",
               "text": "again!"
             }
           ],
@@ -1513,10 +1941,10 @@
           "segmentNumber": 1,
           "english": "It was",
           "speaker": "narrator",
-          "chinese": "轮到……了",
+          "chinese": "那时是",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：轮到……了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆过去的状态的表达",
+          "grammarAnalysis": "用 be 动词或形容词说明人物的状态、心情。",
           "words": [
             {
               "text": "It",
@@ -1533,7 +1961,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "过去的状态",
               "text": "It was"
             }
           ],
@@ -1545,10 +1973,10 @@
           "segmentNumber": 2,
           "english": "Bobby's turn.",
           "speaker": "narrator",
-          "chinese": "Bobby 的机会",
+          "chinese": "Bobby 的轮次",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 的机会",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆轮到谁的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "Bobby's",
@@ -1565,7 +1993,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "轮到谁",
               "text": "Bobby's turn."
             }
           ],
@@ -1609,11 +2037,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "过去的状态",
               "text": "It was"
             },
             {
-              "label": "词块",
+              "label": "轮到谁",
               "text": "Bobby's turn."
             }
           ],
@@ -1623,12 +2051,102 @@
         {
           "sequenceNumber": 13,
           "segmentNumber": 4,
+          "english": "First",
+          "speaker": "narrator",
+          "chinese": "起初",
+          "difficulty": 1,
+          "hint": "回忆先后顺序的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
+          "words": [
+            {
+              "text": "First",
+              "phonetic": "/fɜːst/",
+              "partOfSpeech": "ord./adv.",
+              "meaning": "第一的；首先"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先后顺序",
+              "text": "First"
+            }
+          ],
+          "category": "word",
+          "id": "13-4"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 5,
+          "english": "afraid,",
+          "speaker": "narrator",
+          "chinese": "害怕",
+          "difficulty": 1,
+          "hint": "回忆心情的表达",
+          "grammarAnalysis": "用 be 动词或形容词说明人物的状态、心情。",
+          "words": [
+            {
+              "text": "afraid",
+              "phonetic": "/əˈfreɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "害怕，畏惧"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "心情",
+              "text": "afraid,"
+            }
+          ],
+          "category": "word",
+          "id": "13-5"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 6,
+          "english": "he was afraid,",
+          "speaker": "narrator",
+          "chinese": "他很害怕",
+          "difficulty": 1,
+          "hint": "回忆人物和心情的表达",
+          "grammarAnalysis": "用 be 动词或形容词说明人物的状态、心情。",
+          "words": [
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "be动词过去式（is/am的过去式）"
+            },
+            {
+              "text": "afraid",
+              "phonetic": "/əˈfreɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "害怕，畏惧"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "人物和心情",
+              "text": "he was afraid,"
+            }
+          ],
+          "category": "phrase",
+          "id": "13-6"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 7,
           "english": "First he was afraid,",
           "speaker": "narrator",
           "chinese": "起初他很害怕",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：起初他很害怕",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆起初的情况的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "First",
@@ -1657,22 +2175,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "起初的情况",
               "text": "First he was afraid,"
             }
           ],
           "category": "phrase",
-          "id": "13-4"
+          "id": "13-7"
         },
         {
           "sequenceNumber": 13,
-          "segmentNumber": 5,
+          "segmentNumber": 8,
           "english": "but",
           "speaker": "narrator",
           "chinese": "但是",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：但是",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆转折的表达",
+          "grammarAnalysis": "连接前后两个分句，表示转折。",
           "words": [
             {
               "text": "but",
@@ -1683,22 +2201,54 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "转折",
               "text": "but"
             }
           ],
-          "category": "phrase",
-          "id": "13-5"
+          "category": "word",
+          "id": "13-8"
         },
         {
           "sequenceNumber": 13,
-          "segmentNumber": 6,
+          "segmentNumber": 9,
+          "english": "calmed down.",
+          "speaker": "narrator",
+          "chinese": "平静下来",
+          "difficulty": 1,
+          "hint": "回忆变化的表达",
+          "grammarAnalysis": "calm down 表示平静下来；calmed 表示过去。",
+          "words": [
+            {
+              "text": "calmed",
+              "phonetic": "/kɑːmd/",
+              "partOfSpeech": "v.",
+              "meaning": "使平静（calm的过去式）"
+            },
+            {
+              "text": "down",
+              "phonetic": "/daʊn/",
+              "partOfSpeech": "adv.",
+              "meaning": "与 calm 搭配，表示平静下来"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "变化",
+              "text": "calmed down."
+            }
+          ],
+          "category": "phrase",
+          "id": "13-9"
+        },
+        {
+          "sequenceNumber": 13,
+          "segmentNumber": 10,
           "english": "then he calmed down.",
           "speaker": "narrator",
           "chinese": "后来他平静了下来",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：后来他平静了下来",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆后来的情况的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "then",
@@ -1727,16 +2277,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "后来的情况",
               "text": "then he calmed down."
             }
           ],
           "category": "phrase",
-          "id": "13-6"
+          "id": "13-10"
         },
         {
           "sequenceNumber": 13,
-          "segmentNumber": 7,
+          "segmentNumber": 11,
           "english": "First he was afraid, but then he calmed down.",
           "speaker": "narrator",
           "chinese": "起初他很害怕，但后来他平静了下来。",
@@ -1795,30 +2345,56 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "起初的情况",
               "text": "First he was afraid,"
             },
             {
-              "label": "词块",
+              "label": "转折",
               "text": "but"
             },
             {
-              "label": "词块",
+              "label": "后来的情况",
               "text": "then he calmed down."
             }
           ],
           "category": "sentence",
-          "id": "13-7"
+          "id": "13-11"
         },
         {
           "sequenceNumber": 14,
           "segmentNumber": 1,
+          "english": "began",
+          "speaker": "narrator",
+          "chinese": "开始了",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "begin 的过去式，表示开始了。",
+          "words": [
+            {
+              "text": "began",
+              "phonetic": "/bɪˈɡæn/",
+              "partOfSpeech": "v.",
+              "meaning": "开始（begin 的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "began"
+            }
+          ],
+          "category": "word",
+          "id": "14-1"
+        },
+        {
+          "sequenceNumber": 14,
+          "segmentNumber": 2,
           "english": "Bobby began",
           "speaker": "narrator",
-          "chinese": "Bobby 开始了",
+          "chinese": "Bobby 开始",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 开始了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "Bobby",
@@ -1835,22 +2411,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby began"
             }
           ],
           "category": "phrase",
-          "id": "14-1"
+          "id": "14-2"
         },
         {
           "sequenceNumber": 14,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "to sing.",
           "speaker": "narrator",
           "chinese": "唱歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：唱歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆接着做什么的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "to",
@@ -1867,16 +2443,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "接着做什么",
               "text": "to sing."
             }
           ],
           "category": "phrase",
-          "id": "14-2"
+          "id": "14-3"
         },
         {
           "sequenceNumber": 14,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Bobby began to sing.",
           "speaker": "narrator",
           "chinese": "Bobby 开始唱歌。",
@@ -1911,26 +2487,122 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby began"
             },
             {
-              "label": "词块",
+              "label": "接着做什么",
               "text": "to sing."
             }
           ],
           "category": "sentence",
-          "id": "14-3"
+          "id": "14-4"
         },
         {
           "sequenceNumber": 14,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
+          "english": "First",
+          "speaker": "narrator",
+          "chinese": "起初",
+          "difficulty": 1,
+          "hint": "回忆先后顺序的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
+          "words": [
+            {
+              "text": "First",
+              "phonetic": "/fɜːst/",
+              "partOfSpeech": "ord./adv.",
+              "meaning": "第一的；首先"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先后顺序",
+              "text": "First"
+            }
+          ],
+          "category": "word",
+          "id": "14-5"
+        },
+        {
+          "sequenceNumber": 14,
+          "segmentNumber": 6,
+          "english": "forgot",
+          "speaker": "narrator",
+          "chinese": "忘了",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "forget 的过去式，表示忘了。",
+          "words": [
+            {
+              "text": "forgot",
+              "phonetic": "/fəˈɡɒt/",
+              "partOfSpeech": "v.",
+              "meaning": "忘记（forget的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "forgot"
+            }
+          ],
+          "category": "word",
+          "id": "14-6"
+        },
+        {
+          "sequenceNumber": 14,
+          "segmentNumber": 7,
+          "english": "he forgot the words,",
+          "speaker": "narrator",
+          "chinese": "他忘了歌词",
+          "difficulty": 1,
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
+          "words": [
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "forgot",
+              "phonetic": "/fəˈɡɒt/",
+              "partOfSpeech": "v.",
+              "meaning": "忘记（forget的过去式）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "words",
+              "phonetic": "/wɜːdz/",
+              "partOfSpeech": "n.",
+              "meaning": "歌词（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "人物和动作",
+              "text": "he forgot the words,"
+            }
+          ],
+          "category": "phrase",
+          "id": "14-7"
+        },
+        {
+          "sequenceNumber": 14,
+          "segmentNumber": 8,
           "english": "First he forgot the words,",
           "speaker": "narrator",
           "chinese": "起初他忘了歌词",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：起初他忘了歌词",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆起初的情况的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "First",
@@ -1965,22 +2637,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "起初的情况",
               "text": "First he forgot the words,"
             }
           ],
           "category": "phrase",
-          "id": "14-4"
+          "id": "14-8"
         },
         {
           "sequenceNumber": 14,
-          "segmentNumber": 5,
+          "segmentNumber": 9,
           "english": "but",
           "speaker": "narrator",
           "chinese": "但是",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：但是",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆转折的表达",
+          "grammarAnalysis": "连接前后两个分句，表示转折。",
           "words": [
             {
               "text": "but",
@@ -1991,22 +2663,48 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "转折",
               "text": "but"
             }
           ],
-          "category": "phrase",
-          "id": "14-5"
+          "category": "word",
+          "id": "14-9"
         },
         {
           "sequenceNumber": 14,
-          "segmentNumber": 6,
+          "segmentNumber": 10,
+          "english": "remembered",
+          "speaker": "narrator",
+          "chinese": "想起来了",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "remember 的过去式，表示记住了或想起来了。",
+          "words": [
+            {
+              "text": "remembered",
+              "phonetic": "/rɪˈmembəd/",
+              "partOfSpeech": "v.",
+              "meaning": "记住（remember的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "remembered"
+            }
+          ],
+          "category": "word",
+          "id": "14-10"
+        },
+        {
+          "sequenceNumber": 14,
+          "segmentNumber": 11,
           "english": "then he remembered them.",
           "speaker": "narrator",
-          "chinese": "后来他想起来了",
+          "chinese": "后来他想起了歌词",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：后来他想起来了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆后来的情况的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "then",
@@ -2035,16 +2733,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "后来的情况",
               "text": "then he remembered them."
             }
           ],
           "category": "phrase",
-          "id": "14-6"
+          "id": "14-11"
         },
         {
           "sequenceNumber": 14,
-          "segmentNumber": 7,
+          "segmentNumber": 12,
           "english": "First he forgot the words, but then he remembered them.",
           "speaker": "narrator",
           "chinese": "起初他忘了歌词，但后来他想起来了。",
@@ -2109,30 +2807,56 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "起初的情况",
               "text": "First he forgot the words,"
             },
             {
-              "label": "词块",
+              "label": "转折",
               "text": "but"
             },
             {
-              "label": "词块",
+              "label": "后来的情况",
               "text": "then he remembered them."
             }
           ],
           "category": "sentence",
-          "id": "14-7"
+          "id": "14-12"
         },
         {
           "sequenceNumber": 15,
           "segmentNumber": 1,
+          "english": "finished",
+          "speaker": "narrator",
+          "chinese": "完成了",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "finish 的过去式，表示完成了。",
+          "words": [
+            {
+              "text": "finished",
+              "phonetic": "/ˈfɪnɪʃt/",
+              "partOfSpeech": "v.",
+              "meaning": "完成（finish 的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "finished"
+            }
+          ],
+          "category": "word",
+          "id": "15-1"
+        },
+        {
+          "sequenceNumber": 15,
+          "segmentNumber": 2,
           "english": "Bobby finished",
           "speaker": "narrator",
-          "chinese": "Bobby 唱完了",
+          "chinese": "Bobby 完成了",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：Bobby 唱完了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "Bobby",
@@ -2149,22 +2873,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby finished"
             }
           ],
           "category": "phrase",
-          "id": "15-1"
+          "id": "15-2"
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "the song.",
           "speaker": "narrator",
           "chinese": "这首歌",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：这首歌",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆歌曲的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "the",
@@ -2181,16 +2905,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "歌曲",
               "text": "the song."
             }
           ],
           "category": "phrase",
-          "id": "15-2"
+          "id": "15-3"
         },
         {
           "sequenceNumber": 15,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Bobby finished the song.",
           "speaker": "narrator",
           "chinese": "Bobby 唱完了这首歌。",
@@ -2225,20 +2949,58 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Bobby finished"
             },
             {
-              "label": "词块",
+              "label": "歌曲",
               "text": "the song."
             }
           ],
           "category": "sentence",
-          "id": "15-3"
+          "id": "15-4"
         },
         {
           "sequenceNumber": 16,
           "segmentNumber": 1,
+          "english": "You were great,",
+          "speaker": "Sam",
+          "chinese": "你真棒",
+          "difficulty": 1,
+          "hint": "回忆赞扬的表达",
+          "grammarAnalysis": "用 be 动词或形容词说明人物的状态、心情。",
+          "words": [
+            {
+              "text": "You",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "were",
+              "phonetic": "/wɜː/",
+              "partOfSpeech": "v.",
+              "meaning": "be动词过去式（are的过去式）"
+            },
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "极好的；伟大的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "赞扬",
+              "text": "You were great,"
+            }
+          ],
+          "category": "phrase",
+          "id": "16-1"
+        },
+        {
+          "sequenceNumber": 16,
+          "segmentNumber": 2,
           "english": "You were great, Bobby!",
           "speaker": "Sam",
           "chinese": "Bobby，你真棒！",
@@ -2273,16 +3035,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "赞扬",
               "text": "You were great,"
             },
             {
-              "label": "词块",
+              "label": "称呼",
               "text": "Bobby!"
             }
           ],
           "category": "sentence",
-          "id": "16-1"
+          "id": "16-2"
         },
         {
           "sequenceNumber": 17,
@@ -2303,7 +3065,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "感谢",
               "text": "Thanks."
             }
           ],
@@ -2313,6 +3075,32 @@
         {
           "sequenceNumber": 17,
           "segmentNumber": 2,
+          "english": "enjoyed",
+          "speaker": "Bobby",
+          "chinese": "享受了",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "enjoy 的过去式，表示享受了这次经历。",
+          "words": [
+            {
+              "text": "enjoyed",
+              "phonetic": "/ɪnˈdʒɔɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢；享受（enjoy 的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "enjoyed"
+            }
+          ],
+          "category": "word",
+          "id": "17-2"
+        },
+        {
+          "sequenceNumber": 17,
+          "segmentNumber": 3,
           "english": "I really enjoyed it.",
           "speaker": "Bobby",
           "chinese": "我真的很享受这次演唱。",
@@ -2347,22 +3135,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "感受",
               "text": "I really enjoyed it."
             }
           ],
           "category": "sentence",
-          "id": "17-2"
+          "id": "17-3"
         },
         {
           "sequenceNumber": 17,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "I want",
           "speaker": "Bobby",
           "chinese": "我想",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：我想",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆愿望的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "I",
@@ -2379,22 +3167,54 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "愿望",
               "text": "I want"
             }
           ],
           "category": "phrase",
-          "id": "17-3"
+          "id": "17-4"
         },
         {
           "sequenceNumber": 17,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
+          "english": "to sing",
+          "speaker": "Bobby",
+          "chinese": "唱歌",
+          "difficulty": 1,
+          "hint": "回忆想做什么的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "inf.",
+              "meaning": "不定式符号"
+            },
+            {
+              "text": "sing",
+              "phonetic": "/sɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "想做什么",
+              "text": "to sing"
+            }
+          ],
+          "category": "phrase",
+          "id": "17-5"
+        },
+        {
+          "sequenceNumber": 17,
+          "segmentNumber": 6,
           "english": "to sing again",
           "speaker": "Bobby",
           "chinese": "再唱一次",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：再唱一次",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆想做什么的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "to",
@@ -2417,22 +3237,72 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "想做什么",
               "text": "to sing again"
             }
           ],
           "category": "phrase",
-          "id": "17-4"
+          "id": "17-6"
         },
         {
           "sequenceNumber": 17,
-          "segmentNumber": 5,
+          "segmentNumber": 7,
+          "english": "I want to sing again",
+          "speaker": "Bobby",
+          "chinese": "我想再唱一次",
+          "difficulty": 1,
+          "hint": "回忆愿望的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "inf.",
+              "meaning": "不定式符号"
+            },
+            {
+              "text": "sing",
+              "phonetic": "/sɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌"
+            },
+            {
+              "text": "again",
+              "phonetic": "/əˈɡen/",
+              "partOfSpeech": "adv.",
+              "meaning": "再一次"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "愿望",
+              "text": "I want to sing again"
+            }
+          ],
+          "category": "phrase",
+          "id": "17-7"
+        },
+        {
+          "sequenceNumber": 17,
+          "segmentNumber": 8,
           "english": "next year!",
           "speaker": "Bobby",
           "chinese": "明年",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：明年",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "next",
@@ -2449,16 +3319,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间",
               "text": "next year!"
             }
           ],
           "category": "phrase",
-          "id": "17-5"
+          "id": "17-8"
         },
         {
           "sequenceNumber": 17,
-          "segmentNumber": 6,
+          "segmentNumber": 9,
           "english": "I want to sing again next year!",
           "speaker": "Bobby",
           "chinese": "我想明年再唱一次！",
@@ -2511,20 +3381,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "愿望",
               "text": "I want"
             },
             {
-              "label": "词块",
+              "label": "想做什么",
               "text": "to sing again"
             },
             {
-              "label": "词块",
+              "label": "时间",
               "text": "next year!"
             }
           ],
           "category": "sentence",
-          "id": "17-6"
+          "id": "17-9"
         },
         {
           "sequenceNumber": 18,
@@ -2545,7 +3415,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "赞扬",
               "text": "Great!"
             }
           ],
@@ -2577,7 +3447,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "鼓励",
               "text": "Keep trying!"
             }
           ],
@@ -2596,8 +3466,8 @@
           "speaker": "narrator",
           "chinese": "两周前",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：两周前",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "Two",
@@ -2620,7 +3490,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间",
               "text": "Two weeks ago,"
             }
           ],
@@ -2634,8 +3504,8 @@
           "speaker": "narrator",
           "chinese": "苏海想",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：苏海想",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和愿望的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "Su Hai",
@@ -2652,7 +3522,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和愿望",
               "text": "Su Hai wanted"
             }
           ],
@@ -2666,8 +3536,8 @@
           "speaker": "narrator",
           "chinese": "扮演花木兰",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：扮演花木兰",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆想做什么的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "to",
@@ -2690,7 +3560,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "想做什么",
               "text": "to play Mulan"
             }
           ],
@@ -2700,12 +3570,62 @@
         {
           "sequenceNumber": 19,
           "segmentNumber": 4,
+          "english": "Su Hai wanted to play Mulan",
+          "speaker": "narrator",
+          "chinese": "苏海想扮演花木兰",
+          "difficulty": 1,
+          "hint": "回忆人物和愿望的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
+          "words": [
+            {
+              "text": "Su Hai",
+              "phonetic": "/suː haɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "苏海（人名）"
+            },
+            {
+              "text": "wanted",
+              "phonetic": "/ˈwɒntɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "想要（want的过去式）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "inf.",
+              "meaning": "不定式符号"
+            },
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v./n.",
+              "meaning": "扮演；戏剧，话剧"
+            },
+            {
+              "text": "Mulan",
+              "phonetic": "/muːlæn/",
+              "partOfSpeech": "n.",
+              "meaning": "花木兰（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "人物和愿望",
+              "text": "Su Hai wanted to play Mulan"
+            }
+          ],
+          "category": "phrase",
+          "id": "19-4"
+        },
+        {
+          "sequenceNumber": 19,
+          "segmentNumber": 5,
           "english": "in",
           "speaker": "narrator",
           "chinese": "在",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：在",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆位置的表达",
+          "grammarAnalysis": "介词连接前面的事情与后面的时间、地点或活动。",
           "words": [
             {
               "text": "in",
@@ -2716,22 +3636,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "位置",
               "text": "in"
             }
           ],
-          "category": "phrase",
-          "id": "19-4"
+          "category": "word",
+          "id": "19-5"
         },
         {
           "sequenceNumber": 19,
-          "segmentNumber": 5,
+          "segmentNumber": 6,
           "english": "a school play.",
           "speaker": "narrator",
-          "chinese": "一场校园话剧中",
+          "chinese": "一场校园话剧",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：一场校园话剧中",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆活动的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "a",
@@ -2754,16 +3674,128 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "活动",
               "text": "a school play."
             }
           ],
           "category": "phrase",
-          "id": "19-5"
+          "id": "19-6"
         },
         {
           "sequenceNumber": 19,
-          "segmentNumber": 6,
+          "segmentNumber": 7,
+          "english": "in a school play.",
+          "speaker": "narrator",
+          "chinese": "在一场校园话剧中",
+          "difficulty": 1,
+          "hint": "回忆活动场景的表达",
+          "grammarAnalysis": "这个短语补充动作发生的地点或同行的人。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校"
+            },
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v./n.",
+              "meaning": "扮演；戏剧，话剧"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "活动场景",
+              "text": "in a school play."
+            }
+          ],
+          "category": "phrase",
+          "id": "19-7"
+        },
+        {
+          "sequenceNumber": 19,
+          "segmentNumber": 8,
+          "english": "Su Hai wanted to play Mulan in a school play.",
+          "speaker": "narrator",
+          "chinese": "苏海想在校园话剧中扮演花木兰。",
+          "difficulty": 1,
+          "hint": "回忆事情的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
+          "words": [
+            {
+              "text": "Su Hai",
+              "phonetic": "/suː haɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "苏海（人名）"
+            },
+            {
+              "text": "wanted",
+              "phonetic": "/ˈwɒntɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "想要（want的过去式）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "inf.",
+              "meaning": "不定式符号"
+            },
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v./n.",
+              "meaning": "扮演；戏剧，话剧"
+            },
+            {
+              "text": "Mulan",
+              "phonetic": "/muːlæn/",
+              "partOfSpeech": "n.",
+              "meaning": "花木兰（人名）"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "事情",
+              "text": "Su Hai wanted to play Mulan in a school play."
+            }
+          ],
+          "category": "phrase",
+          "id": "19-8"
+        },
+        {
+          "sequenceNumber": 19,
+          "segmentNumber": 9,
           "english": "Two weeks ago, Su Hai wanted to play Mulan in a school play.",
           "speaker": "narrator",
           "chinese": "两周前，苏海想在一场校园话剧中扮演花木兰。",
@@ -2840,38 +3872,38 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间",
               "text": "Two weeks ago,"
             },
             {
-              "label": "词块",
+              "label": "人物和愿望",
               "text": "Su Hai wanted"
             },
             {
-              "label": "词块",
+              "label": "想做什么",
               "text": "to play Mulan"
             },
             {
-              "label": "词块",
+              "label": "位置",
               "text": "in"
             },
             {
-              "label": "词块",
+              "label": "活动",
               "text": "a school play."
             }
           ],
           "category": "sentence",
-          "id": "19-6"
+          "id": "19-9"
         },
         {
           "sequenceNumber": 20,
           "segmentNumber": 1,
           "english": "It was",
           "speaker": "narrator",
-          "chinese": "这是",
+          "chinese": "那是",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：这是",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆过去的状态的表达",
+          "grammarAnalysis": "用 be 动词或形容词说明人物的状态、心情。",
           "words": [
             {
               "text": "It",
@@ -2888,7 +3920,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "过去的状态",
               "text": "It was"
             }
           ],
@@ -2902,8 +3934,8 @@
           "speaker": "narrator",
           "chinese": "她的第一场校园话剧演出",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：她的第一场校园话剧演出",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆演出经历的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "her",
@@ -2932,7 +3964,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "演出经历",
               "text": "her first school play."
             }
           ],
@@ -2988,11 +4020,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "过去的状态",
               "text": "It was"
             },
             {
-              "label": "词块",
+              "label": "演出经历",
               "text": "her first school play."
             }
           ],
@@ -3006,8 +4038,8 @@
           "speaker": "narrator",
           "chinese": "她想",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：她想",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆愿望的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "She",
@@ -3024,7 +4056,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "愿望",
               "text": "She wanted"
             }
           ],
@@ -3034,12 +4066,50 @@
         {
           "sequenceNumber": 21,
           "segmentNumber": 2,
+          "english": "try her best.",
+          "speaker": "narrator",
+          "chinese": "尽她最大的努力",
+          "difficulty": 1,
+          "hint": "回忆固定搭配的表达",
+          "grammarAnalysis": "try one's best 表示尽某人最大的努力。",
+          "words": [
+            {
+              "text": "try",
+              "phonetic": "/traɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "尝试，努力"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adj./n.",
+              "meaning": "最好的；最佳状态"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "try her best."
+            }
+          ],
+          "category": "phrase",
+          "id": "21-2"
+        },
+        {
+          "sequenceNumber": 21,
+          "segmentNumber": 3,
           "english": "to try her best.",
           "speaker": "narrator",
-          "chinese": "尽自己最大的努力",
+          "chinese": "尽她最大的努力",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：尽自己最大的努力",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆想做什么的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "to",
@@ -3068,16 +4138,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "想做什么",
               "text": "to try her best."
             }
           ],
           "category": "phrase",
-          "id": "21-2"
+          "id": "21-3"
         },
         {
           "sequenceNumber": 21,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "She wanted to try her best.",
           "speaker": "narrator",
           "chinese": "她想尽自己最大的努力。",
@@ -3124,26 +4194,26 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "愿望",
               "text": "She wanted"
             },
             {
-              "label": "词块",
+              "label": "想做什么",
               "text": "to try her best."
             }
           ],
           "category": "sentence",
-          "id": "21-3"
+          "id": "21-4"
         },
         {
           "sequenceNumber": 22,
           "segmentNumber": 1,
           "english": "There were",
           "speaker": "narrator",
-          "chinese": "有",
+          "chinese": "那时有",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：有",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆过去的存在的表达",
+          "grammarAnalysis": "there were 表示过去有，后面接复数事物。",
           "words": [
             {
               "text": "There",
@@ -3160,7 +4230,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "过去的存在",
               "text": "There were"
             }
           ],
@@ -3174,8 +4244,8 @@
           "speaker": "narrator",
           "chinese": "很多台词",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：很多台词",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆数量和事物的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "a",
@@ -3204,7 +4274,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "数量和事物",
               "text": "a lot of words"
             }
           ],
@@ -3214,12 +4284,68 @@
         {
           "sequenceNumber": 22,
           "segmentNumber": 3,
+          "english": "There were a lot of words",
+          "speaker": "narrator",
+          "chinese": "那时有很多台词",
+          "difficulty": 1,
+          "hint": "回忆过去的存在的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
+          "words": [
+            {
+              "text": "There",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "there be 引导词",
+              "meaning": "与 were 构成“有”的表达"
+            },
+            {
+              "text": "were",
+              "phonetic": "/wɜː/",
+              "partOfSpeech": "v.",
+              "meaning": "be动词过去式（are的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "lot",
+              "phonetic": "/lɒt/",
+              "partOfSpeech": "n.",
+              "meaning": "许多"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "words",
+              "phonetic": "/wɜːdz/",
+              "partOfSpeech": "n.",
+              "meaning": "台词（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "过去的存在",
+              "text": "There were a lot of words"
+            }
+          ],
+          "category": "phrase",
+          "id": "22-3"
+        },
+        {
+          "sequenceNumber": 22,
+          "segmentNumber": 4,
           "english": "in",
           "speaker": "narrator",
           "chinese": "在",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：在",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆位置的表达",
+          "grammarAnalysis": "介词连接前面的事情与后面的时间、地点或活动。",
           "words": [
             {
               "text": "in",
@@ -3230,22 +4356,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "位置",
               "text": "in"
             }
           ],
-          "category": "phrase",
-          "id": "22-3"
+          "category": "word",
+          "id": "22-4"
         },
         {
           "sequenceNumber": 22,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
           "english": "the play.",
           "speaker": "narrator",
-          "chinese": "这部话剧中",
+          "chinese": "这部话剧",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：这部话剧中",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆活动的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "the",
@@ -3262,16 +4388,54 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "活动",
               "text": "the play."
             }
           ],
           "category": "phrase",
-          "id": "22-4"
+          "id": "22-5"
         },
         {
           "sequenceNumber": 22,
-          "segmentNumber": 5,
+          "segmentNumber": 6,
+          "english": "in the play.",
+          "speaker": "narrator",
+          "chinese": "在这部话剧中",
+          "difficulty": 1,
+          "hint": "回忆活动场景的表达",
+          "grammarAnalysis": "这个短语补充动作发生的地点或同行的人。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "戏剧，话剧"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "活动场景",
+              "text": "in the play."
+            }
+          ],
+          "category": "phrase",
+          "id": "22-6"
+        },
+        {
+          "sequenceNumber": 22,
+          "segmentNumber": 7,
           "english": "There were a lot of words in the play.",
           "speaker": "narrator",
           "chinese": "话剧里有很多台词。",
@@ -3336,24 +4500,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "过去的存在",
               "text": "There were"
             },
             {
-              "label": "词块",
+              "label": "数量和事物",
               "text": "a lot of words"
             },
             {
-              "label": "词块",
+              "label": "位置",
               "text": "in"
             },
             {
-              "label": "词块",
+              "label": "活动",
               "text": "the play."
             }
           ],
           "category": "sentence",
-          "id": "22-5"
+          "id": "22-7"
         },
         {
           "sequenceNumber": 23,
@@ -3362,8 +4526,8 @@
           "speaker": "narrator",
           "chinese": "她请苏洋",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：她请苏洋",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆请谁帮忙的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "She",
@@ -3386,7 +4550,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "请谁帮忙",
               "text": "She asked Su Yang"
             }
           ],
@@ -3400,8 +4564,8 @@
           "speaker": "narrator",
           "chinese": "练习",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：练习",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆请求做什么的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "to",
@@ -3418,7 +4582,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "请求做什么",
               "text": "to practise"
             }
           ],
@@ -3432,8 +4596,8 @@
           "speaker": "narrator",
           "chinese": "和她一起",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：和她一起",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆同伴的表达",
+          "grammarAnalysis": "这个短语补充动作发生的地点或同行的人。",
           "words": [
             {
               "text": "with",
@@ -3450,7 +4614,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "同伴",
               "text": "with her."
             }
           ],
@@ -3460,6 +4624,50 @@
         {
           "sequenceNumber": 23,
           "segmentNumber": 4,
+          "english": "to practise with her.",
+          "speaker": "narrator",
+          "chinese": "和她一起练习",
+          "difficulty": 1,
+          "hint": "回忆请求做什么的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "inf.",
+              "meaning": "不定式符号"
+            },
+            {
+              "text": "practise",
+              "phonetic": "/ˈpræktɪs/",
+              "partOfSpeech": "v.",
+              "meaning": "练习，训练"
+            },
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "请求做什么",
+              "text": "to practise with her."
+            }
+          ],
+          "category": "phrase",
+          "id": "23-4"
+        },
+        {
+          "sequenceNumber": 23,
+          "segmentNumber": 5,
           "english": "She asked Su Yang to practise with her.",
           "speaker": "narrator",
           "chinese": "她请苏洋和她一起练习。",
@@ -3512,34 +4720,34 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "请谁帮忙",
               "text": "She asked Su Yang"
             },
             {
-              "label": "词块",
+              "label": "请求做什么",
               "text": "to practise"
             },
             {
-              "label": "词块",
+              "label": "引出同伴",
               "text": "with"
             },
             {
-              "label": "词块",
+              "label": "同伴",
               "text": "her."
             }
           ],
           "category": "sentence",
-          "id": "23-4"
+          "id": "23-5"
         },
         {
           "sequenceNumber": 24,
           "segmentNumber": 1,
           "english": "There were also",
           "speaker": "narrator",
-          "chinese": "还有",
+          "chinese": "那时还有",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：还有",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆过去的存在的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "There",
@@ -3562,7 +4770,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "过去的存在",
               "text": "There were also"
             }
           ],
@@ -3572,12 +4780,38 @@
         {
           "sequenceNumber": 24,
           "segmentNumber": 2,
+          "english": "movements.",
+          "speaker": "narrator",
+          "chinese": "动作",
+          "difficulty": 1,
+          "hint": "回忆事物的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
+          "words": [
+            {
+              "text": "movements",
+              "phonetic": "/ˈmuːvmənts/",
+              "partOfSpeech": "n.",
+              "meaning": "动作（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "事物",
+              "text": "movements."
+            }
+          ],
+          "category": "word",
+          "id": "24-2"
+        },
+        {
+          "sequenceNumber": 24,
+          "segmentNumber": 3,
           "english": "a lot of movements.",
           "speaker": "narrator",
           "chinese": "很多动作",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：很多动作",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆数量和事物的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "a",
@@ -3606,16 +4840,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "数量和事物",
               "text": "a lot of movements."
             }
           ],
           "category": "phrase",
-          "id": "24-2"
+          "id": "24-3"
         },
         {
           "sequenceNumber": 24,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "There were also a lot of movements.",
           "speaker": "narrator",
           "chinese": "还有很多动作。",
@@ -3668,16 +4902,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "过去的存在",
               "text": "There were also"
             },
             {
-              "label": "词块",
+              "label": "数量和事物",
               "text": "a lot of movements."
             }
           ],
           "category": "sentence",
-          "id": "24-3"
+          "id": "24-4"
         },
         {
           "sequenceNumber": 25,
@@ -3686,8 +4920,8 @@
           "speaker": "narrator",
           "chinese": "她运用",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：她运用",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "She",
@@ -3704,7 +4938,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "She used"
             }
           ],
@@ -3714,12 +4948,38 @@
         {
           "sequenceNumber": 25,
           "segmentNumber": 2,
+          "english": "skills",
+          "speaker": "narrator",
+          "chinese": "技巧",
+          "difficulty": 1,
+          "hint": "回忆能力的表达",
+          "grammarAnalysis": "skill 的复数形式，表示多项技能。",
+          "words": [
+            {
+              "text": "skills",
+              "phonetic": "/skɪlz/",
+              "partOfSpeech": "n.",
+              "meaning": "技能（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "能力",
+              "text": "skills"
+            }
+          ],
+          "category": "word",
+          "id": "25-2"
+        },
+        {
+          "sequenceNumber": 25,
+          "segmentNumber": 3,
           "english": "her dancing skills",
           "speaker": "narrator",
-          "chinese": "自己的舞蹈技巧",
+          "chinese": "她的舞蹈技巧",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：自己的舞蹈技巧",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆能力的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "her",
@@ -3742,22 +5002,72 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "能力",
               "text": "her dancing skills"
             }
           ],
           "category": "phrase",
-          "id": "25-2"
+          "id": "25-3"
         },
         {
           "sequenceNumber": 25,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
+          "english": "She used her dancing skills",
+          "speaker": "narrator",
+          "chinese": "她运用自己的舞蹈技巧",
+          "difficulty": 1,
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
+          "words": [
+            {
+              "text": "She",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她"
+            },
+            {
+              "text": "used",
+              "phonetic": "/juːzd/",
+              "partOfSpeech": "v.",
+              "meaning": "使用（use的过去式）"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
+            },
+            {
+              "text": "dancing",
+              "phonetic": "/ˈdɑːnsɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "跳舞，舞蹈"
+            },
+            {
+              "text": "skills",
+              "phonetic": "/skɪlz/",
+              "partOfSpeech": "n.",
+              "meaning": "技能（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "人物和动作",
+              "text": "She used her dancing skills"
+            }
+          ],
+          "category": "phrase",
+          "id": "25-4"
+        },
+        {
+          "sequenceNumber": 25,
+          "segmentNumber": 5,
           "english": "to do them well.",
           "speaker": "narrator",
           "chinese": "把这些动作做好",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：把这些动作做好",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆目的的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "to",
@@ -3786,16 +5096,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "目的",
               "text": "to do them well."
             }
           ],
           "category": "phrase",
-          "id": "25-3"
+          "id": "25-5"
         },
         {
           "sequenceNumber": 25,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "She used her dancing skills to do them well.",
           "speaker": "narrator",
           "chinese": "她运用自己的舞蹈技巧，把这些动作做好。",
@@ -3860,30 +5170,62 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "She used"
             },
             {
-              "label": "词块",
+              "label": "能力",
               "text": "her dancing skills"
             },
             {
-              "label": "词块",
+              "label": "目的",
               "text": "to do them well."
             }
           ],
           "category": "sentence",
-          "id": "25-4"
+          "id": "25-6"
         },
         {
           "sequenceNumber": 26,
           "segmentNumber": 1,
+          "english": "afraid of",
+          "speaker": "narrator",
+          "chinese": "害怕",
+          "difficulty": 1,
+          "hint": "回忆固定搭配的表达",
+          "grammarAnalysis": "be afraid of 表示害怕，后面可以接动词 -ing 形式。",
+          "words": [
+            {
+              "text": "afraid",
+              "phonetic": "/əˈfreɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "害怕，畏惧"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "afraid of"
+            }
+          ],
+          "category": "phrase",
+          "id": "26-1"
+        },
+        {
+          "sequenceNumber": 26,
+          "segmentNumber": 2,
           "english": "Su Hai was afraid of",
           "speaker": "narrator",
           "chinese": "苏海害怕",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：苏海害怕",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和心情的表达",
+          "grammarAnalysis": "用 be 动词或形容词说明人物的状态、心情。",
           "words": [
             {
               "text": "Su Hai",
@@ -3912,22 +5254,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和心情",
               "text": "Su Hai was afraid of"
             }
           ],
           "category": "phrase",
-          "id": "26-1"
+          "id": "26-2"
         },
         {
           "sequenceNumber": 26,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "acting",
           "speaker": "narrator",
           "chinese": "表演",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：表演",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆活动的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "acting",
@@ -3938,22 +5280,72 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "活动",
               "text": "acting"
             }
           ],
-          "category": "phrase",
-          "id": "26-2"
+          "category": "word",
+          "id": "26-3"
         },
         {
           "sequenceNumber": 26,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
+          "english": "Su Hai was afraid of acting",
+          "speaker": "narrator",
+          "chinese": "苏海害怕表演",
+          "difficulty": 1,
+          "hint": "回忆人物和心情的表达",
+          "grammarAnalysis": "用 be 动词或形容词说明人物的状态、心情。",
+          "words": [
+            {
+              "text": "Su Hai",
+              "phonetic": "/suː haɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "苏海（人名）"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "be动词过去式（is/am的过去式）"
+            },
+            {
+              "text": "afraid",
+              "phonetic": "/əˈfreɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "害怕，畏惧"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "acting",
+              "phonetic": "/ˈæktɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "表演（act 的 -ing 形式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "人物和心情",
+              "text": "Su Hai was afraid of acting"
+            }
+          ],
+          "category": "phrase",
+          "id": "26-4"
+        },
+        {
+          "sequenceNumber": 26,
+          "segmentNumber": 5,
           "english": "in front of",
           "speaker": "narrator",
           "chinese": "在……面前",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：在……面前",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆位置的表达",
+          "grammarAnalysis": "in front of 是表示位置的固定搭配。",
           "words": [
             {
               "text": "in",
@@ -3976,22 +5368,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "位置",
               "text": "in front of"
             }
           ],
           "category": "phrase",
-          "id": "26-3"
+          "id": "26-5"
         },
         {
           "sequenceNumber": 26,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "many people.",
           "speaker": "narrator",
           "chinese": "许多人",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：许多人",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "many",
@@ -4008,16 +5400,66 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物",
               "text": "many people."
             }
           ],
           "category": "phrase",
-          "id": "26-4"
+          "id": "26-6"
         },
         {
           "sequenceNumber": 26,
-          "segmentNumber": 5,
+          "segmentNumber": 7,
+          "english": "in front of many people.",
+          "speaker": "narrator",
+          "chinese": "在许多人面前",
+          "difficulty": 1,
+          "hint": "回忆位置的表达",
+          "grammarAnalysis": "这个短语补充动作发生的地点或同行的人。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "front",
+              "phonetic": "/frʌnt/",
+              "partOfSpeech": "n.",
+              "meaning": "前面"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "adj.",
+              "meaning": "许多的"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "位置",
+              "text": "in front of many people."
+            }
+          ],
+          "category": "phrase",
+          "id": "26-7"
+        },
+        {
+          "sequenceNumber": 26,
+          "segmentNumber": 8,
           "english": "Su Hai was afraid of acting in front of many people.",
           "speaker": "narrator",
           "chinese": "苏海害怕在许多人面前表演。",
@@ -4082,24 +5524,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和心情",
               "text": "Su Hai was afraid of"
             },
             {
-              "label": "词块",
+              "label": "活动",
               "text": "acting"
             },
             {
-              "label": "词块",
+              "label": "位置",
               "text": "in front of"
             },
             {
-              "label": "词块",
+              "label": "人物",
               "text": "many people."
             }
           ],
           "category": "sentence",
-          "id": "26-5"
+          "id": "26-8"
         },
         {
           "sequenceNumber": 27,
@@ -4108,8 +5550,8 @@
           "speaker": "narrator",
           "chinese": "她请家人",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：她请家人",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆请谁帮忙的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "She",
@@ -4138,7 +5580,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "请谁帮忙",
               "text": "She asked her family"
             }
           ],
@@ -4148,12 +5590,50 @@
         {
           "sequenceNumber": 27,
           "segmentNumber": 2,
+          "english": "watch her practise.",
+          "speaker": "narrator",
+          "chinese": "观看她练习",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "watch + 人 + 动词原形，表示观看某人做某事。",
+          "words": [
+            {
+              "text": "watch",
+              "phonetic": "/wɒtʃ/",
+              "partOfSpeech": "v.",
+              "meaning": "观看"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
+            },
+            {
+              "text": "practise",
+              "phonetic": "/ˈpræktɪs/",
+              "partOfSpeech": "v.",
+              "meaning": "练习，训练"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "watch her practise."
+            }
+          ],
+          "category": "phrase",
+          "id": "27-2"
+        },
+        {
+          "sequenceNumber": 27,
+          "segmentNumber": 3,
           "english": "to watch her practise.",
           "speaker": "narrator",
           "chinese": "观看她练习",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：观看她练习",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆请求做什么的表达",
+          "grammarAnalysis": "留意 wanted、asked 或 to 后面的动词原形。",
           "words": [
             {
               "text": "to",
@@ -4182,16 +5662,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "请求做什么",
               "text": "to watch her practise."
             }
           ],
           "category": "phrase",
-          "id": "27-2"
+          "id": "27-3"
         },
         {
           "sequenceNumber": 27,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "She asked her family to watch her practise.",
           "speaker": "narrator",
           "chinese": "她请家人观看她练习。",
@@ -4244,16 +5724,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "请谁帮忙",
               "text": "She asked her family"
             },
             {
-              "label": "词块",
+              "label": "请求做什么",
               "text": "to watch her practise."
             }
           ],
           "category": "sentence",
-          "id": "27-3"
+          "id": "27-4"
         },
         {
           "sequenceNumber": 28,
@@ -4262,8 +5742,8 @@
           "speaker": "narrator",
           "chinese": "苏海练习了",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：苏海练习了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "Su Hai",
@@ -4280,7 +5760,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Su Hai practised"
             }
           ],
@@ -4294,8 +5774,8 @@
           "speaker": "narrator",
           "chinese": "很多次",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：很多次",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆程度的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "a",
@@ -4312,7 +5792,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "程度",
               "text": "a lot."
             }
           ],
@@ -4356,11 +5836,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Su Hai practised"
             },
             {
-              "label": "词块",
+              "label": "程度",
               "text": "a lot."
             }
           ],
@@ -4370,12 +5850,38 @@
         {
           "sequenceNumber": 29,
           "segmentNumber": 1,
+          "english": "remembered",
+          "speaker": "narrator",
+          "chinese": "记住了",
+          "difficulty": 1,
+          "hint": "回忆动作的表达",
+          "grammarAnalysis": "remember 的过去式，表示记住了或想起来了。",
+          "words": [
+            {
+              "text": "remembered",
+              "phonetic": "/rɪˈmembəd/",
+              "partOfSpeech": "v.",
+              "meaning": "记住（remember的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动作",
+              "text": "remembered"
+            }
+          ],
+          "category": "word",
+          "id": "29-1"
+        },
+        {
+          "sequenceNumber": 29,
+          "segmentNumber": 2,
           "english": "She remembered",
           "speaker": "narrator",
           "chinese": "她记住了",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：她记住了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "She",
@@ -4392,22 +5898,22 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "She remembered"
             }
           ],
           "category": "phrase",
-          "id": "29-1"
+          "id": "29-2"
         },
         {
           "sequenceNumber": 29,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "all the words and movements.",
           "speaker": "narrator",
           "chinese": "所有台词和动作",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：所有台词和动作",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆记住的内容的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "all",
@@ -4442,16 +5948,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "记住的内容",
               "text": "all the words and movements."
             }
           ],
           "category": "phrase",
-          "id": "29-2"
+          "id": "29-3"
         },
         {
           "sequenceNumber": 29,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "She remembered all the words and movements.",
           "speaker": "narrator",
           "chinese": "她记住了所有台词和动作。",
@@ -4504,20 +6010,46 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "She remembered"
             },
             {
-              "label": "词块",
+              "label": "记住的内容",
               "text": "all the words and movements."
             }
           ],
           "category": "sentence",
-          "id": "29-3"
+          "id": "29-4"
         },
         {
           "sequenceNumber": 30,
           "segmentNumber": 1,
+          "english": "ready.",
+          "speaker": "narrator",
+          "chinese": "准备好了",
+          "difficulty": 1,
+          "hint": "回忆状态的表达",
+          "grammarAnalysis": "用 be 动词或形容词说明人物的状态、心情。",
+          "words": [
+            {
+              "text": "ready",
+              "phonetic": "/ˈredi/",
+              "partOfSpeech": "adj.",
+              "meaning": "准备好的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "状态",
+              "text": "ready."
+            }
+          ],
+          "category": "word",
+          "id": "30-1"
+        },
+        {
+          "sequenceNumber": 30,
+          "segmentNumber": 2,
           "english": "She was ready.",
           "speaker": "narrator",
           "chinese": "她准备好了。",
@@ -4546,12 +6078,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "准备状态",
               "text": "She was ready."
             }
           ],
           "category": "sentence",
-          "id": "30-1"
+          "id": "30-2"
         },
         {
           "sequenceNumber": 31,
@@ -4560,8 +6092,8 @@
           "speaker": "narrator",
           "chinese": "终于",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：终于",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆先后顺序的表达",
+          "grammarAnalysis": "这个表达说明事情发生的时间、先后或程度。",
           "words": [
             {
               "text": "Finally",
@@ -4572,11 +6104,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "先后顺序",
               "text": "Finally,"
             }
           ],
-          "category": "phrase",
+          "category": "word",
           "id": "31-1"
         },
         {
@@ -4586,8 +6118,8 @@
           "speaker": "narrator",
           "chinese": "到时间了",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：到时间了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆时间句式的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "it",
@@ -4610,7 +6142,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "时间句式",
               "text": "it was time"
             }
           ],
@@ -4624,8 +6156,8 @@
           "speaker": "narrator",
           "chinese": "该进行",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：该进行",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆引出活动的表达",
+          "grammarAnalysis": "介词连接前面的事情与后面的时间、地点或活动。",
           "words": [
             {
               "text": "for",
@@ -4636,11 +6168,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "引出活动",
               "text": "for"
             }
           ],
-          "category": "phrase",
+          "category": "word",
           "id": "31-3"
         },
         {
@@ -4650,8 +6182,8 @@
           "speaker": "narrator",
           "chinese": "这场演出",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：这场演出",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆活动的表达",
+          "grammarAnalysis": "把表示数量或特点的词和名词一起记。",
           "words": [
             {
               "text": "the",
@@ -4668,7 +6200,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "活动",
               "text": "the play."
             }
           ],
@@ -4678,6 +6210,100 @@
         {
           "sequenceNumber": 31,
           "segmentNumber": 5,
+          "english": "for the play.",
+          "speaker": "narrator",
+          "chinese": "该演出了",
+          "difficulty": 1,
+          "hint": "回忆引出活动的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "与 time 搭配，表示该做某事了"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "戏剧，话剧"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "引出活动",
+              "text": "for the play."
+            }
+          ],
+          "category": "phrase",
+          "id": "31-5"
+        },
+        {
+          "sequenceNumber": 31,
+          "segmentNumber": 6,
+          "english": "it was time for the play.",
+          "speaker": "narrator",
+          "chinese": "演出的时候到了。",
+          "difficulty": 1,
+          "hint": "回忆时间句式的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
+          "words": [
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "be动词过去式（is/am的过去式）"
+            },
+            {
+              "text": "time",
+              "phonetic": "/taɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "时间"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "与 time 搭配，表示该做某事了"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "戏剧，话剧"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "时间句式",
+              "text": "it was time for the play."
+            }
+          ],
+          "category": "phrase",
+          "id": "31-6"
+        },
+        {
+          "sequenceNumber": 31,
+          "segmentNumber": 7,
           "english": "Finally, it was time for the play.",
           "speaker": "narrator",
           "chinese": "终于，演出的时候到了。",
@@ -4730,24 +6356,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "先后顺序",
               "text": "Finally,"
             },
             {
-              "label": "词块",
+              "label": "时间句式",
               "text": "it was time"
             },
             {
-              "label": "词块",
+              "label": "引出活动",
               "text": "for"
             },
             {
-              "label": "词块",
+              "label": "活动",
               "text": "the play."
             }
           ],
           "category": "sentence",
-          "id": "31-5"
+          "id": "31-7"
         },
         {
           "sequenceNumber": 32,
@@ -4756,8 +6382,8 @@
           "speaker": "narrator",
           "chinese": "苏海表演了",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：苏海表演了",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆人物和动作的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "Su Hai",
@@ -4774,7 +6400,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Su Hai acted"
             }
           ],
@@ -4788,8 +6414,8 @@
           "speaker": "narrator",
           "chinese": "很好",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：很好",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
+          "hint": "回忆表现的表达",
+          "grammarAnalysis": "先找人物和动作，再接上动作涉及的内容；留意过去式。",
           "words": [
             {
               "text": "well",
@@ -4800,11 +6426,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "表现",
               "text": "well."
             }
           ],
-          "category": "phrase",
+          "category": "word",
           "id": "32-2"
         },
         {
@@ -4838,11 +6464,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "人物和动作",
               "text": "Su Hai acted"
             },
             {
-              "label": "词块",
+              "label": "表现",
               "text": "well."
             }
           ],
@@ -4880,7 +6506,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "词块",
+              "label": "赞扬",
               "text": "It was great!"
             }
           ],
