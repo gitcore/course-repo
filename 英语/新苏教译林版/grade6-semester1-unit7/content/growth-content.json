@@ -1,198 +1,363 @@
 {
-  "version": "2.0.0",
-  "unit": "Unit 7 Old things, new life",
-  "description": "成长内容：词族进化 + 句型迁移",
+  "manifestId": "grade6-semester1-unit7",
+  "activityType": "word-family-practice",
+  "sourceHash": "b479f76c5538c0840e47d565510b29602cc08a489f0fe93485fd947c971144d3",
+  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatedAt": "2026-09-20",
+  "sourceKind": "textbook-dialogue",
+  "sourceNotice": "依据 textbook.md 的已核对原文生成；词族和迁移例句为配套拓展。",
   "wordFamilies": [
     {
-      "id": "recycle",
       "rootWord": "recycle",
-      "meaning": "回收利用",
-      "family": [
-        {"word": "cycle", "pos": "verb / noun", "meaning": "循环；周期", "example": "The water cycle is very important.", "exampleCn": "水循环非常重要。"},
-        {"word": "recycle", "pos": "verb", "meaning": "回收利用", "example": "We should recycle paper and plastic.", "exampleCn": "我们应该回收纸和塑料。"},
-        {"word": "recycling", "pos": "noun", "meaning": "回收（活动/行业）", "example": "Recycling is good for the Earth.", "exampleCn": "回收利用对地球有好处。"},
-        {"word": "recyclable", "pos": "adjective", "meaning": "可回收的", "example": "Glass bottles are recyclable.", "exampleCn": "玻璃瓶是可回收的。"},
-        {"word": "recycler", "pos": "noun", "meaning": "回收者；回收商", "example": "The recycler collects old paper every week.", "exampleCn": "回收商每周收集旧纸。"},
-        {"word": "upcycle", "pos": "verb", "meaning": "升级改造", "example": "You can upcycle old jeans into a bag.", "exampleCn": "你可以把旧牛仔裤改造成一个袋子。"}
+      "nodes": [
+        {
+          "word": "Recycle",
+          "role": "verb",
+          "chinese": "回收利用",
+          "exampleSentence": "Recycle things for me and you.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-17"
+        },
+        {
+          "word": "recyclable",
+          "role": "adjective",
+          "chinese": "可回收的",
+          "exampleSentence": "Check whether the box is recyclable.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "recycling",
+          "role": "noun",
+          "chinese": "回收利用",
+          "exampleSentence": "Recycling can save resources.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "cycle（循环）加上re-前缀变成recycle（再循环/回收）。re-前缀表示「再；重新」。-able后缀表示「能够……的」，所以recyclable就是「可回收的」。"
+      "sourceItemKeys": [
+        "line-17"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "make",
       "rootWord": "make",
-      "meaning": "制作；使",
-      "family": [
-        {"word": "make", "pos": "verb", "meaning": "制作；使", "example": "I made this bag with old trousers.", "exampleCn": "我用旧裤子做了这个袋子。"},
-        {"word": "made", "pos": "verb", "meaning": "制作（过去式/过去分词）", "example": "She made a cake yesterday.", "exampleCn": "她昨天做了一个蛋糕。"},
-        {"word": "maker", "pos": "noun", "meaning": "制作者", "example": "He is a toy maker.", "exampleCn": "他是一个玩具制作者。"},
-        {"word": "making", "pos": "noun", "meaning": "制作过程", "example": "The making of a book takes time.", "exampleCn": "制作一本书需要时间。"},
-        {"word": "homemade", "pos": "adjective", "meaning": "自制的", "example": "I love homemade cookies.", "exampleCn": "我喜欢自制的饼干。"},
-        {"word": "make-up", "pos": "noun", "meaning": "化妆品", "example": "She wears make-up every day.", "exampleCn": "她每天都化妆。"}
+      "nodes": [
+        {
+          "word": "made",
+          "role": "verb (past tense)",
+          "chinese": "制作了",
+          "exampleSentence": "I made it with a plastic bag and some paper.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-3"
+        },
+        {
+          "word": "maker",
+          "role": "noun",
+          "chinese": "制作者",
+          "exampleSentence": "The maker uses old wood.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "homemade",
+          "role": "adjective",
+          "chinese": "自制的",
+          "exampleSentence": "This is a homemade bag.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "make是一个非常常用的不规则动词，过去式和过去分词都是made。make加上-er变成maker（制作者），加上-ing变成making（制作）。"
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "wonder",
       "rootWord": "wonder",
-      "meaning": "想知道；奇迹",
-      "family": [
-        {"word": "wonder", "pos": "verb", "meaning": "想知道；感到疑惑", "example": "I wonder what will happen next.", "exampleCn": "我想知道接下来会发生什么。"},
-        {"word": "wonder", "pos": "noun", "meaning": "奇迹；奇观", "example": "The Great Wall is a wonder of the world.", "exampleCn": "长城是世界奇观。"},
-        {"word": "wonderful", "pos": "adjective", "meaning": "奇妙的；极好的", "example": "How wonderful!", "exampleCn": "多么奇妙啊！"},
-        {"word": "wonderfully", "pos": "adverb", "meaning": "极好地", "example": "She sings wonderfully.", "exampleCn": "她唱得好极了。"},
-        {"word": "wonderland", "pos": "noun", "meaning": "仙境", "example": "Alice in Wonderland is a famous story.", "exampleCn": "《爱丽丝梦游仙境》是一个著名的故事。"}
+      "nodes": [
+        {
+          "word": "wonderful",
+          "role": "adjective",
+          "chinese": "奇妙的",
+          "exampleSentence": "How wonderful!",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-31"
+        },
+        {
+          "word": "wonder",
+          "role": "noun",
+          "chinese": "奇迹；奇观",
+          "exampleSentence": "The mountain is a natural wonder.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "wonderfully",
+          "role": "adverb",
+          "chinese": "极好地",
+          "exampleSentence": "She sang wonderfully.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "wonder既是动词也是名词。加上-ful后缀变成形容词wonderful（充满奇迹的=极好的），再加-ly变成副词wonderfully。"
+      "sourceItemKeys": [
+        "line-31"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "beauty",
       "rootWord": "beauty",
-      "meaning": "美丽",
-      "family": [
-        {"word": "beauty", "pos": "noun", "meaning": "美丽；美人", "example": "The beauty of nature is amazing.", "exampleCn": "自然之美令人惊叹。"},
-        {"word": "beautiful", "pos": "adjective", "meaning": "美丽的；漂亮的", "example": "What a beautiful picture!", "exampleCn": "好漂亮的一幅画啊！"},
-        {"word": "beautifully", "pos": "adverb", "meaning": "美丽地；漂亮地", "example": "She dances beautifully.", "exampleCn": "她跳得很美。"},
-        {"word": "beautify", "pos": "verb", "meaning": "美化", "example": "We should beautify our city.", "exampleCn": "我们应该美化我们的城市。"}
+      "nodes": [
+        {
+          "word": "beautiful",
+          "role": "adjective",
+          "chinese": "美丽的",
+          "exampleSentence": "What a beautiful picture!",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-8"
+        },
+        {
+          "word": "beauty",
+          "role": "noun",
+          "chinese": "美丽",
+          "exampleSentence": "We enjoy the beauty of the park.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "beautifully",
+          "role": "adverb",
+          "chinese": "优美地",
+          "exampleSentence": "She dances beautifully.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "beauty是名词「美丽」，把y变成i再加-ful变成形容词beautiful（美丽的），再加-ly变成副词beautifully。beautify是动词「美化」。"
+      "sourceItemKeys": [
+        "line-8"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "break",
-      "rootWord": "break",
-      "meaning": "打破；弄坏",
-      "family": [
-        {"word": "break", "pos": "verb", "meaning": "打破；弄坏", "example": "Don't break the glass.", "exampleCn": "不要打碎玻璃。"},
-        {"word": "broke", "pos": "verb", "meaning": "打破（过去式）", "example": "The hat got wet and broke.", "exampleCn": "帽子湿了，然后坏了。"},
-        {"word": "broken", "pos": "adjective / verb", "meaning": "破碎的；打破（过去分词）", "example": "The cup is broken.", "exampleCn": "这个杯子碎了。"},
-        {"word": "breakfast", "pos": "noun", "meaning": "早餐", "example": "I have breakfast at 7 o'clock.", "exampleCn": "我7点吃早餐。"},
-        {"word": "break down", "pos": "phrasal verb", "meaning": "出故障；坏掉", "example": "My car broke down yesterday.", "exampleCn": "我的车昨天出故障了。"}
-      ],
-      "evolutionTip": "break是不规则动词，过去式broke，过去分词broken。breakfast（早餐）= break + fast（斋戒），字面意思是「打破斋戒」，也就是一天中的第一顿饭。"
-    },
-    {
-      "id": "work",
       "rootWord": "work",
-      "meaning": "工作",
-      "family": [
-        {"word": "work", "pos": "verb / noun", "meaning": "工作", "example": "I work in a school.", "exampleCn": "我在一所学校工作。"},
-        {"word": "worker", "pos": "noun", "meaning": "工人", "example": "Workers put us into different groups.", "exampleCn": "工人们把我们分成不同的组。"},
-        {"word": "working", "pos": "adjective", "meaning": "工作的", "example": "He is a working man.", "exampleCn": "他是一个劳动者。"},
-        {"word": "workplace", "pos": "noun", "meaning": "工作场所", "example": "The office is my workplace.", "exampleCn": "办公室是我的工作场所。"},
-        {"word": "homework", "pos": "noun", "meaning": "家庭作业", "example": "I do my homework every day.", "exampleCn": "我每天都做作业。"},
-        {"word": "housework", "pos": "noun", "meaning": "家务", "example": "She does housework on weekends.", "exampleCn": "她周末做家务。"}
+      "nodes": [
+        {
+          "word": "workers",
+          "role": "noun (plural)",
+          "chinese": "工人们",
+          "exampleSentence": "The workers there put us into different groups.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-26"
+        },
+        {
+          "word": "work",
+          "role": "verb",
+          "chinese": "工作",
+          "exampleSentence": "They work in a factory.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "workplace",
+          "role": "noun",
+          "chinese": "工作场所",
+          "exampleSentence": "Keep your workplace clean.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "work加上-er变成worker（工人），加上-ing变成working（工作的）。work还可以和很多词组成复合词：homework（家庭作业）、housework（家务）、workplace（工作场所）。"
-    }
-  ],
-  "sentencePatterns": [
-    {
-      "id": "what-a-noun",
-      "pattern": "What + a/an + 形容词 + 可数名词单数！",
-      "patternCn": "多么……的一个……啊！",
-      "textbookExample": "What a big fish!",
-      "textbookExampleCn": "好大的一条鱼啊！",
-      "grammarExplanation": "What引导的感叹句，用来感叹名词。结构：What + a/an + 形容词 + 可数名词单数（+ 主语 + 谓语）！主谓部分可以省略。",
-      "transferExamples": [
-        {"english": "What a beautiful day!", "chinese": "多么美好的一天啊！"},
-        {"english": "What a clever boy!", "chinese": "多么聪明的男孩啊！"},
-        {"english": "What an interesting book!", "chinese": "多么有趣的一本书啊！"},
-        {"english": "What a nice surprise!", "chinese": "多么好的惊喜啊！"}
+      "sourceItemKeys": [
+        "line-26"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     },
     {
-      "id": "how-adjective",
-      "pattern": "How + 形容词/副词（+ 主语 + 谓语）！",
-      "patternCn": "多么……啊！",
-      "textbookExample": "How wonderful!",
-      "textbookExampleCn": "多么奇妙啊！",
-      "grammarExplanation": "How引导的感叹句，用来感叹形容词或副词。结构：How + 形容词/副词 + 主语 + 谓语！主谓部分可以省略。",
-      "transferExamples": [
-        {"english": "How nice!", "chinese": "真好看啊！"},
-        {"english": "How happy they are!", "chinese": "他们多么开心啊！"},
-        {"english": "How fast he runs!", "chinese": "他跑得多快啊！"},
-        {"english": "How tall the tree is!", "chinese": "这棵树多高啊！"}
-      ]
-    },
-    {
-      "id": "make-with",
-      "pattern": "主语 + make/made + 宾语 + with + 材料",
-      "patternCn": "某人用……（材料）制作……",
-      "textbookExample": "I made this bag with old trousers.",
-      "textbookExampleCn": "我用旧裤子做了这个袋子。",
-      "grammarExplanation": "make...with... 表示「用……制作……」，with后面接制作材料。注意make的过去式是made。",
-      "transferExamples": [
-        {"english": "She made a dress with old cloth.", "chinese": "她用旧布料做了一条裙子。"},
-        {"english": "We made a house with cards.", "chinese": "我们用卡片做了一座房子。"},
-        {"english": "He made a toy car with a box.", "chinese": "他用一个盒子做了一辆玩具车。"},
-        {"english": "They made a cake with flour and eggs.", "chinese": "他们用面粉和鸡蛋做了一个蛋糕。"}
-      ]
-    },
-    {
-      "id": "what-will-do-with",
-      "pattern": "What + will + 主语 + do with + 宾语？",
-      "patternCn": "某人会怎么处理某物？",
-      "textbookExample": "What will they do with me?",
-      "textbookExampleCn": "他们会怎么处理我呢？",
-      "grammarExplanation": "What will sb. do with sth.? 用来询问「某人会怎么处理某物？」do with 表示「处理；对待」。",
-      "transferExamples": [
-        {"english": "What will you do with the old book?", "chinese": "你会怎么处理这本旧书？"},
-        {"english": "What will they do with the rubbish?", "chinese": "他们会怎么处理这些垃圾？"},
-        {"english": "What should we do with the empty bottles?", "chinese": "我们应该怎么处理这些空瓶子？"},
-        {"english": "What can I do with this old T-shirt?", "chinese": "我可以用这件旧T恤做什么？"}
-      ]
-    },
-    {
-      "id": "there-were",
-      "pattern": "There were + 复数名词 + 地点",
-      "patternCn": "某地有（过去有）……",
-      "textbookExample": "There were plastic cups, plastic bottles and glass bottles on the truck too.",
-      "textbookExampleCn": "卡车上也有塑料杯、塑料瓶和玻璃瓶。",
-      "grammarExplanation": "There be句型的一般过去时：There was/were + 名词 + 地点。主语是单数或不可数用was，主语是复数用were。",
-      "transferExamples": [
-        {"english": "There were many people in the park yesterday.", "chinese": "昨天公园里有很多人。"},
-        {"english": "There was a book on the desk just now.", "chinese": "刚才桌上有一本书。"},
-        {"english": "There were ten eggs in the box.", "chinese": "盒子里有十个鸡蛋。"},
-        {"english": "There was no water in the bottle.", "chinese": "瓶子里没有水了。"}
+      "rootWord": "friend",
+      "nodes": [
+        {
+          "word": "friends",
+          "role": "noun (plural)",
+          "chinese": "朋友们",
+          "exampleSentence": "There I made friends with plastic cups, plastic bottles and glass bottles.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-24"
+        },
+        {
+          "word": "friendly",
+          "role": "adjective",
+          "chinese": "友好的",
+          "exampleSentence": "Our new classmate is friendly.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "friendship",
+          "role": "noun",
+          "chinese": "友谊",
+          "exampleSentence": "I value our friendship.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
+      ],
+      "sourceItemKeys": [
+        "line-24"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     }
   ],
-  "growthExercises": [
+  "patterns": [
     {
-      "id": 1,
-      "type": "word-family",
-      "question": "选择正确的词填空：We should ______ old paper. (cycle)",
-      "options": ["recycle", "bicycle", "cycling"],
-      "answer": "recycle",
-      "explanation": "recycle是动词，表示「回收利用」，should后面接动词原形。"
+      "patternKey": "made-with",
+      "displayName": "made…with…：介绍材料",
+      "examples": [
+        "I made this bag with old trousers."
+      ],
+      "transferExamples": [
+        "I made this toy with old paper."
+      ],
+      "relatedWordFamilies": [
+        "make"
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "explanation": "made 是 make 的过去式；with 引出材料。"
     },
     {
-      "id": 2,
-      "type": "word-family",
-      "question": "选择正确的词填空：What a ______ picture! (beauty)",
-      "options": ["beautiful", "beautify", "beautifully"],
-      "answer": "beautiful",
-      "explanation": "beautiful是形容词，修饰名词picture。What a + 形容词 + 名词！是感叹句结构。"
+      "patternKey": "what-a",
+      "displayName": "What a…：感叹名词",
+      "examples": [
+        "What a big fish!"
+      ],
+      "transferExamples": [
+        "What a beautiful bag!"
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "explanation": "What a 后接形容词和单数可数名词。"
     },
     {
-      "id": 3,
-      "type": "sentence-pattern",
-      "question": "用所给词造句：what / a / wonderful / journey",
-      "answer": "What a wonderful journey!",
-      "explanation": "What + a + 形容词 + 可数名词单数！感叹句结构。"
+      "patternKey": "how-adjective",
+      "displayName": "How…：感叹形容词",
+      "examples": [
+        "How nice!"
+      ],
+      "transferExamples": [
+        "How beautiful!"
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "explanation": "How 后接形容词。"
     },
     {
-      "id": 4,
-      "type": "sentence-pattern",
-      "question": "翻译：我用旧瓶子做了一个花瓶。",
-      "answer": "I made a vase with an old bottle.",
-      "explanation": "make...with... 用……制作……，注意make的过去式是made。"
+      "patternKey": "dont-hurt",
+      "displayName": "Don't…：禁止行为",
+      "examples": [
+        "Don't burn rubbish."
+      ],
+      "transferExamples": [
+        "Don't throw rubbish on the ground."
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-13"
+      ],
+      "explanation": "Don't 后接动词原形。"
     },
     {
-      "id": 5,
-      "type": "sentence-pattern",
-      "question": "翻译：多么聪明的孩子啊！（用What引导）",
-      "answer": "What a clever child/kid!",
-      "explanation": "What + a + 形容词 + 可数名词单数！感叹句结构。"
+      "patternKey": "put-into",
+      "displayName": "put…into…：放入或分组",
+      "examples": [
+        "The workers there put us into different groups."
+      ],
+      "transferExamples": [
+        "I put the books into two groups."
+      ],
+      "relatedWordFamilies": [
+        "work"
+      ],
+      "sourceItemKeys": [
+        "line-26"
+      ],
+      "explanation": "put 的原形和过去式相同；into 引出结果或去向。"
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "made-with",
+      "targetPattern": "made-with",
+      "prompt": "表达：我用旧纸做了这个玩具。",
+      "answer": "I made this toy with old paper.",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "what-a",
+      "targetPattern": "what-a",
+      "prompt": "感叹：多么漂亮的一个包！",
+      "answer": "What a beautiful bag!",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "how-adjective",
+      "targetPattern": "how-adjective",
+      "prompt": "感叹：多么美丽啊！",
+      "answer": "How beautiful!",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "dont-hurt",
+      "targetPattern": "dont-hurt",
+      "prompt": "劝阻对方往地上扔垃圾。",
+      "answer": "Don't throw rubbish on the ground.",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "put-into",
+      "targetPattern": "put-into",
+      "prompt": "表达：我把书分成两组。",
+      "answer": "I put the books into two groups.",
+      "isSourceText": false
     }
   ]
 }

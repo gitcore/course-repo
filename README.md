@@ -160,7 +160,7 @@
 - `name`: Unit 3 Great people
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 3
-- `description`: 袁隆平与身边英雄主题，附[课文阅读 · 三篇插画有声读本](英语/新苏教译林版/grade6-semester1-unit3/assets/readalong/Great-people.web.html)。现已迁移至标准配置并启用课文阅读；旧练习待适配。
+- `description`: 袁隆平与身边英雄主题，附[课文阅读 · 三篇插画有声读本](英语/新苏教译林版/grade6-semester1-unit3/assets/readalong/Great-people.web.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit3/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit3/textbook.md`
 
@@ -169,7 +169,7 @@
 - `name`: Unit 4 Getting together
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 4
-- `description`: 奶奶生日与重阳节主题，日期、序数词与过去时表达，附[课文阅读 · 三篇高清有声读本与AI关怀时文](英语/新苏教译林版/grade6-semester1-unit4/assets/readalong/Getting-together.web.html)。旧练习待适配，目前启用课文阅读。
+- `description`: 奶奶生日与重阳节主题，日期、序数词与过去时表达，附[课文阅读 · 三篇高清有声读本与AI关怀时文](英语/新苏教译林版/grade6-semester1-unit4/assets/readalong/Getting-together.web.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit4/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit4/textbook.md`
 
@@ -178,7 +178,7 @@
 - `name`: Unit 5 Keeping our city clean
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 5
-- `description`: 城市清洁与plogging环保主题，will计划表达与should建议；含[课文阅读 · 插画有声读本](英语/新苏教译林版/grade6-semester1-unit5/assets/readalong/Keeping-our-city-clean.web.html)。旧练习待适配，目前启用课文阅读。
+- `description`: 城市清洁与plogging环保主题，will计划表达与should建议；含[课文阅读 · 插画有声读本](英语/新苏教译林版/grade6-semester1-unit5/assets/readalong/Keeping-our-city-clean.web.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit5/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit5/textbook.md`
 
@@ -330,7 +330,9 @@
 ## 内容制作入口
 
 - 英语课文课程：[英语课程内容规则](learn-english-course-content-rules.md)
+- 新苏教译林版的单元词汇、音标、释义及配套词族统一维护在各课程的 `textbook.md`，不再发布独立词表；全部10个课程的同步练习已对齐当前教材文件，两个 Project 的练习明确按原创任务导读生成。
 - 译林自然拼读：[自然拼读规则](英语/译林自然拼读/phonics-rules.md)
+- 有声读本制作：[构建工具与发布文件说明](.scripts/readalong/README.md)。脚本、模板、分镜与时文编排、提示词、预览和校验档案集中在工具目录，不随课程资源发布；各课程的读本入口路径保持不变。
 
 ## 测试资源
 

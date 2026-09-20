@@ -1,201 +1,363 @@
 {
-  "version": "2.0.0",
-  "unit": "Project 2 A better home",
-  "description": "成长内容：词族进化 + 句型迁移",
+  "manifestId": "grade6-semester1-project2",
+  "activityType": "word-family-practice",
+  "sourceHash": "8d35dc0156429ee1af55c7f9108981a1ba57049eea758f48c2e7e1e56d54a6b9",
+  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatedAt": "2026-09-20",
+  "sourceKind": "original-project-guide",
+  "sourceNotice": "依据 textbook.md 中标明的原创任务导读生成，不是教材逐字原文；个人经历与开放任务须自行完成。",
   "wordFamilies": [
     {
-      "id": "home",
-      "rootWord": "home",
-      "meaning": "家",
-      "family": [
-        {"word": "home", "pos": "noun", "meaning": "家；家园", "example": "There's no place like home.", "exampleCn": "没有什么地方比得上家。"},
-        {"word": "hometown", "pos": "noun", "meaning": "家乡", "example": "My hometown is very beautiful.", "exampleCn": "我的家乡很漂亮。"},
-        {"word": "homeless", "pos": "adjective", "meaning": "无家可归的", "example": "We should help homeless people.", "exampleCn": "我们应该帮助无家可归的人。"},
-        {"word": "homework", "pos": "noun", "meaning": "家庭作业", "example": "I do my homework every day.", "exampleCn": "我每天做作业。"},
-        {"word": "housework", "pos": "noun", "meaning": "家务", "example": "She does housework on weekends.", "exampleCn": "她周末做家务。"},
-        {"word": "homemade", "pos": "adjective", "meaning": "自制的", "example": "I love homemade cookies.", "exampleCn": "我喜欢自制的饼干。"},
-        {"word": "homeland", "pos": "noun", "meaning": "祖国；故乡", "example": "We love our homeland.", "exampleCn": "我们热爱我们的祖国。"}
+      "rootWord": "use",
+      "nodes": [
+        {
+          "word": "reused",
+          "role": "adjective",
+          "chinese": "再次利用的",
+          "exampleSentence": "Show a reused object to your partner.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-19"
+        },
+        {
+          "word": "useful",
+          "role": "adjective",
+          "chinese": "有用的",
+          "exampleSentence": "This old box is useful.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "reuse",
+          "role": "verb",
+          "chinese": "再次利用",
+          "exampleSentence": "I can reuse this bottle.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "home可以组成很多复合词：homework（家庭作业）、housework（家务）、hometown（家乡）、homemade（自制的）、homeless（无家可归的）。注意homeless是加-less后缀，表示「没有……的」。"
+      "sourceItemKeys": [
+        "line-19"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "recycle",
-      "rootWord": "recycle",
-      "meaning": "回收利用",
-      "family": [
-        {"word": "cycle", "pos": "verb / noun", "meaning": "循环；周期", "example": "The water cycle is very important.", "exampleCn": "水循环非常重要。"},
-        {"word": "recycle", "pos": "verb", "meaning": "回收利用", "example": "We should recycle paper and plastic.", "exampleCn": "我们应该回收纸和塑料。"},
-        {"word": "recycling", "pos": "noun", "meaning": "回收（活动/行业）", "example": "Recycling is good for the Earth.", "exampleCn": "回收利用对地球有好处。"},
-        {"word": "recyclable", "pos": "adjective", "meaning": "可回收的", "example": "Glass bottles are recyclable.", "exampleCn": "玻璃瓶是可回收的。"},
-        {"word": "reuse", "pos": "verb", "meaning": "再利用", "example": "We can reuse old things.", "exampleCn": "我们可以重复利用旧物品。"},
-        {"word": "reduce", "pos": "verb", "meaning": "减少", "example": "We should reduce waste.", "exampleCn": "我们应该减少浪费。"}
+      "rootWord": "repair",
+      "nodes": [
+        {
+          "word": "Repair",
+          "role": "verb",
+          "chinese": "维修",
+          "exampleSentence": "Repair something instead of throwing it away.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-7"
+        },
+        {
+          "word": "repairable",
+          "role": "adjective",
+          "chinese": "可修复的",
+          "exampleSentence": "This chair is repairable.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "repaired",
+          "role": "verb (past tense)",
+          "chinese": "修好了",
+          "exampleSentence": "Dad repaired the chair yesterday.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "cycle（循环）加上re-前缀变成recycle（再循环/回收）。re-前缀表示「再；重新」：reuse（再利用）、reduce（减少/re-向下+duc引导）。环保3R就是Reduce, Reuse, Recycle。"
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "waste",
-      "rootWord": "waste",
-      "meaning": "浪费；废物",
-      "family": [
-        {"word": "waste", "pos": "verb", "meaning": "浪费", "example": "Don't waste water.", "exampleCn": "不要浪费水。"},
-        {"word": "waste", "pos": "noun", "meaning": "废物；垃圾", "example": "Put the waste in the bin.", "exampleCn": "把垃圾放进垃圾桶。"},
-        {"word": "wasteful", "pos": "adjective", "meaning": "浪费的", "example": "It's wasteful to throw away food.", "exampleCn": "扔掉食物是浪费的。"},
-        {"word": "wastepaper", "pos": "noun", "meaning": "废纸", "example": "Please recycle wastepaper.", "exampleCn": "请回收废纸。"},
-        {"word": "wastewater", "pos": "noun", "meaning": "废水", "example": "Don't pour wastewater into rivers.", "exampleCn": "不要把废水排入河流。"},
-        {"word": "save", "pos": "verb", "meaning": "节约；拯救（反义词）", "example": "We should save water.", "exampleCn": "我们应该节约用水。"}
+      "rootWord": "help",
+      "nodes": [
+        {
+          "word": "helpful",
+          "role": "adjective",
+          "chinese": "有帮助的",
+          "exampleSentence": "Choose helpful actions from the list.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-3"
+        },
+        {
+          "word": "helper",
+          "role": "noun",
+          "chinese": "帮手",
+          "exampleSentence": "We need a helper.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "help",
+          "role": "verb",
+          "chinese": "帮助",
+          "exampleSentence": "We can help clean the park.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "waste既是动词也是名词。加-ful变成形容词wasteful（浪费的）。waste可以和很多名词组成复合词：wastepaper（废纸）、wastewater（废水）。save（节约）是waste的反义词。"
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "sort",
-      "rootWord": "sort",
-      "meaning": "分类；种类",
-      "family": [
-        {"word": "sort", "pos": "verb", "meaning": "分类；整理", "example": "We should sort the rubbish.", "exampleCn": "我们应该分类垃圾。"},
-        {"word": "sort", "pos": "noun", "meaning": "种类", "example": "What sort of music do you like?", "exampleCn": "你喜欢哪种音乐？"},
-        {"word": "all sorts of", "pos": "phrase", "meaning": "各种各样的", "example": "There are all sorts of flowers in the garden.", "exampleCn": "花园里有各种各样的花。"},
-        {"word": "sort out", "pos": "phrasal verb", "meaning": "整理；解决", "example": "Please sort out your books.", "exampleCn": "请把你的书整理好。"},
-        {"word": "a sort of", "pos": "phrase", "meaning": "一种", "example": "This is a sort of fruit.", "exampleCn": "这是一种水果。"}
+      "rootWord": "collect",
+      "nodes": [
+        {
+          "word": "Collect",
+          "role": "verb",
+          "chinese": "收集；捡拾",
+          "exampleSentence": "Collect litter and put it in a bin.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-5"
+        },
+        {
+          "word": "collection",
+          "role": "noun",
+          "chinese": "收藏品",
+          "exampleSentence": "This is my stamp collection.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "collector",
+          "role": "noun",
+          "chinese": "收藏者",
+          "exampleSentence": "My uncle is a stamp collector.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "sort既作动词（分类；整理）也作名词（种类）。常见短语：sort out（整理；解决）、all sorts of（各种各样的）、a sort of（一种）。"
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "different",
-      "rootWord": "different",
-      "meaning": "不同的",
-      "family": [
-        {"word": "different", "pos": "adjective", "meaning": "不同的", "example": "But now things are different.", "exampleCn": "但是现在情况不同了。"},
-        {"word": "difference", "pos": "noun", "meaning": "差异；不同", "example": "Small changes make a big difference.", "exampleCn": "小小的改变带来大大的不同。"},
-        {"word": "differently", "pos": "adverb", "meaning": "不同地", "example": "They think differently.", "exampleCn": "他们想法不同。"},
-        {"word": "same", "pos": "adjective", "meaning": "相同的（反义词）", "example": "We are in the same class.", "exampleCn": "我们在同一个班。"},
-        {"word": "be different from", "pos": "phrase", "meaning": "与……不同", "example": "Cats are different from dogs.", "exampleCn": "猫和狗不同。"}
+      "rootWord": "material",
+      "nodes": [
+        {
+          "word": "material",
+          "role": "noun",
+          "chinese": "材料",
+          "exampleSentence": "Match each material to an object.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-14"
+        },
+        {
+          "word": "materials",
+          "role": "noun (plural)",
+          "chinese": "材料（复数）",
+          "exampleSentence": "We need some materials.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "material",
+          "role": "adjective",
+          "chinese": "物质的",
+          "exampleSentence": "Food is a basic material need.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "different是形容词，把t变成ce变成名词difference（差异）。加上-ly变成副词differently（不同地）。make a difference是固定短语，表示「有影响；有作用」。be different from表示「与……不同」。"
+      "sourceItemKeys": [
+        "line-14"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "stick",
-      "rootWord": "stick",
-      "meaning": "坚持；粘",
-      "family": [
-        {"word": "stick", "pos": "verb", "meaning": "粘；坚持（过去式 stuck）", "example": "We stuck to our plan.", "exampleCn": "我们坚持了我们的计划。"},
-        {"word": "stick", "pos": "noun", "meaning": "棍子；木棍", "example": "He picked up a stick.", "exampleCn": "他捡起一根棍子。"},
-        {"word": "stick to", "pos": "phrasal verb", "meaning": "坚持", "example": "Stick to your dream!", "exampleCn": "坚持你的梦想！"},
-        {"word": "stick with", "pos": "phrasal verb", "meaning": "坚持；继续支持", "example": "I'll stick with you.", "exampleCn": "我会一直支持你的。"},
-        {"word": "sticker", "pos": "noun", "meaning": "贴纸", "example": "I have many stickers.", "exampleCn": "我有很多贴纸。"},
-        {"word": "stuck", "pos": "adjective", "meaning": "卡住的；被困住的", "example": "The key is stuck in the lock.", "exampleCn": "钥匙卡在锁里了。"}
+      "rootWord": "plan",
+      "nodes": [
+        {
+          "word": "plans",
+          "role": "noun (plural)",
+          "chinese": "计划",
+          "exampleSentence": "Complete the speech with your own plans.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-24"
+        },
+        {
+          "word": "planning",
+          "role": "noun",
+          "chinese": "规划",
+          "exampleSentence": "Good planning saves time.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "planner",
+          "role": "noun",
+          "chinese": "计划表",
+          "exampleSentence": "I use a weekly planner.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "stick既是动词也是名词，过去式和过去分词都是stuck，不规则变化。stick to表示「坚持（计划、原则等）」，stick with表示「坚持支持某人」。sticker是贴纸（可以粘的东西）。"
+      "sourceItemKeys": [
+        "line-24"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     }
   ],
-  "sentencePatterns": [
+  "patterns": [
     {
-      "id": "instead-of",
-      "pattern": "主语 + 动词 + A + instead of + B",
-      "patternCn": "某人用A代替B做某事",
-      "textbookExample": "We will use cloth bags instead of plastic bags.",
-      "textbookExampleCn": "我们要用布袋代替塑料袋。",
-      "grammarExplanation": "instead of 表示「代替；而不是」，后面接名词、代词或动名词。它强调「用前者而不是后者」。",
+      "patternKey": "instead-of",
+      "displayName": "instead of doing：选择行动",
+      "examples": [
+        "Repair something instead of throwing it away."
+      ],
       "transferExamples": [
-        {"english": "I walk to school instead of taking the bus.", "chinese": "我走路去上学，而不是坐公交。"},
-        {"english": "She reads books instead of watching TV.", "chinese": "她读书而不是看电视。"},
-        {"english": "We eat rice instead of noodles today.", "chinese": "我们今天吃米饭而不是面条。"},
-        {"english": "He drinks tea instead of coffee.", "chinese": "他喝茶而不是喝咖啡。"}
-      ]
+        "Repair the toy instead of buying a new one."
+      ],
+      "relatedWordFamilies": [
+        "repair"
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "explanation": "instead of 后接名词或动词 -ing 形式。"
     },
     {
-      "id": "make-with-reuse",
-      "pattern": "主语 + make/made + 成品 + with + 旧物",
-      "patternCn": "某人用旧物制作了……",
-      "textbookExample": "We can make pencil holders with old cans.",
-      "textbookExampleCn": "我们可以用旧易拉罐做笔筒。",
-      "grammarExplanation": "make...with... 表示「用……制作……」，with后面接制作材料。这个句型特别适合描述旧物改造。",
+      "patternKey": "can-become",
+      "displayName": "can become：设想用途",
+      "examples": [
+        "A cardboard box can become a model house."
+      ],
       "transferExamples": [
-        {"english": "I made a vase with a plastic bottle.", "chinese": "我用一个塑料瓶做了一个花瓶。"},
-        {"english": "She made a bag with old jeans.", "chinese": "她用旧牛仔裤做了一个袋子。"},
-        {"english": "We made a toy car with a cardboard box.", "chinese": "我们用一个纸箱做了一辆玩具车。"},
-        {"english": "He made a pen holder with a toilet paper roll.", "chinese": "他用一个卫生纸卷筒做了一个笔筒。"}
-      ]
+        "An old box can become a toy car."
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-15"
+      ],
+      "explanation": "can 后接原形；这是假设用途，不是固定教材答案。"
     },
     {
-      "id": "better-and-better",
-      "pattern": "比较级 + and + 比较级",
-      "patternCn": "越来越……",
-      "textbookExample": "Our home will become better and better.",
-      "textbookExampleCn": "我们的家园会变得越来越好。",
-      "grammarExplanation": "比较级 + and + 比较级，表示「越来越……」。单音节词直接重复比较级，多音节词用 more and more + 形容词原级。",
+      "patternKey": "discuss-with",
+      "displayName": "Discuss…with…：交流",
+      "examples": [
+        "Discuss your ideas with a classmate."
+      ],
       "transferExamples": [
-        {"english": "The days are getting longer and longer.", "chinese": "白天变得越来越长。"},
-        {"english": "Our city is becoming cleaner and cleaner.", "chinese": "我们的城市变得越来越干净。"},
-        {"english": "She is more and more beautiful.", "chinese": "她越来越漂亮了。"},
-        {"english": "English is more and more important.", "chinese": "英语越来越重要了。"}
-      ]
+        "Discuss your plan with a friend."
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-11"
+      ],
+      "explanation": "discuss 后接讨论内容，with 引出交流对象。"
     },
     {
-      "id": "was-not-now-is",
-      "pattern": "主语 + was/were + ... before. Now 主语 + am/is/are + ...",
-      "patternCn": "过去……，现在……（对比）",
-      "textbookExample": "Our home was not very green before. But now things are different.",
-      "textbookExampleCn": "我们的家以前不是很环保。但是现在情况不同了。",
-      "grammarExplanation": "过去和现在对比的句型：先讲过去的情况（一般过去时was/were），再讲现在的情况（一般现在时am/is/are），中间用but转折。",
+      "patternKey": "match-to",
+      "displayName": "Match…to…：配对",
+      "examples": [
+        "Match each material to an object."
+      ],
       "transferExamples": [
-        {"english": "I was short before. Now I am tall.", "chinese": "我以前很矮。现在我很高。"},
-        {"english": "The park was dirty before. Now it is clean.", "chinese": "这个公园以前很脏。现在它很干净。"},
-        {"english": "We were poor before. Now we are rich.", "chinese": "我们以前很穷。现在我们很富有。"},
-        {"english": "He was shy before. Now he is outgoing.", "chinese": "他以前很害羞。现在他很外向。"}
-      ]
+        "Match each picture to a word."
+      ],
+      "relatedWordFamilies": [
+        "material"
+      ],
+      "sourceItemKeys": [
+        "line-14"
+      ],
+      "explanation": "each 后接单数名词，match…to…表示配对。"
     },
     {
-      "id": "keep-doing",
-      "pattern": "主语 + keep (on) + doing sth.",
-      "patternCn": "某人继续/一直做某事",
-      "textbookExample": "We will keep working to make our home even better.",
-      "textbookExampleCn": "我们将继续努力，让我们的家园变得更好。",
-      "grammarExplanation": "keep doing sth. 表示「一直做某事；继续做某事」。keep on doing sth. 更强调「反复持续地做」。",
+      "patternKey": "prepare-about",
+      "displayName": "Prepare…about…：演讲准备",
+      "examples": [
+        "Prepare a short speech about our shared Earth."
+      ],
       "transferExamples": [
-        {"english": "Keep trying! You can do it.", "chinese": "继续努力！你能做到的。"},
-        {"english": "She keeps reading English every morning.", "chinese": "她每天早上坚持读英语。"},
-        {"english": "Don't keep asking the same question.", "chinese": "不要一直问同一个问题。"},
-        {"english": "We should keep learning new things.", "chinese": "我们应该不断学习新东西。"}
-      ]
+        "Prepare a short speech about your city."
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-21"
+      ],
+      "explanation": "about 后接演讲主题。示例可用于组织自己的表达。"
     }
   ],
-  "growthExercises": [
+  "transferPrompts": [
     {
-      "id": 1,
-      "type": "word-family",
-      "question": "选择正确的词填空：We should ______ old things instead of throwing them away. (use)",
-      "options": ["reuse", "useless", "user"],
-      "answer": "reuse",
-      "explanation": "reuse是动词，表示「再利用；重复使用」，should后面接动词原形。"
+      "sourcePattern": "instead-of",
+      "targetPattern": "instead-of",
+      "prompt": "建议修好玩具，而不是买新的。",
+      "answer": "Repair the toy instead of buying a new one.",
+      "isSourceText": false
     },
     {
-      "id": 2,
-      "type": "word-family",
-      "question": "选择正确的词填空：Small changes make a big ______. (different)",
-      "options": ["different", "difference", "differently"],
-      "answer": "difference",
-      "explanation": "difference是名词，make a difference是固定短语，表示「有影响；有作用」。"
+      "sourcePattern": "can-become",
+      "targetPattern": "can-become",
+      "prompt": "设想旧箱子可以变成玩具汽车。",
+      "answer": "An old box can become a toy car.",
+      "isSourceText": false
     },
     {
-      "id": 3,
-      "type": "sentence-pattern",
-      "question": "用所给词造句：we / use cloth bags / instead of / plastic bags",
-      "answer": "We use cloth bags instead of plastic bags.",
-      "explanation": "instead of + 名词，表示「代替；而不是」。"
+      "sourcePattern": "discuss-with",
+      "targetPattern": "discuss-with",
+      "prompt": "请对方与朋友讨论计划。",
+      "answer": "Discuss your plan with a friend.",
+      "isSourceText": false
     },
     {
-      "id": 4,
-      "type": "sentence-pattern",
-      "question": "翻译：我们的城市变得越来越干净了。",
-      "answer": "Our city is becoming cleaner and cleaner.",
-      "explanation": "比较级 + and + 比较级，表示「越来越……」。"
+      "sourcePattern": "match-to",
+      "targetPattern": "match-to",
+      "prompt": "请对方把每张图片与一个词配对。",
+      "answer": "Match each picture to a word.",
+      "isSourceText": false
     },
     {
-      "id": 5,
-      "type": "sentence-pattern",
-      "question": "翻译：我们应该坚持我们的计划。",
-      "answer": "We should stick to our plan.",
-      "explanation": "stick to 表示「坚持（计划、原则等）」。"
+      "sourcePattern": "prepare-about",
+      "targetPattern": "prepare-about",
+      "prompt": "请对方准备关于所在城市的简短演讲。",
+      "answer": "Prepare a short speech about your city.",
+      "isSourceText": false
     }
   ]
 }

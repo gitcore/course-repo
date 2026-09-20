@@ -1,8 +1,8 @@
 {
   "manifestId": "new-yilin-grade6-semester1-unit1",
   "activityType": "word-family-practice",
-  "generatorVersion": "unit1-source-sync-20260919",
-  "generatedAt": "2026-09-19",
+  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatedAt": "2026-09-20",
   "wordlist": [
     "try one's best",
     "act",
@@ -386,6 +386,19 @@
       "patternKey": "past-tense-action",
       "displayName": "主语 + 动词过去式 + 宾语/状语（一般过去时陈述句）",
       "examples": [
+        "Bobby practised singing in the morning.",
+        "Su Hai acted well."
+      ],
+      "transferExamples": [
+        "My sister practised the piano for two hours yesterday.",
+        "We remembered to bring our umbrellas that day."
+      ],
+      "relatedWordFamilies": [
+        "practise",
+        "act",
+        "remember"
+      ],
+      "sourceExamples": [
         {
           "sentence": "Bobby practised singing in the morning.",
           "sourceLine": "line-5",
@@ -399,7 +412,7 @@
           "isSourceText": true
         }
       ],
-      "transferExamples": [
+      "transferExampleDetails": [
         {
           "sentence": "My sister practised the piano for two hours yesterday.",
           "chinese": "我妹妹昨天练了两个小时钢琴。",
@@ -410,17 +423,23 @@
           "chinese": "我们那天记得带伞了。",
           "isSourceText": false
         }
-      ],
-      "relatedWordFamilies": [
-        "practise",
-        "act",
-        "remember"
       ]
     },
     {
       "patternKey": "there-was-were",
       "displayName": "There was/were + 名词（there be过去时）",
       "examples": [
+        "There were a lot of words in the play.",
+        "There were also a lot of movements."
+      ],
+      "transferExamples": [
+        "There was a birthday party at my home last Saturday.",
+        "There were lots of beautiful flowers in the park."
+      ],
+      "relatedWordFamilies": [
+        "play"
+      ],
+      "sourceExamples": [
         {
           "sentence": "There were a lot of words in the play.",
           "sourceLine": "line-22",
@@ -434,7 +453,7 @@
           "isSourceText": true
         }
       ],
-      "transferExamples": [
+      "transferExampleDetails": [
         {
           "sentence": "There was a birthday party at my home last Saturday.",
           "chinese": "上周六我家有一场生日派对。",
@@ -445,15 +464,25 @@
           "chinese": "公园里有许多漂亮的花。",
           "isSourceText": false
         }
-      ],
-      "relatedWordFamilies": [
-        "play"
       ]
     },
     {
       "patternKey": "first-but-then",
       "displayName": "First + 过去时句子, but then + 过去时句子（转折变化）",
       "examples": [
+        "First he was afraid, but then he calmed down.",
+        "First he forgot the words, but then he remembered them."
+      ],
+      "transferExamples": [
+        "First, it was sunny, but then it began to rain.",
+        "First, he was afraid of dogs, but then he made friends with a little dog."
+      ],
+      "relatedWordFamilies": [
+        "forget",
+        "remember",
+        "begin"
+      ],
+      "sourceExamples": [
         {
           "sentence": "First he was afraid, but then he calmed down.",
           "sourceLine": "line-13",
@@ -467,7 +496,7 @@
           "isSourceText": true
         }
       ],
-      "transferExamples": [
+      "transferExampleDetails": [
         {
           "sentence": "First, it was sunny, but then it began to rain.",
           "chinese": "起初天气晴朗，但后来开始下雨了。",
@@ -478,17 +507,22 @@
           "chinese": "起初他害怕狗，但后来他和一只小狗成了朋友。",
           "isSourceText": false
         }
-      ],
-      "relatedWordFamilies": [
-        "forget",
-        "remember",
-        "begin"
       ]
     },
     {
       "patternKey": "ask-sb-to-do-sth",
       "displayName": "ask somebody to do something（请某人做某事）",
       "examples": [
+        "She asked Su Yang to practise with her."
+      ],
+      "transferExamples": [
+        "The teacher asked me to play a role in the school play."
+      ],
+      "relatedWordFamilies": [
+        "practise",
+        "play"
+      ],
+      "sourceExamples": [
         {
           "sentence": "She asked Su Yang to practise with her.",
           "sourceLine": "line-23",
@@ -496,22 +530,27 @@
           "isSourceText": true
         }
       ],
-      "transferExamples": [
+      "transferExampleDetails": [
         {
           "sentence": "The teacher asked me to play a role in the school play.",
           "chinese": "老师请我在校园话剧中扮演一个角色。",
           "isSourceText": false
         }
-      ],
-      "relatedWordFamilies": [
-        "practise",
-        "play"
       ]
     },
     {
       "patternKey": "be-afraid-of-doing-sth",
       "displayName": "be afraid of doing something（害怕做某事）",
       "examples": [
+        "Su Hai was afraid of acting in front of many people."
+      ],
+      "transferExamples": [
+        "I was afraid of singing in front of people."
+      ],
+      "relatedWordFamilies": [
+        "act"
+      ],
+      "sourceExamples": [
         {
           "sentence": "Su Hai was afraid of acting in front of many people.",
           "sourceLine": "line-26",
@@ -519,15 +558,12 @@
           "isSourceText": true
         }
       ],
-      "transferExamples": [
+      "transferExampleDetails": [
         {
           "sentence": "I was afraid of singing in front of people.",
           "chinese": "我以前害怕在众人面前唱歌。",
           "isSourceText": false
         }
-      ],
-      "relatedWordFamilies": [
-        "act"
       ]
     }
   ],

@@ -8,15 +8,15 @@
     "name": "Learn with daddy's love"
   },
   "generation": {
-    "sourceHash": "",
-    "generatorVersion": "learn-language-generator-3",
-    "generatedAt": "2026-09-14"
+    "sourceHash": "b479f76c5538c0840e47d565510b29602cc08a489f0fe93485fd947c971144d3",
+    "generatorVersion": "all-courses-source-sync-20260920",
+    "generatedAt": "2026-09-20"
   },
   "domain": {
     "key": "english",
     "planning": {
       "language": "en",
-      "wordlist": "wordlist.md",
+      "wordlist": null,
       "vocabulary": null,
       "languageLevel": "primary-grade-6",
       "phonicsStage": null,
@@ -30,8 +30,7 @@
         "foundationActivityTypes": [
           "readalong",
           "sentence-practice",
-          "conversation-practice",
-          "reading-qa"
+          "conversation-practice"
         ],
         "growthActivityTypes": [
           "word-family-practice",
@@ -77,12 +76,6 @@
           "type": "conversation-practice",
           "name": "对话练习",
           "data": "content/conversation-practice.json",
-          "enabled": true
-        },
-        {
-          "type": "reading-qa",
-          "name": "阅读理解",
-          "data": "content/reading-qa.json",
           "enabled": true
         },
         {

@@ -71,17 +71,17 @@
 
 | 表达 | 含义 |
 | --- | --- |
-| old things / new life | 旧物 / 新的生命或用途 |
-| art project | 美术项目 |
-| plastic bag / plastic cup / plastic bottle | 塑料袋 / 塑料杯 / 塑料瓶 |
-| glass bottle | 玻璃瓶 |
-| cardboard box | 纸箱 |
-| trousers / button | 裤子 / 纽扣 |
+| old things / new life | 旧物 / 新的生命或用途；old /əʊld/ adj.；new /njuː/ adj. |
+| art project | 美术项目；project /ˈprɒdʒekt/ n. |
+| plastic bag / plastic cup / plastic bottle | 塑料袋 / 塑料杯 / 塑料瓶；bottle /ˈbɒtl/ n.；plastic /ˈplæstɪk/ adj. / n.；cup /kʌp/ n. |
+| glass bottle | 玻璃瓶；bottle /ˈbɒtl/ n.；glass /ɡlɑːs/ n. |
+| cardboard box | 纸箱；cardboard /ˈkɑːdbɔːd/ n.；box /bɒks/ n. |
+| trousers / button | 裤子 / 纽扣；button /ˈbʌtn/ n.；trousers /ˈtraʊzəz/ n. |
 | recycling bin / recycling centre | 回收箱 / 回收中心 |
-| truck / machine / worker / group | 卡车 / 机器 / 工人 / 组 |
-| library / journey | 图书馆 / 旅程 |
+| truck / machine / worker / group | 卡车 / 机器 / 工人 / 组；truck /trʌk/ n.；machine /məˈʃiːn/ n.；worker /ˈwɜːkə(r)/ n. |
+| library / journey | 图书馆 / 旅程；library /ˈlaɪbrəri/ n. |
 | make…with… | 用……制作…… |
-| throw…away / pick…up | 扔掉…… / 拿起或捡起…… |
+| throw…away / pick…up | 扔掉…… / 拿起或捡起……；throw /θrəʊ/ v.；pick /pɪk/ v. |
 | make friends with | 与……交朋友 |
 | put…into different groups | 把……分成不同的组 |
 | go to sleep | 入睡 |
@@ -90,6 +90,28 @@
 | next time / become | 下一次 / 变成 |
 
 plastic和glass在本课表示材料，不能把plastic当作“可回收”的同义词。trousers是复数形式；一条裤子可说a pair of trousers。
+
+#### 补充词语注释
+
+以下为配套词汇注释，不额外指定教材必学词，不新增教材例句。
+
+| 词语 | 音标 | 词性 | 含义 |
+|---|---|---|---|
+| hat | /hæt/ | n. | 帽子 |
+| recycle | /ˌriːˈsaɪkl/ | v. | 回收利用 |
+| happen | /ˈhæpən/ | v. | 发生 |
+| wonderful | /ˈwʌndəfl/ | adj. | 奇妙的；极好的 |
+| beautiful | /ˈbjuːtɪfl/ | adj. | 美丽的；漂亮的 |
+
+#### 词族与相关表达（配套拓展）
+
+以下用于帮助理解词形和相关表达，不将拓展词标成教材新增词。
+
+- **recycle**：recycle (v.) 回收利用；recycling (n.) 回收（行业/活动）；recyclable (adj.) 可回收的；recycler (n.) 回收者；upcycle (v.) 升级改造。
+- **make**：make (v.) 制作；使；made (过去式/过去分词)；maker (n.) 制作者；making (n.) 制作过程；homemade (adj.) 自制的。
+- **wonder**：wonder (v./n.) 想知道；奇迹；wonderful (adj.) 奇妙的；极好的；wonderfully (adv.) 极好地；wonderland (n.) 仙境。
+- **beauty**：beauty (n.) 美丽；beautiful (adj.) 美丽的；beautifully (adv.) 美丽地；beautify (v.) 美化。
+- **work**：work (v./n.) 工作；worker (n.) 工人；working (adj.) 工作的；workplace (n.) 工作场所；homework (n.) 家庭作业；housework (n.) 家务。
 
 ### 1. What与How感叹句
 

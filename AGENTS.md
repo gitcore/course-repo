@@ -18,6 +18,6 @@
 
 ## 验证与工作树保护
 
-- 编辑资源目录后运行 `python3 scripts/validate_resource_catalog.py --repo-root .`；该脚本只校验，不会改写文件。
-- 修改校验器时运行 `python3 -m unittest discover -s tests -p 'test_*.py' -v`。
+- 编辑资源目录后运行 `python3 .scripts/validate_resource_catalog.py --repo-root .`；该脚本只校验，不会改写文件。
+- 修改校验器时运行 `python3 -m unittest discover -s .tests -p 'test_*.py' -v`。
 - 这是一个可能包含用户未提交内容的嵌套仓库。除非用户明确要求，不执行 `git reset`、`checkout`、`clean`、`pull`、提交或暂存，也不删除未跟踪内容。

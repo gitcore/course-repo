@@ -1,328 +1,364 @@
 {
   "manifestId": "new-yilin-grade6-semester1-unit2",
   "activityType": "word-family-practice",
-  "generatorVersion": "weekly-english-growth-1",
-  "generatedAt": "2026-09-14",
+  "sourceHash": "59fbfa7a757aa12d77d46095ee6de27a0971b09402de9ad322924e89b7d74d34",
+  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatedAt": "2026-09-20",
+  "sourceKind": "textbook-dialogue",
+  "sourceNotice": "依据 textbook.md 的已核对原文生成；词族和迁移例句为配套拓展。",
   "wordFamilies": [
     {
       "rootWord": "break",
-      "sourceItemKeys": ["line-17", "line-18", "line-26"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
       "nodes": [
         {
-          "word": "break",
-          "role": "v.",
-          "exampleSentence": "Don't break the cup.",
-          "chinese": "打破，弄坏",
-          "difficulty": 1,
-          "isSourceText": false
-        },
-        {
           "word": "broke",
-          "role": "past",
-          "exampleSentence": "He broke it.",
-          "chinese": "打破了（过去式）",
+          "role": "verb (past tense)",
+          "chinese": "弄坏了",
+          "exampleSentence": "Oh no, I broke it!",
           "difficulty": 1,
-          "isSourceText": true
-        },
-        {
-          "word": "breaking",
-          "role": "present participle",
-          "exampleSentence": "The boy is breaking the toy car.",
-          "chinese": "正在打破（现在分词）",
-          "difficulty": 2,
-          "isSourceText": false
+          "isSourceText": true,
+          "sourceLine": "line-5"
         },
         {
           "word": "broken",
-          "role": "adj.",
-          "exampleSentence": "The window is broken.",
-          "chinese": "破碎的，坏的",
+          "role": "adjective",
+          "chinese": "破损的",
+          "exampleSentence": "The cup is broken.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "breakable",
+          "role": "adjective",
+          "chinese": "易碎的",
+          "exampleSentence": "This glass is breakable.",
           "difficulty": 2,
           "isSourceText": false
         }
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     },
     {
       "rootWord": "find",
-      "sourceItemKeys": ["line-8", "line-15"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
       "nodes": [
-        {
-          "word": "find",
-          "role": "v.",
-          "exampleSentence": "I can't find my pencil.",
-          "chinese": "找到，发现",
-          "difficulty": 1,
-          "isSourceText": false
-        },
         {
           "word": "found",
-          "role": "past",
-          "exampleSentence": "Sam found a storybook.",
-          "chinese": "找到了（过去式）",
+          "role": "verb (past tense)",
+          "chinese": "找到了",
+          "exampleSentence": "One day, Sam found a storybook on his way home.",
           "difficulty": 1,
-          "isSourceText": true
+          "isSourceText": true,
+          "sourceLine": "line-1"
         },
         {
-          "word": "finding",
-          "role": "n.",
-          "exampleSentence": "The new finding is very interesting.",
-          "chinese": "发现，发现物",
-          "difficulty": 3,
-          "isSourceText": false
-        },
-        {
-          "word": "finder",
-          "role": "n.",
-          "exampleSentence": "He is the finder of the lost dog.",
-          "chinese": "发现者，寻找者",
-          "difficulty": 3,
-          "isSourceText": false
-        }
-      ]
-    },
-    {
-      "rootWord": "feel",
-      "sourceItemKeys": ["line-21"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
-      "nodes": [
-        {
-          "word": "feel",
-          "role": "v.",
-          "exampleSentence": "Sam did not feel good.",
-          "chinese": "感觉",
-          "difficulty": 1,
-          "isSourceText": true
-        },
-        {
-          "word": "felt",
-          "role": "past",
-          "exampleSentence": "She felt happy yesterday.",
-          "chinese": "感觉了（过去式）",
-          "difficulty": 1,
-          "isSourceText": false
-        },
-        {
-          "word": "feeling",
-          "role": "n.",
-          "exampleSentence": "I have a warm feeling.",
-          "chinese": "感觉，感情",
+          "word": "find",
+          "role": "verb",
+          "chinese": "找到",
+          "exampleSentence": "I can find my bag.",
           "difficulty": 2,
           "isSourceText": false
         },
         {
-          "word": "feel-good",
-          "role": "adj.",
-          "exampleSentence": "This is a feel-good story about honesty.",
-          "chinese": "令人愉悦的",
-          "difficulty": 3,
+          "word": "finding",
+          "role": "noun",
+          "chinese": "发现；研究结果",
+          "exampleSentence": "This finding is useful.",
+          "difficulty": 2,
           "isSourceText": false
         }
+      ],
+      "sourceItemKeys": [
+        "line-1"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     },
     {
       "rootWord": "sell",
-      "sourceItemKeys": ["line-3", "line-6", "line-7", "line-11"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
       "nodes": [
         {
-          "word": "sell",
-          "role": "v.",
-          "exampleSentence": "They sell fruit in the shop.",
-          "chinese": "卖，出售",
-          "difficulty": 1,
-          "isSourceText": false
-        },
-        {
           "word": "sold",
-          "role": "past",
+          "role": "verb (past tense)",
+          "chinese": "卖掉了",
           "exampleSentence": "His nephew sold the ox.",
-          "chinese": "卖了（过去式）",
           "difficulty": 1,
-          "isSourceText": true
-        },
-        {
-          "word": "selling",
-          "role": "n.",
-          "exampleSentence": "The selling of the house took a long time.",
-          "chinese": "销售，出售（名词）",
-          "difficulty": 3,
-          "isSourceText": false
+          "isSourceText": true,
+          "sourceLine": "line-26"
         },
         {
           "word": "seller",
-          "role": "n.",
-          "exampleSentence": "The seller was very kind.",
-          "chinese": "卖家，销售者",
+          "role": "noun",
+          "chinese": "卖家",
+          "exampleSentence": "The seller is honest.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "sell",
+          "role": "verb",
+          "chinese": "出售",
+          "exampleSentence": "They sell fruit here.",
           "difficulty": 2,
           "isSourceText": false
         }
+      ],
+      "sourceItemKeys": [
+        "line-26"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     },
     {
       "rootWord": "buy",
-      "sourceItemKeys": ["line-9", "line-10"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
       "nodes": [
         {
           "word": "buy",
-          "role": "v.",
-          "exampleSentence": "Did you buy my ox?",
+          "role": "verb",
           "chinese": "买",
+          "exampleSentence": "We need the money to buy food!",
           "difficulty": 1,
-          "isSourceText": true
-        },
-        {
-          "word": "bought",
-          "role": "past",
-          "exampleSentence": "She bought a new dress.",
-          "chinese": "买了（过去式）",
-          "difficulty": 1,
-          "isSourceText": false
-        },
-        {
-          "word": "buying",
-          "role": "n.",
-          "exampleSentence": "Buying a house is not easy.",
-          "chinese": "购买（名词）",
-          "difficulty": 3,
-          "isSourceText": false
+          "isSourceText": true,
+          "sourceLine": "line-29"
         },
         {
           "word": "buyer",
-          "role": "n.",
-          "exampleSentence": "He found the buyer.",
-          "chinese": "买主，买方",
+          "role": "noun",
+          "chinese": "买家",
+          "exampleSentence": "The buyer likes the book.",
           "difficulty": 2,
-          "isSourceText": true
+          "isSourceText": false
+        },
+        {
+          "word": "bought",
+          "role": "verb (past tense)",
+          "chinese": "买了",
+          "exampleSentence": "I bought a pen yesterday.",
+          "difficulty": 2,
+          "isSourceText": false
         }
+      ],
+      "sourceItemKeys": [
+        "line-29"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     },
     {
       "rootWord": "repair",
-      "sourceItemKeys": ["line-22", "line-23"],
-      "requiredMasteryTags": ["source-sentence"],
-      "unlockRules": ["stable-source-expression"],
       "nodes": [
         {
-          "word": "repair",
-          "role": "v.",
-          "exampleSentence": "He wanted to repair Bobby's book.",
-          "chinese": "修理，修补",
-          "difficulty": 2,
-          "isSourceText": true
-        },
-        {
           "word": "repaired",
-          "role": "past",
-          "exampleSentence": "Sam repaired the book carefully.",
-          "chinese": "修理了（过去式）",
-          "difficulty": 2,
-          "isSourceText": true
+          "role": "verb (past tense)",
+          "chinese": "修好了",
+          "exampleSentence": "After school, Sam repaired the book carefully.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-11"
         },
         {
-          "word": "repairing",
-          "role": "gerund",
-          "exampleSentence": "Repairing the bike takes time.",
-          "chinese": "修理（动名词）",
-          "difficulty": 3,
+          "word": "repair",
+          "role": "verb",
+          "chinese": "修理",
+          "exampleSentence": "We can repair the chair.",
+          "difficulty": 2,
           "isSourceText": false
         },
         {
-          "word": "repairman",
-          "role": "n.",
-          "exampleSentence": "The repairman fixed the TV.",
-          "chinese": "修理工",
-          "difficulty": 3,
+          "word": "repairable",
+          "role": "adjective",
+          "chinese": "可修复的",
+          "exampleSentence": "This toy is repairable.",
+          "difficulty": 2,
           "isSourceText": false
         }
+      ],
+      "sourceItemKeys": [
+        "line-11"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
+    },
+    {
+      "rootWord": "kind",
+      "nodes": [
+        {
+          "word": "kind",
+          "role": "adjective",
+          "chinese": "善良的",
+          "exampleSentence": "It's very kind of you.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-34"
+        },
+        {
+          "word": "kindness",
+          "role": "noun",
+          "chinese": "善良；善意",
+          "exampleSentence": "Thank you for your kindness.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "kindly",
+          "role": "adverb",
+          "chinese": "友善地",
+          "exampleSentence": "She spoke kindly to me.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
+      ],
+      "sourceItemKeys": [
+        "line-34"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     }
   ],
-  "sentencePatterns": [
+  "patterns": [
     {
-      "patternKey": "past-tense-did-question",
-      "displayName": "Did + 主语 + 动词原形 + ...? 一般过去时一般疑问句",
+      "patternKey": "did-question",
+      "displayName": "Did…：询问过去",
       "examples": [
-        "Did you sell it?",
-        "Did you buy my ox?",
-        "Did you see my storybook yesterday?"
+        "Did you sell it?"
       ],
       "transferExamples": [
-        "Did you finish your homework?",
-        "Did he go to school yesterday?"
+        "Did you clean your room?"
       ],
-      "relatedWordFamilies": ["sell", "buy", "find"]
+      "relatedWordFamilies": [
+        "sell"
+      ],
+      "sourceItemKeys": [
+        "line-28"
+      ],
+      "explanation": "Did 后的动词用原形。"
     },
     {
-      "patternKey": "past-tense-negative",
-      "displayName": "主语 + did not (didn't) + 动词原形 + ... 一般过去时否定句",
+      "patternKey": "past-negative",
+      "displayName": "did not：过去的否定",
       "examples": [
-        "He did not see the ox.",
-        "Meng Xin did not want to sell a sick old ox.",
-        "Sam did not feel good."
+        "He did not see the ox."
       ],
       "transferExamples": [
-        "She didn't like the film.",
-        "They didn't go to the park."
+        "I did not see the cat."
       ],
-      "relatedWordFamilies": ["feel", "sell", "break"]
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-27"
+      ],
+      "explanation": "did not 后接动词原形 see。"
     },
     {
-      "patternKey": "irregular-past-verbs",
-      "displayName": "不规则动词过去式（break/broke, find/found, feel/felt, sell/sold, buy/bought）",
+      "patternKey": "wanted-to",
+      "displayName": "wanted to：过去想做",
       "examples": [
-        "Sam found a storybook.",
-        "He broke it.",
-        "His nephew sold the ox."
+        "He wanted to repair Bobby's book."
       ],
       "transferExamples": [
-        "I found a cat on the street.",
-        "She sold her old bike."
+        "I wanted to help my friend."
       ],
-      "relatedWordFamilies": ["break", "find", "sell", "buy"]
+      "relatedWordFamilies": [
+        "repair"
+      ],
+      "sourceItemKeys": [
+        "line-10"
+      ],
+      "explanation": "wanted 是 want 的过去式；to 后接动词原形。"
+    },
+    {
+      "patternKey": "kind-of-you",
+      "displayName": "It's kind of you：称赞善意",
+      "examples": [
+        "It's very kind of you."
+      ],
+      "transferExamples": [
+        "It's very kind of you to help me."
+      ],
+      "relatedWordFamilies": [
+        "kind"
+      ],
+      "sourceItemKeys": [
+        "line-34"
+      ],
+      "explanation": "kind 描述人的品质，使用 of you。"
+    },
+    {
+      "patternKey": "got-back",
+      "displayName": "got back：取回",
+      "examples": [
+        "Meng Xin got back his sick old ox."
+      ],
+      "transferExamples": [
+        "I got back my book."
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-35"
+      ],
+      "explanation": "got 是 get 的过去式；get back 表示取回。"
     }
   ],
   "transferPrompts": [
     {
-      "sourcePattern": "Did you sell it?",
-      "targetPattern": "Did he sell it?",
-      "prompt": "把问句的主语换成\"他\"。",
-      "answer": "Did he sell it?",
+      "sourcePattern": "did-question",
+      "targetPattern": "did-question",
+      "prompt": "询问对方是否打扫了房间。",
+      "answer": "Did you clean your room?",
       "isSourceText": false
     },
     {
-      "sourcePattern": "He broke the book.",
-      "targetPattern": "He did not break the book.",
-      "prompt": "把句子变成否定句，用did not + 动词原形。",
-      "answer": "He did not break the book.",
+      "sourcePattern": "past-negative",
+      "targetPattern": "past-negative",
+      "prompt": "表达：我没有看见猫。",
+      "answer": "I did not see the cat.",
       "isSourceText": false
     },
     {
-      "sourcePattern": "Sam found a storybook.",
-      "targetPattern": "I found a pen.",
-      "prompt": "把主语换成\"我\"，把故事书换成一支钢笔。",
-      "answer": "I found a pen.",
+      "sourcePattern": "wanted-to",
+      "targetPattern": "wanted-to",
+      "prompt": "表达：我想帮助我的朋友（过去）。",
+      "answer": "I wanted to help my friend.",
       "isSourceText": false
     },
     {
-      "sourcePattern": "It's very kind of you.",
-      "targetPattern": "It's very kind of him.",
-      "prompt": "把\"你\"换成\"他\"。",
-      "answer": "It's very kind of him.",
+      "sourcePattern": "kind-of-you",
+      "targetPattern": "kind-of-you",
+      "prompt": "感谢对方帮助你，使用 kind of you。",
+      "answer": "It's very kind of you to help me.",
       "isSourceText": false
     },
     {
-      "sourcePattern": "He wanted to repair Bobby's book.",
-      "targetPattern": "She wanted to buy a new bag.",
-      "prompt": "把主语换成\"她\"，把修书换成买一个新包。",
-      "answer": "She wanted to buy a new bag.",
+      "sourcePattern": "got-back",
+      "targetPattern": "got-back",
+      "prompt": "表达：我取回了我的书。",
+      "answer": "I got back my book.",
       "isSourceText": false
     }
   ]

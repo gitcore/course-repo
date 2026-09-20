@@ -1,802 +1,6026 @@
 {
-  "version": "2.0.0",
-  "unit": "Unit 4 Getting together",
-  "description": "拆句练习：按递进链原则拆分课文句子，逐句掌握句型结构",
-  "sentences": [
+  "manifestId": "grade6-semester1-unit4",
+  "activityType": "sentence-practice",
+  "sourceHash": "28adb9eb0c2424c0bb0491ea1a2c31ad5659de631f5379bd295e33d331fade77",
+  "generatorVersion": "source-aligned-exercises-20260920",
+  "generatedAt": "2026-09-20",
+  "sections": [
     {
-      "id": 1,
-      "fullSentence": "Yesterday was 21st October.",
-      "source": "Story time",
-      "chinese": "昨天是10月21日。",
-      "fragments": [
+      "title": "Cartoon time — Happy Double Ninth Festival",
+      "sentences": [
         {
-          "order": 1,
-          "text": "Yesterday",
-          "type": "adverbial",
-          "chinese": "昨天",
-          "note": "时间副词作状语"
-        },
-        {
-          "order": 2,
-          "text": "was",
-          "type": "verb",
-          "chinese": "是",
-          "note": "be动词过去式"
-        },
-        {
-          "order": 3,
-          "text": "21st October",
-          "type": "predicative",
-          "chinese": "10月21日",
-          "note": "日期作表语，21st是序数词twenty-first的缩写",
-          "wordBreakdown": [
-            {"word": "October", "phonetic": "/ɒkˈtəʊbə(r)/", "pos": "n.", "meaning": "十月"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "fullSentence": "It was Grandma's 66th birthday.",
-      "source": "Story time",
-      "chinese": "那天是奶奶的66岁生日。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "It",
-          "type": "subject",
-          "chinese": "它",
-          "note": "指代那一天"
-        },
-        {
-          "order": 2,
-          "text": "was",
-          "type": "verb",
-          "chinese": "是",
-          "note": "be动词过去式"
-        },
-        {
-          "order": 3,
-          "text": "Grandma's 66th birthday",
-          "type": "predicative",
-          "chinese": "奶奶的66岁生日",
-          "note": "名词所有格Grandma's修饰birthday，66th是序数词",
-          "wordBreakdown": [
-            {"word": "birthday", "phonetic": "/ˈbɜːθdeɪ/", "pos": "n.", "meaning": "生日"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "fullSentence": "Wang Bing and his parents went to their grandparents' house.",
-      "source": "Story time",
-      "chinese": "王兵和他的父母去了爷爷奶奶家。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Wang Bing and his parents",
-          "type": "subject",
-          "chinese": "王兵和他的父母",
-          "note": "并列主语"
-        },
-        {
-          "order": 2,
-          "text": "went",
-          "type": "verb",
-          "chinese": "去了",
-          "note": "go的过去式"
-        },
-        {
-          "order": 3,
-          "text": "to their grandparents' house",
-          "type": "adverbial",
-          "chinese": "去他们爷爷奶奶家",
-          "note": "地点状语，grandparents'是复数名词所有格",
-          "wordBreakdown": [
-            {"word": "grandparent", "phonetic": "/ˈɡrænpeərənt/", "pos": "n.", "meaning": "祖父母"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "fullSentence": "His parents gave Grandma a nice smartphone.",
-      "source": "Story time",
-      "chinese": "他的父母送给奶奶一部漂亮的智能手机。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "His parents",
-          "type": "subject",
-          "chinese": "他的父母",
-          "note": "主语"
-        },
-        {
-          "order": 2,
-          "text": "gave",
-          "type": "verb",
-          "chinese": "给了",
-          "note": "give的过去式，双宾语动词"
-        },
-        {
-          "order": 3,
-          "text": "Grandma",
-          "type": "indirect-object",
-          "chinese": "奶奶",
-          "note": "间接宾语（人）"
-        },
-        {
-          "order": 4,
-          "text": "a nice smartphone",
-          "type": "direct-object",
-          "chinese": "一部漂亮的智能手机",
-          "note": "直接宾语（物）",
-          "wordBreakdown": [
-            {"word": "smartphone", "phonetic": "/ˈsmɑːtfəʊn/", "pos": "n.", "meaning": "智能手机"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "fullSentence": "Wang Bing drew a picture for her.",
-      "source": "Story time",
-      "chinese": "王兵为她画了一幅画。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Wang Bing",
-          "type": "subject",
-          "chinese": "王兵",
-          "note": "人名作主语"
-        },
-        {
-          "order": 2,
-          "text": "drew",
-          "type": "verb",
-          "chinese": "画了",
-          "note": "draw的过去式"
-        },
-        {
-          "order": 3,
-          "text": "a picture",
-          "type": "object",
-          "chinese": "一幅画",
-          "note": "直接宾语"
-        },
-        {
-          "order": 4,
-          "text": "for her",
-          "type": "adverbial",
-          "chinese": "为她",
-          "note": "目的状语，for sb. 为某人"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "fullSentence": "They also brought a big birthday cake.",
-      "source": "Story time",
-      "chinese": "他们还带了一个大生日蛋糕。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "They",
-          "type": "subject",
-          "chinese": "他们",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "also brought",
-          "type": "verb",
-          "chinese": "还带来了",
-          "note": "also放在行为动词前，brought是bring的过去式"
-        },
-        {
-          "order": 3,
-          "text": "a big birthday cake",
-          "type": "object",
-          "chinese": "一个大生日蛋糕",
-          "note": "名词短语作宾语，birthday作定语修饰cake",
-          "wordBreakdown": [
-            {"word": "cake", "phonetic": "/keɪk/", "pos": "n.", "meaning": "蛋糕"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "fullSentence": "Grandpa and Grandma were so happy to see them.",
-      "source": "Story time",
-      "chinese": "爷爷奶奶看到他们非常开心。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Grandpa and Grandma",
-          "type": "subject",
-          "chinese": "爷爷和奶奶",
-          "note": "并列主语"
-        },
-        {
-          "order": 2,
-          "text": "were so happy",
-          "type": "predicative",
-          "chinese": "非常开心",
-          "note": "so加强语气，意为「如此」"
-        },
-        {
-          "order": 3,
-          "text": "to see them",
-          "type": "infinitive",
-          "chinese": "见到他们",
-          "note": "不定式作原因状语，be happy to do sth."
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "fullSentence": "We had a big lunch. We ate noodles and wished Grandma a long life.",
-      "source": "Story time",
-      "chinese": "我们吃了一顿丰盛的午餐。我们吃了面条，祝奶奶长寿。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "We had a big lunch",
-          "type": "clause",
-          "chinese": "我们吃了一顿丰盛的午餐",
-          "note": "have lunch 吃午餐",
-          "wordBreakdown": [
-            {"word": "lunch", "phonetic": "/lʌntʃ/", "pos": "n.", "meaning": "午餐"}
+          "id": "1-1",
+          "sequenceNumber": 1,
+          "segmentNumber": 1,
+          "english": "It is",
+          "chinese": "今天是",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：今天是",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "It",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It is"
+            }
           ]
         },
         {
-          "order": 2,
-          "text": "We ate noodles",
-          "type": "predicate-1",
-          "chinese": "我们吃了面条",
-          "note": "ate是eat的过去式",
-          "wordBreakdown": [
-            {"word": "noodle", "phonetic": "/ˈnuːdl/", "pos": "n.", "meaning": "面条"}
-          ]
-        },
-        {
-          "order": 3,
-          "text": "and wished Grandma a long life",
-          "type": "predicate-2",
-          "chinese": "并且祝奶奶长寿",
-          "note": "wish sb. sth. 祝愿某人……，wished是wish的过去式",
-          "wordBreakdown": [
-            {"word": "wish", "phonetic": "/wɪʃ/", "pos": "v.", "meaning": "祝愿"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "fullSentence": "Then Grandma blew out the candles, and we ate the cake.",
-      "source": "Story time",
-      "chinese": "然后奶奶吹灭了蜡烛，我们吃了蛋糕。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Then",
-          "type": "adverbial",
-          "chinese": "然后",
-          "note": "时间副词，表示顺序"
-        },
-        {
-          "order": 2,
-          "text": "Grandma blew out the candles",
-          "type": "clause-1",
-          "chinese": "奶奶吹灭了蜡烛",
-          "note": "前一分句，blow out 吹灭，blew是blow的过去式",
-          "wordBreakdown": [
-            {"word": "blow", "phonetic": "/bləʊ/", "pos": "v.", "meaning": "吹"},
-            {"word": "candle", "phonetic": "/ˈkændl/", "pos": "n.", "meaning": "蜡烛"}
-          ]
-        },
-        {
-          "order": 3,
-          "text": "and we ate the cake",
-          "type": "clause-2",
-          "chinese": "我们吃了蛋糕",
-          "note": "后一分句，and连接两个并列句"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "fullSentence": "In the afternoon, I chatted with Grandma.",
-      "source": "Story time",
-      "chinese": "下午，我和奶奶聊天。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "In the afternoon",
-          "type": "adverbial",
-          "chinese": "在下午",
-          "note": "时间状语"
-        },
-        {
-          "order": 2,
-          "text": "I",
-          "type": "subject",
-          "chinese": "我",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 3,
-          "text": "chatted with Grandma",
-          "type": "verb-phrase",
-          "chinese": "和奶奶聊天",
-          "note": "chat with sb. 和某人聊天，chatted是chat的过去式",
-          "wordBreakdown": [
-            {"word": "chat", "phonetic": "/tʃæt/", "pos": "v.", "meaning": "聊天"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "fullSentence": "We also took a family photo. It was our 12th family photo.",
-      "source": "Story time",
-      "chinese": "我们还拍了一张全家福。那是我们的第12张全家福。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "We also took a family photo",
-          "type": "clause-1",
-          "chinese": "我们还拍了一张全家福",
-          "note": "take a photo 拍照，took是take的过去式",
-          "wordBreakdown": [
-            {"word": "photo", "phonetic": "/ˈfəʊtəʊ/", "pos": "n.", "meaning": "照片"}
-          ]
-        },
-        {
-          "order": 2,
-          "text": "It was our 12th family photo",
-          "type": "clause-2",
-          "chinese": "那是我们的第12张全家福",
-          "note": "12th = twelfth，序数词表示「第12」"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "fullSentence": "When I was a little kid, Grandpa and Grandma took care of me.",
-      "source": "Story time",
-      "chinese": "当我还是个小孩的时候，爷爷奶奶照顾我。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "When I was a little kid",
-          "type": "clause",
-          "chinese": "当我还是个小孩的时候",
-          "note": "时间状语从句，when引导"
-        },
-        {
-          "order": 2,
-          "text": "Grandpa and Grandma",
-          "type": "subject",
-          "chinese": "爷爷和奶奶",
-          "note": "主句主语"
-        },
-        {
-          "order": 3,
-          "text": "took care of me",
-          "type": "verb-phrase",
-          "chinese": "照顾我",
-          "note": "take care of 照顾，took是take的过去式"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "fullSentence": "Now I am a big boy. I can take care of them. I want to spend more time with them.",
-      "source": "Story time",
-      "chinese": "现在我是个大男孩了。我可以照顾他们。我想多陪陪他们。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Now I am a big boy",
-          "type": "clause-1",
-          "chinese": "现在我是个大男孩了",
-          "note": "一般现在时，主系表结构"
-        },
-        {
-          "order": 2,
-          "text": "I can take care of them",
-          "type": "clause-2",
-          "chinese": "我可以照顾他们",
-          "note": "can + 动词原形，表能力"
-        },
-        {
-          "order": 3,
-          "text": "I want to spend more time with them",
-          "type": "clause-3",
-          "chinese": "我想多陪陪他们",
-          "note": "want to do sth. 想要做某事；spend time with sb. 花时间陪某人",
-          "wordBreakdown": [
-            {"word": "spend", "phonetic": "/spend/", "pos": "v.", "meaning": "度过；花费"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "fullSentence": "It is the Double Ninth Festival today.",
-      "source": "Cartoon time",
-      "chinese": "今天是重阳节。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "It",
-          "type": "subject",
-          "chinese": "它",
-          "note": "指代今天"
-        },
-        {
-          "order": 2,
-          "text": "is",
-          "type": "verb",
-          "chinese": "是",
-          "note": "be动词一般现在时"
-        },
-        {
-          "order": 3,
-          "text": "the Double Ninth Festival",
-          "type": "predicative",
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "english": "the Double Ninth Festival today.",
           "chinese": "重阳节",
-          "note": "节日名称，每个实词首字母大写",
-          "wordBreakdown": [
-            {"word": "festival", "phonetic": "/ˈfestɪvl/", "pos": "n.", "meaning": "节日"}
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：重阳节",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "Double",
+              "phonetic": "/ˈdʌbl/",
+              "partOfSpeech": "adj.",
+              "meaning": "双的；Double Ninth Festival指重阳节"
+            },
+            {
+              "text": "Ninth",
+              "phonetic": "/naɪnθ/",
+              "partOfSpeech": "ord.",
+              "meaning": "第九"
+            },
+            {
+              "text": "Festival",
+              "phonetic": "/ˈfestɪvl/",
+              "partOfSpeech": "n.",
+              "meaning": "节日"
+            },
+            {
+              "text": "today",
+              "phonetic": "/təˈdeɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "今天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the Double Ninth Festival today."
+            }
           ]
         },
         {
-          "order": 4,
-          "text": "today",
-          "type": "adverbial",
-          "chinese": "今天",
-          "note": "时间副词"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "fullSentence": "It's a day for old people.",
-      "source": "Cartoon time",
-      "chinese": "这是老年人的节日。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "It's",
-          "type": "subject-verb",
-          "chinese": "它是",
-          "note": "it is的缩写"
-        },
-        {
-          "order": 2,
-          "text": "a day",
-          "type": "predicative",
-          "chinese": "一天；一个日子",
-          "note": "名词作表语"
-        },
-        {
-          "order": 3,
-          "text": "for old people",
-          "type": "adverbial",
-          "chinese": "为老年人的",
-          "note": "for sb. 表示对象"
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "fullSentence": "It's on the ninth day of the ninth lunar month.",
-      "source": "Cartoon time",
-      "chinese": "它在农历九月初九。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "It's",
-          "type": "subject-verb",
-          "chinese": "它是",
-          "note": "it is的缩写"
-        },
-        {
-          "order": 2,
-          "text": "on the ninth day",
-          "type": "adverbial",
-          "chinese": "在第九天",
-          "note": "具体某一天用介词on，ninth是序数词",
-          "wordBreakdown": [
-            {"word": "ninth", "phonetic": "/naɪnθ/", "pos": "ord.", "meaning": "第九"}
+          "id": "1-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "english": "It is the Double Ninth Festival today.",
+          "chinese": "今天是重阳节。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "It",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "Double",
+              "phonetic": "/ˈdʌbl/",
+              "partOfSpeech": "adj.",
+              "meaning": "双的；Double Ninth Festival指重阳节"
+            },
+            {
+              "text": "Ninth",
+              "phonetic": "/naɪnθ/",
+              "partOfSpeech": "ord.",
+              "meaning": "第九"
+            },
+            {
+              "text": "Festival",
+              "phonetic": "/ˈfestɪvl/",
+              "partOfSpeech": "n.",
+              "meaning": "节日"
+            },
+            {
+              "text": "today",
+              "phonetic": "/təˈdeɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "今天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It is"
+            },
+            {
+              "label": "词块",
+              "text": "the Double Ninth Festival today."
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "of the ninth lunar month",
-          "type": "attribute",
-          "chinese": "农历第九个月的",
-          "note": "of结构作定语，lunar month 农历月",
-          "wordBreakdown": [
-            {"word": "lunar", "phonetic": "/ˈluːnə(r)/", "pos": "adj.", "meaning": "农历的"}
+          "id": "2-1",
+          "sequenceNumber": 2,
+          "segmentNumber": 1,
+          "english": "Do you know",
+          "chinese": "你知道吗",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你知道吗",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "know",
+              "phonetic": "/nəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "知道"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Do you know"
+            }
           ]
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "fullSentence": "They show their love for their grandmothers and grandfathers.",
-      "source": "Cartoon time",
-      "chinese": "他们表达对爷爷奶奶的爱。",
-      "fragments": [
+        },
         {
-          "order": 1,
-          "text": "They",
-          "type": "subject",
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 2,
+          "english": "the Double Ninth Festival, Tina?",
+          "chinese": "Tina，重阳节",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：Tina，重阳节",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "Double",
+              "phonetic": "/ˈdʌbl/",
+              "partOfSpeech": "adj.",
+              "meaning": "双的；Double Ninth Festival指重阳节"
+            },
+            {
+              "text": "Ninth",
+              "phonetic": "/naɪnθ/",
+              "partOfSpeech": "ord.",
+              "meaning": "第九"
+            },
+            {
+              "text": "Festival",
+              "phonetic": "/ˈfestɪvl/",
+              "partOfSpeech": "n.",
+              "meaning": "节日"
+            },
+            {
+              "text": "Tina",
+              "phonetic": "/ˈtiːnə/",
+              "partOfSpeech": "n.",
+              "meaning": "蒂娜（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the Double Ninth Festival, Tina?"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
+          "english": "Do you know the Double Ninth Festival, Tina?",
+          "chinese": "Tina，你知道重阳节吗？",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "注意疑问词或句首的助动词，并按原文词序说出问句。",
+          "words": [
+            {
+              "text": "Do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "know",
+              "phonetic": "/nəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "知道"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "Double",
+              "phonetic": "/ˈdʌbl/",
+              "partOfSpeech": "adj.",
+              "meaning": "双的；Double Ninth Festival指重阳节"
+            },
+            {
+              "text": "Ninth",
+              "phonetic": "/naɪnθ/",
+              "partOfSpeech": "ord.",
+              "meaning": "第九"
+            },
+            {
+              "text": "Festival",
+              "phonetic": "/ˈfestɪvl/",
+              "partOfSpeech": "n.",
+              "meaning": "节日"
+            },
+            {
+              "text": "Tina",
+              "phonetic": "/ˈtiːnə/",
+              "partOfSpeech": "n.",
+              "meaning": "蒂娜（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Do you know"
+            },
+            {
+              "label": "词块",
+              "text": "the Double Ninth Festival, Tina?"
+            }
+          ]
+        },
+        {
+          "id": "3-1",
+          "sequenceNumber": 3,
+          "segmentNumber": 1,
+          "english": "Yes, it's a day",
+          "chinese": "知道，它是一个日子",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：知道，它是一个日子",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Yes",
+              "phonetic": "/jes/",
+              "partOfSpeech": "adv.",
+              "meaning": "是的"
+            },
+            {
+              "text": "it's",
+              "phonetic": "/ɪts/",
+              "partOfSpeech": "v.",
+              "meaning": "它是（It is的缩写）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Yes, it's a day"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
+          "english": "old people.",
+          "chinese": "老年人",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：老年人",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "old",
+              "phonetic": "/əʊld/",
+              "partOfSpeech": "adj.",
+              "meaning": "老的，年老的"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "old people."
+            }
+          ]
+        },
+        {
+          "id": "3-4",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
+          "english": "Yes, it's a day for old people.",
+          "chinese": "知道，它是老年人的节日。",
+          "speaker": "Tina",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Yes",
+              "phonetic": "/jes/",
+              "partOfSpeech": "adv.",
+              "meaning": "是的"
+            },
+            {
+              "text": "it's",
+              "phonetic": "/ɪts/",
+              "partOfSpeech": "v.",
+              "meaning": "它是（It is的缩写）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "old",
+              "phonetic": "/əʊld/",
+              "partOfSpeech": "adj.",
+              "meaning": "老的，年老的"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Yes, it's a day"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "old people."
+            }
+          ]
+        },
+        {
+          "id": "3-5",
+          "sequenceNumber": 3,
+          "segmentNumber": 5,
+          "english": "It's on",
+          "chinese": "它在",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：它在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "It's",
+              "phonetic": "/ɪts/",
+              "partOfSpeech": "v.",
+              "meaning": "它是（It is的缩写）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It's on"
+            }
+          ]
+        },
+        {
+          "id": "3-6",
+          "sequenceNumber": 3,
+          "segmentNumber": 6,
+          "english": "the ninth day",
+          "chinese": "第九天",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：第九天",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "ninth",
+              "phonetic": "/naɪnθ/",
+              "partOfSpeech": "ord.",
+              "meaning": "第九"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the ninth day"
+            }
+          ]
+        },
+        {
+          "id": "3-7",
+          "sequenceNumber": 3,
+          "segmentNumber": 7,
+          "english": "of",
+          "chinese": "的",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：的",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "of"
+            }
+          ]
+        },
+        {
+          "id": "3-8",
+          "sequenceNumber": 3,
+          "segmentNumber": 8,
+          "english": "the ninth lunar month.",
+          "chinese": "农历九月",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：农历九月",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "ninth",
+              "phonetic": "/naɪnθ/",
+              "partOfSpeech": "ord.",
+              "meaning": "第九"
+            },
+            {
+              "text": "lunar",
+              "phonetic": "/ˈluːnə(r)/",
+              "partOfSpeech": "adj.",
+              "meaning": "农历的"
+            },
+            {
+              "text": "month",
+              "phonetic": "/mʌnθ/",
+              "partOfSpeech": "n.",
+              "meaning": "月"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the ninth lunar month."
+            }
+          ]
+        },
+        {
+          "id": "3-9",
+          "sequenceNumber": 3,
+          "segmentNumber": 9,
+          "english": "It's on the ninth day of the ninth lunar month.",
+          "chinese": "它在农历九月初九。",
+          "speaker": "Tina",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "It's",
+              "phonetic": "/ɪts/",
+              "partOfSpeech": "v.",
+              "meaning": "它是（It is的缩写）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "ninth",
+              "phonetic": "/naɪnθ/",
+              "partOfSpeech": "ord.",
+              "meaning": "第九"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "lunar",
+              "phonetic": "/ˈluːnə(r)/",
+              "partOfSpeech": "adj.",
+              "meaning": "农历的"
+            },
+            {
+              "text": "month",
+              "phonetic": "/mʌnθ/",
+              "partOfSpeech": "n.",
+              "meaning": "月"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It's on"
+            },
+            {
+              "label": "词块",
+              "text": "the ninth day"
+            },
+            {
+              "label": "词块",
+              "text": "of"
+            },
+            {
+              "label": "词块",
+              "text": "the ninth lunar month."
+            }
+          ]
+        },
+        {
+          "id": "4-1",
+          "sequenceNumber": 4,
+          "segmentNumber": 1,
+          "english": "What do people do",
+          "chinese": "人们做什么",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：人们做什么",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "What do people do"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 2,
+          "english": "on",
+          "chinese": "在",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "on"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
+          "english": "this day?",
+          "chinese": "这一天",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：这一天",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "this day?"
+            }
+          ]
+        },
+        {
+          "id": "4-4",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
+          "english": "What do people do on this day?",
+          "chinese": "人们在这一天做什么？",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "注意疑问词或句首的助动词，并按原文词序说出问句。",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "What do people do"
+            },
+            {
+              "label": "词块",
+              "text": "on"
+            },
+            {
+              "label": "词块",
+              "text": "this day?"
+            }
+          ]
+        },
+        {
+          "id": "5-1",
+          "sequenceNumber": 5,
+          "segmentNumber": 1,
+          "english": "They show their love",
+          "chinese": "他们表达爱",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他们表达爱",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "They",
+              "phonetic": "/ðeɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们"
+            },
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "展示；表达"
+            },
+            {
+              "text": "their",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "det.",
+              "meaning": "他们的"
+            },
+            {
+              "text": "love",
+              "phonetic": "/lʌv/",
+              "partOfSpeech": "n./v.",
+              "meaning": "爱"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "They show their love"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 2,
+          "english": "for",
+          "chinese": "对",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：对",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
+          "english": "their grandmothers and grandfathers.",
+          "chinese": "他们的祖母和祖父",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他们的祖母和祖父",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "their",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "det.",
+              "meaning": "他们的"
+            },
+            {
+              "text": "grandmothers",
+              "phonetic": "/ˈɡrænmʌðəz/",
+              "partOfSpeech": "n.",
+              "meaning": "祖母；外祖母（复数）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "grandfathers",
+              "phonetic": "/ˈɡrænfɑːðəz/",
+              "partOfSpeech": "n.",
+              "meaning": "祖父；外祖父（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "their grandmothers and grandfathers."
+            }
+          ]
+        },
+        {
+          "id": "5-4",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
+          "english": "They show their love for their grandmothers and grandfathers.",
+          "chinese": "他们向祖父母表达爱意。",
+          "speaker": "Tina",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "They",
+              "phonetic": "/ðeɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们"
+            },
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "展示；表达"
+            },
+            {
+              "text": "their",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "det.",
+              "meaning": "他们的"
+            },
+            {
+              "text": "love",
+              "phonetic": "/lʌv/",
+              "partOfSpeech": "n./v.",
+              "meaning": "爱"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "grandmothers",
+              "phonetic": "/ˈɡrænmʌðəz/",
+              "partOfSpeech": "n.",
+              "meaning": "祖母；外祖母（复数）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "grandfathers",
+              "phonetic": "/ˈɡrænfɑːðəz/",
+              "partOfSpeech": "n.",
+              "meaning": "祖父；外祖父（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "They show their love"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "their grandmothers and grandfathers."
+            }
+          ]
+        },
+        {
+          "id": "5-5",
+          "sequenceNumber": 5,
+          "segmentNumber": 5,
+          "english": "They give them gifts",
+          "chinese": "他们给他们礼物",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他们给他们礼物",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "They",
+              "phonetic": "/ðeɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们"
+            },
+            {
+              "text": "give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            },
+            {
+              "text": "gifts",
+              "phonetic": "/ɡɪfts/",
+              "partOfSpeech": "n.",
+              "meaning": "礼物（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "They give them gifts"
+            }
+          ]
+        },
+        {
+          "id": "5-6",
+          "sequenceNumber": 5,
+          "segmentNumber": 6,
+          "english": "and do chores",
+          "chinese": "并做家务",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：并做家务",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "chores",
+              "phonetic": "/tʃɔːz/",
+              "partOfSpeech": "n.",
+              "meaning": "家务（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "and do chores"
+            }
+          ]
+        },
+        {
+          "id": "5-7",
+          "sequenceNumber": 5,
+          "segmentNumber": 7,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "5-8",
+          "sequenceNumber": 5,
+          "segmentNumber": 8,
+          "english": "them.",
           "chinese": "他们",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "show their love",
-          "type": "verb-phrase",
-          "chinese": "表达他们的爱",
-          "note": "show love 表达爱"
-        },
-        {
-          "order": 3,
-          "text": "for their grandmothers and grandfathers",
-          "type": "adverbial",
-          "chinese": "对他们的爷爷奶奶",
-          "note": "for表示对象，grandmothers和grandfathers并列"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "fullSentence": "They give them gifts and do chores for them.",
-      "source": "Cartoon time",
-      "chinese": "他们给他们送礼物，为他们做家务。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "They",
-          "type": "subject",
-          "chinese": "他们",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "give them gifts",
-          "type": "predicate-1",
-          "chinese": "给他们礼物",
-          "note": "第一个谓语，give sb. sth. 双宾语",
-          "wordBreakdown": [
-            {"word": "gift", "phonetic": "/ɡɪft/", "pos": "n.", "meaning": "礼物"}
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他们",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "them."
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "and do chores for them",
-          "type": "predicate-2",
-          "chinese": "并且为他们做家务",
-          "note": "第二个谓语，do chores 做家务",
-          "wordBreakdown": [
-            {"word": "chore", "phonetic": "/tʃɔː(r)/", "pos": "n.", "meaning": "家务；杂活"}
+          "id": "5-9",
+          "sequenceNumber": 5,
+          "segmentNumber": 9,
+          "english": "They give them gifts and do chores for them.",
+          "chinese": "他们给祖父母送礼物，并为他们做家务。",
+          "speaker": "Tina",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "They",
+              "phonetic": "/ðeɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们"
+            },
+            {
+              "text": "give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            },
+            {
+              "text": "gifts",
+              "phonetic": "/ɡɪfts/",
+              "partOfSpeech": "n.",
+              "meaning": "礼物（复数）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "chores",
+              "phonetic": "/tʃɔːz/",
+              "partOfSpeech": "n.",
+              "meaning": "家务（复数）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "They give them gifts"
+            },
+            {
+              "label": "词块",
+              "text": "and do chores"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "them."
+            }
           ]
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "fullSentence": "What should we do for Grandpa?",
-      "source": "Cartoon time",
-      "chinese": "我们应该为爷爷做什么呢？",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "What",
-          "type": "question-word",
-          "chinese": "什么",
-          "note": "疑问代词"
         },
         {
-          "order": 2,
-          "text": "should we do",
-          "type": "verb-phrase",
-          "chinese": "我们应该做",
-          "note": "should是情态动词，后接动词原形"
-        },
-        {
-          "order": 3,
-          "text": "for Grandpa",
-          "type": "adverbial",
-          "chinese": "为爷爷",
-          "note": "目的状语"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "fullSentence": "We can cook dinner for him.",
-      "source": "Cartoon time",
-      "chinese": "我们可以给他做晚饭。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "We",
-          "type": "subject",
-          "chinese": "我们",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "can cook dinner",
-          "type": "verb-phrase",
-          "chinese": "可以做晚饭",
-          "note": "can + 动词原形，cook dinner 做晚饭",
-          "wordBreakdown": [
-            {"word": "cook", "phonetic": "/kʊk/", "pos": "v.", "meaning": "烹饪"}
+          "id": "6-1",
+          "sequenceNumber": 6,
+          "segmentNumber": 1,
+          "english": "What should we do",
+          "chinese": "我们应该做些什么",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们应该做些什么",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "modal v.",
+              "meaning": "应该"
+            },
+            {
+              "text": "we",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "What should we do"
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "for him",
-          "type": "adverbial",
-          "chinese": "给他",
-          "note": "for sb. 为某人"
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "fullSentence": "Good idea! We can make a card for him too.",
-      "source": "Cartoon time",
-      "chinese": "好主意！我们也可以给他做一张卡片。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Good idea",
-          "type": "exclamation",
-          "chinese": "好主意",
-          "note": "口语中表示赞同"
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 2,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "We can make a card",
-          "type": "clause",
-          "chinese": "我们可以做一张卡片",
-          "note": "make a card 制作卡片"
-        },
-        {
-          "order": 3,
-          "text": "for him too",
-          "type": "adverbial",
-          "chinese": "也给他",
-          "note": "too表示「也」，放在句尾"
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "fullSentence": "In the afternoon, Bobby, Tina and their parents went to see Grandpa.",
-      "source": "Cartoon time",
-      "chinese": "下午，Bobby、Tina和他们的父母去看望爷爷。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "In the afternoon",
-          "type": "adverbial",
-          "chinese": "在下午",
-          "note": "时间状语"
-        },
-        {
-          "order": 2,
-          "text": "Bobby, Tina and their parents",
-          "type": "subject",
-          "chinese": "Bobby、Tina和他们的父母",
-          "note": "并列主语"
-        },
-        {
-          "order": 3,
-          "text": "went to see Grandpa",
-          "type": "verb-phrase",
-          "chinese": "去看望爷爷",
-          "note": "go to see sb. 去看望某人，went是go的过去式"
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "fullSentence": "Happy Double Ninth Festival, Grandpa! We love you!",
-      "source": "Cartoon time",
-      "chinese": "爷爷，重阳节快乐！我们爱您！",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Happy Double Ninth Festival",
-          "type": "greeting",
-          "chinese": "重阳节快乐",
-          "note": "节日祝福语，Happy + 节日名"
-        },
-        {
-          "order": 2,
-          "text": "Grandpa",
-          "type": "vocative",
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
+          "english": "Grandpa?",
           "chinese": "爷爷",
-          "note": "称呼语"
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：爷爷",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Grandpa?"
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "We love you",
-          "type": "clause",
-          "chinese": "我们爱您",
-          "note": "表达爱意的常用句"
+          "id": "6-4",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
+          "english": "What should we do for Grandpa?",
+          "chinese": "我们应该为爷爷做些什么？",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "注意疑问词或句首的助动词，并按原文词序说出问句。",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "modal v.",
+              "meaning": "应该"
+            },
+            {
+              "text": "we",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "What should we do"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "Grandpa?"
+            }
+          ]
+        },
+        {
+          "id": "7-1",
+          "sequenceNumber": 7,
+          "segmentNumber": 1,
+          "english": "We can cook dinner",
+          "chinese": "我们可以做晚饭",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们可以做晚饭",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "cook",
+              "phonetic": "/kʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "烹饪"
+            },
+            {
+              "text": "dinner",
+              "phonetic": "/ˈdɪnə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "晚餐；正餐"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We can cook dinner"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 2,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
+          "english": "him.",
+          "chinese": "他",
+          "speaker": "Tina",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "him",
+              "phonetic": "/hɪm/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "him."
+            }
+          ]
+        },
+        {
+          "id": "7-4",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
+          "english": "We can cook dinner for him.",
+          "chinese": "我们可以给他做晚饭。",
+          "speaker": "Tina",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "cook",
+              "phonetic": "/kʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "烹饪"
+            },
+            {
+              "text": "dinner",
+              "phonetic": "/ˈdɪnə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "晚餐；正餐"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "him",
+              "phonetic": "/hɪm/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We can cook dinner"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "him."
+            }
+          ]
+        },
+        {
+          "id": "8-1",
+          "sequenceNumber": 8,
+          "segmentNumber": 1,
+          "english": "Good idea!",
+          "chinese": "好主意！",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "idea",
+              "phonetic": "/aɪˈdɪə/",
+              "partOfSpeech": "n.",
+              "meaning": "主意"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Good idea!"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 2,
+          "english": "We can make a card",
+          "chinese": "我们可以做一张卡片",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们可以做一张卡片",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；使"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We can make a card"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "8-4",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
+          "english": "him too.",
+          "chinese": "也为他",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：也为他",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "him",
+              "phonetic": "/hɪm/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（宾格）"
+            },
+            {
+              "text": "too",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "him too."
+            }
+          ]
+        },
+        {
+          "id": "8-5",
+          "sequenceNumber": 8,
+          "segmentNumber": 5,
+          "english": "We can make a card for him too.",
+          "chinese": "我们也可以给他做一张卡片。",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；使"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "him",
+              "phonetic": "/hɪm/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（宾格）"
+            },
+            {
+              "text": "too",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We can make a card"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "him too."
+            }
+          ]
+        },
+        {
+          "id": "9-1",
+          "sequenceNumber": 9,
+          "segmentNumber": 1,
+          "english": "Great!",
+          "chinese": "太棒了！",
+          "speaker": "Tina",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Great!"
+            }
+          ]
+        },
+        {
+          "id": "10-1",
+          "sequenceNumber": 10,
+          "segmentNumber": 1,
+          "english": "Bobby, Tina and their parents",
+          "chinese": "Bobby、Tina和他们的父母",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：Bobby、Tina和他们的父母",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            },
+            {
+              "text": "Tina",
+              "phonetic": "/ˈtiːnə/",
+              "partOfSpeech": "n.",
+              "meaning": "蒂娜（人名）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "their",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "det.",
+              "meaning": "他们的"
+            },
+            {
+              "text": "parents",
+              "phonetic": "/ˈpeərənts/",
+              "partOfSpeech": "n.",
+              "meaning": "父母"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Bobby, Tina and their parents"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 2,
+          "english": "go to see Grandpa",
+          "chinese": "去看望爷爷",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：去看望爷爷",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "n./v.",
+              "meaning": "尝试；去"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见，看到"
+            },
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "go to see Grandpa"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "10-4",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
+          "english": "the afternoon.",
+          "chinese": "下午",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：下午",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "afternoon",
+              "phonetic": "/ˌɑːftəˈnuːn/",
+              "partOfSpeech": "n.",
+              "meaning": "下午"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the afternoon."
+            }
+          ]
+        },
+        {
+          "id": "10-5",
+          "sequenceNumber": 10,
+          "segmentNumber": 5,
+          "english": "Bobby, Tina and their parents go to see Grandpa in the afternoon.",
+          "chinese": "Bobby、Tina和他们的父母在下午去看望爷爷。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            },
+            {
+              "text": "Tina",
+              "phonetic": "/ˈtiːnə/",
+              "partOfSpeech": "n.",
+              "meaning": "蒂娜（人名）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "their",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "det.",
+              "meaning": "他们的"
+            },
+            {
+              "text": "parents",
+              "phonetic": "/ˈpeərənts/",
+              "partOfSpeech": "n.",
+              "meaning": "父母"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "n./v.",
+              "meaning": "尝试；去"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见，看到"
+            },
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "afternoon",
+              "phonetic": "/ˌɑːftəˈnuːn/",
+              "partOfSpeech": "n.",
+              "meaning": "下午"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Bobby, Tina and their parents"
+            },
+            {
+              "label": "词块",
+              "text": "go to see Grandpa"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "the afternoon."
+            }
+          ]
+        },
+        {
+          "id": "11-1",
+          "sequenceNumber": 11,
+          "segmentNumber": 1,
+          "english": "Happy Double Ninth Festival, Grandpa!",
+          "chinese": "爷爷，重阳节快乐！",
+          "speaker": "Bobby & Tina",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "高兴的"
+            },
+            {
+              "text": "Double",
+              "phonetic": "/ˈdʌbl/",
+              "partOfSpeech": "adj.",
+              "meaning": "双的；Double Ninth Festival指重阳节"
+            },
+            {
+              "text": "Ninth",
+              "phonetic": "/naɪnθ/",
+              "partOfSpeech": "ord.",
+              "meaning": "第九"
+            },
+            {
+              "text": "Festival",
+              "phonetic": "/ˈfestɪvl/",
+              "partOfSpeech": "n.",
+              "meaning": "节日"
+            },
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Happy Double Ninth Festival, Grandpa!"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 2,
+          "english": "We love you!",
+          "chinese": "我们爱你！",
+          "speaker": "Bobby & Tina",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "love",
+              "phonetic": "/lʌv/",
+              "partOfSpeech": "n./v.",
+              "meaning": "爱"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We love you!"
+            }
+          ]
+        },
+        {
+          "id": "12-1",
+          "sequenceNumber": 12,
+          "segmentNumber": 1,
+          "english": "Thank you!",
+          "chinese": "谢谢你们！",
+          "speaker": "Grandpa",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Thank",
+              "phonetic": "/θæŋk/",
+              "partOfSpeech": "v.",
+              "meaning": "感谢"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Thank you!"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 2,
+          "english": "I love you too!",
+          "chinese": "我也爱你们！",
+          "speaker": "Grandpa",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "love",
+              "phonetic": "/lʌv/",
+              "partOfSpeech": "n./v.",
+              "meaning": "爱"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "too",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I love you too!"
+            }
+          ]
+        },
+        {
+          "id": "13-1",
+          "sequenceNumber": 13,
+          "segmentNumber": 1,
+          "english": "My birthday is",
+          "chinese": "我的生日是",
+          "speaker": "Bobby's father",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我的生日是",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "My birthday is"
+            }
+          ]
+        },
+        {
+          "id": "13-2",
+          "sequenceNumber": 13,
+          "segmentNumber": 2,
+          "english": "next Monday.",
+          "chinese": "下周一",
+          "speaker": "Bobby's father",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：下周一",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "next",
+              "phonetic": "/nekst/",
+              "partOfSpeech": "adj.",
+              "meaning": "下一个的"
+            },
+            {
+              "text": "Monday",
+              "phonetic": "/ˈmʌndeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "星期一"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "next Monday."
+            }
+          ]
+        },
+        {
+          "id": "13-3",
+          "sequenceNumber": 13,
+          "segmentNumber": 3,
+          "english": "My birthday is next Monday.",
+          "chinese": "我的生日在下周一。",
+          "speaker": "Bobby's father",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            },
+            {
+              "text": "next",
+              "phonetic": "/nekst/",
+              "partOfSpeech": "adj.",
+              "meaning": "下一个的"
+            },
+            {
+              "text": "Monday",
+              "phonetic": "/ˈmʌndeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "星期一"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "My birthday is"
+            },
+            {
+              "label": "词块",
+              "text": "next Monday."
+            }
+          ]
+        },
+        {
+          "id": "13-4",
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
+          "english": "I can't wait!",
+          "chinese": "我等不及了！",
+          "speaker": "Bobby's father",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can't",
+              "phonetic": "/kɑːnt/",
+              "partOfSpeech": "modal v.",
+              "meaning": "不能（can not的缩写）"
+            },
+            {
+              "text": "wait",
+              "phonetic": "/weɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "等待"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I can't wait!"
+            }
+          ]
         }
       ]
     },
     {
-      "id": 24,
-      "fullSentence": "Thank you! I love you too!",
-      "source": "Cartoon time",
-      "chinese": "谢谢！我也爱你们！",
-      "fragments": [
+      "title": "Sounds in focus — 字母组合 er 的发音 /ə/",
+      "sentences": [
         {
-          "order": 1,
-          "text": "Thank you",
-          "type": "expression",
-          "chinese": "谢谢你",
-          "note": "感谢用语"
+          "id": "14-1",
+          "sequenceNumber": 14,
+          "segmentNumber": 1,
+          "english": "I bought some flowers",
+          "chinese": "我买了一些花",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我买了一些花",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "bought",
+              "phonetic": "/bɔːt/",
+              "partOfSpeech": "v.",
+              "meaning": "买（buy的过去式）"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些"
+            },
+            {
+              "text": "flowers",
+              "phonetic": "/ˈflaʊəz/",
+              "partOfSpeech": "n.",
+              "meaning": "花（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I bought some flowers"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "I love you too",
-          "type": "clause",
-          "chinese": "我也爱你们",
-          "note": "回应爱意，too表示也"
+          "id": "14-2",
+          "sequenceNumber": 14,
+          "segmentNumber": 2,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "14-3",
+          "sequenceNumber": 14,
+          "segmentNumber": 3,
+          "english": "my mother",
+          "chinese": "我的妈妈",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我的妈妈",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "mother",
+              "phonetic": "/ˈmʌðə/",
+              "partOfSpeech": "n.",
+              "meaning": "妈妈"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "my mother"
+            }
+          ]
+        },
+        {
+          "id": "14-4",
+          "sequenceNumber": 14,
+          "segmentNumber": 4,
+          "english": "I bought some flowers for my mother",
+          "chinese": "我给妈妈买了一些花，",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "保留教材歌谣的原行和停顿；跟读本单元的字母组合发音。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "bought",
+              "phonetic": "/bɔːt/",
+              "partOfSpeech": "v.",
+              "meaning": "买（buy的过去式）"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些"
+            },
+            {
+              "text": "flowers",
+              "phonetic": "/ˈflaʊəz/",
+              "partOfSpeech": "n.",
+              "meaning": "花（复数）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "mother",
+              "phonetic": "/ˈmʌðə/",
+              "partOfSpeech": "n.",
+              "meaning": "妈妈"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I bought some flowers"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "my mother"
+            }
+          ]
+        },
+        {
+          "id": "15-1",
+          "sequenceNumber": 15,
+          "segmentNumber": 1,
+          "english": "And put them",
+          "chinese": "并把它们放",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：并把它们放",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "And",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放（过去式也是put）"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "And put them"
+            }
+          ]
+        },
+        {
+          "id": "15-2",
+          "sequenceNumber": 15,
+          "segmentNumber": 2,
+          "english": "in",
+          "chinese": "在里面",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在里面",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "15-3",
+          "sequenceNumber": 15,
+          "segmentNumber": 3,
+          "english": "some water.",
+          "chinese": "一些水",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一些水",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些"
+            },
+            {
+              "text": "water",
+              "phonetic": "/ˈwɔːtə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "水"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "some water."
+            }
+          ]
+        },
+        {
+          "id": "15-4",
+          "sequenceNumber": 15,
+          "segmentNumber": 4,
+          "english": "And put them in some water.",
+          "chinese": "然后把它们插在水里。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "保留教材歌谣的原行和停顿；跟读本单元的字母组合发音。",
+          "words": [
+            {
+              "text": "And",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放（过去式也是put）"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些"
+            },
+            {
+              "text": "water",
+              "phonetic": "/ˈwɔːtə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "水"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "And put them"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "some water."
+            }
+          ]
+        },
+        {
+          "id": "16-1",
+          "sequenceNumber": 16,
+          "segmentNumber": 1,
+          "english": "I made her a card",
+          "chinese": "我给她做了一张卡片",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我给她做了一张卡片",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "made",
+              "phonetic": "/meɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；使（make的过去式）"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I made her a card"
+            }
+          ]
+        },
+        {
+          "id": "16-2",
+          "sequenceNumber": 16,
+          "segmentNumber": 2,
+          "english": "and wrote",
+          "chinese": "并写",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：并写",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "wrote",
+              "phonetic": "/rəʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "写（write的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "and wrote"
+            }
+          ]
+        },
+        {
+          "id": "16-3",
+          "sequenceNumber": 16,
+          "segmentNumber": 3,
+          "english": "on",
+          "chinese": "在上面",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在上面",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "on"
+            }
+          ]
+        },
+        {
+          "id": "16-4",
+          "sequenceNumber": 16,
+          "segmentNumber": 4,
+          "english": "it:",
+          "chinese": "它",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：它",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "it:"
+            }
+          ]
+        },
+        {
+          "id": "16-5",
+          "sequenceNumber": 16,
+          "segmentNumber": 5,
+          "english": "I made her a card and wrote on it:",
+          "chinese": "我给她做了一张卡片，并在上面写道：",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "保留教材歌谣的原行和停顿；跟读本单元的字母组合发音。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "made",
+              "phonetic": "/meɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；使（make的过去式）"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "wrote",
+              "phonetic": "/rəʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "写（write的过去式）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I made her a card"
+            },
+            {
+              "label": "词块",
+              "text": "and wrote"
+            },
+            {
+              "label": "词块",
+              "text": "on"
+            },
+            {
+              "label": "词块",
+              "text": "it:"
+            }
+          ]
+        },
+        {
+          "id": "17-1",
+          "sequenceNumber": 17,
+          "segmentNumber": 1,
+          "english": "\"With love,",
+          "chinese": "带着爱",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：带着爱",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "With",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "love",
+              "phonetic": "/lʌv/",
+              "partOfSpeech": "n./v.",
+              "meaning": "爱"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "\"With love,"
+            }
+          ]
+        },
+        {
+          "id": "17-2",
+          "sequenceNumber": 17,
+          "segmentNumber": 2,
+          "english": "from your daughter\".",
+          "chinese": "来自你的女儿",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：来自你的女儿",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "from",
+              "phonetic": "/frɒm/",
+              "partOfSpeech": "prep.",
+              "meaning": "从……"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "daughter",
+              "phonetic": "/ˈdɔːtə/",
+              "partOfSpeech": "n.",
+              "meaning": "女儿"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "from your daughter\"."
+            }
+          ]
+        },
+        {
+          "id": "17-3",
+          "sequenceNumber": 17,
+          "segmentNumber": 3,
+          "english": "\"With love, from your daughter\".",
+          "chinese": "“爱你的女儿”。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "保留教材歌谣的原行和停顿；跟读本单元的字母组合发音。",
+          "words": [
+            {
+              "text": "With",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "love",
+              "phonetic": "/lʌv/",
+              "partOfSpeech": "n./v.",
+              "meaning": "爱"
+            },
+            {
+              "text": "from",
+              "phonetic": "/frɒm/",
+              "partOfSpeech": "prep.",
+              "meaning": "从……"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "daughter",
+              "phonetic": "/ˈdɔːtə/",
+              "partOfSpeech": "n.",
+              "meaning": "女儿"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "\"With love,"
+            },
+            {
+              "label": "词块",
+              "text": "from your daughter\"."
+            }
+          ]
         }
       ]
     },
     {
-      "id": 25,
-      "fullSentence": "The Double Ninth Festival is a time to show love for the elderly.",
-      "source": "Cartoon time",
-      "chinese": "重阳节是向长辈表达关爱的日子。",
-      "fragments": [
+      "title": "Story time — Grandma's birthday",
+      "sentences": [
         {
-          "order": 1,
-          "text": "The Double Ninth Festival",
-          "type": "subject",
-          "chinese": "重阳节",
-          "note": "节日名称作主语"
+          "id": "18-1",
+          "sequenceNumber": 18,
+          "segmentNumber": 1,
+          "english": "Yesterday was",
+          "chinese": "昨天是",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：昨天是",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Yesterday",
+              "phonetic": "/ˈjestədeɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "昨天"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Yesterday was"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "is a time",
-          "type": "verb-predicative",
-          "chinese": "是一个日子",
-          "note": "主系表结构"
+          "id": "18-2",
+          "sequenceNumber": 18,
+          "segmentNumber": 2,
+          "english": "21st October.",
+          "chinese": "10月21日",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：10月21日",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "21st",
+              "phonetic": "/ˌtwenti ˈfɜːst/",
+              "partOfSpeech": "num.",
+              "meaning": "第二十一"
+            },
+            {
+              "text": "October",
+              "phonetic": "/ɒkˈtəʊbə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "十月"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "21st October."
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "to show love for the elderly",
-          "type": "infinitive",
-          "chinese": "向长辈表达关爱",
-          "note": "不定式短语作定语修饰time，the elderly 老年人",
-          "wordBreakdown": [
-            {"word": "elderly", "phonetic": "/ˈeldəli/", "pos": "adj.", "meaning": "年长的"}
+          "id": "18-3",
+          "sequenceNumber": 18,
+          "segmentNumber": 3,
+          "english": "Yesterday was 21st October.",
+          "chinese": "昨天是10月21日。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "Yesterday",
+              "phonetic": "/ˈjestədeɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "昨天"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "21st",
+              "phonetic": "/ˌtwenti ˈfɜːst/",
+              "partOfSpeech": "num.",
+              "meaning": "第二十一"
+            },
+            {
+              "text": "October",
+              "phonetic": "/ɒkˈtəʊbə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "十月"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Yesterday was"
+            },
+            {
+              "label": "词块",
+              "text": "21st October."
+            }
+          ]
+        },
+        {
+          "id": "19-1",
+          "sequenceNumber": 19,
+          "segmentNumber": 1,
+          "english": "It was",
+          "chinese": "那天是",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：那天是",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "It",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It was"
+            }
+          ]
+        },
+        {
+          "id": "19-2",
+          "sequenceNumber": 19,
+          "segmentNumber": 2,
+          "english": "Grandma's 66th birthday.",
+          "chinese": "奶奶66岁的生日",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：奶奶66岁的生日",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Grandma's",
+              "phonetic": "/ˈɡrænmɑːz/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶的；外婆的"
+            },
+            {
+              "text": "66th",
+              "phonetic": "/ˌsɪksti ˈsɪksθ/",
+              "partOfSpeech": "num.",
+              "meaning": "第六十六"
+            },
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Grandma's 66th birthday."
+            }
+          ]
+        },
+        {
+          "id": "19-3",
+          "sequenceNumber": 19,
+          "segmentNumber": 3,
+          "english": "It was Grandma's 66th birthday.",
+          "chinese": "那天是奶奶66岁的生日。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "用 was 描述过去；所有格后接序数词和 birthday。",
+          "words": [
+            {
+              "text": "It",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "Grandma's",
+              "phonetic": "/ˈɡrænmɑːz/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶的；外婆的"
+            },
+            {
+              "text": "66th",
+              "phonetic": "/ˌsɪksti ˈsɪksθ/",
+              "partOfSpeech": "num.",
+              "meaning": "第六十六"
+            },
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It was"
+            },
+            {
+              "label": "词块",
+              "text": "Grandma's 66th birthday."
+            }
+          ]
+        },
+        {
+          "id": "20-1",
+          "sequenceNumber": 20,
+          "segmentNumber": 1,
+          "english": "We went",
+          "chinese": "我们去了",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们去了",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "went",
+              "phonetic": "/went/",
+              "partOfSpeech": "v.",
+              "meaning": "去（go的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We went"
+            }
+          ]
+        },
+        {
+          "id": "20-2",
+          "sequenceNumber": 20,
+          "segmentNumber": 2,
+          "english": "to",
+          "chinese": "到",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：到",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to"
+            }
+          ]
+        },
+        {
+          "id": "20-3",
+          "sequenceNumber": 20,
+          "segmentNumber": 3,
+          "english": "my grandparents' house",
+          "chinese": "我祖父母的家",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我祖父母的家",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "grandparents",
+              "phonetic": "/ˈɡrænpeərənts/",
+              "partOfSpeech": "n.",
+              "meaning": "祖父母；外祖父母"
+            },
+            {
+              "text": "house",
+              "phonetic": "/haʊs/",
+              "partOfSpeech": "n.",
+              "meaning": "房子，家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "my grandparents' house"
+            }
+          ]
+        },
+        {
+          "id": "20-4",
+          "sequenceNumber": 20,
+          "segmentNumber": 4,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "20-5",
+          "sequenceNumber": 20,
+          "segmentNumber": 5,
+          "english": "the morning.",
+          "chinese": "上午",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：上午",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "morning",
+              "phonetic": "/ˈmɔːnɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "早晨，上午"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the morning."
+            }
+          ]
+        },
+        {
+          "id": "20-6",
+          "sequenceNumber": 20,
+          "segmentNumber": 6,
+          "english": "We went to my grandparents' house in the morning.",
+          "chinese": "我们上午去了祖父母家。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "went",
+              "phonetic": "/went/",
+              "partOfSpeech": "v.",
+              "meaning": "去（go的过去式）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "grandparents",
+              "phonetic": "/ˈɡrænpeərənts/",
+              "partOfSpeech": "n.",
+              "meaning": "祖父母；外祖父母"
+            },
+            {
+              "text": "house",
+              "phonetic": "/haʊs/",
+              "partOfSpeech": "n.",
+              "meaning": "房子，家"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "morning",
+              "phonetic": "/ˈmɔːnɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "早晨，上午"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We went"
+            },
+            {
+              "label": "词块",
+              "text": "to"
+            },
+            {
+              "label": "词块",
+              "text": "my grandparents' house"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "the morning."
+            }
+          ]
+        },
+        {
+          "id": "21-1",
+          "sequenceNumber": 21,
+          "segmentNumber": 1,
+          "english": "My parents gave Grandma",
+          "chinese": "我的父母给了奶奶",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我的父母给了奶奶",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "parents",
+              "phonetic": "/ˈpeərənts/",
+              "partOfSpeech": "n.",
+              "meaning": "父母"
+            },
+            {
+              "text": "gave",
+              "phonetic": "/ɡeɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给（give的过去式）"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "My parents gave Grandma"
+            }
+          ]
+        },
+        {
+          "id": "21-2",
+          "sequenceNumber": 21,
+          "segmentNumber": 2,
+          "english": "a nice smartphone.",
+          "chinese": "一部漂亮的智能手机",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一部漂亮的智能手机",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "美好的；漂亮的"
+            },
+            {
+              "text": "smartphone",
+              "phonetic": "/ˈsmɑːtfəʊn/",
+              "partOfSpeech": "n.",
+              "meaning": "智能手机"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a nice smartphone."
+            }
+          ]
+        },
+        {
+          "id": "21-3",
+          "sequenceNumber": 21,
+          "segmentNumber": 3,
+          "english": "My parents gave Grandma a nice smartphone.",
+          "chinese": "我的父母送给奶奶一部漂亮的智能手机。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "gave 是 give 的过去式；gave 后先说收礼物的人，再说礼物。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "parents",
+              "phonetic": "/ˈpeərənts/",
+              "partOfSpeech": "n.",
+              "meaning": "父母"
+            },
+            {
+              "text": "gave",
+              "phonetic": "/ɡeɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给（give的过去式）"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "美好的；漂亮的"
+            },
+            {
+              "text": "smartphone",
+              "phonetic": "/ˈsmɑːtfəʊn/",
+              "partOfSpeech": "n.",
+              "meaning": "智能手机"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "My parents gave Grandma"
+            },
+            {
+              "label": "词块",
+              "text": "a nice smartphone."
+            }
+          ]
+        },
+        {
+          "id": "22-1",
+          "sequenceNumber": 22,
+          "segmentNumber": 1,
+          "english": "I drew a picture",
+          "chinese": "我画了一幅画",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我画了一幅画",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "drew",
+              "phonetic": "/druː/",
+              "partOfSpeech": "v.",
+              "meaning": "画（draw的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "picture",
+              "phonetic": "/ˈpɪktʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "图画"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I drew a picture"
+            }
+          ]
+        },
+        {
+          "id": "22-2",
+          "sequenceNumber": 22,
+          "segmentNumber": 2,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "22-3",
+          "sequenceNumber": 22,
+          "segmentNumber": 3,
+          "english": "her.",
+          "chinese": "她",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：她",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "her."
+            }
+          ]
+        },
+        {
+          "id": "22-4",
+          "sequenceNumber": 22,
+          "segmentNumber": 4,
+          "english": "I drew a picture for her.",
+          "chinese": "我给她画了一幅画。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "drew",
+              "phonetic": "/druː/",
+              "partOfSpeech": "v.",
+              "meaning": "画（draw的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "picture",
+              "phonetic": "/ˈpɪktʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "图画"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I drew a picture"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "her."
+            }
+          ]
+        },
+        {
+          "id": "23-1",
+          "sequenceNumber": 23,
+          "segmentNumber": 1,
+          "english": "We also brought a cake.",
+          "chinese": "我们还带来了一个蛋糕。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "also",
+              "phonetic": "/ˈɔːlsəʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            },
+            {
+              "text": "brought",
+              "phonetic": "/brɔːt/",
+              "partOfSpeech": "v.",
+              "meaning": "带来（bring的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "cake",
+              "phonetic": "/keɪk/",
+              "partOfSpeech": "n.",
+              "meaning": "蛋糕"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We also brought a cake."
+            }
+          ]
+        },
+        {
+          "id": "24-1",
+          "sequenceNumber": 24,
+          "segmentNumber": 1,
+          "english": "Grandpa and Grandma",
+          "chinese": "爷爷和奶奶",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：爷爷和奶奶",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Grandpa and Grandma"
+            }
+          ]
+        },
+        {
+          "id": "24-2",
+          "sequenceNumber": 24,
+          "segmentNumber": 2,
+          "english": "were so happy",
+          "chinese": "非常开心",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：非常开心",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "were",
+              "phonetic": "/wɜː/",
+              "partOfSpeech": "v.",
+              "meaning": "be动词过去式（are的过去式）"
+            },
+            {
+              "text": "so",
+              "phonetic": "/səʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "这么；如此"
+            },
+            {
+              "text": "happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "高兴的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "were so happy"
+            }
+          ]
+        },
+        {
+          "id": "24-3",
+          "sequenceNumber": 24,
+          "segmentNumber": 3,
+          "english": "to see us.",
+          "chinese": "见到我们",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：见到我们",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见，看到"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to see us."
+            }
+          ]
+        },
+        {
+          "id": "24-4",
+          "sequenceNumber": 24,
+          "segmentNumber": 4,
+          "english": "Grandpa and Grandma were so happy to see us.",
+          "chinese": "爷爷和奶奶见到我们非常开心。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            },
+            {
+              "text": "were",
+              "phonetic": "/wɜː/",
+              "partOfSpeech": "v.",
+              "meaning": "be动词过去式（are的过去式）"
+            },
+            {
+              "text": "so",
+              "phonetic": "/səʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "这么；如此"
+            },
+            {
+              "text": "happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "高兴的"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见，看到"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Grandpa and Grandma"
+            },
+            {
+              "label": "词块",
+              "text": "were so happy"
+            },
+            {
+              "label": "词块",
+              "text": "to see us."
+            }
+          ]
+        },
+        {
+          "id": "25-1",
+          "sequenceNumber": 25,
+          "segmentNumber": 1,
+          "english": "We had a big lunch.",
+          "chinese": "我们吃了一顿丰盛的午餐。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "had",
+              "phonetic": "/hæd/",
+              "partOfSpeech": "v.",
+              "meaning": "有（have的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "big",
+              "phonetic": "/bɪɡ/",
+              "partOfSpeech": "adj.",
+              "meaning": "大的"
+            },
+            {
+              "text": "lunch",
+              "phonetic": "/lʌntʃ/",
+              "partOfSpeech": "n.",
+              "meaning": "午餐"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We had a big lunch."
+            }
+          ]
+        },
+        {
+          "id": "26-1",
+          "sequenceNumber": 26,
+          "segmentNumber": 1,
+          "english": "We ate noodles",
+          "chinese": "我们吃了面条",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们吃了面条",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "ate",
+              "phonetic": "/et/",
+              "partOfSpeech": "v.",
+              "meaning": "吃（eat的过去式）"
+            },
+            {
+              "text": "noodles",
+              "phonetic": "/ˈnuːdlz/",
+              "partOfSpeech": "n.",
+              "meaning": "面条"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We ate noodles"
+            }
+          ]
+        },
+        {
+          "id": "26-2",
+          "sequenceNumber": 26,
+          "segmentNumber": 2,
+          "english": "and wished Grandma",
+          "chinese": "并祝愿奶奶",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：并祝愿奶奶",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "wished",
+              "phonetic": "/wɪʃt/",
+              "partOfSpeech": "v.",
+              "meaning": "祝愿（wish的过去式）"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "and wished Grandma"
+            }
+          ]
+        },
+        {
+          "id": "26-3",
+          "sequenceNumber": 26,
+          "segmentNumber": 3,
+          "english": "a long life.",
+          "chinese": "长寿",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：长寿",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "long",
+              "phonetic": "/lɒŋ/",
+              "partOfSpeech": "adj./adv.",
+              "meaning": "长的；长久地"
+            },
+            {
+              "text": "life",
+              "phonetic": "/laɪf/",
+              "partOfSpeech": "n.",
+              "meaning": "生命；生活"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a long life."
+            }
+          ]
+        },
+        {
+          "id": "26-4",
+          "sequenceNumber": 26,
+          "segmentNumber": 4,
+          "english": "We ate noodles and wished Grandma a long life.",
+          "chinese": "我们吃了面条，祝奶奶健康长寿。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "ate",
+              "phonetic": "/et/",
+              "partOfSpeech": "v.",
+              "meaning": "吃（eat的过去式）"
+            },
+            {
+              "text": "noodles",
+              "phonetic": "/ˈnuːdlz/",
+              "partOfSpeech": "n.",
+              "meaning": "面条"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "wished",
+              "phonetic": "/wɪʃt/",
+              "partOfSpeech": "v.",
+              "meaning": "祝愿（wish的过去式）"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "long",
+              "phonetic": "/lɒŋ/",
+              "partOfSpeech": "adj./adv.",
+              "meaning": "长的；长久地"
+            },
+            {
+              "text": "life",
+              "phonetic": "/laɪf/",
+              "partOfSpeech": "n.",
+              "meaning": "生命；生活"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We ate noodles"
+            },
+            {
+              "label": "词块",
+              "text": "and wished Grandma"
+            },
+            {
+              "label": "词块",
+              "text": "a long life."
+            }
+          ]
+        },
+        {
+          "id": "27-1",
+          "sequenceNumber": 27,
+          "segmentNumber": 1,
+          "english": "Then Grandma",
+          "chinese": "然后奶奶",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：然后奶奶",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Then",
+              "phonetic": "/ðen/",
+              "partOfSpeech": "adv.",
+              "meaning": "然后"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Then Grandma"
+            }
+          ]
+        },
+        {
+          "id": "27-2",
+          "sequenceNumber": 27,
+          "segmentNumber": 2,
+          "english": "blew out the candles,",
+          "chinese": "吹灭了蜡烛",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：吹灭了蜡烛",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "blew",
+              "phonetic": "/bluː/",
+              "partOfSpeech": "v.",
+              "meaning": "吹（blow的过去式）"
+            },
+            {
+              "text": "out",
+              "phonetic": "/aʊt/",
+              "partOfSpeech": "adv.",
+              "meaning": "向外；blow out表示吹灭"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "candles",
+              "phonetic": "/ˈkændlz/",
+              "partOfSpeech": "n.",
+              "meaning": "蜡烛（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "blew out the candles,"
+            }
+          ]
+        },
+        {
+          "id": "27-3",
+          "sequenceNumber": 27,
+          "segmentNumber": 3,
+          "english": "and we ate the cake.",
+          "chinese": "我们吃了蛋糕",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们吃了蛋糕",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "we",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "ate",
+              "phonetic": "/et/",
+              "partOfSpeech": "v.",
+              "meaning": "吃（eat的过去式）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "cake",
+              "phonetic": "/keɪk/",
+              "partOfSpeech": "n.",
+              "meaning": "蛋糕"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "and we ate the cake."
+            }
+          ]
+        },
+        {
+          "id": "27-4",
+          "sequenceNumber": 27,
+          "segmentNumber": 4,
+          "english": "Then Grandma blew out the candles, and we ate the cake.",
+          "chinese": "然后奶奶吹灭蜡烛，我们吃了蛋糕。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "blew 是 blow 的过去式；blow out 表示吹灭；ate 是 eat 的过去式。",
+          "words": [
+            {
+              "text": "Then",
+              "phonetic": "/ðen/",
+              "partOfSpeech": "adv.",
+              "meaning": "然后"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            },
+            {
+              "text": "blew",
+              "phonetic": "/bluː/",
+              "partOfSpeech": "v.",
+              "meaning": "吹（blow的过去式）"
+            },
+            {
+              "text": "out",
+              "phonetic": "/aʊt/",
+              "partOfSpeech": "adv.",
+              "meaning": "向外；blow out表示吹灭"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "candles",
+              "phonetic": "/ˈkændlz/",
+              "partOfSpeech": "n.",
+              "meaning": "蜡烛（复数）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "we",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "ate",
+              "phonetic": "/et/",
+              "partOfSpeech": "v.",
+              "meaning": "吃（eat的过去式）"
+            },
+            {
+              "text": "cake",
+              "phonetic": "/keɪk/",
+              "partOfSpeech": "n.",
+              "meaning": "蛋糕"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Then Grandma"
+            },
+            {
+              "label": "词块",
+              "text": "blew out the candles,"
+            },
+            {
+              "label": "词块",
+              "text": "and we ate the cake."
+            }
+          ]
+        },
+        {
+          "id": "28-1",
+          "sequenceNumber": 28,
+          "segmentNumber": 1,
+          "english": "In",
+          "chinese": "在",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "In",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "In"
+            }
+          ]
+        },
+        {
+          "id": "28-2",
+          "sequenceNumber": 28,
+          "segmentNumber": 2,
+          "english": "the afternoon,",
+          "chinese": "下午",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：下午",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "afternoon",
+              "phonetic": "/ˌɑːftəˈnuːn/",
+              "partOfSpeech": "n.",
+              "meaning": "下午"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the afternoon,"
+            }
+          ]
+        },
+        {
+          "id": "28-3",
+          "sequenceNumber": 28,
+          "segmentNumber": 3,
+          "english": "I chatted",
+          "chinese": "我聊天",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我聊天",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "chatted",
+              "phonetic": "/ˈtʃætɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "聊天（chat的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I chatted"
+            }
+          ]
+        },
+        {
+          "id": "28-4",
+          "sequenceNumber": 28,
+          "segmentNumber": 4,
+          "english": "with",
+          "chinese": "和",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：和",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "with"
+            }
+          ]
+        },
+        {
+          "id": "28-5",
+          "sequenceNumber": 28,
+          "segmentNumber": 5,
+          "english": "Grandma.",
+          "chinese": "奶奶",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：奶奶",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Grandma."
+            }
+          ]
+        },
+        {
+          "id": "28-6",
+          "sequenceNumber": 28,
+          "segmentNumber": 6,
+          "english": "In the afternoon, I chatted with Grandma.",
+          "chinese": "下午，我和奶奶聊天。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "In",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "afternoon",
+              "phonetic": "/ˌɑːftəˈnuːn/",
+              "partOfSpeech": "n.",
+              "meaning": "下午"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "chatted",
+              "phonetic": "/ˈtʃætɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "聊天（chat的过去式）"
+            },
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "In"
+            },
+            {
+              "label": "词块",
+              "text": "the afternoon,"
+            },
+            {
+              "label": "词块",
+              "text": "I chatted"
+            },
+            {
+              "label": "词块",
+              "text": "with"
+            },
+            {
+              "label": "词块",
+              "text": "Grandma."
+            }
+          ]
+        },
+        {
+          "id": "29-1",
+          "sequenceNumber": 29,
+          "segmentNumber": 1,
+          "english": "We also took",
+          "chinese": "我们还拍了",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们还拍了",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "also",
+              "phonetic": "/ˈɔːlsəʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            },
+            {
+              "text": "took",
+              "phonetic": "/tʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（take的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We also took"
+            }
+          ]
+        },
+        {
+          "id": "29-2",
+          "sequenceNumber": 29,
+          "segmentNumber": 2,
+          "english": "a family photo together.",
+          "chinese": "一张全家福",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一张全家福",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家人，家庭"
+            },
+            {
+              "text": "photo",
+              "phonetic": "/ˈfəʊtəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "照片"
+            },
+            {
+              "text": "together",
+              "phonetic": "/təˈɡeðə/",
+              "partOfSpeech": "adv.",
+              "meaning": "一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a family photo together."
+            }
+          ]
+        },
+        {
+          "id": "29-3",
+          "sequenceNumber": 29,
+          "segmentNumber": 3,
+          "english": "We also took a family photo together.",
+          "chinese": "我们还一起拍了一张全家福。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "also",
+              "phonetic": "/ˈɔːlsəʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            },
+            {
+              "text": "took",
+              "phonetic": "/tʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（take的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家人，家庭"
+            },
+            {
+              "text": "photo",
+              "phonetic": "/ˈfəʊtəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "照片"
+            },
+            {
+              "text": "together",
+              "phonetic": "/təˈɡeðə/",
+              "partOfSpeech": "adv.",
+              "meaning": "一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We also took"
+            },
+            {
+              "label": "词块",
+              "text": "a family photo together."
+            }
+          ]
+        },
+        {
+          "id": "30-1",
+          "sequenceNumber": 30,
+          "segmentNumber": 1,
+          "english": "We do this",
+          "chinese": "我们都这样做",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们都这样做",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We do this"
+            }
+          ]
+        },
+        {
+          "id": "30-2",
+          "sequenceNumber": 30,
+          "segmentNumber": 2,
+          "english": "on",
+          "chinese": "在",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "on"
+            }
+          ]
+        },
+        {
+          "id": "30-3",
+          "sequenceNumber": 30,
+          "segmentNumber": 3,
+          "english": "Grandma's birthday",
+          "chinese": "奶奶的生日",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：奶奶的生日",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Grandma's",
+              "phonetic": "/ˈɡrænmɑːz/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶的；外婆的"
+            },
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Grandma's birthday"
+            }
+          ]
+        },
+        {
+          "id": "30-4",
+          "sequenceNumber": 30,
+          "segmentNumber": 4,
+          "english": "every year.",
+          "chinese": "每年",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：每年",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一个"
+            },
+            {
+              "text": "year",
+              "phonetic": "/jɪə/",
+              "partOfSpeech": "n.",
+              "meaning": "年"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "every year."
+            }
+          ]
+        },
+        {
+          "id": "30-5",
+          "sequenceNumber": 30,
+          "segmentNumber": 5,
+          "english": "We do this on Grandma's birthday every year.",
+          "chinese": "我们每年在奶奶生日时都这样做。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            },
+            {
+              "text": "Grandma's",
+              "phonetic": "/ˈɡrænmɑːz/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶的；外婆的"
+            },
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            },
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一个"
+            },
+            {
+              "text": "year",
+              "phonetic": "/jɪə/",
+              "partOfSpeech": "n.",
+              "meaning": "年"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "We do this"
+            },
+            {
+              "label": "词块",
+              "text": "on"
+            },
+            {
+              "label": "词块",
+              "text": "Grandma's birthday"
+            },
+            {
+              "label": "词块",
+              "text": "every year."
+            }
+          ]
+        },
+        {
+          "id": "31-1",
+          "sequenceNumber": 31,
+          "segmentNumber": 1,
+          "english": "This is",
+          "chinese": "这是",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：这是",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "This",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "This is"
+            }
+          ]
+        },
+        {
+          "id": "31-2",
+          "sequenceNumber": 31,
+          "segmentNumber": 2,
+          "english": "our 12th photo.",
+          "chinese": "我们的第12张照片",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们的第12张照片",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "12th",
+              "phonetic": "/twelfθ/",
+              "partOfSpeech": "num.",
+              "meaning": "第十二"
+            },
+            {
+              "text": "photo",
+              "phonetic": "/ˈfəʊtəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "照片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "our 12th photo."
+            }
+          ]
+        },
+        {
+          "id": "31-3",
+          "sequenceNumber": 31,
+          "segmentNumber": 3,
+          "english": "This is our 12th photo.",
+          "chinese": "这是我们的第12张照片。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "This",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            },
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "12th",
+              "phonetic": "/twelfθ/",
+              "partOfSpeech": "num.",
+              "meaning": "第十二"
+            },
+            {
+              "text": "photo",
+              "phonetic": "/ˈfəʊtəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "照片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "This is"
+            },
+            {
+              "label": "词块",
+              "text": "our 12th photo."
+            }
+          ]
+        },
+        {
+          "id": "32-1",
+          "sequenceNumber": 32,
+          "segmentNumber": 1,
+          "english": "Time flies!",
+          "chinese": "时光飞逝！",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Time",
+              "phonetic": "/taɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "时间"
+            },
+            {
+              "text": "flies",
+              "phonetic": "/flaɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "飞逝；飞（第三人称单数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Time flies!"
+            }
+          ]
+        },
+        {
+          "id": "33-1",
+          "sequenceNumber": 33,
+          "segmentNumber": 1,
+          "english": "When I was",
+          "chinese": "当我还是",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：当我还是",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "When",
+              "phonetic": "/wen/",
+              "partOfSpeech": "adv./conj.",
+              "meaning": "何时；当……时"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "When I was"
+            }
+          ]
+        },
+        {
+          "id": "33-2",
+          "sequenceNumber": 33,
+          "segmentNumber": 2,
+          "english": "a little kid,",
+          "chinese": "一个小孩子",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一个小孩子",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "little",
+              "phonetic": "/ˈlɪtl/",
+              "partOfSpeech": "adj.",
+              "meaning": "小的"
+            },
+            {
+              "text": "kid",
+              "phonetic": "/kɪd/",
+              "partOfSpeech": "n.",
+              "meaning": "小孩"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a little kid,"
+            }
+          ]
+        },
+        {
+          "id": "33-3",
+          "sequenceNumber": 33,
+          "segmentNumber": 3,
+          "english": "Grandpa and Grandma",
+          "chinese": "爷爷和奶奶",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：爷爷和奶奶",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Grandpa and Grandma"
+            }
+          ]
+        },
+        {
+          "id": "33-4",
+          "sequenceNumber": 33,
+          "segmentNumber": 4,
+          "english": "took care of me.",
+          "chinese": "照顾我",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：照顾我",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "took",
+              "phonetic": "/tʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（take的过去式）"
+            },
+            {
+              "text": "care",
+              "phonetic": "/keə/",
+              "partOfSpeech": "n./v.",
+              "meaning": "照顾；关心"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "me",
+              "phonetic": "/miː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "took care of me."
+            }
+          ]
+        },
+        {
+          "id": "33-5",
+          "sequenceNumber": 33,
+          "segmentNumber": 5,
+          "english": "When I was a little kid, Grandpa and Grandma took care of me.",
+          "chinese": "当我还是一个小孩子时，爷爷和奶奶照顾我。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "When",
+              "phonetic": "/wen/",
+              "partOfSpeech": "adv./conj.",
+              "meaning": "何时；当……时"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "little",
+              "phonetic": "/ˈlɪtl/",
+              "partOfSpeech": "adj.",
+              "meaning": "小的"
+            },
+            {
+              "text": "kid",
+              "phonetic": "/kɪd/",
+              "partOfSpeech": "n.",
+              "meaning": "小孩"
+            },
+            {
+              "text": "Grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "Grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            },
+            {
+              "text": "took",
+              "phonetic": "/tʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（take的过去式）"
+            },
+            {
+              "text": "care",
+              "phonetic": "/keə/",
+              "partOfSpeech": "n./v.",
+              "meaning": "照顾；关心"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "me",
+              "phonetic": "/miː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "When I was"
+            },
+            {
+              "label": "词块",
+              "text": "a little kid,"
+            },
+            {
+              "label": "词块",
+              "text": "Grandpa and Grandma"
+            },
+            {
+              "label": "词块",
+              "text": "took care of me."
+            }
+          ]
+        },
+        {
+          "id": "34-1",
+          "sequenceNumber": 34,
+          "segmentNumber": 1,
+          "english": "Now I am a big boy.",
+          "chinese": "现在我是个大男孩了。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Now",
+              "phonetic": "/naʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "现在"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "am",
+              "phonetic": "/æm/",
+              "partOfSpeech": "v.",
+              "meaning": "是（用于I后）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "big",
+              "phonetic": "/bɪɡ/",
+              "partOfSpeech": "adj.",
+              "meaning": "大的"
+            },
+            {
+              "text": "boy",
+              "phonetic": "/bɔɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "男孩"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Now I am a big boy."
+            }
+          ]
+        },
+        {
+          "id": "35-1",
+          "sequenceNumber": 35,
+          "segmentNumber": 1,
+          "english": "I can take care",
+          "chinese": "我可以照顾",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我可以照顾",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "参与（与 part 搭配）"
+            },
+            {
+              "text": "care",
+              "phonetic": "/keə/",
+              "partOfSpeech": "n./v.",
+              "meaning": "照顾；关心"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I can take care"
+            }
+          ]
+        },
+        {
+          "id": "35-2",
+          "sequenceNumber": 35,
+          "segmentNumber": 2,
+          "english": "of",
+          "chinese": "照顾的对象",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：照顾的对象",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "of"
+            }
+          ]
+        },
+        {
+          "id": "35-3",
+          "sequenceNumber": 35,
+          "segmentNumber": 3,
+          "english": "them.",
+          "chinese": "他们",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他们",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "them."
+            }
+          ]
+        },
+        {
+          "id": "35-4",
+          "sequenceNumber": 35,
+          "segmentNumber": 4,
+          "english": "I can take care of them.",
+          "chinese": "我可以照顾他们。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "take care of 是固定短语；can 后接动词原形。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "参与（与 part 搭配）"
+            },
+            {
+              "text": "care",
+              "phonetic": "/keə/",
+              "partOfSpeech": "n./v.",
+              "meaning": "照顾；关心"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I can take care"
+            },
+            {
+              "label": "词块",
+              "text": "of"
+            },
+            {
+              "label": "词块",
+              "text": "them."
+            }
+          ]
+        },
+        {
+          "id": "36-1",
+          "sequenceNumber": 36,
+          "segmentNumber": 1,
+          "english": "I want",
+          "chinese": "我想",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我想",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I want"
+            }
+          ]
+        },
+        {
+          "id": "36-2",
+          "sequenceNumber": 36,
+          "segmentNumber": 2,
+          "english": "to spend more time",
+          "chinese": "花更多时间",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：花更多时间",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "spend",
+              "phonetic": "/spend/",
+              "partOfSpeech": "v.",
+              "meaning": "度过；花费"
+            },
+            {
+              "text": "more",
+              "phonetic": "/mɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "更多的"
+            },
+            {
+              "text": "time",
+              "phonetic": "/taɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "时间"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to spend more time"
+            }
+          ]
+        },
+        {
+          "id": "36-3",
+          "sequenceNumber": 36,
+          "segmentNumber": 3,
+          "english": "with",
+          "chinese": "和",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：和",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "with"
+            }
+          ]
+        },
+        {
+          "id": "36-4",
+          "sequenceNumber": 36,
+          "segmentNumber": 4,
+          "english": "them.",
+          "chinese": "他们",
+          "speaker": "Wang Bing",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他们",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "them."
+            }
+          ]
+        },
+        {
+          "id": "36-5",
+          "sequenceNumber": 36,
+          "segmentNumber": 5,
+          "english": "I want to spend more time with them.",
+          "chinese": "我想花更多时间陪伴他们。",
+          "speaker": "Wang Bing",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "want to 后接动词原形；spend time with somebody 表示花时间陪伴某人。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "spend",
+              "phonetic": "/spend/",
+              "partOfSpeech": "v.",
+              "meaning": "度过；花费"
+            },
+            {
+              "text": "more",
+              "phonetic": "/mɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "更多的"
+            },
+            {
+              "text": "time",
+              "phonetic": "/taɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "时间"
+            },
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他/她/它们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I want"
+            },
+            {
+              "label": "词块",
+              "text": "to spend more time"
+            },
+            {
+              "label": "词块",
+              "text": "with"
+            },
+            {
+              "label": "词块",
+              "text": "them."
+            }
           ]
         }
       ]
     }
-  ],
-  "stats": {
-    "totalFragments": 108,
-    "totalSentences": 25,
-    "sources": ["Story time", "Cartoon time"]
-  }
+  ]
 }

@@ -1,890 +1,6306 @@
 {
-  "version": "2.0.0",
-  "unit": "Unit 3 Great people",
-  "description": "拆句练习：按递进链原则拆分课文对话，逐句掌握句型结构",
-  "sentences": [
+  "manifestId": "grade6-semester1-unit3",
+  "activityType": "sentence-practice",
+  "sourceHash": "8650054af9300220bb32e15e6b15dff0b8aabb025896d8a159192c12cb0f0451",
+  "generatorVersion": "source-aligned-exercises-20260920",
+  "generatedAt": "2026-09-20",
+  "sections": [
     {
-      "id": 1,
-      "fullSentence": "Yuan Longping was a great scientist.",
-      "source": "Story time",
-      "chinese": "袁隆平是一位伟大的科学家。",
-      "fragments": [
+      "title": "Cartoon time — My hero",
+      "sentences": [
         {
-          "order": 1,
-          "text": "Yuan Longping",
-          "type": "subject",
-          "chinese": "袁隆平",
-          "note": "人名，作主语"
-        },
-        {
-          "order": 2,
-          "text": "was",
-          "type": "verb",
-          "chinese": "是",
-          "note": "be动词过去式，第三人称单数"
-        },
-        {
-          "order": 3,
-          "text": "a great scientist",
-          "type": "predicative",
-          "chinese": "一位伟大的科学家",
-          "note": "名词短语作表语，great修饰scientist",
-          "wordBreakdown": [
-            {"word": "great", "phonetic": "/ɡreɪt/", "pos": "adj.", "meaning": "伟大的"},
-            {"word": "scientist", "phonetic": "/ˈsaɪəntɪst/", "pos": "n.", "meaning": "科学家"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "fullSentence": "He was born in 1930 in Beijing.",
-      "source": "Story time",
-      "chinese": "他1930年出生于北京。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "He",
-          "type": "subject",
-          "chinese": "他",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "was born",
-          "type": "verb",
-          "chinese": "出生",
-          "note": "被动语态结构，表示出生",
-          "wordBreakdown": [
-            {"word": "born", "phonetic": "/bɔːn/", "pos": "v.", "meaning": "出生"}
+          "id": "1-1",
+          "sequenceNumber": 1,
+          "segmentNumber": 1,
+          "english": "Hi, Bobby.",
+          "chinese": "嗨，Bobby。",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Hi",
+              "phonetic": "/haɪ/",
+              "partOfSpeech": "interj.",
+              "meaning": "嗨"
+            },
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Hi, Bobby."
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "in 1930",
-          "type": "adverbial",
-          "chinese": "在1930年",
-          "note": "时间状语，年份前用in"
-        },
-        {
-          "order": 4,
-          "text": "in Beijing",
-          "type": "adverbial",
-          "chinese": "在北京",
-          "note": "地点状语，城市前用in"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "fullSentence": "He passed away in 2021 in Changsha.",
-      "source": "Story time",
-      "chinese": "他2021年在长沙去世。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "He",
-          "type": "subject",
-          "chinese": "他",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "passed away",
-          "type": "verb",
-          "chinese": "去世",
-          "note": "短语动词，委婉表示死亡",
-          "wordBreakdown": [
-            {"word": "pass away", "phonetic": "/pɑːs əˈweɪ/", "pos": "phr.v.", "meaning": "去世"}
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "english": "I want",
+          "chinese": "我想",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我想",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I want"
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "in 2021",
-          "type": "adverbial",
-          "chinese": "在2021年",
-          "note": "时间状语"
-        },
-        {
-          "order": 4,
-          "text": "in Changsha",
-          "type": "adverbial",
-          "chinese": "在长沙",
-          "note": "地点状语"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "fullSentence": "People call him \"the father of hybrid rice\".",
-      "source": "Story time",
-      "chinese": "人们称他为\"杂交水稻之父\"。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "People",
-          "type": "subject",
-          "chinese": "人们",
-          "note": "集合名词，复数概念"
-        },
-        {
-          "order": 2,
-          "text": "call",
-          "type": "verb",
-          "chinese": "称呼；叫",
-          "note": "谓语动词，一般现在时"
-        },
-        {
-          "order": 3,
-          "text": "him",
-          "type": "object",
-          "chinese": "他",
-          "note": "人称代词宾格"
-        },
-        {
-          "order": 4,
-          "text": "\"the father of hybrid rice\"",
-          "type": "complement",
-          "chinese": "\"杂交水稻之父\"",
-          "note": "宾语补足语，补充说明him",
-          "wordBreakdown": [
-            {"word": "hybrid rice", "phonetic": "/ˈhaɪbrɪd raɪs/", "pos": "n.", "meaning": "杂交水稻"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "fullSentence": "He liked farming at an early age.",
-      "source": "Story time",
-      "chinese": "他很小的时候就喜欢农业。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "He",
-          "type": "subject",
-          "chinese": "他",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "liked",
-          "type": "verb",
-          "chinese": "喜欢",
-          "note": "like的过去式"
-        },
-        {
-          "order": 3,
-          "text": "farming",
-          "type": "object",
-          "chinese": "农业；耕作",
-          "note": "动名词作宾语",
-          "wordBreakdown": [
-            {"word": "farming", "phonetic": "/ˈfɑːmɪŋ/", "pos": "n.", "meaning": "农业；耕作"}
+          "id": "1-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "english": "to do the shopping",
+          "chinese": "去购物",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：去购物",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "shopping",
+              "phonetic": "/ˈʃɒpɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "购物"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to do the shopping"
+            }
           ]
         },
         {
-          "order": 4,
-          "text": "at an early age",
-          "type": "adverbial",
-          "chinese": "在很小的时候",
-          "note": "固定短语，表示年龄阶段"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "fullSentence": "He studied farming when he grew up.",
-      "source": "Story time",
-      "chinese": "他长大后学习农业。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "He",
-          "type": "subject",
-          "chinese": "他",
-          "note": "主句主语"
-        },
-        {
-          "order": 2,
-          "text": "studied farming",
-          "type": "verb-object",
-          "chinese": "学习农业",
-          "note": "谓语+宾语，studied是study的过去式"
-        },
-        {
-          "order": 3,
-          "text": "when he grew up",
-          "type": "clause",
-          "chinese": "当他长大后",
-          "note": "时间状语从句，grow up表示长大",
-          "wordBreakdown": [
-            {"word": "grow up", "phonetic": "/ɡrəʊ ʌp/", "pos": "phr.v.", "meaning": "长大"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "fullSentence": "In 1964, he began to work on hybrid rice.",
-      "source": "Story time",
-      "chinese": "1964年，他开始研究杂交水稻。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "In 1964",
-          "type": "adverbial",
-          "chinese": "在1964年",
-          "note": "时间状语置于句首"
-        },
-        {
-          "order": 2,
-          "text": "he",
-          "type": "subject",
-          "chinese": "他",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 3,
-          "text": "began",
-          "type": "verb",
-          "chinese": "开始",
-          "note": "begin的过去式",
-          "wordBreakdown": [
-            {"word": "begin", "phonetic": "/bɪˈɡɪn/", "pos": "v.", "meaning": "开始"}
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
           ]
         },
         {
-          "order": 4,
-          "text": "to work on hybrid rice",
-          "type": "object",
-          "chinese": "研究杂交水稻",
-          "note": "不定式短语作宾语，work on表示从事",
-          "wordBreakdown": [
-            {"word": "work on", "phonetic": "/wɜːk ɒn/", "pos": "phr.v.", "meaning": "从事；致力于"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "fullSentence": "It was very difficult, but he never gave up.",
-      "source": "Story time",
-      "chinese": "这非常困难，但他从不放弃。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "It was very difficult",
-          "type": "clause",
-          "chinese": "这非常困难",
-          "note": "前一分句，主系表结构",
-          "wordBreakdown": [
-            {"word": "difficult", "phonetic": "/ˈdɪfɪkəlt/", "pos": "adj.", "meaning": "困难的"}
-          ]
-        },
-        {
-          "order": 2,
-          "text": "but",
-          "type": "conjunction",
-          "chinese": "但是",
-          "note": "转折连词，连接两个分句"
-        },
-        {
-          "order": 3,
-          "text": "he never gave up",
-          "type": "clause",
-          "chinese": "他从不放弃",
-          "note": "后一分句，never加强否定语气",
-          "wordBreakdown": [
-            {"word": "give up", "phonetic": "/ɡɪv ʌp/", "pos": "phr.v.", "meaning": "放弃"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "fullSentence": "He worked hard and always stayed in the fields.",
-      "source": "Story time",
-      "chinese": "他努力工作，总是待在田地里。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "He",
-          "type": "subject",
-          "chinese": "他",
-          "note": "同一个主语，发出两个动作"
-        },
-        {
-          "order": 2,
-          "text": "worked hard",
-          "type": "predicate-1",
-          "chinese": "努力工作",
-          "note": "第一个谓语，hard是副词修饰worked",
-          "wordBreakdown": [
-            {"word": "hard", "phonetic": "/hɑːd/", "pos": "adv.", "meaning": "努力地"}
+          "id": "1-5",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
+          "english": "Mrs Pig.",
+          "chinese": "猪太太",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：猪太太",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Mrs",
+              "phonetic": "/ˈmɪsɪz/",
+              "partOfSpeech": "称谓",
+              "meaning": "太太"
+            },
+            {
+              "text": "Pig",
+              "phonetic": "/pɪɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "猪；此处为姓氏"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Mrs Pig."
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "and always stayed",
-          "type": "predicate-2",
-          "chinese": "并且总是待着",
-          "note": "第二个谓语，always表示频率"
-        },
-        {
-          "order": 4,
-          "text": "in the fields",
-          "type": "adverbial",
-          "chinese": "在田地里",
-          "note": "地点状语，fields用复数",
-          "wordBreakdown": [
-            {"word": "field", "phonetic": "/fiːld/", "pos": "n.", "meaning": "田野"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "fullSentence": "He did lots of experiments.",
-      "source": "Story time",
-      "chinese": "他做了大量实验。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "He",
-          "type": "subject",
-          "chinese": "他",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "did",
-          "type": "verb",
-          "chinese": "做",
-          "note": "do的过去式"
-        },
-        {
-          "order": 3,
-          "text": "lots of experiments",
-          "type": "object",
-          "chinese": "大量实验",
-          "note": "lots of = a lot of，修饰可数名词复数",
-          "wordBreakdown": [
-            {"word": "experiment", "phonetic": "/ɪkˈsperɪmənt/", "pos": "n.", "meaning": "实验"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "fullSentence": "In 1973, he developed hybrid rice.",
-      "source": "Story time",
-      "chinese": "1973年，他研发出杂交水稻。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "In 1973",
-          "type": "adverbial",
-          "chinese": "在1973年",
-          "note": "时间状语置于句首"
-        },
-        {
-          "order": 2,
-          "text": "he",
-          "type": "subject",
-          "chinese": "他",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 3,
-          "text": "developed",
-          "type": "verb",
-          "chinese": "开发；研制",
-          "note": "develop的过去式",
-          "wordBreakdown": [
-            {"word": "develop", "phonetic": "/dɪˈveləp/", "pos": "v.", "meaning": "开发；研制"}
-          ]
-        },
-        {
-          "order": 4,
-          "text": "hybrid rice",
-          "type": "object",
-          "chinese": "杂交水稻",
-          "note": "名词短语作宾语"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "fullSentence": "Now hybrid rice grows in China and many other countries.",
-      "source": "Story time",
-      "chinese": "现在杂交水稻在中国和许多其他国家种植。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Now",
-          "type": "adverbial",
-          "chinese": "现在",
-          "note": "时间副词，表现在"
-        },
-        {
-          "order": 2,
-          "text": "hybrid rice",
-          "type": "subject",
-          "chinese": "杂交水稻",
-          "note": "不可数名词作主语"
-        },
-        {
-          "order": 3,
-          "text": "grows",
-          "type": "verb",
-          "chinese": "生长；种植",
-          "note": "一般现在时，第三人称单数"
-        },
-        {
-          "order": 4,
-          "text": "in China and many other countries",
-          "type": "adverbial",
-          "chinese": "在中国和许多其他国家",
-          "note": "地点状语，and连接两个并列的地点",
-          "wordBreakdown": [
-            {"word": "other", "phonetic": "/ˈʌðə(r)/", "pos": "adj.", "meaning": "其他的"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "fullSentence": "It feeds people all over the world.",
-      "source": "Story time",
-      "chinese": "它养活了全世界的人们。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "It",
-          "type": "subject",
-          "chinese": "它",
-          "note": "指代hybrid rice"
-        },
-        {
-          "order": 2,
-          "text": "feeds",
-          "type": "verb",
-          "chinese": "喂养；养活",
-          "note": "一般现在时，第三人称单数",
-          "wordBreakdown": [
-            {"word": "feed", "phonetic": "/fiːd/", "pos": "v.", "meaning": "喂养；养活"}
+          "id": "1-6",
+          "sequenceNumber": 1,
+          "segmentNumber": 6,
+          "english": "I want to do the shopping for Mrs Pig.",
+          "chinese": "我想去帮猪太太买东西。",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "shopping",
+              "phonetic": "/ˈʃɒpɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "购物"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "Mrs",
+              "phonetic": "/ˈmɪsɪz/",
+              "partOfSpeech": "称谓",
+              "meaning": "太太"
+            },
+            {
+              "text": "Pig",
+              "phonetic": "/pɪɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "猪；此处为姓氏"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I want"
+            },
+            {
+              "label": "词块",
+              "text": "to do the shopping"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "Mrs Pig."
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "people",
-          "type": "object",
-          "chinese": "人们",
-          "note": "集合名词"
+          "id": "2-1",
+          "sequenceNumber": 2,
+          "segmentNumber": 1,
+          "english": "Can I go",
+          "chinese": "我能去吗",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我能去吗",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "n./v.",
+              "meaning": "尝试；去"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Can I go"
+            }
+          ]
         },
         {
-          "order": 4,
-          "text": "all over the world",
-          "type": "adverbial",
-          "chinese": "全世界",
-          "note": "固定短语，作定语修饰people"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "fullSentence": "Mrs Fox asked the class to write about their heroes.",
-      "source": "Cartoon time",
-      "chinese": "Fox老师让全班同学写关于他们的英雄。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Mrs Fox",
-          "type": "subject",
-          "chinese": "Fox老师",
-          "note": "人名，作主语"
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 2,
+          "english": "with",
+          "chinese": "和",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：和",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "with"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "asked",
-          "type": "verb",
-          "chinese": "要求；让",
-          "note": "ask的过去式"
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
+          "english": "you?",
+          "chinese": "你",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "you?"
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "the class",
-          "type": "object",
-          "chinese": "全班同学",
-          "note": "宾语，指全班学生"
+          "id": "2-4",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
+          "english": "Can I go with you?",
+          "chinese": "我能和你一起去吗？",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "注意疑问词或句首的助动词，并按原文词序说出问句。",
+          "words": [
+            {
+              "text": "Can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "n./v.",
+              "meaning": "尝试；去"
+            },
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Can I go"
+            },
+            {
+              "label": "词块",
+              "text": "with"
+            },
+            {
+              "label": "词块",
+              "text": "you?"
+            }
+          ]
         },
         {
-          "order": 4,
-          "text": "to write about their heroes",
-          "type": "complement",
-          "chinese": "写关于他们的英雄",
-          "note": "不定式作宾语补足语，ask sb. to do sth."
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "fullSentence": "A famous scientist or inventor.",
-      "source": "Cartoon time",
-      "chinese": "一位著名的科学家或发明家。",
-      "fragments": [
+          "id": "3-1",
+          "sequenceNumber": 3,
+          "segmentNumber": 1,
+          "english": "Sure.",
+          "chinese": "当然可以。",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Sure",
+              "phonetic": "/ʃʊə/",
+              "partOfSpeech": "interj./adj.",
+              "meaning": "当然；确定的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Sure."
+            }
+          ]
+        },
         {
-          "order": 1,
-          "text": "A famous scientist",
-          "type": "noun-phrase",
+          "id": "4-1",
+          "sequenceNumber": 4,
+          "segmentNumber": 1,
+          "english": "How was school today?",
+          "chinese": "今天在学校怎么样？",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "注意疑问词或句首的助动词，并按原文词序说出问句。",
+          "words": [
+            {
+              "text": "How",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校"
+            },
+            {
+              "text": "today",
+              "phonetic": "/təˈdeɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "今天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "How was school today?"
+            }
+          ]
+        },
+        {
+          "id": "5-1",
+          "sequenceNumber": 5,
+          "segmentNumber": 1,
+          "english": "Great!",
+          "chinese": "好极了！",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Great!"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 2,
+          "english": "Mrs Fox asked us",
+          "chinese": "狐狸老师让我们",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：狐狸老师让我们",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Mrs",
+              "phonetic": "/ˈmɪsɪz/",
+              "partOfSpeech": "称谓",
+              "meaning": "太太"
+            },
+            {
+              "text": "Fox",
+              "phonetic": "/fɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "狐狸；此处为姓氏"
+            },
+            {
+              "text": "asked",
+              "phonetic": "/ɑːskt/",
+              "partOfSpeech": "v.",
+              "meaning": "请求，问（ask的过去式）"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Mrs Fox asked us"
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
+          "english": "to write",
+          "chinese": "写一写",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：写一写",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "write",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "写"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to write"
+            }
+          ]
+        },
+        {
+          "id": "5-4",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
+          "english": "about",
+          "chinese": "关于",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：关于",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "about"
+            }
+          ]
+        },
+        {
+          "id": "5-5",
+          "sequenceNumber": 5,
+          "segmentNumber": 5,
+          "english": "our heroes.",
+          "chinese": "我们的英雄",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我们的英雄",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "heroes",
+              "phonetic": "/ˈhɪərəʊz/",
+              "partOfSpeech": "n.",
+              "meaning": "英雄（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "our heroes."
+            }
+          ]
+        },
+        {
+          "id": "5-6",
+          "sequenceNumber": 5,
+          "segmentNumber": 6,
+          "english": "Mrs Fox asked us to write about our heroes.",
+          "chinese": "狐狸老师让我们写一写自己心中的英雄。",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Mrs",
+              "phonetic": "/ˈmɪsɪz/",
+              "partOfSpeech": "称谓",
+              "meaning": "太太"
+            },
+            {
+              "text": "Fox",
+              "phonetic": "/fɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "狐狸；此处为姓氏"
+            },
+            {
+              "text": "asked",
+              "phonetic": "/ɑːskt/",
+              "partOfSpeech": "v.",
+              "meaning": "请求，问（ask的过去式）"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "write",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "写"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            },
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "heroes",
+              "phonetic": "/ˈhɪərəʊz/",
+              "partOfSpeech": "n.",
+              "meaning": "英雄（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Mrs Fox asked us"
+            },
+            {
+              "label": "词块",
+              "text": "to write"
+            },
+            {
+              "label": "词块",
+              "text": "about"
+            },
+            {
+              "label": "词块",
+              "text": "our heroes."
+            }
+          ]
+        },
+        {
+          "id": "6-1",
+          "sequenceNumber": 6,
+          "segmentNumber": 1,
+          "english": "Who do you want",
+          "chinese": "你想写谁",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你想写谁",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Who",
+              "phonetic": "/huː/",
+              "partOfSpeech": "pron.",
+              "meaning": "谁"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Who do you want"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 2,
+          "english": "to write about?",
+          "chinese": "写关于谁的事",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：写关于谁的事",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "write",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "写"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to write about?"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
+          "english": "Who do you want to write about?",
+          "chinese": "你想写谁呢？",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "Who 询问人物；want to 后接动词原形；write about 表示写关于某人的事。",
+          "words": [
+            {
+              "text": "Who",
+              "phonetic": "/huː/",
+              "partOfSpeech": "pron.",
+              "meaning": "谁"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "write",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "写"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Who do you want"
+            },
+            {
+              "label": "词块",
+              "text": "to write about?"
+            }
+          ]
+        },
+        {
+          "id": "7-1",
+          "sequenceNumber": 7,
+          "segmentNumber": 1,
+          "english": "A famous scientist",
           "chinese": "一位著名的科学家",
-          "note": "名词短语，famous修饰scientist",
-          "wordBreakdown": [
-            {"word": "famous", "phonetic": "/ˈfeɪməs/", "pos": "adj.", "meaning": "著名的"}
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一位著名的科学家",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "A",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "famous",
+              "phonetic": "/ˈfeɪməs/",
+              "partOfSpeech": "adj.",
+              "meaning": "著名的"
+            },
+            {
+              "text": "scientist",
+              "phonetic": "/ˈsaɪəntɪst/",
+              "partOfSpeech": "n.",
+              "meaning": "科学家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "A famous scientist"
+            }
           ]
         },
         {
-          "order": 2,
-          "text": "or inventor",
-          "type": "noun-phrase",
-          "chinese": "或者发明家",
-          "note": "or表示选择关系",
-          "wordBreakdown": [
-            {"word": "inventor", "phonetic": "/ɪnˈventə(r)/", "pos": "n.", "meaning": "发明家"}
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 2,
+          "english": "or inventor.",
+          "chinese": "或发明家",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：或发明家",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "or",
+              "phonetic": "/ɔː/",
+              "partOfSpeech": "conj.",
+              "meaning": "或者"
+            },
+            {
+              "text": "inventor",
+              "phonetic": "/ɪnˈventə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "发明家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "or inventor."
+            }
           ]
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "fullSentence": "They work hard and do great things.",
-      "source": "Cartoon time",
-      "chinese": "他们努力工作，做伟大的事情。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "They",
-          "type": "subject",
-          "chinese": "他们",
-          "note": "人称代词主格"
         },
         {
-          "order": 2,
-          "text": "work hard",
-          "type": "predicate-1",
-          "chinese": "努力工作",
-          "note": "第一个谓语"
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
+          "english": "A famous scientist or inventor.",
+          "chinese": "一位著名的科学家或发明家。",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "A",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "famous",
+              "phonetic": "/ˈfeɪməs/",
+              "partOfSpeech": "adj.",
+              "meaning": "著名的"
+            },
+            {
+              "text": "scientist",
+              "phonetic": "/ˈsaɪəntɪst/",
+              "partOfSpeech": "n.",
+              "meaning": "科学家"
+            },
+            {
+              "text": "or",
+              "phonetic": "/ɔː/",
+              "partOfSpeech": "conj.",
+              "meaning": "或者"
+            },
+            {
+              "text": "inventor",
+              "phonetic": "/ɪnˈventə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "发明家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "A famous scientist"
+            },
+            {
+              "label": "词块",
+              "text": "or inventor."
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "and do great things",
-          "type": "predicate-2",
-          "chinese": "并且做伟大的事情",
-          "note": "第二个谓语，and连接并列谓语"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "fullSentence": "I want to do the shopping for Mrs Pig.",
-      "source": "Cartoon time",
-      "chinese": "我想给Pig太太买东西。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "I",
-          "type": "subject",
-          "chinese": "我",
-          "note": "人称代词主格"
+          "id": "7-4",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
+          "english": "They work hard",
+          "chinese": "他们努力工作",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他们努力工作",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "They",
+              "phonetic": "/ðeɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们"
+            },
+            {
+              "text": "work",
+              "phonetic": "/wɜːk/",
+              "partOfSpeech": "v./n.",
+              "meaning": "工作"
+            },
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adv.",
+              "meaning": "努力地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "They work hard"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "want to do the shopping",
-          "type": "verb-phrase",
-          "chinese": "想要买东西",
-          "note": "want to do sth. 想要做某事"
+          "id": "7-5",
+          "sequenceNumber": 7,
+          "segmentNumber": 5,
+          "english": "and do great things.",
+          "chinese": "并做伟大的事情",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：并做伟大的事情",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            },
+            {
+              "text": "things",
+              "phonetic": "/θɪŋz/",
+              "partOfSpeech": "n.",
+              "meaning": "事情；东西（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "and do great things."
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "for Mrs Pig",
-          "type": "adverbial",
-          "chinese": "给Pig太太",
-          "note": "for sb. 表示为了某人"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "fullSentence": "Can I go with you?",
-      "source": "Cartoon time",
-      "chinese": "我能和你一起去吗？",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Can",
-          "type": "modal",
-          "chinese": "能；可以",
-          "note": "情态动词，表请求许可"
+          "id": "7-6",
+          "sequenceNumber": 7,
+          "segmentNumber": 6,
+          "english": "They work hard and do great things.",
+          "chinese": "他们努力工作，做伟大的事情。",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "They",
+              "phonetic": "/ðeɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们"
+            },
+            {
+              "text": "work",
+              "phonetic": "/wɜːk/",
+              "partOfSpeech": "v./n.",
+              "meaning": "工作"
+            },
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adv.",
+              "meaning": "努力地"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            },
+            {
+              "text": "things",
+              "phonetic": "/θɪŋz/",
+              "partOfSpeech": "n.",
+              "meaning": "事情；东西（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "They work hard"
+            },
+            {
+              "label": "词块",
+              "text": "and do great things."
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "I",
-          "type": "subject",
-          "chinese": "我",
-          "note": "人称代词主格"
+          "id": "8-1",
+          "sequenceNumber": 8,
+          "segmentNumber": 1,
+          "english": "Hi, Mrs Mouse!",
+          "chinese": "嗨，鼠太太！",
+          "speaker": "Mrs Sheep",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Hi",
+              "phonetic": "/haɪ/",
+              "partOfSpeech": "interj.",
+              "meaning": "嗨"
+            },
+            {
+              "text": "Mrs",
+              "phonetic": "/ˈmɪsɪz/",
+              "partOfSpeech": "称谓",
+              "meaning": "太太"
+            },
+            {
+              "text": "Mouse",
+              "phonetic": "/maʊs/",
+              "partOfSpeech": "n.",
+              "meaning": "老鼠；此处为姓氏"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Hi, Mrs Mouse!"
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "go with you",
-          "type": "verb-phrase",
-          "chinese": "和你一起去",
-          "note": "go with sb. 和某人一起去"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "fullSentence": "Thanks for taking my baby to the park yesterday.",
-      "source": "Cartoon time",
-      "chinese": "谢谢你昨天带我宝宝去公园。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Thanks for",
-          "type": "phrase",
-          "chinese": "为……而感谢",
-          "note": "Thanks for doing sth. 为做某事而感谢"
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 2,
+          "english": "Thanks",
+          "chinese": "谢谢",
+          "speaker": "Mrs Sheep",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：谢谢",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Thanks",
+              "phonetic": "/θæŋks/",
+              "partOfSpeech": "interj.",
+              "meaning": "谢谢"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Thanks"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "taking my baby to the park",
-          "type": "object",
-          "chinese": "带我宝宝去公园",
-          "note": "动名词短语作for的宾语，take...to...带……去……"
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
+          "english": "for",
+          "chinese": "因为",
+          "speaker": "Mrs Sheep",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：因为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "yesterday",
-          "type": "adverbial",
-          "chinese": "昨天",
-          "note": "时间副词"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "fullSentence": "I'm happy to help.",
-      "source": "Cartoon time",
-      "chinese": "我很乐意帮忙。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "I'm happy",
-          "type": "clause",
-          "chinese": "我很高兴",
-          "note": "主系表结构"
+          "id": "8-4",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
+          "english": "taking my baby",
+          "chinese": "带我的宝宝",
+          "speaker": "Mrs Sheep",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：带我的宝宝",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "taking",
+              "phonetic": "/ˈteɪkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（take的-ing形式）"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "baby",
+              "phonetic": "/ˈbeɪbi/",
+              "partOfSpeech": "n.",
+              "meaning": "宝宝"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "taking my baby"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "to help",
-          "type": "infinitive",
+          "id": "8-5",
+          "sequenceNumber": 8,
+          "segmentNumber": 5,
+          "english": "to",
+          "chinese": "去",
+          "speaker": "Mrs Sheep",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：去",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to"
+            }
+          ]
+        },
+        {
+          "id": "8-6",
+          "sequenceNumber": 8,
+          "segmentNumber": 6,
+          "english": "the park yesterday.",
+          "chinese": "昨天去公园",
+          "speaker": "Mrs Sheep",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：昨天去公园",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "park",
+              "phonetic": "/pɑːk/",
+              "partOfSpeech": "n.",
+              "meaning": "公园"
+            },
+            {
+              "text": "yesterday",
+              "phonetic": "/ˈjestədeɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "昨天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the park yesterday."
+            }
+          ]
+        },
+        {
+          "id": "8-7",
+          "sequenceNumber": 8,
+          "segmentNumber": 7,
+          "english": "Thanks for taking my baby to the park yesterday.",
+          "chinese": "谢谢你昨天带我的宝宝去公园。",
+          "speaker": "Mrs Sheep",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "for 是介词，后接动词时用 -ing 形式。",
+          "words": [
+            {
+              "text": "Thanks",
+              "phonetic": "/θæŋks/",
+              "partOfSpeech": "interj.",
+              "meaning": "谢谢"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "taking",
+              "phonetic": "/ˈteɪkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（take的-ing形式）"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "baby",
+              "phonetic": "/ˈbeɪbi/",
+              "partOfSpeech": "n.",
+              "meaning": "宝宝"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "park",
+              "phonetic": "/pɑːk/",
+              "partOfSpeech": "n.",
+              "meaning": "公园"
+            },
+            {
+              "text": "yesterday",
+              "phonetic": "/ˈjestədeɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "昨天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Thanks"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "taking my baby"
+            },
+            {
+              "label": "词块",
+              "text": "to"
+            },
+            {
+              "label": "词块",
+              "text": "the park yesterday."
+            }
+          ]
+        },
+        {
+          "id": "9-1",
+          "sequenceNumber": 9,
+          "segmentNumber": 1,
+          "english": "I'm happy",
+          "chinese": "我很乐意",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我很乐意",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I'm",
+              "phonetic": "/aɪm/",
+              "partOfSpeech": "v.",
+              "meaning": "我是（I am的缩写）"
+            },
+            {
+              "text": "happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "高兴的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I'm happy"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 2,
+          "english": "to help.",
           "chinese": "帮忙",
-          "note": "不定式作原因状语，be happy to do sth."
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "fullSentence": "You help Mrs Mouse with her baby.",
-      "source": "Cartoon time",
-      "chinese": "你帮助Mouse太太照顾她的宝宝。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "You",
-          "type": "subject",
-          "chinese": "你",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "help",
-          "type": "verb",
-          "chinese": "帮助",
-          "note": "谓语动词"
-        },
-        {
-          "order": 3,
-          "text": "Mrs Mouse",
-          "type": "object",
-          "chinese": "Mouse太太",
-          "note": "宾语"
-        },
-        {
-          "order": 4,
-          "text": "with her baby",
-          "type": "complement",
-          "chinese": "在她宝宝方面",
-          "note": "help sb. with sth. 在某事上帮助某人"
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "fullSentence": "You do the shopping for Mrs Pig every week.",
-      "source": "Cartoon time",
-      "chinese": "你每周都为Pig太太买东西。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "You",
-          "type": "subject",
-          "chinese": "你",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "do the shopping",
-          "type": "verb-phrase",
-          "chinese": "买东西；购物",
-          "note": "固定短语"
-        },
-        {
-          "order": 3,
-          "text": "for Mrs Pig",
-          "type": "adverbial",
-          "chinese": "为Pig太太",
-          "note": "目的状语"
-        },
-        {
-          "order": 4,
-          "text": "every week",
-          "type": "adverbial",
-          "chinese": "每周",
-          "note": "频率状语"
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "fullSentence": "You're always ready to help others.",
-      "source": "Cartoon time",
-      "chinese": "你总是乐于助人。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "You're always ready",
-          "type": "clause",
-          "chinese": "你总是准备好的",
-          "note": "主系表结构，always表频率"
-        },
-        {
-          "order": 2,
-          "text": "to help others",
-          "type": "infinitive",
-          "chinese": "帮助别人",
-          "note": "be ready to do sth. 准备好/乐意做某事"
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "fullSentence": "You're my hero, Mum!",
-      "source": "Cartoon time",
-      "chinese": "你是我的英雄，妈妈！",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "You're",
-          "type": "subject-verb",
-          "chinese": "你是",
-          "note": "you are的缩写"
-        },
-        {
-          "order": 2,
-          "text": "my hero",
-          "type": "predicative",
-          "chinese": "我的英雄",
-          "note": "名词短语作表语",
-          "wordBreakdown": [
-            {"word": "hero", "phonetic": "/ˈhɪərəʊ/", "pos": "n.", "meaning": "英雄"}
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：帮忙",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to help."
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "Mum",
-          "type": "vocative",
-          "chinese": "妈妈",
-          "note": "称呼语"
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
+          "english": "I'm happy to help.",
+          "chinese": "我很乐意帮忙。",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "I'm",
+              "phonetic": "/aɪm/",
+              "partOfSpeech": "v.",
+              "meaning": "我是（I am的缩写）"
+            },
+            {
+              "text": "happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "高兴的"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I'm happy"
+            },
+            {
+              "label": "词块",
+              "text": "to help."
+            }
+          ]
+        },
+        {
+          "id": "10-1",
+          "sequenceNumber": 10,
+          "segmentNumber": 1,
+          "english": "Hi, Mrs Mouse!",
+          "chinese": "嗨，鼠太太！",
+          "speaker": "Mrs Pig",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Hi",
+              "phonetic": "/haɪ/",
+              "partOfSpeech": "interj.",
+              "meaning": "嗨"
+            },
+            {
+              "text": "Mrs",
+              "phonetic": "/ˈmɪsɪz/",
+              "partOfSpeech": "称谓",
+              "meaning": "太太"
+            },
+            {
+              "text": "Mouse",
+              "phonetic": "/maʊs/",
+              "partOfSpeech": "n.",
+              "meaning": "老鼠；此处为姓氏"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Hi, Mrs Mouse!"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 2,
+          "english": "Thanks",
+          "chinese": "谢谢",
+          "speaker": "Mrs Pig",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：谢谢",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Thanks",
+              "phonetic": "/θæŋks/",
+              "partOfSpeech": "interj.",
+              "meaning": "谢谢"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Thanks"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
+          "english": "for",
+          "chinese": "因为",
+          "speaker": "Mrs Pig",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：因为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "10-4",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
+          "english": "doing the shopping",
+          "chinese": "买东西",
+          "speaker": "Mrs Pig",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：买东西",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "doing",
+              "phonetic": "/ˈduːɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "做（do的-ing形式）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "shopping",
+              "phonetic": "/ˈʃɒpɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "购物"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "doing the shopping"
+            }
+          ]
+        },
+        {
+          "id": "10-5",
+          "sequenceNumber": 10,
+          "segmentNumber": 5,
+          "english": "for",
+          "chinese": "为",
+          "speaker": "Mrs Pig",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "10-6",
+          "sequenceNumber": 10,
+          "segmentNumber": 6,
+          "english": "me every week.",
+          "chinese": "每周为我",
+          "speaker": "Mrs Pig",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：每周为我",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "me",
+              "phonetic": "/miː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（宾格）"
+            },
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一个"
+            },
+            {
+              "text": "week",
+              "phonetic": "/wiːk/",
+              "partOfSpeech": "n.",
+              "meaning": "周，星期"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "me every week."
+            }
+          ]
+        },
+        {
+          "id": "10-7",
+          "sequenceNumber": 10,
+          "segmentNumber": 7,
+          "english": "Thanks for doing the shopping for me every week.",
+          "chinese": "谢谢你每周帮我买东西。",
+          "speaker": "Mrs Pig",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Thanks",
+              "phonetic": "/θæŋks/",
+              "partOfSpeech": "interj.",
+              "meaning": "谢谢"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "doing",
+              "phonetic": "/ˈduːɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "做（do的-ing形式）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "shopping",
+              "phonetic": "/ˈʃɒpɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "购物"
+            },
+            {
+              "text": "me",
+              "phonetic": "/miː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（宾格）"
+            },
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一个"
+            },
+            {
+              "text": "week",
+              "phonetic": "/wiːk/",
+              "partOfSpeech": "n.",
+              "meaning": "周，星期"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Thanks"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "doing the shopping"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "me every week."
+            }
+          ]
+        },
+        {
+          "id": "11-1",
+          "sequenceNumber": 11,
+          "segmentNumber": 1,
+          "english": "I'm happy",
+          "chinese": "我很乐意",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我很乐意",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I'm",
+              "phonetic": "/aɪm/",
+              "partOfSpeech": "v.",
+              "meaning": "我是（I am的缩写）"
+            },
+            {
+              "text": "happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "高兴的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I'm happy"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 2,
+          "english": "to help.",
+          "chinese": "帮忙",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：帮忙",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to help."
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
+          "english": "I'm happy to help.",
+          "chinese": "我很乐意帮忙。",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "I'm",
+              "phonetic": "/aɪm/",
+              "partOfSpeech": "v.",
+              "meaning": "我是（I am的缩写）"
+            },
+            {
+              "text": "happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "高兴的"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I'm happy"
+            },
+            {
+              "label": "词块",
+              "text": "to help."
+            }
+          ]
+        },
+        {
+          "id": "12-1",
+          "sequenceNumber": 12,
+          "segmentNumber": 1,
+          "english": "Why are you so happy, Bobby?",
+          "chinese": "Bobby，你为什么这么开心？",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "注意疑问词或句首的助动词，并按原文词序说出问句。",
+          "words": [
+            {
+              "text": "Why",
+              "phonetic": "/waɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "为什么"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "so",
+              "phonetic": "/səʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "这么；如此"
+            },
+            {
+              "text": "happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "高兴的"
+            },
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Why are you so happy, Bobby?"
+            }
+          ]
+        },
+        {
+          "id": "13-1",
+          "sequenceNumber": 13,
+          "segmentNumber": 1,
+          "english": "Because I have",
+          "chinese": "因为我有",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：因为我有",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Because",
+              "phonetic": "/bɪˈkɒz/",
+              "partOfSpeech": "conj.",
+              "meaning": "因为"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有；进行"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Because I have"
+            }
+          ]
+        },
+        {
+          "id": "13-2",
+          "sequenceNumber": 13,
+          "segmentNumber": 2,
+          "english": "a good idea",
+          "chinese": "一个好主意",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一个好主意",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "idea",
+              "phonetic": "/aɪˈdɪə/",
+              "partOfSpeech": "n.",
+              "meaning": "主意"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a good idea"
+            }
+          ]
+        },
+        {
+          "id": "13-3",
+          "sequenceNumber": 13,
+          "segmentNumber": 3,
+          "english": "for",
+          "chinese": "关于",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：关于",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "13-4",
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
+          "english": "my homework!",
+          "chinese": "我的作业",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我的作业",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "homework",
+              "phonetic": "/ˈhəʊmwɜːk/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭作业"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "my homework!"
+            }
+          ]
+        },
+        {
+          "id": "13-5",
+          "sequenceNumber": 13,
+          "segmentNumber": 5,
+          "english": "Because I have a good idea for my homework!",
+          "chinese": "因为我对作业有了一个好主意！",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Because",
+              "phonetic": "/bɪˈkɒz/",
+              "partOfSpeech": "conj.",
+              "meaning": "因为"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有；进行"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "idea",
+              "phonetic": "/aɪˈdɪə/",
+              "partOfSpeech": "n.",
+              "meaning": "主意"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "homework",
+              "phonetic": "/ˈhəʊmwɜːk/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭作业"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Because I have"
+            },
+            {
+              "label": "词块",
+              "text": "a good idea"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "my homework!"
+            }
+          ]
+        },
+        {
+          "id": "14-1",
+          "sequenceNumber": 14,
+          "segmentNumber": 1,
+          "english": "Mum, look",
+          "chinese": "妈妈，看看",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：妈妈，看看",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Mum",
+              "phonetic": "/mʌm/",
+              "partOfSpeech": "n.",
+              "meaning": "妈妈"
+            },
+            {
+              "text": "look",
+              "phonetic": "/lʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "看"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Mum, look"
+            }
+          ]
+        },
+        {
+          "id": "14-2",
+          "sequenceNumber": 14,
+          "segmentNumber": 2,
+          "english": "at",
+          "chinese": "看向",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：看向",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "at"
+            }
+          ]
+        },
+        {
+          "id": "14-3",
+          "sequenceNumber": 14,
+          "segmentNumber": 3,
+          "english": "this!",
+          "chinese": "这个",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：这个",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "this!"
+            }
+          ]
+        },
+        {
+          "id": "14-4",
+          "sequenceNumber": 14,
+          "segmentNumber": 4,
+          "english": "Mum, look at this!",
+          "chinese": "妈妈，看看这个！",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Mum",
+              "phonetic": "/mʌm/",
+              "partOfSpeech": "n.",
+              "meaning": "妈妈"
+            },
+            {
+              "text": "look",
+              "phonetic": "/lʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "看"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Mum, look"
+            },
+            {
+              "label": "词块",
+              "text": "at"
+            },
+            {
+              "label": "词块",
+              "text": "this!"
+            }
+          ]
+        },
+        {
+          "id": "14-5",
+          "sequenceNumber": 14,
+          "segmentNumber": 5,
+          "english": "You're my hero.",
+          "chinese": "你是我的英雄。",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "You're",
+              "phonetic": "/jʊə/",
+              "partOfSpeech": "缩略式",
+              "meaning": "you are，你是"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我的"
+            },
+            {
+              "text": "hero",
+              "phonetic": "/ˈhɪərəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "英雄"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "You're my hero."
+            }
+          ]
+        },
+        {
+          "id": "14-6",
+          "sequenceNumber": 14,
+          "segmentNumber": 6,
+          "english": "Now I know",
+          "chinese": "现在我知道了",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：现在我知道了",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Now",
+              "phonetic": "/naʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "现在"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "know",
+              "phonetic": "/nəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "知道"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Now I know"
+            }
+          ]
+        },
+        {
+          "id": "14-7",
+          "sequenceNumber": 14,
+          "segmentNumber": 7,
+          "english": "everyone can be great.",
+          "chinese": "每个人都可以很伟大",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：每个人都可以很伟大",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "everyone",
+              "phonetic": "/ˈevriwʌn/",
+              "partOfSpeech": "pron.",
+              "meaning": "每个人"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "be",
+              "phonetic": "/biː/",
+              "partOfSpeech": "v.",
+              "meaning": "是；成为"
+            },
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "everyone can be great."
+            }
+          ]
+        },
+        {
+          "id": "14-8",
+          "sequenceNumber": 14,
+          "segmentNumber": 8,
+          "english": "Now I know everyone can be great.",
+          "chinese": "现在我知道，每个人都可以很伟大。",
+          "speaker": "Bobby",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "can 后接动词原形；everyone 表示每个人。",
+          "words": [
+            {
+              "text": "Now",
+              "phonetic": "/naʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "现在"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "know",
+              "phonetic": "/nəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "知道"
+            },
+            {
+              "text": "everyone",
+              "phonetic": "/ˈevriwʌn/",
+              "partOfSpeech": "pron.",
+              "meaning": "每个人"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "be",
+              "phonetic": "/biː/",
+              "partOfSpeech": "v.",
+              "meaning": "是；成为"
+            },
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Now I know"
+            },
+            {
+              "label": "词块",
+              "text": "everyone can be great."
+            }
+          ]
+        },
+        {
+          "id": "15-1",
+          "sequenceNumber": 15,
+          "segmentNumber": 1,
+          "english": "Wow!",
+          "chinese": "哇！",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Wow",
+              "phonetic": "/waʊ/",
+              "partOfSpeech": "interj.",
+              "meaning": "哇"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Wow!"
+            }
+          ]
+        },
+        {
+          "id": "15-2",
+          "sequenceNumber": 15,
+          "segmentNumber": 2,
+          "english": "Thank you, Bobby.",
+          "chinese": "谢谢你，Bobby。",
+          "speaker": "Mum",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Thank",
+              "phonetic": "/θæŋk/",
+              "partOfSpeech": "v.",
+              "meaning": "感谢"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Thank you, Bobby."
+            }
+          ]
         }
       ]
     },
     {
-      "id": 25,
-      "fullSentence": "Great people don't have to be famous.",
-      "source": "Cartoon time",
-      "chinese": "伟大的人不一定非得出名。",
-      "fragments": [
+      "title": "Sounds in focus — 字母组合 ar 的发音 /ɑː/",
+      "sentences": [
         {
-          "order": 1,
-          "text": "Great people",
-          "type": "subject",
+          "id": "16-1",
+          "sequenceNumber": 16,
+          "segmentNumber": 1,
+          "english": "Great people",
           "chinese": "伟大的人",
-          "note": "名词短语作主语"
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：伟大的人",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Great people"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "don't have to be",
-          "type": "verb",
-          "chinese": "不必是",
-          "note": "don't have to = 不必"
+          "id": "16-2",
+          "sequenceNumber": 16,
+          "segmentNumber": 2,
+          "english": "are like stars.",
+          "chinese": "就像星星",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：就像星星",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "stars",
+              "phonetic": "/stɑːz/",
+              "partOfSpeech": "n.",
+              "meaning": "星星（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "are like stars."
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "famous",
-          "type": "predicative",
-          "chinese": "著名的",
-          "note": "形容词作表语"
+          "id": "16-3",
+          "sequenceNumber": 16,
+          "segmentNumber": 3,
+          "english": "Great people are like stars.",
+          "chinese": "伟大的人就像星星。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "保留教材歌谣的原行和停顿；跟读本单元的字母组合发音。",
+          "words": [
+            {
+              "text": "Great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "stars",
+              "phonetic": "/stɑːz/",
+              "partOfSpeech": "n.",
+              "meaning": "星星（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Great people"
+            },
+            {
+              "label": "词块",
+              "text": "are like stars."
+            }
+          ]
+        },
+        {
+          "id": "17-1",
+          "sequenceNumber": 17,
+          "segmentNumber": 1,
+          "english": "In",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "In",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "In"
+            }
+          ]
+        },
+        {
+          "id": "17-2",
+          "sequenceNumber": 17,
+          "segmentNumber": 2,
+          "english": "the dark,",
+          "chinese": "黑暗中",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：黑暗中",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "dark",
+              "phonetic": "/dɑːk/",
+              "partOfSpeech": "n./adj.",
+              "meaning": "黑暗；黑暗的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the dark,"
+            }
+          ]
+        },
+        {
+          "id": "17-3",
+          "sequenceNumber": 17,
+          "segmentNumber": 3,
+          "english": "they give light.",
+          "chinese": "他们带来光亮",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他们带来光亮",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "they",
+              "phonetic": "/ðeɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们"
+            },
+            {
+              "text": "give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给"
+            },
+            {
+              "text": "light",
+              "phonetic": "/laɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "灯"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "they give light."
+            }
+          ]
+        },
+        {
+          "id": "17-4",
+          "sequenceNumber": 17,
+          "segmentNumber": 4,
+          "english": "In the dark, they give light.",
+          "chinese": "在黑暗中，他们带来光亮。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "保留教材歌谣的原行和停顿；跟读本单元的字母组合发音。",
+          "words": [
+            {
+              "text": "In",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "dark",
+              "phonetic": "/dɑːk/",
+              "partOfSpeech": "n./adj.",
+              "meaning": "黑暗；黑暗的"
+            },
+            {
+              "text": "they",
+              "phonetic": "/ðeɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们"
+            },
+            {
+              "text": "give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给"
+            },
+            {
+              "text": "light",
+              "phonetic": "/laɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "灯"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "In"
+            },
+            {
+              "label": "词块",
+              "text": "the dark,"
+            },
+            {
+              "label": "词块",
+              "text": "they give light."
+            }
+          ]
+        },
+        {
+          "id": "18-1",
+          "sequenceNumber": 18,
+          "segmentNumber": 1,
+          "english": "With",
+          "chinese": "怀着",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：怀着",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "With",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "With"
+            }
+          ]
+        },
+        {
+          "id": "18-2",
+          "sequenceNumber": 18,
+          "segmentNumber": 2,
+          "english": "dreams and hard work,",
+          "chinese": "梦想并努力付出",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：梦想并努力付出",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "dreams",
+              "phonetic": "/driːmz/",
+              "partOfSpeech": "n.",
+              "meaning": "梦想（复数）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adv.",
+              "meaning": "努力地"
+            },
+            {
+              "text": "work",
+              "phonetic": "/wɜːk/",
+              "partOfSpeech": "v./n.",
+              "meaning": "工作"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "dreams and hard work,"
+            }
+          ]
+        },
+        {
+          "id": "18-3",
+          "sequenceNumber": 18,
+          "segmentNumber": 3,
+          "english": "With dreams and hard work,",
+          "chinese": "怀着梦想，努力付出，",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "保留教材歌谣的原行和停顿；跟读本单元的字母组合发音。",
+          "words": [
+            {
+              "text": "With",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "dreams",
+              "phonetic": "/driːmz/",
+              "partOfSpeech": "n.",
+              "meaning": "梦想（复数）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adv.",
+              "meaning": "努力地"
+            },
+            {
+              "text": "work",
+              "phonetic": "/wɜːk/",
+              "partOfSpeech": "v./n.",
+              "meaning": "工作"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "With"
+            },
+            {
+              "label": "词块",
+              "text": "dreams and hard work,"
+            }
+          ]
+        },
+        {
+          "id": "19-1",
+          "sequenceNumber": 19,
+          "segmentNumber": 1,
+          "english": "You can also",
+          "chinese": "你也可以",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你也可以",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "You",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "also",
+              "phonetic": "/ˈɔːlsəʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "You can also"
+            }
+          ]
+        },
+        {
+          "id": "19-2",
+          "sequenceNumber": 19,
+          "segmentNumber": 2,
+          "english": "shine bright.",
+          "chinese": "闪耀光芒",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：闪耀光芒",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "shine",
+              "phonetic": "/ʃaɪn/",
+              "partOfSpeech": "v.",
+              "meaning": "照耀；发光"
+            },
+            {
+              "text": "bright",
+              "phonetic": "/braɪt/",
+              "partOfSpeech": "adj./adv.",
+              "meaning": "明亮的；明亮地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "shine bright."
+            }
+          ]
+        },
+        {
+          "id": "19-3",
+          "sequenceNumber": 19,
+          "segmentNumber": 3,
+          "english": "You can also shine bright.",
+          "chinese": "你也可以闪耀光芒。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "保留教材歌谣的原行和停顿；跟读本单元的字母组合发音。",
+          "words": [
+            {
+              "text": "You",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "also",
+              "phonetic": "/ˈɔːlsəʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            },
+            {
+              "text": "shine",
+              "phonetic": "/ʃaɪn/",
+              "partOfSpeech": "v.",
+              "meaning": "照耀；发光"
+            },
+            {
+              "text": "bright",
+              "phonetic": "/braɪt/",
+              "partOfSpeech": "adj./adv.",
+              "meaning": "明亮的；明亮地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "You can also"
+            },
+            {
+              "label": "词块",
+              "text": "shine bright."
+            }
+          ]
         }
       ]
     },
     {
-      "id": 26,
-      "fullSentence": "They can be the people around you.",
-      "source": "Cartoon time",
-      "chinese": "他们可以是你身边的人。",
-      "fragments": [
+      "title": "Story time — A great scientist",
+      "sentences": [
         {
-          "order": 1,
-          "text": "They",
-          "type": "subject",
-          "chinese": "他们",
-          "note": "人称代词主格"
+          "id": "20-1",
+          "sequenceNumber": 20,
+          "segmentNumber": 1,
+          "english": "I have two dreams.",
+          "chinese": "我有两个梦想。",
+          "speaker": "Yuan Longping",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有；进行"
+            },
+            {
+              "text": "two",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "num.",
+              "meaning": "二，两个"
+            },
+            {
+              "text": "dreams",
+              "phonetic": "/driːmz/",
+              "partOfSpeech": "n.",
+              "meaning": "梦想（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I have two dreams."
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "can be",
-          "type": "verb",
-          "chinese": "可以是",
-          "note": "情态动词can + be动词原形"
+          "id": "21-1",
+          "sequenceNumber": 21,
+          "segmentNumber": 1,
+          "english": "I want",
+          "chinese": "我想",
+          "speaker": "Yuan Longping",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我想",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I want"
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "the people around you",
-          "type": "predicative",
-          "chinese": "你身边的人",
-          "note": "名词短语作表语，around you作定语修饰people",
-          "wordBreakdown": [
-            {"word": "around", "phonetic": "/əˈraʊnd/", "pos": "prep.", "meaning": "周围"}
+          "id": "21-2",
+          "sequenceNumber": 21,
+          "segmentNumber": 2,
+          "english": "to enjoy the cool",
+          "chinese": "乘凉",
+          "speaker": "Yuan Longping",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：乘凉",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "enjoy",
+              "phonetic": "/ɪnˈdʒɔɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "享受"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "cool",
+              "phonetic": "/kuːl/",
+              "partOfSpeech": "n./adj.",
+              "meaning": "凉爽；凉爽的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to enjoy the cool"
+            }
+          ]
+        },
+        {
+          "id": "21-3",
+          "sequenceNumber": 21,
+          "segmentNumber": 3,
+          "english": "under",
+          "chinese": "在下面",
+          "speaker": "Yuan Longping",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在下面",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "under",
+              "phonetic": "/ˈʌndə/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……下面"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "under"
+            }
+          ]
+        },
+        {
+          "id": "21-4",
+          "sequenceNumber": 21,
+          "segmentNumber": 4,
+          "english": "tall rice plants.",
+          "chinese": "高高的稻株",
+          "speaker": "Yuan Longping",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：高高的稻株",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "tall",
+              "phonetic": "/tɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "高的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "plants",
+              "phonetic": "/plɑːnts/",
+              "partOfSpeech": "n.",
+              "meaning": "植物（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "tall rice plants."
+            }
+          ]
+        },
+        {
+          "id": "21-5",
+          "sequenceNumber": 21,
+          "segmentNumber": 5,
+          "english": "I want to enjoy the cool under tall rice plants.",
+          "chinese": "我想在高高的稻株下乘凉。",
+          "speaker": "Yuan Longping",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "enjoy",
+              "phonetic": "/ɪnˈdʒɔɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "享受"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "cool",
+              "phonetic": "/kuːl/",
+              "partOfSpeech": "n./adj.",
+              "meaning": "凉爽；凉爽的"
+            },
+            {
+              "text": "under",
+              "phonetic": "/ˈʌndə/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……下面"
+            },
+            {
+              "text": "tall",
+              "phonetic": "/tɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "高的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "plants",
+              "phonetic": "/plɑːnts/",
+              "partOfSpeech": "n.",
+              "meaning": "植物（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I want"
+            },
+            {
+              "label": "词块",
+              "text": "to enjoy the cool"
+            },
+            {
+              "label": "词块",
+              "text": "under"
+            },
+            {
+              "label": "词块",
+              "text": "tall rice plants."
+            }
+          ]
+        },
+        {
+          "id": "22-1",
+          "sequenceNumber": 22,
+          "segmentNumber": 1,
+          "english": "I also want",
+          "chinese": "我还想",
+          "speaker": "Yuan Longping",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：我还想",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "also",
+              "phonetic": "/ˈɔːlsəʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I also want"
+            }
+          ]
+        },
+        {
+          "id": "22-2",
+          "sequenceNumber": 22,
+          "segmentNumber": 2,
+          "english": "to see hybrid rice grow",
+          "chinese": "看到杂交水稻生长",
+          "speaker": "Yuan Longping",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：看到杂交水稻生长",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见，看到"
+            },
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "grow",
+              "phonetic": "/ɡrəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "生长；种植"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to see hybrid rice grow"
+            }
+          ]
+        },
+        {
+          "id": "22-3",
+          "sequenceNumber": 22,
+          "segmentNumber": 3,
+          "english": "all over the world.",
+          "chinese": "在世界各地",
+          "speaker": "Yuan Longping",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在世界各地",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "all",
+              "phonetic": "/ɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "所有的"
+            },
+            {
+              "text": "over",
+              "phonetic": "/ˈəʊvə/",
+              "partOfSpeech": "prep./adv.",
+              "meaning": "遍及；在……上方"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "world",
+              "phonetic": "/wɜːld/",
+              "partOfSpeech": "n.",
+              "meaning": "世界"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "all over the world."
+            }
+          ]
+        },
+        {
+          "id": "22-4",
+          "sequenceNumber": 22,
+          "segmentNumber": 4,
+          "english": "I also want to see hybrid rice grow all over the world.",
+          "chinese": "我还想看到杂交水稻在世界各地生长。",
+          "speaker": "Yuan Longping",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "also",
+              "phonetic": "/ˈɔːlsəʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见，看到"
+            },
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "grow",
+              "phonetic": "/ɡrəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "生长；种植"
+            },
+            {
+              "text": "all",
+              "phonetic": "/ɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "所有的"
+            },
+            {
+              "text": "over",
+              "phonetic": "/ˈəʊvə/",
+              "partOfSpeech": "prep./adv.",
+              "meaning": "遍及；在……上方"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "world",
+              "phonetic": "/wɜːld/",
+              "partOfSpeech": "n.",
+              "meaning": "世界"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "I also want"
+            },
+            {
+              "label": "词块",
+              "text": "to see hybrid rice grow"
+            },
+            {
+              "label": "词块",
+              "text": "all over the world."
+            }
+          ]
+        },
+        {
+          "id": "23-1",
+          "sequenceNumber": 23,
+          "segmentNumber": 1,
+          "english": "Who was Yuan Longping?",
+          "chinese": "袁隆平是谁？",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "注意疑问词或句首的助动词，并按原文词序说出问句。",
+          "words": [
+            {
+              "text": "Who",
+              "phonetic": "/huː/",
+              "partOfSpeech": "pron.",
+              "meaning": "谁"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "Yuan",
+              "phonetic": "/juːˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "袁（姓氏）"
+            },
+            {
+              "text": "Longping",
+              "phonetic": "/ˈlɒŋpɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "隆平（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Who was Yuan Longping?"
+            }
+          ]
+        },
+        {
+          "id": "24-1",
+          "sequenceNumber": 24,
+          "segmentNumber": 1,
+          "english": "Yuan Longping was",
+          "chinese": "袁隆平是一位",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：袁隆平是一位",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Yuan",
+              "phonetic": "/juːˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "袁（姓氏）"
+            },
+            {
+              "text": "Longping",
+              "phonetic": "/ˈlɒŋpɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "隆平（人名）"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Yuan Longping was"
+            }
+          ]
+        },
+        {
+          "id": "24-2",
+          "sequenceNumber": 24,
+          "segmentNumber": 2,
+          "english": "a Chinese rice scientist.",
+          "chinese": "中国水稻科学家",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：中国水稻科学家",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "Chinese",
+              "phonetic": "/ˌtʃaɪˈniːz/",
+              "partOfSpeech": "adj.",
+              "meaning": "中国的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "scientist",
+              "phonetic": "/ˈsaɪəntɪst/",
+              "partOfSpeech": "n.",
+              "meaning": "科学家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a Chinese rice scientist."
+            }
+          ]
+        },
+        {
+          "id": "24-3",
+          "sequenceNumber": 24,
+          "segmentNumber": 3,
+          "english": "Yuan Longping was a Chinese rice scientist.",
+          "chinese": "袁隆平是一位中国水稻科学家。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "Yuan",
+              "phonetic": "/juːˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "袁（姓氏）"
+            },
+            {
+              "text": "Longping",
+              "phonetic": "/ˈlɒŋpɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "隆平（人名）"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "Chinese",
+              "phonetic": "/ˌtʃaɪˈniːz/",
+              "partOfSpeech": "adj.",
+              "meaning": "中国的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "scientist",
+              "phonetic": "/ˈsaɪəntɪst/",
+              "partOfSpeech": "n.",
+              "meaning": "科学家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Yuan Longping was"
+            },
+            {
+              "label": "词块",
+              "text": "a Chinese rice scientist."
+            }
+          ]
+        },
+        {
+          "id": "25-1",
+          "sequenceNumber": 25,
+          "segmentNumber": 1,
+          "english": "He was born",
+          "chinese": "他出生",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他出生",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "born",
+              "phonetic": "/bɔːn/",
+              "partOfSpeech": "v.",
+              "meaning": "出生"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He was born"
+            }
+          ]
+        },
+        {
+          "id": "25-2",
+          "sequenceNumber": 25,
+          "segmentNumber": 2,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "25-3",
+          "sequenceNumber": 25,
+          "segmentNumber": 3,
+          "english": "1930",
+          "chinese": "1930年",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：1930年",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "1930",
+              "phonetic": "/ˌnaɪnˈtiːn ˈθɜːti/",
+              "partOfSpeech": "num.",
+              "meaning": "1930年"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "1930"
+            }
+          ]
+        },
+        {
+          "id": "25-4",
+          "sequenceNumber": 25,
+          "segmentNumber": 4,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "25-5",
+          "sequenceNumber": 25,
+          "segmentNumber": 5,
+          "english": "Beijing.",
+          "chinese": "北京",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：北京",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Beijing",
+              "phonetic": "/ˌbeɪˈdʒɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "北京"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Beijing."
+            }
+          ]
+        },
+        {
+          "id": "25-6",
+          "sequenceNumber": 25,
+          "segmentNumber": 6,
+          "english": "He was born in 1930 in Beijing.",
+          "chinese": "他于1930年出生在北京。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "be born 表示出生；过去发生的事情用 was/were，年份和城市前用 in。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "born",
+              "phonetic": "/bɔːn/",
+              "partOfSpeech": "v.",
+              "meaning": "出生"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "1930",
+              "phonetic": "/ˌnaɪnˈtiːn ˈθɜːti/",
+              "partOfSpeech": "num.",
+              "meaning": "1930年"
+            },
+            {
+              "text": "Beijing",
+              "phonetic": "/ˌbeɪˈdʒɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "北京"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He was born"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "1930"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "Beijing."
+            }
+          ]
+        },
+        {
+          "id": "26-1",
+          "sequenceNumber": 26,
+          "segmentNumber": 1,
+          "english": "He passed away",
+          "chinese": "他去世",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他去世",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "passed",
+              "phonetic": "/pɑːst/",
+              "partOfSpeech": "v.",
+              "meaning": "经过；passed away表示去世"
+            },
+            {
+              "text": "away",
+              "phonetic": "/əˈweɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "离开，远离"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He passed away"
+            }
+          ]
+        },
+        {
+          "id": "26-2",
+          "sequenceNumber": 26,
+          "segmentNumber": 2,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "26-3",
+          "sequenceNumber": 26,
+          "segmentNumber": 3,
+          "english": "2021",
+          "chinese": "2021年",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：2021年",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "2021",
+              "phonetic": "/ˌtwenti ˌtwenti ˈwʌn/",
+              "partOfSpeech": "num.",
+              "meaning": "2021年"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "2021"
+            }
+          ]
+        },
+        {
+          "id": "26-4",
+          "sequenceNumber": 26,
+          "segmentNumber": 4,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "26-5",
+          "sequenceNumber": 26,
+          "segmentNumber": 5,
+          "english": "Changsha.",
+          "chinese": "长沙",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：长沙",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Changsha",
+              "phonetic": "/ˌtʃæŋˈʃɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "长沙"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Changsha."
+            }
+          ]
+        },
+        {
+          "id": "26-6",
+          "sequenceNumber": 26,
+          "segmentNumber": 6,
+          "english": "He passed away in 2021 in Changsha.",
+          "chinese": "他于2021年在长沙去世。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "passed",
+              "phonetic": "/pɑːst/",
+              "partOfSpeech": "v.",
+              "meaning": "经过；passed away表示去世"
+            },
+            {
+              "text": "away",
+              "phonetic": "/əˈweɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "离开，远离"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "2021",
+              "phonetic": "/ˌtwenti ˌtwenti ˈwʌn/",
+              "partOfSpeech": "num.",
+              "meaning": "2021年"
+            },
+            {
+              "text": "Changsha",
+              "phonetic": "/ˌtʃæŋˈʃɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "长沙"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He passed away"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "2021"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "Changsha."
+            }
+          ]
+        },
+        {
+          "id": "27-1",
+          "sequenceNumber": 27,
+          "segmentNumber": 1,
+          "english": "He did",
+          "chinese": "他做了",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他做了",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "did",
+              "phonetic": "/dɪd/",
+              "partOfSpeech": "aux.",
+              "meaning": "do的过去式（助动词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He did"
+            }
+          ]
+        },
+        {
+          "id": "27-2",
+          "sequenceNumber": 27,
+          "segmentNumber": 2,
+          "english": "a lot of studies",
+          "chinese": "大量研究",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：大量研究",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "lot",
+              "phonetic": "/lɒt/",
+              "partOfSpeech": "n.",
+              "meaning": "许多"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "studies",
+              "phonetic": "/ˈstʌdiz/",
+              "partOfSpeech": "n.",
+              "meaning": "研究（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a lot of studies"
+            }
+          ]
+        },
+        {
+          "id": "27-3",
+          "sequenceNumber": 27,
+          "segmentNumber": 3,
+          "english": "on",
+          "chinese": "关于",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：关于",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "on"
+            }
+          ]
+        },
+        {
+          "id": "27-4",
+          "sequenceNumber": 27,
+          "segmentNumber": 4,
+          "english": "rice.",
+          "chinese": "水稻",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：水稻",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "rice."
+            }
+          ]
+        },
+        {
+          "id": "27-5",
+          "sequenceNumber": 27,
+          "segmentNumber": 5,
+          "english": "He did a lot of studies on rice.",
+          "chinese": "他对水稻进行了大量研究。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "did",
+              "phonetic": "/dɪd/",
+              "partOfSpeech": "aux.",
+              "meaning": "do的过去式（助动词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "lot",
+              "phonetic": "/lɒt/",
+              "partOfSpeech": "n.",
+              "meaning": "许多"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "studies",
+              "phonetic": "/ˈstʌdiz/",
+              "partOfSpeech": "n.",
+              "meaning": "研究（复数）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He did"
+            },
+            {
+              "label": "词块",
+              "text": "a lot of studies"
+            },
+            {
+              "label": "词块",
+              "text": "on"
+            },
+            {
+              "label": "词块",
+              "text": "rice."
+            }
+          ]
+        },
+        {
+          "id": "28-1",
+          "sequenceNumber": 28,
+          "segmentNumber": 1,
+          "english": "People call him",
+          "chinese": "人们称他为",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：人们称他为",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "People",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            },
+            {
+              "text": "call",
+              "phonetic": "/kɔːl/",
+              "partOfSpeech": "v.",
+              "meaning": "称呼"
+            },
+            {
+              "text": "him",
+              "phonetic": "/hɪm/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "People call him"
+            }
+          ]
+        },
+        {
+          "id": "28-2",
+          "sequenceNumber": 28,
+          "segmentNumber": 2,
+          "english": "the father",
+          "chinese": "之父",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：之父",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "father",
+              "phonetic": "/ˈfɑːðə/",
+              "partOfSpeech": "n.",
+              "meaning": "父亲"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the father"
+            }
+          ]
+        },
+        {
+          "id": "28-3",
+          "sequenceNumber": 28,
+          "segmentNumber": 3,
+          "english": "of",
+          "chinese": "的",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：的",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "of"
+            }
+          ]
+        },
+        {
+          "id": "28-4",
+          "sequenceNumber": 28,
+          "segmentNumber": 4,
+          "english": "hybrid rice.",
+          "chinese": "杂交水稻",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：杂交水稻",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "hybrid rice."
+            }
+          ]
+        },
+        {
+          "id": "28-5",
+          "sequenceNumber": 28,
+          "segmentNumber": 5,
+          "english": "People call him the father of hybrid rice.",
+          "chinese": "人们称他为杂交水稻之父。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "People",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            },
+            {
+              "text": "call",
+              "phonetic": "/kɔːl/",
+              "partOfSpeech": "v.",
+              "meaning": "称呼"
+            },
+            {
+              "text": "him",
+              "phonetic": "/hɪm/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（宾格）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "father",
+              "phonetic": "/ˈfɑːðə/",
+              "partOfSpeech": "n.",
+              "meaning": "父亲"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "People call him"
+            },
+            {
+              "label": "词块",
+              "text": "the father"
+            },
+            {
+              "label": "词块",
+              "text": "of"
+            },
+            {
+              "label": "词块",
+              "text": "hybrid rice."
+            }
+          ]
+        },
+        {
+          "id": "29-1",
+          "sequenceNumber": 29,
+          "segmentNumber": 1,
+          "english": "How did his dreams",
+          "chinese": "他的梦想如何",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他的梦想如何",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "How",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            },
+            {
+              "text": "did",
+              "phonetic": "/dɪd/",
+              "partOfSpeech": "aux.",
+              "meaning": "do的过去式（助动词）"
+            },
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "dreams",
+              "phonetic": "/driːmz/",
+              "partOfSpeech": "n.",
+              "meaning": "梦想（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "How did his dreams"
+            }
+          ]
+        },
+        {
+          "id": "29-2",
+          "sequenceNumber": 29,
+          "segmentNumber": 2,
+          "english": "come true?",
+          "chinese": "实现",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：实现",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "come",
+              "phonetic": "/kʌm/",
+              "partOfSpeech": "v.",
+              "meaning": "来；come true表示实现"
+            },
+            {
+              "text": "true",
+              "phonetic": "/truː/",
+              "partOfSpeech": "adj.",
+              "meaning": "真实的；come true表示实现"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "come true?"
+            }
+          ]
+        },
+        {
+          "id": "29-3",
+          "sequenceNumber": 29,
+          "segmentNumber": 3,
+          "english": "How did his dreams come true?",
+          "chinese": "他的梦想是怎样实现的？",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "注意疑问词或句首的助动词，并按原文词序说出问句。",
+          "words": [
+            {
+              "text": "How",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            },
+            {
+              "text": "did",
+              "phonetic": "/dɪd/",
+              "partOfSpeech": "aux.",
+              "meaning": "do的过去式（助动词）"
+            },
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "dreams",
+              "phonetic": "/driːmz/",
+              "partOfSpeech": "n.",
+              "meaning": "梦想（复数）"
+            },
+            {
+              "text": "come",
+              "phonetic": "/kʌm/",
+              "partOfSpeech": "v.",
+              "meaning": "来；come true表示实现"
+            },
+            {
+              "text": "true",
+              "phonetic": "/truː/",
+              "partOfSpeech": "adj.",
+              "meaning": "真实的；come true表示实现"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "How did his dreams"
+            },
+            {
+              "label": "词块",
+              "text": "come true?"
+            }
+          ]
+        },
+        {
+          "id": "30-1",
+          "sequenceNumber": 30,
+          "segmentNumber": 1,
+          "english": "Yuan liked farming",
+          "chinese": "袁隆平喜欢农事",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：袁隆平喜欢农事",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Yuan",
+              "phonetic": "/juːˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "袁（姓氏）"
+            },
+            {
+              "text": "liked",
+              "phonetic": "/laɪkt/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢（like的过去式）"
+            },
+            {
+              "text": "farming",
+              "phonetic": "/ˈfɑːmɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "农业；耕作"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Yuan liked farming"
+            }
+          ]
+        },
+        {
+          "id": "30-2",
+          "sequenceNumber": 30,
+          "segmentNumber": 2,
+          "english": "at",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "at"
+            }
+          ]
+        },
+        {
+          "id": "30-3",
+          "sequenceNumber": 30,
+          "segmentNumber": 3,
+          "english": "an early age.",
+          "chinese": "很小的年纪",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：很小的年纪",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "an",
+              "phonetic": "/ən/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "early",
+              "phonetic": "/ˈɜːli/",
+              "partOfSpeech": "adj./adv.",
+              "meaning": "早期的；早地"
+            },
+            {
+              "text": "age",
+              "phonetic": "/eɪdʒ/",
+              "partOfSpeech": "n.",
+              "meaning": "年龄"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "an early age."
+            }
+          ]
+        },
+        {
+          "id": "30-4",
+          "sequenceNumber": 30,
+          "segmentNumber": 4,
+          "english": "Yuan liked farming at an early age.",
+          "chinese": "袁隆平很小就喜欢农事。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "Yuan",
+              "phonetic": "/juːˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "袁（姓氏）"
+            },
+            {
+              "text": "liked",
+              "phonetic": "/laɪkt/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢（like的过去式）"
+            },
+            {
+              "text": "farming",
+              "phonetic": "/ˈfɑːmɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "农业；耕作"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            },
+            {
+              "text": "an",
+              "phonetic": "/ən/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "early",
+              "phonetic": "/ˈɜːli/",
+              "partOfSpeech": "adj./adv.",
+              "meaning": "早期的；早地"
+            },
+            {
+              "text": "age",
+              "phonetic": "/eɪdʒ/",
+              "partOfSpeech": "n.",
+              "meaning": "年龄"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Yuan liked farming"
+            },
+            {
+              "label": "词块",
+              "text": "at"
+            },
+            {
+              "label": "词块",
+              "text": "an early age."
+            }
+          ]
+        },
+        {
+          "id": "31-1",
+          "sequenceNumber": 31,
+          "segmentNumber": 1,
+          "english": "When he grew up,",
+          "chinese": "当他长大后",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：当他长大后",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "When",
+              "phonetic": "/wen/",
+              "partOfSpeech": "adv./conj.",
+              "meaning": "何时；当……时"
+            },
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "grew",
+              "phonetic": "/ɡruː/",
+              "partOfSpeech": "v.",
+              "meaning": "长大（grow的过去式）"
+            },
+            {
+              "text": "up",
+              "phonetic": "/ʌp/",
+              "partOfSpeech": "adv.",
+              "meaning": "向上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "When he grew up,"
+            }
+          ]
+        },
+        {
+          "id": "31-2",
+          "sequenceNumber": 31,
+          "segmentNumber": 2,
+          "english": "he studied farming.",
+          "chinese": "他学习了农业",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他学习了农业",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "studied",
+              "phonetic": "/ˈstʌdid/",
+              "partOfSpeech": "v.",
+              "meaning": "学习（study的过去式）"
+            },
+            {
+              "text": "farming",
+              "phonetic": "/ˈfɑːmɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "农业；耕作"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "he studied farming."
+            }
+          ]
+        },
+        {
+          "id": "31-3",
+          "sequenceNumber": 31,
+          "segmentNumber": 3,
+          "english": "When he grew up, he studied farming.",
+          "chinese": "长大后，他学习了农业。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "When",
+              "phonetic": "/wen/",
+              "partOfSpeech": "adv./conj.",
+              "meaning": "何时；当……时"
+            },
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "grew",
+              "phonetic": "/ɡruː/",
+              "partOfSpeech": "v.",
+              "meaning": "长大（grow的过去式）"
+            },
+            {
+              "text": "up",
+              "phonetic": "/ʌp/",
+              "partOfSpeech": "adv.",
+              "meaning": "向上"
+            },
+            {
+              "text": "studied",
+              "phonetic": "/ˈstʌdid/",
+              "partOfSpeech": "v.",
+              "meaning": "学习（study的过去式）"
+            },
+            {
+              "text": "farming",
+              "phonetic": "/ˈfɑːmɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "农业；耕作"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "When he grew up,"
+            },
+            {
+              "label": "词块",
+              "text": "he studied farming."
+            }
+          ]
+        },
+        {
+          "id": "32-1",
+          "sequenceNumber": 32,
+          "segmentNumber": 1,
+          "english": "In",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "In",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "In"
+            }
+          ]
+        },
+        {
+          "id": "32-2",
+          "sequenceNumber": 32,
+          "segmentNumber": 2,
+          "english": "1964,",
+          "chinese": "1964年",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：1964年",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "1964",
+              "phonetic": "/ˌnaɪnˈtiːn ˌsɪksti ˈfɔː/",
+              "partOfSpeech": "num.",
+              "meaning": "1964年"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "1964,"
+            }
+          ]
+        },
+        {
+          "id": "32-3",
+          "sequenceNumber": 32,
+          "segmentNumber": 3,
+          "english": "he began",
+          "chinese": "他开始",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他开始",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "began",
+              "phonetic": "/bɪˈɡæn/",
+              "partOfSpeech": "v.",
+              "meaning": "开始（begin的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "he began"
+            }
+          ]
+        },
+        {
+          "id": "32-4",
+          "sequenceNumber": 32,
+          "segmentNumber": 4,
+          "english": "to work",
+          "chinese": "研究",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：研究",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "work",
+              "phonetic": "/wɜːk/",
+              "partOfSpeech": "v./n.",
+              "meaning": "工作"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to work"
+            }
+          ]
+        },
+        {
+          "id": "32-5",
+          "sequenceNumber": 32,
+          "segmentNumber": 5,
+          "english": "on",
+          "chinese": "关于",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：关于",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "on"
+            }
+          ]
+        },
+        {
+          "id": "32-6",
+          "sequenceNumber": 32,
+          "segmentNumber": 6,
+          "english": "hybrid rice.",
+          "chinese": "杂交水稻",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：杂交水稻",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "hybrid rice."
+            }
+          ]
+        },
+        {
+          "id": "32-7",
+          "sequenceNumber": 32,
+          "segmentNumber": 7,
+          "english": "In 1964, he began to work on hybrid rice.",
+          "chinese": "1964年，他开始研究杂交水稻。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "In",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "1964",
+              "phonetic": "/ˌnaɪnˈtiːn ˌsɪksti ˈfɔː/",
+              "partOfSpeech": "num.",
+              "meaning": "1964年"
+            },
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "began",
+              "phonetic": "/bɪˈɡæn/",
+              "partOfSpeech": "v.",
+              "meaning": "开始（begin的过去式）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "work",
+              "phonetic": "/wɜːk/",
+              "partOfSpeech": "v./n.",
+              "meaning": "工作"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上"
+            },
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "In"
+            },
+            {
+              "label": "词块",
+              "text": "1964,"
+            },
+            {
+              "label": "词块",
+              "text": "he began"
+            },
+            {
+              "label": "词块",
+              "text": "to work"
+            },
+            {
+              "label": "词块",
+              "text": "on"
+            },
+            {
+              "label": "词块",
+              "text": "hybrid rice."
+            }
+          ]
+        },
+        {
+          "id": "33-1",
+          "sequenceNumber": 33,
+          "segmentNumber": 1,
+          "english": "It was very difficult,",
+          "chinese": "这非常困难",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：这非常困难",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "It",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "very",
+              "phonetic": "/ˈveri/",
+              "partOfSpeech": "adv.",
+              "meaning": "非常"
+            },
+            {
+              "text": "difficult",
+              "phonetic": "/ˈdɪfɪkəlt/",
+              "partOfSpeech": "adj.",
+              "meaning": "困难的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It was very difficult,"
+            }
+          ]
+        },
+        {
+          "id": "33-2",
+          "sequenceNumber": 33,
+          "segmentNumber": 2,
+          "english": "but he never gave up.",
+          "chinese": "但他从未放弃",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：但他从未放弃",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "but",
+              "phonetic": "/bʌt/",
+              "partOfSpeech": "conj.",
+              "meaning": "但是"
+            },
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "never",
+              "phonetic": "/ˈnevə/",
+              "partOfSpeech": "adv.",
+              "meaning": "从不"
+            },
+            {
+              "text": "gave",
+              "phonetic": "/ɡeɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给（give的过去式）"
+            },
+            {
+              "text": "up",
+              "phonetic": "/ʌp/",
+              "partOfSpeech": "adv.",
+              "meaning": "向上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "but he never gave up."
+            }
+          ]
+        },
+        {
+          "id": "33-3",
+          "sequenceNumber": 33,
+          "segmentNumber": 3,
+          "english": "It was very difficult, but he never gave up.",
+          "chinese": "这非常困难，但他从未放弃。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "never 表示从不，gave 是 give 的过去式；give up 表示放弃。",
+          "words": [
+            {
+              "text": "It",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "was",
+              "phonetic": "/wɒz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（am/is的过去式）"
+            },
+            {
+              "text": "very",
+              "phonetic": "/ˈveri/",
+              "partOfSpeech": "adv.",
+              "meaning": "非常"
+            },
+            {
+              "text": "difficult",
+              "phonetic": "/ˈdɪfɪkəlt/",
+              "partOfSpeech": "adj.",
+              "meaning": "困难的"
+            },
+            {
+              "text": "but",
+              "phonetic": "/bʌt/",
+              "partOfSpeech": "conj.",
+              "meaning": "但是"
+            },
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "never",
+              "phonetic": "/ˈnevə/",
+              "partOfSpeech": "adv.",
+              "meaning": "从不"
+            },
+            {
+              "text": "gave",
+              "phonetic": "/ɡeɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给（give的过去式）"
+            },
+            {
+              "text": "up",
+              "phonetic": "/ʌp/",
+              "partOfSpeech": "adv.",
+              "meaning": "向上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It was very difficult,"
+            },
+            {
+              "label": "词块",
+              "text": "but he never gave up."
+            }
+          ]
+        },
+        {
+          "id": "34-1",
+          "sequenceNumber": 34,
+          "segmentNumber": 1,
+          "english": "He worked hard",
+          "chinese": "他努力工作",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他努力工作",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "worked",
+              "phonetic": "/wɜːkt/",
+              "partOfSpeech": "v.",
+              "meaning": "工作（work的过去式）"
+            },
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adv.",
+              "meaning": "努力地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He worked hard"
+            }
+          ]
+        },
+        {
+          "id": "34-2",
+          "sequenceNumber": 34,
+          "segmentNumber": 2,
+          "english": "and always stayed",
+          "chinese": "并总是待",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：并总是待",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "always",
+              "phonetic": "/ˈɔːlweɪz/",
+              "partOfSpeech": "adv.",
+              "meaning": "总是"
+            },
+            {
+              "text": "stayed",
+              "phonetic": "/steɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "停留（stay的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "and always stayed"
+            }
+          ]
+        },
+        {
+          "id": "34-3",
+          "sequenceNumber": 34,
+          "segmentNumber": 3,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "34-4",
+          "sequenceNumber": 34,
+          "segmentNumber": 4,
+          "english": "the fields.",
+          "chinese": "田间",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：田间",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "fields",
+              "phonetic": "/fiːldz/",
+              "partOfSpeech": "n.",
+              "meaning": "田地（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the fields."
+            }
+          ]
+        },
+        {
+          "id": "34-5",
+          "sequenceNumber": 34,
+          "segmentNumber": 5,
+          "english": "He worked hard and always stayed in the fields.",
+          "chinese": "他努力工作，总是待在田间。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "worked",
+              "phonetic": "/wɜːkt/",
+              "partOfSpeech": "v.",
+              "meaning": "工作（work的过去式）"
+            },
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adv.",
+              "meaning": "努力地"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "always",
+              "phonetic": "/ˈɔːlweɪz/",
+              "partOfSpeech": "adv.",
+              "meaning": "总是"
+            },
+            {
+              "text": "stayed",
+              "phonetic": "/steɪd/",
+              "partOfSpeech": "v.",
+              "meaning": "停留（stay的过去式）"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "fields",
+              "phonetic": "/fiːldz/",
+              "partOfSpeech": "n.",
+              "meaning": "田地（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He worked hard"
+            },
+            {
+              "label": "词块",
+              "text": "and always stayed"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "the fields."
+            }
+          ]
+        },
+        {
+          "id": "35-1",
+          "sequenceNumber": 35,
+          "segmentNumber": 1,
+          "english": "He developed hybrid rice",
+          "chinese": "他培育出了杂交水稻",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他培育出了杂交水稻",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "developed",
+              "phonetic": "/dɪˈveləpt/",
+              "partOfSpeech": "v.",
+              "meaning": "培育；开发（过去式）"
+            },
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He developed hybrid rice"
+            }
+          ]
+        },
+        {
+          "id": "35-2",
+          "sequenceNumber": 35,
+          "segmentNumber": 2,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "35-3",
+          "sequenceNumber": 35,
+          "segmentNumber": 3,
+          "english": "1973.",
+          "chinese": "1973年",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：1973年",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "1973",
+              "phonetic": "/ˌnaɪnˈtiːn ˌsevnti ˈθriː/",
+              "partOfSpeech": "num.",
+              "meaning": "1973年"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "1973."
+            }
+          ]
+        },
+        {
+          "id": "35-4",
+          "sequenceNumber": 35,
+          "segmentNumber": 4,
+          "english": "He developed hybrid rice in 1973.",
+          "chinese": "他于1973年培育出了杂交水稻。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "这句话叙述过去发生的事情，注意原文中的动词过去式。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "developed",
+              "phonetic": "/dɪˈveləpt/",
+              "partOfSpeech": "v.",
+              "meaning": "培育；开发（过去式）"
+            },
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "1973",
+              "phonetic": "/ˌnaɪnˈtiːn ˌsevnti ˈθriː/",
+              "partOfSpeech": "num.",
+              "meaning": "1973年"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He developed hybrid rice"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "1973."
+            }
+          ]
+        },
+        {
+          "id": "36-1",
+          "sequenceNumber": 36,
+          "segmentNumber": 1,
+          "english": "Now hybrid rice grows",
+          "chinese": "现在杂交水稻生长",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：现在杂交水稻生长",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "Now",
+              "phonetic": "/naʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "现在"
+            },
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "grows",
+              "phonetic": "/ɡrəʊz/",
+              "partOfSpeech": "v.",
+              "meaning": "生长（第三人称单数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Now hybrid rice grows"
+            }
+          ]
+        },
+        {
+          "id": "36-2",
+          "sequenceNumber": 36,
+          "segmentNumber": 2,
+          "english": "in",
+          "chinese": "在",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "in"
+            }
+          ]
+        },
+        {
+          "id": "36-3",
+          "sequenceNumber": 36,
+          "segmentNumber": 3,
+          "english": "China and many other countries.",
+          "chinese": "中国和许多其他国家",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：中国和许多其他国家",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "China",
+              "phonetic": "/ˈtʃaɪnə/",
+              "partOfSpeech": "n.",
+              "meaning": "中国"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "adj.",
+              "meaning": "许多的"
+            },
+            {
+              "text": "other",
+              "phonetic": "/ˈʌðə(r)/",
+              "partOfSpeech": "adj.",
+              "meaning": "其他的"
+            },
+            {
+              "text": "countries",
+              "phonetic": "/ˈkʌntriz/",
+              "partOfSpeech": "n.",
+              "meaning": "国家（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "China and many other countries."
+            }
+          ]
+        },
+        {
+          "id": "36-4",
+          "sequenceNumber": 36,
+          "segmentNumber": 4,
+          "english": "Now hybrid rice grows in China and many other countries.",
+          "chinese": "现在，中国和许多其他国家都种植杂交水稻。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "Now",
+              "phonetic": "/naʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "现在"
+            },
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            },
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            },
+            {
+              "text": "grows",
+              "phonetic": "/ɡrəʊz/",
+              "partOfSpeech": "v.",
+              "meaning": "生长（第三人称单数）"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里"
+            },
+            {
+              "text": "China",
+              "phonetic": "/ˈtʃaɪnə/",
+              "partOfSpeech": "n.",
+              "meaning": "中国"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "adj.",
+              "meaning": "许多的"
+            },
+            {
+              "text": "other",
+              "phonetic": "/ˈʌðə(r)/",
+              "partOfSpeech": "adj.",
+              "meaning": "其他的"
+            },
+            {
+              "text": "countries",
+              "phonetic": "/ˈkʌntriz/",
+              "partOfSpeech": "n.",
+              "meaning": "国家（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Now hybrid rice grows"
+            },
+            {
+              "label": "词块",
+              "text": "in"
+            },
+            {
+              "label": "词块",
+              "text": "China and many other countries."
+            }
+          ]
+        },
+        {
+          "id": "37-1",
+          "sequenceNumber": 37,
+          "segmentNumber": 1,
+          "english": "It feeds people",
+          "chinese": "它养活了人们",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：它养活了人们",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "It",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "feeds",
+              "phonetic": "/fiːdz/",
+              "partOfSpeech": "v.",
+              "meaning": "养活（第三人称单数）"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It feeds people"
+            }
+          ]
+        },
+        {
+          "id": "37-2",
+          "sequenceNumber": 37,
+          "segmentNumber": 2,
+          "english": "all over the world.",
+          "chinese": "在世界各地",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：在世界各地",
+          "grammarAnalysis": "这是原文中的连续词块；先练熟，再接回完整表达。",
+          "words": [
+            {
+              "text": "all",
+              "phonetic": "/ɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "所有的"
+            },
+            {
+              "text": "over",
+              "phonetic": "/ˈəʊvə/",
+              "partOfSpeech": "prep./adv.",
+              "meaning": "遍及；在……上方"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "world",
+              "phonetic": "/wɜːld/",
+              "partOfSpeech": "n.",
+              "meaning": "世界"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "all over the world."
+            }
+          ]
+        },
+        {
+          "id": "37-3",
+          "sequenceNumber": 37,
+          "segmentNumber": 3,
+          "english": "It feeds people all over the world.",
+          "chinese": "它养活了世界各地的人们。",
+          "speaker": "narrator",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这句课文",
+          "grammarAnalysis": "按词块顺序还原课文表达，保留原句的主语、动词形式和标点。",
+          "words": [
+            {
+              "text": "It",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "feeds",
+              "phonetic": "/fiːdz/",
+              "partOfSpeech": "v.",
+              "meaning": "养活（第三人称单数）"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpl/",
+              "partOfSpeech": "n.",
+              "meaning": "人们"
+            },
+            {
+              "text": "all",
+              "phonetic": "/ɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "所有的"
+            },
+            {
+              "text": "over",
+              "phonetic": "/ˈəʊvə/",
+              "partOfSpeech": "prep./adv.",
+              "meaning": "遍及；在……上方"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "world",
+              "phonetic": "/wɜːld/",
+              "partOfSpeech": "n.",
+              "meaning": "世界"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "It feeds people"
+            },
+            {
+              "label": "词块",
+              "text": "all over the world."
+            }
           ]
         }
       ]
     }
-  ],
-  "stats": {
-    "totalFragments": 118,
-    "totalSentences": 26,
-    "sources": ["Story time", "Cartoon time"]
-  }
+  ]
 }

@@ -2,8 +2,8 @@
   "manifestId": "new-yilin-grade6-semester1-unit1",
   "activityType": "sentence-practice",
   "sourceHash": "a0bc98f8bdb8fcced257f983874548d4e6ca6367c449efc361c27f6e54ae527a",
-  "generatorVersion": "unit1-source-sync-20260919",
-  "generatedAt": "2026-09-19",
+  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatedAt": "2026-09-20",
   "sections": [
     {
       "title": "Cartoon time — You can do it!",
@@ -279,13 +279,19 @@
         {
           "sequenceNumber": 2,
           "segmentNumber": 1,
-          "english": "why don't you",
+          "english": "Bobby, why don't you",
           "speaker": "Sam",
-          "chinese": "你为什么不……呢",
+          "chinese": "Bobby，你为什么不",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：你为什么不……呢",
+          "hint": "回忆这部分的意思：Bobby，你为什么不",
           "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
           "words": [
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            },
             {
               "text": "why",
               "phonetic": "/waɪ/",
@@ -308,7 +314,7 @@
           "structureBlocks": [
             {
               "label": "词块",
-              "text": "why don't you"
+              "text": "Bobby, why don't you"
             }
           ],
           "category": "phrase",
@@ -2233,44 +2239,6 @@
         {
           "sequenceNumber": 16,
           "segmentNumber": 1,
-          "english": "You were great,",
-          "speaker": "Sam",
-          "chinese": "你真棒",
-          "difficulty": 1,
-          "hint": "回忆这部分的意思：你真棒",
-          "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
-          "words": [
-            {
-              "text": "You",
-              "phonetic": "/juː/",
-              "partOfSpeech": "pron.",
-              "meaning": "你，你们"
-            },
-            {
-              "text": "were",
-              "phonetic": "/wɜː/",
-              "partOfSpeech": "v.",
-              "meaning": "be动词过去式（are的过去式）"
-            },
-            {
-              "text": "great",
-              "phonetic": "/ɡreɪt/",
-              "partOfSpeech": "adj.",
-              "meaning": "极好的；伟大的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "词块",
-              "text": "You were great,"
-            }
-          ],
-          "category": "phrase",
-          "id": "16-1"
-        },
-        {
-          "sequenceNumber": 16,
-          "segmentNumber": 2,
           "english": "You were great, Bobby!",
           "speaker": "Sam",
           "chinese": "Bobby，你真棒！",
@@ -2314,7 +2282,7 @@
             }
           ],
           "category": "sentence",
-          "id": "16-2"
+          "id": "16-1"
         },
         {
           "sequenceNumber": 17,
@@ -3460,11 +3428,11 @@
         {
           "sequenceNumber": 23,
           "segmentNumber": 3,
-          "english": "with",
+          "english": "with her.",
           "speaker": "narrator",
-          "chinese": "和……一起",
+          "chinese": "和她一起",
           "difficulty": 1,
-          "hint": "回忆这部分的意思：和……一起",
+          "hint": "回忆这部分的意思：和她一起",
           "grammarAnalysis": "这是原句中的连续词块；先练熟，再接回完整句。",
           "words": [
             {
@@ -3472,12 +3440,18 @@
               "phonetic": "/wɪð/",
               "partOfSpeech": "prep.",
               "meaning": "和……一起"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她的；她（宾格）"
             }
           ],
           "structureBlocks": [
             {
               "label": "词块",
-              "text": "with"
+              "text": "with her."
             }
           ],
           "category": "phrase",

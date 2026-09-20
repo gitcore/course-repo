@@ -1,215 +1,240 @@
 {
-  "version": "2.0.0",
-  "unit": "Unit 4 Getting together",
-  "description": "对话练习：Story time + Cartoon time 完整内容，角色扮演跟读",
+  "manifestId": "grade6-semester1-unit4",
+  "activityType": "conversation-practice",
+  "sourceHash": "28adb9eb0c2424c0bb0491ea1a2c31ad5659de631f5379bd295e33d331fade77",
+  "generatorVersion": "source-aligned-exercises-20260920",
+  "generatedAt": "2026-09-20",
   "sections": [
     {
-      "id": "story-time",
-      "title": "Story time — Grandma's birthday",
-      "characters": ["Wang Bing", "Narrator"],
+      "title": "Cartoon time — Happy Double Ninth Festival",
       "lines": [
         {
-          "id": 1,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "Yesterday was 21st October.",
-          "chinese": "昨天是10月21日。"
-        },
-        {
-          "id": 2,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "It was Grandma's 66th birthday.",
-          "chinese": "那天是奶奶的66岁生日。"
-        },
-        {
-          "id": 3,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "Wang Bing and his parents went to their grandparents' house.",
-          "chinese": "王兵和他的父母去了爷爷奶奶家。"
-        },
-        {
-          "id": 4,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "His parents gave Grandma a nice smartphone.",
-          "chinese": "他的父母送给奶奶一部漂亮的智能手机。"
-        },
-        {
-          "id": 5,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "Wang Bing drew a picture for her.",
-          "chinese": "王兵为她画了一幅画。"
-        },
-        {
-          "id": 6,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "They also brought a big birthday cake.",
-          "chinese": "他们还带了一个大生日蛋糕。"
-        },
-        {
-          "id": 7,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "Grandpa and Grandma were so happy to see them.",
-          "chinese": "爷爷奶奶看到他们非常开心。"
-        },
-        {
-          "id": 8,
-          "speaker": "Wang Bing",
-          "speakerCn": "王兵",
-          "english": "We had a big lunch. We ate noodles and wished Grandma a long life.",
-          "chinese": "我们吃了一顿丰盛的午餐。我们吃了面条，祝奶奶长寿。"
-        },
-        {
-          "id": 9,
-          "speaker": "Wang Bing",
-          "speakerCn": "王兵",
-          "english": "Then Grandma blew out the candles, and we ate the cake.",
-          "chinese": "然后奶奶吹灭了蜡烛，我们吃了蛋糕。"
-        },
-        {
-          "id": 10,
-          "speaker": "Wang Bing",
-          "speakerCn": "王兵",
-          "english": "In the afternoon, I chatted with Grandma.",
-          "chinese": "下午，我和奶奶聊天。"
-        },
-        {
-          "id": 11,
-          "speaker": "Wang Bing",
-          "speakerCn": "王兵",
-          "english": "We also took a family photo. It was our 12th family photo.",
-          "chinese": "我们还拍了一张全家福。那是我们的第12张全家福。"
-        },
-        {
-          "id": 12,
-          "speaker": "Wang Bing",
-          "speakerCn": "王兵",
-          "english": "When I was a little kid, Grandpa and Grandma took care of me.",
-          "chinese": "当我还是个小孩的时候，爷爷奶奶照顾我。"
-        },
-        {
-          "id": 13,
-          "speaker": "Wang Bing",
-          "speakerCn": "王兵",
-          "english": "Now I am a big boy. I can take care of them. I want to spend more time with them.",
-          "chinese": "现在我是个大男孩了。我可以照顾他们。我想多陪陪他们。"
-        }
-      ]
-    },
-    {
-      "id": "cartoon-time",
-      "title": "Cartoon time — The Double Ninth Festival",
-      "characters": ["Bobby", "Tina", "Grandpa", "Narrator"],
-      "lines": [
-        {
-          "id": 14,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
+          "sequenceNumber": 1,
+          "speaker": "narrator",
           "english": "It is the Double Ninth Festival today.",
           "chinese": "今天是重阳节。"
         },
         {
-          "id": 15,
+          "sequenceNumber": 2,
           "speaker": "Bobby",
-          "speakerCn": "Bobby",
-          "english": "What is the Double Ninth Festival, Tina?",
-          "chinese": "Tina，重阳节是什么节日呀？"
+          "english": "Do you know the Double Ninth Festival, Tina?",
+          "chinese": "Tina，你知道重阳节吗？"
         },
         {
-          "id": 16,
+          "sequenceNumber": 3,
           "speaker": "Tina",
-          "speakerCn": "Tina",
-          "english": "It's a day for old people.",
-          "chinese": "这是老年人的节日。"
+          "english": "Yes, it's a day for old people. It's on the ninth day of the ninth lunar month.",
+          "chinese": "知道，它是老年人的节日，在农历九月初九。"
         },
         {
-          "id": 17,
-          "speaker": "Tina",
-          "speakerCn": "Tina",
-          "english": "It's on the ninth day of the ninth lunar month.",
-          "chinese": "它在农历九月初九。"
-        },
-        {
-          "id": 18,
+          "sequenceNumber": 4,
           "speaker": "Bobby",
-          "speakerCn": "Bobby",
           "english": "What do people do on this day?",
-          "chinese": "人们在这一天做什么呢？"
+          "chinese": "人们在这一天做些什么？"
         },
         {
-          "id": 19,
+          "sequenceNumber": 5,
           "speaker": "Tina",
-          "speakerCn": "Tina",
-          "english": "They show their love for their grandmothers and grandfathers.",
-          "chinese": "他们表达对爷爷奶奶的爱。"
+          "english": "They show their love for their grandmothers and grandfathers. They give them gifts and do chores for them.",
+          "chinese": "他们表达对祖父母的爱，给长辈送礼物，帮长辈做家务。"
         },
         {
-          "id": 20,
-          "speaker": "Tina",
-          "speakerCn": "Tina",
-          "english": "They give them gifts and do chores for them.",
-          "chinese": "他们给他们送礼物，为他们做家务。"
-        },
-        {
-          "id": 21,
+          "sequenceNumber": 6,
           "speaker": "Bobby",
-          "speakerCn": "Bobby",
           "english": "What should we do for Grandpa?",
-          "chinese": "我们应该为爷爷做什么呢？"
+          "chinese": "我们应该为爷爷做些什么？"
         },
         {
-          "id": 22,
+          "sequenceNumber": 7,
           "speaker": "Tina",
-          "speakerCn": "Tina",
           "english": "We can cook dinner for him.",
-          "chinese": "我们可以给他做晚饭。"
+          "chinese": "我们可以为他做晚饭。"
         },
         {
-          "id": 23,
+          "sequenceNumber": 8,
           "speaker": "Bobby",
-          "speakerCn": "Bobby",
           "english": "Good idea! We can make a card for him too.",
-          "chinese": "好主意！我们也可以给他做一张卡片。"
+          "chinese": "好主意！我们还可以为他做一张卡片。"
         },
         {
-          "id": 24,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "In the afternoon, Bobby, Tina and their parents went to see Grandpa.",
-          "chinese": "下午，Bobby、Tina和他们的父母去看望爷爷。"
+          "sequenceNumber": 9,
+          "speaker": "Tina",
+          "english": "Great!",
+          "chinese": "太好了！"
         },
         {
-          "id": 25,
+          "sequenceNumber": 10,
+          "speaker": "narrator",
+          "english": "Bobby, Tina and their parents go to see Grandpa in the afternoon.",
+          "chinese": "下午，Bobby、Tina和爸爸妈妈一起去看望爷爷。"
+        },
+        {
+          "sequenceNumber": 11,
           "speaker": "Bobby & Tina",
-          "speakerCn": "Bobby和Tina",
           "english": "Happy Double Ninth Festival, Grandpa! We love you!",
-          "chinese": "爷爷，重阳节快乐！我们爱您！"
+          "chinese": "爷爷，重阳节快乐！我们爱你！"
         },
         {
-          "id": 26,
+          "sequenceNumber": 12,
           "speaker": "Grandpa",
-          "speakerCn": "爷爷",
           "english": "Thank you! I love you too!",
-          "chinese": "谢谢！我也爱你们！"
+          "chinese": "谢谢你们！我也爱你们！"
         },
         {
-          "id": 27,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
-          "english": "The Double Ninth Festival is a time to show love for the elderly.",
-          "chinese": "重阳节是向长辈表达关爱的日子。"
+          "sequenceNumber": 13,
+          "speaker": "Bobby's father",
+          "english": "My birthday is next Monday. I can't wait!",
+          "chinese": "我的生日在下周一。我都等不及了！（爸爸的心里话）"
+        }
+      ]
+    },
+    {
+      "title": "Sounds in focus — 字母组合 er 的发音 /ə/",
+      "lines": [
+        {
+          "sequenceNumber": 14,
+          "speaker": "narrator",
+          "english": "I bought some flowers for my mother",
+          "chinese": "我给妈妈买了一些花，"
+        },
+        {
+          "sequenceNumber": 15,
+          "speaker": "narrator",
+          "english": "And put them in some water.",
+          "chinese": "把它们放在水里。"
+        },
+        {
+          "sequenceNumber": 16,
+          "speaker": "narrator",
+          "english": "I made her a card and wrote on it:",
+          "chinese": "我给她做了一张卡片，在上面写道："
+        },
+        {
+          "sequenceNumber": 17,
+          "speaker": "narrator",
+          "english": "\"With love, from your daughter\".",
+          "chinese": "“爱你的女儿”。"
+        }
+      ]
+    },
+    {
+      "title": "Story time — Grandma's birthday",
+      "lines": [
+        {
+          "sequenceNumber": 18,
+          "speaker": "Wang Bing",
+          "english": "Yesterday was 21st October.",
+          "chinese": "昨天是10月21日。"
+        },
+        {
+          "sequenceNumber": 19,
+          "speaker": "Wang Bing",
+          "english": "It was Grandma's 66th birthday.",
+          "chinese": "那天是奶奶的66岁生日。"
+        },
+        {
+          "sequenceNumber": 20,
+          "speaker": "Wang Bing",
+          "english": "We went to my grandparents' house in the morning.",
+          "chinese": "我们上午去了爷爷奶奶家。"
+        },
+        {
+          "sequenceNumber": 21,
+          "speaker": "Wang Bing",
+          "english": "My parents gave Grandma a nice smartphone.",
+          "chinese": "爸爸妈妈送给奶奶一部漂亮的智能手机。"
+        },
+        {
+          "sequenceNumber": 22,
+          "speaker": "Wang Bing",
+          "english": "I drew a picture for her.",
+          "chinese": "我为她画了一幅画。"
+        },
+        {
+          "sequenceNumber": 23,
+          "speaker": "Wang Bing",
+          "english": "We also brought a cake.",
+          "chinese": "我们还带来了一个蛋糕。"
+        },
+        {
+          "sequenceNumber": 24,
+          "speaker": "Wang Bing",
+          "english": "Grandpa and Grandma were so happy to see us.",
+          "chinese": "爷爷奶奶见到我们非常高兴。"
+        },
+        {
+          "sequenceNumber": 25,
+          "speaker": "Wang Bing",
+          "english": "We had a big lunch.",
+          "chinese": "我们吃了一顿丰盛的午饭。"
+        },
+        {
+          "sequenceNumber": 26,
+          "speaker": "Wang Bing",
+          "english": "We ate noodles and wished Grandma a long life.",
+          "chinese": "我们吃了面条，祝奶奶长寿。"
+        },
+        {
+          "sequenceNumber": 27,
+          "speaker": "Wang Bing",
+          "english": "Then Grandma blew out the candles, and we ate the cake.",
+          "chinese": "然后奶奶吹灭蜡烛，我们吃了蛋糕。"
+        },
+        {
+          "sequenceNumber": 28,
+          "speaker": "Wang Bing",
+          "english": "In the afternoon, I chatted with Grandma.",
+          "chinese": "下午，我和奶奶聊天。"
+        },
+        {
+          "sequenceNumber": 29,
+          "speaker": "Wang Bing",
+          "english": "We also took a family photo together.",
+          "chinese": "我们还一起拍了一张全家福。"
+        },
+        {
+          "sequenceNumber": 30,
+          "speaker": "Wang Bing",
+          "english": "We do this on Grandma's birthday every year.",
+          "chinese": "我们每年都在奶奶生日时这样做。"
+        },
+        {
+          "sequenceNumber": 31,
+          "speaker": "Wang Bing",
+          "english": "This is our 12th photo.",
+          "chinese": "这是我们的第12张照片。"
+        },
+        {
+          "sequenceNumber": 32,
+          "speaker": "Wang Bing",
+          "english": "Time flies!",
+          "chinese": "时光飞逝！"
+        },
+        {
+          "sequenceNumber": 33,
+          "speaker": "Wang Bing",
+          "english": "When I was a little kid, Grandpa and Grandma took care of me.",
+          "chinese": "我小时候，爷爷奶奶照顾我。"
+        },
+        {
+          "sequenceNumber": 34,
+          "speaker": "Wang Bing",
+          "english": "Now I am a big boy.",
+          "chinese": "现在我是个大男孩了。"
+        },
+        {
+          "sequenceNumber": 35,
+          "speaker": "Wang Bing",
+          "english": "I can take care of them.",
+          "chinese": "我可以照顾他们。"
+        },
+        {
+          "sequenceNumber": 36,
+          "speaker": "Wang Bing",
+          "english": "I want to spend more time with them.",
+          "chinese": "我想花更多时间陪伴他们。"
         }
       ]
     }
-  ],
-  "stats": {
-    "totalLines": 27,
-    "storyTimeLines": 13,
-    "cartoonTimeLines": 14
-  }
+  ]
 }

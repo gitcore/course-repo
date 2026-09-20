@@ -1,215 +1,200 @@
 {
-  "version": "2.0.0",
-  "unit": "Unit 6 Going green",
-  "description": "对话练习：Story time + Cartoon time 完整内容，角色扮演跟读",
+  "manifestId": "grade6-semester1-unit6",
+  "activityType": "conversation-practice",
+  "sourceHash": "8bb851823aaa7d754e8d682534c0062a2f956c1c3a070047cec7f01eafd09c02",
+  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatedAt": "2026-09-20",
+  "sourceKind": "textbook-dialogue",
+  "sourceNotice": "依据 textbook.md 的已核对原文生成；词族和迁移例句为配套拓展。",
   "sections": [
     {
-      "id": "story-time",
-      "title": "Story time — What can we do to go green?",
-      "characters": ["Teacher", "Class"],
-      "lines": [
-        {
-          "id": 1,
-          "speaker": "Teacher",
-          "speakerCn": "老师",
-          "english": "Earth is our home. We should protect the Earth.",
-          "chinese": "地球是我们的家园。我们应该保护地球。"
-        },
-        {
-          "id": 2,
-          "speaker": "Teacher",
-          "speakerCn": "老师",
-          "english": "What can we do to go green?",
-          "chinese": "我们能做些什么来践行绿色生活？"
-        },
-        {
-          "id": 3,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Save water!",
-          "chinese": "节约用水！"
-        },
-        {
-          "id": 4,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Turn off the tap when you brush your teeth. Don't waste water.",
-          "chinese": "刷牙时关掉水龙头。不要浪费水。"
-        },
-        {
-          "id": 5,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Save electricity!",
-          "chinese": "节约用电！"
-        },
-        {
-          "id": 6,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Turn off lights when you leave the room. Don't waste electricity.",
-          "chinese": "离开房间时关灯。不要浪费电。"
-        },
-        {
-          "id": 7,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Don't waste food!",
-          "chinese": "不要浪费食物！"
-        },
-        {
-          "id": 8,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Eat up your food. Don't waste food.",
-          "chinese": "把食物吃光。不要浪费食物。"
-        },
-        {
-          "id": 9,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Save paper!",
-          "chinese": "节约用纸！"
-        },
-        {
-          "id": 10,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Use both sides of the paper. Don't waste paper.",
-          "chinese": "使用纸的两面。不要浪费纸。"
-        },
-        {
-          "id": 11,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Use cloth bags! Don't use too many plastic bags.",
-          "chinese": "使用布袋！不要使用太多塑料袋。"
-        },
-        {
-          "id": 12,
-          "speaker": "Class",
-          "speakerCn": "全班",
-          "english": "Take part in Earth Hour!",
-          "chinese": "参加地球一小时！"
-        }
-      ]
-    },
-    {
-      "id": "cartoon-time",
       "title": "Cartoon time — A poster for Earth Day",
-      "characters": ["Bobby", "Sam", "Billy", "Willy", "Narrator"],
       "lines": [
         {
-          "id": 13,
-          "speaker": "Narrator",
-          "speakerCn": "旁白",
+          "sequenceNumber": 1,
+          "speaker": "narrator",
           "english": "Bobby, Sam and their friends are doing a project for Earth Day.",
-          "chinese": "Bobby、Sam和他们的朋友们正在做一个地球日的项目。"
+          "chinese": "Bobby、Sam和他们的朋友正在做一个地球日项目。"
         },
         {
-          "id": 14,
+          "sequenceNumber": 2,
           "speaker": "Bobby",
-          "speakerCn": "Bobby",
           "english": "The Earth is our home. What can we do to help it?",
-          "chinese": "地球是我们的家园。我们能做些什么来帮助它呢？"
+          "chinese": "地球是我们的家。我们能做些什么来帮助它呢？"
         },
         {
-          "id": 15,
-          "speaker": "Bobby",
-          "speakerCn": "Bobby",
-          "english": "Let's make a poster about it. Will you join me?",
-          "chinese": "我们来做一张关于它的海报吧。你愿意加入我吗？"
-        },
-        {
-          "id": 16,
+          "sequenceNumber": 3,
           "speaker": "Sam",
-          "speakerCn": "Sam",
+          "english": "Let's make a poster about it. Will you join me?",
+          "chinese": "我们为此做一张海报吧。你们愿意和我一起做吗？"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "Others",
           "english": "OK!",
           "chinese": "好的！"
         },
         {
-          "id": 17,
+          "sequenceNumber": 5,
           "speaker": "Bobby",
-          "speakerCn": "Bobby",
           "english": "Will you draw or write on the poster, Sam?",
-          "chinese": "Sam，你要在海报上画画还是写字？"
+          "chinese": "Sam，你会在海报上画画还是写字？"
         },
         {
-          "id": 18,
+          "sequenceNumber": 6,
           "speaker": "Sam",
-          "speakerCn": "Sam",
           "english": "I'll draw the Earth and colour it green and blue.",
-          "chinese": "我要画地球，把它涂成绿色和蓝色。"
+          "chinese": "我会画地球，把它涂成绿色和蓝色。"
         },
         {
-          "id": 19,
-          "speaker": "Billy",
-          "speakerCn": "Billy",
-          "english": "I'll draw a rubbish bin.",
-          "chinese": "我要画一个垃圾桶。"
-        },
-        {
-          "id": 20,
-          "speaker": "Willy",
-          "speakerCn": "Willy",
-          "english": "I'll write \"Reduce, reuse and recycle!\"",
-          "chinese": "我要写「减少、再利用、回收利用！」"
-        },
-        {
-          "id": 21,
+          "sequenceNumber": 7,
           "speaker": "Bobby",
-          "speakerCn": "Bobby",
           "english": "Now it's my turn! I'll draw some banana trees. I like bananas.",
-          "chinese": "现在轮到我了！我要画一些香蕉树。我喜欢香蕉。"
+          "chinese": "现在轮到我了！我会画一些香蕉树。我喜欢香蕉。"
         },
         {
-          "id": 22,
-          "speaker": "Sam",
-          "speakerCn": "Sam",
-          "english": "Er... Bobby, that's not right.",
-          "chinese": "呃……Bobby，这不对吧。"
+          "sequenceNumber": 8,
+          "speaker": "Bobby",
+          "english": "What will you draw, Billy?",
+          "chinese": "Billy，你会画什么？"
         },
         {
-          "id": 23,
+          "sequenceNumber": 9,
           "speaker": "Billy",
-          "speakerCn": "Billy",
-          "english": "It's for your banana skins!",
-          "chinese": "这是给你扔香蕉皮用的！"
+          "english": "I'll draw a rubbish bin.",
+          "chinese": "我会画一个垃圾桶。"
         },
         {
-          "id": 24,
-          "speaker": "Bobby",
-          "speakerCn": "Bobby",
-          "english": "Oh, right. I'm sorry.",
-          "chinese": "哦，对哦。对不起。"
+          "sequenceNumber": 10,
+          "speaker": "Willy",
+          "english": "Why will you draw a rubbish bin, Billy?",
+          "chinese": "Billy，你为什么要画垃圾桶？"
         },
         {
-          "id": 25,
-          "speaker": "Bobby",
-          "speakerCn": "Bobby",
-          "english": "I'll help protect the Earth. I won't throw banana skins on the ground any more.",
-          "chinese": "我会帮助保护地球。我再也不会把香蕉皮扔在地上了。"
+          "sequenceNumber": 11,
+          "speaker": "Billy",
+          "english": "It's for Bobby's banana skins!",
+          "chinese": "这是用来放Bobby的香蕉皮的！"
         },
         {
-          "id": 26,
-          "speaker": "All",
-          "speakerCn": "大家",
-          "english": "Great! Our poster is ready!",
-          "chinese": "太棒了！我们的海报做好了！"
+          "sequenceNumber": 12,
+          "speaker": "Billy",
+          "english": "Now it's your turn, Willy.",
+          "chinese": "Willy，现在轮到你了。"
         },
         {
-          "id": 27,
-          "speaker": "All",
-          "speakerCn": "大家",
-          "english": "Happy Earth Day!",
-          "chinese": "地球日快乐！"
+          "sequenceNumber": 13,
+          "speaker": "Willy",
+          "english": "Thanks. I'll write something on the poster.",
+          "chinese": "谢谢。我会在海报上写些内容。"
+        },
+        {
+          "sequenceNumber": 14,
+          "speaker": "Billy",
+          "english": "What about \"Help the Earth, Help Us\"?",
+          "chinese": "写“帮助地球，帮助我们自己”怎么样？"
+        }
+      ]
+    },
+    {
+      "title": "Sounds in focus — or /ɔː/",
+      "lines": [
+        {
+          "sequenceNumber": 15,
+          "speaker": "narrator",
+          "english": "We're all born on the Earth.",
+          "chinese": "我们都出生在地球上。"
+        },
+        {
+          "sequenceNumber": 16,
+          "speaker": "narrator",
+          "english": "It's important to everyone,",
+          "chinese": "地球对每个人都很重要，"
+        },
+        {
+          "sequenceNumber": 17,
+          "speaker": "narrator",
+          "english": "Short or tall, old or young.",
+          "chinese": "无论个子高矮，无论年老年少。"
+        },
+        {
+          "sequenceNumber": 18,
+          "speaker": "narrator",
+          "english": "Love Mother Earth.",
+          "chinese": "热爱地球母亲。"
+        },
+        {
+          "sequenceNumber": 19,
+          "speaker": "narrator",
+          "english": "Never let her down.",
+          "chinese": "永远不要让她失望。"
+        }
+      ]
+    },
+    {
+      "title": "Story time — Take care of the Earth",
+      "lines": [
+        {
+          "sequenceNumber": 20,
+          "speaker": "Miss Li",
+          "english": "Every year, people in many countries turn off their lights for an hour. Do you know this activity?",
+          "chinese": "每年，许多国家的人们都会关灯一小时。你们知道这项活动吗？"
+        },
+        {
+          "sequenceNumber": 21,
+          "speaker": "Wang Bing",
+          "english": "Yes, it's Earth Hour. It tells people to save electricity.",
+          "chinese": "知道，是地球一小时。它提醒人们节约用电。"
+        },
+        {
+          "sequenceNumber": 22,
+          "speaker": "Miss Li",
+          "english": "That's right. Earth Hour is on the last Saturday of March. It lasts from 8:30 to 9:30 in the evening. Will you take part?",
+          "chinese": "没错。地球一小时在三月的最后一个星期六，从晚上8点半持续到9点半。你们会参加吗？"
+        },
+        {
+          "sequenceNumber": 23,
+          "speaker": "Yang Ling",
+          "english": "Yes, I will. It'll be great to help the Earth.",
+          "chinese": "是的，我会。能帮助地球真是太好了。"
+        },
+        {
+          "sequenceNumber": 24,
+          "speaker": "Other students",
+          "english": "Me too!",
+          "chinese": "我也是！"
+        },
+        {
+          "sequenceNumber": 25,
+          "speaker": "Miss Li",
+          "english": "What else will you do to take care of the Earth?",
+          "chinese": "你们还会做些什么来爱护地球？"
+        },
+        {
+          "sequenceNumber": 26,
+          "speaker": "Su Hai",
+          "english": "I'll save water. We should turn off the tap when we brush our teeth.",
+          "chinese": "我会节约用水。刷牙时，我们应该关掉水龙头。"
+        },
+        {
+          "sequenceNumber": 27,
+          "speaker": "Liu Tao",
+          "english": "I won't waste food. We should always eat up all our food.",
+          "chinese": "我不会浪费食物。我们应该总是把自己的食物吃完。"
+        },
+        {
+          "sequenceNumber": 28,
+          "speaker": "Mike",
+          "english": "I'll save paper. We should use both sides of the paper.",
+          "chinese": "我会节约用纸。我们应该使用纸的两面。"
+        },
+        {
+          "sequenceNumber": 29,
+          "speaker": "Miss Li",
+          "english": "Wonderful! These small things will help our Mother Earth in a big way. Let's work together!",
+          "chinese": "太棒了！这些小事会大大帮助我们的地球母亲。让我们一起努力吧！"
         }
       ]
     }
-  ],
-  "stats": {
-    "totalLines": 27,
-    "storyTimeLines": 12,
-    "cartoonTimeLines": 15
-  }
+  ]
 }

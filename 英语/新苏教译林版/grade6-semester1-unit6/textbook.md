@@ -89,18 +89,18 @@ Going green 绿色生活
 ### 核心词汇
 
 #### 名词
-- Earth 地球
-- water 水
-- electricity 电
-- paper 纸
-- plastic 塑料
-- cloth 布
-- poster 海报
-- project 课题；项目
-- rubbish bin 垃圾桶
-- tap 水龙头
-- light 电灯
-- side 面；边
+- Earth /ɜːθ/ n. 地球
+- water /ˈwɔːtə(r)/ n. 水
+- electricity /ɪˌlekˈtrɪsəti/ n. 电
+- paper /ˈpeɪpə(r)/ n. 纸
+- plastic /ˈplæstɪk/ adj. / n. 塑料
+- cloth /klɒθ/ n. 布
+- poster /ˈpəʊstə(r)/ n. 海报
+- project /ˈprɒdʒekt/ n. 课题；项目
+- rubbish bin /ˈrʌbɪʃ bɪn/ n. 垃圾桶
+- tap /tæp/ n. 水龙头
+- light /laɪt/ n. 电灯
+- side /saɪd/ n. 面；边
 - food 食物
 - bag 袋子
 - hour 小时
@@ -111,26 +111,26 @@ Going green 绿色生活
 - sport 运动
 
 #### 动词
-- protect 保护
-- save 节约；拯救
-- waste 浪费
+- protect /prəˈtekt/ v. 保护
+- save /seɪv/ v. 节约；拯救
+- waste /weɪst/ v. / n. 浪费
 - turn off 关掉
 - turn on 打开
-- brush 刷
+- brush /brʌʃ/ v. 刷
 - use 使用
-- reduce 减少
-- reuse 再利用
-- recycle 回收利用
-- draw 画
-- colour 给……涂色
+- reduce /rɪˈdjuːs/ v. 减少
+- reuse /ˌriːˈjuːz/ v. 再利用
+- recycle /ˌriːˈsaɪkl/ v. 回收利用
+- draw /drɔː/ v. 画
+- colour /ˈkʌlə(r)/ v. / n. 给……涂色
 - take part in 参加
 - eat up 吃光
 - leave 离开
 
 #### 形容词
-- green 绿色的；环保的
+- green /ɡriːn/ adj. 绿色的；环保的
 - both 两个的；两者的
-- plastic 塑料的
+- plastic /ˈplæstɪk/ adj. / n. 塑料的
 - short 短的；矮的
 - important 重要的
 - last 最后的（形容词）；持续是动词用法，见 lasts from...to...
@@ -150,23 +150,34 @@ Going green 绿色生活
 
 #### 短语
 - go green 绿色生活
-- save water 节约用水
-- save electricity 节约用电
-- save paper 节约用纸
-- save food 节约粮食
+- save /seɪv/ v. water 节约用水
+- save /seɪv/ v. electricity 节约用电
+- save /seɪv/ v. paper 节约用纸
+- save /seɪv/ v. food 节约粮食
 - turn off the tap 关掉水龙头
-- brush teeth 刷牙
+- brush /brʌʃ/ v. teeth 刷牙
 - both sides of the paper 纸的两面
-- cloth bag 布袋
-- plastic bag 塑料袋
-- Earth Day 地球日
-- Earth Hour 地球一小时
+- cloth /klɒθ/ n. bag 布袋
+- plastic /ˈplæstɪk/ adj. / n. bag 塑料袋
+- Earth /ɜːθ/ n. Day 地球日
+- Earth /ɜːθ/ n. Hour 地球一小时
 - make a poster 制作海报
 - do a project 做项目
 - take part in 参加
 - eat up 吃光
 - leave the room 离开房间
 - Reduce, reuse and recycle! 减少、再利用、回收！
+
+#### 词族与相关表达（配套拓展）
+
+以下用于帮助理解词形和相关表达，不将拓展词标成教材新增词。
+
+- **protect**：protect (v.) 保护；protection (n.) 保护；protective (adj.) 保护的；protector (n.) 保护者。
+- **waste**：waste (v.) 浪费；waste (n.) 废物；垃圾；wasteful (adj.) 浪费的；wastepaper (n.) 废纸。
+- **use**：use (v.) 使用；reuse (v.) 再利用；useful (adj.) 有用的；useless (adj.) 无用的；user (n.) 使用者。
+- **electric**：electricity (n.) 电；电力；electric (adj.) 电的；electrical (adj.) 与电有关的；electronic (adj.) 电子的。
+- **cycle**：cycle (v.) 循环；recycle (v.) 回收利用；bicycle (n.) 自行车；recycling (n.) 回收（行业）。
+- **draw**：draw (v.) 画；drawing (n.) 图画；绘画；drew (过去式)；drawn (过去分词)。
 
 ### 重点句型
 

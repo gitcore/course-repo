@@ -87,20 +87,20 @@ Getting together 聚在一起
 ### 课文词汇与拓展词汇（配套整理）
 
 #### 名词
-- birthday 生日
-- grandparent 祖父或祖母；外祖父或外祖母（复数grandparents指祖父母或外祖父母）
-- gift 礼物
-- smartphone 智能手机
-- cake 蛋糕
-- candle 蜡烛
-- noodle 面条
-- festival 节日
-- chore 家务；杂活
-- photo 照片
-- October 十月
-- lunch 午餐
+- birthday /ˈbɜːθdeɪ/ n. 生日
+- grandparent /ˈɡrænpeərənt/ n. 祖父或祖母；外祖父或外祖母（复数grandparents指祖父母或外祖父母）
+- gift /ɡɪft/ n. 礼物
+- smartphone /ˈsmɑːtfəʊn/ n. 智能手机
+- cake /keɪk/ n. 蛋糕
+- candle /ˈkændl/ n. 蜡烛
+- noodle /ˈnuːdl/ n. 面条
+- festival /ˈfestɪvl/ n. 节日
+- chore /tʃɔː(r)/ n. 家务；杂活
+- photo /ˈfəʊtəʊ/ n. 照片
+- October /ɒkˈtəʊbə(r)/ n. 十月
+- lunch /lʌntʃ/ n. 午餐
 - love 爱；关爱
-- wish 祝愿
+- wish /wɪʃ/ v. 祝愿
 - kid 小孩
 - March 三月
 - April 四月
@@ -113,15 +113,15 @@ Getting together 聚在一起
 - flower 花
 
 #### 动词
-- blow 吹（过去式 blew）
-- blow out 吹灭
-- chat 聊天
-- bring 带来（过去式 brought）
-- draw 画（过去式 drew）
-- wish 祝愿
-- spend 度过；花费
+- blow /bləʊ/ v. 吹（过去式 blew）
+- blow /bləʊ/ v. out 吹灭
+- chat /tʃæt/ v. 聊天
+- bring /brɪŋ/ v. 带来（过去式 brought）
+- draw /drɔː/ v. 画（过去式 drew）
+- wish /wɪʃ/ v. 祝愿
+- spend /spend/ v. 度过；花费
 - take care of 照顾
-- cook 烹饪
+- cook /kʊk/ v. 烹饪
 - show 展示；表示
 - give 给（过去式 gave）
 
@@ -130,7 +130,7 @@ Getting together 聚在一起
 - nice 好的；漂亮的
 - big 大的
 - happy 开心的
-- elderly 年长的
+- elderly /ˈeldəli/ adj. 年长的
 - dear 亲爱的
 - clever 聪明的
 - kind 善良的
@@ -141,18 +141,18 @@ Getting together 聚在一起
 - very 非常
 - too 也
 - also 也
-- together 一起
+- together /təˈɡeðə(r)/ adv. 一起
 - always 总是
 - often 经常
 - usually 通常
 - sometimes 有时
 
 #### 短语
-- birthday cake 生日蛋糕
+- birthday /ˈbɜːθdeɪ/ n. cake 生日蛋糕
 - family photo 全家福
 - Double Ninth Festival 重阳节
 - long life 长寿
-- cook dinner 做晚饭
+- cook /kʊk/ v. dinner 做晚饭
 - make a card 制作卡片
 - show love for 表达对……的爱
 - on the ninth day of the ninth lunar month 在农历九月初九
@@ -161,6 +161,24 @@ Getting together 聚在一起
 - red envelope 红包
 - each other 互相
 - forever 永远
+
+#### 补充词语注释
+
+以下为配套词汇注释，不额外指定教材必学词，不新增教材例句。
+
+| 词语 | 音标 | 词性 | 含义 |
+|---|---|---|---|
+| ninth | /naɪnθ/ | ordinal num. | 第九 |
+
+#### 词族与相关表达（配套拓展）
+
+以下用于帮助理解词形和相关表达，不将拓展词标成教材新增词。
+
+- **nine**：nine (num.) 九；ninth (ord.) 第九；nineteen (num.) 十九；ninety (num.) 九十。
+- **birth**：birthday (n.) 生日；birth (n.) 出生；birthplace (n.) 出生地。
+- **care**：care (v./n.) 关心；照顾；careful (adj.) 小心的；careless (adj.) 粗心的；take care of 照顾。
+- **happy**：happy (adj.) 开心的；happily (adv.) 开心地；happiness (n.) 幸福；unhappy (adj.) 不开心的。
+- **cook**：cook (v.) 烹饪；cook (n.) 厨师；cooker (n.) 炊具；cooking (n.) 烹饪；做饭。
 
 ### 重点句型
 

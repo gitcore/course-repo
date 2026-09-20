@@ -1,195 +1,469 @@
 {
-  "version": "2.0.0",
-  "unit": "Unit 5 Keeping our city clean",
-  "description": "成长内容：词族进化 + 句型迁移",
+  "manifestId": "grade6-semester1-unit5",
+  "activityType": "word-family-practice",
+  "sourceHash": "1bb75a40935f84e5fb0f0e6e2693d957f69c9d7f18e575b98c35b5dad0303300",
+  "generatorVersion": "source-aligned-exercises-20260920",
+  "generatedAt": "2026-09-20",
   "wordFamilies": [
     {
-      "id": "clean",
       "rootWord": "clean",
-      "meaning": "干净的；打扫",
-      "family": [
-        {"word": "clean", "pos": "adjective", "meaning": "干净的", "example": "Our city is clean and beautiful.", "exampleCn": "我们的城市干净又美丽。"},
-        {"word": "clean", "pos": "verb", "meaning": "打扫；清洁", "example": "I clean my room every day.", "exampleCn": "我每天打扫我的房间。"},
-        {"word": "cleaner", "pos": "noun", "meaning": "清洁工；清洁剂", "example": "The street cleaner works very hard.", "exampleCn": "清洁工工作非常努力。"},
-        {"word": "dirty", "pos": "adjective", "meaning": "脏的（反义词）", "example": "Don't make the street dirty.", "exampleCn": "不要把街道弄脏。"},
-        {"word": "clean up", "pos": "phrase", "meaning": "打扫干净；清理", "example": "Let's clean up the park.", "exampleCn": "我们来清理公园吧。"}
+      "nodes": [
+        {
+          "word": "clean",
+          "role": "adjective",
+          "chinese": "干净的",
+          "exampleSentence": "Our city is clean and beautiful.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-2"
+        },
+        {
+          "word": "cleaner",
+          "role": "noun",
+          "chinese": "清洁工；清洁剂",
+          "exampleSentence": "The street cleaner works very hard.",
+          "exampleChinese": "清洁工工作非常努力。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "dirty",
+          "role": "adjective",
+          "chinese": "脏的（反义词）",
+          "exampleSentence": "Don't make the street dirty.",
+          "exampleChinese": "不要把街道弄脏。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "clean up",
+          "role": "phrase",
+          "chinese": "打扫干净；清理",
+          "exampleSentence": "Let's clean up the park.",
+          "exampleChinese": "我们来清理公园吧。",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "clean既可以作形容词也可以作动词。加-er变成人cleaner（清洁工）。反义词是dirty（脏的）。"
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
+      "explanation": "clean既可以作形容词也可以作动词。加-er变成人cleaner（清洁工）。反义词是dirty（脏的）。"
     },
     {
-      "id": "health",
       "rootWord": "health",
-      "meaning": "健康",
-      "family": [
-        {"word": "health", "pos": "noun", "meaning": "健康", "example": "Health is more important than money.", "exampleCn": "健康比金钱更重要。"},
-        {"word": "healthy", "pos": "adjective", "meaning": "健康的", "example": "It can keep us healthy.", "exampleCn": "它能让我们保持健康。"},
-        {"word": "healthily", "pos": "adverb", "meaning": "健康地", "example": "We should eat healthily.", "exampleCn": "我们应该健康饮食。"},
-        {"word": "unhealthy", "pos": "adjective", "meaning": "不健康的", "example": "Junk food is unhealthy.", "exampleCn": "垃圾食品是不健康的。"},
-        {"word": "keep healthy", "pos": "phrase", "meaning": "保持健康", "example": "Exercise helps us keep healthy.", "exampleCn": "运动帮助我们保持健康。"}
+      "nodes": [
+        {
+          "word": "healthy",
+          "role": "adjective",
+          "chinese": "健康的",
+          "exampleSentence": "It can keep us healthy and make our city clean!",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-22"
+        },
+        {
+          "word": "health",
+          "role": "noun",
+          "chinese": "健康",
+          "exampleSentence": "Health is more important than money.",
+          "exampleChinese": "健康比金钱更重要。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "healthily",
+          "role": "adverb",
+          "chinese": "健康地",
+          "exampleSentence": "We should eat healthily.",
+          "exampleChinese": "我们应该健康饮食。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "unhealthy",
+          "role": "adjective",
+          "chinese": "不健康的",
+          "exampleSentence": "Junk food is unhealthy.",
+          "exampleChinese": "垃圾食品是不健康的。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "keep healthy",
+          "role": "phrase",
+          "chinese": "保持健康",
+          "exampleSentence": "Exercise helps us keep healthy.",
+          "exampleChinese": "运动帮助我们保持健康。",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "名词health加-y变成形容词healthy，变y为i加-ly变成副词healthily，加un-前缀变成反义词unhealthy。"
+      "sourceItemKeys": [
+        "line-22"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
+      "explanation": "名词health加-y变成形容词healthy，变y为i加-ly变成副词healthily，加un-前缀变成反义词unhealthy。"
     },
     {
-      "id": "throw",
       "rootWord": "throw",
-      "meaning": "扔；投",
-      "family": [
-        {"word": "throw", "pos": "verb", "meaning": "扔；投", "example": "Don't throw rubbish on the ground.", "exampleCn": "不要把垃圾扔在地上。"},
-        {"word": "threw", "pos": "verb", "meaning": "扔（过去式）", "example": "He threw a banana skin on the ground.", "exampleCn": "他把一块香蕉皮扔在了地上。"},
-        {"word": "throw away", "pos": "phrase", "meaning": "扔掉；丢弃", "example": "Don't throw away useful things.", "exampleCn": "不要把有用的东西扔掉。"},
-        {"word": "throw up", "pos": "phrase", "meaning": "呕吐", "example": "He feels sick and wants to throw up.", "exampleCn": "他感到恶心，想吐。"}
+      "nodes": [
+        {
+          "word": "throws",
+          "role": "verb (third person singular)",
+          "chinese": "扔",
+          "exampleSentence": "Bobby throws a banana skin on the ground.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-4"
+        },
+        {
+          "word": "throw",
+          "role": "verb",
+          "chinese": "扔；投",
+          "exampleSentence": "Don't throw rubbish on the ground.",
+          "exampleChinese": "不要把垃圾扔在地上。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "threw",
+          "role": "verb",
+          "chinese": "扔（过去式）",
+          "exampleSentence": "He threw a banana skin on the ground.",
+          "exampleChinese": "他把一块香蕉皮扔在了地上。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "throw away",
+          "role": "phrase",
+          "chinese": "扔掉；丢弃",
+          "exampleSentence": "Don't throw away useful things.",
+          "exampleChinese": "不要把有用的东西扔掉。",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "throw的过去式是threw，属于不规则变化。throw away是「扔掉」，throw up是「呕吐」，意思完全不同。"
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
+      "explanation": "throw的过去式是threw，属于不规则变化。throw away是「扔掉」，throw up是「呕吐」，意思完全不同。"
     },
     {
-      "id": "fall",
       "rootWord": "fall",
-      "meaning": "落下；跌倒",
-      "family": [
-        {"word": "fall", "pos": "verb", "meaning": "落下；跌倒", "example": "Be careful not to fall.", "exampleCn": "小心别摔倒。"},
-        {"word": "fell", "pos": "verb", "meaning": "落下（过去式）", "example": "Willy slipped and fell down.", "exampleCn": "Willy滑倒了。"},
-        {"word": "fallen", "pos": "verb", "meaning": "落下（过去分词）", "example": "The leaves have fallen.", "exampleCn": "树叶已经落了。"},
-        {"word": "fall down", "pos": "phrase", "meaning": "摔倒；跌倒", "example": "He fell down and hurt his knee.", "exampleCn": "他摔倒了，伤到了膝盖。"},
-        {"word": "fall off", "pos": "phrase", "meaning": "从……摔下来", "example": "The boy fell off his bike.", "exampleCn": "那个男孩从自行车上摔了下来。"},
-        {"word": "fall asleep", "pos": "phrase", "meaning": "入睡", "example": "I fell asleep quickly last night.", "exampleCn": "我昨晚很快就睡着了。"}
+      "nodes": [
+        {
+          "word": "falls",
+          "role": "verb (third person singular)",
+          "chinese": "跌倒",
+          "exampleSentence": "Billy falls down.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-7"
+        },
+        {
+          "word": "fall",
+          "role": "verb",
+          "chinese": "落下；跌倒",
+          "exampleSentence": "Be careful not to fall.",
+          "exampleChinese": "小心别摔倒。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "fell",
+          "role": "verb",
+          "chinese": "落下（过去式）",
+          "exampleSentence": "The boy slipped and fell down.",
+          "exampleChinese": "那个男孩滑倒了。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "fallen",
+          "role": "verb",
+          "chinese": "落下（过去分词）",
+          "exampleSentence": "The leaves have fallen.",
+          "exampleChinese": "树叶已经落了。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "fall down",
+          "role": "phrase",
+          "chinese": "摔倒；跌倒",
+          "exampleSentence": "He fell down and hurt his knee.",
+          "exampleChinese": "他摔倒了，伤到了膝盖。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "fall off",
+          "role": "phrase",
+          "chinese": "从……摔下来",
+          "exampleSentence": "The boy fell off his bike.",
+          "exampleChinese": "那个男孩从自行车上摔了下来。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "fall asleep",
+          "role": "phrase",
+          "chinese": "入睡",
+          "exampleSentence": "I fell asleep quickly last night.",
+          "exampleChinese": "我昨晚很快就睡着了。",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "fall的过去式是fell，过去分词是fallen，都是不规则变化。fall down是摔倒，fall off是从高处摔落。"
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
+      "explanation": "fall的过去式是fell，过去分词是fallen，都是不规则变化。fall down是摔倒，fall off是从高处摔落。"
     },
     {
-      "id": "keep",
       "rootWord": "keep",
-      "meaning": "保持；保留",
-      "family": [
-        {"word": "keep", "pos": "verb", "meaning": "保持；保留", "example": "We should keep our city clean.", "exampleCn": "我们应该保持城市清洁。"},
-        {"word": "keeper", "pos": "noun", "meaning": "看守人；饲养员", "example": "The zookeeper takes care of animals.", "exampleCn": "动物园饲养员照顾动物。"},
-        {"word": "keep healthy", "pos": "phrase", "meaning": "保持健康", "example": "Running helps us keep healthy.", "exampleCn": "跑步帮助我们保持健康。"},
-        {"word": "keep quiet", "pos": "phrase", "meaning": "保持安静", "example": "Please keep quiet in the library.", "exampleCn": "在图书馆请保持安静。"},
-        {"word": "keep doing", "pos": "phrase", "meaning": "一直做某事", "example": "Keep trying and you will succeed.", "exampleCn": "继续努力，你会成功的。"}
+      "nodes": [
+        {
+          "word": "keep",
+          "role": "verb",
+          "chinese": "保持",
+          "exampleSentence": "It can keep us healthy and make our city clean!",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-22"
+        },
+        {
+          "word": "keeper",
+          "role": "noun",
+          "chinese": "看守人；饲养员",
+          "exampleSentence": "The zookeeper takes care of animals.",
+          "exampleChinese": "动物园饲养员照顾动物。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "keep healthy",
+          "role": "phrase",
+          "chinese": "保持健康",
+          "exampleSentence": "Running helps us keep healthy.",
+          "exampleChinese": "跑步帮助我们保持健康。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "keep quiet",
+          "role": "phrase",
+          "chinese": "保持安静",
+          "exampleSentence": "Please keep quiet in the library.",
+          "exampleChinese": "在图书馆请保持安静。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "keep doing",
+          "role": "phrase",
+          "chinese": "一直做某事",
+          "exampleSentence": "Keep trying and you will succeed.",
+          "exampleChinese": "继续努力，你会成功的。",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "keep的用法很多：keep + adj.（保持某种状态）、keep doing（一直做）、keep sb. + adj.（使某人保持某种状态）。"
+      "sourceItemKeys": [
+        "line-22"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
+      "explanation": "keep的用法很多：keep + adj.（保持某种状态）、keep doing（一直做）、keep sb. + adj.（使某人保持某种状态）。"
     },
     {
-      "id": "plan",
       "rootWord": "plan",
-      "meaning": "计划",
-      "family": [
-        {"word": "plan", "pos": "noun", "meaning": "计划", "example": "What's your plan for the weekend?", "exampleCn": "你周末有什么计划？"},
-        {"word": "plan", "pos": "verb", "meaning": "计划；打算", "example": "I plan to go to the park.", "exampleCn": "我计划去公园。"},
-        {"word": "planning", "pos": "noun", "meaning": "规划；计划制定", "example": "Good planning is important.", "exampleCn": "好的规划很重要。"},
-        {"word": "planner", "pos": "noun", "meaning": "规划者；计划表", "example": "I use a daily planner.", "exampleCn": "我用每日计划表。"}
+      "nodes": [
+        {
+          "word": "plan",
+          "role": "noun",
+          "chinese": "计划",
+          "exampleSentence": "What's your plan for the weekend, Su Hai?",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-19"
+        },
+        {
+          "word": "planning",
+          "role": "noun",
+          "chinese": "规划；计划制定",
+          "exampleSentence": "Good planning is important.",
+          "exampleChinese": "好的规划很重要。",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "planner",
+          "role": "noun",
+          "chinese": "规划者；计划表",
+          "exampleSentence": "I use a daily planner.",
+          "exampleChinese": "我用每日计划表。",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "plan既作名词也作动词。注意plan的现在分词是planning（双写n加-ing）。"
+      "sourceItemKeys": [
+        "line-19"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ],
+      "explanation": "plan既作名词也作动词。注意plan的现在分词是planning（双写n加-ing）。"
     }
   ],
-  "sentencePatterns": [
+  "patterns": [
     {
-      "id": "whats-your-plan",
-      "pattern": "What's your plan for + 时间/事情?",
-      "patternCn": "你对……有什么计划？",
-      "textbookExample": "What's your plan for the weekend, Su Hai?",
-      "textbookExampleCn": "苏海，你周末有什么计划？",
-      "grammarExplanation": "What's your plan for...? 是询问某人计划的常用句型。for后面可以接时间（weekend, holiday, summer vacation）或事情。",
+      "patternKey": "whats-your-plan",
+      "displayName": "What's your plan for…：询问计划",
+      "examples": [
+        "What's your plan for the weekend, Su Hai?"
+      ],
       "transferExamples": [
-        {"english": "What's your plan for the holiday?", "chinese": "你假期有什么计划？"},
-        {"english": "What's your plan for tomorrow?", "chinese": "你明天有什么计划？"},
-        {"english": "What's your plan for the birthday party?", "chinese": "你对生日派对有什么计划？"},
-        {"english": "What's your plan for the summer vacation?", "chinese": "你暑假有什么计划？"}
-      ]
+        "What's your plan for Sunday?"
+      ],
+      "relatedWordFamilies": [
+        "plan"
+      ],
+      "sourceItemKeys": [
+        "line-19"
+      ],
+      "explanation": "What's 是 What is 的缩写；for 后说明计划涉及的时间或事情。"
     },
     {
-      "id": "will-go-plogging",
-      "pattern": "主语 + will / 'll + 动词原形",
-      "patternCn": "某人将要做某事",
-      "textbookExample": "I'll go plogging with my family.",
-      "textbookExampleCn": "我要和家人一起去慢跑捡垃圾。",
-      "grammarExplanation": "一般将来时：will + 动词原形，表示将来要做的事情或计划。口语中常用缩写：I'll, you'll, he'll, she'll, we'll, they'll。",
+      "patternKey": "will-go-plogging",
+      "displayName": "I'll…：表达将来的计划",
+      "examples": [
+        "I'll go plogging with my family."
+      ],
       "transferExamples": [
-        {"english": "I'll go to the park tomorrow.", "chinese": "我明天要去公园。"},
-        {"english": "We'll have a party next week.", "chinese": "我们下周要开派对。"},
-        {"english": "She'll visit her grandma this weekend.", "chinese": "她这周末要去看望奶奶。"},
-        {"english": "They'll meet at the school gate.", "chinese": "他们将在学校门口集合。"}
-      ]
+        "I'll clean the park with my friends."
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-20"
+      ],
+      "explanation": "I'll 是 I will 的缩写；will 后接动词原形。"
     },
     {
-      "id": "dont-throw",
-      "pattern": "Don't + 动词原形 + 其他!",
-      "patternCn": "不要做某事！",
-      "textbookExample": "Don't throw the banana skin on the ground!",
-      "textbookExampleCn": "不要把香蕉皮扔在地上！",
-      "grammarExplanation": "否定祈使句的结构：Don't + 动词原形。用来表示禁止或警告，语气比较强烈。",
+      "patternKey": "shouldnt-do",
+      "displayName": "shouldn't：劝阻不当行为",
+      "examples": [
+        "Bobby, you shouldn't do that!"
+      ],
       "transferExamples": [
-        {"english": "Don't run in the classroom!", "chinese": "不要在教室里跑！"},
-        {"english": "Don't eat too much junk food!", "chinese": "不要吃太多垃圾食品！"},
-        {"english": "Don't be late for school!", "chinese": "上学不要迟到！"},
-        {"english": "Don't talk loudly in the library!", "chinese": "不要在图书馆大声说话！"}
-      ]
+        "You shouldn't throw rubbish on the ground."
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "explanation": "shouldn't 表示不应该，后接动词原形。"
     },
     {
-      "id": "should-keep",
-      "pattern": "主语 + should / shouldn't + 动词原形",
-      "patternCn": "某人应该/不应该做某事",
-      "textbookExample": "We should keep our city clean.",
-      "textbookExampleCn": "我们应该保持城市清洁。",
-      "grammarExplanation": "should表示「应该」，shouldn't（should not）表示「不应该」，都是情态动词，后面接动词原形。用来提出建议或表达责任。",
+      "patternKey": "make-sth-adj",
+      "displayName": "make something + 形容词：使……",
+      "examples": [
+        "It makes the street dirty."
+      ],
       "transferExamples": [
-        {"english": "You should do your homework first.", "chinese": "你应该先做作业。"},
-        {"english": "We should help each other.", "chinese": "我们应该互相帮助。"},
-        {"english": "You shouldn't watch TV too much.", "chinese": "你不应该看太多电视。"},
-        {"english": "We shouldn't waste water.", "chinese": "我们不应该浪费水。"}
-      ]
+        "Rubbish makes the park dirty."
+      ],
+      "relatedWordFamilies": [
+        "clean"
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "explanation": "make + 宾语 + 形容词，表示使某物处于某种状态；单数主语后用 makes。"
     },
     {
-      "id": "make-sth-adj",
-      "pattern": "主语 + make + 宾语 + 形容词",
-      "patternCn": "……使某物/某人变得……",
-      "textbookExample": "It makes the street dirty.",
-      "textbookExampleCn": "它把街道弄脏了。",
-      "grammarExplanation": "make + 宾语 + 形容词，表示「使……变得怎么样」。类似的动词还有keep（保持），结构相同：keep + 宾语 + 形容词。",
+      "patternKey": "can-i-join",
+      "displayName": "Can I join…：请求加入",
+      "examples": [
+        "Can I join you?"
+      ],
       "transferExamples": [
-        {"english": "The good news makes me happy.", "chinese": "好消息让我很开心。"},
-        {"english": "Reading makes us smart.", "chinese": "阅读让我们聪明。"},
-        {"english": "Exercise makes us strong.", "chinese": "运动让我们强壮。"},
-        {"english": "Smoking makes people unhealthy.", "chinese": "吸烟让人们不健康。"}
-      ]
+        "Can I join your team?"
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-23"
+      ],
+      "explanation": "Can I… 用于请求许可；join somebody 表示加入某人的活动。"
     }
   ],
-  "growthExercises": [
+  "transferPrompts": [
     {
-      "id": 1,
-      "type": "word-family",
-      "question": "选择正确的词填空：Running can help us keep ______. (health)",
-      "options": ["health", "healthy", "healthily"],
-      "answer": "healthy",
-      "explanation": "keep + 形容词，表示保持某种状态。keep healthy 保持健康。"
+      "sourcePattern": "whats-your-plan",
+      "targetPattern": "whats-your-plan",
+      "prompt": "询问对方周日有什么计划，使用 What's your plan for…",
+      "answer": "What's your plan for Sunday?",
+      "isSourceText": false
     },
     {
-      "id": 2,
-      "type": "word-family",
-      "question": "选择正确的词填空：He ______ down from the tree yesterday. (fall)",
-      "options": ["fall", "fell", "fallen"],
-      "answer": "fell",
-      "explanation": "yesterday是过去时间，要用过去式。fall的过去式是fell，不规则变化。"
+      "sourcePattern": "will-go-plogging",
+      "targetPattern": "will-go-plogging",
+      "prompt": "用 I'll 表达：我会和朋友一起打扫公园。",
+      "answer": "I'll clean the park with my friends.",
+      "isSourceText": false
     },
     {
-      "id": 3,
-      "type": "sentence-pattern",
-      "question": "用所给词造句：you / plan / what's / for / the holiday",
-      "answer": "What's your plan for the holiday?",
-      "explanation": "What's your plan for...? 询问某人关于某事的计划。"
+      "sourcePattern": "shouldnt-do",
+      "targetPattern": "shouldnt-do",
+      "prompt": "用 shouldn't 劝阻他人：你不应该把垃圾扔在地上。",
+      "answer": "You shouldn't throw rubbish on the ground.",
+      "isSourceText": false
     },
     {
-      "id": 4,
-      "type": "sentence-pattern",
-      "question": "翻译：我们应该保持教室干净。",
-      "answer": "We should keep our classroom clean.",
-      "explanation": "should + 动词原形；keep sth. + adj. 保持某物某种状态。"
+      "sourcePattern": "make-sth-adj",
+      "targetPattern": "make-sth-adj",
+      "prompt": "用 makes 表达：垃圾把公园弄脏了。",
+      "answer": "Rubbish makes the park dirty.",
+      "isSourceText": false
     },
     {
-      "id": 5,
-      "type": "sentence-pattern",
-      "question": "翻译：不要在河里游泳！",
-      "answer": "Don't swim in the river!",
-      "explanation": "否定祈使句：Don't + 动词原形。"
+      "sourcePattern": "can-i-join",
+      "targetPattern": "can-i-join",
+      "prompt": "用 Can I join… 请求加入对方的队伍。",
+      "answer": "Can I join your team?",
+      "isSourceText": false
     }
   ]
 }

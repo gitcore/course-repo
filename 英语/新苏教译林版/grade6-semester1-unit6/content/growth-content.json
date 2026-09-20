@@ -1,195 +1,365 @@
 {
-  "version": "2.0.0",
-  "unit": "Unit 6 Going green",
-  "description": "成长内容：词族进化 + 句型迁移",
+  "manifestId": "grade6-semester1-unit6",
+  "activityType": "word-family-practice",
+  "sourceHash": "8bb851823aaa7d754e8d682534c0062a2f956c1c3a070047cec7f01eafd09c02",
+  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatedAt": "2026-09-20",
+  "sourceKind": "textbook-dialogue",
+  "sourceNotice": "依据 textbook.md 的已核对原文生成；词族和迁移例句为配套拓展。",
   "wordFamilies": [
     {
-      "id": "protect",
-      "rootWord": "protect",
-      "meaning": "保护",
-      "family": [
-        {"word": "protect", "pos": "verb", "meaning": "保护", "example": "We should protect the Earth.", "exampleCn": "我们应该保护地球。"},
-        {"word": "protection", "pos": "noun", "meaning": "保护", "example": "The Earth needs our protection.", "exampleCn": "地球需要我们的保护。"},
-        {"word": "protective", "pos": "adjective", "meaning": "保护的；防护的", "example": "Wear protective gloves.", "exampleCn": "戴上防护手套。"},
-        {"word": "protector", "pos": "noun", "meaning": "保护者", "example": "He is a protector of the environment.", "exampleCn": "他是一位环境保护者。"}
-      ],
-      "evolutionTip": "protect加-ion变成名词protection，加-ive变成形容词protective，加-or变成人protector。"
-    },
-    {
-      "id": "use",
       "rootWord": "use",
-      "meaning": "使用",
-      "family": [
-        {"word": "use", "pos": "verb", "meaning": "使用", "example": "Use both sides of the paper.", "exampleCn": "使用纸的两面。"},
-        {"word": "reuse", "pos": "verb", "meaning": "再利用；重复使用", "example": "We should reuse plastic bottles.", "exampleCn": "我们应该重复使用塑料瓶。"},
-        {"word": "useful", "pos": "adjective", "meaning": "有用的", "example": "This book is very useful.", "exampleCn": "这本书非常有用。"},
-        {"word": "useless", "pos": "adjective", "meaning": "无用的", "example": "That old phone is useless now.", "exampleCn": "那部旧手机现在没用了。"},
-        {"word": "user", "pos": "noun", "meaning": "使用者；用户", "example": "He is a heavy user of the internet.", "exampleCn": "他是一个重度互联网用户。"},
-        {"word": "used", "pos": "adjective", "meaning": "用过的；二手的", "example": "I bought a used bike.", "exampleCn": "我买了一辆二手自行车。"}
+      "nodes": [
+        {
+          "word": "use",
+          "role": "verb",
+          "chinese": "使用",
+          "exampleSentence": "We should use both sides of the paper.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-28"
+        },
+        {
+          "word": "useful",
+          "role": "adjective",
+          "chinese": "有用的",
+          "exampleSentence": "This book is useful.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "reuse",
+          "role": "verb",
+          "chinese": "再次利用",
+          "exampleSentence": "We can reuse this bag.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "use加-ful变成useful（有用的），加-less变成useless（无用的），加re-前缀变成reuse（再利用）。re-前缀表示「再；重新」。"
+      "sourceItemKeys": [
+        "line-28"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "waste",
       "rootWord": "waste",
-      "meaning": "浪费；废物",
-      "family": [
-        {"word": "waste", "pos": "verb", "meaning": "浪费", "example": "Don't waste water.", "exampleCn": "不要浪费水。"},
-        {"word": "waste", "pos": "noun", "meaning": "废物；垃圾", "example": "Put the waste in the bin.", "exampleCn": "把垃圾放进垃圾桶。"},
-        {"word": "wasteful", "pos": "adjective", "meaning": "浪费的", "example": "It's wasteful to throw away food.", "exampleCn": "扔掉食物是浪费的。"},
-        {"word": "wastepaper", "pos": "noun", "meaning": "废纸", "example": "Please recycle wastepaper.", "exampleCn": "请回收废纸。"},
-        {"word": "wastewater", "pos": "noun", "meaning": "废水", "example": "We should not pour wastewater into rivers.", "exampleCn": "我们不应该把废水排入河流。"}
+      "nodes": [
+        {
+          "word": "waste",
+          "role": "verb",
+          "chinese": "浪费",
+          "exampleSentence": "I won't waste food.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-27"
+        },
+        {
+          "word": "wasteful",
+          "role": "adjective",
+          "chinese": "浪费的",
+          "exampleSentence": "Leaving the tap on is wasteful.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "wasted",
+          "role": "verb (past tense)",
+          "chinese": "浪费了",
+          "exampleSentence": "We wasted paper yesterday.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "waste既作动词也作名词。加-ful变成形容词wasteful（浪费的）。waste可以和很多名词组成复合词：wastepaper（废纸）、wastewater（废水）。"
+      "sourceItemKeys": [
+        "line-27"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "recycle",
-      "rootWord": "recycle",
-      "meaning": "回收利用",
-      "family": [
-        {"word": "cycle", "pos": "verb / noun", "meaning": "循环；周期", "example": "The water cycle is important.", "exampleCn": "水循环很重要。"},
-        {"word": "recycle", "pos": "verb", "meaning": "回收利用", "example": "We should recycle paper and plastic.", "exampleCn": "我们应该回收纸和塑料。"},
-        {"word": "recycling", "pos": "noun", "meaning": "回收（行业）", "example": "Recycling is good for the Earth.", "exampleCn": "回收利用对地球有好处。"},
-        {"word": "recyclable", "pos": "adjective", "meaning": "可回收的", "example": "Glass bottles are recyclable.", "exampleCn": "玻璃瓶是可回收的。"},
-        {"word": "bicycle", "pos": "noun", "meaning": "自行车", "example": "I go to school by bicycle.", "exampleCn": "我骑自行车上学。"}
+      "rootWord": "save",
+      "nodes": [
+        {
+          "word": "save",
+          "role": "verb",
+          "chinese": "节约",
+          "exampleSentence": "I'll save water.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-26"
+        },
+        {
+          "word": "saving",
+          "role": "noun",
+          "chinese": "节省",
+          "exampleSentence": "This small saving helps us.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "saved",
+          "role": "verb (past tense)",
+          "chinese": "节约了",
+          "exampleSentence": "We saved water yesterday.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "cycle（循环）加re-前缀变成recycle（回收/再循环）。bicycle（自行车）里也有cycle，因为自行车的轮子是循环转动的。"
+      "sourceItemKeys": [
+        "line-26"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
     },
     {
-      "id": "draw",
+      "rootWord": "help",
+      "nodes": [
+        {
+          "word": "help",
+          "role": "verb",
+          "chinese": "帮助",
+          "exampleSentence": "What can we do to help it?",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-2"
+        },
+        {
+          "word": "helpful",
+          "role": "adjective",
+          "chinese": "有帮助的",
+          "exampleSentence": "Your idea is helpful.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "helper",
+          "role": "noun",
+          "chinese": "帮手",
+          "exampleSentence": "My brother is a good helper.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
+      ]
+    },
+    {
       "rootWord": "draw",
-      "meaning": "画",
-      "family": [
-        {"word": "draw", "pos": "verb", "meaning": "画；拉", "example": "I'll draw the Earth.", "exampleCn": "我要画地球。"},
-        {"word": "drew", "pos": "verb", "meaning": "画（过去式）", "example": "She drew a beautiful picture.", "exampleCn": "她画了一幅美丽的画。"},
-        {"word": "drawn", "pos": "verb", "meaning": "画（过去分词）", "example": "The picture was drawn by a child.", "exampleCn": "这幅画是一个孩子画的。"},
-        {"word": "drawing", "pos": "noun", "meaning": "图画；绘画", "example": "I like drawing very much.", "exampleCn": "我非常喜欢画画。"},
-        {"word": "drawer", "pos": "noun", "meaning": "抽屉", "example": "Put the pen in the drawer.", "exampleCn": "把笔放进抽屉里。"}
+      "nodes": [
+        {
+          "word": "draw",
+          "role": "verb",
+          "chinese": "画",
+          "exampleSentence": "I'll draw the Earth and colour it green and blue.",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-6"
+        },
+        {
+          "word": "drawing",
+          "role": "noun",
+          "chinese": "图画",
+          "exampleSentence": "This drawing is beautiful.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "drew",
+          "role": "verb (past tense)",
+          "chinese": "画了",
+          "exampleSentence": "I drew a tree yesterday.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
       ],
-      "evolutionTip": "draw的过去式是drew，过去分词是drawn，都是不规则变化。drawing既是现在分词也是名词（绘画）。注意drawer是「抽屉」，不是「画画的人」！"
-    },
-    {
-      "id": "electric",
-      "rootWord": "electric",
-      "meaning": "电的",
-      "family": [
-        {"word": "electricity", "pos": "noun", "meaning": "电；电力", "example": "Save electricity!", "exampleCn": "节约用电！"},
-        {"word": "electric", "pos": "adjective", "meaning": "电的；电动的", "example": "This is an electric car.", "exampleCn": "这是一辆电动汽车。"},
-        {"word": "electrical", "pos": "adjective", "meaning": "与电有关的", "example": "He is an electrical engineer.", "exampleCn": "他是一名电气工程师。"},
-        {"word": "electronic", "pos": "adjective", "meaning": "电子的", "example": "I have an electronic dictionary.", "exampleCn": "我有一个电子词典。"}
+      "sourceItemKeys": [
+        "line-6"
       ],
-      "evolutionTip": "electricity是名词「电」，electric是形容词「电的」，electrical是「与电有关的」，electronic是「电子的」。-ity是常见的名词后缀。"
-    }
-  ],
-  "sentencePatterns": [
-    {
-      "id": "what-can-we-do",
-      "pattern": "What can we do to + 动词原形?",
-      "patternCn": "我们能做什么来……？",
-      "textbookExample": "What can we do to go green?",
-      "textbookExampleCn": "我们能做些什么来践行绿色生活？",
-      "grammarExplanation": "What can we do to...? 是询问「我们能做什么来……」的常用句型。to后面接动词原形，表示目的。",
-      "transferExamples": [
-        {"english": "What can we do to help the old man?", "chinese": "我们能做什么来帮助那位老人？"},
-        {"english": "What can we do to keep our classroom clean?", "chinese": "我们能做什么来保持教室干净？"},
-        {"english": "What can we do to learn English well?", "chinese": "我们能做什么来学好英语？"},
-        {"english": "What can we do to save animals?", "chinese": "我们能做什么来拯救动物？"}
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     },
     {
-      "id": "will-you-join",
-      "pattern": "Will + 主语 + 动词原形...?",
-      "patternCn": "……将要做……吗？",
-      "textbookExample": "Will you join me?",
-      "textbookExampleCn": "你愿意加入我吗？",
-      "grammarExplanation": "一般将来时的一般疑问句：Will + 主语 + 动词原形？肯定回答：Yes, 主语 + will. 否定回答：No, 主语 + won't.",
-      "transferExamples": [
-        {"english": "Will you come to my party?", "chinese": "你会来我的派对吗？"},
-        {"english": "Will they play football tomorrow?", "chinese": "他们明天会踢足球吗？"},
-        {"english": "Will she draw a picture for us?", "chinese": "她会给我们画一幅画吗？"},
-        {"english": "Will we go to the park this weekend?", "chinese": "我们这周末会去公园吗？"}
-      ]
-    },
-    {
-      "id": "ill-draw-colour",
-      "pattern": "主语 + will / 'll + 动词原形",
-      "patternCn": "某人将要做某事",
-      "textbookExample": "I'll draw the Earth and colour it green and blue.",
-      "textbookExampleCn": "我要画地球，把它涂成绿色和蓝色。",
-      "grammarExplanation": "一般将来时的陈述句：主语 + will + 动词原形。will可以缩写为'll（I'll, you'll, he'll, she'll, we'll, they'll）。",
-      "transferExamples": [
-        {"english": "I'll go to the library tomorrow.", "chinese": "我明天要去图书馆。"},
-        {"english": "She'll sing a song at the party.", "chinese": "她将在派对上唱一首歌。"},
-        {"english": "We'll plant trees next spring.", "chinese": "我们明年春天要种树。"},
-        {"english": "They'll visit their grandparents this weekend.", "chinese": "他们这周末要去看望祖父母。"}
-      ]
-    },
-    {
-      "id": "dont-waste",
-      "pattern": "Don't + 动词原形 + 其他",
-      "patternCn": "不要做某事",
-      "textbookExample": "Don't waste water.",
-      "textbookExampleCn": "不要浪费水。",
-      "grammarExplanation": "否定祈使句的结构：Don't + 动词原形。用于表示禁止、劝告或提醒。语气比较直接强烈。",
-      "transferExamples": [
-        {"english": "Don't run in the hallway.", "chinese": "不要在走廊里跑。"},
-        {"english": "Don't talk in class.", "chinese": "不要在课堂上说话。"},
-        {"english": "Don't eat too much candy.", "chinese": "不要吃太多糖果。"},
-        {"english": "Don't play with fire.", "chinese": "不要玩火。"}
-      ]
-    },
-    {
-      "id": "turn-off-when",
-      "pattern": "祈使句 + when + 从句",
-      "patternCn": "当……的时候做某事",
-      "textbookExample": "Turn off the tap when you brush your teeth.",
-      "textbookExampleCn": "刷牙时关掉水龙头。",
-      "grammarExplanation": "when引导时间状语从句，表示「当……的时候」。主句是祈使句，从句用一般现在时。",
-      "transferExamples": [
-        {"english": "Turn off the lights when you leave.", "chinese": "你离开时关灯。"},
-        {"english": "Close the door when you go out.", "chinese": "你出去时关门。"},
-        {"english": "Wash your hands before you eat.", "chinese": "吃饭前洗手。"},
-        {"english": "Look both ways before you cross the road.", "chinese": "过马路前两边看看。"}
+      "rootWord": "work",
+      "nodes": [
+        {
+          "word": "work",
+          "role": "verb",
+          "chinese": "工作；行动",
+          "exampleSentence": "Let's work together!",
+          "difficulty": 1,
+          "isSourceText": true,
+          "sourceLine": "line-29"
+        },
+        {
+          "word": "worker",
+          "role": "noun",
+          "chinese": "工人",
+          "exampleSentence": "The worker repairs bikes.",
+          "difficulty": 2,
+          "isSourceText": false
+        },
+        {
+          "word": "teamwork",
+          "role": "noun",
+          "chinese": "团队合作",
+          "exampleSentence": "Teamwork helps us finish the project.",
+          "difficulty": 2,
+          "isSourceText": false
+        }
+      ],
+      "sourceItemKeys": [
+        "line-29"
+      ],
+      "requiredMasteryTags": [
+        "source-sentence"
+      ],
+      "unlockRules": [
+        "stable-source-expression"
       ]
     }
   ],
-  "growthExercises": [
+  "patterns": [
     {
-      "id": 1,
-      "type": "word-family",
-      "question": "选择正确的词填空：This book is very ______. (use)",
-      "options": ["useful", "useless", "user"],
-      "answer": "useful",
-      "explanation": "useful是形容词，表示「有用的」，用来描述事物的属性。"
+      "patternKey": "what-can-we-do",
+      "displayName": "What can we do to…：寻求办法",
+      "examples": [
+        "What can we do to help it?"
+      ],
+      "transferExamples": [
+        "What can we do to save water?"
+      ],
+      "relatedWordFamilies": [
+        "help"
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "explanation": "can 后接原形；to 后说明目的。"
     },
     {
-      "id": 2,
-      "type": "word-family",
-      "question": "选择正确的词填空：We should ______ old paper. (cycle)",
-      "options": ["recycle", "bicycle", "recycling"],
-      "answer": "recycle",
-      "explanation": "recycle是动词，表示「回收利用」，should后面接动词原形。"
+      "patternKey": "will-you",
+      "displayName": "Will you…：询问意愿",
+      "examples": [
+        "Will you join me?"
+      ],
+      "transferExamples": [
+        "Will you help me?"
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "explanation": "Will you 后接动词原形。"
     },
     {
-      "id": 3,
-      "type": "sentence-pattern",
-      "question": "用所给词造句：what / can / we / do / help / the Earth",
-      "answer": "What can we do to help the Earth?",
-      "explanation": "What can we do to...? 我们能做什么来……？to后接动词原形表目的。"
+      "patternKey": "ill-save",
+      "displayName": "I'll…：说出计划",
+      "examples": [
+        "I'll save water."
+      ],
+      "transferExamples": [
+        "I'll turn off the lights."
+      ],
+      "relatedWordFamilies": [
+        "save"
+      ],
+      "sourceItemKeys": [
+        "line-26"
+      ],
+      "explanation": "I'll 是 I will 的缩写。"
     },
     {
-      "id": 4,
-      "type": "sentence-pattern",
-      "question": "翻译：我们应该保护地球。",
-      "answer": "We should protect the Earth.",
-      "explanation": "should + 动词原形，表示应该做某事。"
+      "patternKey": "wont-waste",
+      "displayName": "won't：将来的否定",
+      "examples": [
+        "I won't waste food."
+      ],
+      "transferExamples": [
+        "I won't waste paper."
+      ],
+      "relatedWordFamilies": [
+        "waste"
+      ],
+      "sourceItemKeys": [
+        "line-27"
+      ],
+      "explanation": "won't 是 will not 的缩写。"
     },
     {
-      "id": 5,
-      "type": "sentence-pattern",
-      "question": "翻译：离开房间时关灯。",
-      "answer": "Turn off the lights when you leave the room.",
-      "explanation": "祈使句 + when引导的时间状语从句。"
+      "patternKey": "should-when",
+      "displayName": "should…when…：提出建议",
+      "examples": [
+        "We should turn off the tap when we brush our teeth."
+      ],
+      "transferExamples": [
+        "We should turn off the lights when we leave the room."
+      ],
+      "relatedWordFamilies": [],
+      "sourceItemKeys": [
+        "line-26"
+      ],
+      "explanation": "should 后接原形；when 表示当……的时候。"
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "what-can-we-do",
+      "targetPattern": "what-can-we-do",
+      "prompt": "询问：我们能做什么来节约用水？",
+      "answer": "What can we do to save water?",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "will-you",
+      "targetPattern": "will-you",
+      "prompt": "询问对方是否愿意帮助你。",
+      "answer": "Will you help me?",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "ill-save",
+      "targetPattern": "ill-save",
+      "prompt": "表达：我会关灯。",
+      "answer": "I'll turn off the lights.",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "wont-waste",
+      "targetPattern": "wont-waste",
+      "prompt": "表达：我不会浪费纸张。",
+      "answer": "I won't waste paper.",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "should-when",
+      "targetPattern": "should-when",
+      "prompt": "建议离开房间时关灯。",
+      "answer": "We should turn off the lights when we leave the room.",
+      "isSourceText": false
     }
   ]
 }

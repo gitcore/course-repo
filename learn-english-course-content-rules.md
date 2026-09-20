@@ -13,7 +13,6 @@
 ```text
 my-unit/
 ├── textbook.md                    # 必需：人工维护的教材源
-├── wordlist.md                    # 可选：本单元重点词表
 ├── manifest.json                  # 必需：v2 课程入口
 ├── assets/                        # 可选：图片、音频等素材
 └── content/                       # 生成的结构化练习数据
@@ -26,12 +25,12 @@ my-unit/
 快速开始：
 
 1. 新建课程目录并写好 `textbook.md`；其中必须有 `## 对话列表`，它是不可随意改写的课文原文。
-2. 如有单元重点词，补充 `wordlist.md`；如有图片，在 `assets/` 放置文件并在课文源的 `## 图片素材` 中说明关联意图。
+2. 单元重点词、音标、释义和配套词族统一写入 `textbook.md` 的词汇章节；如有图片，在 `assets/` 放置文件并在课文源的 `## 图片素材` 中说明关联意图。
 3. 新建或更新 v2 `manifest.json`：`domain.key` 为 `english`，`domain.package.source.path` 指向课文源，activities 只声明真实存在的生成数据。
 4. 按本规则从 `## 对话列表` 生成拆句、对话、阅读或成长内容；生成数据的 `manifestId` 和 activity type 必须与 manifest 对应。
 5. 校验 JSON、相对路径、原文保真与 activity 数据后，再交付课程包。
 
-课程包进入根 README 资源目录时，还应同步目录条目并运行 `scripts/validate_resource_catalog.py`；该目录只描述选择范围，不代替本文件或教材原文。
+课程包进入根 README 资源目录时，还应同步目录条目并运行 `.scripts/validate_resource_catalog.py`；该目录只描述选择范围，不代替本文件或教材原文。
 
 ## 0. 最高优先级
 
@@ -48,7 +47,7 @@ my-unit/
 
 1. 读取课文源文件。
 2. 固定 `## 对话列表` 为基准。
-3. 读取当前单元词表（单元级 `wordlist.md`，或同目录 `semester2-wordlists.md`）。
+3. 读取 `textbook.md` 中的核心词汇、重点词语或词汇与表达章节；拓展词与课文用词须明确区分。
 4. 将每条对话先拆成一个个完整句子。
 5. 对每个完整句子先做句内拆解：短语、单词、剩余部分、完整句。
 6. 为完整句生成中文、语法、提示、词块。
@@ -106,12 +105,22 @@ my-unit/
 
 manifest 迁移不能只改版本号。每次生成后都要检查：`domain.package.source.path` 存在；每个 activity 的 `data` 存在；`growthAvailable` 为 `false` 时不注册成长 activity；所有 JSON 文件可解析。未知 activity type 不得被悄悄改名或替换成其他练习。
 
+新苏教译林版的词汇已统一到 `textbook.md`，`domain.planning.wordlist` 设为 `null`；不再生成或引用独立词表。现有 JSON 中的词汇、音标和词族属于生成结果，不能反向覆盖教材源。
+
 ### 2.5 生成文件与 manifest 的对应关系
 
 - 生成 JSON 的 `manifestId` 必须与当前 `manifest.json` 的 `id` 一致。
 - 普通活动的 `activityType` 必须与 `domain.package.activities[].type` 一致；`growth-content.json` 可以被多个已声明的成长活动共享，但必须同时提供这些活动所需的 `wordFamilies`、`patterns` 或 `transferPrompts` 数据。
 - `sourceHash`、`generatorVersion`、`generatedAt` 用于追踪生成来源；重新生成内容时更新生成信息，不改写课文源文件。
 - 活动缺少数据、路径越界、JSON 损坏或 manifestId 不匹配时，课程包视为不完整，应修复或移除对应 activity 声明，不能生成空占位活动。
+
+### 2.6 课文阅读入口
+
+已有静态读本的课程可在 `domain.package.activities` 注册 `readalong`，名称为“课文阅读”，`data` 指向包内的网页版 HTML，例如 `assets/readalong/Try-your-best.web.html`。此类型由英语 readalong 执行器打开静态页面，不使用阅读理解题库 JSON；同时加入 `domain.planning.growth.foundationActivityTypes`。
+
+网页和引用的每个素材均须小于等于当前资源接口的 16 MB 限制。使用相对路径加载图片和音频，不填写本机绝对路径或 GitHub 源文件页面地址。制作工具会同时生成内嵌素材的离线 `.html` 和引用包内素材的 `.web.html`；活动入口使用后者。
+
+新苏教译林版全部10个课程的拆句、对话、词族与句型迁移均已对齐当前教材文件；两个 Project 按文件内标明的原创任务导读生成，不冒称教材逐字原文。新苏教译林版不再注册 `reading-qa`（阅读理解），旧题库归档在本地隐藏工具目录；`readalong`（课文阅读）继续保留。
 
 ## 3. 对话列表规则
 
@@ -257,11 +266,11 @@ very much | far from | school | I like it very much, | but it's far from | but i
 
 ## 7. Wordlist 规则
 
-生成前必须读取词表。优先级：单元级 `wordlist.md` > 同目录 `semester2-wordlists.md` > 共享词库（§17）。
+生成前必须读取 `textbook.md` 的词汇章节；这是单元词汇的唯一维护来源。音标、词性或释义不足时可参考共享词库，但不另建独立词表。尚未迁移的旧版课程可以读取原有词表作为兼容输入，不能据此恢复新苏教译林版的双份维护。
 
 执行顺序：
 
-1. 找到当前单元的词表（`wordlist.md` 中的 `## Unit n`，或 `semester2-wordlists.md` 中对应部分）。
+1. 找到当前 `textbook.md` 的词汇章节，区分课文用词、配套词汇和词族拓展。
 2. **先按句子自然结构拆解**，形成连续的片段链（短语、介词等），不参考 wordlist。
 3. **再参考 wordlist**，检查句子中哪些单词出现在词表中。
 4. **调整拆分内容**：如果 wordlist 词未被任何片段单独覆盖且是核心学习点，补一道单独单词题。
@@ -680,7 +689,7 @@ I like it very much, but it's far from school.
 当用户说"按规则重新生成某单元"时，默认执行：
 
 1. 保护 `## 对话列表` 原文不变。
-2. 读取当前单元 wordlist（优先 `wordlist.md`）。
+2. 读取当前 `textbook.md` 的词汇章节。
 3. 按对话编号逐条拆句。
 4. 每句先按自然结构拆解片段链（不参考 wordlist），再参考 wordlist 调整拆分内容和补单词题，最后按**递进链原则**调整顺序（每个片段紧跟在包含它的最小更大片段之前）。
 5. 为完整句补中文、语法、提示、词块。

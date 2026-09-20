@@ -87,14 +87,14 @@ Great people 伟大人物
 ### 课文词汇与拓展词汇（配套整理）
 
 #### 名词
-- hero 英雄（复数 heroes）
-- scientist 科学家
-- inventor 发明家
-- farming 农业，耕作
-- field 田野，田地
-- experiment 实验
-- hybrid rice 杂交水稻
-- dream 梦想
+- hero /ˈhɪərəʊ/ n. 英雄（复数 heroes）
+- scientist /ˈsaɪəntɪst/ n. 科学家
+- inventor /ɪnˈventə(r)/ n. 发明家
+- farming /ˈfɑːmɪŋ/ n. 农业，耕作
+- field /fiːld/ n. 田野，田地
+- experiment /ɪkˈsperɪmənt/ n. 实验
+- hybrid rice /ˈhaɪbrɪd raɪs/ n. 杂交水稻
+- dream /driːm/ n. 梦想
 - age 年龄；年纪
 - father 父亲；之父
 - name 名字；名声
@@ -104,13 +104,13 @@ Great people 伟大人物
 - people 人们
 
 #### 动词
-- develop 开发，研制
-- feed 喂养，养活（过去式 fed）
-- give up 放弃（过去式 gave up）
-- pass away 去世
+- develop /dɪˈveləp/ v. 开发，研制
+- feed /fiːd/ v. 喂养，养活（过去式 fed）
+- give up /ɡɪv ʌp/ phrasal v. 放弃（过去式 gave up）
+- pass away /pɑːs əˈweɪ/ phrasal v. 去世
 - be born 出生
-- grow up 长大（过去式 grew up）
-- begin 开始（过去式 began）
+- grow up /ɡrəʊ ʌp/ phrasal v. 长大（过去式 grew up）
+- begin /bɪˈɡɪn/ v. 开始（过去式 began）
 - stay 停留；保持
 - work 工作
 - call 称呼；把……叫作
@@ -119,10 +119,10 @@ Great people 伟大人物
 - help 帮助
 
 #### 形容词
-- great 伟大的
-- famous 著名的
-- difficult 困难的
-- hard 困难的；坚硬的（“努力地”是副词用法）
+- great /ɡreɪt/ adj. 伟大的
+- famous /ˈfeɪməs/ adj. 著名的
+- difficult /ˈdɪfɪkəlt/ adj. 困难的
+- hard /hɑːd/ adv. / adj. 困难的；坚硬的（“努力地”是副词用法）
 - cool 酷的；凉爽的
 - dear 亲爱的；昂贵的
 - dark 黑暗的
@@ -132,7 +132,7 @@ Great people 伟大人物
 - kind 善良的
 
 #### 副词
-- hard 努力地
+- hard /hɑːd/ adv. / adj. 努力地
 - always 总是
 - never 从不
 - also 也
@@ -159,6 +159,24 @@ Great people 伟大人物
 - rice crops 水稻
 - cover...with... 用……覆盖
 - don't have to 不必
+
+#### 补充词语注释
+
+以下为配套词汇注释，不额外指定教材必学词，不新增教材例句。
+
+| 词语 | 音标 | 词性 | 含义 |
+|---|---|---|---|
+| born | /bɔːn/ | v. (pp.) | 出生（bear的过去分词） |
+| other | /ˈʌðə(r)/ | adj. | 其他的；别的 |
+
+#### 词族与相关表达（配套拓展）
+
+以下用于帮助理解词形和相关表达，不将拓展词标成教材新增词。
+
+- **science**：science (n.) 科学；scientist (n.) 科学家；scientific (adj.) 科学的。
+- **invent**：invent (v.) 发明；inventor (n.) 发明家；invention (n.) 发明物。
+- **develop**：develop (v.) 开发；发展；development (n.) 发展；developing (adj.) 发展中的。
+- **farm**：farm (n.) 农场；farmer (n.) 农民；farming (n.) 农业；耕作。
 
 ### 重点句型
 

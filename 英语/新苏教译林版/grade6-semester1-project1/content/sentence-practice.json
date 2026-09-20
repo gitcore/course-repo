@@ -1,479 +1,3395 @@
 {
-  "version": "2.0.0",
-  "unit": "Project 1 A better me",
-  "description": "拆句练习：按递进链原则拆分项目核心句子，逐句掌握句型结构",
-  "sentences": [
+  "manifestId": "grade6-semester1-project1",
+  "activityType": "sentence-practice",
+  "sourceHash": "2805a2d2d10165e2fad302623d126ee8c77e5ea70c4f20b12d85ce17490907fe",
+  "generatorVersion": "all-courses-source-sync-20260920",
+  "generatedAt": "2026-09-20",
+  "sourceKind": "original-project-guide",
+  "sourceNotice": "依据 textbook.md 中标明的原创任务导读生成，不是教材逐字原文；个人经历与开放任务须自行完成。",
+  "sections": [
     {
-      "id": 1,
-      "fullSentence": "We can become better by being honest and hard-working.",
-      "source": "Project",
-      "chinese": "我们可以通过诚实和勤奋变得更好。",
-      "fragments": [
+      "title": "A · 用经历说明品质",
+      "sentences": [
         {
-          "order": 1,
-          "text": "We",
-          "type": "subject",
-          "chinese": "我们",
-          "note": "人称代词主格"
-        },
-        {
-          "order": 2,
-          "text": "can become better",
-          "type": "verb-phrase",
-          "chinese": "可以变得更好",
-          "note": "can + 动词原形；better是good的比较级",
-          "wordBreakdown": [
-            {"word": "become", "phonetic": "/bɪˈkʌm/", "pos": "v.", "meaning": "变成；成为"},
-            {"word": "better", "phonetic": "/ˈbetə(r)/", "pos": "adj.", "meaning": "更好的"}
+          "id": "1-1",
+          "sequenceNumber": 1,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "What are",
+          "chinese": "什么是",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：什么是",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "What are"
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "by being honest and hard-working",
-          "type": "prepositional-phrase",
-          "chinese": "通过诚实和勤奋",
-          "note": "by + 动名词短语作方式状语",
-          "wordBreakdown": [
-            {"word": "honest", "phonetic": "/ˈɒnɪst/", "pos": "adj.", "meaning": "诚实的"},
-            {"word": "hard-working", "phonetic": "/ˌhɑːd ˈwɜːkɪŋ/", "pos": "adj.", "meaning": "勤奋的"}
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "your good qualities?",
+          "chinese": "你的好品质",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你的好品质",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "qualities",
+              "phonetic": "/ˈkwɒlətiz/",
+              "partOfSpeech": "n.",
+              "meaning": "品质（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "your good qualities?"
+            }
+          ]
+        },
+        {
+          "id": "1-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "What are your good qualities?",
+          "chinese": "你有哪些好品质？",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "复数主语用 are。此例是迁移练习。",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "qualities",
+              "phonetic": "/ˈkwɒlətiz/",
+              "partOfSpeech": "n.",
+              "meaning": "品质（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "What are"
+            },
+            {
+              "label": "词块",
+              "text": "your good qualities?"
+            }
+          ]
+        },
+        {
+          "id": "2-1",
+          "sequenceNumber": 2,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Think",
+          "chinese": "想一想",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：想一想",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Think",
+              "phonetic": "/θɪŋk/",
+              "partOfSpeech": "v.",
+              "meaning": "想；思考"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Think"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "of",
+          "chinese": "关于",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：关于",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "of"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "something you did.",
+          "chinese": "你做过的事情",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你做过的事情",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "something",
+              "phonetic": "/ˈsʌmθɪŋ/",
+              "partOfSpeech": "pron.",
+              "meaning": "某事；某物"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "did",
+              "phonetic": "/dɪd/",
+              "partOfSpeech": "aux.",
+              "meaning": "do的过去式（助动词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "something you did."
+            }
+          ]
+        },
+        {
+          "id": "2-4",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "Think of something you did.",
+          "chinese": "想一想你做过的一件事。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Think",
+              "phonetic": "/θɪŋk/",
+              "partOfSpeech": "v.",
+              "meaning": "想；思考"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的"
+            },
+            {
+              "text": "something",
+              "phonetic": "/ˈsʌmθɪŋ/",
+              "partOfSpeech": "pron.",
+              "meaning": "某事；某物"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "did",
+              "phonetic": "/dɪd/",
+              "partOfSpeech": "aux.",
+              "meaning": "do的过去式（助动词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Think"
+            },
+            {
+              "label": "词块",
+              "text": "of"
+            },
+            {
+              "label": "词块",
+              "text": "something you did."
+            }
+          ]
+        },
+        {
+          "id": "3-1",
+          "sequenceNumber": 3,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Explain it",
+          "chinese": "解释这件事",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：解释这件事",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Explain",
+              "phonetic": "/ɪkˈspleɪn/",
+              "partOfSpeech": "v.",
+              "meaning": "解释；说明"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Explain it"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "to",
+          "chinese": "向",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：向",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "a classmate.",
+          "chinese": "一位同学",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一位同学",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "classmate",
+              "phonetic": "/ˈklɑːsmeɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "同班同学"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a classmate."
+            }
+          ]
+        },
+        {
+          "id": "3-4",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "Explain it to a classmate.",
+          "chinese": "向一位同学解释这件事。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "explain 后接说明的内容，to 后接听的人。",
+          "words": [
+            {
+              "text": "Explain",
+              "phonetic": "/ɪkˈspleɪn/",
+              "partOfSpeech": "v.",
+              "meaning": "解释；说明"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "classmate",
+              "phonetic": "/ˈklɑːsmeɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "同班同学"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Explain it"
+            },
+            {
+              "label": "词块",
+              "text": "to"
+            },
+            {
+              "label": "词块",
+              "text": "a classmate."
+            }
+          ]
+        },
+        {
+          "id": "4-1",
+          "sequenceNumber": 4,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Your example",
+          "chinese": "你的例子",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你的例子",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "example",
+              "phonetic": "/ɪɡˈzɑːmpl/",
+              "partOfSpeech": "n.",
+              "meaning": "例子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Your example"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "can show honesty.",
+          "chinese": "可以体现诚实",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：可以体现诚实",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "展示；表达"
+            },
+            {
+              "text": "honesty",
+              "phonetic": "/ˈɒnəsti/",
+              "partOfSpeech": "n.",
+              "meaning": "诚实"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "can show honesty."
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "Your example can show honesty.",
+          "chinese": "你的例子可以体现诚实。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "can 后接动词原形；honesty、kindness 为名词。",
+          "words": [
+            {
+              "text": "Your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "example",
+              "phonetic": "/ɪɡˈzɑːmpl/",
+              "partOfSpeech": "n.",
+              "meaning": "例子"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "展示；表达"
+            },
+            {
+              "text": "honesty",
+              "phonetic": "/ˈɒnəsti/",
+              "partOfSpeech": "n.",
+              "meaning": "诚实"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Your example"
+            },
+            {
+              "label": "词块",
+              "text": "can show honesty."
+            }
+          ]
+        },
+        {
+          "id": "5-1",
+          "sequenceNumber": 5,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "A boy breaks",
+          "chinese": "一个男孩打碎了",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一个男孩打碎了",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "A",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "boy",
+              "phonetic": "/bɔɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "男孩"
+            },
+            {
+              "text": "breaks",
+              "phonetic": "/breɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "打破（第三人称单数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "A boy breaks"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "his grandfather's cup.",
+          "chinese": "他爷爷的杯子",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他爷爷的杯子",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "grandfather's",
+              "phonetic": "/ˈɡrænfɑːðəz/",
+              "partOfSpeech": "n.",
+              "meaning": "祖父的；外祖父的"
+            },
+            {
+              "text": "cup",
+              "phonetic": "/kʌp/",
+              "partOfSpeech": "n.",
+              "meaning": "杯子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "his grandfather's cup."
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "A boy breaks his grandfather's cup.",
+          "chinese": "一个男孩打碎了他爷爷的杯子。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "A",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "boy",
+              "phonetic": "/bɔɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "男孩"
+            },
+            {
+              "text": "breaks",
+              "phonetic": "/breɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "打破（第三人称单数）"
+            },
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "grandfather's",
+              "phonetic": "/ˈɡrænfɑːðəz/",
+              "partOfSpeech": "n.",
+              "meaning": "祖父的；外祖父的"
+            },
+            {
+              "text": "cup",
+              "phonetic": "/kʌp/",
+              "partOfSpeech": "n.",
+              "meaning": "杯子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "A boy breaks"
+            },
+            {
+              "label": "词块",
+              "text": "his grandfather's cup."
+            }
+          ]
+        },
+        {
+          "id": "6-1",
+          "sequenceNumber": 6,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "He feels sorry",
+          "chinese": "他感到抱歉",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他感到抱歉",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "feels",
+              "phonetic": "/fiːlz/",
+              "partOfSpeech": "v.",
+              "meaning": "感觉（第三人称单数）"
+            },
+            {
+              "text": "sorry",
+              "phonetic": "/ˈsɒri/",
+              "partOfSpeech": "int.",
+              "meaning": "对不起，抱歉"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He feels sorry"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "about",
+          "chinese": "对于",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：对于",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "about"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "it.",
+          "chinese": "这件事",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：这件事",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "it."
+            }
+          ]
+        },
+        {
+          "id": "6-4",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "He feels sorry about it.",
+          "chinese": "他为这件事感到抱歉。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "feels",
+              "phonetic": "/fiːlz/",
+              "partOfSpeech": "v.",
+              "meaning": "感觉（第三人称单数）"
+            },
+            {
+              "text": "sorry",
+              "phonetic": "/ˈsɒri/",
+              "partOfSpeech": "int.",
+              "meaning": "对不起，抱歉"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He feels sorry"
+            },
+            {
+              "label": "词块",
+              "text": "about"
+            },
+            {
+              "label": "词块",
+              "text": "it."
+            }
+          ]
+        },
+        {
+          "id": "7-1",
+          "sequenceNumber": 7,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "He tells his grandfather",
+          "chinese": "他告诉爷爷",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他告诉爷爷",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "tells",
+              "phonetic": "/telz/",
+              "partOfSpeech": "v.",
+              "meaning": "告诉（第三人称单数）"
+            },
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "grandfather",
+              "phonetic": "/ˈɡrænfɑːðə/",
+              "partOfSpeech": "n.",
+              "meaning": "祖父；外祖父"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He tells his grandfather"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "what happened.",
+          "chinese": "发生了什么",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：发生了什么",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "what",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "happened",
+              "phonetic": "/ˈhæpənd/",
+              "partOfSpeech": "v.",
+              "meaning": "发生（过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "what happened."
+            }
+          ]
+        },
+        {
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "He tells his grandfather what happened.",
+          "chinese": "他告诉爷爷发生了什么。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "tells",
+              "phonetic": "/telz/",
+              "partOfSpeech": "v.",
+              "meaning": "告诉（第三人称单数）"
+            },
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "grandfather",
+              "phonetic": "/ˈɡrænfɑːðə/",
+              "partOfSpeech": "n.",
+              "meaning": "祖父；外祖父"
+            },
+            {
+              "text": "what",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "happened",
+              "phonetic": "/ˈhæpənd/",
+              "partOfSpeech": "v.",
+              "meaning": "发生（过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He tells his grandfather"
+            },
+            {
+              "label": "词块",
+              "text": "what happened."
+            }
+          ]
+        },
+        {
+          "id": "8-1",
+          "sequenceNumber": 8,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "This example shows",
+          "chinese": "这个例子表明",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：这个例子表明",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "This",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "example",
+              "phonetic": "/ɪɡˈzɑːmpl/",
+              "partOfSpeech": "n.",
+              "meaning": "例子"
+            },
+            {
+              "text": "shows",
+              "phonetic": "/ʃəʊz/",
+              "partOfSpeech": "v.",
+              "meaning": "表明（第三人称单数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "This example shows"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "that he is honest.",
+          "chinese": "他是诚实的",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他是诚实的",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "that",
+              "phonetic": "/ðæt/",
+              "partOfSpeech": "pron.",
+              "meaning": "那；那个"
+            },
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            },
+            {
+              "text": "honest",
+              "phonetic": "/ˈɒnɪst/",
+              "partOfSpeech": "adj.",
+              "meaning": "诚实的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "that he is honest."
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "This example shows that he is honest.",
+          "chinese": "这个例子表明他是诚实的。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "This",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "example",
+              "phonetic": "/ɪɡˈzɑːmpl/",
+              "partOfSpeech": "n.",
+              "meaning": "例子"
+            },
+            {
+              "text": "shows",
+              "phonetic": "/ʃəʊz/",
+              "partOfSpeech": "v.",
+              "meaning": "表明（第三人称单数）"
+            },
+            {
+              "text": "that",
+              "phonetic": "/ðæt/",
+              "partOfSpeech": "pron.",
+              "meaning": "那；那个"
+            },
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            },
+            {
+              "text": "honest",
+              "phonetic": "/ˈɒnɪst/",
+              "partOfSpeech": "adj.",
+              "meaning": "诚实的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "This example shows"
+            },
+            {
+              "label": "词块",
+              "text": "that he is honest."
+            }
           ]
         }
       ]
     },
     {
-      "id": 2,
-      "fullSentence": "I have many good habits.",
-      "source": "Project",
-      "chinese": "我有很多好习惯。",
-      "fragments": [
+      "title": "B · 制作人物信息卡",
+      "sentences": [
         {
-          "order": 1,
-          "text": "I",
-          "type": "subject",
-          "chinese": "我",
-          "note": "人称代词主格"
+          "id": "9-1",
+          "sequenceNumber": 9,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Choose a great person",
+          "chinese": "选择一位伟大的人",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：选择一位伟大的人",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Choose",
+              "phonetic": "/tʃuːz/",
+              "partOfSpeech": "v.",
+              "meaning": "选择"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            },
+            {
+              "text": "person",
+              "phonetic": "/ˈpɜːsn/",
+              "partOfSpeech": "n.",
+              "meaning": "人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Choose a great person"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "have",
-          "type": "verb",
-          "chinese": "有",
-          "note": "have表示「有」，一般现在时"
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "to learn about.",
+          "chinese": "去了解",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：去了解",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "learn",
+              "phonetic": "/lɜːn/",
+              "partOfSpeech": "v.",
+              "meaning": "学习"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to learn about."
+            }
+          ]
         },
         {
-          "order": 3,
-          "text": "many good habits",
-          "type": "object",
-          "chinese": "很多好习惯",
-          "note": "many修饰可数名词复数",
-          "wordBreakdown": [
-            {"word": "habit", "phonetic": "/ˈhæbɪt/", "pos": "n.", "meaning": "习惯"}
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "Choose a great person to learn about.",
+          "chinese": "选择一位伟人去了解。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Choose",
+              "phonetic": "/tʃuːz/",
+              "partOfSpeech": "v.",
+              "meaning": "选择"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            },
+            {
+              "text": "person",
+              "phonetic": "/ˈpɜːsn/",
+              "partOfSpeech": "n.",
+              "meaning": "人"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "learn",
+              "phonetic": "/lɜːn/",
+              "partOfSpeech": "v.",
+              "meaning": "学习"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Choose a great person"
+            },
+            {
+              "label": "词块",
+              "text": "to learn about."
+            }
+          ]
+        },
+        {
+          "id": "10-1",
+          "sequenceNumber": 10,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Create a card",
+          "chinese": "制作一张卡片",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：制作一张卡片",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Create",
+              "phonetic": "/kriˈeɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；创造"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Create a card"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "with",
+          "chinese": "带有",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：带有",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "with"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "a photo.",
+          "chinese": "一张照片",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一张照片",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "photo",
+              "phonetic": "/ˈfəʊtəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "照片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a photo."
+            }
+          ]
+        },
+        {
+          "id": "10-4",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "Create a card with a photo.",
+          "chinese": "制作一张带有照片的卡片。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Create",
+              "phonetic": "/kriˈeɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；创造"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            },
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "photo",
+              "phonetic": "/ˈfəʊtəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "照片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Create a card"
+            },
+            {
+              "label": "词块",
+              "text": "with"
+            },
+            {
+              "label": "词块",
+              "text": "a photo."
+            }
+          ]
+        },
+        {
+          "id": "11-1",
+          "sequenceNumber": 11,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Add the person's",
+          "chinese": "添加这个人的",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：添加这个人的",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Add",
+              "phonetic": "/æd/",
+              "partOfSpeech": "v.",
+              "meaning": "添加"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "person's",
+              "phonetic": "/ˈpɜːsnz/",
+              "partOfSpeech": "n.",
+              "meaning": "某人的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Add the person's"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "birthday and job.",
+          "chinese": "生日和职业",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：生日和职业",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "job",
+              "phonetic": "/dʒɒb/",
+              "partOfSpeech": "n.",
+              "meaning": "工作；任务"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "birthday and job."
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "Add the person's birthday and job.",
+          "chinese": "添加这个人的生日和职业。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Add",
+              "phonetic": "/æd/",
+              "partOfSpeech": "v.",
+              "meaning": "添加"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "person's",
+              "phonetic": "/ˈpɜːsnz/",
+              "partOfSpeech": "n.",
+              "meaning": "某人的"
+            },
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "job",
+              "phonetic": "/dʒɒb/",
+              "partOfSpeech": "n.",
+              "meaning": "工作；任务"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Add the person's"
+            },
+            {
+              "label": "词块",
+              "text": "birthday and job."
+            }
+          ]
+        },
+        {
+          "id": "12-1",
+          "sequenceNumber": 12,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Include achievements",
+          "chinese": "包括成就",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：包括成就",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Include",
+              "phonetic": "/ɪnˈkluːd/",
+              "partOfSpeech": "v.",
+              "meaning": "包括"
+            },
+            {
+              "text": "achievements",
+              "phonetic": "/əˈtʃiːvmənts/",
+              "partOfSpeech": "n.",
+              "meaning": "成就（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Include achievements"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "and good qualities.",
+          "chinese": "和好品质",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：和好品质",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "qualities",
+              "phonetic": "/ˈkwɒlətiz/",
+              "partOfSpeech": "n.",
+              "meaning": "品质（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "and good qualities."
+            }
+          ]
+        },
+        {
+          "id": "12-3",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "Include achievements and good qualities.",
+          "chinese": "包括成就和好品质。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Include",
+              "phonetic": "/ɪnˈkluːd/",
+              "partOfSpeech": "v.",
+              "meaning": "包括"
+            },
+            {
+              "text": "achievements",
+              "phonetic": "/əˈtʃiːvmənts/",
+              "partOfSpeech": "n.",
+              "meaning": "成就（复数）"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "qualities",
+              "phonetic": "/ˈkwɒlətiz/",
+              "partOfSpeech": "n.",
+              "meaning": "品质（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Include achievements"
+            },
+            {
+              "label": "词块",
+              "text": "and good qualities."
+            }
           ]
         }
       ]
     },
     {
-      "id": 3,
-      "fullSentence": "I'm honest. I always tell the truth.",
-      "source": "Project",
-      "chinese": "我很诚实。我总是说实话。",
-      "fragments": [
+      "title": "C · 同伴交流",
+      "sentences": [
         {
-          "order": 1,
-          "text": "I'm honest",
-          "type": "clause-1",
-          "chinese": "我很诚实",
-          "note": "主系表结构，honest是形容词作表语"
+          "id": "13-1",
+          "sequenceNumber": 13,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Show your card",
+          "chinese": "展示你的卡片",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：展示你的卡片",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "展示；表达"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Show your card"
+            }
+          ]
         },
         {
-          "order": 2,
-          "text": "I always tell the truth",
-          "type": "clause-2",
-          "chinese": "我总是说实话",
-          "note": "tell the truth 说实话；always频率副词",
-          "wordBreakdown": [
-            {"word": "truth", "phonetic": "/truːθ/", "pos": "n.", "meaning": "真相；事实"}
+          "id": "13-2",
+          "sequenceNumber": 13,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "to",
+          "chinese": "给",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：给",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to"
+            }
+          ]
+        },
+        {
+          "id": "13-3",
+          "sequenceNumber": 13,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "a partner.",
+          "chinese": "一位同伴",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：一位同伴",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "partner",
+              "phonetic": "/ˈpɑːtnə/",
+              "partOfSpeech": "n.",
+              "meaning": "同伴"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "a partner."
+            }
+          ]
+        },
+        {
+          "id": "13-4",
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "Show your card to a partner.",
+          "chinese": "向一位同伴展示你的卡片。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "展示；表达"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "partner",
+              "phonetic": "/ˈpɑːtnə/",
+              "partOfSpeech": "n.",
+              "meaning": "同伴"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Show your card"
+            },
+            {
+              "label": "词块",
+              "text": "to"
+            },
+            {
+              "label": "词块",
+              "text": "a partner."
+            }
+          ]
+        },
+        {
+          "id": "14-1",
+          "sequenceNumber": 14,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Ask",
+          "chinese": "询问",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：询问",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Ask",
+              "phonetic": "/ɑːsk/",
+              "partOfSpeech": "v.",
+              "meaning": "询问；请求"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Ask"
+            }
+          ]
+        },
+        {
+          "id": "14-2",
+          "sequenceNumber": 14,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "about",
+          "chinese": "关于",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：关于",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "about"
+            }
+          ]
+        },
+        {
+          "id": "14-3",
+          "sequenceNumber": 14,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "the person's life.",
+          "chinese": "这个人的生平",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：这个人的生平",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "person's",
+              "phonetic": "/ˈpɜːsnz/",
+              "partOfSpeech": "n.",
+              "meaning": "某人的"
+            },
+            {
+              "text": "life",
+              "phonetic": "/laɪf/",
+              "partOfSpeech": "n.",
+              "meaning": "生命；生活"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "the person's life."
+            }
+          ]
+        },
+        {
+          "id": "14-4",
+          "sequenceNumber": 14,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "Ask about the person's life.",
+          "chinese": "询问这个人的生平。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Ask",
+              "phonetic": "/ɑːsk/",
+              "partOfSpeech": "v.",
+              "meaning": "询问；请求"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "person's",
+              "phonetic": "/ˈpɜːsnz/",
+              "partOfSpeech": "n.",
+              "meaning": "某人的"
+            },
+            {
+              "text": "life",
+              "phonetic": "/laɪf/",
+              "partOfSpeech": "n.",
+              "meaning": "生命；生活"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Ask"
+            },
+            {
+              "label": "词块",
+              "text": "about"
+            },
+            {
+              "label": "词块",
+              "text": "the person's life."
+            }
+          ]
+        },
+        {
+          "id": "15-1",
+          "sequenceNumber": 15,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Explain why",
+          "chinese": "解释为什么",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：解释为什么",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Explain",
+              "phonetic": "/ɪkˈspleɪn/",
+              "partOfSpeech": "v.",
+              "meaning": "解释；说明"
+            },
+            {
+              "text": "why",
+              "phonetic": "/waɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "为什么"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Explain why"
+            }
+          ]
+        },
+        {
+          "id": "15-2",
+          "sequenceNumber": 15,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "you admire this person.",
+          "chinese": "你敬佩这个人",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你敬佩这个人",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "admire",
+              "phonetic": "/ədˈmaɪə/",
+              "partOfSpeech": "v.",
+              "meaning": "敬佩"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "person",
+              "phonetic": "/ˈpɜːsn/",
+              "partOfSpeech": "n.",
+              "meaning": "人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "you admire this person."
+            }
+          ]
+        },
+        {
+          "id": "15-3",
+          "sequenceNumber": 15,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "Explain why you admire this person.",
+          "chinese": "解释你为什么敬佩这个人。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Explain",
+              "phonetic": "/ɪkˈspleɪn/",
+              "partOfSpeech": "v.",
+              "meaning": "解释；说明"
+            },
+            {
+              "text": "why",
+              "phonetic": "/waɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "为什么"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "admire",
+              "phonetic": "/ədˈmaɪə/",
+              "partOfSpeech": "v.",
+              "meaning": "敬佩"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "person",
+              "phonetic": "/ˈpɜːsn/",
+              "partOfSpeech": "n.",
+              "meaning": "人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Explain why"
+            },
+            {
+              "label": "词块",
+              "text": "you admire this person."
+            }
+          ]
+        },
+        {
+          "id": "16-1",
+          "sequenceNumber": 16,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Discuss what",
+          "chinese": "讨论什么",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：讨论什么",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Discuss",
+              "phonetic": "/dɪˈskʌs/",
+              "partOfSpeech": "v.",
+              "meaning": "讨论"
+            },
+            {
+              "text": "what",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Discuss what"
+            }
+          ]
+        },
+        {
+          "id": "16-2",
+          "sequenceNumber": 16,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "you can learn.",
+          "chinese": "你可以学到",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你可以学到",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "learn",
+              "phonetic": "/lɜːn/",
+              "partOfSpeech": "v.",
+              "meaning": "学习"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "you can learn."
+            }
+          ]
+        },
+        {
+          "id": "16-3",
+          "sequenceNumber": 16,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "Discuss what you can learn.",
+          "chinese": "讨论你可以学到什么。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Discuss",
+              "phonetic": "/dɪˈskʌs/",
+              "partOfSpeech": "v.",
+              "meaning": "讨论"
+            },
+            {
+              "text": "what",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "learn",
+              "phonetic": "/lɜːn/",
+              "partOfSpeech": "v.",
+              "meaning": "学习"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Discuss what"
+            },
+            {
+              "label": "词块",
+              "text": "you can learn."
+            }
           ]
         }
       ]
     },
     {
-      "id": 4,
-      "fullSentence": "But I also have some bad habits.",
-      "source": "Project",
-      "chinese": "但是我也有一些坏习惯。",
-      "fragments": [
+      "title": "D · 分享成长想法",
+      "sentences": [
         {
-          "order": 1,
-          "text": "But",
-          "type": "conjunction",
-          "chinese": "但是",
-          "note": "转折连词，表示转折"
-        },
-        {
-          "order": 2,
-          "text": "I also have",
-          "type": "subject-verb",
-          "chinese": "我也有",
-          "note": "also放在实义动词前，表示「也」"
-        },
-        {
-          "order": 3,
-          "text": "some bad habits",
-          "type": "object",
-          "chinese": "一些坏习惯",
-          "note": "some修饰可数名词复数"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "fullSentence": "Sometimes I spend too much time on my phone.",
-      "source": "Project",
-      "chinese": "有时候我在手机上花太多时间。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Sometimes",
-          "type": "adverb",
-          "chinese": "有时候",
-          "note": "频率副词，可置于句首"
-        },
-        {
-          "order": 2,
-          "text": "I spend too much time",
-          "type": "subject-verb-object",
-          "chinese": "我花太多时间",
-          "note": "spend time 花费时间；too much修饰不可数名词",
-          "wordBreakdown": [
-            {"word": "spend", "phonetic": "/spend/", "pos": "v.", "meaning": "花费"}
+          "id": "17-1",
+          "sequenceNumber": 17,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Think",
+          "chinese": "想一想",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：想一想",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Think",
+              "phonetic": "/θɪŋk/",
+              "partOfSpeech": "v.",
+              "meaning": "想；思考"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Think"
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "on my phone",
-          "type": "prepositional-phrase",
-          "chinese": "在我的手机上",
-          "note": "spend...on sth. 在……上花费……"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "fullSentence": "I'm afraid of speaking in public.",
-      "source": "Project",
-      "chinese": "我害怕在公共场合讲话。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "I'm afraid of",
-          "type": "verb-phrase",
-          "chinese": "我害怕",
-          "note": "be afraid of 害怕……，后接名词或动名词",
-          "wordBreakdown": [
-            {"word": "afraid", "phonetic": "/əˈfreɪd/", "pos": "adj.", "meaning": "害怕的"}
+          "id": "17-2",
+          "sequenceNumber": 17,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "about",
+          "chinese": "关于",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：关于",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "about"
+            }
           ]
         },
         {
-          "order": 2,
-          "text": "speaking in public",
-          "type": "object",
-          "chinese": "在公共场合讲话",
-          "note": "of是介词，后面接动名词speaking",
-          "wordBreakdown": [
-            {"word": "public", "phonetic": "/ˈpʌblɪk/", "pos": "n.", "meaning": "公众；公共场合"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "fullSentence": "I'm going to make a plan for myself.",
-      "source": "Project",
-      "chinese": "我打算为自己制定一个计划。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "I'm going to make",
-          "type": "verb-phrase",
-          "chinese": "我打算制作",
-          "note": "be going to + 动词原形，表示计划、打算",
-          "wordBreakdown": [
-            {"word": "plan", "phonetic": "/plæn/", "pos": "n.", "meaning": "计划"}
-          ]
-        },
-        {
-          "order": 2,
-          "text": "a plan",
-          "type": "object",
-          "chinese": "一个计划",
-          "note": "名词作宾语"
-        },
-        {
-          "order": 3,
-          "text": "for myself",
-          "type": "prepositional-phrase",
-          "chinese": "为我自己",
-          "note": "for oneself 为自己；myself是反身代词"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "fullSentence": "First, I will limit my screen time to one hour a day.",
-      "source": "Project",
-      "chinese": "第一，我要把屏幕时间限制在每天一小时。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "First",
-          "type": "adverb",
-          "chinese": "第一；首先",
-          "note": "序数词，表示顺序"
-        },
-        {
-          "order": 2,
-          "text": "I will limit my screen time",
-          "type": "subject-verb-object",
-          "chinese": "我要限制我的屏幕时间",
-          "note": "一般将来时：will + 动词原形",
-          "wordBreakdown": [
-            {"word": "limit", "phonetic": "/ˈlɪmɪt/", "pos": "v.", "meaning": "限制"},
-            {"word": "screen", "phonetic": "/skriːn/", "pos": "n.", "meaning": "屏幕"}
+          "id": "17-3",
+          "sequenceNumber": 17,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "your own good qualities.",
+          "chinese": "你自己的好品质",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你自己的好品质",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "own",
+              "phonetic": "/əʊn/",
+              "partOfSpeech": "adj.",
+              "meaning": "自己的"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "qualities",
+              "phonetic": "/ˈkwɒlətiz/",
+              "partOfSpeech": "n.",
+              "meaning": "品质（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "your own good qualities."
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "to one hour a day",
-          "type": "prepositional-phrase",
-          "chinese": "到每天一小时",
-          "note": "limit...to... 把……限制在……"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "fullSentence": "Second, I'm going to help my parents with housework every weekend.",
-      "source": "Project",
-      "chinese": "第二，我打算每个周末帮我父母做家务。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Second",
-          "type": "adverb",
-          "chinese": "第二",
-          "note": "序数词，表示顺序"
-        },
-        {
-          "order": 2,
-          "text": "I'm going to help my parents with housework",
-          "type": "subject-verb-object",
-          "chinese": "我打算帮我父母做家务",
-          "note": "help sb. with sth. 帮助某人做某事",
-          "wordBreakdown": [
-            {"word": "housework", "phonetic": "/ˈhaʊswɜːk/", "pos": "n.", "meaning": "家务"}
+          "id": "17-4",
+          "sequenceNumber": 17,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "Think about your own good qualities.",
+          "chinese": "想一想你自己的好品质。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Think",
+              "phonetic": "/θɪŋk/",
+              "partOfSpeech": "v.",
+              "meaning": "想；思考"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "own",
+              "phonetic": "/əʊn/",
+              "partOfSpeech": "adj.",
+              "meaning": "自己的"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "qualities",
+              "phonetic": "/ˈkwɒlətiz/",
+              "partOfSpeech": "n.",
+              "meaning": "品质（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Think"
+            },
+            {
+              "label": "词块",
+              "text": "about"
+            },
+            {
+              "label": "词块",
+              "text": "your own good qualities."
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "every weekend",
-          "type": "adverbial",
-          "chinese": "每个周末",
-          "note": "时间状语，every + 名词表示频率"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "fullSentence": "Third, I will join the school speech club to become braver.",
-      "source": "Project",
-      "chinese": "第三，我要加入学校演讲俱乐部来变得更勇敢。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Third",
-          "type": "adverb",
-          "chinese": "第三",
-          "note": "序数词，表示顺序"
-        },
-        {
-          "order": 2,
-          "text": "I will join the school speech club",
-          "type": "subject-verb-object",
-          "chinese": "我要加入学校演讲俱乐部",
-          "note": "join + 组织，表示加入某个团体",
-          "wordBreakdown": [
-            {"word": "join", "phonetic": "/dʒɔɪn/", "pos": "v.", "meaning": "参加；加入"},
-            {"word": "speech", "phonetic": "/spiːtʃ/", "pos": "n.", "meaning": "演讲"},
-            {"word": "club", "phonetic": "/klʌb/", "pos": "n.", "meaning": "俱乐部"}
+          "id": "18-1",
+          "sequenceNumber": 18,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "He Chao talks",
+          "chinese": "何超谈论",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：何超谈论",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "Chao",
+              "phonetic": "/tʃaʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "超（人名用字）"
+            },
+            {
+              "text": "talks",
+              "phonetic": "/tɔːks/",
+              "partOfSpeech": "v.",
+              "meaning": "谈论（第三人称单数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He Chao talks"
+            }
           ]
         },
         {
-          "order": 3,
-          "text": "to become braver",
-          "type": "infinitive",
-          "chinese": "来变得更勇敢",
-          "note": "不定式作目的状语；braver是brave的比较级",
-          "wordBreakdown": [
-            {"word": "brave", "phonetic": "/breɪv/", "pos": "adj.", "meaning": "勇敢的"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "fullSentence": "I will try my best to become a better me.",
-      "source": "Project",
-      "chinese": "我会尽我最大努力成为更好的自己。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "I will try my best",
-          "type": "subject-verb",
-          "chinese": "我会尽我最大努力",
-          "note": "try one's best 尽某人最大努力",
-          "wordBreakdown": [
-            {"word": "try", "phonetic": "/traɪ/", "pos": "v.", "meaning": "尝试"}
+          "id": "18-2",
+          "sequenceNumber": 18,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "about",
+          "chinese": "关于",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：关于",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "about"
+            }
           ]
         },
         {
-          "order": 2,
-          "text": "to become a better me",
-          "type": "infinitive",
-          "chinese": "成为更好的自己",
-          "note": "不定式作目的状语；a better me 一个更好的我"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "fullSentence": "Small changes can make a big difference.",
-      "source": "Project",
-      "chinese": "小小的改变能带来大大的不同。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "Small changes",
-          "type": "subject",
-          "chinese": "小小的改变",
-          "note": "small修饰名词复数changes",
-          "wordBreakdown": [
-            {"word": "change", "phonetic": "/tʃeɪndʒ/", "pos": "n.", "meaning": "改变；变化"}
+          "id": "18-3",
+          "sequenceNumber": 18,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "being honest.",
+          "chinese": "诚实待人",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：诚实待人",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "being",
+              "phonetic": "/ˈbiːɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be的-ing形式）"
+            },
+            {
+              "text": "honest",
+              "phonetic": "/ˈɒnɪst/",
+              "partOfSpeech": "adj.",
+              "meaning": "诚实的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "being honest."
+            }
           ]
         },
         {
-          "order": 2,
-          "text": "can make a big difference",
-          "type": "verb-object",
-          "chinese": "能带来大大的不同",
-          "note": "make a difference 有影响；有作用",
-          "wordBreakdown": [
-            {"word": "difference", "phonetic": "/ˈdɪfrəns/", "pos": "n.", "meaning": "差异；不同"}
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "fullSentence": "I'd like to share my plan for becoming a better me.",
-      "source": "Project",
-      "chinese": "我想分享我成为更好的自己的计划。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "I'd like to share",
-          "type": "verb-phrase",
-          "chinese": "我想分享",
-          "note": "I'd like to = I would like to 我想要",
-          "wordBreakdown": [
-            {"word": "share", "phonetic": "/ʃeə(r)/", "pos": "v.", "meaning": "分享"}
+          "id": "18-4",
+          "sequenceNumber": 18,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "He Chao talks about being honest.",
+          "chinese": "何超谈论诚实待人。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "Chao",
+              "phonetic": "/tʃaʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "超（人名用字）"
+            },
+            {
+              "text": "talks",
+              "phonetic": "/tɔːks/",
+              "partOfSpeech": "v.",
+              "meaning": "谈论（第三人称单数）"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于"
+            },
+            {
+              "text": "being",
+              "phonetic": "/ˈbiːɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be的-ing形式）"
+            },
+            {
+              "text": "honest",
+              "phonetic": "/ˈɒnɪst/",
+              "partOfSpeech": "adj.",
+              "meaning": "诚实的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He Chao talks"
+            },
+            {
+              "label": "词块",
+              "text": "about"
+            },
+            {
+              "label": "词块",
+              "text": "being honest."
+            }
           ]
         },
         {
-          "order": 2,
-          "text": "my plan for becoming a better me",
-          "type": "object",
-          "chinese": "我成为更好的自己的计划",
-          "note": "plan for... 关于……的计划；for是介词，后接动名词"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "fullSentence": "I believe I can make it.",
-      "source": "Project",
-      "chinese": "我相信我能做到。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "I believe",
-          "type": "subject-verb",
-          "chinese": "我相信",
-          "note": "believe后接宾语从句",
-          "wordBreakdown": [
-            {"word": "believe", "phonetic": "/bɪˈliːv/", "pos": "v.", "meaning": "相信"}
+          "id": "19-1",
+          "sequenceNumber": 19,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "He is kind",
+          "chinese": "他很友善",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他很友善",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            },
+            {
+              "text": "kind",
+              "phonetic": "/kaɪnd/",
+              "partOfSpeech": "adj.",
+              "meaning": "善良的，友好的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He is kind"
+            }
           ]
         },
         {
-          "order": 2,
-          "text": "I can make it",
-          "type": "clause",
-          "chinese": "我能做到",
-          "note": "宾语从句；make it 成功做到"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "fullSentence": "We can become better by working on our weak points.",
-      "source": "Project",
-      "chinese": "我们可以通过改进我们的不足来变得更好。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "We can become better",
-          "type": "main-clause",
-          "chinese": "我们可以变得更好",
-          "note": "can + 动词原形；better比较级"
-        },
-        {
-          "order": 2,
-          "text": "by working on our weak points",
-          "type": "prepositional-phrase",
-          "chinese": "通过改进我们的不足",
-          "note": "by + 动名词；work on 致力于；改进",
-          "wordBreakdown": [
-            {"word": "weak", "phonetic": "/wiːk/", "pos": "adj.", "meaning": "弱的；差的"}
+          "id": "19-2",
+          "sequenceNumber": 19,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "to",
+          "chinese": "对",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：对",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "to"
+            }
           ]
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "fullSentence": "I study hard and I try my best in everything.",
-      "source": "Project",
-      "chinese": "我学习努力，每件事都尽我最大努力。",
-      "fragments": [
-        {
-          "order": 1,
-          "text": "I study hard",
-          "type": "clause-1",
-          "chinese": "我学习努力",
-          "note": "study hard 努力学习；hard作副词"
         },
         {
-          "order": 2,
-          "text": "and I try my best in everything",
-          "type": "clause-2",
-          "chinese": "并且我每件事都尽最大努力",
-          "note": "try one's best in... 在……方面尽最大努力"
+          "id": "19-3",
+          "sequenceNumber": 19,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "his family.",
+          "chinese": "他的家人",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：他的家人",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家人，家庭"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "his family."
+            }
+          ]
+        },
+        {
+          "id": "19-4",
+          "sequenceNumber": 19,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "He is kind to his family.",
+          "chinese": "他对家人很友善。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "be kind to 后接人；主语 I 搭配 am。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be动词第三人称单数）"
+            },
+            {
+              "text": "kind",
+              "phonetic": "/kaɪnd/",
+              "partOfSpeech": "adj.",
+              "meaning": "善良的，友好的"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家人，家庭"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He is kind"
+            },
+            {
+              "label": "词块",
+              "text": "to"
+            },
+            {
+              "label": "词块",
+              "text": "his family."
+            }
+          ]
+        },
+        {
+          "id": "20-1",
+          "sequenceNumber": 20,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "He also does his best.",
+          "chinese": "他也尽自己最大的努力。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "also",
+              "phonetic": "/ˈɔːlsəʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            },
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "v.",
+              "meaning": "做（do的第三人称单数）"
+            },
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "pron.",
+              "meaning": "他的"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "n.",
+              "meaning": "最好的事物/人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "He also does his best."
+            }
+          ]
+        },
+        {
+          "id": "21-1",
+          "sequenceNumber": 21,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Choose someone",
+          "chinese": "选择一个人",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：选择一个人",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Choose",
+              "phonetic": "/tʃuːz/",
+              "partOfSpeech": "v.",
+              "meaning": "选择"
+            },
+            {
+              "text": "someone",
+              "phonetic": "/ˈsʌmwʌn/",
+              "partOfSpeech": "pron.",
+              "meaning": "某人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Choose someone"
+            }
+          ]
+        },
+        {
+          "id": "21-2",
+          "sequenceNumber": 21,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "you want to learn from.",
+          "chinese": "你想向他学习",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你想向他学习",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "learn",
+              "phonetic": "/lɜːn/",
+              "partOfSpeech": "v.",
+              "meaning": "学习"
+            },
+            {
+              "text": "from",
+              "phonetic": "/frɒm/",
+              "partOfSpeech": "prep.",
+              "meaning": "从……"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "you want to learn from."
+            }
+          ]
+        },
+        {
+          "id": "21-3",
+          "sequenceNumber": 21,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "Choose someone you want to learn from.",
+          "chinese": "选择一个你想向他学习的人。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Choose",
+              "phonetic": "/tʃuːz/",
+              "partOfSpeech": "v.",
+              "meaning": "选择"
+            },
+            {
+              "text": "someone",
+              "phonetic": "/ˈsʌmwʌn/",
+              "partOfSpeech": "pron.",
+              "meaning": "某人"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；向"
+            },
+            {
+              "text": "learn",
+              "phonetic": "/lɜːn/",
+              "partOfSpeech": "v.",
+              "meaning": "学习"
+            },
+            {
+              "text": "from",
+              "phonetic": "/frɒm/",
+              "partOfSpeech": "prep.",
+              "meaning": "从……"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Choose someone"
+            },
+            {
+              "label": "词块",
+              "text": "you want to learn from."
+            }
+          ]
+        },
+        {
+          "id": "22-1",
+          "sequenceNumber": 22,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Give reasons",
+          "chinese": "给出理由",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：给出理由",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给"
+            },
+            {
+              "text": "reasons",
+              "phonetic": "/ˈriːznz/",
+              "partOfSpeech": "n.",
+              "meaning": "理由（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Give reasons"
+            }
+          ]
+        },
+        {
+          "id": "22-2",
+          "sequenceNumber": 22,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "for",
+          "chinese": "为了说明",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：为了说明",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "for"
+            }
+          ]
+        },
+        {
+          "id": "22-3",
+          "sequenceNumber": 22,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "your choice.",
+          "chinese": "你的选择",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你的选择",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "choice",
+              "phonetic": "/tʃɔɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "选择"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "your choice."
+            }
+          ]
+        },
+        {
+          "id": "22-4",
+          "sequenceNumber": 22,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "Give reasons for your choice.",
+          "chinese": "说明你这样选择的理由。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给"
+            },
+            {
+              "text": "reasons",
+              "phonetic": "/ˈriːznz/",
+              "partOfSpeech": "n.",
+              "meaning": "理由（复数）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "为了，给"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "choice",
+              "phonetic": "/tʃɔɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "选择"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Give reasons"
+            },
+            {
+              "label": "词块",
+              "text": "for"
+            },
+            {
+              "label": "词块",
+              "text": "your choice."
+            }
+          ]
+        },
+        {
+          "id": "23-1",
+          "sequenceNumber": 23,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Share how",
+          "chinese": "分享怎样",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：分享怎样",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Share",
+              "phonetic": "/ʃeə(r)/",
+              "partOfSpeech": "v.",
+              "meaning": "分享"
+            },
+            {
+              "text": "how",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Share how"
+            }
+          ]
+        },
+        {
+          "id": "23-2",
+          "sequenceNumber": 23,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "you can improve.",
+          "chinese": "你可以进步",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你可以进步",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "improve",
+              "phonetic": "/ɪmˈpruːv/",
+              "partOfSpeech": "v.",
+              "meaning": "改进；进步"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "you can improve."
+            }
+          ]
+        },
+        {
+          "id": "23-3",
+          "sequenceNumber": 23,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "Share how you can improve.",
+          "chinese": "分享你可以怎样进步。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "这是项目任务的原创导读表达。按词块理解指令，再使用自己的真实经历或计划完成任务。",
+          "words": [
+            {
+              "text": "Share",
+              "phonetic": "/ʃeə(r)/",
+              "partOfSpeech": "v.",
+              "meaning": "分享"
+            },
+            {
+              "text": "how",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "n.",
+              "meaning": "易拉罐"
+            },
+            {
+              "text": "improve",
+              "phonetic": "/ɪmˈpruːv/",
+              "partOfSpeech": "v.",
+              "meaning": "改进；进步"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Share how"
+            },
+            {
+              "label": "词块",
+              "text": "you can improve."
+            }
+          ]
+        },
+        {
+          "id": "24-1",
+          "sequenceNumber": 24,
+          "segmentNumber": 1,
+          "speaker": "narrator",
+          "english": "Fill the blanks",
+          "chinese": "填写空白",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：填写空白",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "Fill",
+              "phonetic": "/fɪl/",
+              "partOfSpeech": "v.",
+              "meaning": "填写；填满"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "blanks",
+              "phonetic": "/blæŋks/",
+              "partOfSpeech": "n.",
+              "meaning": "空白（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Fill the blanks"
+            }
+          ]
+        },
+        {
+          "id": "24-2",
+          "sequenceNumber": 24,
+          "segmentNumber": 2,
+          "speaker": "narrator",
+          "english": "with",
+          "chinese": "用",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：用",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "with"
+            }
+          ]
+        },
+        {
+          "id": "24-3",
+          "sequenceNumber": 24,
+          "segmentNumber": 3,
+          "speaker": "narrator",
+          "english": "your own ideas.",
+          "chinese": "你自己的想法",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "回忆这部分的意思：你自己的想法",
+          "grammarAnalysis": "连续词块：先说清这一部分，再接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "own",
+              "phonetic": "/əʊn/",
+              "partOfSpeech": "adj.",
+              "meaning": "自己的"
+            },
+            {
+              "text": "ideas",
+              "phonetic": "/aɪˈdɪəz/",
+              "partOfSpeech": "n.",
+              "meaning": "想法（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "your own ideas."
+            }
+          ]
+        },
+        {
+          "id": "24-4",
+          "sequenceNumber": 24,
+          "segmentNumber": 4,
+          "speaker": "narrator",
+          "english": "Fill the blanks with your own ideas.",
+          "chinese": "用你自己的想法填写空白。",
+          "category": "sentence",
+          "difficulty": 2,
+          "hint": "按顺序说出这条任务导读",
+          "grammarAnalysis": "祈使句以动词原形开头；with 引出填写内容。",
+          "words": [
+            {
+              "text": "Fill",
+              "phonetic": "/fɪl/",
+              "partOfSpeech": "v.",
+              "meaning": "填写；填满"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "blanks",
+              "phonetic": "/blæŋks/",
+              "partOfSpeech": "n.",
+              "meaning": "空白（复数）"
+            },
+            {
+              "text": "with",
+              "phonetic": "/wɪð/",
+              "partOfSpeech": "prep.",
+              "meaning": "和……一起"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "own",
+              "phonetic": "/əʊn/",
+              "partOfSpeech": "adj.",
+              "meaning": "自己的"
+            },
+            {
+              "text": "ideas",
+              "phonetic": "/aɪˈdɪəz/",
+              "partOfSpeech": "n.",
+              "meaning": "想法（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "词块",
+              "text": "Fill the blanks"
+            },
+            {
+              "label": "词块",
+              "text": "with"
+            },
+            {
+              "label": "词块",
+              "text": "your own ideas."
+            }
+          ]
         }
       ]
     }
-  ],
-  "stats": {
-    "totalFragments": 64,
-    "totalSentences": 16,
-    "sources": ["Project 1"]
-  }
+  ]
 }

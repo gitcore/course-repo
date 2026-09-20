@@ -93,14 +93,14 @@ Keeping our city clean 保持城市清洁
 ### 核心词汇
 
 #### 名词
-- city 城市
-- plan 计划
-- weekend 周末
-- rubbish 垃圾
-- banana skin 香蕉皮
-- ground 地面
-- gate 大门
-- street 街道
+- city /ˈsɪti/ n. 城市
+- plan /plæn/ n. / v. 计划
+- weekend /ˌwiːkˈend/ n. 周末
+- rubbish /ˈrʌbɪʃ/ n. 垃圾
+- banana skin /bəˈnɑːnə skɪn/ n. 香蕉皮
+- ground /ɡraʊnd/ n. 地面
+- gate /ɡeɪt/ n. 大门
+- street /striːt/ n. 街道
 - arm 胳膊
 - skin 皮；皮肤
 - jogging 慢跑锻炼
@@ -112,27 +112,27 @@ Keeping our city clean 保持城市清洁
 - shirt 衬衫
 
 #### 动词
-- keep 保持
-- clean 打扫；清洁
-- jog 慢跑
-- pick 捡；采摘
-- pick up 捡起
-- throw 扔；投（过去式 threw）
-- fall 落下；跌倒（过去式 fell）
-- slip 滑倒
-- join 加入；参加
-- hurt 受伤；疼痛（过去式 hurt）
+- keep /kiːp/ v. 保持
+- clean /kliːn/ adj. / v. 打扫；清洁
+- jog /dʒɒɡ/ v. / n. 慢跑
+- pick /pɪk/ v. 捡；采摘
+- pick /pɪk/ v. up 捡起
+- throw /θrəʊ/ v. 扔；投（过去式 threw）
+- fall /fɔːl/ v. 落下；跌倒（过去式 fell）
+- slip /slɪp/ v. 滑倒
+- join /dʒɔɪn/ v. 加入；参加
+- hurt /hɜːt/ v. 受伤；疼痛（过去式 hurt）
 - meet 见面（过去式 met）
 - sound 听起来
 - ask 问；邀请
 - walk 走路
 
 #### 形容词
-- clean 干净的
-- dirty 脏的
-- beautiful 美丽的
-- sorry 抱歉的
-- healthy 健康的
+- clean /kliːn/ adj. / v. 干净的
+- dirty /ˈdɜːti/ adj. 脏的
+- beautiful /ˈbjuːtɪfl/ adj. 美丽的
+- sorry /ˈsɒri/ adj. 抱歉的
+- healthy /ˈhelθi/ adj. 健康的
 - thirsty 口渴的
 - tired 累的
 - late 迟的；晚的
@@ -150,13 +150,13 @@ Keeping our city clean 保持城市清洁
 - on time 准时
 
 #### 短语
-- plogging 慢跑捡垃圾
+- plogging /ˈplɒɡɪŋ/ n. 慢跑捡垃圾
 - school gate 学校大门
 - on time 准时
 - do a great job 干得好
 - make...dirty 把……弄脏
-- fall down 摔倒
-- pick up 捡起
+- fall /fɔːl/ v. down 摔倒
+- pick /pɪk/ v. up 捡起
 - throw...on the ground 把……扔在地上
 - at the same time 同时
 - keep...healthy 保持健康
@@ -166,6 +166,16 @@ Keeping our city clean 保持城市清洁
 - too late 太晚了
 - help sb. up 扶某人起来
 - never do that again 再也不那样做了
+
+#### 词族与相关表达（配套拓展）
+
+以下用于帮助理解词形和相关表达，不将拓展词标成教材新增词。
+
+- **clean**：clean (adj.) 干净的；clean (v.) 打扫；cleaner (n.) 清洁工；清洁剂；dirty (adj.) 脏的（反义词）。
+- **health**：health (n.) 健康；healthy (adj.) 健康的；unhealthy (adj.) 不健康的；healthily (adv.) 健康地。
+- **beauty**：beauty (n.) 美丽；beautiful (adj.) 美丽的；beautifully (adv.) 美丽地；ugly (adj.) 丑陋的（反义词）。
+- **plan**：plan (n.) 计划；plan (v.) 计划；planning (n.) 规划；planner (n.) 规划者。
+- **fall**：fall (v.) 落下；跌倒；fall down 摔倒；fall off 从……摔下来；fall asleep 入睡；fallen：fall 的过去分词；作形容词可表示倒下的、落下的。
 
 ### 重点句型
 

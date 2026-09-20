@@ -73,18 +73,43 @@
 | 英语 | 中文 |
 |---|---|
 | technology | 科技；技术 |
-| smart / smartphone | 聪明的、智能的 / 智能手机 |
-| Chinese chess | 中国象棋（不是国际象棋） |
-| surprise | 惊喜；意外 |
+| smart / smartphone | 聪明的、智能的 / 智能手机；smartphone /ˈsmɑːtfəʊn/ n.；smart /smɑːt/ adj. |
+| Chinese chess | 中国象棋（不是国际象棋）；chess /tʃes/ n. |
+| surprise | 惊喜；意外；surprise /səˈpraɪz/ n. |
 | chores | 家务活 |
 | screen | 屏幕 |
 | in the past / these days | 在过去 / 如今 |
-| chat on the internet | 在网上聊天 |
+| chat on the internet | 在网上聊天；Internet /ˈɪntənet/ n. |
 | high-speed train | 高速列车；高铁 |
-| work from home | 居家工作 |
+| work from home | 居家工作；work /wɜːk/ v. |
 | online meeting | 线上会议 |
 | pay in cash | 用现金付款 |
-| robot helper | 机器人助手 |
+| robot helper | 机器人助手；robot /ˈrəʊbɒt/ n. |
+
+#### 补充词语注释
+
+以下为配套词汇注释，不额外指定教材必学词，不新增教材例句。
+
+| 词语 | 音标 | 词性 | 含义 |
+|---|---|---|---|
+| change | /tʃeɪndʒ/ | v. / n. | 改变；变化 |
+| ago | /əˈɡəʊ/ | adv. | 以前 |
+| letter | /ˈletə(r)/ | n. | 信 |
+| delicious | /dɪˈlɪʃəs/ | adj. | 美味的 |
+| dinner | /ˈdɪnə(r)/ | n. | 晚餐；正餐 |
+| park | /pɑːk/ | n. | 公园 |
+| happen | /ˈhæpən/ | v. | 发生 |
+| life | /laɪf/ | n. | 生活（复数 lives） |
+
+#### 词族与相关表达（配套拓展）
+
+以下用于帮助理解词形和相关表达，不将拓展词标成教材新增词。
+
+- **change**：change (v.) 改变；change (n.) 变化；changeable (adj.) 多变的；unchanged (adj.) 未改变的；exchange (v.) 交换。
+- **write**：write (v.) 写；wrote (过去式)；written (过去分词)；writer (n.) 作家；writing (n.) 写作；书写；handwriting (n.) 手写。
+- **happy/surprise**：surprise (n./v.) 惊喜；使惊讶；surprised (adj.) 感到惊讶的；surprising (adj.) 令人惊讶的；surprisingly (adv.) 令人惊讶地。
+- **smart**：smart (adj.) 聪明的；智能的；smartphone (n.) 智能手机；smartwatch (n.) 智能手表；smart home (n.) 智能家居；smarter (比较级) 更聪明的；smartest (最高级) 最聪明的。
+- **work**：work (v./n.) 工作；运转；worker (n.) 工人；working (adj.) 工作的；workplace (n.) 工作场所；homework (n.) 家庭作业；housework (n.) 家务；teamwork (n.) 团队合作。
 
 ### 动词与时态
 
@@ -112,4 +137,4 @@
 
 采访家人，记录过去和现在的一项生活变化。可用In the past, I ... / Now I ...，区分事实与自己的评价，不必把每种变化都写成“越来越好”。例如：In the past, I wrote letters. Now I chat with my friends online.（配套示例，不是额外课文段落。）
 
-原有content练习与wordlist本轮未重做；有声读本只从上述核对后的对话列表构建，时文和配套问题另行标注。
+配套练习已按上述核对后的对话列表生成；有声读本只从上述核对后的对话列表构建，时文和配套问题另行标注。

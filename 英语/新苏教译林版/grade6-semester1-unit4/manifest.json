@@ -8,15 +8,15 @@
     "name": "译林出版社"
   },
   "generation": {
-    "sourceHash": "",
-    "generatorVersion": "",
-    "generatedAt": ""
+    "sourceHash": "28adb9eb0c2424c0bb0491ea1a2c31ad5659de631f5379bd295e33d331fade77",
+    "generatorVersion": "source-aligned-exercises-20260920",
+    "generatedAt": "2026-09-20"
   },
   "domain": {
     "key": "english",
     "planning": {
       "language": "en",
-      "wordlist": "wordlist.md",
+      "wordlist": null,
       "vocabulary": null,
       "languageLevel": "primary-grade-6",
       "phonicsStage": null,
@@ -24,7 +24,7 @@
       "audience": {
         "stage": "primary",
         "ageRange": "11-12",
-        "teachingGoal": "阅读教材配套有声读本，熟悉本单元原文表达。"
+        "teachingGoal": "围绕教材原文，进行课文阅读、拆句和角色对话练习，再通过词族和句型迁移表达。"
       },
       "grade": 6,
       "semester": 1,
@@ -33,12 +33,20 @@
         "聚在一起 — 奶奶的生日与重阳节，感受亲情与传统文化"
       ],
       "growth": {
-        "growthAvailable": false,
-        "growthTypes": [],
-        "foundationActivityTypes": [
-          "readalong"
+        "growthAvailable": true,
+        "growthTypes": [
+          "word-family",
+          "pattern-transfer"
         ],
-        "growthActivityTypes": []
+        "foundationActivityTypes": [
+          "readalong",
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "word-family-practice",
+          "pattern-transfer-practice"
+        ]
       }
     },
     "package": {
@@ -51,6 +59,30 @@
           "type": "readalong",
           "name": "课文阅读",
           "data": "assets/readalong/Getting-together.web.html",
+          "enabled": true
+        },
+        {
+          "type": "sentence-practice",
+          "name": "拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "word-family-practice",
+          "name": "词族进化",
+          "data": "content/growth-content.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
           "enabled": true
         }
       ]

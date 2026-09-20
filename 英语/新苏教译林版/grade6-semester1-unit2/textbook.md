@@ -114,6 +114,7 @@ Honesty 诚实
 - each 每个；各自的
 
 #### 副词
+- yesterday 昨天
 - carefully 仔细地
 - away 离开；远离
 
