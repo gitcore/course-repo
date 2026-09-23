@@ -142,7 +142,7 @@
 - `name`: 六年级上册 Unit 1 - Try your best
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 1
-- `description`: 校园话剧与一般过去时表达的课程资源，配套拆句、对话、词族和句型迁移练习，附[课文阅读 · 插画有声读本及单元配套时文](英语/新苏教译林版/grade6-semester1-unit1/assets/readalong/Try-your-best.web.html)。
+- `description`: 校园话剧与一般过去时表达的课程资源，配套拆句、对话、词族和句型迁移练习，附[课文阅读 · 插画有声读本及单元配套时文](英语/新苏教译林版/grade6-semester1-unit1/assets/readalong/Try-your-best.html)。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit1/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit1/textbook.md`
 
