@@ -151,7 +151,7 @@
 - `name`: 六年级上册 Unit 2 - Honesty
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 2
-- `description`: 诚实主题与一般过去时的课程资源，附[课文阅读 · 插画有声读本与AI图片溯源时文](英语/新苏教译林版/grade6-semester1-unit2/assets/readalong/Honesty.web.html)。
+- `description`: 诚实主题与一般过去时的课程资源，附[课文阅读 · 插画有声读本与AI图片溯源时文](英语/新苏教译林版/grade6-semester1-unit2/assets/readalong/Honesty.html)。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit2/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit2/textbook.md`
 
@@ -160,7 +160,7 @@
 - `name`: Unit 3 Great people
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 3
-- `description`: 袁隆平与身边英雄主题，附[课文阅读 · 三篇插画有声读本](英语/新苏教译林版/grade6-semester1-unit3/assets/readalong/Great-people.web.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
+- `description`: 袁隆平与身边英雄主题，附[课文阅读 · 三篇插画有声读本](英语/新苏教译林版/grade6-semester1-unit3/assets/readalong/Great-people.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit3/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit3/textbook.md`
 
@@ -169,7 +169,7 @@
 - `name`: Unit 4 Getting together
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 4
-- `description`: 奶奶生日与重阳节主题，日期、序数词与过去时表达，附[课文阅读 · 三篇高清有声读本与AI关怀时文](英语/新苏教译林版/grade6-semester1-unit4/assets/readalong/Getting-together.web.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
+- `description`: 奶奶生日与重阳节主题，日期、序数词与过去时表达，附[课文阅读 · 三篇高清有声读本与AI关怀时文](英语/新苏教译林版/grade6-semester1-unit4/assets/readalong/Getting-together.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit4/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit4/textbook.md`
 
@@ -178,7 +178,7 @@
 - `name`: Unit 5 Keeping our city clean
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 5
-- `description`: 城市清洁与plogging环保主题，will计划表达与should建议；含[课文阅读 · 插画有声读本](英语/新苏教译林版/grade6-semester1-unit5/assets/readalong/Keeping-our-city-clean.web.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
+- `description`: 城市清洁与plogging环保主题，will计划表达与should建议；含[课文阅读 · 插画有声读本](英语/新苏教译林版/grade6-semester1-unit5/assets/readalong/Keeping-our-city-clean.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit5/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit5/textbook.md`
 
@@ -187,7 +187,7 @@
 - `name`: 六年级上册 Unit 6 - Going green
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 6
-- `description`: 绿色生活、地球日与地球一小时主题，will问句与环保计划，含[课文阅读 · 插画有声读本及自然观察时文](英语/新苏教译林版/grade6-semester1-unit6/assets/readalong/Going-green.web.html)。
+- `description`: 绿色生活、地球日与地球一小时主题，will问句与环保计划，含[课文阅读 · 插画有声读本及自然观察时文](英语/新苏教译林版/grade6-semester1-unit6/assets/readalong/Going-green.html)。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit6/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit6/textbook.md`
 
@@ -196,7 +196,7 @@
 - `name`: 六年级上册 Unit 7 - Old things, new life
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 7
-- `description`: 旧物新生与回收利用主题，感叹句、一般过去时与旧物创意改造表达，含[课文阅读 · 插画有声读本及音乐节维修时文](英语/新苏教译林版/grade6-semester1-unit7/assets/readalong/Old-things-new-life.web.html)。
+- `description`: 旧物新生与回收利用主题，感叹句、一般过去时与旧物创意改造表达，含[课文阅读 · 插画有声读本及音乐节维修时文](英语/新苏教译林版/grade6-semester1-unit7/assets/readalong/Old-things-new-life.html)。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit7/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit7/textbook.md`
 
@@ -205,7 +205,7 @@
 - `name`: 六年级上册 Unit 8 - Then and now
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 8
-- `description`: 过去与现在主题，王兵采访家人，比较通信、出行、工作与购物变化，含[课文阅读 · 插画有声读本及铁路规划时文](英语/新苏教译林版/grade6-semester1-unit8/assets/readalong/Then-and-now.web.html)。
+- `description`: 过去与现在主题，王兵采访家人，比较通信、出行、工作与购物变化，含[课文阅读 · 插画有声读本及铁路规划时文](英语/新苏教译林版/grade6-semester1-unit8/assets/readalong/Then-and-now.html)。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-unit8/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-unit8/textbook.md`
 
@@ -214,7 +214,7 @@
 - `name`: 六年级上册 Project 1 - A better me
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Project 1
-- `description`: 综合项目：品质举例、伟人信息卡、同伴交流与成长分享，含[课文阅读 · 原创任务导读有声读本及志愿者时文](英语/新苏教译林版/grade6-semester1-project1/assets/readalong/A-better-me.web.html)。
+- `description`: 综合项目：品质举例、伟人信息卡、同伴交流与成长分享，含[课文阅读 · 原创任务导读有声读本及志愿者时文](英语/新苏教译林版/grade6-semester1-project1/assets/readalong/A-better-me.html)。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-project1/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-project1/textbook.md`
 
@@ -223,7 +223,7 @@
 - `name`: 六年级上册 Project 2 - A better home
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Project 2
-- `description`: 综合项目：城市清洁、绿色生活、旧物利用与共同家园演讲，含[课文阅读 · 原创任务导读有声读本及食物浪费时文](英语/新苏教译林版/grade6-semester1-project2/assets/readalong/A-better-home.web.html)。
+- `description`: 综合项目：城市清洁、绿色生活、旧物利用与共同家园演讲，含[课文阅读 · 原创任务导读有声读本及食物浪费时文](英语/新苏教译林版/grade6-semester1-project2/assets/readalong/A-better-home.html)。
 - `manifest`: `英语/新苏教译林版/grade6-semester1-project2/manifest.json`
 - `source`: `英语/新苏教译林版/grade6-semester1-project2/textbook.md`
 
