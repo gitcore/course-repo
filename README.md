@@ -128,33 +128,6 @@
 - `manifest`: `英语/苏教译林版/grade5-semester2-unit8/manifest.json`
 - `source`: `英语/苏教译林版/grade5-semester2-unit8/textbook.md`
 
-#### `nanjing-yuhua-grade6-semester1-unit1`
-
-- `name`: 六年级上册 Unit 1 - The king's new clothes
-- `subject`: `english`
-- `scope`: 苏教译林版小学英语六年级上册 Unit 1
-- `description`: 国王新装故事及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade6-semester1-unit1/manifest.json`
-- `source`: `英语/苏教译林版/grade6-semester1-unit1/textbook.md`
-
-#### `nanjing-yuhua-grade6-semester1-unit2`
-
-- `name`: 六年级上册 Unit 2 - What a day!
-- `subject`: `english`
-- `scope`: 苏教译林版小学英语六年级上册 Unit 2
-- `description`: 日常经历叙述及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade6-semester1-unit2/manifest.json`
-- `source`: `英语/苏教译林版/grade6-semester1-unit2/textbook.md`
-
-#### `nanjing-yuhua-grade6-semester1-unit3`
-
-- `name`: 六年级上册 Unit 3 - Holiday fun
-- `subject`: `english`
-- `scope`: 苏教译林版小学英语六年级上册 Unit 3
-- `description`: 假期活动及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade6-semester1-unit3/manifest.json`
-- `source`: `英语/苏教译林版/grade6-semester1-unit3/textbook.md`
-
 ### 英语 / 新苏教译林版
 
 #### `new-yilin-grade6-semester1-unit1`
