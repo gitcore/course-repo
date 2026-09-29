@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "2.0",
+  "id": "english-reader-grade6-national-day-wanping-2026",
+  "name": "六年级新闻读本：宛平城里的国庆戏曲",
+  "description": "依据 2026 年 9 月宛平城戏曲嘉年华的开幕报道和国庆期间的活动安排，阅读原创分级新闻，练习日期、一般过去时与 will 计划表达。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "languageLevel": "primary-grade-6",
+      "grade": 6,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "读懂有来源的国庆活动新闻，区分已发生的戏曲巡游与尚未举行的国庆安排；迁移六上 Unit 4 日期、Unit 1 过去时与 Unit 5 will 计划表达。"
+      },
+      "tags": [
+        "独立读本",
+        "时事英语",
+        "国庆节",
+        "中国戏曲",
+        "日期表达",
+        "过去与计划"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "reader-markdown",
+        "path": "reader.md"
+      },
+      "activities": [
+        {
+          "type": "readalong",
+          "name": "阅读国庆活动新闻读本",
+          "data": "assets/readalong/national-day-at-wanping.html",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

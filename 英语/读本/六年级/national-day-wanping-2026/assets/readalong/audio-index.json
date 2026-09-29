@@ -1,0 +1,285 @@
+{
+  "source": "reader.md",
+  "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+  "engine": "Qwen3-TTS Base / MLX-Audio",
+  "model": "mlx-community/Qwen3-TTS-12Hz-1.7B-Base-8bit",
+  "revision": "e7dd0585652209fa0d7783659aad4e8a324de11c",
+  "syntheticAudio": true,
+  "reference": ".tmp/audio/british-female-new-soft-sibilants-gpkjubhy/british-female-new-soft-sibilants.wav",
+  "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+  "referenceText": "Two weeks ago, Su Hai wanted to play Mulan in a school play. It was her first school play. She wanted to try her best.",
+  "temperature": 0.6,
+  "topP": 0.95,
+  "volumePolicy": "+5 dB uniform gain, capped at -1 dBFS sample peak",
+  "sampleRate": 24000,
+  "clips": [
+    {
+      "id": 1,
+      "text": "China's National Day is on 1st October.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.28,
+      "path": "audio/line-01.m4a",
+      "seed": 260930,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.7978106141090393,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "adb57aa2abe6282b2bc5d470585d66ff6012991a16fb16f51ba3e607e23b2c6a",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 2,
+      "text": "On 25th September, a Chinese opera festival opened in Wanping Town, Beijing.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 5.52,
+      "path": "audio/line-02.m4a",
+      "seed": 260931,
+      "gainDb": 4.033,
+      "peakAmplitude": 0.8912509083747864,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "2e07b6f285bb38cf0f3119f5798fa4a5a0f08c2cb1adaa55c8e4f4a95b337337",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 3,
+      "text": "Performers on tall stilts walked along the main street.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.6,
+      "path": "audio/line-03.m4a",
+      "seed": 260932,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.8645740151405334,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "4ce44d6b29e0c2a4664bfc39f022d6e0ce8ce05582073f122f61835e1e9bf7a8",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 4,
+      "text": "The old street became a moving stage.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 2.88,
+      "path": "audio/line-04.m4a",
+      "seed": 260933,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.690737247467041,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "c04033d3084e899c5bcb46c7339eb292c2f3589c22e2baee28211fb1df7071be",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 5,
+      "text": "Performers in traditional costumes passed the grey brick buildings.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 4.08,
+      "path": "audio/line-05.m4a",
+      "seed": 261034,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.8649561405181885,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "ff83a426d7a731352a9bdfcee4d53ad05937f0abbbc181789c808950b9527946"
+    },
+    {
+      "id": 6,
+      "text": "A visitor took photos of the parade with her phone.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.44,
+      "path": "audio/line-06.m4a",
+      "seed": 260935,
+      "gainDb": 3.574,
+      "peakAmplitude": 0.8912509679794312,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "6155718bcada3ca871ebbeb9d51825bd4e4c73435065cc03d61a9c2d953213d6"
+    },
+    {
+      "id": 7,
+      "text": "She said her child was very excited.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.04,
+      "path": "audio/line-07.m4a",
+      "seed": 260936,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.8341354131698608,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "22ca6cac741f2266bc76fbc9a46780ae6a56364dfdfb8af5d76061e8af17cf66",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 8,
+      "text": "More visitors watched shows around the old town.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.6,
+      "path": "audio/line-08.m4a",
+      "seed": 260937,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.8211908340454102,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "3f78aa2a4f602466655578cb9bd16b776022c4e9badf4ce666b9efe95b4ec081",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 9,
+      "text": "Shows took place at different spots in the town.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.2,
+      "path": "audio/line-09.m4a",
+      "seed": 260938,
+      "gainDb": 4.052,
+      "peakAmplitude": 0.8912509083747864,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "73730511507031c97af0f032360de54b423d50822a3eff7c163f9bed5e6c9b9b",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 10,
+      "text": "People watched dances, crosstalk and Sichuan Opera face-changing.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 4.8,
+      "path": "audio/line-10.m4a",
+      "seed": 260939,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.8765087723731995,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "db936a2395244a51e221000bd225b855d528a614fca4605db2a2f21afa74da7a",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 11,
+      "text": "In the evening, singers performed near Xinglong Temple.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 4.4,
+      "path": "audio/line-11.m4a",
+      "seed": 260940,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.7225199937820435,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "e8686e59db06feb1e85f93bbd59f54d158eb1962acd3e50dd86f67fb9c7d8776",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 12,
+      "text": "Lights and music made the old town lively.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.52,
+      "path": "audio/line-12.m4a",
+      "seed": 260941,
+      "gainDb": 2.712,
+      "peakAmplitude": 0.8912509083747864,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "e9a4d963bef1330e7d532e9e91ecc1ae650904687927955359862827474b1cb2",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 13,
+      "text": "The festival opened before National Day.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 2.64,
+      "path": "audio/line-13.m4a",
+      "seed": 260942,
+      "gainDb": 4.358,
+      "peakAmplitude": 0.8912509083747864,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "47e02875a72148f09995f480ecc62db9ac809cbd3d3a3f6bfca6d1e376144bb4",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 14,
+      "text": "More shows are planned from 1st to 7th October.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.84,
+      "path": "audio/line-14.m4a",
+      "seed": 260943,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.7700987458229065,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "d035e58953f56900a852cd6296cdad8953a860c85d68a1abbcbe189592f4a00b",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 15,
+      "text": "Wanping Town will have more opera and music shows.",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 3.44,
+      "path": "audio/line-15.m4a",
+      "seed": 260944,
+      "gainDb": 3.692,
+      "peakAmplitude": 0.8912509083747864,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "a37abdc2d8e7ef33de554964a86936a314a830afa554bbd7f9c2db6a33f2018b",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    },
+    {
+      "id": 16,
+      "text": "Which show would you like to watch?",
+      "voice": "British female teacher (shared synthetic reference)",
+      "duration": 2.08,
+      "path": "audio/line-16.m4a",
+      "seed": 260945,
+      "gainDb": 5.0,
+      "peakAmplitude": 0.7242151498794556,
+      "sourceHash": "c2d44e9264d61b1c23a96331c11e30a80aea611d9315edfad8d58acdbf46e3c9",
+      "referenceSha256": "459af324169d3ffd4d6422041b69a35cbf7ba40941d0368d09c823a767350fd4",
+      "sha256": "3e876a738f41e7a54f432bf12954eb67656302b7e9147c80392c65371d2b6546",
+      "reusedFrom": {
+        "run": ".tmp/audio/national-day-wanping-ijmi8r4c",
+        "sourceHash": "ca4df29873ba9472a7868e5801d1f034de1b540d8f3aece6ab5de2e19b4f3417"
+      }
+    }
+  ],
+  "fullAudio": {
+    "path": "audio/national-day-at-wanping-full.m4a",
+    "sha256": "df06519d45b3abe92ee57e6cf10a0c175eac41aea72f9843a88892a1a2b39483"
+  }
+}

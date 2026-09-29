@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "2.0",
+  "id": "english-reader-grade6-dinner-on-mars-2026",
+  "name": "六年级新闻读本：火星上的晚餐？",
+  "description": "依据 NASA 2026 年 9 月火星餐食设计赛，阅读原创分级新闻，练习区分现在的事实与未来的设想，并联系六上 Unit 8 的过去与现在表达。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "languageLevel": "primary-grade-6",
+      "grade": 6,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "读懂有来源的科技新闻，区分已发生的比赛结果与未实施的设计；用 In the past... / Now... 联系六上 Unit 8，尝试用 will 表达未来可能的生活变化。"
+      },
+      "tags": [
+        "独立读本",
+        "时事英语",
+        "太空食物",
+        "过去与现在",
+        "未来生活"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "reader-markdown",
+        "path": "reader.md"
+      },
+      "activities": [
+        {
+          "type": "readalong",
+          "name": "阅读新闻读本",
+          "data": "assets/readalong/dinner-on-mars.html",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

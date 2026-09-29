@@ -6,7 +6,7 @@
 
 规划系统可将本目录作为候选资源索引，并在执行前将候选资源与当前已部署、可执行的 provider 求交集。目录中出现数学或英语资源，不表示任一部署一定能执行它。
 
-选择资源后，应读取其 manifest 确认身份与入口，再读取对应 `textbook.md` 了解教材事实和可据此制定的目标。
+选择资源后，应读取其 manifest 确认身份与入口，再读取 `domain.package.source.path` 指向的来源文档。教材课程通常使用 `textbook.md`；独立读本可使用自己的阅读来源文档。
 
 ## 可规划资源目录
 
@@ -33,6 +33,26 @@
 - `description`: 小数乘法和除法及近似值计算的课程资源。
 - `manifest`: `数学/新苏教版/grade6-semester1-unit1/manifest.json`
 - `source`: `数学/新苏教版/grade6-semester1-unit1/textbook.md`
+
+### 英语 / 读本 / 六年级
+
+#### `english-reader-grade6-dinner-on-mars-2026`
+
+- `name`: 六年级新闻读本：火星上的晚餐？
+- `subject`: `english`
+- `scope`: 小学英语六年级独立时事读本，连接六上 Unit 8《Then and now》的过去与现在表达
+- `description`: 依据 NASA 2026 年 9 月火星餐食设计赛，阅读原创分级新闻，练习区分现在的事实与未来的设想，并联系六上 Unit 8 的过去与现在表达。
+- `manifest`: `英语/读本/六年级/dinner-on-mars-2026/manifest.json`
+- `source`: `英语/读本/六年级/dinner-on-mars-2026/reader.md`
+
+#### `english-reader-grade6-national-day-wanping-2026`
+
+- `name`: 六年级新闻读本：宛平城里的国庆戏曲
+- `subject`: `english`
+- `scope`: 小学英语六年级独立活动新闻读本，连接六上 Unit 4 日期、Unit 1 过去时与 Unit 5 will 计划表达
+- `description`: 依据 2026 年 9 月宛平城戏曲嘉年华的开幕报道和国庆期间的活动安排，阅读原创分级新闻，练习区分已发生的巡游与尚未举行的演出。
+- `manifest`: `英语/读本/六年级/national-day-wanping-2026/manifest.json`
+- `source`: `英语/读本/六年级/national-day-wanping-2026/reader.md`
 
 ### 英语 / 苏教译林版
 
