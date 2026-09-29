@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "2.0",
+  "id": "english-reader-grade6-lins-first-game-2026",
+  "name": "六年级主题读本：Lin 的第一个小游戏",
+  "description": "原创编程启蒙故事：用图形积木制作小游戏，理解步骤顺序、重复、测试与修正，并迁移六上一般过去时和 will 计划表达。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "languageLevel": "primary-grade-6",
+      "grade": 6,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "读懂儿童制作第一个图形编程小游戏的过程，能按顺序解释按键事件、移动、重复与发现并修正错误；迁移六上 Unit 1 的过去时和 Unit 5 的 will 计划表达。"
+      },
+      "tags": [
+        "独立读本",
+        "编程启蒙",
+        "图形编程",
+        "顺序与重复",
+        "测试与调试",
+        "过去与计划"
+      ]
+    },
+    "package": {
+      "source": {
+        "type": "reader-markdown",
+        "path": "reader.md"
+      },
+      "activities": [
+        {
+          "type": "readalong",
+          "name": "阅读 Lin 的第一个小游戏",
+          "data": "assets/readalong/lins-first-game.html",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

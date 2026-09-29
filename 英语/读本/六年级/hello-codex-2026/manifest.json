@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "2.0",
+  "id": "english-reader-grade6-hello-codex-2026",
+  "name": "六年级主题读本：Hello, Codex! 和 Codex 一起做读本",
+  "description": "原创科技故事：由老师演示使用 Codex 制作班级网页读本，学习说清目标、报告具体问题和检查结果，迁移六上一般过去时、should 建议和 will 计划表达。",
+  "subject": "english",
+  "publisher": { "name": "Learn with daddy's love" },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "languageLevel": "primary-grade-6",
+      "grade": 6,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "读懂 Codex 的编程辅助用途和制作网页读本的过程；在老师演示下练习说清目标、给出内容、测试按钮、描述问题和复查结果，用过去时复述尝试，用 will 说出下一步计划。"
+      },
+      "tags": ["独立读本", "Codex", "人工智能素养", "清楚表达需求", "检查与改进", "过去与计划"]
+    },
+    "package": {
+      "source": { "type": "reader-markdown", "path": "reader.md" },
+      "activities": [
+        {
+          "type": "readalong",
+          "name": "阅读 Hello, Codex!",
+          "data": "assets/readalong/hello-codex.html",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

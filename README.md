@@ -36,6 +36,24 @@
 
 ### 英语 / 读本 / 六年级
 
+#### `english-reader-grade6-hello-codex-2026`
+
+- `name`: 六年级主题读本：Hello, Codex! 和 Codex 一起做读本
+- `subject`: `english`
+- `scope`: 小学英语六年级原创科技读本，介绍 Codex 与清楚提需求、测试和改进作品的方法
+- `description`: 通过老师演示制作班级网页读本的故事，认识 Codex 的编程辅助用途，练习说清目标、报告问题与检查结果，并迁移一般过去时和 will 计划表达。
+- `manifest`: `英语/读本/六年级/hello-codex-2026/manifest.json`
+- `source`: `英语/读本/六年级/hello-codex-2026/reader.md`
+
+#### `english-reader-grade6-lins-first-game-2026`
+
+- `name`: 六年级主题读本：Lin 的第一个小游戏
+- `subject`: `english`
+- `scope`: 小学英语六年级原创编程启蒙读本，连接六上 Unit 1 过去时与 Unit 5 will 计划表达
+- `description`: 跟着 Lin 用图形积木制作小游戏，阅读按顺序执行、重复、测试与修正的故事，并完成纸上编程挑战。
+- `manifest`: `英语/读本/六年级/lins-first-game-2026/manifest.json`
+- `source`: `英语/读本/六年级/lins-first-game-2026/reader.md`
+
 #### `english-reader-grade6-dinner-on-mars-2026`
 
 - `name`: 六年级新闻读本：火星上的晚餐？
