@@ -8,11 +8,16 @@
 
 选择资源后，应读取其 manifest 确认身份与入口，再读取 `domain.package.source.path` 指向的来源文档。教材课程通常使用 `textbook.md`；独立读本可使用自己的阅读来源文档。
 
+## 学段目录
+
+- [小学](小学/)：小学课程。
+- [初中](初中/)、[高中](高中/)、[大学](大学/)：预留课程目录。
+
 ## 可规划资源目录
 
 <!-- weekly-scope-catalog:v1:start -->
 
-### 数学 / 五年级知识要点
+### 小学 / 数学 / 五年级知识要点
 
 #### `primary-math-grade5-knowledge-points`
 
@@ -20,10 +25,10 @@
 - `subject`: `math`
 - `scope`: 小学数学五年级核心知识要点复习
 - `description`: 五年级数学知识要点的系统复习课程资源。
-- `manifest`: `数学/五年级数学知识要点/manifest.json`
-- `source`: `数学/五年级数学知识要点/textbook.md`
+- `manifest`: `小学/数学/五年级数学知识要点/manifest.json`
+- `source`: `小学/数学/五年级数学知识要点/textbook.md`
 
-### 数学 / 新苏教版
+### 小学 / 数学 / 新苏教版
 
 #### `new-sujiao-grade6-semester1-unit1-math`
 
@@ -31,10 +36,10 @@
 - `subject`: `math`
 - `scope`: 新苏教版小学数学六年级上册第一单元
 - `description`: 小数乘法和除法及近似值计算的课程资源。
-- `manifest`: `数学/新苏教版/grade6-semester1-unit1/manifest.json`
-- `source`: `数学/新苏教版/grade6-semester1-unit1/textbook.md`
+- `manifest`: `小学/数学/新苏教版/grade6-semester1-unit1/manifest.json`
+- `source`: `小学/数学/新苏教版/grade6-semester1-unit1/textbook.md`
 
-### 英语 / 读本 / 六年级
+### 小学 / 英语 / 读本 / 六年级
 
 #### `english-reader-grade6-hello-codex-2026`
 
@@ -42,8 +47,8 @@
 - `subject`: `english`
 - `scope`: 小学英语六年级原创科技读本，介绍 Codex 与清楚提需求、测试和改进作品的方法
 - `description`: 通过老师演示制作班级网页读本的故事，认识 Codex 的编程辅助用途，练习说清目标、报告问题与检查结果，并迁移一般过去时和 will 计划表达。
-- `manifest`: `英语/读本/六年级/hello-codex-2026/manifest.json`
-- `source`: `英语/读本/六年级/hello-codex-2026/reader.md`
+- `manifest`: `小学/英语/读本/六年级/hello-codex-2026/manifest.json`
+- `source`: `小学/英语/读本/六年级/hello-codex-2026/reader.md`
 
 #### `english-reader-grade6-lins-first-game-2026`
 
@@ -51,8 +56,8 @@
 - `subject`: `english`
 - `scope`: 小学英语六年级原创编程启蒙读本，连接六上 Unit 1 过去时与 Unit 5 will 计划表达
 - `description`: 跟着 Lin 用图形积木制作小游戏，阅读按顺序执行、重复、测试与修正的故事，并完成纸上编程挑战。
-- `manifest`: `英语/读本/六年级/lins-first-game-2026/manifest.json`
-- `source`: `英语/读本/六年级/lins-first-game-2026/reader.md`
+- `manifest`: `小学/英语/读本/六年级/lins-first-game-2026/manifest.json`
+- `source`: `小学/英语/读本/六年级/lins-first-game-2026/reader.md`
 
 #### `english-reader-grade6-dinner-on-mars-2026`
 
@@ -60,8 +65,8 @@
 - `subject`: `english`
 - `scope`: 小学英语六年级独立时事读本，连接六上 Unit 8《Then and now》的过去与现在表达
 - `description`: 依据 NASA 2026 年 9 月火星餐食设计赛，阅读原创分级新闻，练习区分现在的事实与未来的设想，并联系六上 Unit 8 的过去与现在表达。
-- `manifest`: `英语/读本/六年级/dinner-on-mars-2026/manifest.json`
-- `source`: `英语/读本/六年级/dinner-on-mars-2026/reader.md`
+- `manifest`: `小学/英语/读本/六年级/dinner-on-mars-2026/manifest.json`
+- `source`: `小学/英语/读本/六年级/dinner-on-mars-2026/reader.md`
 
 #### `english-reader-grade6-national-day-wanping-2026`
 
@@ -69,10 +74,10 @@
 - `subject`: `english`
 - `scope`: 小学英语六年级独立活动新闻读本，连接六上 Unit 4 日期、Unit 1 过去时与 Unit 5 will 计划表达
 - `description`: 依据 2026 年 9 月宛平城戏曲嘉年华的开幕报道和国庆期间的活动安排，阅读原创分级新闻，练习区分已发生的巡游与尚未举行的演出。
-- `manifest`: `英语/读本/六年级/national-day-wanping-2026/manifest.json`
-- `source`: `英语/读本/六年级/national-day-wanping-2026/reader.md`
+- `manifest`: `小学/英语/读本/六年级/national-day-wanping-2026/manifest.json`
+- `source`: `小学/英语/读本/六年级/national-day-wanping-2026/reader.md`
 
-### 英语 / 苏教译林版
+### 小学 / 英语 / 苏教译林版
 
 #### `nanjing-yuhua-grade5-semester2-unit1`
 
@@ -80,8 +85,8 @@
 - `subject`: `english`
 - `scope`: 苏教译林版小学英语五年级下册 Unit 1
 - `description`: 灰姑娘故事及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade5-semester2-unit1/manifest.json`
-- `source`: `英语/苏教译林版/grade5-semester2-unit1/textbook.md`
+- `manifest`: `小学/英语/苏教译林版/grade5-semester2-unit1/manifest.json`
+- `source`: `小学/英语/苏教译林版/grade5-semester2-unit1/textbook.md`
 
 #### `nanjing-yuhua-grade5-semester2-unit2`
 
@@ -89,8 +94,8 @@
 - `subject`: `english`
 - `scope`: 苏教译林版小学英语五年级下册 Unit 2
 - `description`: 上学交通方式及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade5-semester2-unit2/manifest.json`
-- `source`: `英语/苏教译林版/grade5-semester2-unit2/textbook.md`
+- `manifest`: `小学/英语/苏教译林版/grade5-semester2-unit2/manifest.json`
+- `source`: `小学/英语/苏教译林版/grade5-semester2-unit2/textbook.md`
 
 #### `nanjing-yuhua-grade5-semester2-unit3`
 
@@ -98,8 +103,8 @@
 - `subject`: `english`
 - `scope`: 苏教译林版小学英语五年级下册 Unit 3
 - `description`: 问路、指路及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade5-semester2-unit3/manifest.json`
-- `source`: `英语/苏教译林版/grade5-semester2-unit3/textbook.md`
+- `manifest`: `小学/英语/苏教译林版/grade5-semester2-unit3/manifest.json`
+- `source`: `小学/英语/苏教译林版/grade5-semester2-unit3/textbook.md`
 
 #### `nanjing-yuhua-grade5-semester2-unit4`
 
@@ -107,8 +112,8 @@
 - `subject`: `english`
 - `scope`: 苏教译林版小学英语五年级下册 Unit 4
 - `description`: 就医、身体状况及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade5-semester2-unit4/manifest.json`
-- `source`: `英语/苏教译林版/grade5-semester2-unit4/textbook.md`
+- `manifest`: `小学/英语/苏教译林版/grade5-semester2-unit4/manifest.json`
+- `source`: `小学/英语/苏教译林版/grade5-semester2-unit4/textbook.md`
 
 #### `nanjing-yuhua-grade5-semester2-unit5`
 
@@ -116,8 +121,8 @@
 - `subject`: `english`
 - `scope`: 苏教译林版小学英语五年级下册 Unit 5
 - `description`: 家务活动及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade5-semester2-unit5/manifest.json`
-- `source`: `英语/苏教译林版/grade5-semester2-unit5/textbook.md`
+- `manifest`: `小学/英语/苏教译林版/grade5-semester2-unit5/manifest.json`
+- `source`: `小学/英语/苏教译林版/grade5-semester2-unit5/textbook.md`
 
 #### `nanjing-yuhua-grade5-semester2-unit6`
 
@@ -125,8 +130,8 @@
 - `subject`: `english`
 - `scope`: 苏教译林版小学英语五年级下册 Unit 6
 - `description`: 厨房、食物及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade5-semester2-unit6/manifest.json`
-- `source`: `英语/苏教译林版/grade5-semester2-unit6/textbook.md`
+- `manifest`: `小学/英语/苏教译林版/grade5-semester2-unit6/manifest.json`
+- `source`: `小学/英语/苏教译林版/grade5-semester2-unit6/textbook.md`
 
 #### `nanjing-yuhua-grade5-semester2-unit7`
 
@@ -134,8 +139,8 @@
 - `subject`: `english`
 - `scope`: 苏教译林版小学英语五年级下册 Unit 7
 - `description`: 中国传统节日及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade5-semester2-unit7/manifest.json`
-- `source`: `英语/苏教译林版/grade5-semester2-unit7/textbook.md`
+- `manifest`: `小学/英语/苏教译林版/grade5-semester2-unit7/manifest.json`
+- `source`: `小学/英语/苏教译林版/grade5-semester2-unit7/textbook.md`
 
 #### `nanjing-yuhua-grade5-semester2-unit8`
 
@@ -143,102 +148,102 @@
 - `subject`: `english`
 - `scope`: 苏教译林版小学英语五年级下册 Unit 8
 - `description`: 生日庆祝及相关课文表达的课程资源。
-- `manifest`: `英语/苏教译林版/grade5-semester2-unit8/manifest.json`
-- `source`: `英语/苏教译林版/grade5-semester2-unit8/textbook.md`
+- `manifest`: `小学/英语/苏教译林版/grade5-semester2-unit8/manifest.json`
+- `source`: `小学/英语/苏教译林版/grade5-semester2-unit8/textbook.md`
 
-### 英语 / 新苏教译林版
+### 小学 / 英语 / 新苏教译林版
 
 #### `new-yilin-grade6-semester1-unit1`
 
 - `name`: 六年级上册 Unit 1 - Try your best
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 1
-- `description`: 校园话剧与一般过去时表达的课程资源，配套拆句、对话、词族和句型迁移练习，附[课文阅读 · 插画有声读本及单元配套时文](英语/新苏教译林版/grade6-semester1-unit1/assets/readalong/Try-your-best.html)。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-unit1/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-unit1/textbook.md`
+- `description`: 校园话剧与一般过去时表达的课程资源，配套拆句、对话、词族和句型迁移练习，附[课文阅读 · 插画有声读本及单元配套时文](小学/英语/新苏教译林版/grade6-semester1-unit1/assets/readalong/Try-your-best.html)。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-unit1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-unit1/textbook.md`
 
 #### `new-yilin-grade6-semester1-unit2`
 
 - `name`: 六年级上册 Unit 2 - Honesty
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 2
-- `description`: 诚实主题与一般过去时的课程资源，附[课文阅读 · 插画有声读本与AI图片溯源时文](英语/新苏教译林版/grade6-semester1-unit2/assets/readalong/Honesty.html)。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-unit2/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-unit2/textbook.md`
+- `description`: 诚实主题与一般过去时的课程资源，附[课文阅读 · 插画有声读本与AI图片溯源时文](小学/英语/新苏教译林版/grade6-semester1-unit2/assets/readalong/Honesty.html)。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-unit2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-unit2/textbook.md`
 
 #### `grade6-semester1-unit3`
 
 - `name`: Unit 3 Great people
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 3
-- `description`: 袁隆平与身边英雄主题，附[课文阅读 · 三篇插画有声读本](英语/新苏教译林版/grade6-semester1-unit3/assets/readalong/Great-people.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-unit3/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-unit3/textbook.md`
+- `description`: 袁隆平与身边英雄主题，附[课文阅读 · 三篇插画有声读本](小学/英语/新苏教译林版/grade6-semester1-unit3/assets/readalong/Great-people.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-unit3/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-unit3/textbook.md`
 
 #### `grade6-semester1-unit4`
 
 - `name`: Unit 4 Getting together
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 4
-- `description`: 奶奶生日与重阳节主题，日期、序数词与过去时表达，附[课文阅读 · 三篇高清有声读本与AI关怀时文](英语/新苏教译林版/grade6-semester1-unit4/assets/readalong/Getting-together.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-unit4/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-unit4/textbook.md`
+- `description`: 奶奶生日与重阳节主题，日期、序数词与过去时表达，附[课文阅读 · 三篇高清有声读本与AI关怀时文](小学/英语/新苏教译林版/grade6-semester1-unit4/assets/readalong/Getting-together.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-unit4/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-unit4/textbook.md`
 
 #### `grade6-semester1-unit5`
 
 - `name`: Unit 5 Keeping our city clean
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 5
-- `description`: 城市清洁与plogging环保主题，will计划表达与should建议；含[课文阅读 · 插画有声读本](英语/新苏教译林版/grade6-semester1-unit5/assets/readalong/Keeping-our-city-clean.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-unit5/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-unit5/textbook.md`
+- `description`: 城市清洁与plogging环保主题，will计划表达与should建议；含[课文阅读 · 插画有声读本](小学/英语/新苏教译林版/grade6-semester1-unit5/assets/readalong/Keeping-our-city-clean.html)。已启用课文阅读、拆句练习、对话练习、词族进化和句型迁移。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-unit5/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-unit5/textbook.md`
 
 #### `grade6-semester1-unit6`
 
 - `name`: 六年级上册 Unit 6 - Going green
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 6
-- `description`: 绿色生活、地球日与地球一小时主题，will问句与环保计划，含[课文阅读 · 插画有声读本及自然观察时文](英语/新苏教译林版/grade6-semester1-unit6/assets/readalong/Going-green.html)。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-unit6/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-unit6/textbook.md`
+- `description`: 绿色生活、地球日与地球一小时主题，will问句与环保计划，含[课文阅读 · 插画有声读本及自然观察时文](小学/英语/新苏教译林版/grade6-semester1-unit6/assets/readalong/Going-green.html)。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-unit6/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-unit6/textbook.md`
 
 #### `grade6-semester1-unit7`
 
 - `name`: 六年级上册 Unit 7 - Old things, new life
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 7
-- `description`: 旧物新生与回收利用主题，感叹句、一般过去时与旧物创意改造表达，含[课文阅读 · 插画有声读本及音乐节维修时文](英语/新苏教译林版/grade6-semester1-unit7/assets/readalong/Old-things-new-life.html)。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-unit7/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-unit7/textbook.md`
+- `description`: 旧物新生与回收利用主题，感叹句、一般过去时与旧物创意改造表达，含[课文阅读 · 插画有声读本及音乐节维修时文](小学/英语/新苏教译林版/grade6-semester1-unit7/assets/readalong/Old-things-new-life.html)。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-unit7/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-unit7/textbook.md`
 
 #### `grade6-semester1-unit8`
 
 - `name`: 六年级上册 Unit 8 - Then and now
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Unit 8
-- `description`: 过去与现在主题，王兵采访家人，比较通信、出行、工作与购物变化，含[课文阅读 · 插画有声读本及铁路规划时文](英语/新苏教译林版/grade6-semester1-unit8/assets/readalong/Then-and-now.html)。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-unit8/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-unit8/textbook.md`
+- `description`: 过去与现在主题，王兵采访家人，比较通信、出行、工作与购物变化，含[课文阅读 · 插画有声读本及铁路规划时文](小学/英语/新苏教译林版/grade6-semester1-unit8/assets/readalong/Then-and-now.html)。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-unit8/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-unit8/textbook.md`
 
 #### `grade6-semester1-project1`
 
 - `name`: 六年级上册 Project 1 - A better me
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Project 1
-- `description`: 综合项目：品质举例、伟人信息卡、同伴交流与成长分享，含[课文阅读 · 原创任务导读有声读本及志愿者时文](英语/新苏教译林版/grade6-semester1-project1/assets/readalong/A-better-me.html)。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-project1/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-project1/textbook.md`
+- `description`: 综合项目：品质举例、伟人信息卡、同伴交流与成长分享，含[课文阅读 · 原创任务导读有声读本及志愿者时文](小学/英语/新苏教译林版/grade6-semester1-project1/assets/readalong/A-better-me.html)。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-project1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-project1/textbook.md`
 
 #### `grade6-semester1-project2`
 
 - `name`: 六年级上册 Project 2 - A better home
 - `subject`: `english`
 - `scope`: 新苏教译林版小学英语六年级上册 Project 2
-- `description`: 综合项目：城市清洁、绿色生活、旧物利用与共同家园演讲，含[课文阅读 · 原创任务导读有声读本及食物浪费时文](英语/新苏教译林版/grade6-semester1-project2/assets/readalong/A-better-home.html)。
-- `manifest`: `英语/新苏教译林版/grade6-semester1-project2/manifest.json`
-- `source`: `英语/新苏教译林版/grade6-semester1-project2/textbook.md`
+- `description`: 综合项目：城市清洁、绿色生活、旧物利用与共同家园演讲，含[课文阅读 · 原创任务导读有声读本及食物浪费时文](小学/英语/新苏教译林版/grade6-semester1-project2/assets/readalong/A-better-home.html)。
+- `manifest`: `小学/英语/新苏教译林版/grade6-semester1-project2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade6-semester1-project2/textbook.md`
 
-### 英语 / 译林自然拼读
+### 小学 / 英语 / 译林自然拼读
 
 #### `phonics-stage1-short-vowels`
 
@@ -246,8 +251,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第一阶段：短元音与 CVC
 - `description`: 短元音和 CVC 单词拼读的入门课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage1-short-vowels/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage1-short-vowels/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage1-short-vowels/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage1-short-vowels/textbook.md`
 
 #### `phonics-stage2-consonant-digraphs`
 
@@ -255,8 +260,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第二阶段：辅音二合字母
 - `description`: 辅音二合字母发音规律的课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage2-consonant-digraphs/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage2-consonant-digraphs/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage2-consonant-digraphs/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage2-consonant-digraphs/textbook.md`
 
 #### `phonics-stage3-magic-e`
 
@@ -264,8 +269,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第三阶段：Magic E
 - `description`: Magic E 长元音模式的课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage3-magic-e/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage3-magic-e/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage3-magic-e/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage3-magic-e/textbook.md`
 
 #### `phonics-stage4-vowel-digraphs`
 
@@ -273,8 +278,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第四阶段：元音二合字母
 - `description`: 常见元音组合发音规律的课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage4-vowel-digraphs/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage4-vowel-digraphs/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage4-vowel-digraphs/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage4-vowel-digraphs/textbook.md`
 
 #### `phonics-stage5-r-controlled`
 
@@ -282,8 +287,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第五阶段：R 控制元音
 - `description`: R 控制元音发音规律的课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage5-r-controlled/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage5-r-controlled/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage5-r-controlled/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage5-r-controlled/textbook.md`
 
 #### `phonics-stage6-consonant-blends`
 
@@ -291,8 +296,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第六阶段：辅音丛
 - `description`: 辅音丛组合与拼读规律的课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage6-consonant-blends/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage6-consonant-blends/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage6-consonant-blends/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage6-consonant-blends/textbook.md`
 
 #### `phonics-stage7-other-vowels`
 
@@ -300,8 +305,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第七阶段：其他元音组合
 - `description`: 特殊元音组合发音规律的课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage7-other-vowels/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage7-other-vowels/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage7-other-vowels/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage7-other-vowels/textbook.md`
 
 #### `phonics-stage8-double-consonants`
 
@@ -309,8 +314,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第八阶段：双辅音拼写规律
 - `description`: 双辅音拼写与识读规律的课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage8-double-consonants/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage8-double-consonants/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage8-double-consonants/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage8-double-consonants/textbook.md`
 
 #### `phonics-stage9-tricky-words`
 
@@ -318,8 +323,8 @@
 - `subject`: `english`
 - `scope`: 译林自然拼读第九阶段：不规则词
 - `description`: 高频不规则词整体识读的课程资源。
-- `manifest`: `英语/译林自然拼读/phonics-stage9-tricky-words/manifest.json`
-- `source`: `英语/译林自然拼读/phonics-stage9-tricky-words/textbook.md`
+- `manifest`: `小学/英语/译林自然拼读/phonics-stage9-tricky-words/manifest.json`
+- `source`: `小学/英语/译林自然拼读/phonics-stage9-tricky-words/textbook.md`
 
 <!-- weekly-scope-catalog:v1:end -->
 
@@ -342,8 +347,8 @@
 
 - 英语课文课程：[英语课程内容规则](learn-english-course-content-rules.md)
 - 新苏教译林版的单元词汇、音标、释义及配套词族统一维护在各课程的 `textbook.md`，不再发布独立词表；全部10个课程的同步练习已对齐当前教材文件，两个 Project 的练习明确按原创任务导读生成。
-- 译林自然拼读：[自然拼读规则](英语/译林自然拼读/phonics-rules.md)
-- 有声读本制作：[构建工具与发布文件说明](.scripts/readalong/README.md)。脚本、模板、分镜与时文编排、提示词、预览和校验档案集中在工具目录，不随课程资源发布；各课程的读本入口路径保持不变。
+- 译林自然拼读：[自然拼读规则](小学/英语/译林自然拼读/phonics-rules.md)
+- 有声读本制作：[构建工具与发布文件说明](.scripts/readalong/README.md)。脚本、模板、分镜与时文编排、提示词、预览和校验档案集中在工具目录，不随课程资源发布；各课程内的读本入口文件名和相对路径保持不变。
 
 ## 测试资源
 
