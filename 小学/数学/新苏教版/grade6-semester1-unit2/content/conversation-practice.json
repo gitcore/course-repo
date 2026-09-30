@@ -1,0 +1,154 @@
+{
+  "manifestId": "new-sujiao-grade6-semester1-unit2-math",
+  "sourceHash": "manual-new-sujiao-grade6-semester1-unit2-2026-09-28",
+  "generatorVersion": "manual-math-course-generator-1",
+  "generatedAt": "2026-09-28T00:00:00.000Z",
+  "activityType": "conversation-practice",
+  "sections": [
+    {
+      "title": "例题 1：判断运算顺序",
+      "lines": [
+        {
+          "sequenceNumber": 1,
+          "speaker": "题目",
+          "english": "计算 3/4 + 1/2 ÷ 2。",
+          "chinese": "这是加法与除法的混合运算。"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "先算",
+          "english": "1/2 ÷ 2 = 1/4。",
+          "chinese": "没有括号时先算除法。"
+        },
+        {
+          "sequenceNumber": 3,
+          "speaker": "后算",
+          "english": "3/4 + 1/4 = 1。",
+          "chinese": "分母相同，分子相加。"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "检查",
+          "english": "把原式改成 (3/4 + 1/2) ÷ 2，结果会不同。",
+          "chinese": "括号会改变运算顺序。"
+        }
+      ]
+    },
+    {
+      "title": "例题 2：用上界证明预算够用",
+      "lines": [
+        {
+          "sequenceNumber": 1,
+          "speaker": "题目",
+          "english": "100 元买 4 本单价 19.8 元的笔记本和 1 个 18.6 元的文具盒，够吗？",
+          "chinese": "先判断需要证明“够”。"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "估大",
+          "english": "把 19.8 元估大为 20 元，把 18.6 元估大为 19 元。",
+          "chinese": "估算的总价高于实际总价。"
+        },
+        {
+          "sequenceNumber": 3,
+          "speaker": "比较",
+          "english": "4 × 20 + 19 = 99（元），99 ＜ 100。",
+          "chinese": "估大后仍低于预算。"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "结论",
+          "english": "实际总价更低，所以 100 元够用。",
+          "chinese": "结论要说明估算方向。"
+        }
+      ]
+    },
+    {
+      "title": "例题 3：求剩余量",
+      "lines": [
+        {
+          "sequenceNumber": 1,
+          "speaker": "题目",
+          "english": "一条彩带长 60 米，用去全长的 2/5，还剩多少米？",
+          "chinese": "全长 60 米是单位“1”。"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "方法一",
+          "english": "60 − 60 × 2/5 = 36（米）。",
+          "chinese": "先求用去的长度。"
+        },
+        {
+          "sequenceNumber": 3,
+          "speaker": "方法二",
+          "english": "60 × (1 − 2/5) = 36（米）。",
+          "chinese": "先求剩余所占分率。"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "检查",
+          "english": "36 米小于 60 米，且用去 24 米，合计 60 米。",
+          "chinese": "用总量关系检验。"
+        }
+      ]
+    },
+    {
+      "title": "例题 4：比原数多几分之几",
+      "lines": [
+        {
+          "sequenceNumber": 1,
+          "speaker": "题目",
+          "english": "去年种 80 棵树，今年比去年多 3/8，今年种多少棵？",
+          "chinese": "去年 80 棵是单位“1”。"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "求增加量",
+          "english": "80 × 3/8 = 30（棵）。",
+          "chinese": "分率对应去年的数量。"
+        },
+        {
+          "sequenceNumber": 3,
+          "speaker": "求今年",
+          "english": "80 + 30 = 110（棵），也可列 80 × (1 + 3/8)。",
+          "chinese": "原数加增加量。"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "检查",
+          "english": "110 棵比 80 棵多 30 棵；30 ÷ 80 = 3/8。",
+          "chinese": "用分率反查。"
+        }
+      ]
+    },
+    {
+      "title": "例题 5：合作效率",
+      "lines": [
+        {
+          "sequenceNumber": 1,
+          "speaker": "题目",
+          "english": "同一批资料，甲独做 4 小时完成，乙独做 6 小时完成。两人同时做要多久？",
+          "chinese": "把全部资料看作 1。"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "求效率",
+          "english": "甲每小时完成 1/4，乙每小时完成 1/6。",
+          "chinese": "完成时间的倒数是每小时完成的份额。"
+        },
+        {
+          "sequenceNumber": 3,
+          "speaker": "求合作时间",
+          "english": "1 ÷ (1/4 + 1/6) = 1 ÷ 5/12 = 12/5（小时）。",
+          "chinese": "先加效率，再求时间。"
+        },
+        {
+          "sequenceNumber": 4,
+          "speaker": "检查",
+          "english": "12/5 小时是 2.4 小时，短于甲和乙各自的独做时间。",
+          "chinese": "数量关系符合实际。"
+        }
+      ]
+    }
+  ]
+}

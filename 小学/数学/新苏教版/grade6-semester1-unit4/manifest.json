@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-sujiao-grade6-semester1-unit4-math",
+  "name": "六年级上册第四单元 - 比和比例",
+  "description": "理解比与比例的意义、性质和应用，并探究黄金比。",
+  "subject": "math",
+  "publisher": { "name": "苏教版" },
+  "generation": {
+    "sourceHash": "manual-new-sujiao-grade6-semester1-unit4-2026-09-30",
+    "generatorVersion": "manual-math-course-generator-1",
+    "generatedAt": "2026-09-30"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "理解比和比例的含义与性质，能化简比、求比值、解比例并处理按比分配问题。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 4,
+      "tags": ["苏教版", "六年级上册", "比", "比例", "黄金比"],
+      "math": { "courseType": "math-unit-source", "topic": "比和比例" }
+    },
+    "package": {
+      "source": { "type": "textbook-markdown", "path": "textbook.md" },
+      "activities": []
+    }
+  }
+}

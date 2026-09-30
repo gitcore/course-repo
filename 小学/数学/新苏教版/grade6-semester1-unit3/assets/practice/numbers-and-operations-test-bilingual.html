@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>六年级数学第三单元｜双语单元测试</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      color: #18313b;
+      background: #ecf2f3;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    button { font: inherit; cursor: pointer; }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: .7rem max(1rem, calc((100vw - 210mm) / 2));
+      background: #18313b;
+      color: white;
+      font-size: .9rem;
+    }
+    .toolbar-actions { display: flex; gap: .5rem; }
+    .toolbar button, dialog button {
+      border: 1px solid #b8d9dc;
+      border-radius: .45rem;
+      padding: .45rem .8rem;
+      background: #f2fbfa;
+      color: #18313b;
+      font-weight: 700;
+    }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 20px auto;
+      padding: 12mm 14mm 11mm;
+      background: white;
+      box-shadow: 0 12px 36px #16343a26;
+      display: flex;
+      flex-direction: column;
+      gap: 4mm;
+      break-after: page;
+      page-break-after: always;
+    }
+    .page:last-of-type { break-after: auto; page-break-after: auto; }
+    .page-header {
+      border-bottom: 2px solid #087b83;
+      padding-bottom: 3mm;
+    }
+    .page--en .page-header { border-color: #446cc8; }
+    .meta-row, .title-row, .section-heading, .page-footer {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 4mm;
+    }
+    .eyebrow {
+      margin: 0 0 2mm;
+      color: #087b83;
+      font-size: 8.4pt;
+      font-weight: 800;
+      letter-spacing: .11em;
+    }
+    .page--en .eyebrow { color: #446cc8; }
+    .identity { font-size: 9.2pt; white-space: nowrap; }
+    .identity span { display: inline-block; width: 18mm; border-bottom: 1px solid #8ea1aa; }
+    h1 { margin: 0; font-size: 19pt; line-height: 1.25; letter-spacing: -.02em; }
+    .page--en h1 { font-size: 17.5pt; }
+    .page-number {
+      font-size: 9pt;
+      color: #607780;
+      white-space: nowrap;
+    }
+    .instruction { margin: 2mm 0 0; color: #526b73; font-size: 9.2pt; line-height: 1.4; }
+    .exercise-section { display: flex; flex-direction: column; gap: 2mm; }
+    .section-heading { margin: 0; font-size: 10.5pt; color: #165c65; }
+    .page--en .section-heading { color: #3d5eac; }
+    .section-heading small { font-size: 8.5pt; font-weight: 500; color: #71848c; }
+    .exercise-grid { display: grid; gap: 2.5mm; }
+    .exercise-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .exercise-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .exercise {
+      min-width: 0;
+      padding: 2.5mm 3mm;
+      border: 1px solid #d4e1e4;
+      border-radius: 2.5mm;
+      background: #fcfefe;
+      font-size: 9.6pt;
+      line-height: 1.38;
+    }
+    .page--en .exercise { background: #fdfdff; border-color: #dbe2f1; }
+    .exercise p { margin: 0; }
+    .question-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 5mm;
+      height: 5mm;
+      margin-right: 1mm;
+      border-radius: 50%;
+      background: #087b83;
+      color: white;
+      font-size: 8pt;
+      font-weight: 800;
+      vertical-align: 1px;
+    }
+    .page--en .question-number { background: #446cc8; }
+    .prompt { min-height: 13mm; }
+    .exercise-grid.three .prompt { min-height: 17mm; }
+    .exercise-grid.scenarios .prompt { min-height: 18mm; }
+    .write-line { height: 5.2mm; border-bottom: 1px solid #a6b9bf; }
+    .write-line + .write-line { margin-top: 1mm; }
+    .math { font-family: Arial, sans-serif; font-weight: 650; white-space: nowrap; }
+    .exercise-grid.three .math { white-space: normal; }
+    .fill { display: inline-block; min-width: 7mm; border-bottom: 1px solid #6e838d; vertical-align: -1px; }
+    .exercise--wide { display: flex; align-items: center; gap: 5mm; }
+    .exercise--wide .prompt { flex: 1; min-height: 0; }
+    .exercise--wide .work-area { flex: 1; }
+    .page-footer {
+      margin-top: auto;
+      padding-top: 2mm;
+      border-top: 1px solid #d8e3e5;
+      color: #6a7f86;
+      font-size: 8pt;
+    }
+    dialog {
+      width: min(680px, calc(100vw - 2rem));
+      max-height: min(80vh, 800px);
+      border: 0;
+      border-radius: 14px;
+      padding: 1.2rem 1.5rem;
+      color: #18313b;
+      box-shadow: 0 24px 70px #112e3980;
+    }
+    dialog::backdrop { background: #0e273199; }
+    dialog h2 { margin: 0 0 .5rem; }
+    dialog h3 { margin-bottom: .35rem; }
+    dialog ol { padding-left: 1.45rem; line-height: 1.55; }
+    dialog li { margin: .28rem 0; }
+    dialog footer { text-align: right; }
+    @media screen and (max-width: 800px) {
+      .toolbar { padding: .6rem .8rem; }
+      .toolbar-label { display: none; }
+      .page { width: 100%; min-height: 0; margin: 0 0 12px; padding: 22px 16px; box-shadow: none; }
+      .exercise-grid.two, .exercise-grid.three { grid-template-columns: 1fr; }
+      .prompt, .exercise-grid.three .prompt, .exercise-grid.scenarios .prompt { min-height: 0; }
+      .write-line { height: 22px; }
+      .identity { font-size: 8pt; }
+      h1, .page--en h1 { font-size: 16pt; }
+      .exercise--wide { display: block; }
+    }
+    @page { size: A4; margin: 0; }
+    @media print {
+      :root { background: white; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .toolbar, dialog { display: none !important; }
+      .page { width: 210mm; height: 297mm; min-height: 0; margin: 0; box-shadow: none; }
+      .exercise-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .exercise-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .prompt { min-height: 13mm; }
+      .exercise-grid.three .prompt { min-height: 17mm; }
+      .exercise-grid.scenarios .prompt { min-height: 18mm; }
+      .write-line { height: 5.2mm; }
+      .exercise--wide { display: flex; }
+      .question-number, .page--en .question-number {
+        background: white;
+        color: #18313b;
+        border: 1px solid #18313b;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar" aria-label="练习工具栏">
+    <span class="toolbar-label">六年级数学 · 第三单元测试 / Grade 6 Math · Unit 3 Test</span>
+    <div class="toolbar-actions">
+      <button type="button" id="show-answers">查看答案 / Answers</button>
+      <button type="button" id="print-sheet">打印两页 / Print</button>
+    </div>
+  </div>
+
+  <main>
+    <section class="page page--zh" lang="zh-CN" aria-labelledby="title-zh">
+      <header class="page-header">
+        <div class="meta-row">
+          <p class="eyebrow">2026 年秋 · 新苏教版 · 六年级上册</p>
+          <div class="identity">姓名 <span></span>　日期 <span></span></div>
+        </div>
+        <div class="title-row"><h1 id="title-zh">第三单元｜数与运算的再认识测试卷</h1><span class="page-number">中文 · 1 / 2</span></div>
+        <p class="instruction">共 10 题，每题 10 分。写出关键步骤，并说明计数单位或运算依据。</p>
+      </header>
+
+      <section class="exercise-section" aria-labelledby="zh-s1">
+        <h2 class="section-heading" id="zh-s1">01 · 计数单位 <small>认识数的组成</small></h2>
+        <div class="exercise-grid two">
+          <div class="exercise"><p class="prompt"><span class="question-number">1</span>408.35 中数字 4、3、5 分别表示几个什么计数单位？</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">2</span>5/8 的分数单位是什么？有几个这样的单位？化成小数。</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="zh-s2">
+        <h2 class="section-heading" id="zh-s2">02 · 比较与加减 <small>统一计数单位</small></h2>
+        <div class="exercise-grid three">
+          <div class="exercise"><p class="prompt"><span class="question-number">3</span>把 0.6、3/5、0.58 从小到大排列，并指出哪两个相等。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">4</span>把 0.7 和 3/20 都写成百分之几，再求和。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">5</span>□ + 1.35 = 2.4。用减法求 □，再用加法验算。</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="zh-s3">
+        <h2 class="section-heading" id="zh-s3">03 · 乘法的意义 <small>解释算式</small></h2>
+        <div class="exercise-grid two">
+          <div class="exercise"><p class="prompt"><span class="question-number">6</span>一根绳长 3/4 米，剪去它的 2/3。剪去多少米？列乘法式并解释 2/3 的意思。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">7</span>计算 0.3 × 0.04。用计数单位解释为什么积是 12 个 0.001。</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="zh-s4">
+        <h2 class="section-heading" id="zh-s4">04 · 运算律与逆运算 <small>写出验算</small></h2>
+        <div class="exercise-grid two scenarios">
+          <div class="exercise"><p class="prompt"><span class="question-number">8</span>用乘法分配律计算 16 × 3/4 + 16 × 1/4。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">9</span>已知 0.8 × □ = 2.4，用除法求 □，再用乘法验算。</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="zh-s5">
+        <h2 class="section-heading" id="zh-s5">05 · 除法与倒数 <small>说明理由</small></h2>
+        <div class="exercise exercise--wide"><p class="prompt"><span class="question-number">10</span>计算 3/4 ÷ 3/8：先改写成乘法，再说明为什么除数不能为 0。</p><div class="work-area"><div class="write-line"></div><div class="write-line"></div><div class="write-line"></div><div class="write-line"></div></div></div>
+      </section>
+
+      <footer class="page-footer"><span>原创测试 · 根据第三单元知识要点编写</span><span>10 题 · 每题 10 分 · 共 100 分</span></footer>
+    </section>
+
+    <section class="page page--en" lang="en" aria-labelledby="title-en">
+      <header class="page-header">
+        <div class="meta-row">
+          <p class="eyebrow">FALL 2026 · JIANGSU EDITION · GRADE 6</p>
+          <div class="identity">Name <span></span>　Date <span></span></div>
+        </div>
+        <div class="title-row"><h1 id="title-en">Unit 3 | Numbers and Operations Revisited</h1><span class="page-number">English · 2 / 2</span></div>
+        <p class="instruction">10 questions, 10 points each. Show key steps and explain the units or properties used.</p>
+      </header>
+
+      <section class="exercise-section" aria-labelledby="en-s1">
+        <h2 class="section-heading" id="en-s1">01 · Counting units <small>Understand place value</small></h2>
+        <div class="exercise-grid two">
+          <div class="exercise"><p class="prompt"><span class="question-number">1</span>In 408.35, how many of which place-value units do the digits 4, 3, and 5 represent?</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">2</span>What is the unit fraction of 5/8? How many such units are there? Convert 5/8 to a decimal.</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="en-s2">
+        <h2 class="section-heading" id="en-s2">02 · Compare and add <small>Use common units</small></h2>
+        <div class="exercise-grid three">
+          <div class="exercise"><p class="prompt"><span class="question-number">3</span>Order 0.6, 3/5 and 0.58 from least to greatest; mark equal values.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">4</span>Express 0.7 and 3/20 in hundredths, then add them.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">5</span>Solve □ + 1.35 = 2.4 by subtraction; check by addition.</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="en-s3">
+        <h2 class="section-heading" id="en-s3">03 · Meaning of multiplication <small>Explain the equation</small></h2>
+        <div class="exercise-grid two">
+          <div class="exercise"><p class="prompt"><span class="question-number">6</span>A rope is 3/4 m long. Two thirds of it is cut off. How many meters are cut? Write a multiplication equation and explain 2/3.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">7</span>Calculate 0.3 × 0.04. Use place-value units to explain why the product is twelve thousandths.</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="en-s4">
+        <h2 class="section-heading" id="en-s4">04 · Properties and inverse <small>Check your answer</small></h2>
+        <div class="exercise-grid two scenarios">
+          <div class="exercise"><p class="prompt"><span class="question-number">8</span>Use the distributive property to evaluate 16 × 3/4 + 16 × 1/4.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">9</span>Given 0.8 × □ = 2.4, find □ by division; check by multiplication.</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="en-s5">
+        <h2 class="section-heading" id="en-s5">05 · Division and reciprocals <small>Explain why</small></h2>
+        <div class="exercise exercise--wide"><p class="prompt"><span class="question-number">10</span>Calculate 3/4 ÷ 3/8 by rewriting it as multiplication. Why is division by zero undefined?</p><div class="work-area"><div class="write-line"></div><div class="write-line"></div><div class="write-line"></div><div class="write-line"></div></div></div>
+      </section>
+
+      <footer class="page-footer"><span>Original test based on Unit 3 learning goals</span><span>10 questions · 10 points each · 100 total</span></footer>
+    </section>
+  </main>
+
+  <dialog id="answers" aria-labelledby="answer-title">
+    <h2 id="answer-title">参考答案 / Answer key</h2>
+    <h3 lang="zh-CN">中文</h3>
+    <ol lang="zh-CN"><li>4 表示 4 个百，3 表示 3 个十分之一，5 表示 5 个百分之一。</li><li>分数单位是 1/8，有 5 个这样的单位；5/8 = 0.625。</li><li>0.58 &lt; 0.6 = 3/5。</li><li>0.7 = 70/100，3/20 = 15/100；70/100 + 15/100 = 85/100 = 0.85。</li><li>□ = 2.4 − 1.35 = 1.05；验算：1.05 + 1.35 = 2.4。</li><li>3/4 × 2/3 = 1/2 米；2/3 表示剪去部分占原绳长的 2/3。</li><li>3 个 0.1 与 4 个 0.01 相乘得到 12 个 0.001，所以 0.3 × 0.04 = 0.012。</li><li>16 × (3/4 + 1/4) = 16 × 1 = 16；使用乘法分配律。</li><li>□ = 2.4 ÷ 0.8 = 3；验算：0.8 × 3 = 2.4。</li><li>3/4 ÷ 3/8 = 3/4 × 8/3 = 2。0 没有倒数；用乘法逆运算理解，除以 0 无法确定唯一的商。</li></ol><h3 lang="en">English</h3>
+    <ol lang="en"><li>4 means four hundreds; 3 means three tenths; 5 means five hundredths.</li><li>The unit fraction is 1/8; there are five such units; 5/8 = 0.625.</li><li>0.58 &lt; 0.6 = 3/5.</li><li>0.7 = 70/100 and 3/20 = 15/100; their sum is 85/100 = 0.85.</li><li>□ = 2.4 − 1.35 = 1.05; check: 1.05 + 1.35 = 2.4.</li><li>3/4 × 2/3 = 1/2 m. The fraction 2/3 is the part of the original rope cut off.</li><li>Three tenths times four hundredths is twelve thousandths: 0.3 × 0.04 = 0.012.</li><li>16 × (3/4 + 1/4) = 16 × 1 = 16, using the distributive property.</li><li>□ = 2.4 ÷ 0.8 = 3; check: 0.8 × 3 = 2.4.</li><li>3/4 ÷ 3/8 = 3/4 × 8/3 = 2. Zero has no reciprocal; division by zero cannot give a unique quotient.</li></ol><footer><button type="button" id="close-answers">关闭 / Close</button></footer>
+  </dialog>
+  <script>
+    const answers = document.getElementById('answers');
+    document.getElementById('show-answers').addEventListener('click', () => answers.showModal());
+    document.getElementById('close-answers').addEventListener('click', () => answers.close());
+    document.getElementById('print-sheet').addEventListener('click', () => window.print());
+  </script>
+</body>
+</html>

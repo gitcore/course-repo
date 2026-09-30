@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-sujiao-grade6-semester1-unit3-math",
+  "name": "六年级上册第三单元 - 数与运算的再认识",
+  "description": "贯通整数、分数、小数的计数单位、大小比较与四则运算算理，运用运算律解释和检验计算。",
+  "subject": "math",
+  "publisher": {
+    "name": "苏教版"
+  },
+  "generation": {
+    "sourceHash": "manual-new-sujiao-grade6-semester1-unit3-2026-09-29",
+    "generatorVersion": "manual-math-course-generator-1",
+    "generatedAt": "2026-09-29"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "用计数单位解释整数、分数、小数的组成和大小比较；从相同计数单位、积的单位与乘除逆关系理解四则运算，并用运算律和逆运算检查结果。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 3,
+      "tags": [
+        "苏教版",
+        "六年级上册",
+        "数与运算的再认识",
+        "计数单位",
+        "大小比较",
+        "四则运算",
+        "运算律"
+      ],
+      "math": {
+        "courseType": "math-unit-course",
+        "topic": "数与运算的再认识"
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "知识卡",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "例题讲解",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "reading-qa",
+          "name": "单元闯关",
+          "data": "content/reading-qa.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

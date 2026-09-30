@@ -1,0 +1,282 @@
+{
+  "manifestId": "new-sujiao-grade6-semester1-unit3-math",
+  "sourceHash": "manual-new-sujiao-grade6-semester1-unit3-2026-09-29",
+  "generatorVersion": "manual-math-course-generator-1",
+  "generatedAt": "2026-09-29T00:00:00.000Z",
+  "activityType": "reading-qa",
+  "questions": [
+    {
+      "id": "u3-q1",
+      "type": "multiple-choice",
+      "question": "4.08 可以表示为（ ）。",
+      "options": [
+        "4 个一和 8 个十分之一",
+        "4 个一和 8 个百分之一",
+        "4 个十和 8 个百分之一",
+        "4 个一和 8 个千分之一"
+      ],
+      "correctIndex": 1,
+      "answer": "4 个一和 8 个百分之一",
+      "targetEnglish": "4.08 = 4 + 8/100",
+      "targetChinese": "看清 8 所在的百分位。",
+      "explanation": "小数点后第二位是百分位，4.08 = 4 + 8/100。",
+      "difficulty": 1
+    },
+    {
+      "id": "u3-q2",
+      "type": "multiple-choice",
+      "question": "分数 3/8 的分数单位是（ ）。",
+      "options": [
+        "1/3",
+        "1/8",
+        "3/8",
+        "8"
+      ],
+      "correctIndex": 1,
+      "answer": "1/8",
+      "targetEnglish": "3/8 = 3 × (1/8)",
+      "targetChinese": "分母决定把 1 平均分成几份。",
+      "explanation": "3/8 有 3 个 1/8，所以分数单位是 1/8。",
+      "difficulty": 1
+    },
+    {
+      "id": "u3-q3",
+      "type": "multiple-choice",
+      "question": "下面与 0.6 相等的是（ ）。",
+    "options": [
+      "3/5",
+      "3/10",
+      "6/100",
+      "6/5"
+      ],
+      "correctIndex": 0,
+      "answer": "3/5",
+      "targetEnglish": "0.6 = 6/10 = 3/5",
+      "targetChinese": "写成分数后约分。",
+      "explanation": "0.6 是 6 个十分之一，6/10 约分后是 3/5。",
+      "difficulty": 1
+    },
+    {
+      "id": "u3-q4",
+      "type": "multiple-choice",
+      "question": "比较 0.7 和 0.68，正确的是（ ）。",
+      "options": [
+        "0.7 ＜ 0.68",
+        "0.7 = 0.68",
+        "0.7 ＞ 0.68",
+        "无法比较"
+      ],
+      "correctIndex": 2,
+      "answer": "0.7 ＞ 0.68",
+      "targetEnglish": "0.70 > 0.68",
+      "targetChinese": "统一为百分之一再比较。",
+      "explanation": "0.7=0.70；70 个百分之一大于 68 个百分之一。",
+      "difficulty": 1
+    },
+    {
+      "id": "u3-q5",
+      "type": "multiple-choice",
+      "question": "2.75 + 0.8 =（ ）。",
+      "options": [
+        "2.83",
+        "3.55",
+        "10.75",
+        "3.05"
+      ],
+      "correctIndex": 1,
+      "answer": "3.55",
+      "targetEnglish": "2.75 + 0.80 = 3.55",
+      "targetChinese": "把 0.8 看作 0.80。",
+      "explanation": "先统一到百分之一，275+80=355 个百分之一。",
+      "difficulty": 1
+    },
+    {
+      "id": "u3-q6",
+      "type": "multiple-choice",
+      "question": "5/6 − 1/4 =（ ）。",
+      "options": [
+        "4/2",
+        "1/2",
+        "7/12",
+        "4/24"
+      ],
+      "correctIndex": 2,
+      "answer": "7/12",
+      "targetEnglish": "10/12 − 3/12 = 7/12",
+      "targetChinese": "异分母先通分。",
+      "explanation": "5/6=10/12，1/4=3/12，差是 7/12。",
+      "difficulty": 2
+    },
+    {
+      "id": "u3-q7",
+      "type": "multiple-choice",
+      "question": "计算 4.2 − 1.7 = 2.5 后，哪项能用逆运算验算？",
+      "options": [
+        "4.2 + 1.7 = 5.9",
+        "2.5 + 1.7 = 4.2",
+        "2.5 − 1.7 = 0.8",
+        "4.2 × 1.7 = 7.14"
+      ],
+      "correctIndex": 1,
+      "answer": "2.5 + 1.7 = 4.2",
+      "targetEnglish": "2.5 + 1.7 = 4.2",
+      "targetChinese": "差加减数应等于被减数。",
+      "explanation": "减法与加法互为逆运算，2.5+1.7=4.2。",
+      "difficulty": 2
+    },
+    {
+      "id": "u3-q8",
+      "type": "multiple-choice",
+      "question": "利用加法运算律，0.18 + 0.76 + 0.82 的结果是（ ）。",
+      "options": [
+        "1.58",
+        "1.66",
+        "1.76",
+        "2.76"
+      ],
+      "correctIndex": 2,
+      "answer": "1.76",
+      "targetEnglish": "(0.18 + 0.82) + 0.76 = 1.76",
+      "targetChinese": "先把能凑成 1 的数相加。",
+      "explanation": "0.18+0.82=1，再加 0.76 得 1.76。",
+      "difficulty": 2
+    },
+    {
+      "id": "u3-q9",
+      "type": "multiple-choice",
+      "question": "0.4 × 0.07 =（ ）。",
+      "options": [
+        "0.28",
+        "0.028",
+        "0.0028",
+        "2.8"
+      ],
+      "correctIndex": 1,
+      "answer": "0.028",
+      "targetEnglish": "4 tenths × 7 hundredths = 28 thousandths",
+      "targetChinese": "积的单位是千分之一。",
+      "explanation": "4×7=28，十分之一×百分之一=千分之一，所以积是 0.028。",
+      "difficulty": 2
+    },
+    {
+      "id": "u3-q10",
+      "type": "multiple-choice",
+      "question": "(3/5) × (5/6) =（ ）。",
+    "options": [
+      "1/2",
+      "1/3",
+      "3/10",
+      "8/11"
+      ],
+      "correctIndex": 0,
+      "answer": "1/2",
+      "targetEnglish": "(3×5)/(5×6) = 1/2",
+      "targetChinese": "先约分或先乘再约分。",
+      "explanation": "分子分母的 5 可以约去，结果为 3/6=1/2。",
+      "difficulty": 2
+    },
+    {
+      "id": "u3-q11",
+      "type": "multiple-choice",
+      "question": "十分之一乘百分之一，积的计数单位是（ ）。",
+      "options": [
+        "百分之一",
+        "千分之一",
+        "万分之一",
+        "一"
+      ],
+      "correctIndex": 1,
+      "answer": "千分之一",
+      "targetEnglish": "1/10 × 1/100 = 1/1000",
+      "targetChinese": "计数单位也相乘。",
+      "explanation": "1/10 与 1/100 相乘得到 1/1000。",
+      "difficulty": 2
+    },
+    {
+      "id": "u3-q12",
+      "type": "multiple-choice",
+      "question": "25 × (12 + 8) =（ ）。",
+      "options": [
+        "300",
+        "400",
+        "500",
+        "2500"
+      ],
+      "correctIndex": 2,
+      "answer": "500",
+      "targetEnglish": "25 × 20 = 500",
+      "targetChinese": "可先算括号，也可用分配律。",
+      "explanation": "12+8=20，25×20=500。",
+      "difficulty": 1
+    },
+    {
+      "id": "u3-q13",
+      "type": "multiple-choice",
+      "question": "0.72 ÷ 0.09 =（ ）。",
+      "options": [
+        "0.8",
+        "8",
+        "80",
+        "0.08"
+      ],
+      "correctIndex": 1,
+      "answer": "8",
+      "targetEnglish": "72 hundredths ÷ 9 hundredths = 8",
+      "targetChinese": "同单位的个数相除。",
+      "explanation": "0.72 与 0.09 同乘 100，得 72÷9=8。",
+      "difficulty": 2
+    },
+    {
+      "id": "u3-q14",
+      "type": "multiple-choice",
+      "question": "(3/4) ÷ (1/8) =（ ）。",
+      "options": [
+        "3/32",
+        "3/2",
+        "6",
+        "8/3"
+      ],
+      "correctIndex": 2,
+      "answer": "6",
+      "targetEnglish": "6 eighths ÷ 1 eighth = 6",
+      "targetChinese": "先把 3/4 化为 6/8。",
+      "explanation": "3/4=6/8，里面有 6 个 1/8。",
+      "difficulty": 2
+    },
+    {
+      "id": "u3-q15",
+      "type": "multiple-choice",
+      "question": "(2/3) ÷ (4/5) =（ ）。",
+      "options": [
+        "8/15",
+        "6/20",
+        "5/6",
+        "6/5"
+      ],
+      "correctIndex": 2,
+      "answer": "5/6",
+      "targetEnglish": "(2/3) × (5/4) = 5/6",
+      "targetChinese": "保持被除数，乘除数的倒数。",
+      "explanation": "2/3×5/4=10/12=5/6。",
+      "difficulty": 3
+    },
+    {
+      "id": "u3-q16",
+      "type": "multiple-choice",
+      "question": "下列除法中没有定义的是（ ）。",
+      "options": [
+        "0 ÷ 7",
+        "7 ÷ 1",
+        "7 ÷ 0",
+        "7 ÷ 0.7"
+      ],
+      "correctIndex": 2,
+      "answer": "7 ÷ 0",
+      "targetEnglish": "7 ÷ 0 is undefined",
+      "targetChinese": "0 可以作被除数，不能作除数。",
+      "explanation": "任何数都不能除以 0；0÷7=0 是有定义的。",
+      "difficulty": 1
+    }
+  ],
+  "images": []
+}

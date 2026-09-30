@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-sujiao-grade6-semester1-unit2-math",
+  "name": "六年级上册第二单元 - 混合运算与数量关系（三）",
+  "description": "学习分数、小数四则混合运算与估算，分析稍复杂的分数实际问题和合作工程问题。",
+  "subject": "math",
+  "publisher": {
+    "name": "苏教版"
+  },
+  "generation": {
+    "sourceHash": "manual-new-sujiao-grade6-semester1-unit2-2026-09-28",
+    "generatorVersion": "manual-math-course-generator-1",
+    "generatedAt": "2026-09-28"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "遵循四则混合运算顺序并合理简算，用上下界估算作判断，找准分数问题的单位“1”，用工作效率解决合作问题。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 2,
+      "tags": [
+        "苏教版",
+        "六年级上册",
+        "混合运算",
+        "数量关系",
+        "估算",
+        "分数应用题",
+        "工程问题"
+      ],
+      "math": {
+        "courseType": "math-unit-course",
+        "topic": "混合运算与数量关系（三）"
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "知识卡",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "例题讲解",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "reading-qa",
+          "name": "单元闯关",
+          "data": "content/reading-qa.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-sujiao-grade6-semester1-unit5-math",
+  "name": "六年级上册第五单元 - 圆",
+  "description": "认识圆和扇形，探究圆的周长、面积及生活应用，并开展体育中的数学实践。",
+  "subject": "math",
+  "publisher": { "name": "苏教版" },
+  "generation": {
+    "sourceHash": "manual-new-sujiao-grade6-semester1-unit5-2026-09-30",
+    "generatorVersion": "manual-math-course-generator-1",
+    "generatedAt": "2026-09-30"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "通过观察和操作认识圆与扇形，解释圆周长与面积公式，解决相关测量问题。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 5,
+      "tags": ["苏教版", "六年级上册", "圆", "扇形", "圆的周长", "圆的面积", "体育中的数学"],
+      "math": { "courseType": "math-unit-source", "topic": "圆" }
+    },
+    "package": {
+      "source": { "type": "textbook-markdown", "path": "textbook.md" },
+      "activities": []
+    }
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "manifestId": "new-sujiao-grade6-semester1-unit2-math",
+  "sourceHash": "manual-new-sujiao-grade6-semester1-unit2-2026-09-28",
+  "generatorVersion": "manual-math-course-generator-1",
+  "generatedAt": "2026-09-28T00:00:00.000Z",
+  "activityType": "reading-qa",
+  "questions": [
+    {
+      "id": "u2-q1",
+      "type": "multiple-choice",
+      "question": "计算 3/4 + 1/2 ÷ 2，结果是（ ）。",
+      "options": [
+        "1",
+        "5/8",
+        "1/2",
+        "5/4"
+      ],
+      "correctIndex": 0,
+      "answer": "1",
+      "targetEnglish": "3/4 + 1/4 = 1",
+      "targetChinese": "先除后加。",
+      "explanation": "1/2 ÷ 2 = 1/4；3/4 + 1/4 = 1。",
+      "difficulty": 1
+    },
+    {
+      "id": "u2-q2",
+      "type": "multiple-choice",
+      "question": "2.4 × (1/2 + 0.25) 的结果是（ ）。",
+      "options": [
+        "1.2",
+        "1.8",
+        "2.4",
+        "3.0"
+      ],
+      "correctIndex": 1,
+      "answer": "1.8",
+      "targetEnglish": "2.4 × 0.75 = 1.8",
+      "targetChinese": "先算括号内的 0.5 + 0.25。",
+      "explanation": "括号内是 0.75，2.4 × 0.75 = 1.8。",
+      "difficulty": 1
+    },
+    {
+      "id": "u2-q3",
+      "type": "multiple-choice",
+      "question": "下面哪项可以正确使用乘法分配律？",
+      "options": [
+        "a ÷ (b + c) = a ÷ b + a ÷ c",
+        "a × (b + c) = a × b + a × c",
+        "a − (b + c) = a − b + c",
+        "(a + b) ÷ c = a + b ÷ c"
+      ],
+      "correctIndex": 1,
+      "answer": "a × (b + c) = a × b + a × c",
+      "targetEnglish": "a × (b + c) = a × b + a × c",
+      "targetChinese": "乘法对加法可以分配。",
+      "explanation": "乘法分配律只适用于对应的乘法与加减法结构。",
+      "difficulty": 2
+    },
+    {
+      "id": "u2-q4",
+      "type": "multiple-choice",
+      "question": "3/4 ÷ (1/2 + 1/4) 的结果是（ ）。",
+      "options": [
+        "3/4",
+        "1/2",
+        "1",
+        "2"
+      ],
+      "correctIndex": 2,
+      "answer": "1",
+      "targetEnglish": "3/4 ÷ 3/4 = 1",
+      "targetChinese": "括号中先算得 3/4。",
+      "explanation": "先算括号，再进行除法。",
+      "difficulty": 2
+    },
+    {
+      "id": "u2-q5",
+      "type": "multiple-choice",
+      "question": "把 1/3 写成 0.33 后用于精确计算，问题是（ ）。",
+      "options": [
+        "0.33 比 1/3 大",
+        "0.33 只是近似值",
+        "0.33 无法参与加法",
+        "1/3 是整数"
+      ],
+      "correctIndex": 1,
+      "answer": "0.33 只是近似值",
+      "targetEnglish": "0.33 ≠ 1/3",
+      "targetChinese": "循环小数被截断后不再等于原分数。",
+      "explanation": "需要准确结果时保留分数形式。",
+      "difficulty": 2
+    },
+    {
+      "id": "u2-q6",
+      "type": "multiple-choice",
+      "question": "100 元买 4 本各 19.8 元的笔记本和 1 个 18.6 元的文具盒。下列哪种估算能证明钱够？",
+      "options": [
+        "4 × 19 + 18 = 94 ＜ 100",
+        "4 × 20 + 19 = 99 ＜ 100",
+        "4 × 20 + 21 = 101 ＞ 100",
+        "4 × 21 + 21 = 105 ＞ 100"
+      ],
+      "correctIndex": 1,
+      "answer": "4 × 20 + 19 = 99 ＜ 100",
+      "targetEnglish": "Actual cost < 4 × 20 + 19 = 99 < 100.",
+      "targetChinese": "把各项费用估大后仍未超过 100 元。",
+      "explanation": "用总费用的上界小于预算来证明够用。",
+      "difficulty": 2
+    },
+    {
+      "id": "u2-q7",
+      "type": "multiple-choice",
+      "question": "5 件商品每件 21.3 元，预算 100 元。下列哪种估算能证明钱不够？",
+      "options": [
+        "5 × 22 = 110 ＞ 100",
+        "5 × 21 = 105 ＞ 100",
+        "5 × 19 = 95 ＜ 100",
+        "21.3 ＜ 22"
+      ],
+      "correctIndex": 1,
+      "answer": "5 × 21 = 105 ＞ 100",
+      "targetEnglish": "Actual cost > 5 × 21 = 105 > 100.",
+      "targetChinese": "把每件价格估小到 21 元，仍超过预算。",
+      "explanation": "用总费用的下界大于预算来证明不够。",
+      "difficulty": 2
+    },
+    {
+      "id": "u2-q8",
+      "type": "multiple-choice",
+      "question": "60 米彩带用去全长的 2/5，剩下（ ）米。",
+      "options": [
+        "24",
+        "36",
+        "58",
+        "60"
+      ],
+      "correctIndex": 1,
+      "answer": "36",
+      "targetEnglish": "60 × (1 − 2/5) = 36",
+      "targetChinese": "全长 60 米是单位“1”。",
+      "explanation": "剩余分率是 3/5，因此剩余 36 米。",
+      "difficulty": 1
+    },
+    {
+      "id": "u2-q9",
+      "type": "multiple-choice",
+      "question": "去年种树 80 棵，今年比去年多 3/8，今年种（ ）棵。",
+      "options": [
+        "30",
+        "83",
+        "110",
+        "128"
+      ],
+      "correctIndex": 2,
+      "answer": "110",
+      "targetEnglish": "80 × (1 + 3/8) = 110",
+      "targetChinese": "增加量是 80 × 3/8 = 30 棵。",
+      "explanation": "今年数量等于去年数量加增加量。",
+      "difficulty": 2
+    },
+    {
+      "id": "u2-q10",
+      "type": "multiple-choice",
+      "question": "原价 120 元，现价比原价少 1/4，现价是（ ）元。",
+      "options": [
+        "30",
+        "90",
+        "119.75",
+        "160"
+      ],
+      "correctIndex": 1,
+      "answer": "90",
+      "targetEnglish": "120 × (1 − 1/4) = 90",
+      "targetChinese": "原价 120 元是单位“1”。",
+      "explanation": "减少量是 30 元，现价是 90 元。",
+      "difficulty": 2
+    },
+    {
+      "id": "u2-q11",
+      "type": "multiple-choice",
+      "question": "“用去全长的 2/5”中的 2/5 是（ ）。",
+      "options": [
+        "2/5 米",
+        "剩余长度",
+        "用去量占全长的分率",
+        "全长"
+      ],
+      "correctIndex": 2,
+      "answer": "用去量占全长的分率",
+      "targetEnglish": "Fraction of the whole used: 2/5",
+      "targetChinese": "分率没有米这一长度单位。",
+      "explanation": "“全长的”表明 2/5 对应全长这一单位“1”。",
+      "difficulty": 1
+    },
+    {
+      "id": "u2-q12",
+      "type": "multiple-choice",
+      "question": "一项工作独做 5 小时完成，把总工作量看作 1，每小时完成（ ）。",
+      "options": [
+        "5",
+        "1/5",
+        "1/10",
+        "1/25"
+      ],
+      "correctIndex": 1,
+      "answer": "1/5",
+      "targetEnglish": "1 ÷ 5 = 1/5",
+      "targetChinese": "工作效率是单位时间完成的份额。",
+      "explanation": "1 份工作均分到 5 小时，每小时完成 1/5。",
+      "difficulty": 1
+    },
+    {
+      "id": "u2-q13",
+      "type": "multiple-choice",
+      "question": "甲、乙分别独做 4 小时、6 小时完成同一工作，同时合作需要（ ）小时。",
+      "options": [
+        "10",
+        "5/12",
+        "12/5",
+        "2"
+      ],
+      "correctIndex": 2,
+      "answer": "12/5",
+      "targetEnglish": "1 ÷ (1/4 + 1/6) = 12/5",
+      "targetChinese": "先加每小时效率，再用总量 1 去除。",
+      "explanation": "合作效率是 5/12，时间为 12/5 小时。",
+      "difficulty": 3
+    },
+    {
+      "id": "u2-q14",
+      "type": "multiple-choice",
+      "question": "甲、乙分别独做 6 小时、3 小时完成同一工作，同时合作需要（ ）小时。",
+      "options": [
+        "9",
+        "2",
+        "1/2",
+        "3"
+      ],
+      "correctIndex": 1,
+      "answer": "2",
+      "targetEnglish": "1 ÷ (1/6 + 1/3) = 2",
+      "targetChinese": "合作效率是每小时完成 1/2。",
+      "explanation": "工作总量 1 除以合作效率 1/2，得到 2 小时。",
+      "difficulty": 2
+    },
+    {
+      "id": "u2-q15",
+      "type": "multiple-choice",
+      "question": "甲、乙分别独做 10 小时、15 小时完成同一工作，同时合作需要（ ）小时。",
+      "options": [
+        "25",
+        "1/6",
+        "6",
+        "12"
+      ],
+      "correctIndex": 2,
+      "answer": "6",
+      "targetEnglish": "1 ÷ (1/10 + 1/15) = 6",
+      "targetChinese": "通分得合作效率 1/6。",
+      "explanation": "不能直接把独做时间相加；合作完成需 6 小时。",
+      "difficulty": 3
+    }
+  ],
+  "images": []
+}

@@ -1,0 +1,389 @@
+{
+  "manifestId": "new-sujiao-grade6-semester1-unit3-math",
+  "sourceHash": "manual-new-sujiao-grade6-semester1-unit3-2026-09-29",
+  "generatorVersion": "manual-math-course-generator-1",
+  "generatedAt": "2026-09-29T00:00:00.000Z",
+  "activityType": "sentence-practice",
+  "sections": [
+    {
+      "title": "计数单位、等值与大小比较",
+      "sentences": [
+        {
+          "id": "counting-units",
+          "sequenceNumber": 1,
+          "segmentNumber": 1,
+          "english": "整数和小数由不同数位的计数单位组成；分数 a/b 是 a 个 1/b。",
+          "speaker": "teacher",
+          "chinese": "如 4.08 有 4 个一和 8 个百分之一。",
+          "difficulty": 2,
+          "category": "concept",
+          "hint": "相邻整数或小数数位的计数单位相差 10 倍。",
+          "grammarAnalysis": "分数单位由分母决定，不能一概套用十进关系。",
+          "words": [
+            {
+              "text": "计数单位",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "用于计量数的基本单位"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "说出每一位的单位"
+            },
+            {
+              "label": "再做",
+              "text": "数清有几个这样的单位"
+            }
+          ]
+        },
+        {
+          "id": "equivalent-values",
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "english": "小数末尾添 0 不改变大小；分数分子和分母同乘非零数，大小也不变。",
+          "speaker": "teacher",
+          "chinese": "0.6 = 0.60 = 3/5。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "6 个十分之一等于 60 个百分之一。",
+          "grammarAnalysis": "两种等值变形都可以把数量写成便于比较或计算的形式。",
+          "words": [
+            {
+              "text": "等值",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "写法不同但大小相同"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "确定原来的量"
+            },
+            {
+              "label": "再做",
+              "text": "用等值形式改写"
+            }
+          ]
+        },
+        {
+          "id": "compare-same-units",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "english": "比较分数或小数，可以先换成相同的计数单位，再比较单位的个数。",
+          "speaker": "teacher",
+          "chinese": "0.70 大于 0.68；3/4 等于 6/8，大于 5/8。",
+          "difficulty": 2,
+          "category": "reasoning",
+          "hint": "比较 0.7 与 0.68 时可把 0.7 写成 0.70。",
+          "grammarAnalysis": "同单位后比较整数个数，能解释比较结果。",
+          "words": [
+            {
+              "text": "大小比较",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "判断两个数的相对大小"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "统一计数单位"
+            },
+            {
+              "label": "再做",
+              "text": "比较单位的个数"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "加减法：相同单位的合并与移除",
+      "sentences": [
+        {
+          "id": "add-like-units",
+          "sequenceNumber": 2,
+          "segmentNumber": 1,
+          "english": "整数、小数、分数相加，都是把相同计数单位的个数合起来。",
+          "speaker": "teacher",
+          "chinese": "小数点对齐或分数通分，都是为了统一单位。",
+          "difficulty": 2,
+          "category": "concept",
+          "hint": "2.75 + 0.8 可改写为 2.75 + 0.80。",
+          "grammarAnalysis": "单位不相同的部分不能直接合并。",
+          "words": [
+            {
+              "text": "加法",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "合并两个数量的运算"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "先看两个数的单位"
+            },
+            {
+              "label": "再做",
+              "text": "统一单位后相加"
+            }
+          ]
+        },
+        {
+          "id": "subtract-inverse",
+          "sequenceNumber": 2,
+          "segmentNumber": 2,
+          "english": "减法从总量中去掉一部分，且是加法的逆运算。",
+          "speaker": "teacher",
+          "chinese": "用差加减数，可以验算被减数。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "5/6 − 1/4 = 7/12；7/12 + 1/4 = 5/6。",
+          "grammarAnalysis": "异分母相减先通分，验算也应保持分数准确。",
+          "words": [
+            {
+              "text": "逆运算",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "可用结果恢复未知量的运算关系"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "先把单位统一"
+            },
+            {
+              "label": "再做",
+              "text": "相减后用加法验算"
+            }
+          ]
+        },
+        {
+          "id": "addition-laws",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
+          "english": "加法交换律、结合律可以让便于凑整的数先相加。",
+          "speaker": "teacher",
+          "chinese": "减法不能任意交换减数和被减数。",
+          "difficulty": 2,
+          "category": "easy-mistake",
+          "hint": "0.18 + 0.76 + 0.82 = (0.18 + 0.82) + 0.76。",
+          "grammarAnalysis": "只有合法改变分组或顺序时，结果才保持不变。",
+          "words": [
+            {
+              "text": "加法运算律",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "加法中合法改变顺序与分组的规律"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "找能凑整的加数"
+            },
+            {
+              "label": "再做",
+              "text": "交换或结合后计算"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "乘法：意义、积的单位与运算律",
+      "sentences": [
+        {
+          "id": "multiplication-meaning",
+          "sequenceNumber": 3,
+          "segmentNumber": 1,
+          "english": "整数乘法可以表示几个相同数相加；乘分数或小数也可以表示求一个数的几分之几。",
+          "speaker": "teacher",
+          "chinese": "3/4 × 2/3 表示 3/4 的 2/3。",
+          "difficulty": 2,
+          "category": "concept",
+          "hint": "先确认乘数在题目中表示份数还是倍数。",
+          "grammarAnalysis": "将乘法与数量意义联系起来，避免机械套式。",
+          "words": [
+            {
+              "text": "乘法意义",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "把相同组或倍数关系写成乘积"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "识别原量和倍数"
+            },
+            {
+              "label": "再做",
+              "text": "列出乘法式"
+            }
+          ]
+        },
+        {
+          "id": "product-units",
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
+          "english": "两个数相乘时，计数单位也相乘。",
+          "speaker": "teacher",
+          "chinese": "0.1 × 0.01 = 0.001，即十分之一乘百分之一是千分之一。",
+          "difficulty": 3,
+          "category": "reasoning",
+          "hint": "0.4 × 0.07 = 28 个千分之一 = 0.028。",
+          "grammarAnalysis": "积的单位解释了小数点位置和分数分母的来历。",
+          "words": [
+            {
+              "text": "积的计数单位",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "两个因数的计数单位相乘所得的单位"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "分别找出因数的单位"
+            },
+            {
+              "label": "再做",
+              "text": "单位个数与单位分别相乘"
+            }
+          ]
+        },
+        {
+          "id": "multiplication-laws",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
+          "english": "乘法交换律、结合律和对加法的分配律可用于合理简算。",
+          "speaker": "teacher",
+          "chinese": "25 × (12 + 8) = 25 × 20 = 500。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "分配律也给出 25×12 + 25×8 = 500。",
+          "grammarAnalysis": "运算律改变计算形式，但不改变乘积。",
+          "words": [
+            {
+              "text": "乘法分配律",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "a×(b+c)=a×b+a×c"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "判断乘法与括号结构"
+            },
+            {
+              "label": "再做",
+              "text": "选更简便的合法形式"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "除法：同单位比较与乘除逆关系",
+      "sentences": [
+        {
+          "id": "division-inverse",
+          "sequenceNumber": 4,
+          "segmentNumber": 1,
+          "english": "已知积与一个非零因数求另一个因数，用除法；可用乘法验算。",
+          "speaker": "teacher",
+          "chinese": "0.72 ÷ 0.09 = 8，因为 8 × 0.09 = 0.72。",
+          "difficulty": 2,
+          "category": "concept",
+          "hint": "商 × 除数 = 被除数。",
+          "grammarAnalysis": "除法与乘法互为逆运算；除数必须非零。",
+          "words": [
+            {
+              "text": "乘除逆关系",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "乘法与除法相互检验的关系"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "把题目写成乘法关系"
+            },
+            {
+              "label": "再做",
+              "text": "求商并验算"
+            }
+          ]
+        },
+        {
+          "id": "same-unit-quotient",
+          "sequenceNumber": 4,
+          "segmentNumber": 2,
+          "english": "同单位的两个量相除，可比较一个量含有几个另一个量。",
+          "speaker": "teacher",
+          "chinese": "72 个百分之一除以 9 个百分之一，商是 8。",
+          "difficulty": 2,
+          "category": "reasoning",
+          "hint": "0.72 ÷ 0.09 可转成 72 ÷ 9。",
+          "grammarAnalysis": "两数同乘 100，商不变；同单位比较更直观。",
+          "words": [
+            {
+              "text": "同单位相除",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "用相同单位计量后求倍数或组数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "统一两个数的单位"
+            },
+            {
+              "label": "再做",
+              "text": "用单位个数相除"
+            }
+          ]
+        },
+        {
+          "id": "divide-by-reciprocal",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
+          "english": "除以非零数等于乘这个数的倒数；零不能作除数。",
+          "speaker": "teacher",
+          "chinese": "(2/3) ÷ (4/5) = (2/3) × (5/4) = 5/6。",
+          "difficulty": 3,
+          "category": "easy-mistake",
+          "hint": "只把除数 4/5 变为 5/4，被除数 2/3 不变。",
+          "grammarAnalysis": "乘倒数是除法转化为乘法的规则，前提是除数非零。",
+          "words": [
+            {
+              "text": "倒数",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "相乘得 1 的两个数互为倒数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "检查除数不为 0"
+            },
+            {
+              "label": "再做",
+              "text": "保持被除数，乘除数的倒数"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

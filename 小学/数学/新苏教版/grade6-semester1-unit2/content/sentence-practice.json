@@ -1,0 +1,329 @@
+{
+  "manifestId": "new-sujiao-grade6-semester1-unit2-math",
+  "sourceHash": "manual-new-sujiao-grade6-semester1-unit2-2026-09-28",
+  "generatorVersion": "manual-math-course-generator-1",
+  "generatedAt": "2026-09-28T00:00:00.000Z",
+  "activityType": "sentence-practice",
+  "sections": [
+    {
+      "title": "分数、小数四则混合运算",
+      "sentences": [
+        {
+          "id": "operation-order",
+          "sequenceNumber": 1,
+          "segmentNumber": 1,
+          "english": "分数和小数四则混合运算遵循与整数相同的运算顺序。",
+          "speaker": "teacher",
+          "chinese": "先乘除后加减；有括号先算括号里。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "同级运算从左到右，小括号在中括号之前。",
+          "grammarAnalysis": "先判断式子结构，再逐步运算。",
+          "words": [
+            {
+              "text": "运算顺序",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "混合算式各部分的计算先后次序"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "识别括号和运算级别"
+            },
+            {
+              "label": "再做",
+              "text": "按顺序计算"
+            }
+          ]
+        },
+        {
+          "id": "operation-law",
+          "sequenceNumber": 1,
+          "segmentNumber": 2,
+          "english": "在不改变结果的条件下，可以用交换律、结合律和乘法分配律简算。",
+          "speaker": "teacher",
+          "chinese": "先观察数字能否凑整、约分。",
+          "difficulty": 2,
+          "category": "easy-mistake",
+          "hint": "a×(b+c)=a×b+a×c，但 a÷(b+c) 不能这样拆开。",
+          "grammarAnalysis": "运算律要匹配运算符号，不能把乘法分配律误用在除法上。",
+          "words": [
+            {
+              "text": "乘法分配律",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "一个数乘两个数的和，可分别相乘后相加"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "认出相同因数"
+            },
+            {
+              "label": "再做",
+              "text": "选择合法的简算"
+            }
+          ]
+        },
+        {
+          "id": "number-conversion",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "english": "分数与小数混合运算时，可根据数字特点作准确转化。",
+          "speaker": "teacher",
+          "chinese": "不要用截断的循环小数代替准确分数。",
+          "difficulty": 3,
+          "category": "reasoning",
+          "hint": "例如 0.25 可写成 1/4；1/3 不应写成有限位 0.33 后当作准确值。",
+          "grammarAnalysis": "转化服务于准确而简便的计算。",
+          "words": [
+            {
+              "text": "准确值",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "没有因近似处理而改变的数值"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "选择分数或小数形式"
+            },
+            {
+              "label": "再做",
+              "text": "保持结果准确"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "估算：证明够与不够",
+      "sentences": [
+        {
+          "id": "upper-bound",
+          "sequenceNumber": 2,
+          "segmentNumber": 1,
+          "english": "要证明预算够用，可把费用估大，再看上界是否仍小于预算。",
+          "speaker": "teacher",
+          "chinese": "估大后还够，实际一定够。",
+          "difficulty": 2,
+          "category": "reasoning",
+          "hint": "把 19.8 估成 20 是给费用找上界。",
+          "grammarAnalysis": "估计总费用的上界若不超过预算，就能证明够用。",
+          "words": [
+            {
+              "text": "上界",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "不小于真实数值的界限"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "把费用估大"
+            },
+            {
+              "label": "再做",
+              "text": "上界与预算比较"
+            }
+          ]
+        },
+        {
+          "id": "lower-bound",
+          "sequenceNumber": 2,
+          "segmentNumber": 2,
+          "english": "要证明预算不够，可把费用估小，再看下界是否仍超过预算。",
+          "speaker": "teacher",
+          "chinese": "估小后都不够，实际一定不够。",
+          "difficulty": 2,
+          "category": "reasoning",
+          "hint": "把 21.3 估成 21 是给费用找下界。",
+          "grammarAnalysis": "估计总费用的下界若超过预算，就能证明不够。",
+          "words": [
+            {
+              "text": "下界",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "不大于真实数值的界限"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "把费用估小"
+            },
+            {
+              "label": "再做",
+              "text": "下界与预算比较"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "分数实际问题：找准单位“1”",
+      "sentences": [
+        {
+          "id": "fraction-whole",
+          "sequenceNumber": 3,
+          "segmentNumber": 1,
+          "english": "“用去总量的几分之几”中的总量是单位“1”。",
+          "speaker": "teacher",
+          "chinese": "分率必须对应一个基准量。",
+          "difficulty": 2,
+          "category": "concept",
+          "hint": "总量 60，用去 2/5，剩余可用 60×(1−2/5)。",
+          "grammarAnalysis": "先找总量，再求已用量或剩余分率。",
+          "words": [
+            {
+              "text": "单位“1”",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "分率所比较的整体或基准量"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "找基准量"
+            },
+            {
+              "label": "再做",
+              "text": "列剩余量关系式"
+            }
+          ]
+        },
+        {
+          "id": "fraction-more",
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
+          "english": "比原数多几分之几，结果等于原数乘以一加这个分率。",
+          "speaker": "teacher",
+          "chinese": "“多”的分率以原数为单位“1”。",
+          "difficulty": 2,
+          "category": "method",
+          "hint": "80 棵比去年多 3/8，即 80×(1+3/8)。",
+          "grammarAnalysis": "也可先算增加量，再与原数相加。",
+          "words": [
+            {
+              "text": "增加量",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "在基准数量之外增加的部分"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "确定被比较的原数"
+            },
+            {
+              "label": "再做",
+              "text": "原数×(1+分率)"
+            }
+          ]
+        },
+        {
+          "id": "fraction-less",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
+          "english": "比原数少几分之几，结果等于原数乘以一减这个分率。",
+          "speaker": "teacher",
+          "chinese": "“少”的分率也以原数为单位“1”。",
+          "difficulty": 2,
+          "category": "easy-mistake",
+          "hint": "120 元比原价少 1/4，即 120×(1−1/4)。",
+          "grammarAnalysis": "不能把“少 1/4”误解为减去 1/4 元。",
+          "words": [
+            {
+              "text": "减少量",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "从基准数量中减少的部分"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "确定被比较的原数"
+            },
+            {
+              "label": "再做",
+              "text": "原数×(1−分率)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "合作工程问题",
+      "sentences": [
+        {
+          "id": "work-rate",
+          "sequenceNumber": 4,
+          "segmentNumber": 1,
+          "english": "总工作量可看作 1；独做 a 小时完成，每小时完成 1/a。",
+          "speaker": "teacher",
+          "chinese": "用完成时间求每小时效率。",
+          "difficulty": 2,
+          "category": "concept",
+          "hint": "独做 4 小时完成，效率是每小时完成总量的 1/4。",
+          "grammarAnalysis": "时间与效率不可直接混为一谈。",
+          "words": [
+            {
+              "text": "工作效率",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "单位时间完成的工作量"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "总量设为 1"
+            },
+            {
+              "label": "再做",
+              "text": "效率=1÷独做时间"
+            }
+          ]
+        },
+        {
+          "id": "work-together",
+          "sequenceNumber": 4,
+          "segmentNumber": 2,
+          "english": "合作时先把各自效率相加，再用总量除以合作效率。",
+          "speaker": "teacher",
+          "chinese": "合作时间=1÷(效率甲+效率乙)。",
+          "difficulty": 3,
+          "category": "method",
+          "hint": "独做分别需 4 小时、6 小时，合作需 1÷(1/4+1/6)=12/5 小时。",
+          "grammarAnalysis": "时间单位要一致；合作完成时间应短于两人的独做时间。",
+          "words": [
+            {
+              "text": "合作效率",
+              "phonetic": "",
+              "partOfSpeech": "数学术语",
+              "meaning": "同一时间各成员工作效率之和"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "先想",
+              "text": "求各自效率并相加"
+            },
+            {
+              "label": "再做",
+              "text": "总量÷合作效率"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-sujiao-grade6-semester1-unit6-math",
+  "name": "六年级上册第六单元 - 比例尺",
+  "description": "理解比例尺的意义，结合地图和图样解决图上距离与实际距离问题。",
+  "subject": "math",
+  "publisher": { "name": "苏教版" },
+  "generation": {
+    "sourceHash": "manual-new-sujiao-grade6-semester1-unit6-2026-09-30",
+    "generatorVersion": "manual-math-course-generator-1",
+    "generatedAt": "2026-09-30"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "理解比例尺是图上距离与实际距离的比，能统一单位并解决地图和图样中的距离问题。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 6,
+      "tags": ["苏教版", "六年级上册", "比例尺", "图上距离", "实际距离"],
+      "math": { "courseType": "math-unit-source", "topic": "比例尺" }
+    },
+    "package": {
+      "source": { "type": "textbook-markdown", "path": "textbook.md" },
+      "activities": []
+    }
+  }
+}

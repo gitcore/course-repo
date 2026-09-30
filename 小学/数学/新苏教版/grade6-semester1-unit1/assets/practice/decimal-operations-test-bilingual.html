@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>六年级数学第一单元｜双语单元测试</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Noto Sans CJK SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      color: #18313b;
+      background: #ecf2f3;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    button { font: inherit; cursor: pointer; }
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: .7rem max(1rem, calc((100vw - 210mm) / 2));
+      background: #18313b;
+      color: white;
+      font-size: .9rem;
+    }
+    .toolbar-actions { display: flex; gap: .5rem; }
+    .toolbar button, dialog button {
+      border: 1px solid #b8d9dc;
+      border-radius: .45rem;
+      padding: .45rem .8rem;
+      background: #f2fbfa;
+      color: #18313b;
+      font-weight: 700;
+    }
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 20px auto;
+      padding: 12mm 14mm 11mm;
+      background: white;
+      box-shadow: 0 12px 36px #16343a26;
+      display: flex;
+      flex-direction: column;
+      gap: 4mm;
+      break-after: page;
+      page-break-after: always;
+    }
+    .page:last-of-type { break-after: auto; page-break-after: auto; }
+    .page-header {
+      border-bottom: 2px solid #087b83;
+      padding-bottom: 3mm;
+    }
+    .page--en .page-header { border-color: #446cc8; }
+    .meta-row, .title-row, .section-heading, .page-footer {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 4mm;
+    }
+    .eyebrow {
+      margin: 0 0 2mm;
+      color: #087b83;
+      font-size: 8.4pt;
+      font-weight: 800;
+      letter-spacing: .11em;
+    }
+    .page--en .eyebrow { color: #446cc8; }
+    .identity { font-size: 9.2pt; white-space: nowrap; }
+    .identity span { display: inline-block; width: 18mm; border-bottom: 1px solid #8ea1aa; }
+    h1 { margin: 0; font-size: 19pt; line-height: 1.25; letter-spacing: -.02em; }
+    .page--en h1 { font-size: 17.5pt; }
+    .page-number {
+      font-size: 9pt;
+      color: #607780;
+      white-space: nowrap;
+    }
+    .instruction { margin: 2mm 0 0; color: #526b73; font-size: 9.2pt; line-height: 1.4; }
+    .exercise-section { display: flex; flex-direction: column; gap: 2mm; }
+    .section-heading { margin: 0; font-size: 10.5pt; color: #165c65; }
+    .page--en .section-heading { color: #3d5eac; }
+    .section-heading small { font-size: 8.5pt; font-weight: 500; color: #71848c; }
+    .exercise-grid { display: grid; gap: 2.5mm; }
+    .exercise-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .exercise-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .exercise {
+      min-width: 0;
+      padding: 2.5mm 3mm;
+      border: 1px solid #d4e1e4;
+      border-radius: 2.5mm;
+      background: #fcfefe;
+      font-size: 9.6pt;
+      line-height: 1.38;
+    }
+    .page--en .exercise { background: #fdfdff; border-color: #dbe2f1; }
+    .exercise p { margin: 0; }
+    .question-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 5mm;
+      height: 5mm;
+      margin-right: 1mm;
+      border-radius: 50%;
+      background: #087b83;
+      color: white;
+      font-size: 8pt;
+      font-weight: 800;
+      vertical-align: 1px;
+    }
+    .page--en .question-number { background: #446cc8; }
+    .prompt { min-height: 13mm; }
+    .exercise-grid.three .prompt { min-height: 17mm; }
+    .exercise-grid.scenarios .prompt { min-height: 18mm; }
+    .write-line { height: 5.2mm; border-bottom: 1px solid #a6b9bf; }
+    .write-line + .write-line { margin-top: 1mm; }
+    .math { font-family: Arial, sans-serif; font-weight: 650; white-space: nowrap; }
+    .exercise-grid.three .math { white-space: normal; }
+    .fill { display: inline-block; min-width: 7mm; border-bottom: 1px solid #6e838d; vertical-align: -1px; }
+    .exercise--wide { display: flex; align-items: center; gap: 5mm; }
+    .exercise--wide .prompt { flex: 1; min-height: 0; }
+    .exercise--wide .work-area { flex: 1; }
+    .page-footer {
+      margin-top: auto;
+      padding-top: 2mm;
+      border-top: 1px solid #d8e3e5;
+      color: #6a7f86;
+      font-size: 8pt;
+    }
+    dialog {
+      width: min(680px, calc(100vw - 2rem));
+      max-height: min(80vh, 800px);
+      border: 0;
+      border-radius: 14px;
+      padding: 1.2rem 1.5rem;
+      color: #18313b;
+      box-shadow: 0 24px 70px #112e3980;
+    }
+    dialog::backdrop { background: #0e273199; }
+    dialog h2 { margin: 0 0 .5rem; }
+    dialog h3 { margin-bottom: .35rem; }
+    dialog ol { padding-left: 1.45rem; line-height: 1.55; }
+    dialog li { margin: .28rem 0; }
+    dialog footer { text-align: right; }
+    @media screen and (max-width: 800px) {
+      .toolbar { padding: .6rem .8rem; }
+      .toolbar-label { display: none; }
+      .page { width: 100%; min-height: 0; margin: 0 0 12px; padding: 22px 16px; box-shadow: none; }
+      .exercise-grid.two, .exercise-grid.three { grid-template-columns: 1fr; }
+      .prompt, .exercise-grid.three .prompt, .exercise-grid.scenarios .prompt { min-height: 0; }
+      .write-line { height: 22px; }
+      .identity { font-size: 8pt; }
+      h1, .page--en h1 { font-size: 16pt; }
+      .exercise--wide { display: block; }
+    }
+    @page { size: A4; margin: 0; }
+    @media print {
+      :root { background: white; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .toolbar, dialog { display: none !important; }
+      .page { width: 210mm; height: 297mm; min-height: 0; margin: 0; box-shadow: none; }
+      .exercise-grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .exercise-grid.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .prompt { min-height: 13mm; }
+      .exercise-grid.three .prompt { min-height: 17mm; }
+      .exercise-grid.scenarios .prompt { min-height: 18mm; }
+      .write-line { height: 5.2mm; }
+      .exercise--wide { display: flex; }
+      .question-number, .page--en .question-number {
+        background: white;
+        color: #18313b;
+        border: 1px solid #18313b;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar" aria-label="练习工具栏">
+    <span class="toolbar-label">六年级数学 · 第一单元测试 / Grade 6 Math · Unit 1 Test</span>
+    <div class="toolbar-actions">
+      <button type="button" id="show-answers">查看答案 / Answers</button>
+      <button type="button" id="print-sheet">打印两页 / Print</button>
+    </div>
+  </div>
+
+  <main>
+    <section class="page page--zh" lang="zh-CN" aria-labelledby="title-zh">
+      <header class="page-header">
+        <div class="meta-row">
+          <p class="eyebrow">2026 年秋 · 新苏教版 · 六年级上册</p>
+          <div class="identity">姓名 <span></span>　日期 <span></span></div>
+        </div>
+        <div class="title-row"><h1 id="title-zh">第一单元｜小数乘法和除法（二）测试卷</h1><span class="page-number">中文 · 1 / 2</span></div>
+        <p class="instruction">共 10 题，每题 10 分。写出必要步骤；应用题写单位和取整理由。</p>
+      </header>
+
+      <section class="exercise-section" aria-labelledby="zh-s1">
+        <h2 class="section-heading" id="zh-s1">01 · 含义与纠错 <small>说明判断依据</small></h2>
+        <div class="exercise-grid two">
+          <div class="exercise"><p class="prompt"><span class="question-number">1</span>一个水箱可装 18 升水，现在装到容量的 0.35。箱里有多少升水？列式并说明 0.35 的含义。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">2</span>小明算出 0.08 × 0.7 = 0.56。判断对错，改正并说明积的小数点怎样确定。</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="zh-s2">
+        <h2 class="section-heading" id="zh-s2">02 · 大小与积的变化 <small>运用规律</small></h2>
+        <div class="exercise-grid three">
+          <div class="exercise"><p class="prompt"><span class="question-number">3</span>不笔算，在括号里填“＞”或“＜”：2.4 × 1.3（ ）2.4；2.4 × 0.3（ ）2.4；2.4 ÷ 1.3（ ）2.4；2.4 ÷ 0.3（ ）2.4。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">4</span>已知 0.48 × 2.5 = 1.2。不再笔算，求 4.8 × 0.25 和 0.48 × 0.25，并说明积怎样变化。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">5</span>计算 2.75 × 1.34 的准确值，再把积保留两位小数。</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="zh-s3">
+        <h2 class="section-heading" id="zh-s3">03 · 除法转化 <small>两个数同步变化</small></h2>
+        <div class="exercise-grid two">
+          <div class="exercise"><p class="prompt"><span class="question-number">6</span>把 8.64 ÷ 0.16 转化成除数是整数的算式，算出商，并写出转化依据。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">7</span>同学写出 0.72 ÷ 0.06 = 0.72 ÷ 6 = 0.12。指出错误并求正确的商。</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="zh-s4">
+        <h2 class="section-heading" id="zh-s4">04 · 商与近似值 <small>写出关键步骤</small></h2>
+        <div class="exercise-grid two scenarios">
+          <div class="exercise"><p class="prompt"><span class="question-number">8</span>计算 7.35 ÷ 0.6，并用乘法验算。</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">9</span>5.2 ÷ 0.9 的商保留两位小数是多少？至少要算到商的小数点后第几位？</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="zh-s5">
+        <h2 class="section-heading" id="zh-s5">05 · 情境取整 <small>分别说明理由</small></h2>
+        <div class="exercise exercise--wide"><p class="prompt"><span class="question-number">10</span>有 23.8 千克狗粮，每袋最多装 2.6 千克。最多能装满几袋？要把狗粮全部装袋，至少要几袋？分别说明理由。</p><div class="work-area"><div class="write-line"></div><div class="write-line"></div><div class="write-line"></div><div class="write-line"></div></div></div>
+      </section>
+
+      <footer class="page-footer"><span>原创测试 · 根据第一单元知识要点编写</span><span>10 题 · 每题 10 分 · 共 100 分</span></footer>
+    </section>
+
+    <section class="page page--en" lang="en" aria-labelledby="title-en">
+      <header class="page-header">
+        <div class="meta-row">
+          <p class="eyebrow">FALL 2026 · JIANGSU EDITION · GRADE 6</p>
+          <div class="identity">Name <span></span>　Date <span></span></div>
+        </div>
+        <div class="title-row"><h1 id="title-en">Unit 1 | Decimal Operations Test (II)</h1><span class="page-number">English · 2 / 2</span></div>
+        <p class="instruction">10 questions, 10 points each. Show key steps; include units and explain whole-number choices.</p>
+      </header>
+
+      <section class="exercise-section" aria-labelledby="en-s1">
+        <h2 class="section-heading" id="en-s1">01 · Meaning and correction <small>Explain your reasoning</small></h2>
+        <div class="exercise-grid two">
+          <div class="exercise"><p class="prompt"><span class="question-number">1</span>A tank holds 18 L of water. It is 0.35 full. How many liters are in it? Write an equation and explain what 0.35 means.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">2</span>Ming writes 0.08 × 0.7 = 0.56. Is he correct? Correct the result and explain where the decimal point goes.</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="en-s2">
+        <h2 class="section-heading" id="en-s2">02 · Size and product changes <small>Use the patterns</small></h2>
+        <div class="exercise-grid three">
+          <div class="exercise"><p class="prompt"><span class="question-number">3</span>Without calculating, fill &gt; or &lt;: 2.4 × 1.3 ( ) 2.4; 2.4 × 0.3 ( ) 2.4; 2.4 ÷ 1.3 ( ) 2.4; 2.4 ÷ 0.3 ( ) 2.4.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">4</span>Given 0.48 × 2.5 = 1.2, find 4.8 × 0.25 and 0.48 × 0.25 without multiplying again. Explain the changes.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">5</span>Find the exact value of 2.75 × 1.34, then round the product to two decimal places.</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="en-s3">
+        <h2 class="section-heading" id="en-s3">03 · Division transforms <small>Change both numbers</small></h2>
+        <div class="exercise-grid two">
+          <div class="exercise"><p class="prompt"><span class="question-number">6</span>Rewrite 8.64 ÷ 0.16 with a whole-number divisor. Find the quotient and explain the rule used.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">7</span>A student writes 0.72 ÷ 0.06 = 0.72 ÷ 6 = 0.12. Identify the mistake and find the correct quotient.</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="en-s4">
+        <h2 class="section-heading" id="en-s4">04 · Quotients and rounding <small>Show the key steps</small></h2>
+        <div class="exercise-grid two scenarios">
+          <div class="exercise"><p class="prompt"><span class="question-number">8</span>Calculate 7.35 ÷ 0.6 and check your answer by multiplication.</p><div class="write-line"></div><div class="write-line"></div></div>
+          <div class="exercise"><p class="prompt"><span class="question-number">9</span>Round 5.2 ÷ 0.9 to two decimal places. Through which decimal place must you calculate first?</p><div class="write-line"></div><div class="write-line"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-section" aria-labelledby="en-s5">
+        <h2 class="section-heading" id="en-s5">05 · Whole-number decisions <small>Explain both choices</small></h2>
+        <div class="exercise exercise--wide"><p class="prompt"><span class="question-number">10</span>There are 23.8 kg of dog food. Each bag holds at most 2.6 kg. How many full bags can you fill? How many bags are needed for all the food? Explain both choices.</p><div class="work-area"><div class="write-line"></div><div class="write-line"></div><div class="write-line"></div><div class="write-line"></div></div></div>
+      </section>
+
+      <footer class="page-footer"><span>Original test based on Unit 1 learning goals</span><span>10 questions · 10 points each · 100 total</span></footer>
+    </section>
+  </main>
+
+  <dialog id="answers" aria-labelledby="answer-title">
+    <h2 id="answer-title">参考答案 / Answer key</h2>
+    <h3 lang="zh-CN">中文</h3>
+    <ol lang="zh-CN"><li>18 × 0.35 = 6.3（升）；0.35 表示水箱容量的百分之三十五。</li><li>错。8 × 7 = 56，两因数共三位小数，正确的积是 0.056。</li><li>依次填 ＞、＜、＜、＞。正数乘大于 1 的数变大，乘 0 到 1 之间的数变小；除法则相反。</li><li>4.8 × 0.25 = 1.2：一个因数乘 10、另一个除以 10，积不变；0.48 × 0.25 = 0.12：第二个因数除以 10，积也除以 10。</li><li>2.75 × 1.34 = 3.685 ≈ 3.69（保留两位小数）。</li><li>8.64 ÷ 0.16 = 864 ÷ 16 = 54；被除数和除数同时乘 100，商不变。</li><li>只把除数乘 100，没有把被除数也乘 100。正确转化为 72 ÷ 6 = 12。</li><li>7.35 ÷ 0.6 = 73.5 ÷ 6 = 12.25；验算：12.25 × 0.6 = 7.35。</li><li>5.2 ÷ 0.9 = 5.777… ≈ 5.78；至少算到第三位，即千分位。</li><li>9 × 2.6 = 23.4，10 × 2.6 = 26，所以最多装满 9 袋；剩下 0.4 千克仍需一袋，全部装完至少要 10 袋。</li></ol><h3 lang="en">English</h3>
+    <ol lang="en"><li>18 × 0.35 = 6.3 L; 0.35 means 35% of the tank's capacity.</li><li>No. 8 × 7 = 56, and the factors have three decimal places in total, so the product is 0.056.</li><li>The signs are &gt;, &lt;, &lt;, &gt;. Multiplying a positive number by a factor above 1 makes it larger; a factor between 0 and 1 makes it smaller. Division reverses these comparisons.</li><li>4.8 × 0.25 = 1.2: one factor is multiplied by 10 and the other divided by 10. 0.48 × 0.25 = 0.12: dividing one factor by 10 divides the product by 10.</li><li>2.75 × 1.34 = 3.685 ≈ 3.69 to two decimal places.</li><li>8.64 ÷ 0.16 = 864 ÷ 16 = 54; multiplying both dividend and divisor by 100 leaves the quotient unchanged.</li><li>The student multiplied only the divisor by 100. Multiply both numbers by 100: 72 ÷ 6 = 12.</li><li>7.35 ÷ 0.6 = 73.5 ÷ 6 = 12.25; check: 12.25 × 0.6 = 7.35.</li><li>5.2 ÷ 0.9 = 5.777… ≈ 5.78; calculate through the thousandths place first.</li><li>9 × 2.6 = 23.4 and 10 × 2.6 = 26. You can fill 9 bags completely; the remaining 0.4 kg needs another bag, so at least 10 bags are needed for all the food.</li></ol><footer><button type="button" id="close-answers">关闭 / Close</button></footer>
+  </dialog>
+  <script>
+    const answers = document.getElementById('answers');
+    document.getElementById('show-answers').addEventListener('click', () => answers.showModal());
+    document.getElementById('close-answers').addEventListener('click', () => answers.close());
+    document.getElementById('print-sheet').addEventListener('click', () => window.print());
+  </script>
+</body>
+</html>

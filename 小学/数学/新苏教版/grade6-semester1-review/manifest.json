@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-sujiao-grade6-semester1-review-math",
+  "name": "六年级上册 - 期末复习与整册索引",
+  "description": "按 2026 秋六上教材目录串联七个单元、四项综合实践与期末复习。",
+  "subject": "math",
+  "publisher": { "name": "苏教版" },
+  "generation": {
+    "sourceHash": "manual-new-sujiao-grade6-semester1-review-2026-09-30",
+    "generatorVersion": "manual-math-course-generator-1",
+    "generatedAt": "2026-09-30"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "按数与运算、数量关系、图形的认识与测量、图形的位置与运动梳理全册知识并检查典型错误。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "tags": ["苏教版", "六年级上册", "期末复习", "整册索引"],
+      "math": { "courseType": "math-semester-source", "topic": "期末复习" }
+    },
+    "package": {
+      "source": { "type": "textbook-markdown", "path": "textbook.md" },
+      "activities": []
+    }
+  }
+}

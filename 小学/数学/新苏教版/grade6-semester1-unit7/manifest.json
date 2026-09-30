@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-sujiao-grade6-semester1-unit7-math",
+  "name": "六年级上册第七单元 - 确定位置",
+  "description": "用数对或方向和距离描述与确定物体的位置。",
+  "subject": "math",
+  "publisher": { "name": "苏教版" },
+  "generation": {
+    "sourceHash": "manual-new-sujiao-grade6-semester1-unit7-2026-09-30",
+    "generatorVersion": "manual-math-course-generator-1",
+    "generatedAt": "2026-09-30"
+  },
+  "domain": {
+    "key": "math",
+    "planning": {
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "能用数对表示方格图中的位置，并根据观测点、方向和距离描述位置与路线。"
+      },
+      "grade": 6,
+      "semester": 1,
+      "unit": 7,
+      "tags": ["苏教版", "六年级上册", "数对", "方向", "距离", "确定位置"],
+      "math": { "courseType": "math-unit-source", "topic": "确定位置" }
+    },
+    "package": {
+      "source": { "type": "textbook-markdown", "path": "textbook.md" },
+      "activities": []
+    }
+  }
+}

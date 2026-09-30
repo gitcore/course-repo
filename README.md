@@ -43,6 +43,69 @@
 - `manifest`: `小学/数学/新苏教版/grade6-semester1-unit1/manifest.json`
 - `source`: `小学/数学/新苏教版/grade6-semester1-unit1/textbook.md`
 
+#### `new-sujiao-grade6-semester1-unit2-math`
+
+- `name`: 六年级上册第二单元 - 混合运算与数量关系（三）
+- `subject`: `math`
+- `scope`: 新苏教版小学数学六年级上册第二单元
+- `description`: 分数、小数混合运算、估算与分数实际问题的课程资源。
+- `manifest`: `小学/数学/新苏教版/grade6-semester1-unit2/manifest.json`
+- `source`: `小学/数学/新苏教版/grade6-semester1-unit2/textbook.md`
+
+#### `new-sujiao-grade6-semester1-unit3-math`
+
+- `name`: 六年级上册第三单元 - 数与运算的再认识
+- `subject`: `math`
+- `scope`: 新苏教版小学数学六年级上册第三单元
+- `description`: 整数、分数、小数的计数单位与四则运算算理的课程资源。
+- `manifest`: `小学/数学/新苏教版/grade6-semester1-unit3/manifest.json`
+- `source`: `小学/数学/新苏教版/grade6-semester1-unit3/textbook.md`
+
+#### `new-sujiao-grade6-semester1-unit4-math`
+
+- `name`: 六年级上册第四单元 - 比和比例
+- `subject`: `math`
+- `scope`: 新苏教版小学数学六年级上册第四单元及随后单列的黄金比实践
+- `description`: 比的意义与性质、按比分配、比例及黄金比的教材知识整理。
+- `manifest`: `小学/数学/新苏教版/grade6-semester1-unit4/manifest.json`
+- `source`: `小学/数学/新苏教版/grade6-semester1-unit4/textbook.md`
+
+#### `new-sujiao-grade6-semester1-unit5-math`
+
+- `name`: 六年级上册第五单元 - 圆
+- `subject`: `math`
+- `scope`: 新苏教版小学数学六年级上册第五单元及随后单列的体育实践
+- `description`: 圆与扇形、圆的周长和面积、体育中的数学的教材知识整理。
+- `manifest`: `小学/数学/新苏教版/grade6-semester1-unit5/manifest.json`
+- `source`: `小学/数学/新苏教版/grade6-semester1-unit5/textbook.md`
+
+#### `new-sujiao-grade6-semester1-unit6-math`
+
+- `name`: 六年级上册第六单元 - 比例尺
+- `subject`: `math`
+- `scope`: 新苏教版小学数学六年级上册第六单元
+- `description`: 比例尺的意义、图上距离和实际距离的教材知识整理。
+- `manifest`: `小学/数学/新苏教版/grade6-semester1-unit6/manifest.json`
+- `source`: `小学/数学/新苏教版/grade6-semester1-unit6/textbook.md`
+
+#### `new-sujiao-grade6-semester1-unit7-math`
+
+- `name`: 六年级上册第七单元 - 确定位置
+- `subject`: `math`
+- `scope`: 新苏教版小学数学六年级上册第七单元
+- `description`: 数对及方向和距离确定位置的教材知识整理。
+- `manifest`: `小学/数学/新苏教版/grade6-semester1-unit7/manifest.json`
+- `source`: `小学/数学/新苏教版/grade6-semester1-unit7/textbook.md`
+
+#### `new-sujiao-grade6-semester1-review-math`
+
+- `name`: 六年级上册 - 期末复习与整册索引
+- `subject`: `math`
+- `scope`: 新苏教版小学数学六年级上册整册索引与期末复习
+- `description`: 串联七个单元、四项综合实践及期末复习的教材知识整理。
+- `manifest`: `小学/数学/新苏教版/grade6-semester1-review/manifest.json`
+- `source`: `小学/数学/新苏教版/grade6-semester1-review/textbook.md`
+
 ### 小学 / 英语 / 读本 / 六年级
 
 #### `english-reader-grade6-hello-codex-2026`
