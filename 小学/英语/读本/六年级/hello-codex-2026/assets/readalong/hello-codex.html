@@ -7,7 +7,7 @@
 <title>Hello, Codex! · 插画有声读本</title>
 <style>
 :root{--ink:#263f45;--muted:#687674;--paper:#fffcf5;--coral:#b94730;--line:#e2ded3;--green:#315c50;--gold:#f3cf78}
-*{box-sizing:border-box}body{margin:0;background:#f1eee5;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif}button,select{font:inherit}button,select,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:default;opacity:.4}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #1e7892;outline-offset:4px}button{color:inherit}header{max-width:1300px;margin:auto;padding:24px 36px 17px;display:flex;justify-content:space-between;gap:20px;align-items:center}.brand{font-size:12px;letter-spacing:2.5px;font-weight:700}.brand b{color:var(--coral);font-size:21px;vertical-align:middle;margin-right:10px}.edition{font-size:12px;color:var(--muted)}main{max-width:1300px;padding:0 36px 26px;margin:auto}.topline{display:flex;align-items:end;justify-content:space-between;gap:20px;margin:15px 0 23px}.topline h1{font-family:Georgia,serif;font-size:clamp(35px,4.2vw,60px);font-weight:400;letter-spacing:-1.8px;margin:0 0 7px}.topline p{margin:0;color:var(--muted);font-size:14px}.chapter-switch{display:flex;gap:6px;flex-wrap:wrap}.chapter-switch button{border:1px solid var(--line);background:transparent;border-radius:30px;padding:10px 17px;font-size:13px}.chapter-switch button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:white}.book{display:grid;grid-template-columns:1fr 1fr;background:var(--paper);border-radius:12px;overflow:hidden;box-shadow:0 12px 36px #33483c16,0 1px 2px #33483c18;min-height:600px}.visual-page{display:flex;flex-direction:column;background:#e8e0ca;position:relative}.art{width:100%;aspect-ratio:1;position:relative;overflow:hidden}.art img{position:absolute;width:400%;height:200%;max-width:none;left:0;top:0;object-fit:fill}.art-caption{padding:23px 28px;display:flex;align-items:center;gap:14px;background:#efe8d9;flex:1}.art-caption .scene{font:italic 38px Georgia,serif;color:#9c573f}.art-caption p{margin:0;font-size:13px;line-height:1.8;color:#665f50}.text-page{padding:31px 34px 23px;display:flex;flex-direction:column;border-left:1px solid #eee7d9}.chapter{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--coral);font-weight:700;margin:0 0 9px}.page-title{font:400 clamp(25px,2.6vw,36px)/1.14 Georgia,serif;margin:0 0 7px;letter-spacing:-.5px}.cn-title{margin:0;color:var(--muted);font-size:13px}.lines{margin:21px -12px 15px;display:grid;gap:3px;flex:1;align-content:start}.line{background:transparent;border:1px solid transparent;border-radius:9px;text-align:left;padding:10px 12px;display:block;width:100%;transition:background .15s}.line:hover{background:#f1f0e7}.line.active{background:#fff0c9;border-color:#e8cf8d;box-shadow:inset 3px 0 0 #bd7822}.speaker{display:block;font-size:10px;letter-spacing:1.3px;color:var(--coral);font-weight:700;margin-bottom:3px}.en{font:400 clamp(19px,1.78vw,24px)/1.45 Georgia,serif;display:block}.cn{display:block;color:var(--muted);font-size:13px;line-height:1.65;margin-top:5px}.hide-chinese .cn{display:none}.line-num{float:right;color:var(--muted);font:10px -apple-system,sans-serif;margin-left:6px;margin-top:5px}.words{border-top:1px solid var(--line);padding-top:14px;display:flex;gap:8px;flex-wrap:wrap}.word{background:#edf1e9;padding:6px 9px;border-radius:5px;font-size:12px;line-height:1.5}.word b{font-weight:500;margin-right:6px;color:var(--green)}.word span{color:#617160}.toolbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-top:18px}.play{background:var(--coral);border:0;color:#fff;min-width:112px;min-height:44px;border-radius:28px;padding:11px 20px}.stop{background:none;border:1px solid var(--line);padding:9px 13px;border-radius:25px;min-height:42px}.setting{font-size:12px;color:#52655e;display:flex;align-items:center;gap:7px}.setting select{font-size:13px;padding:7px 24px 7px 10px;border:1px solid var(--line);border-radius:6px;background:#fffdf7;color:var(--ink)}.setting input{accent-color:var(--green);width:17px;height:17px}.status{font-size:12px;color:var(--muted);margin-left:auto;max-width:280px;line-height:1.5}.progress-track{height:3px;background:#e3dfd5;margin-top:14px;border-radius:2px;overflow:hidden}.progress-fill{height:100%;background:var(--coral);width:0;transition:width .12s linear}.navigation{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:15px 0 22px}.arrow{border:0;background:transparent;padding:10px 0;font-size:13px;min-width:64px;min-height:44px}.dots{display:flex;gap:5px;align-items:center}.dot{border:0;background:transparent;width:32px;height:34px;border-radius:50%;font-size:12px;color:var(--muted)}.dot[aria-current=page]{background:var(--ink);color:white}.checkpoint{display:grid;grid-template-columns:180px 1fr;gap:26px;background:#e6ece3;border-radius:10px;padding:24px 27px}.checkpoint .label{color:var(--green);font-size:11px;letter-spacing:2px;margin:0 0 6px;font-weight:700}.checkpoint .note{font-size:12px;color:#53685a;line-height:1.7;margin:0}.question{font:22px/1.35 Georgia,serif;margin:0 0 13px}.answers{display:flex;gap:8px;flex-wrap:wrap}.answer{font-size:13px;background:#f8fbf5;border:1px solid #c3cebf;border-radius:7px;min-height:42px;padding:9px 14px;text-align:left}.answer.chosen{border-color:var(--green);background:#315c50;color:white}.answer.wrong{background:#fff0e7;border-color:#ba694f;color:#8b321f}.feedback{font-size:13px;line-height:1.7;margin:10px 0 0;color:var(--green);min-height:22px}footer{display:flex;gap:15px;justify-content:space-between;flex-wrap:wrap;margin-top:24px;color:var(--muted);font-size:11px;line-height:1.7}footer a{color:var(--green)}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+*{box-sizing:border-box}body{margin:0;background:#f1eee5;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif}button,select{font:inherit}button,select,a{touch-action:manipulation}button{cursor:pointer}button:disabled{cursor:default;opacity:.4}button:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid #1e7892;outline-offset:4px}button{color:inherit}header{max-width:1300px;margin:auto;padding:24px 36px 17px;display:flex;justify-content:space-between;gap:20px;align-items:center}.brand{font-size:12px;letter-spacing:2.5px;font-weight:700}.brand b{color:var(--coral);font-size:21px;vertical-align:middle;margin-right:10px}.edition{font-size:12px;color:var(--muted)}main{max-width:1300px;padding:0 36px 26px;margin:auto}.topline{display:flex;align-items:end;justify-content:space-between;gap:20px;margin:15px 0 23px}.topline h1{font-family:Georgia,serif;font-size:clamp(35px,4.2vw,60px);font-weight:400;letter-spacing:-1.8px;margin:0 0 7px}.topline p{margin:0;color:var(--muted);font-size:14px}.chapter-switch{display:flex;gap:6px;flex-wrap:wrap}.chapter-switch button{border:1px solid var(--line);background:transparent;border-radius:30px;padding:10px 17px;font-size:13px}.chapter-switch button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:white}.book{display:grid;grid-template-columns:1fr 1fr;background:var(--paper);border-radius:12px;overflow:hidden;box-shadow:0 12px 36px #33483c16,0 1px 2px #33483c18;min-height:600px}.visual-page{display:flex;flex-direction:column;background:#e8e0ca;position:relative}.art{width:100%;aspect-ratio:1;position:relative;overflow:hidden}.art img{position:absolute;width:400%;height:200%;max-width:none;left:0;top:0;object-fit:fill}.art-caption{padding:23px 28px;display:flex;align-items:center;gap:14px;background:#efe8d9;flex:1}.art-caption .scene{font:italic 38px Georgia,serif;color:#9c573f}.art-caption p{margin:0;font-size:13px;line-height:1.8;color:#665f50}.text-page{padding:31px 34px 23px;display:flex;flex-direction:column;border-left:1px solid #eee7d9}.chapter{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--coral);font-weight:700;margin:0 0 9px}.page-title{font:400 clamp(25px,2.6vw,36px)/1.14 Georgia,serif;margin:0 0 7px;letter-spacing:-.5px}.cn-title{margin:0;color:var(--muted);font-size:13px}.lines{margin:21px -12px 15px;display:grid;gap:3px;flex:1;align-content:start}.line{background:transparent;border:1px solid transparent;border-radius:9px;text-align:left;padding:10px 12px;display:block;width:100%;transition:background .15s}.line:hover{background:#f1f0e7}.line.active{background:#fff0c9;border-color:#e8cf8d;box-shadow:inset 3px 0 0 #bd7822}.speaker{display:block;font-size:10px;letter-spacing:1.3px;color:var(--coral);font-weight:700;margin-bottom:3px}.en{font:400 clamp(19px,1.78vw,24px)/1.45 Georgia,serif;display:block}.cn{display:block;color:var(--muted);font-size:13px;line-height:1.65;margin-top:5px}.hide-chinese .cn{display:none}.line-num{float:right;color:var(--muted);font:10px -apple-system,sans-serif;margin-left:6px;margin-top:5px}.words{border-top:1px solid var(--line);padding-top:14px;display:flex;gap:8px;flex-wrap:wrap}.word{background:#edf1e9;padding:6px 9px;border-radius:5px;font-size:12px;line-height:1.5}.word b{font-weight:500;margin-right:6px;color:var(--green)}.word span{color:#617160}.toolbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-top:18px}.play{background:var(--coral);border:0;color:#fff;min-width:112px;height:36px;border-radius:28px;padding:6px 16px}.stop{background:none;border:1px solid var(--line);padding:6px 12px;border-radius:25px;height:36px}.setting{font-size:12px;color:#52655e;display:flex;align-items:center;gap:7px}.setting select{font-size:13px;padding:7px 24px 7px 10px;border:1px solid var(--line);border-radius:6px;background:#fffdf7;color:var(--ink)}.setting input{accent-color:var(--green);width:17px;height:17px}.status{font-size:12px;color:var(--muted);margin-left:auto;max-width:280px;line-height:1.5}.progress-track{height:3px;background:#e3dfd5;margin-top:14px;border-radius:2px;overflow:hidden}.progress-fill{height:100%;background:var(--coral);width:0;transition:width .12s linear}.navigation{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:15px 0 22px}.arrow{border:0;background:transparent;padding:10px 0;font-size:13px;min-width:64px;min-height:44px}.dots{display:flex;gap:5px;align-items:center}.dot{border:0;background:transparent;width:32px;height:34px;border-radius:50%;font-size:12px;color:var(--muted)}.dot[aria-current=page]{background:var(--ink);color:white}.checkpoint{display:grid;grid-template-columns:180px 1fr;gap:26px;background:#e6ece3;border-radius:10px;padding:24px 27px}.checkpoint .label{color:var(--green);font-size:11px;letter-spacing:2px;margin:0 0 6px;font-weight:700}.checkpoint .note{font-size:12px;color:#53685a;line-height:1.7;margin:0}.question{font:22px/1.35 Georgia,serif;margin:0 0 13px}.answers{display:flex;gap:8px;flex-wrap:wrap}.answer{font-size:13px;background:#f8fbf5;border:1px solid #c3cebf;border-radius:7px;min-height:42px;padding:9px 14px;text-align:left}.answer.chosen{border-color:var(--green);background:#315c50;color:white}.answer.wrong{background:#fff0e7;border-color:#ba694f;color:#8b321f}.feedback{font-size:13px;line-height:1.7;margin:10px 0 0;color:var(--green);min-height:22px}footer{display:flex;gap:15px;justify-content:space-between;flex-wrap:wrap;margin-top:24px;color:var(--muted);font-size:11px;line-height:1.7}footer a{color:var(--green)}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
 @media(min-width:1300px){.book{min-height:660px}}@media(max-width:960px){header{padding:20px 22px 8px}main{padding:0 22px 24px}.book{min-height:0}.text-page{padding:26px 24px 20px}.en{font-size:20px}.art-caption{padding:20px}.topline{align-items:start}.status{margin-left:0}.checkpoint{grid-template-columns:140px 1fr;gap:18px}.lines{margin-top:16px}.line{padding:8px 12px}}
 @media(max-width:700px){header{padding:18px 16px 10px}.edition{font-size:10px}.brand{font-size:10px;letter-spacing:1.5px}main{padding:0 14px 22px}.topline{display:block;margin:9px 0 17px}.topline h1{font-size:43px}.topline p{font-size:12px}.chapter-switch{margin-top:17px}.chapter-switch button{font-size:12px;padding:9px 13px}.book{grid-template-columns:1fr}.art{aspect-ratio:1}.art-caption{padding:12px 21px}.art-caption .scene{font-size:29px}.text-page{border-left:0;padding:25px 23px}.page-title{font-size:31px}.en{font-size:23px}.line{padding:11px 12px}.lines{margin-top:18px}.toolbar{gap:11px;padding:15px}.status{width:100%;max-width:none;min-height:18px}.checkpoint{display:block;padding:22px}.checkpoint .note{margin-bottom:16px}.checkpoint .label{margin-bottom:4px}.question{font-size:21px}.dots{gap:0}.dot{width:27px}.arrow{min-width:52px;font-size:12px}.navigation{gap:3px}.setting{font-size:12px}footer{font-size:10px}.word{font-size:12px}}
 @media(max-width:360px){.dots{flex:1;min-width:0;justify-content:center}.dot{width:22px;min-width:20px;padding:0}.arrow{min-width:44px}.brand{letter-spacing:1px}.edition{max-width:108px;text-align:right}}
@@ -28,7 +28,7 @@ header{padding:10px 24px 6px}main{padding:0 24px 24px}
 .reader-controls{min-width:0}.toolbar{margin:0;padding:8px 12px;gap:10px}.progress-track{margin-top:6px}.navigation{margin:4px 0 0;gap:6px}.arrow{min-height:38px}.dot{height:32px}.checkpoint{margin-top:10px}
 .news-art{padding:6%}.news-headline{font-size:clamp(22px,3vw,36px);margin:8px 0}.news-number{font-size:clamp(32px,5vw,62px);margin:8px 0}.news-step{margin-top:8px;padding-top:8px}.news-date{margin-top:6px}
 @media(max-width:850px){.topline{align-items:flex-start;flex-direction:column}.chapter-switch{margin-top:0}.status{flex-basis:100%;max-width:none;min-height:16px;font-size:11px}.toolbar{gap:6px 10px}.setting select{padding:6px}.topline h1{font-size:30px}}
-@media(max-width:700px){header{padding:8px 12px 4px}main{padding:0 10px 20px}.reader-stage{gap:7px;padding-bottom:8px}.topline{margin:0;gap:6px}.topline h1{font-size:27px}.topline p{font-size:11px}.chapter-switch{gap:4px}.chapter-switch button{font-size:11px;padding:6px 8px}.book{grid-template-columns:minmax(0,.3fr) minmax(0,.7fr)}.visual-page{padding-bottom:0}.art{width:min(100cqw,calc(100cqh*var(--panel-ratio,1)));height:min(calc(100cqw / var(--panel-ratio,1)),100cqh)}.art-caption{display:none}.text-page{padding:10px}.page-title{font-size:22px}.chapter{font-size:8px;letter-spacing:1px}.en{font-size:18px}.cn{font-size:11px}.words{max-height:55px;overflow:auto}.toolbar{padding:7px 8px;gap:5px 8px}.play{min-width:98px;padding:8px 12px}.stop{padding:7px 9px}.setting{font-size:11px}.setting select{font-size:12px}.status{line-height:1.2}.dot{width:24px;height:28px;padding:0}.navigation{flex-wrap:wrap}.dots{order:3;flex-basis:100%;gap:2px}.navigation #next{margin-left:auto}.arrow{min-height:30px}.news-art{padding:8px}.news-kicker,.news-date,.news-place,.news-step{font-size:8px;letter-spacing:0}.news-headline{font-size:18px;overflow-wrap:anywhere}.news-number{font-size:24px;letter-spacing:-1px;overflow-wrap:anywhere}.news-caption{font-size:10px}.news-step{display:none}}
+@media(max-width:700px){header{padding:8px 12px 4px}main{padding:0 10px 20px}.reader-stage{gap:7px;padding-bottom:8px}.topline{margin:0;gap:6px}.topline h1{font-size:27px}.topline p{font-size:11px}.chapter-switch{gap:4px}.chapter-switch button{font-size:11px;padding:6px 8px}.book{grid-template-columns:minmax(0,.3fr) minmax(0,.7fr)}.visual-page{padding-bottom:0}.art{width:min(100cqw,calc(100cqh*var(--panel-ratio,1)));height:min(calc(100cqw / var(--panel-ratio,1)),100cqh)}.art-caption{display:none}.text-page{padding:10px}.page-title{font-size:22px}.chapter{font-size:8px;letter-spacing:1px}.en{font-size:18px}.cn{font-size:11px}.words{max-height:55px;overflow:auto}.toolbar{padding:7px 8px;gap:5px 8px}.play{min-width:98px;padding:6px 12px}.stop{padding:6px 9px}.setting{font-size:11px}.setting select{font-size:12px}.status{line-height:1.2}.dot{width:24px;height:28px;padding:0}.navigation{flex-wrap:wrap}.dots{order:3;flex-basis:100%;gap:2px}.navigation #next{margin-left:auto}.arrow{min-height:30px}.news-art{padding:8px}.news-kicker,.news-date,.news-place,.news-step{font-size:8px;letter-spacing:0}.news-headline{font-size:18px;overflow-wrap:anywhere}.news-number{font-size:24px;letter-spacing:-1px;overflow-wrap:anywhere}.news-caption{font-size:10px}.news-step{display:none}}
 @media print{.reader-stage{display:block;height:auto}.reader-controls{display:none}.book{display:block}.visual-page{container-type:normal}.art{width:100%;height:auto;aspect-ratio:1!important}.lines{overflow:visible}.text-page{display:block}}
 
 .visual-page.individual-art{overflow:hidden}
@@ -45,6 +45,27 @@ header{padding:10px 24px 6px}main{padding:0 24px 24px}
   .words{max-height:none;overflow:visible}
 }
 .coding-challenge{padding-left:22px;line-height:1.85}.coding-challenge li{margin:10px 0}.prompt-card{padding:6px 18px;border:1px solid var(--line);border-radius:10px;background:#f0f5ed;overflow-wrap:anywhere}.prompt-card p{line-height:1.7}
+
+body.vocabulary-open{overflow:hidden}
+.vocabulary-failure{margin:6px 2px 0;color:#8b321f;font-size:12px;line-height:1.4}
+.vocabulary-backdrop{position:fixed;inset:0;z-index:3000;display:flex;align-items:center;justify-content:center;padding:16px;background:#172f34a8}
+.vocabulary-dialog{width:min(100%,520px);max-height:min(80dvh,640px);display:flex;flex-direction:column;overflow:hidden;background:var(--paper);border-radius:16px;box-shadow:0 24px 70px #10272555}
+.vocabulary-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 20px 12px;border-bottom:1px solid var(--line)}
+.vocabulary-head h2{margin:0;font-size:19px;font-weight:600}
+.vocabulary-close{flex:none;width:36px;height:36px;border:1px solid var(--line);border-radius:50%;background:transparent;font-size:22px;line-height:1}
+.vocabulary-body{min-height:0;overflow-y:auto;padding:18px 20px 24px;overscroll-behavior:contain}
+.vocabulary-help{margin:0 0 12px;color:var(--muted);font-size:13px;line-height:1.5}
+.vocabulary-sentence{margin:0;font:21px/2.15 Georgia,serif;white-space:pre-wrap;overflow-wrap:anywhere}
+.vocabulary-word{display:inline;border:1px solid transparent;border-radius:6px;padding:2px 3px;background:transparent;font:inherit;color:inherit;vertical-align:baseline}
+.vocabulary-word:hover{background:#f1f0e7}
+.vocabulary-word[aria-pressed=true]{background:#fff0c9;border-color:#d8a54c;box-shadow:inset 0 -2px 0 #bd7822}
+.vocabulary-message{min-height:20px;margin:14px 0 0;color:var(--muted);font-size:13px;line-height:1.5}
+.vocabulary-message.error{color:#8b321f}
+.vocabulary-actions{flex:none;padding:14px 20px max(14px,env(safe-area-inset-bottom));border-top:1px solid var(--line);background:var(--paper)}
+.vocabulary-save{width:100%;min-height:44px;border:0;border-radius:24px;background:var(--coral);color:#fff;padding:10px 16px;font-weight:600}
+.vocabulary-save:not(:disabled):hover{filter:brightness(.92)}
+.vocabulary-save:disabled{opacity:.48}
+@media(max-width:700px){.vocabulary-backdrop{align-items:flex-end;padding:0}.vocabulary-dialog{width:100%;max-height:min(82dvh,680px);border-radius:18px 18px 0 0}.vocabulary-head{padding:14px 16px 10px}.vocabulary-body{padding:16px}.vocabulary-actions{padding:12px 16px max(12px,env(safe-area-inset-bottom))}}
 </style>
 </head>
 <body>
@@ -64,6 +85,7 @@ header{padding:10px 24px 6px}main{padding:0 24px 24px}
     <label class="setting"><input type="checkbox" id="translation" checked>中文</label>
     <div id="status" class="status" role="status" aria-live="polite">点击开始朗读，或点一句听一句。</div>
   </div>
+  <div class="vocabulary-failure" id="vocabularyFailure" role="alert" hidden></div>
   <div class="progress-track" role="progressbar" aria-label="本页朗读进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress"><div class="progress-fill" id="fill"></div></div>
   <nav class="navigation" aria-label="读本翻页"><button class="arrow" id="prev">← 上一页</button><div class="dots" id="dots"></div><button class="arrow" id="next">下一页 →</button></nav>
   </div>
@@ -98,6 +120,13 @@ header{padding:10px 24px 6px}main{padding:0 24px 24px}
   <footer><span>原创科技故事 · 六年级英语 · 英语合成朗读</span><span>图片与音频随课程加载 · 点击句子可单独听读</span></footer>
   <noscript>请在支持 JavaScript 的浏览器中打开此读本。也可<a href="audio/hello-codex-full.m4a">单独播放完整朗读</a>。</noscript>
 </main>
+<div class="vocabulary-backdrop" id="vocabularyBackdrop" hidden>
+  <section class="vocabulary-dialog" id="vocabularyDialog" role="dialog" aria-modal="true" aria-labelledby="vocabularyTitle" tabindex="-1">
+    <div class="vocabulary-head"><h2 id="vocabularyTitle">标记不认识的单词</h2><button class="vocabulary-close" id="vocabularyClose" type="button" aria-label="关闭选词">×</button></div>
+    <div class="vocabulary-body"><p class="vocabulary-help">点选这句话里不认识的单词；再次点击可取消。</p><p class="vocabulary-sentence" id="vocabularySentence" lang="en"></p><p class="vocabulary-message" id="vocabularyMessage" role="status" aria-live="polite"></p></div>
+    <div class="vocabulary-actions"><button class="vocabulary-save" id="vocabularySave" type="button" disabled>保存到生词本</button></div>
+  </section>
+</div>
 <script id="book-data" type="application/json">{"panelAspect":1.5,"title":"Hello, Codex!","subtitle":"六年级原创科技读本","sourceManifestId":"english-reader-grade6-hello-codex-2026","sourceHash":"c48a29320320ffebe322051b339fee504d26e1c12a8d1b433ed237ae624e605f","pictureFile":"images/page-01-meet-codex.jpg","picture":"images/page-01-meet-codex.jpg","lines":[{"id":1,"speaker":"Narrator","text":"Last week, Ms Li showed her class a tool called Codex.","chinese":"上周，李老师给全班介绍了一个叫 Codex 的工具。","audio":"audio/line-01.m4a","duration":4.56},{"id":2,"speaker":"Narrator","text":"“Codex is an AI tool from OpenAI,” she said.","chinese":"“Codex 是 OpenAI 的一款人工智能工具，”她说。","audio":"audio/line-02.m4a","duration":4.08},{"id":3,"speaker":"Narrator","text":"“It can help us write, check and change computer code.”","chinese":"“它能帮助我们编写、检查和修改计算机代码。”","audio":"audio/line-03.m4a","duration":3.44},{"id":4,"speaker":"Narrator","text":"Lin had an idea: “Let's make a small class book!”","chinese":"Lin 有了一个主意：“我们来做一本小小的班级读本吧！”","audio":"audio/line-04.m4a","duration":3.92},{"id":5,"speaker":"Narrator","text":"First, they drew two pages and a big Next button.","chinese":"首先，他们画出两页内容和一个大大的“下一页”按钮。","audio":"audio/line-05.m4a","duration":3.84},{"id":6,"speaker":"Narrator","text":"Ms Li typed, “Use our words in a two-page book.”","chinese":"李老师输入：“用我们的文字做一本两页的读本。”","audio":"audio/line-06.m4a","duration":4.08},{"id":7,"speaker":"Narrator","text":"“Use large letters and a Next button for page two.”","chinese":"“使用大字号，再加一个打开第二页的‘下一页’按钮。”","audio":"audio/line-07.m4a","duration":4.16},{"id":8,"speaker":"Narrator","text":"Codex wrote the code, and Ms Li opened the book.","chinese":"Codex 编写了代码，李老师打开了读本。","audio":"audio/line-08.m4a","duration":3.68},{"id":9,"speaker":"Narrator","text":"Lin clicked Next, but the first page stayed on screen.","chinese":"Lin 点击了“下一页”，但屏幕上仍然是第一页。","audio":"audio/line-09.m4a","duration":4.56},{"id":10,"speaker":"Narrator","text":"“When I click Next, page one stays on screen,” she said.","chinese":"“我点击‘下一页’时，屏幕上仍然是第一页，”她说。","audio":"audio/line-10.m4a","duration":4.56},{"id":11,"speaker":"Narrator","text":"“Please make it open page two,” Ms Li typed.","chinese":"“请让它打开第二页，”李老师输入。","audio":"audio/line-11.m4a","duration":4.0},{"id":12,"speaker":"Narrator","text":"Codex changed the code, and they tried the button again.","chinese":"Codex 修改了代码，他们又试了一次按钮。","audio":"audio/line-12.m4a","duration":3.68},{"id":13,"speaker":"Narrator","text":"This time, page two opened, and everyone could read it.","chinese":"这一次，第二页打开了，大家都能读到里面的内容。","audio":"audio/line-13.m4a","duration":3.84},{"id":14,"speaker":"Narrator","text":"They checked the words and tried the book on a small screen.","chinese":"他们检查了文字，还在小屏幕上试了试这本读本。","audio":"audio/line-14.m4a","duration":3.84},{"id":15,"speaker":"Narrator","text":"“Codex can make mistakes, so we should check its work.”","chinese":"“Codex 也会出错，所以我们应该检查它完成的工作。”","audio":"audio/line-15.m4a","duration":3.52},{"id":16,"speaker":"Narrator","text":"“Next week, we'll plan another book!” said Lin.","chinese":"“下周，我们要设计另一本读本！”Lin 说。","audio":"audio/line-16.m4a","duration":3.68}],"pages":[{"title":"Meet Codex","chineseTitle":"认识一个编程帮手","chapter":"01 · 认识与计划 · Meet Codex","imageFile":"images/page-01-meet-codex.jpg","alt":"李老师向 Lin 和同学介绍电脑上的 Codex，孩子们提出制作班级读本的想法。原创教学示意，不是产品界面截图。","imagePosition":"center 48%","words":[["AI tool","人工智能工具"],["code","代码"],["had an idea","有了一个主意"]],"question":"What can Codex help the class do?","options":["Write, check and change code.","Carry their school bags.","Play every game for them."],"correctIndex":0,"feedback":"Codex can help with computer code. The class still needs to plan and check the work.","lines":[1,2,3,4],"image":"images/page-01-meet-codex.jpg"},{"title":"A clear plan","chineseTitle":"把小目标说清楚","chapter":"01 · 认识与计划 · A clear plan","imageFile":"images/page-02-clear-plan.jpg","alt":"Lin 在纸上画出两页读本和下一页按钮，李老师根据孩子们提供的文字输入请求。原创教学示意。","imagePosition":"center 48%","words":[["typed","用键盘输入了"],["page","一页"],["large letters","大字号"],["button","按钮"]],"question":"What should the Next button open?","options":["A new game.","Page two.","A blank picture."],"correctIndex":1,"feedback":"The class wants the Next button to open page two of its book.","lines":[5,6,7,8],"image":"images/page-02-clear-plan.jpg"},{"title":"Find the problem","chineseTitle":"试一试，说出问题","chapter":"02 · 检查与改进 · Find the problem","imageFile":"images/page-03-find-problem.jpg","alt":"Lin 点击下一页按钮后发现画面仍停在第一页，李老师和同学一起记录实际结果。原创教学示意。","imagePosition":"center 48%","words":[["clicked","点击了"],["screen","屏幕"],["stayed","仍然留在"],["again","再一次"]],"question":"What happened when Lin first clicked Next?","options":["Page two opened.","The words became larger.","Page one stayed on screen."],"correctIndex":2,"feedback":"Lin says what she clicked and what she saw: page one stayed on screen.","lines":[9,10,11,12],"image":"images/page-03-find-problem.jpg"},{"title":"Check and try again","chineseTitle":"再检查，再向前一步","chapter":"02 · 检查与改进 · Check and try again","imageFile":"images/page-04-check-again.jpg","alt":"第二页成功打开后，李老师和 Lin 继续核对文字，并在小屏幕上检查读本。原创教学示意。","imagePosition":"center 48%","words":[["check","检查"],["mistakes","错误"],["should","应该"],["we'll","我们将会"]],"question":"Why should the class check Codex's work?","options":["Codex can make mistakes.","A book cannot have two pages.","Every button is too small."],"correctIndex":0,"feedback":"Codex can make mistakes. The class checks the words, the buttons and the small-screen view.","lines":[13,14,15,16],"image":"images/page-04-check-again.jpg"}],"chapters":[{"label":"01 认识与计划","startLine":1,"startPage":0},{"label":"02 检查与改进","startLine":9,"startPage":2}]}</script>
 <script>
 'use strict';
@@ -111,25 +140,171 @@ chapters.forEach((chapter,i)=>{if(chapter.label)$('chapter'+(i+1)).textContent=c
 const audio=new Audio(); audio.preload='auto';
 let page=0,offset=0,playing=false,single=false,token=0,echoTimer=null,echoWaiting=false,echoDeadline=0,echoRemaining=0;
 const answered=new Map();
+let selectedLineId=null;
+const VOCABULARY_WORDS=/[A-Za-z]+(?:['’-][A-Za-z]+)*/g;
+let vocabularyMarker=null,vocabularyExpected=false;
+let vocabularyHost=null,vocabularyAdapter=null,vocabularyState='standalone';
+let vocabularyResolve,vocabularyReject,vocabularyTimer=null,vocabularySession=0;
+let vocabularyLoaded=null,vocabularyStored=null,vocabularyDraft=null,vocabularyRequest=null,vocabularyBusy=false,vocabularyTrigger=null;
+let vocabularyAdapterReady=null;
+function vocabularyFailure(){
+  if(vocabularyState==='failed')return;
+  const wasWaiting=vocabularyState==='waiting';
+  vocabularyState='failed';vocabularyAdapter=null;vocabularySession++;clearTimeout(vocabularyTimer);
+  const moduleMessage=typeof window.weeklyVocabularyModuleMessage==='string'?window.weeklyVocabularyModuleMessage.trim():'';
+  const message=moduleMessage?'生词功能加载失败，请重新打开读本。'+moduleMessage:'生词功能加载失败，请重新打开读本';
+  $('vocabularyFailure').textContent=message;$('vocabularyFailure').hidden=false;
+  if(wasWaiting)vocabularyReject(new Error(message));
+  if(!$('vocabularyBackdrop').hidden){vocabularyLoaded=null;vocabularyBusy=false;vocabularyMessage(message,true);vocabularySaveState()}
+}
+function vocabularyAcceptAdapter(){
+  if(vocabularyState!=='waiting')return;
+  const candidate=window.weeklyVocabularyAdapter;
+  if(!candidate)return;
+  if(candidate.version!==1||typeof candidate.loadSentenceSelection!=='function'||typeof candidate.saveSentenceSelection!=='function'){vocabularyFailure();return}
+  vocabularyAdapter=candidate;vocabularyState='ready';clearTimeout(vocabularyTimer);vocabularyResolve(candidate);mark();
+}
+function vocabularyInitialize(){
+  if(window.self===window.top)return;
+  vocabularyMarker=document.getElementById('weekly-vocabulary-host');
+  if(!vocabularyMarker)return;
+  vocabularyExpected=true;vocabularyState='waiting';
+  vocabularyAdapterReady=new Promise((resolve,reject)=>{vocabularyResolve=resolve;vocabularyReject=reject});
+  vocabularyAdapterReady.catch(()=>{});
+  window.addEventListener('weekly-vocabulary-adapter-ready',vocabularyAcceptAdapter);
+  window.addEventListener('weekly-vocabulary-adapter-error',vocabularyFailure);
+  try{
+    const config=JSON.parse(vocabularyMarker.textContent);
+    if(config.version!==1||typeof config.resourceId!=='string'||!config.resourceId||typeof config.assetPath!=='string'||!config.assetPath)throw new Error('Invalid vocabulary host marker');
+    vocabularyHost=config;
+  }catch(error){vocabularyFailure()}
+  if(vocabularyState==='waiting'){
+    if(window.weeklyVocabularyModuleError)vocabularyFailure();
+    else vocabularyAcceptAdapter();
+    if(vocabularyState==='waiting')vocabularyTimer=setTimeout(vocabularyFailure,10000);
+  }
+}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',vocabularyInitialize,{once:true});
+else vocabularyInitialize();
+function vocabularyKey(surface){return surface.replace(/’/g,"'").toLowerCase()}
+function vocabularyMessage(message,isError=false){const node=$('vocabularyMessage');node.textContent=message;node.classList.toggle('error',isError)}
+function vocabularyWords(){return [...vocabularyDraft].sort()}
+function vocabularySaveState(){
+  const button=$('vocabularySave');
+  const changed=vocabularyLoaded&&JSON.stringify(vocabularyWords())!==JSON.stringify([...vocabularyStored].sort());
+  button.disabled=!changed||vocabularyBusy||vocabularyState!=='ready';
+  button.setAttribute('aria-busy',String(vocabularyBusy));
+  $('vocabularySentence').querySelectorAll('.vocabulary-word').forEach(word=>{
+    word.disabled=vocabularyBusy||Boolean(vocabularyRequest);
+    word.setAttribute('aria-pressed',String(Boolean(vocabularyDraft&&vocabularyDraft.has(word.dataset.key))));
+  });
+}
+function vocabularyClosePicker(restoreFocus=true){
+  vocabularySession++;$('vocabularyBackdrop').hidden=true;document.body.classList.remove('vocabulary-open');
+  const trigger=vocabularyTrigger;vocabularyTrigger=null;vocabularyLoaded=null;vocabularyStored=null;vocabularyDraft=null;vocabularyRequest=null;vocabularyBusy=false;
+  if(restoreFocus&&trigger&&trigger.isConnected)trigger.focus();
+}
+async function vocabularyHash(sentence){
+  if(!globalThis.crypto||!crypto.subtle)throw new Error('无法校验句子版本，请在安全连接中重新打开读本');
+  const bytes=new TextEncoder().encode(sentence);
+  const digest=await crypto.subtle.digest('SHA-256',bytes);
+  return Array.from(new Uint8Array(digest),byte=>byte.toString(16).padStart(2,'0')).join('');
+}
+function vocabularyValidateLoad(response,line,hash){
+  if(!response||response.version!==1||response.resourceId!==vocabularyHost.resourceId||response.assetPath!==vocabularyHost.assetPath||response.sentenceId!==String(line.id)||response.sentenceHash!==hash||response.sentenceText!==line.text||!Number.isSafeInteger(response.revision)||response.revision<0||!Array.isArray(response.tokens)||!Array.isArray(response.selectedWords))throw new Error('服务端返回的句子与当前读本不一致，请重新打开读本');
+  const expected=[...line.text.matchAll(VOCABULARY_WORDS)].map(match=>({key:vocabularyKey(match[0]),surface:match[0],start:match.index,length:match[0].length}));
+  if(response.tokens.length!==expected.length||response.tokens.some((item,index)=>!item||item.key!==expected[index].key||item.surface!==expected[index].surface||item.start!==expected[index].start||item.length!==expected[index].length))throw new Error('服务端分词与当前句子不一致，请重新打开读本');
+  const keys=new Set(expected.map(item=>item.key));
+  if(response.selectedWords.some(key=>typeof key!=='string'||!keys.has(key))||new Set(response.selectedWords).size!==response.selectedWords.length)throw new Error('服务端选词状态无效，请重新打开读本');
+  return expected;
+}
+function vocabularyRenderWords(sentence,tokens){
+  const node=$('vocabularySentence');node.replaceChildren();let cursor=0;
+  for(const token of tokens){
+    node.append(document.createTextNode(sentence.slice(cursor,token.start)));
+    const button=document.createElement('button');button.type='button';button.className='vocabulary-word';button.dataset.key=token.key;button.textContent=token.surface;button.setAttribute('aria-pressed',String(vocabularyDraft.has(token.key)));
+    button.onclick=()=>{if(vocabularyBusy||vocabularyRequest)return;vocabularyDraft.has(token.key)?vocabularyDraft.delete(token.key):vocabularyDraft.add(token.key);vocabularyMessage('');vocabularySaveState()};
+    node.append(button);cursor=token.start+token.length;
+  }
+  node.append(document.createTextNode(sentence.slice(cursor)));vocabularySaveState();
+}
+async function vocabularyOpenPicker(line,trigger){
+  stop();setStatus('已暂停。');const session=++vocabularySession;
+  vocabularyTrigger=trigger;vocabularyLoaded=null;vocabularyStored=null;vocabularyDraft=null;vocabularyRequest=null;vocabularyBusy=false;
+  $('vocabularyBackdrop').hidden=false;document.body.classList.add('vocabulary-open');
+  $('vocabularySentence').textContent=line.text;vocabularyMessage('正在读取已保存的生词…');vocabularySaveState();$('vocabularyClose').focus();
+  try{
+    if(vocabularyState==='failed')throw new Error('生词功能加载失败，请重新打开读本');
+    const adapter=await vocabularyAdapterReady;
+    if(session!==vocabularySession)return;
+    if(vocabularyState!=='ready')throw new Error('生词功能加载失败，请重新打开读本');
+    const hash=await vocabularyHash(line.text);
+    if(session!==vocabularySession)return;
+    const response=await adapter.loadSentenceSelection({sentenceId:String(line.id),sentenceHash:hash});
+    if(session!==vocabularySession)return;
+    const tokens=vocabularyValidateLoad(response,line,hash);
+    vocabularyLoaded=response;vocabularyStored=new Set(response.selectedWords);vocabularyDraft=new Set(response.selectedWords);
+    vocabularyRenderWords(line.text,tokens);vocabularyMessage('');
+  }catch(error){
+    if(session!==vocabularySession)return;
+    vocabularyLoaded=null;vocabularyMessage(error&&error.message?error.message:'读取生词失败，请重试',true);vocabularySaveState();
+  }
+}
+async function vocabularySavePicker(){
+  if(!vocabularyLoaded||vocabularyBusy||$('vocabularySave').disabled||vocabularyState!=='ready')return;
+  const session=vocabularySession;
+  try{
+    if(!vocabularyRequest){
+      if(!globalThis.crypto||typeof crypto.randomUUID!=='function')throw new Error('无法生成保存请求，请在安全连接中重新打开读本');
+      vocabularyRequest={requestId:crypto.randomUUID(),sentenceId:vocabularyLoaded.sentenceId,sentenceHash:vocabularyLoaded.sentenceHash,expectedRevision:vocabularyLoaded.revision,selectedWords:vocabularyWords()};
+    }
+    vocabularyBusy=true;vocabularyMessage('正在保存…');vocabularySaveState();
+    const receipt=await vocabularyAdapter.saveSentenceSelection(vocabularyRequest);
+    if(session!==vocabularySession)return;
+    const request=vocabularyRequest;
+    if(!receipt||receipt.version!==1||receipt.requestId!==request.requestId||receipt.resourceId!==vocabularyHost.resourceId||receipt.assetPath!==vocabularyHost.assetPath||receipt.sentenceId!==request.sentenceId||receipt.sentenceHash!==request.sentenceHash||receipt.revision!==request.expectedRevision+1||!Array.isArray(receipt.selectedWords)||JSON.stringify([...receipt.selectedWords].sort())!==JSON.stringify(request.selectedWords))throw new Error('保存回执与本次选词不一致，请重试');
+    vocabularyClosePicker();setStatus('已保存到生词本');
+  }catch(error){
+    if(session!==vocabularySession)return;
+    vocabularyBusy=false;vocabularyMessage(error&&error.message?error.message:'保存失败，请重试',true);vocabularySaveState();
+  }
+}
+function vocabularyTrapKeys(event){
+  if($('vocabularyBackdrop').hidden)return;
+  if(event.key==='Escape'){event.preventDefault();event.stopImmediatePropagation();vocabularyClosePicker();return}
+  if(event.key==='Tab'){
+    const controls=Array.from($('vocabularyDialog').querySelectorAll('button:not(:disabled)'));
+    const first=controls[0],last=controls[controls.length-1];
+    if(!first){event.preventDefault();$('vocabularyDialog').focus()}
+    else if(event.shiftKey&&(document.activeElement===first||!$('vocabularyDialog').contains(document.activeElement))){event.preventDefault();last.focus()}
+    else if(!event.shiftKey&&(document.activeElement===last||!$('vocabularyDialog').contains(document.activeElement))){event.preventDefault();first.focus()}
+    event.stopImmediatePropagation();return;
+  }
+  if(event.key==='ArrowRight'||event.key==='ArrowLeft'||event.code==='Space')event.stopImmediatePropagation();
+}
+document.addEventListener('keydown',vocabularyTrapKeys,true);
+$('vocabularyClose').onclick=()=>vocabularyClosePicker();
+$('vocabularySave').onclick=vocabularySavePicker;
+window.addEventListener('pagehide',()=>vocabularyClosePicker(false));
 const currentLine=()=>book.lines[book.pages[page].lines[offset]-1];
 function setStatus(text){$('status').textContent=text}
 function updatePlay(){ $('play').textContent=playing?'Ⅱ 暂停':'▶ '+(audio.currentTime>0||echoRemaining?'继续朗读':'开始朗读');$('play').setAttribute('aria-label',playing?'暂停朗读':'开始或继续朗读') }
 function clearEcho(){clearTimeout(echoTimer);echoTimer=null;echoWaiting=false;echoRemaining=0}
 function stop(){token++;playing=false;audio.pause();audio.currentTime=0;clearEcho();updatePlay()}
 function revealLine(){const lines=$('lines'),box=matchMedia('(max-width:700px)').matches?lines.closest('.text-page'):lines,el=lines.children[offset];if(!el)return;const a=el.getBoundingClientRect(),b=box.getBoundingClientRect();if(a.top<b.top||a.bottom>b.bottom)box.scrollTop+=a.top-b.top-4}
-function mark(){document.querySelectorAll('.line').forEach((el,i)=>{el.classList.toggle('active',i===offset);el.setAttribute('aria-pressed',String(i===offset&&playing))})}
+function mark(){document.querySelectorAll('.line').forEach((el,i)=>{const id=book.pages[page].lines[i],selected=id===selectedLineId;el.classList.toggle('active',selected);el.setAttribute('aria-pressed',String(selected));el.setAttribute('aria-label',selected&&vocabularyState==='ready'?'再次点击第 '+id+' 句标记不认识的单词':'播放第 '+id+' 句：'+book.lines[id-1].text)})}
 function progress(){const p=book.pages[page];const total=p.lines.reduce((n,id)=>n+book.lines[id-1].duration,0);const elapsed=audio.getAttribute('src')?Math.min(audio.currentTime,currentLine().duration):0;const done=p.lines.slice(0,offset).reduce((n,id)=>n+book.lines[id-1].duration,0)+elapsed;const value=Math.min(100,Math.round(done/total*100));$('fill').style.width=value+'%';$('progress').setAttribute('aria-valuenow',String(value))}
 function render(){const p=book.pages[page];$('chapter').textContent=p.chapter;$('pageTitle').textContent=p.title;$('cnTitle').textContent=p.chineseTitle;$('sceneNumber').textContent=String(page+1).padStart(2,'0');$('artCaption').textContent=p.chineseTitle;$('art').alt=p.alt;$('art').style.left=-(page%4)*100+'%';$('art').style.top=-Math.floor(page/4)*100+'%';$('chapter1').setAttribute('aria-pressed',String(!p.news&&page<chapters[1].startPage));$('chapter2').setAttribute('aria-pressed',String(page>=chapters[1].startPage&&!p.news));$('chapter3').setAttribute('aria-pressed',String(Boolean(p.news)));$('chapter3').hidden=!book.news;$('prev').disabled=page===0;$('next').disabled=page===book.pages.length-1;renderNews(p);$('art').closest('.visual-page').classList.toggle('individual-art',Boolean(p.image));$('art').src=p.image||book.picture;$('art').style.objectPosition=p.imagePosition||'center';
-  $('lines').replaceChildren(...p.lines.map((id,i)=>{const line=book.lines[id-1],b=document.createElement('button');b.className='line';b.type='button';b.setAttribute('aria-label','播放第 '+id+' 句：'+line.text);const num=document.createElement('span');num.className='line-num';num.textContent=String(id).padStart(2,'0');b.append(num);if(line.speaker!=='Narrator'){const role=document.createElement('span');role.className='speaker';role.textContent=line.speaker;b.append(role)}const en=document.createElement('span');en.className='en';en.lang='en';en.textContent=line.text;const cn=document.createElement('span');cn.className='cn';cn.textContent=line.chinese;b.append(en,cn);b.onclick=()=>{stop();offset=i;single=true;playLine()};return b}));
+  $('lines').replaceChildren(...p.lines.map((id,i)=>{const line=book.lines[id-1],b=document.createElement('button');b.className='line';b.type='button';b.setAttribute('aria-label','播放第 '+id+' 句：'+line.text);const num=document.createElement('span');num.className='line-num';num.textContent=String(id).padStart(2,'0');b.append(num);if(line.speaker!=='Narrator'){const role=document.createElement('span');role.className='speaker';role.textContent=line.speaker;b.append(role)}const en=document.createElement('span');en.className='en';en.lang='en';en.textContent=line.text;const cn=document.createElement('span');cn.className='cn';cn.textContent=line.chinese;b.append(en,cn);b.onclick=()=>{if(selectedLineId===id&&vocabularyExpected){vocabularyOpenPicker(line,b);return}stop();offset=i;single=true;selectedLineId=id;mark();playLine()};return b}));
   $('words').replaceChildren(...p.words.map(([en,cn])=>{const d=document.createElement('span');d.className='word';const b=document.createElement('b');b.lang='en';b.textContent=en;const s=document.createElement('span');s.textContent=cn;d.append(b,s);return d}));
   $('dots').replaceChildren(...book.pages.map((p,i)=>{const b=document.createElement('button');b.className='dot';b.textContent=i+1;b.setAttribute('aria-label','第 '+(i+1)+' 页：'+p.chineseTitle);if(i===page)b.setAttribute('aria-current','page');b.onclick=()=>go(i);return b}));
   $('question').textContent=p.question;$('answers').replaceChildren(...p.options.map((option,i)=>{const b=document.createElement('button');b.className='answer';b.lang='en';b.textContent=option;b.onclick=()=>{answered.set(page,i);showAnswer()};return b}));$('lines').closest('.text-page').scrollTop=0;$('lines').scrollTop=0;showAnswer();mark();progress();
 }
 function renderNews(p){$('art').hidden=Boolean(p.news);$('newsArtwork').hidden=!p.news;$('newsLesson').hidden=!p.news;if(!p.news)return;const card=p.newsCard;$('newsArtwork').setAttribute('aria-label',p.alt);for(const [id,key] of [['newsDate','date'],['newsHeadline','headline'],['newsNumber','number'],['newsCaption','caption'],['newsPlace','place'],['newsStep','step']])$(id).textContent=card[key];const review=book.news.selectionReview;$('newsReview').hidden=!review;if(review){for(const [id,key,label] of [['newsConnection','textbookConnection','课文联系：'],['newsTrend','futureTrend','未来视角：'],['newsBoundary','boundary','证据边界：'],['newsAction','studentAction','试着行动：']])$(id).textContent=label+review[key];}const g=p.grammar;for(const [id,key] of [['grammarTitle','title'],['grammarExample','example'],['grammarExplanation','explanation'],['grammarQuestion','question'],['grammarAnswer','answer']])$(id).textContent=g[key];$('grammarExercise').open=false;$('newsNotice').textContent=book.news.notice+' 新闻日期：'+book.news.eventDate+'；核对日期：'+book.news.checkedAt+'。';$('newsSources').replaceChildren(...book.news.sources.map(s=>{const li=document.createElement('li'),a=document.createElement('a');a.textContent=s.title;a.href=s.url;a.target='_blank';a.rel='noopener noreferrer';li.append(a);return li}));}
 function showAnswer(){const p=book.pages[page],choice=answered.get(page);Array.from($('answers').children).forEach((el,i)=>{el.classList.toggle('chosen',i===choice&&choice===p.correctIndex);el.classList.toggle('wrong',i===choice&&choice!==p.correctIndex)});$('feedback').textContent=choice===undefined?'':choice===p.correctIndex?'✓ 读懂了！'+p.feedback:'再读一遍本页课文，然后试一试。'}
-function go(n){stop();page=Math.max(0,Math.min(book.pages.length-1,n));offset=0;single=false;audio.removeAttribute('src');audio.load();render();setStatus('第 '+(page+1)+' / '+book.pages.length+' 页 · 点一句听一句。')}
-async function playLine(resume=false){const ticket=++token;playing=true;if(!resume){audio.src=currentLine().audio;audio.currentTime=0}audio.playbackRate=Number($('speed').value);mark();revealLine();updatePlay();setStatus('正在朗读 · 第 '+currentLine().id+' / '+book.lines.length+' 句');try{await audio.play();if(ticket!==token)return;}catch(error){if(ticket!==token)return;playing=false;updatePlay();setStatus('播放未能开始，请再次点击朗读。也可用其他浏览器打开本文件。')}}
-function advance(){if(single){playing=false;audio.currentTime=0;updatePlay();setStatus('这句读完了。点其他句子继续听。');return}offset++;if(offset>=book.pages[page].lines.length){if($('mode').value==='page'||page===book.pages.length-1){offset=0;playing=false;audio.currentTime=0;updatePlay();setStatus(page===book.pages.length-1?'读完了！试着说清你的目标，再用 When I click… 描述检查结果。':'这一页读完了。试着回答下面的小问题。');return}page++;offset=0;render()}playLine()}
+function go(n){vocabularyClosePicker(false);selectedLineId=null;stop();page=Math.max(0,Math.min(book.pages.length-1,n));offset=0;single=false;audio.removeAttribute('src');audio.load();render();setStatus('第 '+(page+1)+' / '+book.pages.length+' 页 · 点一句听一句。')}
+async function playLine(resume=false){const ticket=++token;playing=true;if(!resume){audio.src=currentLine().audio;audio.currentTime=0}audio.playbackRate=Number($('speed').value);mark();revealLine();updatePlay();setStatus('正在朗读 · 第 '+currentLine().id+' / '+book.lines.length+' 句');try{await audio.play();if(ticket!==token)return;selectedLineId=currentLine().id;mark();revealLine()}catch(error){if(ticket!==token)return;playing=false;updatePlay();setStatus('播放未能开始，请再次点击朗读。也可用其他浏览器打开本文件。')}}
+function advance(){if(single){playing=false;audio.currentTime=0;updatePlay();setStatus(vocabularyState==='ready'?'这句读完了，再点击一次可以标记不认识的单词。':'这句读完了。点其他句子继续听。');return}offset++;if(offset>=book.pages[page].lines.length){if($('mode').value==='page'||page===book.pages.length-1){offset=0;playing=false;audio.currentTime=0;updatePlay();setStatus(page===book.pages.length-1?'读完了！试着说清你的目标，再用 When I click… 描述检查结果。':'这一页读完了。试着回答下面的小问题。');return}page++;offset=0;selectedLineId=null;render()}playLine()}
 function waitForEcho(ms){echoWaiting=true;echoDeadline=Date.now()+ms;echoRemaining=ms;setStatus('轮到你跟读了 · 读完后会自动继续。');echoTimer=setTimeout(()=>{echoWaiting=false;echoRemaining=0;advance()},ms)}
 audio.addEventListener('ended',()=>{progress();if(!playing)return;if($('mode').value==='echo'&&!single){waitForEcho(Math.max(2200,currentLine().duration/Number($('speed').value)*1000+500))}else advance()});audio.addEventListener('timeupdate',progress);audio.addEventListener('error',()=>{if(!audio.getAttribute('src'))return;playing=false;clearEcho();updatePlay();setStatus('音频无法播放，请尝试用浏览器重新打开本文件。')});
 $('play').onclick=()=>{if(playing){token++;playing=false;audio.pause();if(echoWaiting){clearTimeout(echoTimer);echoRemaining=Math.max(0,echoDeadline-Date.now())}updatePlay();setStatus('已暂停。');return}single=false;playing=true;if(echoWaiting&&echoRemaining){waitForEcho(echoRemaining);updatePlay()}else playLine(Boolean(audio.getAttribute('src')&&audio.currentTime>0&&!audio.ended))};
