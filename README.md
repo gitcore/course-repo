@@ -10,7 +10,7 @@
 
 ## 学段目录
 
-- [小学](小学/)：小学课程。
+- [小学](小学/)：现有语文、英语、数学课程。
 - [初中](初中/)、[高中](高中/)、[大学](大学/)：预留课程目录。
 
 ## 制作规范
@@ -20,17 +20,6 @@
 ## 可规划资源目录
 
 <!-- weekly-scope-catalog:v1:start -->
-
-### 小学 / 数学 / 五年级知识要点
-
-#### `primary-math-grade5-knowledge-points`
-
-- `name`: 五年级数学知识要点
-- `subject`: `math`
-- `scope`: 小学数学五年级核心知识要点复习
-- `description`: 五年级数学知识要点的系统复习课程资源。
-- `manifest`: `小学/数学/五年级数学知识要点/manifest.json`
-- `source`: `小学/数学/五年级数学知识要点/textbook.md`
 
 ### 小学 / 数学 / 新苏教版
 
@@ -105,6 +94,17 @@
 - `description`: 串联七个单元、四项综合实践及期末复习的教材知识整理。
 - `manifest`: `小学/数学/新苏教版/grade6-semester1-review/manifest.json`
 - `source`: `小学/数学/新苏教版/grade6-semester1-review/textbook.md`
+
+### 小学 / 语文 / 统编版
+
+#### `new-tongbian-grade6-semester1-unit1-chinese`
+
+- `name`: 六年级上册第一单元 - 自然主题阅读与想象习作
+- `subject`: `chinese`
+- `scope`: 2026 年秋统编版小学语文六年级上册第一单元
+- `description`: 自然主题阅读、联想与想象习作的课程资源。
+- `manifest`: `小学/语文/统编版/grade6-semester1-unit1/manifest.json`
+- `source`: `小学/语文/统编版/grade6-semester1-unit1/textbook.md`
 
 ### 小学 / 英语 / 读本 / 六年级
 
