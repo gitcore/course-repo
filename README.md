@@ -108,6 +108,15 @@
 
 ### 小学 / 英语 / 读本 / 六年级
 
+#### `english-reader-grade6-minecraft-forest-camp-2026`
+
+- `name`: 六年级游戏读本：Minecraft：森林里的新营地
+- `subject`: `english`
+- `scope`: 小学英语六年级原创游戏读本，连接六上 Unit 1 过去时与 Unit 5 should 建议和 will 计划表达
+- `description`: 借 Minecraft 森林更新的元素，讲述 Lin 和 Ben 探索旧营地、合作搭建并修好门口的故事，练习做计划、描述问题与检查改进。
+- `manifest`: `小学/英语/读本/六年级/minecraft-forest-camp-2026/manifest.json`
+- `source`: `小学/英语/读本/六年级/minecraft-forest-camp-2026/reader.md`
+
 #### `english-reader-grade6-hello-codex-2026`
 
 - `name`: 六年级主题读本：Hello, Codex! 和 Codex 一起做读本

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "2.0",
+  "id": "english-reader-grade6-minecraft-forest-camp-2026",
+  "name": "六年级游戏读本：Minecraft：森林里的新营地",
+  "description": "受 Minecraft Wilderness Bound 更新启发的原创游戏故事：Lin 和 Ben 探索森林、发现旧营地、合作搭建并检查门口，迁移一般过去时、should 建议和 will 计划表达。",
+  "subject": "english",
+  "publisher": { "name": "Learn with daddy's love" },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "languageLevel": "primary-grade-6",
+      "grade": 6,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "读懂探索、计划、合作搭建和检查改进的故事；用过去时按顺序复述，用 should 提出建议，用 will 表达下一步计划，并区分游戏更新事实与原创情节。"
+      },
+      "tags": ["独立读本", "Minecraft", "游戏与创造", "合作", "检查与改进", "一般过去时", "计划"]
+    },
+    "package": {
+      "source": { "type": "reader-markdown", "path": "reader.md" },
+      "activities": [
+        {
+          "type": "readalong",
+          "name": "阅读 Minecraft：森林里的新营地",
+          "data": "assets/readalong/minecraft-forest-camp.html",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}
