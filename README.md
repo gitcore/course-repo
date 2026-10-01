@@ -108,6 +108,15 @@
 
 ### 小学 / 英语 / 读本 / 六年级
 
+#### `english-reader-grade6-zero-dam-power-2026`
+
+- `name`: 六年级游戏科学读本：零号大坝为什么能发电？
+- `subject`: `english`
+- `scope`: 小学英语六年级游戏与科学读本，连接六上 Unit 1 过去时和 Unit 6 水电与绿色生活词汇
+- `description`: 从《三角洲行动》的零号大坝提出问题，跟随课堂模型认识水流、水轮机、转轴与发电机，区分水的路线和能量传递路线。
+- `manifest`: `小学/英语/读本/六年级/zero-dam-power-2026/manifest.json`
+- `source`: `小学/英语/读本/六年级/zero-dam-power-2026/reader.md`
+
 #### `english-reader-grade6-minecraft-forest-camp-2026`
 
 - `name`: 六年级游戏读本：Minecraft：森林里的新营地

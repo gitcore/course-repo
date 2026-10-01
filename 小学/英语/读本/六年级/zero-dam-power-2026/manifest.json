@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "2.0",
+  "id": "english-reader-grade6-zero-dam-power-2026",
+  "name": "六年级游戏科学读本：零号大坝为什么能发电？",
+  "description": "从《三角洲行动》的零号大坝引出真实水力发电问题，通过原创课堂故事理解水流、水轮机、转轴、发电机与电能的关系，区分游戏设定与科学事实。",
+  "subject": "english",
+  "publisher": { "name": "Learn with daddy's love" },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "languageLevel": "primary-grade-6",
+      "grade": 6,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "借熟悉的游戏场景提出科学问题，读懂常见水库式水电站的基本过程；用过去时复述课堂故事，用简单动作词说明能量传递，知道水本身没有变成电。"
+      },
+      "tags": ["独立读本", "三角洲行动", "零号大坝", "水力发电", "科学阅读", "能量转化", "一般过去时", "绿色生活"]
+    },
+    "package": {
+      "source": { "type": "reader-markdown", "path": "reader.md" },
+      "activities": [
+        { "type": "readalong", "name": "阅读 零号大坝为什么能发电？", "data": "assets/readalong/zero-dam-power.html", "enabled": true }
+      ]
+    }
+  }
+}
