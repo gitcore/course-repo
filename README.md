@@ -108,6 +108,15 @@
 
 ### 小学 / 英语 / 读本 / 六年级
 
+#### `english-reader-grade6-an-expensive-wow-2026`
+
+- `name`: 六年级游戏主题读本：好贵的一声“哇”
+- `subject`: `english`
+- `scope`: 小学英语六年级原创游戏主题读本，迁移六上 Unit 5–6 的计划表达、save/waste 与行动顺序
+- `description`: Sun Weibo与想象中的露娜、牧羊人讨论游戏、作业和刀皮消费，分清真实需要与攀比冲动，学会珍惜父母的劳动和金钱、提升自己的本领。
+- `manifest`: `小学/英语/读本/六年级/an-expensive-wow-2026/manifest.json`
+- `source`: `小学/英语/读本/六年级/an-expensive-wow-2026/reader.md`
+
 #### `english-reader-grade6-zero-dam-power-2026`
 
 - `name`: 六年级游戏科学读本：零号大坝为什么能发电？
