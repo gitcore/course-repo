@@ -491,13 +491,15 @@ README 的 catalog 保留原标记与格式。新增、删除、移动、改名�
 
 ### 8.3 Weekly 生词宿主适配（可选）
 
-共享模板和现有生产读本保留独立静态听读。只有页面处于 iframe，且 DOM 中存在 `script#weekly-vocabulary-host` JSON 标记时，才期待账户生词功能；顶层直接打开即使 URL 带参数也不启用。标记只含 `version: 1`、route 已校验的 `resourceId` 和 `assetPath`，不含用户 ID、cookie、令牌或私有状态。宿主在原 HTML 中注入同源模块，模块安装 `window.weeklyVocabularyAdapter`，提供 `version: 1`、`loadSentenceSelection({sentenceId,sentenceHash})` 和 `saveSentenceSelection({requestId,sentenceId,sentenceHash,expectedRevision,selectedWords})`，并派发 `weekly-vocabulary-adapter-ready`；加载失败派发 `weekly-vocabulary-adapter-error`。模板同时检查已安装实例和 ready 事件，以支持两种加载顺序。标记存在而模块十秒未就绪或报错时，明确提示重新打开读本，不降级成空词表或独立模式。
+认证只由宿主框架判断。框架从 `ids.as` 或 `ids.oauth` 成功确认已认证后，才注入生词宿主标记和模块；匿名访问不注入二者，因此不启用账户生词。读本本身不检测登录状态，也不新增登录标志或认证协议。已认证后遇到服务、模块、读取或保存故障，按原错误机制明确显示，不静默降级。
+
+共享模板和现有生产读本保留独立静态听读，HTML 与关联图片、音频一起分发即可在框架外正常打开。只有页面处于 iframe，且 DOM 中存在 `script#weekly-vocabulary-host` JSON 标记时，才期待账户生词功能；顶层直接打开即使 URL 带参数也不启用。标记只含 `version: 1`、route 已校验的 `resourceId` 和 `assetPath`，不含用户 ID、cookie、令牌或私有状态。宿主在原 HTML 中注入同源模块，模块安装 `window.weeklyVocabularyAdapter`，提供 `version: 1`、`loadSentenceSelection({sentenceId,sentenceHash})` 和 `saveSentenceSelection({requestId,sentenceId,sentenceHash,expectedRevision,selectedWords})`，并派发 `weekly-vocabulary-adapter-ready`；加载失败派发 `weekly-vocabulary-adapter-error`。模板同时检查已安装实例和 ready 事件，以支持两种加载顺序。标记存在而模块十秒未就绪或报错时，明确提示重新打开读本，不降级成空词表或独立模式。
 
 读取回执为 `{version,resourceId,assetPath,sentenceId,sentenceHash,sentenceText,tokens,revision,selectedWords}`；保存回执再包含绑定同一请求的 `requestId`。`sentenceId` 是 `line.id` 的规范十进制字符串（如 `"1"`），请求与回执都不传 JSON number。模板检查版本、资源、句子、原文、revision、词位置和回执后才更新状态。`sentenceHash` 是原始 `line.text` UTF-8 的小写 SHA-256。`tokens` 保留 `key,surface,start,length`，位置为 UTF-16；词法固定 `[A-Za-z]+(?:['’-][A-Za-z]+)*`，弯引号在词键中转为 ASCII 引号并小写。按钮使用文本节点呈现原句、标点和空白，不拼接正文 HTML；同句重复词共用词键。
 
 首次进入没有默认选句。点未选句选择并点读，再点已选句暂停音频及跟读计时后打开选词弹层；实际成功播放的自动下一句也更新选中句。播放游标归零不改变已选句，翻页清空。移动端弹层贴底、桌面为紧凑弹窗；Esc、Tab 约束和关闭后焦点回到原句。底部只有“保存到生词本”一个按钮：加载失败不可保存，无变化时禁用，相对已存词全部取消时允许保存空集合。失败保留草稿；未知结果用同一冻结 `requestId` 和 payload 重试。关闭、换页、浏览均不写入。原朗读和重听按钮约 36px，保留手机图片 `clamp(80px,13dvh,110px)` 与正文单滚动容器。
 
-更新模板时也要更新生产 HTML，并保护各书专属结束语、`sourceNote`、新闻图片处理、`book-data`、媒体与公开文件名。构建器可能从模板重新生成并覆盖现有人工差异；运行生成器前先记录原哈希、比较生成结果，必要时对现有 HTML 做有锚点的增量修改。回归至少覆盖模板与生产页一致性、独立听读、两种 adapter 加载顺序、十秒错误、重复词联动、空集合保存、同请求重试、旧异步回包丢弃、键盘焦点，以及 320px/390px/桌面视口。
+更新模板时也要更新生产 HTML，并保护各书专属结束语、`sourceNote`、新闻图片处理、`book-data`、媒体与公开文件名。构建器可能从模板重新生成并覆盖现有人工差异；运行生成器前先记录原哈希、比较生成结果，必要时对现有 HTML 做有锚点的增量修改。回归至少覆盖模板与生产页一致性、框架匿名访问不注入且连续点击均点读、顶层直接打开时忽略标记、两种 adapter 加载顺序、已认证页面模块失败与十秒未就绪显示错误、句子读取失败与保存失败显示原错误、重复词联动、空集合保存、同请求重试、旧异步回包丢弃、键盘焦点，以及 320px/390px/桌面视口。
 
 ## 9. 验收矩阵与证据
 
