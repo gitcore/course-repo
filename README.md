@@ -108,6 +108,15 @@
 
 ### 小学 / 英语 / 读本 / 六年级
 
+#### `english-reader-grade6-ac-dc-charging-2026`
+
+- `name`: 六年级科学读本：快充桩为什么这么大？
+- `subject`: `english`
+- `scope`: 小学英语六年级原创科学读本，连接六上 Unit 6 用电生活词汇与绿色生活表达
+- `description`: 跟随 Ben 和妈妈比较交流与直流充电，理解车内和车外转换、大功率设备与散热为何占空间，以及快充的功率优势和电池限制。
+- `manifest`: `小学/英语/读本/六年级/ac-dc-charging-2026/manifest.json`
+- `source`: `小学/英语/读本/六年级/ac-dc-charging-2026/reader.md`
+
 #### `english-reader-grade6-an-expensive-wow-2026`
 
 - `name`: 六年级游戏主题读本：好贵的一声“哇”

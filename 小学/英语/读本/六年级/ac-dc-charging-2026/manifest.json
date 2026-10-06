@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "2.0",
+  "id": "english-reader-grade6-ac-dc-charging-2026",
+  "name": "六年级科学读本：快充桩为什么这么大？",
+  "description": "跟随 Ben 和妈妈认识交流桩与直流桩的充电路线，理解车外功率转换、散热设备与柜体大小的关系，以及更高功率为何通常能加快充电，知道车辆和电池的限制。",
+  "subject": "english",
+  "publisher": { "name": "Learn with daddy's love" },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "languageLevel": "primary-grade-6",
+      "grade": 6,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "11-12",
+        "teachingGoal": "用六年级可理解的英语追踪交流与直流充电路线，区分转换地点、设备体积与充电功率，能说明直流快充更大和通常更快的原因及限制。"
+      },
+      "tags": ["独立读本", "科学阅读", "电动汽车", "交流充电", "直流快充", "功率与能量", "绿色生活"]
+    },
+    "package": {
+      "source": { "type": "reader-markdown", "path": "reader.md" },
+      "activities": [
+        { "type": "readalong", "name": "阅读 快充桩为什么这么大？", "data": "assets/readalong/ac-dc-charging.html", "enabled": true }
+      ]
+    }
+  }
+}
