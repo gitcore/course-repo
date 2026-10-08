@@ -2,7 +2,7 @@
   "manifestId": "grade6-semester1-unit6",
   "activityType": "sentence-practice",
   "sourceHash": "8bb851823aaa7d754e8d682534c0062a2f956c1c3a070047cec7f01eafd09c02",
-  "generatorVersion": "reviewed-meaningful-recitation-20261008",
+  "generatorVersion": "reviewed-grammar-structures-grade6-20261008",
   "generatedAt": "2026-10-08",
   "sourceKind": "textbook-dialogue",
   "sourceNotice": "依据 textbook.md 的已核对原文生成；词族和迁移例句为配套拓展。",
@@ -53,7 +53,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "主语",
               "text": "Bobby, Sam and their friends"
             }
           ],
@@ -77,12 +77,7 @@
               "meaning": "项目"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "project"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "1-1"
         },
@@ -123,8 +118,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "are doing a project"
+              "label": "谓语动作（正在）",
+              "text": "are doing"
+            },
+            {
+              "label": "宾语对象",
+              "text": "a project"
             }
           ],
           "segmentNumber": 3,
@@ -147,12 +146,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 4,
           "id": "1-2"
         },
@@ -187,7 +181,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 3",
+              "label": "活动主题",
               "text": "for Earth Day."
             }
           ],
@@ -281,15 +275,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "主语",
               "text": "Bobby, Sam and their friends"
             },
             {
-              "label": "意群 2",
-              "text": "are doing a project"
+              "label": "谓语动作（正在）",
+              "text": "are doing"
             },
             {
-              "label": "意群 3",
+              "label": "宾语对象",
+              "text": "a project"
+            },
+            {
+              "label": "活动主题",
               "text": "for Earth Day."
             }
           ]
@@ -311,12 +309,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "2-1"
         },
@@ -337,12 +330,7 @@
               "meaning": "家"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "home"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "2-2"
         },
@@ -391,8 +379,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "The Earth is our home."
+              "label": "主语",
+              "text": "The Earth"
+            },
+            {
+              "label": "系动词",
+              "text": "is"
+            },
+            {
+              "label": "表语身份",
+              "text": "our home."
             }
           ]
         },
@@ -433,8 +429,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "What can we do"
+              "label": "疑问动作",
+              "text": "What"
+            },
+            {
+              "label": "情态动词",
+              "text": "can"
+            },
+            {
+              "label": "主语",
+              "text": "we"
+            },
+            {
+              "label": "谓语动作",
+              "text": "do"
             }
           ],
           "segmentNumber": 4,
@@ -471,7 +479,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "目的",
               "text": "to help it?"
             }
           ],
@@ -535,11 +543,23 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "What can we do"
+              "label": "疑问动作",
+              "text": "What"
             },
             {
-              "label": "意群 2",
+              "label": "情态动词",
+              "text": "can"
+            },
+            {
+              "label": "主语",
+              "text": "we"
+            },
+            {
+              "label": "谓语动作",
+              "text": "do"
+            },
+            {
+              "label": "目的",
               "text": "to help it?"
             }
           ]
@@ -561,12 +581,7 @@
               "meaning": "海报"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "poster"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "3-1"
         },
@@ -621,8 +636,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "Let's make a poster about it."
+              "label": "建议句式（缩写）",
+              "text": "Let's"
+            },
+            {
+              "label": "建议的动作",
+              "text": "make"
+            },
+            {
+              "label": "宾语对象",
+              "text": "a poster"
+            },
+            {
+              "label": "海报主题",
+              "text": "about it."
             }
           ]
         },
@@ -643,12 +670,7 @@
               "meaning": "加入"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "join"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "3-5"
         },
@@ -691,8 +713,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Will you join me?"
+              "label": "疑问将来助动词",
+              "text": "Will"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "join"
+            },
+            {
+              "label": "宾语对象",
+              "text": "me?"
             }
           ]
         },
@@ -713,12 +747,7 @@
               "meaning": "画"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "draw"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "5-1"
         },
@@ -739,12 +768,7 @@
               "meaning": "写"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "write"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "5-2"
         },
@@ -817,8 +841,28 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Will you draw or write on the poster, Sam?"
+              "label": "疑问将来助动词",
+              "text": "Will"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "第一种动作",
+              "text": "draw"
+            },
+            {
+              "label": "并列选择",
+              "text": "or write"
+            },
+            {
+              "label": "书写位置",
+              "text": "on the poster,"
+            },
+            {
+              "label": "称呼",
+              "text": "Sam?"
             }
           ]
         },
@@ -839,12 +883,7 @@
               "meaning": "画"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "draw"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "6-1"
         },
@@ -865,12 +904,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "6-2"
         },
@@ -911,8 +945,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I'll draw the Earth"
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "谓语动作",
+              "text": "draw"
+            },
+            {
+              "label": "宾语对象",
+              "text": "the Earth"
             }
           ],
           "segmentNumber": 3,
@@ -961,8 +1003,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "and colour it green and blue."
+              "label": "连接词",
+              "text": "and"
+            },
+            {
+              "label": "并列动作",
+              "text": "colour"
+            },
+            {
+              "label": "宾语对象",
+              "text": "it"
+            },
+            {
+              "label": "宾语颜色补充",
+              "text": "green and blue."
             }
           ],
           "segmentNumber": 4,
@@ -1037,12 +1091,32 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I'll draw the Earth"
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
             },
             {
-              "label": "意群 2",
-              "text": "and colour it green and blue."
+              "label": "谓语动作",
+              "text": "draw"
+            },
+            {
+              "label": "宾语对象",
+              "text": "the Earth"
+            },
+            {
+              "label": "连接词",
+              "text": "and"
+            },
+            {
+              "label": "并列动作",
+              "text": "colour"
+            },
+            {
+              "label": "宾语对象",
+              "text": "it"
+            },
+            {
+              "label": "宾语颜色补充",
+              "text": "green and blue."
             }
           ]
         },
@@ -1063,12 +1137,7 @@
               "meaning": "轮到的机会"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "turn"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "7-1"
         },
@@ -1089,12 +1158,7 @@
               "meaning": "画"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "draw"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "7-3"
         },
@@ -1115,12 +1179,7 @@
               "meaning": "树（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "trees"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "7-4"
         },
@@ -1193,8 +1252,28 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "Now it's my turn! I'll draw some banana trees."
+              "label": "时间",
+              "text": "Now"
+            },
+            {
+              "label": "主语与系动词（缩写）",
+              "text": "it's"
+            },
+            {
+              "label": "表语（轮次）",
+              "text": "my turn!"
+            },
+            {
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "谓语动作",
+              "text": "draw"
+            },
+            {
+              "label": "宾语对象",
+              "text": "some banana trees."
             }
           ]
         },
@@ -1231,8 +1310,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "I like bananas."
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "like"
+            },
+            {
+              "label": "宾语对象",
+              "text": "bananas."
             }
           ]
         },
@@ -1253,12 +1340,7 @@
               "meaning": "画"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "draw"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "8-1"
         },
@@ -1307,8 +1389,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "What will you draw, Billy?"
+              "label": "疑问对象",
+              "text": "What"
+            },
+            {
+              "label": "将来助动词",
+              "text": "will"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "draw,"
+            },
+            {
+              "label": "称呼",
+              "text": "Billy?"
             }
           ]
         },
@@ -1329,12 +1427,7 @@
               "meaning": "垃圾"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "rubbish"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "9-1"
         },
@@ -1355,12 +1448,7 @@
               "meaning": "箱子；垃圾桶"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "bin"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "9-2"
         },
@@ -1409,8 +1497,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "I'll draw a rubbish bin."
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "谓语动作",
+              "text": "draw"
+            },
+            {
+              "label": "宾语对象",
+              "text": "a rubbish bin."
             }
           ]
         },
@@ -1431,12 +1527,7 @@
               "meaning": "垃圾"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "rubbish"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "10-1"
         },
@@ -1457,12 +1548,7 @@
               "meaning": "箱子；垃圾桶"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "bin"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "10-2"
         },
@@ -1529,8 +1615,28 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Why will you draw a rubbish bin, Billy?"
+              "label": "疑问原因",
+              "text": "Why"
+            },
+            {
+              "label": "将来助动词",
+              "text": "will"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "draw"
+            },
+            {
+              "label": "宾语对象",
+              "text": "a rubbish bin,"
+            },
+            {
+              "label": "称呼",
+              "text": "Billy?"
             }
           ]
         },
@@ -1551,12 +1657,7 @@
               "meaning": "皮（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "skins"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "11-1"
         },
@@ -1605,8 +1706,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "It's for Bobby's banana skins!"
+              "label": "主语与系动词（缩写）",
+              "text": "It's"
+            },
+            {
+              "label": "表语（用途）",
+              "text": "for Bobby's banana skins!"
             }
           ]
         },
@@ -1627,12 +1732,7 @@
               "meaning": "写"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "write"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "13-2"
         },
@@ -1673,8 +1773,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "自然意群",
-              "text": "Thanks. I'll write something"
+              "label": "感谢回应",
+              "text": "Thanks."
+            },
+            {
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "谓语动作",
+              "text": "write"
+            },
+            {
+              "label": "宾语对象",
+              "text": "something"
             }
           ],
           "segmentNumber": 2,
@@ -1697,12 +1809,7 @@
               "meaning": "海报"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "poster"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "13-3"
         },
@@ -1737,7 +1844,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "书写位置",
               "text": "on the poster."
             }
           ],
@@ -1801,11 +1908,23 @@
           ],
           "structureBlocks": [
             {
-              "label": "自然意群",
-              "text": "Thanks. I'll write something"
+              "label": "感谢回应",
+              "text": "Thanks."
             },
             {
-              "label": "自然意群",
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "谓语动作",
+              "text": "write"
+            },
+            {
+              "label": "宾语对象",
+              "text": "something"
+            },
+            {
+              "label": "书写位置",
               "text": "on the poster."
             }
           ]
@@ -1827,12 +1946,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "14-1"
         },
@@ -1887,8 +2001,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "What about \"Help the Earth, Help Us\"?"
+              "label": "建议句式",
+              "text": "What about"
+            },
+            {
+              "label": "标语中的祈使动作",
+              "text": "\"Help"
+            },
+            {
+              "label": "宾语对象",
+              "text": "the Earth,"
+            },
+            {
+              "label": "标语中的祈使动作",
+              "text": "Help"
+            },
+            {
+              "label": "宾语对象",
+              "text": "Us\"?"
             }
           ]
         }
@@ -1914,12 +2044,7 @@
               "meaning": "出生的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "born"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "15-1"
         },
@@ -1954,8 +2079,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "We're all born"
+              "label": "主语与被动助动词（缩写）",
+              "text": "We're"
+            },
+            {
+              "label": "范围",
+              "text": "all"
+            },
+            {
+              "label": "出生动作",
+              "text": "born"
             }
           ],
           "segmentNumber": 2,
@@ -1978,12 +2111,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "15-2"
         },
@@ -2018,7 +2146,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "地点",
               "text": "on the Earth."
             }
           ],
@@ -2076,11 +2204,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "We're all born"
+              "label": "主语与被动助动词（缩写）",
+              "text": "We're"
             },
             {
-              "label": "意群 2",
+              "label": "范围",
+              "text": "all"
+            },
+            {
+              "label": "出生动作",
+              "text": "born"
+            },
+            {
+              "label": "地点",
               "text": "on the Earth."
             }
           ]
@@ -2102,12 +2238,7 @@
               "meaning": "重要的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "important"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "16-1"
         },
@@ -2150,8 +2281,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "It's important to everyone,"
+              "label": "主语与系动词（缩写）",
+              "text": "It's"
+            },
+            {
+              "label": "表语评价",
+              "text": "important"
+            },
+            {
+              "label": "适用对象",
+              "text": "to everyone,"
             }
           ]
         },
@@ -2186,7 +2325,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "并列身高（承接前文）",
               "text": "Short or tall,"
             }
           ],
@@ -2224,7 +2363,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "并列年龄",
               "text": "old or young."
             }
           ],
@@ -2276,11 +2415,11 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "并列身高（承接前文）",
               "text": "Short or tall,"
             },
             {
-              "label": "意群 2",
+              "label": "并列年龄",
               "text": "old or young."
             }
           ]
@@ -2302,12 +2441,7 @@
               "meaning": "爱"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Love"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "18-1"
         },
@@ -2328,12 +2462,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "18-2"
         },
@@ -2370,8 +2499,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Love Mother Earth."
+              "label": "祈使动作",
+              "text": "Love"
+            },
+            {
+              "label": "宾语对象",
+              "text": "Mother Earth."
             }
           ]
         },
@@ -2392,12 +2525,7 @@
               "meaning": "永不；从不"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Never"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "19-1"
         },
@@ -2440,8 +2568,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Never let her down."
+              "label": "否定频率",
+              "text": "Never"
+            },
+            {
+              "label": "动作与对象（let…down）",
+              "text": "let her down."
             }
           ]
         }
@@ -2475,7 +2607,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "时间",
               "text": "Every year,"
             }
           ],
@@ -2499,12 +2631,7 @@
               "meaning": "国家（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "countries"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "20-1"
         },
@@ -2545,8 +2672,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "people in many countries"
+              "label": "主语",
+              "text": "people"
+            },
+            {
+              "label": "修饰人物的地点",
+              "text": "in many countries"
             }
           ],
           "segmentNumber": 3,
@@ -2569,12 +2700,7 @@
               "meaning": "电灯（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "lights"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 4,
           "id": "20-2"
         },
@@ -2615,8 +2741,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 3",
-              "text": "turn off their lights"
+              "label": "谓语动作",
+              "text": "turn off"
+            },
+            {
+              "label": "宾语对象",
+              "text": "their lights"
             }
           ],
           "segmentNumber": 5,
@@ -2653,7 +2783,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 4",
+              "label": "持续时间",
               "text": "for an hour."
             }
           ],
@@ -2753,19 +2883,27 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "时间",
               "text": "Every year,"
             },
             {
-              "label": "意群 2",
-              "text": "people in many countries"
+              "label": "主语",
+              "text": "people"
             },
             {
-              "label": "意群 3",
-              "text": "turn off their lights"
+              "label": "修饰人物的地点",
+              "text": "in many countries"
             },
             {
-              "label": "意群 4",
+              "label": "谓语动作",
+              "text": "turn off"
+            },
+            {
+              "label": "宾语对象",
+              "text": "their lights"
+            },
+            {
+              "label": "持续时间",
               "text": "for an hour."
             }
           ]
@@ -2787,12 +2925,7 @@
               "meaning": "活动"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "activity"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 8,
           "id": "20-8"
         },
@@ -2841,8 +2974,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Do you know this activity?"
+              "label": "疑问助动词",
+              "text": "Do"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "know"
+            },
+            {
+              "label": "宾语对象",
+              "text": "this activity?"
             }
           ]
         },
@@ -2863,12 +3008,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "21-1"
         },
@@ -2889,12 +3029,7 @@
               "meaning": "小时"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Hour"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "21-2"
         },
@@ -2937,8 +3072,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Yes, it's Earth Hour."
+              "label": "肯定回应",
+              "text": "Yes,"
+            },
+            {
+              "label": "主语与系动词（缩写）",
+              "text": "it's"
+            },
+            {
+              "label": "表语身份",
+              "text": "Earth Hour."
             }
           ]
         },
@@ -2973,8 +3116,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "It tells people"
+              "label": "主语",
+              "text": "It"
+            },
+            {
+              "label": "谓语动作",
+              "text": "tells"
+            },
+            {
+              "label": "告知对象",
+              "text": "people"
             }
           ],
           "segmentNumber": 4,
@@ -2997,12 +3148,7 @@
               "meaning": "节约"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "save"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 5,
           "id": "21-4"
         },
@@ -3023,12 +3169,7 @@
               "meaning": "电"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "electricity"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 6,
           "id": "21-5"
         },
@@ -3063,7 +3204,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "让对方做的事",
               "text": "to save electricity."
             }
           ],
@@ -3121,11 +3262,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "It tells people"
+              "label": "主语",
+              "text": "It"
             },
             {
-              "label": "意群 2",
+              "label": "谓语动作",
+              "text": "tells"
+            },
+            {
+              "label": "告知对象",
+              "text": "people"
+            },
+            {
+              "label": "让对方做的事",
               "text": "to save electricity."
             }
           ]
@@ -3147,12 +3296,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "22-2"
         },
@@ -3173,12 +3317,7 @@
               "meaning": "小时"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Hour"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "22-3"
         },
@@ -3219,8 +3358,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "自然意群",
-              "text": "That's right. Earth Hour"
+              "label": "指示主语与系动词（缩写）",
+              "text": "That's"
+            },
+            {
+              "label": "表语评价",
+              "text": "right."
+            },
+            {
+              "label": "主语",
+              "text": "Earth Hour"
             }
           ],
           "segmentNumber": 3,
@@ -3281,8 +3428,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "is on the last Saturday of March."
+              "label": "系动词",
+              "text": "is"
+            },
+            {
+              "label": "表语（日期）",
+              "text": "on the last Saturday of March."
             }
           ],
           "segmentNumber": 4,
@@ -3369,12 +3520,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "自然意群",
-              "text": "That's right. Earth Hour"
+              "label": "指示主语与系动词（缩写）",
+              "text": "That's"
             },
             {
-              "label": "自然意群",
-              "text": "is on the last Saturday of March."
+              "label": "表语评价",
+              "text": "right."
+            },
+            {
+              "label": "主语",
+              "text": "Earth Hour"
+            },
+            {
+              "label": "系动词",
+              "text": "is"
+            },
+            {
+              "label": "表语（日期）",
+              "text": "on the last Saturday of March."
             }
           ]
         },
@@ -3395,12 +3558,7 @@
               "meaning": "持续（last 的第三人称单数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "lasts"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 6,
           "id": "22-7"
         },
@@ -3453,8 +3611,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "It lasts from 8:30 to 9:30"
+              "label": "主语",
+              "text": "It"
+            },
+            {
+              "label": "谓语动作",
+              "text": "lasts"
+            },
+            {
+              "label": "时间范围",
+              "text": "from 8:30 to 9:30"
             }
           ],
           "segmentNumber": 7,
@@ -3491,7 +3657,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "时间",
               "text": "in the evening."
             }
           ],
@@ -3567,11 +3733,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "It lasts from 8:30 to 9:30"
+              "label": "主语",
+              "text": "It"
             },
             {
-              "label": "意群 2",
+              "label": "谓语动作",
+              "text": "lasts"
+            },
+            {
+              "label": "时间范围",
+              "text": "from 8:30 to 9:30"
+            },
+            {
+              "label": "时间",
               "text": "in the evening."
             }
           ]
@@ -3615,8 +3789,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Will you take part?"
+              "label": "疑问将来助动词",
+              "text": "Will"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "take part?"
             }
           ]
         },
@@ -3653,8 +3835,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Yes, I will."
+              "label": "肯定回应",
+              "text": "Yes,"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "将来助动词（省略前述动作）",
+              "text": "will."
             }
           ]
         },
@@ -3689,8 +3879,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "It'll be great"
+              "label": "形式主语与将来助动词（缩写）",
+              "text": "It'll"
+            },
+            {
+              "label": "系动词",
+              "text": "be"
+            },
+            {
+              "label": "表语评价",
+              "text": "great"
             }
           ],
           "segmentNumber": 2,
@@ -3713,12 +3911,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "23-2"
         },
@@ -3759,7 +3952,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "真正主语（要做的事）",
               "text": "to help the Earth."
             }
           ],
@@ -3823,11 +4016,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "It'll be great"
+              "label": "形式主语与将来助动词（缩写）",
+              "text": "It'll"
             },
             {
-              "label": "意群 2",
+              "label": "系动词",
+              "text": "be"
+            },
+            {
+              "label": "表语评价",
+              "text": "great"
+            },
+            {
+              "label": "真正主语（要做的事）",
               "text": "to help the Earth."
             }
           ]
@@ -3875,8 +4076,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "What else will you do"
+              "label": "疑问动作",
+              "text": "What else"
+            },
+            {
+              "label": "将来助动词",
+              "text": "will"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "do"
             }
           ],
           "segmentNumber": 1,
@@ -3899,12 +4112,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "25-1"
         },
@@ -3957,7 +4165,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "目的",
               "text": "to take care of the Earth?"
             }
           ],
@@ -4045,11 +4253,23 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "What else will you do"
+              "label": "疑问动作",
+              "text": "What else"
             },
             {
-              "label": "意群 2",
+              "label": "将来助动词",
+              "text": "will"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "do"
+            },
+            {
+              "label": "目的",
               "text": "to take care of the Earth?"
             }
           ]
@@ -4071,12 +4291,7 @@
               "meaning": "节约"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "save"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "26-1"
         },
@@ -4097,12 +4312,7 @@
               "meaning": "水"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "water"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "26-2"
         },
@@ -4139,8 +4349,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "I'll save water."
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "谓语动作",
+              "text": "save"
+            },
+            {
+              "label": "宾语对象",
+              "text": "water."
             }
           ]
         },
@@ -4161,12 +4379,7 @@
               "meaning": "水龙头"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "tap"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 4,
           "id": "26-4"
         },
@@ -4219,8 +4432,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "We should turn off the tap"
+              "label": "主语",
+              "text": "We"
+            },
+            {
+              "label": "情态动词",
+              "text": "should"
+            },
+            {
+              "label": "谓语动作",
+              "text": "turn off"
+            },
+            {
+              "label": "宾语对象",
+              "text": "the tap"
             }
           ],
           "segmentNumber": 5,
@@ -4243,12 +4468,7 @@
               "meaning": "刷"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "brush"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 6,
           "id": "26-5"
         },
@@ -4295,8 +4515,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "when we brush our teeth."
+              "label": "时间连接词",
+              "text": "when"
+            },
+            {
+              "label": "从句主语",
+              "text": "we"
+            },
+            {
+              "label": "从句谓语",
+              "text": "brush"
+            },
+            {
+              "label": "从句宾语",
+              "text": "our teeth."
             }
           ],
           "segmentNumber": 7,
@@ -4377,12 +4609,36 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "We should turn off the tap"
+              "label": "主语",
+              "text": "We"
             },
             {
-              "label": "意群 2",
-              "text": "when we brush our teeth."
+              "label": "情态动词",
+              "text": "should"
+            },
+            {
+              "label": "谓语动作",
+              "text": "turn off"
+            },
+            {
+              "label": "宾语对象",
+              "text": "the tap"
+            },
+            {
+              "label": "时间连接词",
+              "text": "when"
+            },
+            {
+              "label": "从句主语",
+              "text": "we"
+            },
+            {
+              "label": "从句谓语",
+              "text": "brush"
+            },
+            {
+              "label": "从句宾语",
+              "text": "our teeth."
             }
           ]
         },
@@ -4403,12 +4659,7 @@
               "meaning": "浪费"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "waste"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "27-1"
         },
@@ -4429,12 +4680,7 @@
               "meaning": "食物"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "food"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "27-2"
         },
@@ -4477,8 +4723,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "I won't waste food."
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "将来助动词（否定缩写）",
+              "text": "won't"
+            },
+            {
+              "label": "谓语动作",
+              "text": "waste"
+            },
+            {
+              "label": "宾语对象",
+              "text": "food."
             }
           ]
         },
@@ -4499,12 +4757,7 @@
               "meaning": "食物"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "food"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 4,
           "id": "27-4"
         },
@@ -4571,8 +4824,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "We should always eat up all our food."
+              "label": "主语",
+              "text": "We"
+            },
+            {
+              "label": "情态动词",
+              "text": "should"
+            },
+            {
+              "label": "频率",
+              "text": "always"
+            },
+            {
+              "label": "谓语动作",
+              "text": "eat up"
+            },
+            {
+              "label": "宾语对象",
+              "text": "all our food."
             }
           ]
         },
@@ -4593,12 +4862,7 @@
               "meaning": "节约"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "save"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "28-1"
         },
@@ -4619,12 +4883,7 @@
               "meaning": "纸"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "paper"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "28-2"
         },
@@ -4661,8 +4920,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "I'll save paper."
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "谓语动作",
+              "text": "save"
+            },
+            {
+              "label": "宾语对象",
+              "text": "paper."
             }
           ]
         },
@@ -4683,12 +4950,7 @@
               "meaning": "面（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "sides"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 4,
           "id": "28-4"
         },
@@ -4709,12 +4971,7 @@
               "meaning": "纸"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "paper"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 5,
           "id": "28-5"
         },
@@ -4781,8 +5038,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "We should use both sides of the paper."
+              "label": "主语",
+              "text": "We"
+            },
+            {
+              "label": "情态动词",
+              "text": "should"
+            },
+            {
+              "label": "谓语动作",
+              "text": "use"
+            },
+            {
+              "label": "宾语对象",
+              "text": "both sides of the paper."
             }
           ]
         },
@@ -4803,12 +5072,7 @@
               "meaning": "奇妙的；极好的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Wonderful"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "29-1"
         },
@@ -4849,8 +5113,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "自然意群",
-              "text": "Wonderful! These small things"
+              "label": "赞赏回应",
+              "text": "Wonderful!"
+            },
+            {
+              "label": "主语",
+              "text": "These small things"
             }
           ],
           "segmentNumber": 2,
@@ -4873,12 +5141,7 @@
               "meaning": "地球"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Earth"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "29-3"
         },
@@ -4925,8 +5188,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "will help our Mother Earth"
+              "label": "将来助动词",
+              "text": "will"
+            },
+            {
+              "label": "谓语动作",
+              "text": "help"
+            },
+            {
+              "label": "宾语对象",
+              "text": "our Mother Earth"
             }
           ],
           "segmentNumber": 4,
@@ -4969,7 +5240,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 3",
+              "label": "程度",
               "text": "in a big way."
             }
           ],
@@ -5069,15 +5340,27 @@
           ],
           "structureBlocks": [
             {
-              "label": "自然意群",
-              "text": "Wonderful! These small things"
+              "label": "赞赏回应",
+              "text": "Wonderful!"
             },
             {
-              "label": "自然意群",
-              "text": "will help our Mother Earth"
+              "label": "主语",
+              "text": "These small things"
             },
             {
-              "label": "自然意群",
+              "label": "将来助动词",
+              "text": "will"
+            },
+            {
+              "label": "谓语动作",
+              "text": "help"
+            },
+            {
+              "label": "宾语对象",
+              "text": "our Mother Earth"
+            },
+            {
+              "label": "程度",
               "text": "in a big way."
             }
           ]
@@ -5099,12 +5382,7 @@
               "meaning": "一起"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "together"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 7,
           "id": "29-8"
         },
@@ -5141,8 +5419,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Let's work together!"
+              "label": "建议句式（缩写）",
+              "text": "Let's"
+            },
+            {
+              "label": "建议的动作",
+              "text": "work"
+            },
+            {
+              "label": "方式",
+              "text": "together!"
             }
           ]
         }

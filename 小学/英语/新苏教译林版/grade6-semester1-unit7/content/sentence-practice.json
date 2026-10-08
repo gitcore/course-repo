@@ -2,7 +2,7 @@
   "manifestId": "grade6-semester1-unit7",
   "activityType": "sentence-practice",
   "sourceHash": "b479f76c5538c0840e47d565510b29602cc08a489f0fe93485fd947c971144d3",
-  "generatorVersion": "reviewed-meaningful-recitation-20261008",
+  "generatorVersion": "reviewed-grammar-structures-grade6-20261008",
   "generatedAt": "2026-10-08",
   "sourceKind": "textbook-dialogue",
   "sourceNotice": "依据 textbook.md 的已核对原文生成；词族和迁移例句为配套拓展。",
@@ -27,12 +27,7 @@
               "meaning": "星期四"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Thursday"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "1-1"
         },
@@ -63,8 +58,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "It's Thursday."
+              "label": "主语与系动词（缩写）",
+              "text": "It's"
+            },
+            {
+              "label": "表语（星期）",
+              "text": "Thursday."
             }
           ]
         },
@@ -85,12 +84,7 @@
               "meaning": "美术；艺术"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "art"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "1-3"
         },
@@ -111,12 +105,7 @@
               "meaning": "项目"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "project"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 4,
           "id": "1-4"
         },
@@ -175,8 +164,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "The students are doing an art project"
+              "label": "主语",
+              "text": "The students"
+            },
+            {
+              "label": "谓语动作（正在）",
+              "text": "are doing"
+            },
+            {
+              "label": "宾语对象",
+              "text": "an art project"
             }
           ],
           "segmentNumber": 5,
@@ -213,7 +210,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "使用材料",
               "text": "with old things."
             }
           ],
@@ -295,11 +292,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "The students are doing an art project"
+              "label": "主语",
+              "text": "The students"
             },
             {
-              "label": "意群 2",
+              "label": "谓语动作（正在）",
+              "text": "are doing"
+            },
+            {
+              "label": "宾语对象",
+              "text": "an art project"
+            },
+            {
+              "label": "使用材料",
               "text": "with old things."
             }
           ]
@@ -321,12 +326,7 @@
               "meaning": "制作；使"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "make"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "2-1"
         },
@@ -367,8 +367,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "What did you make"
+              "label": "疑问对象",
+              "text": "What"
+            },
+            {
+              "label": "疑问助动词",
+              "text": "did"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "make"
             }
           ],
           "segmentNumber": 2,
@@ -391,12 +403,7 @@
               "meaning": "旧的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "old"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "2-2"
         },
@@ -437,7 +444,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "使用材料",
               "text": "with your old things?"
             }
           ],
@@ -507,11 +514,23 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "What did you make"
+              "label": "疑问对象",
+              "text": "What"
             },
             {
-              "label": "意群 2",
+              "label": "疑问助动词",
+              "text": "did"
+            },
+            {
+              "label": "主语",
+              "text": "you"
+            },
+            {
+              "label": "谓语动作",
+              "text": "make"
+            },
+            {
+              "label": "使用材料",
               "text": "with your old things?"
             }
           ]
@@ -533,12 +552,7 @@
               "meaning": "看"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Look"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "3-1"
         },
@@ -559,12 +573,7 @@
               "meaning": "玩具"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "toy"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "3-2"
         },
@@ -613,8 +622,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Look at this toy fish."
+              "label": "祈使动作",
+              "text": "Look at"
+            },
+            {
+              "label": "宾语对象",
+              "text": "this toy fish."
             }
           ]
         },
@@ -635,12 +648,7 @@
               "meaning": "制作（make 的过去式）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "made"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 4,
           "id": "3-4"
         },
@@ -675,8 +683,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I made it"
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "made"
+            },
+            {
+              "label": "宾语对象",
+              "text": "it"
             }
           ],
           "segmentNumber": 5,
@@ -699,12 +715,7 @@
               "meaning": "塑料的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "plastic"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 6,
           "id": "3-5"
         },
@@ -763,7 +774,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "使用材料",
               "text": "with a plastic bag and some paper."
             }
           ],
@@ -845,11 +856,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I made it"
+              "label": "主语",
+              "text": "I"
             },
             {
-              "label": "意群 2",
+              "label": "谓语动作",
+              "text": "made"
+            },
+            {
+              "label": "宾语对象",
+              "text": "it"
+            },
+            {
+              "label": "使用材料",
               "text": "with a plastic bag and some paper."
             }
           ]
@@ -871,12 +890,7 @@
               "meaning": "鱼"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "fish"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "4-1"
         },
@@ -919,8 +933,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "What a big fish!"
+              "label": "感叹词",
+              "text": "What"
+            },
+            {
+              "label": "被赞叹的事物",
+              "text": "a big fish!"
             }
           ]
         },
@@ -941,12 +959,7 @@
               "meaning": "制作（make 的过去式）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "made"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "5-1"
         },
@@ -987,8 +1000,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I made this bag"
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "made"
+            },
+            {
+              "label": "宾语对象",
+              "text": "this bag"
             }
           ],
           "segmentNumber": 2,
@@ -1011,12 +1032,7 @@
               "meaning": "裤子（复数形式）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "trousers"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "5-2"
         },
@@ -1051,7 +1067,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "使用材料",
               "text": "with old trousers."
             }
           ],
@@ -1115,11 +1131,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I made this bag"
+              "label": "主语",
+              "text": "I"
             },
             {
-              "label": "意群 2",
+              "label": "谓语动作",
+              "text": "made"
+            },
+            {
+              "label": "宾语对象",
+              "text": "this bag"
+            },
+            {
+              "label": "使用材料",
               "text": "with old trousers."
             }
           ]
@@ -1151,8 +1175,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "How nice!"
+              "label": "感叹词",
+              "text": "How"
+            },
+            {
+              "label": "赞叹的状态",
+              "text": "nice!"
             }
           ]
         },
@@ -1173,12 +1201,7 @@
               "meaning": "制作（make 的过去式）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "made"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "7-1"
         },
@@ -1219,8 +1242,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I made this picture"
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "made"
+            },
+            {
+              "label": "宾语对象",
+              "text": "this picture"
             }
           ],
           "segmentNumber": 2,
@@ -1243,12 +1274,7 @@
               "meaning": "纽扣（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "buttons"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "7-2"
         },
@@ -1283,7 +1309,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "使用材料",
               "text": "with old buttons."
             }
           ],
@@ -1347,11 +1373,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I made this picture"
+              "label": "主语",
+              "text": "I"
             },
             {
-              "label": "意群 2",
+              "label": "谓语动作",
+              "text": "made"
+            },
+            {
+              "label": "宾语对象",
+              "text": "this picture"
+            },
+            {
+              "label": "使用材料",
               "text": "with old buttons."
             }
           ]
@@ -1373,12 +1407,7 @@
               "meaning": "美丽的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "beautiful"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "8-1"
         },
@@ -1399,12 +1428,7 @@
               "meaning": "图画"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "picture"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "8-2"
         },
@@ -1447,8 +1471,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "What a beautiful picture!"
+              "label": "感叹词",
+              "text": "What"
+            },
+            {
+              "label": "被赞叹的事物",
+              "text": "a beautiful picture!"
             }
           ]
         },
@@ -1485,8 +1513,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Your turn, Bobby."
+              "label": "省略的轮次表达",
+              "text": "Your turn,"
+            },
+            {
+              "label": "称呼",
+              "text": "Bobby."
             }
           ]
         },
@@ -1507,12 +1539,7 @@
               "meaning": "发生（happen 的过去式）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "happened"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "9-2"
         },
@@ -1549,8 +1576,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "Oh! What happened?"
+              "label": "惊讶回应",
+              "text": "Oh!"
+            },
+            {
+              "label": "疑问主语",
+              "text": "What"
+            },
+            {
+              "label": "谓语动作",
+              "text": "happened?"
             }
           ]
         },
@@ -1571,12 +1606,7 @@
               "meaning": "制作（make 的过去式）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "made"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "10-1"
         },
@@ -1597,12 +1627,7 @@
               "meaning": "帽子"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "hat"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "10-2"
         },
@@ -1643,8 +1668,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I made this hat"
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "made"
+            },
+            {
+              "label": "宾语对象",
+              "text": "this hat"
             }
           ],
           "segmentNumber": 3,
@@ -1687,7 +1720,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "使用材料",
               "text": "with a cardboard box."
             }
           ],
@@ -1757,11 +1790,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I made this hat"
+              "label": "主语",
+              "text": "I"
             },
             {
-              "label": "意群 2",
+              "label": "谓语动作",
+              "text": "made"
+            },
+            {
+              "label": "宾语对象",
+              "text": "this hat"
+            },
+            {
+              "label": "使用材料",
               "text": "with a cardboard box."
             }
           ]
@@ -1783,12 +1824,7 @@
               "meaning": "下雨的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "rainy"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 6,
           "id": "10-6"
         },
@@ -1829,8 +1865,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "But it was rainy"
+              "label": "连接词",
+              "text": "But"
+            },
+            {
+              "label": "天气主语",
+              "text": "it"
+            },
+            {
+              "label": "系动词",
+              "text": "was"
+            },
+            {
+              "label": "表语（天气）",
+              "text": "rainy"
             }
           ],
           "segmentNumber": 7,
@@ -1861,7 +1909,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "时间",
               "text": "this morning."
             }
           ],
@@ -1919,11 +1967,23 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "But it was rainy"
+              "label": "连接词",
+              "text": "But"
             },
             {
-              "label": "意群 2",
+              "label": "天气主语",
+              "text": "it"
+            },
+            {
+              "label": "系动词",
+              "text": "was"
+            },
+            {
+              "label": "表语（天气）",
+              "text": "rainy"
+            },
+            {
+              "label": "时间",
               "text": "this morning."
             }
           ]
@@ -1945,12 +2005,7 @@
               "meaning": "帮助"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "help"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "11-1"
         },
@@ -1993,8 +2048,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "We can help you!"
+              "label": "主语",
+              "text": "We"
+            },
+            {
+              "label": "情态动词",
+              "text": "can"
+            },
+            {
+              "label": "谓语动作",
+              "text": "help"
+            },
+            {
+              "label": "宾语对象",
+              "text": "you!"
             }
           ]
         }
@@ -2020,12 +2087,7 @@
               "meaning": "燃烧；焚烧"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "burn"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "13-1"
         },
@@ -2046,12 +2108,7 @@
               "meaning": "垃圾"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "rubbish"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "13-2"
         },
@@ -2088,8 +2145,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Don't burn rubbish."
+              "label": "祈使否定（缩写）",
+              "text": "Don't"
+            },
+            {
+              "label": "祈使动作",
+              "text": "burn"
+            },
+            {
+              "label": "宾语对象",
+              "text": "rubbish."
             }
           ]
         },
@@ -2110,12 +2175,7 @@
               "meaning": "扔；投"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "throw"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "14-1"
         },
@@ -2158,8 +2218,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Don't throw it away."
+              "label": "祈使否定（缩写）",
+              "text": "Don't"
+            },
+            {
+              "label": "祈使动作（throw…away）",
+              "text": "throw"
+            },
+            {
+              "label": "宾语对象",
+              "text": "it"
+            },
+            {
+              "label": "动作短语后半",
+              "text": "away."
             }
           ]
         },
@@ -2180,12 +2252,7 @@
               "meaning": "伤害"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "hurt"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "15-1"
         },
@@ -2226,8 +2293,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "Don't hurt Mother Earth"
+              "label": "祈使否定（缩写）",
+              "text": "Don't"
+            },
+            {
+              "label": "祈使动作",
+              "text": "hurt"
+            },
+            {
+              "label": "宾语对象",
+              "text": "Mother Earth"
             }
           ],
           "segmentNumber": 2,
@@ -2264,7 +2339,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "方式",
               "text": "in any way."
             }
           ],
@@ -2328,11 +2403,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "Don't hurt Mother Earth"
+              "label": "祈使否定（缩写）",
+              "text": "Don't"
             },
             {
-              "label": "意群 2",
+              "label": "祈使动作",
+              "text": "hurt"
+            },
+            {
+              "label": "宾语对象",
+              "text": "Mother Earth"
+            },
+            {
+              "label": "方式",
               "text": "in any way."
             }
           ]
@@ -2354,12 +2437,7 @@
               "meaning": "垃圾"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "rubbish"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "16-1"
         },
@@ -2408,8 +2486,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Turn rubbish into something new."
+              "label": "祈使动作（turn…into…）",
+              "text": "Turn"
+            },
+            {
+              "label": "宾语对象",
+              "text": "rubbish"
+            },
+            {
+              "label": "转变结果",
+              "text": "into something new."
             }
           ]
         },
@@ -2430,12 +2516,7 @@
               "meaning": "回收利用"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "Recycle"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "17-1"
         },
@@ -2456,12 +2537,7 @@
               "meaning": "物品；东西（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "things"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "17-2"
         },
@@ -2516,8 +2592,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "Recycle things for me and you."
+              "label": "祈使动作",
+              "text": "Recycle"
+            },
+            {
+              "label": "宾语对象",
+              "text": "things"
+            },
+            {
+              "label": "受益对象",
+              "text": "for me and you."
             }
           ]
         }
@@ -2543,12 +2627,7 @@
               "meaning": "硬纸板；硬纸板制的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "cardboard"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "18-2"
         },
@@ -2597,8 +2676,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整对白",
-              "text": "Hello! I'm a cardboard box."
+              "label": "问候",
+              "text": "Hello!"
+            },
+            {
+              "label": "主语与系动词（缩写）",
+              "text": "I'm"
+            },
+            {
+              "label": "表语身份",
+              "text": "a cardboard box."
             }
           ]
         },
@@ -2619,12 +2706,7 @@
               "meaning": "来到；到达（get 的过去式）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "got"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "19-1"
         },
@@ -2659,8 +2741,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I got here"
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "got"
+            },
+            {
+              "label": "目的地",
+              "text": "here"
             }
           ],
           "segmentNumber": 2,
@@ -2697,7 +2787,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
+              "label": "时间",
               "text": "in the morning."
             }
           ],
@@ -2755,11 +2845,19 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "I got here"
+              "label": "主语",
+              "text": "I"
             },
             {
-              "label": "意群 2",
+              "label": "谓语动作",
+              "text": "got"
+            },
+            {
+              "label": "目的地",
+              "text": "here"
+            },
+            {
+              "label": "时间",
               "text": "in the morning."
             }
           ]
@@ -2815,8 +2913,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "What will they do with me?"
+              "label": "疑问动作",
+              "text": "What"
+            },
+            {
+              "label": "将来助动词",
+              "text": "will"
+            },
+            {
+              "label": "主语",
+              "text": "they"
+            },
+            {
+              "label": "谓语动作",
+              "text": "do"
+            },
+            {
+              "label": "处理对象",
+              "text": "with me?"
             }
           ]
         },
@@ -2837,12 +2951,7 @@
               "meaning": "扔；投"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "throw"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "21-1"
         },
@@ -2903,8 +3012,28 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "Will they throw me away? Oh no!"
+              "label": "疑问将来助动词",
+              "text": "Will"
+            },
+            {
+              "label": "主语",
+              "text": "they"
+            },
+            {
+              "label": "谓语动作（throw…away）",
+              "text": "throw"
+            },
+            {
+              "label": "宾语对象",
+              "text": "me"
+            },
+            {
+              "label": "动作短语后半",
+              "text": "away?"
+            },
+            {
+              "label": "担心回应",
+              "text": "Oh no!"
             }
           ]
         },
@@ -2939,7 +3068,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "时间",
               "text": "In the afternoon,"
             }
           ],
@@ -2983,8 +3112,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "they picked me up"
+              "label": "主语",
+              "text": "they"
+            },
+            {
+              "label": "谓语动作（pick…up）",
+              "text": "picked"
+            },
+            {
+              "label": "宾语对象",
+              "text": "me"
+            },
+            {
+              "label": "动作短语后半",
+              "text": "up"
             }
           ],
           "segmentNumber": 2,
@@ -3007,12 +3148,7 @@
               "meaning": "回收利用"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "recycling"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "22-1"
         },
@@ -3033,12 +3169,7 @@
               "meaning": "箱子；垃圾桶"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "bin"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 4,
           "id": "22-2"
         },
@@ -3097,8 +3228,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 3",
-              "text": "and put me in a recycling bin."
+              "label": "连接词",
+              "text": "and"
+            },
+            {
+              "label": "并列动作",
+              "text": "put"
+            },
+            {
+              "label": "宾语对象",
+              "text": "me"
+            },
+            {
+              "label": "地点",
+              "text": "in a recycling bin."
             }
           ],
           "segmentNumber": 5,
@@ -3191,16 +3334,40 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "时间",
               "text": "In the afternoon,"
             },
             {
-              "label": "意群 2",
-              "text": "they picked me up"
+              "label": "主语",
+              "text": "they"
             },
             {
-              "label": "意群 3",
-              "text": "and put me in a recycling bin."
+              "label": "谓语动作（pick…up）",
+              "text": "picked"
+            },
+            {
+              "label": "宾语对象",
+              "text": "me"
+            },
+            {
+              "label": "动作短语后半",
+              "text": "up"
+            },
+            {
+              "label": "连接词",
+              "text": "and"
+            },
+            {
+              "label": "并列动作",
+              "text": "put"
+            },
+            {
+              "label": "宾语对象",
+              "text": "me"
+            },
+            {
+              "label": "地点",
+              "text": "in a recycling bin."
             }
           ]
         },
@@ -3221,12 +3388,7 @@
               "meaning": "登上（get 的过去式，与 on 连用）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "got"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "23-1"
         },
@@ -3247,12 +3409,7 @@
               "meaning": "卡车"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "truck"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "23-2"
         },
@@ -3307,8 +3464,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Then I got on a truck."
+              "label": "时间顺序",
+              "text": "Then"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "got on"
+            },
+            {
+              "label": "宾语对象",
+              "text": "a truck."
             }
           ]
         },
@@ -3329,12 +3498,7 @@
               "meaning": "塑料的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "plastic"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "24-1"
         },
@@ -3355,12 +3519,7 @@
               "meaning": "瓶子（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "bottles"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "24-2"
         },
@@ -3439,8 +3598,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "There I made friends with plastic cups, plastic bottles and glass bottles."
+              "label": "地点",
+              "text": "There"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "made friends"
+            },
+            {
+              "label": "结交对象",
+              "text": "with plastic cups, plastic bottles and glass bottles."
             }
           ]
         },
@@ -3461,12 +3632,7 @@
               "meaning": "卡车"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "truck"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "25-1"
         },
@@ -3495,7 +3661,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "主语",
               "text": "The truck"
             }
           ],
@@ -3519,12 +3685,7 @@
               "meaning": "回收利用"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "recycling"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "25-2"
         },
@@ -3577,8 +3738,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "took us to a recycling centre."
+              "label": "谓语动作",
+              "text": "took"
+            },
+            {
+              "label": "运送对象",
+              "text": "us"
+            },
+            {
+              "label": "目的地",
+              "text": "to a recycling centre."
             }
           ],
           "segmentNumber": 4,
@@ -3647,12 +3816,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "主语",
               "text": "The truck"
             },
             {
-              "label": "意群 2",
-              "text": "took us to a recycling centre."
+              "label": "谓语动作",
+              "text": "took"
+            },
+            {
+              "label": "运送对象",
+              "text": "us"
+            },
+            {
+              "label": "目的地",
+              "text": "to a recycling centre."
             }
           ]
         },
@@ -3673,12 +3850,7 @@
               "meaning": "工人（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "workers"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "26-1"
         },
@@ -3713,8 +3885,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "The workers there"
+              "label": "主语",
+              "text": "The workers"
+            },
+            {
+              "label": "修饰人物的地点",
+              "text": "there"
             }
           ],
           "segmentNumber": 2,
@@ -3737,12 +3913,7 @@
               "meaning": "组（复数）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "groups"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "26-2"
         },
@@ -3789,8 +3960,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "put us into different groups."
+              "label": "谓语动作",
+              "text": "put"
+            },
+            {
+              "label": "宾语对象",
+              "text": "us"
+            },
+            {
+              "label": "分类结果",
+              "text": "into different groups."
             }
           ],
           "segmentNumber": 4,
@@ -3859,12 +4038,24 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "The workers there"
+              "label": "主语",
+              "text": "The workers"
             },
             {
-              "label": "意群 2",
-              "text": "put us into different groups."
+              "label": "修饰人物的地点",
+              "text": "there"
+            },
+            {
+              "label": "谓语动作",
+              "text": "put"
+            },
+            {
+              "label": "宾语对象",
+              "text": "us"
+            },
+            {
+              "label": "分类结果",
+              "text": "into different groups."
             }
           ]
         },
@@ -3885,12 +4076,7 @@
               "meaning": "机器"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "machine"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "27-1"
         },
@@ -3945,8 +4131,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Then I went into a machine."
+              "label": "时间顺序",
+              "text": "Then"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "went"
+            },
+            {
+              "label": "目的地",
+              "text": "into a machine."
             }
           ]
         },
@@ -3967,12 +4165,7 @@
               "meaning": "睡眠；与 go to 连用表示入睡"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "sleep"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "28-1"
         },
@@ -4021,8 +4214,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "There I went to sleep."
+              "label": "地点",
+              "text": "There"
+            },
+            {
+              "label": "主语",
+              "text": "I"
+            },
+            {
+              "label": "谓语动作",
+              "text": "went to sleep."
             }
           ]
         },
@@ -4043,12 +4244,7 @@
               "meaning": "一觉；睡眠"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "sleep"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "28-3"
         },
@@ -4091,8 +4287,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "What a long sleep!"
+              "label": "感叹词",
+              "text": "What"
+            },
+            {
+              "label": "被感叹的经历",
+              "text": "a long sleep!"
             }
           ]
         },
@@ -4113,12 +4313,7 @@
               "meaning": "图书馆"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "library"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 1,
           "id": "30-1"
         },
@@ -4167,8 +4362,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Now I'm in a library."
+              "label": "时间",
+              "text": "Now"
+            },
+            {
+              "label": "主语与系动词（缩写）",
+              "text": "I'm"
+            },
+            {
+              "label": "表语（位置）",
+              "text": "in a library."
             }
           ]
         },
@@ -4189,12 +4392,7 @@
               "meaning": "书"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "book"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 3,
           "id": "30-3"
         },
@@ -4243,8 +4441,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Yes, I'm a book now!"
+              "label": "肯定回应",
+              "text": "Yes,"
+            },
+            {
+              "label": "主语与系动词（缩写）",
+              "text": "I'm"
+            },
+            {
+              "label": "表语身份",
+              "text": "a book"
+            },
+            {
+              "label": "时间",
+              "text": "now!"
             }
           ]
         },
@@ -4293,8 +4503,20 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Children like me very much."
+              "label": "主语",
+              "text": "Children"
+            },
+            {
+              "label": "谓语动作",
+              "text": "like"
+            },
+            {
+              "label": "宾语对象",
+              "text": "me"
+            },
+            {
+              "label": "程度",
+              "text": "very much."
             }
           ]
         },
@@ -4315,12 +4537,7 @@
               "meaning": "奇妙的；极好的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "wonderful"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "31-2"
         },
@@ -4351,8 +4568,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "How wonderful!"
+              "label": "感叹词",
+              "text": "How"
+            },
+            {
+              "label": "赞叹的状态",
+              "text": "wonderful!"
             }
           ]
         },
@@ -4381,7 +4602,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "时间",
               "text": "Next time,"
             }
           ],
@@ -4405,12 +4626,7 @@
               "meaning": "变成"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "become"
-            }
-          ],
+          "structureBlocks": [],
           "segmentNumber": 2,
           "id": "32-1"
         },
@@ -4439,8 +4655,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 2",
-              "text": "I'll become ..."
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "系动词（身份省略）",
+              "text": "become ..."
             }
           ],
           "segmentNumber": 3,
@@ -4485,12 +4705,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
+              "label": "时间",
               "text": "Next time,"
             },
             {
-              "label": "意群 2",
-              "text": "I'll become ..."
+              "label": "主语与将来助动词（缩写）",
+              "text": "I'll"
+            },
+            {
+              "label": "系动词（身份省略）",
+              "text": "become ..."
             }
           ]
         }

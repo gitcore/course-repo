@@ -29,12 +29,7 @@
               "meaning": "书包"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "schoolbag"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "1-2",
@@ -75,8 +70,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "This is my schoolbag."
+              "label": "主语",
+              "text": "This"
+            },
+            {
+              "label": "be动词",
+              "text": "is"
+            },
+            {
+              "label": "表语（说明主语）",
+              "text": "my schoolbag."
             }
           ]
         },
@@ -125,8 +128,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "Is that a pencil case?"
+              "label": "疑问be动词",
+              "text": "Is"
+            },
+            {
+              "label": "主语",
+              "text": "that"
+            },
+            {
+              "label": "表语（说明主语）",
+              "text": "a pencil case?"
             }
           ]
         },
@@ -163,8 +174,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "Yes, it is."
+              "label": "肯定回应",
+              "text": "Yes,"
+            },
+            {
+              "label": "主语",
+              "text": "it"
+            },
+            {
+              "label": "be动词",
+              "text": "is."
             }
           ]
         },
@@ -187,12 +206,7 @@
               "meaning": "直尺"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "ruler"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "4-2",
@@ -233,8 +247,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "Is this a ruler?"
+              "label": "疑问be动词",
+              "text": "Is"
+            },
+            {
+              "label": "主语",
+              "text": "this"
+            },
+            {
+              "label": "表语（说明主语）",
+              "text": "a ruler?"
             }
           ]
         },
@@ -257,12 +279,7 @@
               "meaning": "橡皮"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "rubber"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "5-2",
@@ -303,8 +320,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "No, it's a rubber."
+              "label": "否定回应",
+              "text": "No,"
+            },
+            {
+              "label": "主语与be动词（缩写）",
+              "text": "it's"
+            },
+            {
+              "label": "表语（说明主语）",
+              "text": "a rubber."
             }
           ]
         },
@@ -335,8 +360,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "What's that?"
+              "label": "疑问词与be动词（缩写）",
+              "text": "What's"
+            },
+            {
+              "label": "主语",
+              "text": "that?"
             }
           ]
         },
@@ -359,12 +388,7 @@
               "meaning": "长的"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "long"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "7-2",
@@ -385,12 +409,7 @@
               "meaning": "直尺"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "ruler"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "7-3",
@@ -431,8 +450,12 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
-              "text": "It's a long ruler."
+              "label": "主语与be动词（缩写）",
+              "text": "It's"
+            },
+            {
+              "label": "表语（说明主语）",
+              "text": "a long ruler."
             }
           ]
         },
@@ -455,12 +478,7 @@
               "meaning": "放，安置"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "Put"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "8-2",
@@ -481,12 +499,7 @@
               "meaning": "直尺"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "ruler"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "8-3",
@@ -519,12 +532,7 @@
               "meaning": "直尺"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "自然意群",
-              "text": "Put the ruler"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "8-4",
@@ -563,12 +571,7 @@
               "meaning": "盒；容器（pencil case中的词）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "自然意群",
-              "text": "in the pencil case."
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "8-5",
@@ -621,11 +624,15 @@
           ],
           "structureBlocks": [
             {
-              "label": "自然意群",
-              "text": "Put the ruler"
+              "label": "动词（谓语）",
+              "text": "Put"
             },
             {
-              "label": "自然意群",
+              "label": "对象（宾语）",
+              "text": "the ruler"
+            },
+            {
+              "label": "地点",
               "text": "in the pencil case."
             }
           ]
@@ -661,12 +668,7 @@
               "meaning": "盒；容器（pencil case中的词）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "自然意群",
-              "text": "My pencil case"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "9-1",
@@ -687,12 +689,7 @@
               "meaning": "书包"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "schoolbag"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "9-3",
@@ -731,12 +728,7 @@
               "meaning": "书包"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "自然意群",
-              "text": "is in my schoolbag."
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "9-4",
@@ -789,12 +781,16 @@
           ],
           "structureBlocks": [
             {
-              "label": "自然意群",
+              "label": "主语",
               "text": "My pencil case"
             },
             {
-              "label": "自然意群",
-              "text": "is in my schoolbag."
+              "label": "be动词",
+              "text": "is"
+            },
+            {
+              "label": "地点",
+              "text": "in my schoolbag."
             }
           ]
         },
@@ -817,12 +813,7 @@
               "meaning": "主意（Good idea中的词）"
             }
           ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "idea"
-            }
-          ]
+          "structureBlocks": []
         },
         {
           "id": "10-2",
@@ -851,7 +842,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整表达",
+              "label": "赞同建议（省略表达）",
               "text": "Good idea!"
             }
           ]
