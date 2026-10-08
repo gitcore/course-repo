@@ -2,7 +2,7 @@
   "manifestId": "grade6-semester1-unit7",
   "activityType": "sentence-practice",
   "sourceHash": "b479f76c5538c0840e47d565510b29602cc08a489f0fe93485fd947c971144d3",
-  "generatorVersion": "reviewed-word-phrase-cycle-20261008",
+  "generatorVersion": "reviewed-meaningful-recitation-20261008",
   "generatedAt": "2026-10-08",
   "sourceKind": "textbook-dialogue",
   "sourceNotice": "依据 textbook.md 的已核对原文生成；词族和迁移例句为配套拓展。",
@@ -1491,32 +1491,6 @@
           ]
         },
         {
-          "id": "9-1",
-          "sequenceNumber": 9,
-          "segmentNumber": 1,
-          "speaker": "Teacher",
-          "english": "Oh!",
-          "chinese": "哦！",
-          "category": "sentence",
-          "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
-          "grammarAnalysis": "先记清这个表达中的动作或关系，再接上它涉及的内容。",
-          "words": [
-            {
-              "text": "Oh",
-              "phonetic": "/əʊ/",
-              "partOfSpeech": "int.",
-              "meaning": "哦，啊"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "完整句",
-              "text": "Oh!"
-            }
-          ]
-        },
-        {
           "sequenceNumber": 9,
           "speaker": "Teacher",
           "english": "happened",
@@ -1539,21 +1513,27 @@
               "text": "happened"
             }
           ],
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "id": "9-2"
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "speaker": "Teacher",
-          "english": "What happened?",
-          "chinese": "发生了什么？",
+          "english": "Oh! What happened?",
+          "chinese": "哦！发生了什么？",
           "category": "sentence",
           "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
+          "hint": "按原文顺序背出这段完整对白",
           "grammarAnalysis": "先记清这个表达中的动作或关系，再接上它涉及的内容。",
           "words": [
+            {
+              "text": "Oh",
+              "phonetic": "/əʊ/",
+              "partOfSpeech": "int.",
+              "meaning": "哦，啊"
+            },
             {
               "text": "What",
               "phonetic": "/wɒt/",
@@ -1569,8 +1549,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "What happened?"
+              "label": "完整表达",
+              "text": "Oh! What happened?"
             }
           ]
         },
@@ -2017,38 +1997,6 @@
               "text": "We can help you!"
             }
           ]
-        },
-        {
-          "id": "12-1",
-          "sequenceNumber": 12,
-          "segmentNumber": 1,
-          "speaker": "Bobby",
-          "english": "Thank you!",
-          "chinese": "谢谢你们！",
-          "category": "sentence",
-          "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
-          "grammarAnalysis": "这是与别人打招呼或表达感谢时的常用说法。",
-          "words": [
-            {
-              "text": "Thank",
-              "phonetic": "/θæŋk/",
-              "partOfSpeech": "v.",
-              "meaning": "感谢"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "pron.",
-              "meaning": "你，你们"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "完整句",
-              "text": "Thank you!"
-            }
-          ]
         }
       ]
     },
@@ -2472,7 +2420,7 @@
           "chinese": "回收利用",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词，再背出完整表达",
           "grammarAnalysis": "重点词：Recycle。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -2498,7 +2446,7 @@
           "chinese": "事情；东西（复数）",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词，再背出完整表达",
           "grammarAnalysis": "重点词：things。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -2518,85 +2466,9 @@
           "id": "17-2"
         },
         {
-          "sequenceNumber": 17,
-          "speaker": "narrator",
-          "english": "Recycle things",
-          "chinese": "回收物品",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这一词组是原句中连续的自然意群。",
-          "words": [
-            {
-              "text": "Recycle",
-              "phonetic": "/ˌriːˈsaɪkl/",
-              "partOfSpeech": "v.",
-              "meaning": "回收利用"
-            },
-            {
-              "text": "things",
-              "phonetic": "/θɪŋz/",
-              "partOfSpeech": "n.",
-              "meaning": "物品；东西（复数）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "意群 1",
-              "text": "Recycle things"
-            }
-          ],
-          "segmentNumber": 3,
-          "id": "17-3"
-        },
-        {
-          "sequenceNumber": 17,
-          "speaker": "narrator",
-          "english": "for me and you.",
-          "chinese": "为了我和你",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这一词组是原句中连续的自然意群。",
-          "words": [
-            {
-              "text": "for",
-              "phonetic": "/fɔː/",
-              "partOfSpeech": "prep.",
-              "meaning": "为了，给"
-            },
-            {
-              "text": "me",
-              "phonetic": "/miː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（宾格）"
-            },
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "conj.",
-              "meaning": "和，又"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "pron.",
-              "meaning": "你，你们"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "意群 2",
-              "text": "for me and you."
-            }
-          ],
-          "segmentNumber": 4,
-          "id": "17-4"
-        },
-        {
           "id": "17-5",
           "sequenceNumber": 17,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "speaker": "narrator",
           "english": "Recycle things for me and you.",
           "chinese": "为了你我，回收物品。",
@@ -2644,12 +2516,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "意群 1",
-              "text": "Recycle things"
-            },
-            {
-              "label": "意群 2",
-              "text": "for me and you."
+              "label": "完整表达",
+              "text": "Recycle things for me and you."
             }
           ]
         }
@@ -2658,32 +2526,6 @@
     {
       "title": "Story time — What a wonderful journey!",
       "sentences": [
-        {
-          "id": "18-1",
-          "sequenceNumber": 18,
-          "segmentNumber": 1,
-          "speaker": "Cardboard box",
-          "english": "Hello!",
-          "chinese": "你好！",
-          "category": "sentence",
-          "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
-          "grammarAnalysis": "这是与别人打招呼或表达感谢时的常用说法。",
-          "words": [
-            {
-              "text": "Hello",
-              "phonetic": "/həˈləʊ/",
-              "partOfSpeech": "interj.",
-              "meaning": "你好"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "完整句",
-              "text": "Hello!"
-            }
-          ]
-        },
         {
           "sequenceNumber": 18,
           "speaker": "Cardboard box",
@@ -2707,21 +2549,27 @@
               "text": "cardboard"
             }
           ],
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "id": "18-2"
         },
         {
-          "id": "18-3",
+          "id": "18-4",
           "sequenceNumber": 18,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "speaker": "Cardboard box",
-          "english": "I'm a cardboard box.",
-          "chinese": "我是一个纸箱。",
+          "english": "Hello! I'm a cardboard box.",
+          "chinese": "你好！我是一个纸箱。",
           "category": "sentence",
           "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
+          "hint": "把问候和后面的内容连起来背诵这段原文",
           "grammarAnalysis": "先记清这个表达中的动作或关系，再接上它涉及的内容。",
           "words": [
+            {
+              "text": "Hello",
+              "phonetic": "/həˈləʊ/",
+              "partOfSpeech": "interj.",
+              "meaning": "你好"
+            },
             {
               "text": "I'm",
               "phonetic": "/aɪm/",
@@ -2749,8 +2597,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "I'm a cardboard box."
+              "label": "完整对白",
+              "text": "Hello! I'm a cardboard box."
             }
           ]
         },
@@ -2999,15 +2847,15 @@
           "id": "21-1"
         },
         {
-          "id": "21-2",
+          "id": "21-4",
           "sequenceNumber": 21,
           "segmentNumber": 2,
           "speaker": "Cardboard box",
-          "english": "Will they throw me away?",
-          "chinese": "他们会把我扔掉吗？",
+          "english": "Will they throw me away? Oh no!",
+          "chinese": "他们会把我扔掉吗？哦不！",
           "category": "sentence",
           "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
+          "hint": "按原文顺序背出这段完整对白",
           "grammarAnalysis": "will 表示将来的行动，后接动词原形。",
           "words": [
             {
@@ -3039,27 +2887,7 @@
               "phonetic": "/əˈweɪ/",
               "partOfSpeech": "adv.",
               "meaning": "与 throw 连用表示扔掉"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "完整句",
-              "text": "Will they throw me away?"
-            }
-          ]
-        },
-        {
-          "id": "21-3",
-          "sequenceNumber": 21,
-          "segmentNumber": 3,
-          "speaker": "Cardboard box",
-          "english": "Oh no!",
-          "chinese": "哦不！",
-          "category": "sentence",
-          "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
-          "grammarAnalysis": "先记清这个表达中的动作或关系，再接上它涉及的内容。",
-          "words": [
+            },
             {
               "text": "Oh",
               "phonetic": "/əʊ/",
@@ -3075,8 +2903,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "完整句",
-              "text": "Oh no!"
+              "label": "完整表达",
+              "text": "Will they throw me away? Oh no!"
             }
           ]
         },
@@ -4265,70 +4093,6 @@
             {
               "label": "完整句",
               "text": "What a long sleep!"
-            }
-          ]
-        },
-        {
-          "id": "29-1",
-          "sequenceNumber": 29,
-          "segmentNumber": 1,
-          "speaker": "Cardboard box",
-          "english": "Hello again!",
-          "chinese": "又见面了！",
-          "category": "sentence",
-          "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
-          "grammarAnalysis": "这是与别人打招呼或表达感谢时的常用说法。",
-          "words": [
-            {
-              "text": "Hello",
-              "phonetic": "/həˈləʊ/",
-              "partOfSpeech": "interj.",
-              "meaning": "你好"
-            },
-            {
-              "text": "again",
-              "phonetic": "/əˈɡen/",
-              "partOfSpeech": "adv.",
-              "meaning": "再一次"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "完整句",
-              "text": "Hello again!"
-            }
-          ]
-        },
-        {
-          "id": "29-2",
-          "sequenceNumber": 29,
-          "segmentNumber": 2,
-          "speaker": "Cardboard box",
-          "english": "It's me!",
-          "chinese": "是我！",
-          "category": "sentence",
-          "difficulty": 2,
-          "hint": "按原句顺序说出完整句",
-          "grammarAnalysis": "先记清这个表达中的动作或关系，再接上它涉及的内容。",
-          "words": [
-            {
-              "text": "It's",
-              "phonetic": "/ɪts/",
-              "partOfSpeech": "v.",
-              "meaning": "是我（It is 的缩写）"
-            },
-            {
-              "text": "me",
-              "phonetic": "/miː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（宾格）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "完整句",
-              "text": "It's me!"
             }
           ]
         },

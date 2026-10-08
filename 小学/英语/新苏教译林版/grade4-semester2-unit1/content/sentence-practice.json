@@ -747,7 +747,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -773,7 +773,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -791,91 +791,9 @@
           ]
         },
         {
-          "id": "6-3",
-          "sequenceNumber": 6,
-          "segmentNumber": 3,
-          "english": "I can get a chair",
-          "chinese": "我能拿一把椅子",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "get",
-              "phonetic": "/ɡet/",
-              "partOfSpeech": "v.",
-              "meaning": "去取（复习或原创场景支持词）"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "art.",
-              "meaning": "一（个）（复习或原创场景支持词）"
-            },
-            {
-              "text": "chair",
-              "phonetic": "/tʃeə/",
-              "partOfSpeech": "n.",
-              "meaning": "椅子（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "自然意群",
-              "text": "I can get a chair"
-            }
-          ]
-        },
-        {
-          "id": "6-4",
-          "sequenceNumber": 6,
-          "segmentNumber": 4,
-          "english": "from Tom.",
-          "chinese": "从汤姆那里。",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "from",
-              "phonetic": "/frɒm/",
-              "partOfSpeech": "prep.",
-              "meaning": "来自"
-            },
-            {
-              "text": "Tom",
-              "phonetic": "/tɒm/",
-              "partOfSpeech": "proper n.",
-              "meaning": "Tom（原创角色）（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "自然意群",
-              "text": "from Tom."
-            }
-          ]
-        },
-        {
           "id": "6-5",
           "sequenceNumber": 6,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "english": "I can get a chair from Tom.",
           "chinese": "我可以从汤姆那里拿一把椅子。",
           "speaker": "Ben",

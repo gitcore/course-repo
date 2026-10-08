@@ -821,7 +821,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -847,7 +847,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -865,91 +865,9 @@
           ]
         },
         {
-          "id": "7-3",
-          "sequenceNumber": 7,
-          "segmentNumber": 3,
-          "english": "I can take your bag",
-          "chinese": "我可以拿你的包",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "take",
-              "phonetic": "/teɪk/",
-              "partOfSpeech": "v.",
-              "meaning": "带；拿（复习或原创场景支持词）"
-            },
-            {
-              "text": "your",
-              "phonetic": "/jɔː/",
-              "partOfSpeech": "det.",
-              "meaning": "你的；你们的（复习或原创场景支持词）"
-            },
-            {
-              "text": "bag",
-              "phonetic": "/bæɡ/",
-              "partOfSpeech": "n.",
-              "meaning": "包；袋"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "自然意群",
-              "text": "I can take your bag"
-            }
-          ]
-        },
-        {
-          "id": "7-4",
-          "sequenceNumber": 7,
-          "segmentNumber": 4,
-          "english": "for you.",
-          "chinese": "帮你拿。",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "for",
-              "phonetic": "/fɔː/",
-              "partOfSpeech": "prep.",
-              "meaning": "给；为了（复习或原创场景支持词）"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "pron.",
-              "meaning": "你；你们（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "自然意群",
-              "text": "for you."
-            }
-          ]
-        },
-        {
           "id": "7-5",
           "sequenceNumber": 7,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "english": "I can take your bag for you.",
           "chinese": "我可以帮你拿包。",
           "speaker": "Ben",
@@ -1608,35 +1526,9 @@
           ]
         },
         {
-          "id": "13-2",
-          "sequenceNumber": 13,
-          "segmentNumber": 2,
-          "english": "now",
-          "chinese": "现在（复习或原创场景支持词）",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "now",
-              "phonetic": "/naʊ/",
-              "partOfSpeech": "adv.",
-              "meaning": "现在（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "now"
-            }
-          ]
-        },
-        {
           "id": "13-3",
           "sequenceNumber": 13,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "Are you hungry now?",
           "chinese": "你现在饿吗？",
           "speaker": "Tom",
