@@ -1,8 +1,8 @@
 {
   "manifestId": "new-yilin-grade5-semester1-project1",
   "activityType": "sentence-practice",
-  "sourceHash": "975137b064c53a61ef7e64107a66da30972fdb612cbefcb6465a50ca3f728be5",
-  "generatorVersion": "original-aligned-primary-v1",
+  "sourceHash": "51ee3a2f2862d7d0034baca5680d94460393c6dcace601de17e213590a035c23",
+  "generatorVersion": "original-aligned-primary-v2",
   "generatedAt": "2026-10-08",
   "sourceKind": "original-aligned-practice",
   "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
@@ -1079,7 +1079,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1105,7 +1105,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1123,93 +1123,15 @@
           ]
         },
         {
-          "id": "10-3",
-          "sequenceNumber": 10,
-          "segmentNumber": 3,
-          "english": "friends",
-          "chinese": "朋友；friend的复数",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "friends",
-              "phonetic": "/frendz/",
-              "partOfSpeech": "n.",
-              "meaning": "朋友；friend的复数"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "friends"
-            }
-          ]
-        },
-        {
-          "id": "10-4",
-          "sequenceNumber": 10,
-          "segmentNumber": 4,
-          "english": "read",
-          "chinese": "阅读",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "read",
-              "phonetic": "/riːd/",
-              "partOfSpeech": "v.",
-              "meaning": "阅读"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "read"
-            }
-          ]
-        },
-        {
-          "id": "10-5",
-          "sequenceNumber": 10,
-          "segmentNumber": 5,
-          "english": "cards",
-          "chinese": "卡片；card的复数",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "cards",
-              "phonetic": "/kɑːdz/",
-              "partOfSpeech": "n.",
-              "meaning": "卡片；card的复数"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "cards"
-            }
-          ]
-        },
-        {
           "id": "10-6",
           "sequenceNumber": 10,
-          "segmentNumber": 6,
+          "segmentNumber": 3,
           "english": "I feel good",
           "chinese": "我感觉很好",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -1239,6 +1161,84 @@
           ]
         },
         {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
+          "english": "friends",
+          "chinese": "朋友；friend的复数",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "friends",
+              "phonetic": "/frendz/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友；friend的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "friends"
+            }
+          ]
+        },
+        {
+          "id": "10-4",
+          "sequenceNumber": 10,
+          "segmentNumber": 5,
+          "english": "read",
+          "chinese": "阅读",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "read",
+              "phonetic": "/riːd/",
+              "partOfSpeech": "v.",
+              "meaning": "阅读"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "read"
+            }
+          ]
+        },
+        {
+          "id": "10-5",
+          "sequenceNumber": 10,
+          "segmentNumber": 6,
+          "english": "cards",
+          "chinese": "卡片；card的复数",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "cards",
+              "phonetic": "/kɑːdz/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片；card的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "cards"
+            }
+          ]
+        },
+        {
           "id": "10-7",
           "sequenceNumber": 10,
           "segmentNumber": 7,
@@ -1247,7 +1247,7 @@
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -1369,7 +1369,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1395,7 +1395,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1413,41 +1413,15 @@
           ]
         },
         {
-          "id": "11-3",
-          "sequenceNumber": 11,
-          "segmentNumber": 3,
-          "english": "friends",
-          "chinese": "朋友；friend的复数",
-          "speaker": "Ben",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "friends",
-              "phonetic": "/frendz/",
-              "partOfSpeech": "n.",
-              "meaning": "朋友；friend的复数"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "friends"
-            }
-          ]
-        },
-        {
           "id": "11-4",
           "sequenceNumber": 11,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "I like singing",
           "chinese": "我喜欢唱歌",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -1477,6 +1451,32 @@
           ]
         },
         {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
+          "english": "friends",
+          "chinese": "朋友；friend的复数",
+          "speaker": "Ben",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "friends",
+              "phonetic": "/frendz/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友；friend的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "friends"
+            }
+          ]
+        },
+        {
           "id": "11-5",
           "sequenceNumber": 11,
           "segmentNumber": 5,
@@ -1485,7 +1485,7 @@
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -1583,7 +1583,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1601,41 +1601,15 @@
           ]
         },
         {
-          "id": "12-2",
-          "sequenceNumber": 12,
-          "segmentNumber": 2,
-          "english": "poster",
-          "chinese": "海报",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "poster",
-              "phonetic": "/ˈpəʊstə/",
-              "partOfSpeech": "n.",
-              "meaning": "海报"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "poster"
-            }
-          ]
-        },
-        {
           "id": "12-3",
           "sequenceNumber": 12,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "Let's tell our class",
           "chinese": "我们告诉班级同学",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -1671,6 +1645,32 @@
           ]
         },
         {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
+          "english": "poster",
+          "chinese": "海报",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "poster",
+              "phonetic": "/ˈpəʊstə/",
+              "partOfSpeech": "n.",
+              "meaning": "海报"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "poster"
+            }
+          ]
+        },
+        {
           "id": "12-4",
           "sequenceNumber": 12,
           "segmentNumber": 4,
@@ -1679,7 +1679,7 @@
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {

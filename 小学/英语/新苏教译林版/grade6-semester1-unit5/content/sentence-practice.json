@@ -2,8 +2,8 @@
   "manifestId": "grade6-semester1-unit5",
   "activityType": "sentence-practice",
   "sourceHash": "1bb75a40935f84e5fb0f0e6e2693d957f69c9d7f18e575b98c35b5dad0303300",
-  "generatorVersion": "meaningful-word-group-sequence-20261007",
-  "generatedAt": "2026-10-07",
+  "generatorVersion": "reviewed-word-phrase-cycle-20261008",
+  "generatedAt": "2026-10-08",
   "sections": [
     {
       "title": "Cartoon time — Ouch!",
@@ -15,7 +15,7 @@
           "chinese": "Bobby和Tina",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -53,7 +53,7 @@
           "chinese": "正走路回家",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -147,63 +147,11 @@
         {
           "sequenceNumber": 2,
           "speaker": "Tina",
-          "english": "clean",
-          "chinese": "干净的",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：clean。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "clean",
-              "phonetic": "/kliːn/",
-              "partOfSpeech": "adj.",
-              "meaning": "干净的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "clean"
-            }
-          ],
-          "segmentNumber": 1,
-          "id": "2-1"
-        },
-        {
-          "sequenceNumber": 2,
-          "speaker": "Tina",
-          "english": "beautiful",
-          "chinese": "美丽的",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：beautiful。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "beautiful",
-              "phonetic": "/ˈbjuːtɪfl/",
-              "partOfSpeech": "adj.",
-              "meaning": "美丽的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "beautiful"
-            }
-          ],
-          "segmentNumber": 2,
-          "id": "2-2"
-        },
-        {
-          "sequenceNumber": 2,
-          "speaker": "Tina",
           "english": "Our city",
           "chinese": "我们的城市",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -225,8 +173,60 @@
               "text": "Our city"
             }
           ],
-          "segmentNumber": 3,
+          "segmentNumber": 1,
           "id": "2-3"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "Tina",
+          "english": "clean",
+          "chinese": "干净的",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：clean。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "adj.",
+              "meaning": "干净的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "clean"
+            }
+          ],
+          "segmentNumber": 2,
+          "id": "2-1"
+        },
+        {
+          "sequenceNumber": 2,
+          "speaker": "Tina",
+          "english": "beautiful",
+          "chinese": "美丽的",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：beautiful。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "beautiful",
+              "phonetic": "/ˈbjuːtɪfl/",
+              "partOfSpeech": "adj.",
+              "meaning": "美丽的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "beautiful"
+            }
+          ],
+          "segmentNumber": 3,
+          "id": "2-2"
         },
         {
           "sequenceNumber": 2,
@@ -235,7 +235,7 @@
           "chinese": "干净又美丽",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -441,7 +441,7 @@
           "chinese": "扔（throw 的第三人称单数）",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：throws。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -467,7 +467,7 @@
           "chinese": "香蕉",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：banana。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -493,7 +493,7 @@
           "chinese": "Bobby扔了香蕉皮",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -543,7 +543,7 @@
           "chinese": "在地上",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -1277,37 +1277,11 @@
         {
           "sequenceNumber": 11,
           "speaker": "Bobby",
-          "english": "walk",
-          "chinese": "走；陪同走路",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：walk。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "walk",
-              "phonetic": "/wɔːk/",
-              "partOfSpeech": "v.",
-              "meaning": "走；陪同走路"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "walk"
-            }
-          ],
-          "segmentNumber": 2,
-          "id": "11-2"
-        },
-        {
-          "sequenceNumber": 11,
-          "speaker": "Bobby",
           "english": "Tina and I",
           "chinese": "Tina和我",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -1335,8 +1309,34 @@
               "text": "Tina and I"
             }
           ],
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "id": "11-3"
+        },
+        {
+          "sequenceNumber": 11,
+          "speaker": "Bobby",
+          "english": "walk",
+          "chinese": "走；陪同走路",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：walk。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "walk",
+              "phonetic": "/wɔːk/",
+              "partOfSpeech": "v.",
+              "meaning": "走；陪同走路"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "walk"
+            }
+          ],
+          "segmentNumber": 3,
+          "id": "11-2"
         },
         {
           "sequenceNumber": 11,
@@ -1345,7 +1345,7 @@
           "chinese": "会陪你走回家",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -1455,7 +1455,7 @@
           "chinese": "高兴的",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：happy。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -1481,7 +1481,7 @@
           "chinese": "Billy的妈妈很高兴",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -1525,7 +1525,7 @@
           "chinese": "见到他们",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -1736,7 +1736,7 @@
           "chinese": "女孩",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：girl。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -1758,37 +1758,11 @@
         {
           "sequenceNumber": 15,
           "speaker": "narrator",
-          "english": "T-shirt",
-          "chinese": "T恤衫",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：T-shirt。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "T-shirt",
-              "phonetic": "/ˈtiː ʃɜːt/",
-              "partOfSpeech": "n.",
-              "meaning": "T恤衫"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "T-shirt"
-            }
-          ],
-          "segmentNumber": 2,
-          "id": "15-2"
-        },
-        {
-          "sequenceNumber": 15,
-          "speaker": "narrator",
           "english": "The girl",
           "chinese": "那个女孩",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -1810,8 +1784,34 @@
               "text": "The girl"
             }
           ],
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "id": "15-3"
+        },
+        {
+          "sequenceNumber": 15,
+          "speaker": "narrator",
+          "english": "T-shirt",
+          "chinese": "T恤衫",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：T-shirt。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "T-shirt",
+              "phonetic": "/ˈtiː ʃɜːt/",
+              "partOfSpeech": "n.",
+              "meaning": "T恤衫"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "T-shirt"
+            }
+          ],
+          "segmentNumber": 3,
+          "id": "15-2"
         },
         {
           "sequenceNumber": 15,
@@ -1820,7 +1820,7 @@
           "chinese": "穿着T恤衫",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -2112,63 +2112,11 @@
         {
           "sequenceNumber": 18,
           "speaker": "narrator",
-          "english": "clean",
-          "chinese": "干净的",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：clean。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "clean",
-              "phonetic": "/kliːn/",
-              "partOfSpeech": "adj.",
-              "meaning": "干净的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "clean"
-            }
-          ],
-          "segmentNumber": 1,
-          "id": "18-1"
-        },
-        {
-          "sequenceNumber": 18,
-          "speaker": "narrator",
-          "english": "neat",
-          "chinese": "整洁的",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：neat。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "neat",
-              "phonetic": "/niːt/",
-              "partOfSpeech": "adj.",
-              "meaning": "整洁的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "neat"
-            }
-          ],
-          "segmentNumber": 2,
-          "id": "18-2"
-        },
-        {
-          "sequenceNumber": 18,
-          "speaker": "narrator",
           "english": "But the street",
           "chinese": "但是街道",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -2196,8 +2144,60 @@
               "text": "But the street"
             }
           ],
-          "segmentNumber": 3,
+          "segmentNumber": 1,
           "id": "18-3"
+        },
+        {
+          "sequenceNumber": 18,
+          "speaker": "narrator",
+          "english": "clean",
+          "chinese": "干净的",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：clean。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "adj.",
+              "meaning": "干净的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "clean"
+            }
+          ],
+          "segmentNumber": 2,
+          "id": "18-1"
+        },
+        {
+          "sequenceNumber": 18,
+          "speaker": "narrator",
+          "english": "neat",
+          "chinese": "整洁的",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：neat。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "neat",
+              "phonetic": "/niːt/",
+              "partOfSpeech": "adj.",
+              "meaning": "整洁的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "neat"
+            }
+          ],
+          "segmentNumber": 3,
+          "id": "18-2"
         },
         {
           "sequenceNumber": 18,
@@ -2206,7 +2206,7 @@
           "chinese": "变得干净又整洁",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -2435,7 +2435,7 @@
           "chinese": "慢跑捡垃圾",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：plogging。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -2461,7 +2461,7 @@
           "chinese": "我会去慢跑捡垃圾",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -2499,7 +2499,7 @@
           "chinese": "和我的家人",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -2681,7 +2681,7 @@
           "chinese": "慢跑",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：jogging。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -2707,7 +2707,7 @@
           "chinese": "捡起（pick 的 -ing 形式，与 up 连用）",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：picking。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -2733,7 +2733,7 @@
           "chinese": "这项活动就是慢跑并捡垃圾",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -2789,7 +2789,7 @@
           "chinese": "同时",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -2917,7 +2917,7 @@
           "chinese": "健康的",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：healthy。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -2939,37 +2939,11 @@
         {
           "sequenceNumber": 22,
           "speaker": "Su Hai",
-          "english": "clean",
-          "chinese": "干净的",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：clean。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "clean",
-              "phonetic": "/kliːn/",
-              "partOfSpeech": "adj.",
-              "meaning": "干净的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "clean"
-            }
-          ],
-          "segmentNumber": 7,
-          "id": "22-7"
-        },
-        {
-          "sequenceNumber": 22,
-          "speaker": "Su Hai",
           "english": "It can keep us healthy",
           "chinese": "它能让我们保持健康",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -3009,8 +2983,34 @@
               "text": "It can keep us healthy"
             }
           ],
-          "segmentNumber": 8,
+          "segmentNumber": 7,
           "id": "22-8"
+        },
+        {
+          "sequenceNumber": 22,
+          "speaker": "Su Hai",
+          "english": "clean",
+          "chinese": "干净的",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：clean。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "adj.",
+              "meaning": "干净的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "clean"
+            }
+          ],
+          "segmentNumber": 8,
+          "id": "22-7"
         },
         {
           "sequenceNumber": 22,
@@ -3019,7 +3019,7 @@
           "chinese": "并让我们的城市变干净",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -3287,7 +3287,7 @@
           "chinese": "慢跑捡垃圾",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：plogging。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -3309,37 +3309,11 @@
         {
           "sequenceNumber": 24,
           "speaker": "Su Hai",
-          "english": "park",
-          "chinese": "公园",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：park。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "park",
-              "phonetic": "/pɑːk/",
-              "partOfSpeech": "n.",
-              "meaning": "公园"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "park"
-            }
-          ],
-          "segmentNumber": 3,
-          "id": "24-3"
-        },
-        {
-          "sequenceNumber": 24,
-          "speaker": "Su Hai",
           "english": "We'll go plogging",
           "chinese": "我们会去慢跑捡垃圾",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -3367,8 +3341,34 @@
               "text": "We'll go plogging"
             }
           ],
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "id": "24-4"
+        },
+        {
+          "sequenceNumber": 24,
+          "speaker": "Su Hai",
+          "english": "park",
+          "chinese": "公园",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：park。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "park",
+              "phonetic": "/pɑːk/",
+              "partOfSpeech": "n.",
+              "meaning": "公园"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "park"
+            }
+          ],
+          "segmentNumber": 4,
+          "id": "24-3"
         },
         {
           "sequenceNumber": 24,
@@ -3377,7 +3377,7 @@
           "chinese": "在公园里",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -3415,7 +3415,7 @@
           "chinese": "本周六上午",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -3531,37 +3531,11 @@
         {
           "sequenceNumber": 24,
           "speaker": "Su Hai",
-          "english": "gate",
-          "chinese": "大门",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记住这句的重点单词",
-          "grammarAnalysis": "重点词：gate。结合后面的词组与整句理解其用法。",
-          "words": [
-            {
-              "text": "gate",
-              "phonetic": "/ɡeɪt/",
-              "partOfSpeech": "n.",
-              "meaning": "大门"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "重点单词",
-              "text": "gate"
-            }
-          ],
-          "segmentNumber": 8,
-          "id": "24-8"
-        },
-        {
-          "sequenceNumber": 24,
-          "speaker": "Su Hai",
           "english": "Let's meet",
           "chinese": "我们见面吧",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -3583,8 +3557,34 @@
               "text": "Let's meet"
             }
           ],
-          "segmentNumber": 9,
+          "segmentNumber": 8,
           "id": "24-9"
+        },
+        {
+          "sequenceNumber": 24,
+          "speaker": "Su Hai",
+          "english": "gate",
+          "chinese": "大门",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "重点词：gate。结合后面的词组与整句理解其用法。",
+          "words": [
+            {
+              "text": "gate",
+              "phonetic": "/ɡeɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "大门"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "重点单词",
+              "text": "gate"
+            }
+          ],
+          "segmentNumber": 9,
+          "id": "24-8"
         },
         {
           "sequenceNumber": 24,
@@ -3593,7 +3593,7 @@
           "chinese": "在学校门口",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -3637,7 +3637,7 @@
           "chinese": "九点钟",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -4391,7 +4391,7 @@
           "chinese": "慢跑捡垃圾",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：plogging。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -4417,7 +4417,7 @@
           "chinese": "再一次",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记住这句的重点单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "重点词：again。结合后面的词组与整句理解其用法。",
           "words": [
             {
@@ -4443,7 +4443,7 @@
           "chinese": "我们再去慢跑捡垃圾吧",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {
@@ -4487,7 +4487,7 @@
           "chinese": "下个周末",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一意群",
+          "hint": "按原句顺序记住这一组词",
           "grammarAnalysis": "这一词组是原句中连续的自然意群。",
           "words": [
             {

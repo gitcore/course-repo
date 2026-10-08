@@ -2,8 +2,8 @@
   "manifestId": "grade6-semester1-unit3",
   "activityType": "sentence-practice",
   "sourceHash": "8650054af9300220bb32e15e6b15dff0b8aabb025896d8a159192c12cb0f0451",
-  "generatorVersion": "reviewed-word-groups-sentence-20261007",
-  "generatedAt": "2026-10-07",
+  "generatorVersion": "reviewed-word-phrase-cycle-20261008",
+  "generatedAt": "2026-10-08",
   "sections": [
     {
       "title": "Cartoon time — My hero",
@@ -49,7 +49,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -75,7 +75,7 @@
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -235,7 +235,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -261,7 +261,7 @@
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -533,7 +533,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -551,67 +551,15 @@
           ]
         },
         {
-          "id": "5-3",
-          "sequenceNumber": 5,
-          "segmentNumber": 3,
-          "english": "write",
-          "chinese": "写；写作",
-          "speaker": "Bobby",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "write",
-              "phonetic": "/raɪt/",
-              "partOfSpeech": "v.",
-              "meaning": "写"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "write"
-            }
-          ]
-        },
-        {
-          "id": "5-4",
-          "sequenceNumber": 5,
-          "segmentNumber": 4,
-          "english": "heroes",
-          "chinese": "英雄（复数）",
-          "speaker": "Bobby",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "heroes",
-              "phonetic": "/ˈhɪərəʊz/",
-              "partOfSpeech": "n.",
-              "meaning": "英雄（复数）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "heroes"
-            }
-          ]
-        },
-        {
           "id": "5-5",
           "sequenceNumber": 5,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "english": "Mrs Fox asked us",
           "chinese": "狐狸老师让我们",
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -641,6 +589,58 @@
           ]
         },
         {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
+          "english": "write",
+          "chinese": "写；写作",
+          "speaker": "Bobby",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "write",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "写"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "write"
+            }
+          ]
+        },
+        {
+          "id": "5-4",
+          "sequenceNumber": 5,
+          "segmentNumber": 5,
+          "english": "heroes",
+          "chinese": "英雄（复数）",
+          "speaker": "Bobby",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "heroes",
+              "phonetic": "/ˈhɪərəʊz/",
+              "partOfSpeech": "n.",
+              "meaning": "英雄（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "heroes"
+            }
+          ]
+        },
+        {
           "id": "5-6",
           "sequenceNumber": 5,
           "segmentNumber": 6,
@@ -649,7 +649,7 @@
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -859,7 +859,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -885,7 +885,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -903,41 +903,15 @@
           ]
         },
         {
-          "id": "7-3",
-          "sequenceNumber": 7,
-          "segmentNumber": 3,
-          "english": "inventor",
-          "chinese": "发明家",
-          "speaker": "Bobby",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "inventor",
-              "phonetic": "/ɪnˈventə(r)/",
-              "partOfSpeech": "n.",
-              "meaning": "发明家"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "inventor"
-            }
-          ]
-        },
-        {
           "id": "7-4",
           "sequenceNumber": 7,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "A famous scientist",
           "chinese": "一位著名的科学家",
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -967,6 +941,32 @@
           ]
         },
         {
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
+          "english": "inventor",
+          "chinese": "发明家",
+          "speaker": "Bobby",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "inventor",
+              "phonetic": "/ɪnˈventə(r)/",
+              "partOfSpeech": "n.",
+              "meaning": "发明家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "inventor"
+            }
+          ]
+        },
+        {
           "id": "7-5",
           "sequenceNumber": 7,
           "segmentNumber": 5,
@@ -975,7 +975,7 @@
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1061,7 +1061,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1079,41 +1079,15 @@
           ]
         },
         {
-          "id": "7-8",
-          "sequenceNumber": 7,
-          "segmentNumber": 8,
-          "english": "great",
-          "chinese": "伟大的",
-          "speaker": "Bobby",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "great",
-              "phonetic": "/ɡreɪt/",
-              "partOfSpeech": "adj.",
-              "meaning": "伟大的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "great"
-            }
-          ]
-        },
-        {
           "id": "7-9",
           "sequenceNumber": 7,
-          "segmentNumber": 9,
+          "segmentNumber": 8,
           "english": "They work hard",
           "chinese": "他们努力工作",
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1143,6 +1117,32 @@
           ]
         },
         {
+          "id": "7-8",
+          "sequenceNumber": 7,
+          "segmentNumber": 9,
+          "english": "great",
+          "chinese": "伟大的",
+          "speaker": "Bobby",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "great"
+            }
+          ]
+        },
+        {
           "id": "7-10",
           "sequenceNumber": 7,
           "segmentNumber": 10,
@@ -1151,7 +1151,7 @@
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1293,7 +1293,7 @@
           "speaker": "Mrs Sheep",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1311,67 +1311,15 @@
           ]
         },
         {
-          "id": "8-3",
-          "sequenceNumber": 8,
-          "segmentNumber": 3,
-          "english": "park",
-          "chinese": "公园",
-          "speaker": "Mrs Sheep",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "park",
-              "phonetic": "/pɑːk/",
-              "partOfSpeech": "n.",
-              "meaning": "公园"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "park"
-            }
-          ]
-        },
-        {
-          "id": "8-4",
-          "sequenceNumber": 8,
-          "segmentNumber": 4,
-          "english": "yesterday",
-          "chinese": "昨天",
-          "speaker": "Mrs Sheep",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "yesterday",
-              "phonetic": "/ˈjestədeɪ/",
-              "partOfSpeech": "adv.",
-              "meaning": "昨天"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "yesterday"
-            }
-          ]
-        },
-        {
           "id": "8-5",
           "sequenceNumber": 8,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "english": "Thanks for taking my baby",
           "chinese": "谢谢你带我的宝宝",
           "speaker": "Mrs Sheep",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1413,6 +1361,58 @@
           ]
         },
         {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
+          "english": "park",
+          "chinese": "公园",
+          "speaker": "Mrs Sheep",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "park",
+              "phonetic": "/pɑːk/",
+              "partOfSpeech": "n.",
+              "meaning": "公园"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "park"
+            }
+          ]
+        },
+        {
+          "id": "8-4",
+          "sequenceNumber": 8,
+          "segmentNumber": 5,
+          "english": "yesterday",
+          "chinese": "昨天",
+          "speaker": "Mrs Sheep",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "yesterday",
+              "phonetic": "/ˈjestədeɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "昨天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "yesterday"
+            }
+          ]
+        },
+        {
           "id": "8-6",
           "sequenceNumber": 8,
           "segmentNumber": 6,
@@ -1421,7 +1421,7 @@
           "speaker": "Mrs Sheep",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1543,7 +1543,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1561,41 +1561,15 @@
           ]
         },
         {
-          "id": "9-2",
-          "sequenceNumber": 9,
-          "segmentNumber": 2,
-          "english": "help",
-          "chinese": "帮助",
-          "speaker": "Mum",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "help",
-              "phonetic": "/help/",
-              "partOfSpeech": "v.",
-              "meaning": "帮助"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "help"
-            }
-          ]
-        },
-        {
           "id": "9-3",
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "I'm happy",
           "chinese": "我很乐意",
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1619,6 +1593,32 @@
           ]
         },
         {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
+          "english": "help",
+          "chinese": "帮助",
+          "speaker": "Mum",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "help"
+            }
+          ]
+        },
+        {
           "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 4,
@@ -1627,7 +1627,7 @@
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1739,7 +1739,7 @@
           "speaker": "Mrs Pig",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1757,41 +1757,15 @@
           ]
         },
         {
-          "id": "10-3",
-          "sequenceNumber": 10,
-          "segmentNumber": 3,
-          "english": "week",
-          "chinese": "周；星期",
-          "speaker": "Mrs Pig",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "week",
-              "phonetic": "/wiːk/",
-              "partOfSpeech": "n.",
-              "meaning": "周，星期"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "week"
-            }
-          ]
-        },
-        {
           "id": "10-4",
           "sequenceNumber": 10,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "Thanks for doing the shopping",
           "chinese": "谢谢你帮忙买东西",
           "speaker": "Mrs Pig",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1835,7 +1809,7 @@
         {
           "id": "10-5",
           "sequenceNumber": 10,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "for me",
           "chinese": "为我",
           "speaker": "Mrs Pig",
@@ -1865,6 +1839,32 @@
           ]
         },
         {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 5,
+          "english": "week",
+          "chinese": "周；星期",
+          "speaker": "Mrs Pig",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "week",
+              "phonetic": "/wiːk/",
+              "partOfSpeech": "n.",
+              "meaning": "周，星期"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "week"
+            }
+          ]
+        },
+        {
           "id": "10-6",
           "sequenceNumber": 10,
           "segmentNumber": 6,
@@ -1873,7 +1873,7 @@
           "speaker": "Mrs Pig",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -1981,7 +1981,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1999,41 +1999,15 @@
           ]
         },
         {
-          "id": "11-2",
-          "sequenceNumber": 11,
-          "segmentNumber": 2,
-          "english": "help",
-          "chinese": "帮助",
-          "speaker": "Mum",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "help",
-              "phonetic": "/help/",
-              "partOfSpeech": "v.",
-              "meaning": "帮助"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "help"
-            }
-          ]
-        },
-        {
           "id": "11-3",
           "sequenceNumber": 11,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "I'm happy",
           "chinese": "我很乐意",
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -2057,6 +2031,32 @@
           ]
         },
         {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
+          "english": "help",
+          "chinese": "帮助",
+          "speaker": "Mum",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "help"
+            }
+          ]
+        },
+        {
           "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 4,
@@ -2065,7 +2065,7 @@
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -2227,7 +2227,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -2245,41 +2245,15 @@
           ]
         },
         {
-          "id": "13-2",
-          "sequenceNumber": 13,
-          "segmentNumber": 2,
-          "english": "homework",
-          "chinese": "家庭作业",
-          "speaker": "Bobby",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "homework",
-              "phonetic": "/ˈhəʊmwɜːk/",
-              "partOfSpeech": "n.",
-              "meaning": "家庭作业"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "homework"
-            }
-          ]
-        },
-        {
           "id": "13-3",
           "sequenceNumber": 13,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "Because I have a good idea",
           "chinese": "因为我有一个好主意",
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -2327,6 +2301,32 @@
           ]
         },
         {
+          "id": "13-2",
+          "sequenceNumber": 13,
+          "segmentNumber": 3,
+          "english": "homework",
+          "chinese": "家庭作业",
+          "speaker": "Bobby",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "homework",
+              "phonetic": "/ˈhəʊmwɜːk/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭作业"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "homework"
+            }
+          ]
+        },
+        {
           "id": "13-4",
           "sequenceNumber": 13,
           "segmentNumber": 4,
@@ -2335,7 +2335,7 @@
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -2577,61 +2577,9 @@
           ]
         },
         {
-          "id": "14-5",
-          "sequenceNumber": 14,
-          "segmentNumber": 5,
-          "english": "everyone",
-          "chinese": "每个人",
-          "speaker": "Bobby",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "everyone",
-              "phonetic": "/ˈevriwʌn/",
-              "partOfSpeech": "pron.",
-              "meaning": "每个人"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "everyone"
-            }
-          ]
-        },
-        {
-          "id": "14-6",
-          "sequenceNumber": 14,
-          "segmentNumber": 6,
-          "english": "great",
-          "chinese": "了不起的",
-          "speaker": "Bobby",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "great",
-              "phonetic": "/ɡreɪt/",
-              "partOfSpeech": "adj.",
-              "meaning": "伟大的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "great"
-            }
-          ]
-        },
-        {
           "id": "14-7",
           "sequenceNumber": 14,
-          "segmentNumber": 7,
+          "segmentNumber": 5,
           "english": "Now I know",
           "chinese": "现在我知道",
           "speaker": "Bobby",
@@ -2667,6 +2615,58 @@
           ]
         },
         {
+          "id": "14-5",
+          "sequenceNumber": 14,
+          "segmentNumber": 6,
+          "english": "everyone",
+          "chinese": "每个人",
+          "speaker": "Bobby",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "everyone",
+              "phonetic": "/ˈevriwʌn/",
+              "partOfSpeech": "pron.",
+              "meaning": "每个人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "everyone"
+            }
+          ]
+        },
+        {
+          "id": "14-6",
+          "sequenceNumber": 14,
+          "segmentNumber": 7,
+          "english": "great",
+          "chinese": "了不起的",
+          "speaker": "Bobby",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "伟大的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "great"
+            }
+          ]
+        },
+        {
           "id": "14-8",
           "sequenceNumber": 14,
           "segmentNumber": 8,
@@ -2675,7 +2675,7 @@
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -2854,7 +2854,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -2872,41 +2872,15 @@
           ]
         },
         {
-          "id": "16-2",
-          "sequenceNumber": 16,
-          "segmentNumber": 2,
-          "english": "stars",
-          "chinese": "星星",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "stars",
-              "phonetic": "/stɑːz/",
-              "partOfSpeech": "n.",
-              "meaning": "星星（复数）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "stars"
-            }
-          ]
-        },
-        {
           "id": "16-3",
           "sequenceNumber": 16,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "Great people",
           "chinese": "伟大的人物",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -2930,6 +2904,32 @@
           ]
         },
         {
+          "id": "16-2",
+          "sequenceNumber": 16,
+          "segmentNumber": 3,
+          "english": "stars",
+          "chinese": "星星",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "stars",
+              "phonetic": "/stɑːz/",
+              "partOfSpeech": "n.",
+              "meaning": "星星（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "stars"
+            }
+          ]
+        },
+        {
           "id": "16-4",
           "sequenceNumber": 16,
           "segmentNumber": 4,
@@ -2938,7 +2938,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -3030,7 +3030,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3048,41 +3048,15 @@
           ]
         },
         {
-          "id": "17-2",
-          "sequenceNumber": 17,
-          "segmentNumber": 2,
-          "english": "light",
-          "chinese": "光",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "light",
-              "phonetic": "/laɪt/",
-              "partOfSpeech": "n.",
-              "meaning": "光；光亮"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "light"
-            }
-          ]
-        },
-        {
           "id": "17-3",
           "sequenceNumber": 17,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "In the dark,",
           "chinese": "在黑暗中，",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -3112,6 +3086,32 @@
           ]
         },
         {
+          "id": "17-2",
+          "sequenceNumber": 17,
+          "segmentNumber": 3,
+          "english": "light",
+          "chinese": "光",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "light",
+              "phonetic": "/laɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "光；光亮"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "light"
+            }
+          ]
+        },
+        {
           "id": "17-4",
           "sequenceNumber": 17,
           "segmentNumber": 4,
@@ -3120,7 +3120,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -3218,7 +3218,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3236,41 +3236,15 @@
           ]
         },
         {
-          "id": "18-2",
-          "sequenceNumber": 18,
-          "segmentNumber": 2,
-          "english": "hard",
-          "chinese": "辛勤的",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "hard",
-              "phonetic": "/hɑːd/",
-              "partOfSpeech": "adj.",
-              "meaning": "辛勤的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "hard"
-            }
-          ]
-        },
-        {
           "id": "18-3",
           "sequenceNumber": 18,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "With dreams",
           "chinese": "怀着梦想",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -3294,6 +3268,32 @@
           ]
         },
         {
+          "id": "18-2",
+          "sequenceNumber": 18,
+          "segmentNumber": 3,
+          "english": "hard",
+          "chinese": "辛勤的",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adj.",
+              "meaning": "辛勤的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "hard"
+            }
+          ]
+        },
+        {
           "id": "18-4",
           "sequenceNumber": 18,
           "segmentNumber": 4,
@@ -3302,7 +3302,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -3571,7 +3571,7 @@
           "speaker": "Yuan Longping",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3597,7 +3597,7 @@
           "speaker": "Yuan Longping",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3615,41 +3615,15 @@
           ]
         },
         {
-          "id": "21-3",
-          "sequenceNumber": 21,
-          "segmentNumber": 3,
-          "english": "plants",
-          "chinese": "植物",
-          "speaker": "Yuan Longping",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "plants",
-              "phonetic": "/plɑːnts/",
-              "partOfSpeech": "n.",
-              "meaning": "植物（复数）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "plants"
-            }
-          ]
-        },
-        {
           "id": "21-4",
           "sequenceNumber": 21,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "I want to enjoy the cool",
           "chinese": "我想乘凉",
           "speaker": "Yuan Longping",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -3697,6 +3671,32 @@
           ]
         },
         {
+          "id": "21-3",
+          "sequenceNumber": 21,
+          "segmentNumber": 4,
+          "english": "plants",
+          "chinese": "植物",
+          "speaker": "Yuan Longping",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "plants",
+              "phonetic": "/plɑːnts/",
+              "partOfSpeech": "n.",
+              "meaning": "植物（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "plants"
+            }
+          ]
+        },
+        {
           "id": "21-5",
           "sequenceNumber": 21,
           "segmentNumber": 5,
@@ -3705,7 +3705,7 @@
           "speaker": "Yuan Longping",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -3833,7 +3833,7 @@
           "speaker": "Yuan Longping",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3859,7 +3859,7 @@
           "speaker": "Yuan Longping",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3877,41 +3877,15 @@
           ]
         },
         {
-          "id": "22-3",
-          "sequenceNumber": 22,
-          "segmentNumber": 3,
-          "english": "world",
-          "chinese": "世界",
-          "speaker": "Yuan Longping",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "world",
-              "phonetic": "/wɜːld/",
-              "partOfSpeech": "n.",
-              "meaning": "世界"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "world"
-            }
-          ]
-        },
-        {
           "id": "22-4",
           "sequenceNumber": 22,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "I also want to see hybrid rice grow",
           "chinese": "我还想看到杂交水稻生长",
           "speaker": "Yuan Longping",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -3971,6 +3945,32 @@
           ]
         },
         {
+          "id": "22-3",
+          "sequenceNumber": 22,
+          "segmentNumber": 4,
+          "english": "world",
+          "chinese": "世界",
+          "speaker": "Yuan Longping",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "world",
+              "phonetic": "/wɜːld/",
+              "partOfSpeech": "n.",
+              "meaning": "世界"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "world"
+            }
+          ]
+        },
+        {
           "id": "22-5",
           "sequenceNumber": 22,
           "segmentNumber": 5,
@@ -3979,7 +3979,7 @@
           "speaker": "Yuan Longping",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -4201,85 +4201,9 @@
           ]
         },
         {
-          "id": "24-3",
-          "sequenceNumber": 24,
-          "segmentNumber": 3,
-          "english": "Yuan Longping",
-          "chinese": "袁隆平",
-          "speaker": "narrator",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
-          "words": [
-            {
-              "text": "Yuan Longping",
-              "phonetic": "/jwen lɒŋˈpɪŋ/",
-              "partOfSpeech": "n.",
-              "meaning": "袁隆平（人名）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "人物",
-              "text": "Yuan Longping"
-            }
-          ]
-        },
-        {
-          "id": "24-4",
-          "sequenceNumber": 24,
-          "segmentNumber": 4,
-          "english": "was a Chinese rice scientist.",
-          "chinese": "是一位中国水稻科学家。",
-          "speaker": "narrator",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
-          "words": [
-            {
-              "text": "was",
-              "phonetic": "/wɒz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（am/is的过去式）"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "art.",
-              "meaning": "一（个）"
-            },
-            {
-              "text": "Chinese",
-              "phonetic": "/ˌtʃaɪˈniːz/",
-              "partOfSpeech": "adj.",
-              "meaning": "中国的"
-            },
-            {
-              "text": "rice",
-              "phonetic": "/raɪs/",
-              "partOfSpeech": "n.",
-              "meaning": "稻；米"
-            },
-            {
-              "text": "scientist",
-              "phonetic": "/ˈsaɪəntɪst/",
-              "partOfSpeech": "n.",
-              "meaning": "科学家"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "身份",
-              "text": "was a Chinese rice scientist."
-            }
-          ]
-        },
-        {
           "id": "24-5",
           "sequenceNumber": 24,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "english": "Yuan Longping was a Chinese rice scientist.",
           "chinese": "袁隆平是一位中国水稻科学家。",
           "speaker": "narrator",
@@ -4327,12 +4251,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "人物",
-              "text": "Yuan Longping"
-            },
-            {
-              "label": "身份",
-              "text": "was a Chinese rice scientist."
+              "label": "完整表达",
+              "text": "Yuan Longping was a Chinese rice scientist."
             }
           ]
         },
@@ -4345,7 +4265,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -4371,7 +4291,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -4703,7 +4623,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -4721,41 +4641,15 @@
           ]
         },
         {
-          "id": "27-2",
-          "sequenceNumber": 27,
-          "segmentNumber": 2,
-          "english": "rice",
-          "chinese": "水稻",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "rice",
-              "phonetic": "/raɪs/",
-              "partOfSpeech": "n.",
-              "meaning": "稻；米"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "rice"
-            }
-          ]
-        },
-        {
           "id": "27-3",
           "sequenceNumber": 27,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "He did a lot of studies",
           "chinese": "他进行了大量研究",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -4803,6 +4697,32 @@
           ]
         },
         {
+          "id": "27-2",
+          "sequenceNumber": 27,
+          "segmentNumber": 3,
+          "english": "rice",
+          "chinese": "水稻",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "rice",
+              "phonetic": "/raɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "稻；米"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "rice"
+            }
+          ]
+        },
+        {
           "id": "27-4",
           "sequenceNumber": 27,
           "segmentNumber": 4,
@@ -4811,7 +4731,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -4907,61 +4827,9 @@
           ]
         },
         {
-          "id": "28-1",
-          "sequenceNumber": 28,
-          "segmentNumber": 1,
-          "english": "father",
-          "chinese": "之父",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "father",
-              "phonetic": "/ˈfɑːðə/",
-              "partOfSpeech": "n.",
-              "meaning": "父亲；在此指奠基人"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "father"
-            }
-          ]
-        },
-        {
-          "id": "28-2",
-          "sequenceNumber": 28,
-          "segmentNumber": 2,
-          "english": "hybrid",
-          "chinese": "杂交的",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "hybrid",
-              "phonetic": "/ˈhaɪbrɪd/",
-              "partOfSpeech": "adj.",
-              "meaning": "杂交的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "hybrid"
-            }
-          ]
-        },
-        {
           "id": "28-3",
           "sequenceNumber": 28,
-          "segmentNumber": 3,
+          "segmentNumber": 1,
           "english": "People call him",
           "chinese": "人们称他为",
           "speaker": "narrator",
@@ -4997,6 +4865,58 @@
           ]
         },
         {
+          "id": "28-1",
+          "sequenceNumber": 28,
+          "segmentNumber": 2,
+          "english": "father",
+          "chinese": "之父",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "father",
+              "phonetic": "/ˈfɑːðə/",
+              "partOfSpeech": "n.",
+              "meaning": "父亲；在此指奠基人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "father"
+            }
+          ]
+        },
+        {
+          "id": "28-2",
+          "sequenceNumber": 28,
+          "segmentNumber": 3,
+          "english": "hybrid",
+          "chinese": "杂交的",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "hybrid"
+            }
+          ]
+        },
+        {
           "id": "28-4",
           "sequenceNumber": 28,
           "segmentNumber": 4,
@@ -5005,7 +4925,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -5209,7 +5129,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -5227,41 +5147,15 @@
           ]
         },
         {
-          "id": "30-2",
-          "sequenceNumber": 30,
-          "segmentNumber": 2,
-          "english": "early",
-          "chinese": "早年的",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "early",
-              "phonetic": "/ˈɜːli/",
-              "partOfSpeech": "adj./adv.",
-              "meaning": "早期的；早地"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "early"
-            }
-          ]
-        },
-        {
           "id": "30-3",
           "sequenceNumber": 30,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "Yuan liked farming",
           "chinese": "袁隆平喜欢种田",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -5291,6 +5185,32 @@
           ]
         },
         {
+          "id": "30-2",
+          "sequenceNumber": 30,
+          "segmentNumber": 3,
+          "english": "early",
+          "chinese": "早年的",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "early",
+              "phonetic": "/ˈɜːli/",
+              "partOfSpeech": "adj./adv.",
+              "meaning": "早期的；早地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "early"
+            }
+          ]
+        },
+        {
           "id": "30-4",
           "sequenceNumber": 30,
           "segmentNumber": 4,
@@ -5299,7 +5219,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -5401,35 +5321,9 @@
           ]
         },
         {
-          "id": "31-1",
-          "sequenceNumber": 31,
-          "segmentNumber": 1,
-          "english": "farming",
-          "chinese": "农业",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "farming",
-              "phonetic": "/ˈfɑːmɪŋ/",
-              "partOfSpeech": "n.",
-              "meaning": "农业；耕作"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "farming"
-            }
-          ]
-        },
-        {
           "id": "31-2",
           "sequenceNumber": 31,
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "english": "When he grew up,",
           "chinese": "长大后，",
           "speaker": "narrator",
@@ -5471,6 +5365,32 @@
           ]
         },
         {
+          "id": "31-1",
+          "sequenceNumber": 31,
+          "segmentNumber": 2,
+          "english": "farming",
+          "chinese": "农业",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "farming",
+              "phonetic": "/ˈfɑːmɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "农业；耕作"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "farming"
+            }
+          ]
+        },
+        {
           "id": "31-3",
           "sequenceNumber": 31,
           "segmentNumber": 3,
@@ -5479,7 +5399,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -5569,61 +5489,9 @@
           ]
         },
         {
-          "id": "32-1",
-          "sequenceNumber": 32,
-          "segmentNumber": 1,
-          "english": "began",
-          "chinese": "开始",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "began",
-              "phonetic": "/bɪˈɡæn/",
-              "partOfSpeech": "v.",
-              "meaning": "开始（begin的过去式）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "began"
-            }
-          ]
-        },
-        {
-          "id": "32-2",
-          "sequenceNumber": 32,
-          "segmentNumber": 2,
-          "english": "hybrid",
-          "chinese": "杂交的",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "hybrid",
-              "phonetic": "/ˈhaɪbrɪd/",
-              "partOfSpeech": "adj.",
-              "meaning": "杂交的"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "hybrid"
-            }
-          ]
-        },
-        {
           "id": "32-3",
           "sequenceNumber": 32,
-          "segmentNumber": 3,
+          "segmentNumber": 1,
           "english": "In 1964,",
           "chinese": "1964年，",
           "speaker": "narrator",
@@ -5653,6 +5521,58 @@
           ]
         },
         {
+          "id": "32-1",
+          "sequenceNumber": 32,
+          "segmentNumber": 2,
+          "english": "began",
+          "chinese": "开始",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "began",
+              "phonetic": "/bɪˈɡæn/",
+              "partOfSpeech": "v.",
+              "meaning": "开始（begin的过去式）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "began"
+            }
+          ]
+        },
+        {
+          "id": "32-2",
+          "sequenceNumber": 32,
+          "segmentNumber": 3,
+          "english": "hybrid",
+          "chinese": "杂交的",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "hybrid",
+              "phonetic": "/ˈhaɪbrɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "杂交的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "hybrid"
+            }
+          ]
+        },
+        {
           "id": "32-4",
           "sequenceNumber": 32,
           "segmentNumber": 4,
@@ -5661,7 +5581,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -5801,7 +5721,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -5819,41 +5739,15 @@
           ]
         },
         {
-          "id": "33-2",
-          "sequenceNumber": 33,
-          "segmentNumber": 2,
-          "english": "never",
-          "chinese": "从不；从未",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "never",
-              "phonetic": "/ˈnevə/",
-              "partOfSpeech": "adv.",
-              "meaning": "从不"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "never"
-            }
-          ]
-        },
-        {
           "id": "33-3",
           "sequenceNumber": 33,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "It was very difficult,",
           "chinese": "这非常困难，",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -5889,6 +5783,32 @@
           ]
         },
         {
+          "id": "33-2",
+          "sequenceNumber": 33,
+          "segmentNumber": 3,
+          "english": "never",
+          "chinese": "从不；从未",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "never",
+              "phonetic": "/ˈnevə/",
+              "partOfSpeech": "adv.",
+              "meaning": "从不"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "never"
+            }
+          ]
+        },
+        {
           "id": "33-4",
           "sequenceNumber": 33,
           "segmentNumber": 4,
@@ -5897,7 +5817,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -6025,7 +5945,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -6043,41 +5963,15 @@
           ]
         },
         {
-          "id": "34-2",
-          "sequenceNumber": 34,
-          "segmentNumber": 2,
-          "english": "fields",
-          "chinese": "田地",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "fields",
-              "phonetic": "/fiːldz/",
-              "partOfSpeech": "n.",
-              "meaning": "田地（复数）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "fields"
-            }
-          ]
-        },
-        {
           "id": "34-3",
           "sequenceNumber": 34,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "He worked hard",
           "chinese": "他努力工作",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -6107,6 +6001,32 @@
           ]
         },
         {
+          "id": "34-2",
+          "sequenceNumber": 34,
+          "segmentNumber": 3,
+          "english": "fields",
+          "chinese": "田地",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "fields",
+              "phonetic": "/fiːldz/",
+              "partOfSpeech": "n.",
+              "meaning": "田地（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "fields"
+            }
+          ]
+        },
+        {
           "id": "34-4",
           "sequenceNumber": 34,
           "segmentNumber": 4,
@@ -6115,7 +6035,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -6249,7 +6169,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -6275,7 +6195,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -6301,7 +6221,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -6437,7 +6357,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -6463,7 +6383,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -6481,41 +6401,15 @@
           ]
         },
         {
-          "id": "36-3",
-          "sequenceNumber": 36,
-          "segmentNumber": 3,
-          "english": "countries",
-          "chinese": "国家",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "countries",
-              "phonetic": "/ˈkʌntriz/",
-              "partOfSpeech": "n.",
-              "meaning": "国家（复数）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "countries"
-            }
-          ]
-        },
-        {
           "id": "36-4",
           "sequenceNumber": 36,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "Now hybrid rice grows",
           "chinese": "如今杂交水稻生长",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -6551,6 +6445,32 @@
           ]
         },
         {
+          "id": "36-3",
+          "sequenceNumber": 36,
+          "segmentNumber": 4,
+          "english": "countries",
+          "chinese": "国家",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "countries",
+              "phonetic": "/ˈkʌntriz/",
+              "partOfSpeech": "n.",
+              "meaning": "国家（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "countries"
+            }
+          ]
+        },
+        {
           "id": "36-5",
           "sequenceNumber": 36,
           "segmentNumber": 5,
@@ -6559,7 +6479,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -6699,7 +6619,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -6717,41 +6637,15 @@
           ]
         },
         {
-          "id": "37-2",
-          "sequenceNumber": 37,
-          "segmentNumber": 2,
-          "english": "world",
-          "chinese": "世界",
-          "speaker": "narrator",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
-          "words": [
-            {
-              "text": "world",
-              "phonetic": "/wɜːld/",
-              "partOfSpeech": "n.",
-              "meaning": "世界"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "world"
-            }
-          ]
-        },
-        {
           "id": "37-3",
           "sequenceNumber": 37,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "It feeds people",
           "chinese": "它养活人们",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {
@@ -6781,6 +6675,32 @@
           ]
         },
         {
+          "id": "37-2",
+          "sequenceNumber": 37,
+          "segmentNumber": 3,
+          "english": "world",
+          "chinese": "世界",
+          "speaker": "narrator",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
+          "words": [
+            {
+              "text": "world",
+              "phonetic": "/wɜːld/",
+              "partOfSpeech": "n.",
+              "meaning": "世界"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "world"
+            }
+          ]
+        },
+        {
           "id": "37-4",
           "sequenceNumber": 37,
           "segmentNumber": 4,
@@ -6789,7 +6709,7 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这组词是原句中连续的一段；与后面的词组连起来组成完整句。",
           "words": [
             {

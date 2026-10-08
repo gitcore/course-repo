@@ -1,8 +1,8 @@
 {
   "manifestId": "new-yilin-grade5-semester1-unit7",
   "activityType": "sentence-practice",
-  "sourceHash": "834d10494141fa0b06881f27fd3c4b05ff0673a7bb1322b9e83c807da8bf77fe",
-  "generatorVersion": "original-aligned-primary-v1",
+  "sourceHash": "6f0e917000354c21b95e2a1e3782ed0e93b45307954619984a51bc1142bcc66b",
+  "generatorVersion": "original-aligned-primary-v2",
   "generatedAt": "2026-10-08",
   "sourceKind": "original-aligned-practice",
   "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -45,7 +45,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -71,7 +71,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -89,67 +89,15 @@
           ]
         },
         {
-          "id": "1-4",
-          "sequenceNumber": 1,
-          "segmentNumber": 4,
-          "english": "puppet",
-          "chinese": "木偶",
-          "speaker": "Ben",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "puppet",
-              "phonetic": "/ˈpʌpɪt/",
-              "partOfSpeech": "n.",
-              "meaning": "木偶"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "puppet"
-            }
-          ]
-        },
-        {
-          "id": "1-5",
-          "sequenceNumber": 1,
-          "segmentNumber": 5,
-          "english": "show",
-          "chinese": "演出",
-          "speaker": "Ben",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "show",
-              "phonetic": "/ʃəʊ/",
-              "partOfSpeech": "n.",
-              "meaning": "演出"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "show"
-            }
-          ]
-        },
-        {
           "id": "1-6",
           "sequenceNumber": 1,
-          "segmentNumber": 6,
+          "segmentNumber": 4,
           "english": "We need a shopping list",
           "chinese": "我们需要一张购物清单",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -191,6 +139,58 @@
           ]
         },
         {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
+          "english": "puppet",
+          "chinese": "木偶",
+          "speaker": "Ben",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "puppet",
+              "phonetic": "/ˈpʌpɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "木偶"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "puppet"
+            }
+          ]
+        },
+        {
+          "id": "1-5",
+          "sequenceNumber": 1,
+          "segmentNumber": 6,
+          "english": "show",
+          "chinese": "演出",
+          "speaker": "Ben",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "演出"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "show"
+            }
+          ]
+        },
+        {
           "id": "1-7",
           "sequenceNumber": 1,
           "segmentNumber": 7,
@@ -199,7 +199,7 @@
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -321,7 +321,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -347,7 +347,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -365,67 +365,15 @@
           ]
         },
         {
-          "id": "2-3",
-          "sequenceNumber": 2,
-          "segmentNumber": 3,
-          "english": "pairs",
-          "chinese": "双；pair的复数",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "pairs",
-              "phonetic": "/peəz/",
-              "partOfSpeech": "n.",
-              "meaning": "双；pair的复数"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "pairs"
-            }
-          ]
-        },
-        {
-          "id": "2-4",
-          "sequenceNumber": 2,
-          "segmentNumber": 4,
-          "english": "socks",
-          "chinese": "短袜；sock的复数",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "socks",
-              "phonetic": "/sɒks/",
-              "partOfSpeech": "n.",
-              "meaning": "短袜；sock的复数"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "socks"
-            }
-          ]
-        },
-        {
           "id": "2-5",
           "sequenceNumber": 2,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "english": "We need one sweater",
           "chinese": "我们需要一件毛衣",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -461,6 +409,58 @@
           ]
         },
         {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
+          "english": "pairs",
+          "chinese": "双；pair的复数",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "pairs",
+              "phonetic": "/peəz/",
+              "partOfSpeech": "n.",
+              "meaning": "双；pair的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "pairs"
+            }
+          ]
+        },
+        {
+          "id": "2-4",
+          "sequenceNumber": 2,
+          "segmentNumber": 5,
+          "english": "socks",
+          "chinese": "短袜；sock的复数",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "socks",
+              "phonetic": "/sɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "短袜；sock的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "socks"
+            }
+          ]
+        },
+        {
           "id": "2-6",
           "sequenceNumber": 2,
           "segmentNumber": 6,
@@ -469,7 +469,7 @@
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -1323,7 +1323,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1349,7 +1349,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1367,67 +1367,15 @@
           ]
         },
         {
-          "id": "11-3",
-          "sequenceNumber": 11,
-          "segmentNumber": 3,
-          "english": "cost",
-          "chinese": "价钱为；花费",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "cost",
-              "phonetic": "/kɒst/",
-              "partOfSpeech": "v.",
-              "meaning": "价钱为；花费"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "cost"
-            }
-          ]
-        },
-        {
-          "id": "11-4",
-          "sequenceNumber": 11,
-          "segmentNumber": 4,
-          "english": "yuan",
-          "chinese": "元，中国货币单位（教材星号拓展词）",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记本句的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "yuan",
-              "phonetic": "/juˈɑːn/",
-              "partOfSpeech": "n.",
-              "meaning": "元，中国货币单位（教材星号拓展词）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "必记单词",
-              "text": "yuan"
-            }
-          ]
-        },
-        {
           "id": "11-5",
           "sequenceNumber": 11,
-          "segmentNumber": 5,
+          "segmentNumber": 3,
           "english": "The sweater and socks",
           "chinese": "毛衣和短袜",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {
@@ -1463,6 +1411,58 @@
           ]
         },
         {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
+          "english": "cost",
+          "chinese": "价钱为；花费",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "cost",
+              "phonetic": "/kɒst/",
+              "partOfSpeech": "v.",
+              "meaning": "价钱为；花费"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "cost"
+            }
+          ]
+        },
+        {
+          "id": "11-4",
+          "sequenceNumber": 11,
+          "segmentNumber": 5,
+          "english": "yuan",
+          "chinese": "元，中国货币单位（教材星号拓展词）",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
+            {
+              "text": "yuan",
+              "phonetic": "/juˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "元，中国货币单位（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "必记单词",
+              "text": "yuan"
+            }
+          ]
+        },
+        {
           "id": "11-6",
           "sequenceNumber": 11,
           "segmentNumber": 6,
@@ -1471,7 +1471,7 @@
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
+          "hint": "把刚练的单词放回这一词组",
           "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
           "words": [
             {

@@ -152,6 +152,6 @@
 ## 生成配置
 
 - sourceKind：`original-aligned-practice`。
-- generatorVersion：`original-aligned-primary-v1`。
-- 练习顺序：必记单词 → 原句自然词组 → 完整句；短句不强拆。
+- generatorVersion：`original-aligned-primary-v2`。
+- 练习顺序：当前自然词组的必记单词 → 当前词组，逐组循环后练完整句；无必记词的词组直接练，短句不强拆，人名不单独出题。
 - 活动：拆句练习、对话练习、句型迁移；本包未提供音频、读本或词族活动。
