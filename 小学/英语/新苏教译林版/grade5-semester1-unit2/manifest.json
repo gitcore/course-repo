@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade5-semester1-unit2",
+  "name": "五年级上册 Unit 2 - I feel good",
+  "description": "在演出准备中表达感受并给予具体支持；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "e524c2a4fafa26b42f2d91b865c0f58d46143e802a066fd419be44ccc775c114",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "e524c2a4fafa26b42f2d91b865c0f58d46143e802a066fd419be44ccc775c114",
+      "content/sentence-practice.json": "4cd1e19cf8057bf0616149698c55893ec938bef7205ba3057e49d77081dc9e12",
+      "content/conversation-practice.json": "231131d8cdd6b6aeb72ccb35041c5172076c270e86e4b4e761115ca08740e7cc",
+      "content/growth-content.json": "5a87819c4a999bcc251218964f136fc7c255fe87436f221e154b0972b43c11ad"
+    },
+    "manifestHash": "3af4a59167437bdd6a1ef76c106d923097566bbbc44279c3488f4ebda96e0620"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "在演出准备中表达感受并给予具体支持"
+      },
+      "grade": 5,
+      "semester": 1,
+      "unit": 2,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "I feel good",
+        "在演出准备中表达感受并给予具体支持"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

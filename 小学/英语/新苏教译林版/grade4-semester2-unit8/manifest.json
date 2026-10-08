@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-unit8",
+  "name": "四年级下册 Unit 8 - In the kitchen",
+  "description": "在成人陪同的厨房场景里描述分工和菜肴准备；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "42daa9002d9ed62de0a1fffed0c563094a6d481a1385308ca1940ec0a3774139",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "42daa9002d9ed62de0a1fffed0c563094a6d481a1385308ca1940ec0a3774139",
+      "content/sentence-practice.json": "ee1e4f85ad006616d53f8a3a3ef573f0c0f4f1d36c0b2f52fa31dcb656775ef0",
+      "content/conversation-practice.json": "7e3842bd82ad0dd84bb693f83872c5c8811aae0e2ef0521c2e95a617ea932d14",
+      "content/growth-content.json": "29b9271ffc6acf589fbc191958ee570060807086ca6ac9e826da170da8a525ee"
+    },
+    "manifestHash": "01ec09915ba0fcaca55aa8a6eb642e2f05362c8b5c839817491a64fe65b6868e"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "在成人陪同的厨房场景里描述分工和菜肴准备"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": 8,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "In the kitchen",
+        "在成人陪同的厨房场景里描述分工和菜肴准备"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

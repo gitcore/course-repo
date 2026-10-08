@@ -1,0 +1,202 @@
+{
+  "manifestId": "new-yilin-grade5-semester1-unit3",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "5bfa535ccf77e21d76e32ea1d2ae5844826e99814523a18ee9c7702121755273",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "ask-third-person-hobby",
+      "displayName": "Does he/she like doing ...?：询问爱好",
+      "examples": [
+        "Does she like painting too?"
+      ],
+      "transferExamples": [
+        "Does he like painting?"
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Does she like后用动词-ing形式painting，like保持原形。",
+      "sourceExamples": [
+        {
+          "sentence": "Does she like painting too?",
+          "chinese": "她也喜欢用颜料画画吗？",
+          "sourceLine": "line-3",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "Does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "she",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "painting",
+              "phonetic": "/ˈpeɪntɪŋ/",
+              "partOfSpeech": "n.; v.-ing",
+              "meaning": "用颜料画；paint的-ing形式"
+            },
+            {
+              "text": "too",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "Does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "too",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "adv.",
+              "meaning": "也"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Does he like painting?",
+          "chinese": "他喜欢用颜料画画吗？",
+          "words": [
+            {
+              "text": "Does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "he",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "painting",
+              "phonetic": "/ˈpeɪntɪŋ/",
+              "partOfSpeech": "n.; v.-ing",
+              "meaning": "用颜料画；paint的-ing形式"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "Does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "describe-hobby",
+      "displayName": "He/She likes doing ...：介绍爱好",
+      "examples": [
+        "Lily likes drawing."
+      ],
+      "transferExamples": [
+        "Tom likes dancing."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Lily为第三人称单数，用likes；draw变为drawing。",
+      "sourceExamples": [
+        {
+          "sentence": "Lily likes drawing.",
+          "chinese": "Lily喜欢画画。",
+          "sourceLine": "line-2",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Tom likes dancing.",
+          "chinese": "Tom喜欢跳舞。",
+          "words": [
+            {
+              "text": "Tom",
+              "phonetic": "/tɒm/",
+              "partOfSpeech": "proper n.",
+              "meaning": "Tom（原创角色）"
+            },
+            {
+              "text": "likes",
+              "phonetic": "/laɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢；like的第三人称单数"
+            },
+            {
+              "text": "dancing",
+              "phonetic": "/ˈdɑːnsɪŋ/",
+              "partOfSpeech": "n.; v.-ing",
+              "meaning": "跳舞；dance的-ing形式"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "ask-third-person-hobby",
+      "targetPattern": "ask-third-person-hobby",
+      "prompt": "向同伴询问一个男孩是否喜欢用颜料画画。",
+      "answer": "Does he like painting?",
+      "chinese": "他喜欢用颜料画画吗？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "describe-hobby",
+      "targetPattern": "describe-hobby",
+      "prompt": "用Tom作主语，介绍他喜欢跳舞。",
+      "answer": "Tom likes dancing.",
+      "chinese": "Tom喜欢跳舞。",
+      "isSourceText": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester1-project2",
+  "name": "三年级上册 Project 2 - My family poster",
+  "description": "用家庭海报介绍家人并展示自己的关爱行动；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "b48d41d1ca75b2a244b8d5820b9d3a7d1d65c77e4d7769ef511507aa40737b6f",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "b48d41d1ca75b2a244b8d5820b9d3a7d1d65c77e4d7769ef511507aa40737b6f",
+      "content/sentence-practice.json": "ff655bf221b35f79df34e99c7193d1f66a3892fe296dbfe35a3d7fb0cdaaa96e",
+      "content/conversation-practice.json": "d074cdc84e12784342546621b986e6939e69ee762a54d4e770ab72d9c581017a",
+      "content/growth-content.json": "fa4f9b203641637b16cb7b01638182af3c60f449d6d33a0beb1ae66e1f6c3f04"
+    },
+    "manifestHash": "89295892d23435274b990c2693487e1db216d950a294c5c6fbc10ad4c92cf40e"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "用家庭海报介绍家人并展示自己的关爱行动"
+      },
+      "grade": 3,
+      "semester": 1,
+      "unit": null,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "My family poster",
+        "用家庭海报介绍家人并展示自己的关爱行动"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

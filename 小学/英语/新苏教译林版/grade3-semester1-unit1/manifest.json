@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester1-unit1",
+  "name": "三年级上册 Unit 1 - Hello!",
+  "description": "按时段礼貌问候、简短自我介绍与告别；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "06666034559803a11d6b56d89b3ba71261c2d45da7e8da70fb3cab06eabcddea",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "06666034559803a11d6b56d89b3ba71261c2d45da7e8da70fb3cab06eabcddea",
+      "content/sentence-practice.json": "0d56945d87bfbf3ce866ee467bac24a0c410255f6180549e69e98bf3d435a776",
+      "content/conversation-practice.json": "523ec5054ab59e860be6c4feda6b50985338a4b16ea509a3173840e14cb56222",
+      "content/growth-content.json": "7122546372c04f6a3252c52a262f42d04b5d6f15c41234f88e814eed668474ec"
+    },
+    "manifestHash": "77b2926a836a0cd317cb4cc28eda173e9ffdfc3e8d48e0a6a0b17675110c6168"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "按时段礼貌问候、简短自我介绍与告别"
+      },
+      "grade": 3,
+      "semester": 1,
+      "unit": 1,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Hello!",
+        "按时段礼貌问候、简短自我介绍与告别"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

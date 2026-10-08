@@ -1,0 +1,148 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-unit5",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "88a7f13a838dd666918d712d2e75f8014f3317032492c6613514de57ad768ec3",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "have-fruit",
+      "displayName": "I have ...：说明水果数量",
+      "examples": [
+        "I have two bananas."
+      ],
+      "transferExamples": [
+        "I have three apples."
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "two后面的可数名词用复数bananas。",
+      "sourceExamples": [
+        {
+          "sentence": "I have two bananas.",
+          "chinese": "我有两根香蕉。",
+          "sourceLine": "line-3",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I have three apples.",
+          "chinese": "我有三个苹果。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有（配套表达）"
+            },
+            {
+              "text": "three",
+              "phonetic": "/θriː/",
+              "partOfSpeech": "num.",
+              "meaning": "三（上册知识复习）"
+            },
+            {
+              "text": "apples",
+              "phonetic": "/ˈæpəlz/",
+              "partOfSpeech": "n.",
+              "meaning": "苹果；apple的复数"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "ask-fruit",
+      "displayName": "Do you have ...?：询问水果",
+      "examples": [
+        "Do you have an orange?"
+      ],
+      "transferExamples": [
+        "Do you have a mango?"
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Do you have用于询问是否拥有；orange前用an。",
+      "sourceExamples": [
+        {
+          "sentence": "Do you have an orange?",
+          "chinese": "你有一个橙子吗？",
+          "sourceLine": "line-4",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Do you have a mango?",
+          "chinese": "你有一个芒果吗？",
+          "words": [
+            {
+              "text": "Do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有（配套表达）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "mango",
+              "phonetic": "/ˈmæŋɡəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "芒果"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "have-fruit",
+      "targetPattern": "have-fruit",
+      "prompt": "你有三个苹果，用I have介绍数量。",
+      "answer": "I have three apples.",
+      "chinese": "我有三个苹果。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "ask-fruit",
+      "targetPattern": "ask-fruit",
+      "prompt": "向同伴询问是否有一个芒果。",
+      "answer": "Do you have a mango?",
+      "chinese": "你有一个芒果吗？",
+      "isSourceText": false
+    }
+  ]
+}

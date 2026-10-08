@@ -1,0 +1,204 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-unit2",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "e1144e3af148938cfdb4e1f8e405876ceea840573a84f58f8de2d0b9ea86c5a2",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "cleaning-ability",
+      "displayName": "I can ...：说清自己的清洁任务",
+      "examples": [
+        "I can clean the desk."
+      ],
+      "transferExamples": [
+        "I can clean the blackboard."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I can加动作和对象，表达可承担的清洁工作。",
+      "sourceExamples": [
+        {
+          "sentence": "I can clean the desk.",
+          "chinese": "我能把课桌擦干净。",
+          "sourceLine": "line-7",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；可以"
+            },
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "desk",
+              "phonetic": "/desk/",
+              "partOfSpeech": "n.",
+              "meaning": "课桌；书桌"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I can clean the blackboard.",
+          "chinese": "我能擦黑板。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；可以"
+            },
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "blackboard",
+              "phonetic": "/ˈblækbɔːd/",
+              "partOfSpeech": "n.",
+              "meaning": "黑板"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "joint-cleaning",
+      "displayName": "Let's ...：共同清洁建议",
+      "examples": [
+        "Let's sweep the floor."
+      ],
+      "transferExamples": [
+        "Let's clean the chairs."
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Let’s后接动词原形sweep，提出共同完成的任务。",
+      "sourceExamples": [
+        {
+          "sentence": "Let's sweep the floor.",
+          "chinese": "我们一起扫地吧。",
+          "sourceLine": "line-6",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Let's clean the chairs.",
+          "chinese": "我们一起擦椅子吧。",
+          "words": [
+            {
+              "text": "Let's",
+              "phonetic": "/lets/",
+              "partOfSpeech": "contraction",
+              "meaning": "let us的缩写；让我们"
+            },
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "chairs",
+              "phonetic": "/tʃeəz/",
+              "partOfSpeech": "n.",
+              "meaning": "椅子；chair的复数"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "cleaning-ability",
+      "targetPattern": "cleaning-ability",
+      "prompt": "你选择擦黑板，用I can说出自己的任务。",
+      "answer": "I can clean the blackboard.",
+      "chinese": "我能擦黑板。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "joint-cleaning",
+      "targetPattern": "joint-cleaning",
+      "prompt": "建议同伴一起擦椅子，用Let’s开头。",
+      "answer": "Let's clean the chairs.",
+      "chinese": "我们一起擦椅子吧。",
+      "isSourceText": false
+    }
+  ]
+}

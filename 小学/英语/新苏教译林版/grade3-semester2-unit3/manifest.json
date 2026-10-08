@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-unit3",
+  "name": "三年级下册 Unit 3 - School rules",
+  "description": "理解校规并用礼貌的祈使句表达规则；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "6069a82e052f0dab6d3118a4e0fdc9d4a25b56746d663f243f7219e3258dd3ee",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "6069a82e052f0dab6d3118a4e0fdc9d4a25b56746d663f243f7219e3258dd3ee",
+      "content/sentence-practice.json": "9514475dbdebfbbb9ee3b63265e48f3c43d9ce313b1b348e18a547de67f32698",
+      "content/conversation-practice.json": "c7ba9c99f8a7636513a1a8c6407b00749e20e2a48e7172f6016b6f1c49a94ffa",
+      "content/growth-content.json": "f1ca0c46ff643e150dc2bbe67ebd874b850880002c4d49a8d2dc4a46e79dba7a"
+    },
+    "manifestHash": "2f7920c1c6c703a22e5caee6e972dd2922b33674d8c232382644337fc971395f"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "理解校规并用礼貌的祈使句表达规则"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": 3,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "School rules",
+        "理解校规并用礼貌的祈使句表达规则"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

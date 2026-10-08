@@ -1,0 +1,148 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-unit8",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "3b87c9a88c78654df4eac57c924cd333300adc35b8e70c0e053700c34ef6b74e",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "ask-colour",
+      "displayName": "What colour is ...?：询问颜色",
+      "examples": [
+        "What colour is the flower?"
+      ],
+      "transferExamples": [
+        "What colour is the schoolbag?"
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "What colour is加单个物品，询问颜色。",
+      "sourceExamples": [
+        {
+          "sentence": "What colour is the flower?",
+          "chinese": "这朵花是什么颜色的？",
+          "sourceLine": "line-2",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "What colour is the schoolbag?",
+          "chinese": "书包是什么颜色的？",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "det.",
+              "meaning": "什么"
+            },
+            {
+              "text": "colour",
+              "phonetic": "/ˈkʌlə/",
+              "partOfSpeech": "n.",
+              "meaning": "颜色；色彩（美式拼写color）"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（用于单数）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "schoolbag",
+              "phonetic": "/ˈskuːlbæɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "书包"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "describe-colour",
+      "displayName": "The ... is ...：描述颜色",
+      "examples": [
+        "The duck is yellow."
+      ],
+      "transferExamples": [
+        "The pencil is red."
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "The duck为单数主语；is后接颜色形容词。",
+      "sourceExamples": [
+        {
+          "sentence": "The duck is yellow.",
+          "chinese": "这只鸭子是黄色的。",
+          "sourceLine": "line-6",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "The pencil is red.",
+          "chinese": "这支铅笔是红色的。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "pencil",
+              "phonetic": "/ˈpensəl/",
+              "partOfSpeech": "n.",
+              "meaning": "铅笔"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（用于单数）"
+            },
+            {
+              "text": "red",
+              "phonetic": "/red/",
+              "partOfSpeech": "adj.",
+              "meaning": "红色的"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "ask-colour",
+      "targetPattern": "ask-colour",
+      "prompt": "想知道书包的颜色，用What colour询问。",
+      "answer": "What colour is the schoolbag?",
+      "chinese": "书包是什么颜色的？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "describe-colour",
+      "targetPattern": "describe-colour",
+      "prompt": "用完整句子描述一支红色铅笔。",
+      "answer": "The pencil is red.",
+      "chinese": "这支铅笔是红色的。",
+      "isSourceText": false
+    }
+  ]
+}

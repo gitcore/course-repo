@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade5-semester1-unit1",
+  "name": "五年级上册 Unit 1 - Good habits",
+  "description": "用第三人称介绍日常习惯并制定习惯记录卡；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "c38008564514c443b0ca10256a01504044eccfe0485bc6f7584cadaf04729f12",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "c38008564514c443b0ca10256a01504044eccfe0485bc6f7584cadaf04729f12",
+      "content/sentence-practice.json": "c73469d0611cea463553e9ba201051c01fe20fd4b96e60890b80c8030b8f9fb3",
+      "content/conversation-practice.json": "575a20ce3fba7b53b41f31ae98443c4435ca50b35ccd77cff00b712a3267a43d",
+      "content/growth-content.json": "d534941e5f6f12c96dfd0280e0ee4564fb9c6f20fb9cda9b35e4d1ae40393c74"
+    },
+    "manifestHash": "5d5f5e98750287a4dde0483ca851dc22de5355ece5004bdcc08da3e705f0e0a5"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "用第三人称介绍日常习惯并制定习惯记录卡"
+      },
+      "grade": 5,
+      "semester": 1,
+      "unit": 1,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Good habits",
+        "用第三人称介绍日常习惯并制定习惯记录卡"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

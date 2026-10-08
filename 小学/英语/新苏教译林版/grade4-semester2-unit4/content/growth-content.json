@@ -1,0 +1,166 @@
+{
+  "manifestId": "new-yilin-grade4-semester2-unit4",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "ddf80a81e9e8c303d3f6710ceac8300c73548f851afbd0a0ccf0f42db6f4f331",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "offer-drink",
+      "displayName": "Would you like ...?：关心饮食需要",
+      "examples": [
+        "Would you like some water?"
+      ],
+      "transferExamples": [
+        "Would you like some juice?"
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Would you like ...?礼貌询问需要；water为不可数名词。",
+      "sourceExamples": [
+        {
+          "sentence": "Would you like some water?",
+          "chinese": "你想喝点水吗？",
+          "sourceLine": "line-4",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Would you like some juice?",
+          "chinese": "你想喝点果汁吗？",
+          "words": [
+            {
+              "text": "Would",
+              "phonetic": "/wʊd/",
+              "partOfSpeech": "modal v.",
+              "meaning": "would like中的礼貌表达（复习或原创场景支持词）"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们（复习或原创场景支持词）"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "想要；喜欢（复习或原创场景支持词）"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些（复习或原创场景支持词）"
+            },
+            {
+              "text": "juice",
+              "phonetic": "/dʒuːs/",
+              "partOfSpeech": "n.",
+              "meaning": "果汁（复习或原创场景支持词）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "help-with-belonging",
+      "displayName": "I can take ... for you：帮助拿物品",
+      "examples": [
+        "I can take your bag for you."
+      ],
+      "transferExamples": [
+        "I can take your books for you."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "take your bag表示拿包；for you说明为谁帮忙。",
+      "sourceExamples": [
+        {
+          "sentence": "I can take your bag for you.",
+          "chinese": "我可以帮你拿包。",
+          "sourceLine": "line-7",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I can take your books for you.",
+          "chinese": "我可以帮你拿书。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（复习或原创场景支持词）"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；可以（复习或原创场景支持词）"
+            },
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（复习或原创场景支持词）"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的（复习或原创场景支持词）"
+            },
+            {
+              "text": "books",
+              "phonetic": "/bʊks/",
+              "partOfSpeech": "n.",
+              "meaning": "书；book的复数（复习或原创场景支持词）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（复习或原创场景支持词）"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们（复习或原创场景支持词）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "offer-drink",
+      "targetPattern": "offer-drink",
+      "prompt": "把询问喝水改为询问喝果汁，保持礼貌句式。",
+      "answer": "Would you like some juice?",
+      "chinese": "你想喝点果汁吗？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "help-with-belonging",
+      "targetPattern": "help-with-belonging",
+      "prompt": "用I can说明自己能帮对方拿书。",
+      "answer": "I can take your books for you.",
+      "chinese": "我可以帮你拿书。",
+      "isSourceText": false
+    }
+  ]
+}

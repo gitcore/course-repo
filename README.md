@@ -15,7 +15,16 @@
 
 ## 制作规范
 
-制作或批量交接六年级英语读本，请先阅读 [插画有声读本制作规范](readalong-production-spec.md)，其中包含正文、插画、配音、排版、验收和多 agent 派工模板。
+- 制作或重做小学英语课程练习，请先阅读 [英语课程内容生成规则](learn-english-course-content-rules.md)，其中规定教材原文、拆句顺序、词组划分和生成后检查。
+- 制作或批量交接六年级英语读本，请先阅读 [插画有声读本制作规范](readalong-production-spec.md)，其中包含正文、插画、配音、排版、验收和多 agent 派工模板。
+
+## 课程文字预览
+
+- [三年级英语上下册](小学/英语/新苏教译林版/grade3-courses.html)：2022课标修订版的20个单元与项目课程，含教材重点、原创拆句、对话和句型迁移练习。
+
+2022课标修订版译林英语课程现已覆盖三年级上下册、四年级上下册、五年级上册和六年级上册，每册8个单元、2个项目。三年级上下册、四年级上下册和五年级上册为本批新增的50个原创配套课程；六年级上册沿用现有10个课程。五年级下册和六年级下册的修订版原文尚未取得。
+
+教材版本与来源核验记录：[三年级](.sources/new-yilin-grade3/source-index.json)、[四年级](.sources/new-yilin-grade4/source-index.json)、[五年级](.sources/new-yilin-grade5/source-index.json)。各课程的 manifest 与教材源分别记录课程身份、活动入口和教材事实。
 
 ## 可规划资源目录
 
@@ -256,6 +265,456 @@
 
 ### 小学 / 英语 / 新苏教译林版
 
+#### `new-yilin-grade3-semester1-unit1`
+
+- `name`: 三年级上册 Unit 1 - Hello!
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Unit 1 的原创配套课程
+- `description`: 按时段礼貌问候、简短自我介绍与告别；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-unit1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-unit1/textbook.md`
+
+#### `new-yilin-grade3-semester1-unit2`
+
+- `name`: 三年级上册 Unit 2 - What's your name?
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Unit 2 的原创配套课程
+- `description`: 询问姓名、介绍自己并结识新同学；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-unit2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-unit2/textbook.md`
+
+#### `new-yilin-grade3-semester1-unit3`
+
+- `name`: 三年级上册 Unit 3 - Are you Su Hai?
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Unit 3 的原创配套课程
+- `description`: 确认新朋友身份并交流所在班级；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-unit3/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-unit3/textbook.md`
+
+#### `new-yilin-grade3-semester1-unit4`
+
+- `name`: 三年级上册 Unit 4 - This is my friend
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Unit 4 的原创配套课程
+- `description`: 把朋友介绍给别人并区分he和she；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-unit4/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-unit4/textbook.md`
+
+#### `new-yilin-grade3-semester1-project1`
+
+- `name`: 三年级上册 Project 1 - Making friends
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Project 1 的原创配套课程
+- `description`: 制作姓名牌并综合完成结识与介绍朋友的交流；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-project1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-project1/textbook.md`
+
+#### `new-yilin-grade3-semester1-unit5`
+
+- `name`: 三年级上册 Unit 5 - She's my mother
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Unit 5 的原创配套课程
+- `description`: 借人物卡介绍父母和兄弟姐妹；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-unit5/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-unit5/textbook.md`
+
+#### `new-yilin-grade3-semester1-unit6`
+
+- `name`: 三年级上册 Unit 6 - Is he your grandpa?
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Unit 6 的原创配套课程
+- `description`: 确认祖辈及其他家人的身份并认识家庭关系；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-unit6/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-unit6/textbook.md`
+
+#### `new-yilin-grade3-semester1-unit7`
+
+- `name`: 三年级上册 Unit 7 - Happy Birthday!
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Unit 7 的原创配套课程
+- `description`: 生日祝福、年龄交流与礼貌交换礼物；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-unit7/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-unit7/textbook.md`
+
+#### `new-yilin-grade3-semester1-unit8`
+
+- `name`: 三年级上册 Unit 8 - I can do this for you
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Unit 8 的原创配套课程
+- `description`: 说明自己的能力并为家人做力所能及的事；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-unit8/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-unit8/textbook.md`
+
+#### `new-yilin-grade3-semester1-project2`
+
+- `name`: 三年级上册 Project 2 - My family poster
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级上册 Project 2 的原创配套课程
+- `description`: 用家庭海报介绍家人并展示自己的关爱行动；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester1-project2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester1-project2/textbook.md`
+
+#### `new-yilin-grade3-semester2-unit1`
+
+- `name`: 三年级下册 Unit 1 - School things
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Unit 1 的原创配套课程
+- `description`: 识别、询问并妥善收放学习用品；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-unit1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-unit1/textbook.md`
+
+#### `new-yilin-grade3-semester2-unit2`
+
+- `name`: 三年级下册 Unit 2 - Clean our classroom
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Unit 2 的原创配套课程
+- `description`: 分工整理教室并表达可承担的清洁任务；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-unit2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-unit2/textbook.md`
+
+#### `new-yilin-grade3-semester2-unit3`
+
+- `name`: 三年级下册 Unit 3 - School rules
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Unit 3 的原创配套课程
+- `description`: 理解校规并用礼貌的祈使句表达规则；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-unit3/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-unit3/textbook.md`
+
+#### `new-yilin-grade3-semester2-unit4`
+
+- `name`: 三年级下册 Unit 4 - Have fun after class
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Unit 4 的原创配套课程
+- `description`: 安排课后活动并说明物品的位置；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-unit4/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-unit4/textbook.md`
+
+#### `new-yilin-grade3-semester2-project1`
+
+- `name`: 三年级下册 Project 1 - A good student
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Project 1 的原创配套课程
+- `description`: 展示保管文具、参与清洁和遵守校规的做法；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-project1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-project1/textbook.md`
+
+#### `new-yilin-grade3-semester2-unit5`
+
+- `name`: 三年级下册 Unit 5 - Fruit
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Unit 5 的原创配套课程
+- `description`: 交流拥有的水果并练习分享；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-unit5/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-unit5/textbook.md`
+
+#### `new-yilin-grade3-semester2-unit6`
+
+- `name`: 三年级下册 Unit 6 - On the farm
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Unit 6 的原创配套课程
+- `description`: 辨认农场动物并进行近处、远处的复数问答；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-unit6/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-unit6/textbook.md`
+
+#### `new-yilin-grade3-semester2-unit7`
+
+- `name`: 三年级下册 Unit 7 - Animals
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Unit 7 的原创配套课程
+- `description`: 描述动物并交流喜好，制作动物卡；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-unit7/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-unit7/textbook.md`
+
+#### `new-yilin-grade3-semester2-unit8`
+
+- `name`: 三年级下册 Unit 8 - Colours
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Unit 8 的原创配套课程
+- `description`: 辨认颜色并描述图中物品；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-unit8/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-unit8/textbook.md`
+
+#### `new-yilin-grade3-semester2-project2`
+
+- `name`: 三年级下册 Project 2 - My nature park
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语三年级下册 Project 2 的原创配套课程
+- `description`: 纸上设计自然公园并介绍动物、果树、颜色和位置；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade3-semester2-project2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade3-semester2-project2/textbook.md`
+
+#### `new-yilin-grade4-semester1-unit1`
+
+- `name`: 四年级上册 Unit 1 - Our school subjects
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Unit 1 的原创配套课程
+- `description`: 认识学校学科并交流喜欢、擅长和学习内容；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-unit1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-unit1/textbook.md`
+
+#### `new-yilin-grade4-semester1-unit2`
+
+- `name`: 四年级上册 Unit 2 - My day
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Unit 2 的原创配套课程
+- `description`: 把时间和一天的生活学习活动对应起来；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-unit2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-unit2/textbook.md`
+
+#### `new-yilin-grade4-semester1-unit3`
+
+- `name`: 四年级上册 Unit 3 - My week
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Unit 3 的原创配套课程
+- `description`: 认识一周七天并把活动安排到对应星期；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-unit3/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-unit3/textbook.md`
+
+#### `new-yilin-grade4-semester1-unit4`
+
+- `name`: 四年级上册 Unit 4 - I like sport
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Unit 4 的原创配套课程
+- `description`: 交流运动喜好并在运动中相互鼓励；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-unit4/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-unit4/textbook.md`
+
+#### `new-yilin-grade4-semester1-project1`
+
+- `name`: 四年级上册 Project 1 - My weekly plan
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Project 1 的原创配套课程
+- `description`: 整合日程、学科喜好和运动安排制作周计划；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-project1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-project1/textbook.md`
+
+#### `new-yilin-grade4-semester1-unit5`
+
+- `name`: 四年级上册 Unit 5 - Different toys, same fun
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Unit 5 的原创配套课程
+- `description`: 描述不同玩具的五官身体和带来的乐趣；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-unit5/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-unit5/textbook.md`
+
+#### `new-yilin-grade4-semester1-unit6`
+
+- `name`: 四年级上册 Unit 6 - Weather
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Unit 6 的原创配套课程
+- `description`: 根据天气安排活动并准备雨天所需物品；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-unit6/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-unit6/textbook.md`
+
+#### `new-yilin-grade4-semester1-unit7`
+
+- `name`: 四年级上册 Unit 7 - Seasons
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Unit 7 的原创配套课程
+- `description`: 介绍四季天气、活动与自己最喜欢的季节；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-unit7/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-unit7/textbook.md`
+
+#### `new-yilin-grade4-semester1-unit8`
+
+- `name`: 四年级上册 Unit 8 - What we wear
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Unit 8 的原创配套课程
+- `description`: 介绍节日衣服并询问物品归属和穿戴理由；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-unit8/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-unit8/textbook.md`
+
+#### `new-yilin-grade4-semester1-project2`
+
+- `name`: 四年级上册 Project 2 - A puppet show
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级上册 Project 2 的原创配套课程
+- `description`: 制作纸偶并综合外貌、季节和衣服进行展示表演；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester1-project2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester1-project2/textbook.md`
+
+#### `new-yilin-grade4-semester2-unit1`
+
+- `name`: 四年级下册 Unit 1 - We're friends
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Unit 1 的原创配套课程
+- `description`: 在班级联欢会准备与画画活动中互相帮助；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-unit1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-unit1/textbook.md`
+
+#### `new-yilin-grade4-semester2-unit2`
+
+- `name`: 四年级下册 Unit 2 - Helping others at school
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Unit 2 的原创配套课程
+- `description`: 帮助新同学认识校园设施与所在楼层；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-unit2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-unit2/textbook.md`
+
+#### `new-yilin-grade4-semester2-unit3`
+
+- `name`: 四年级下册 Unit 3 - Road safety
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Unit 3 的原创配套课程
+- `description`: 乘车出行与按顺序安全过马路；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-unit3/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-unit3/textbook.md`
+
+#### `new-yilin-grade4-semester2-unit4`
+
+- `name`: 四年级下册 Unit 4 - Caring about others
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Unit 4 的原创配套课程
+- `description`: 关心家人和同学的状态并提供帮助；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-unit4/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-unit4/textbook.md`
+
+#### `new-yilin-grade4-semester2-unit5`
+
+- `name`: 四年级下册 Unit 5 - Eating out
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Unit 5 的原创配套课程
+- `description`: 在新的餐馆场景中礼貌点餐、分享与打包；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-unit5/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-unit5/textbook.md`
+
+#### `new-yilin-grade4-semester2-unit6`
+
+- `name`: 四年级下册 Unit 6 - Jobs
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Unit 6 的原创配套课程
+- `description`: 介绍家人的职业与工作对他人的帮助；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-unit6/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-unit6/textbook.md`
+
+#### `new-yilin-grade4-semester2-unit7`
+
+- `name`: 四年级下册 Unit 7 - Doing chores at home
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Unit 7 的原创配套课程
+- `description`: 观察家务分工并制作家务时间表；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-unit7/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-unit7/textbook.md`
+
+#### `new-yilin-grade4-semester2-unit8`
+
+- `name`: 四年级下册 Unit 8 - In the kitchen
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Unit 8 的原创配套课程
+- `description`: 在成人陪同的厨房场景里描述分工和菜肴准备；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-unit8/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-unit8/textbook.md`
+
+#### `new-yilin-grade4-semester2-project1`
+
+- `name`: 四年级下册 Project 1 - My school model
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Project 1 的原创配套课程
+- `description`: 制作校园模型并综合介绍设施、道路安全与同伴互助；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-project1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-project1/textbook.md`
+
+#### `new-yilin-grade4-semester2-project2`
+
+- `name`: 四年级下册 Project 2 - A good helper
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语四年级下册 Project 2 的原创配套课程
+- `description`: 结合家人职业、家务能力与做菜分工介绍自己怎样帮忙；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade4-semester2-project2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade4-semester2-project2/textbook.md`
+
+#### `new-yilin-grade5-semester1-unit1`
+
+- `name`: 五年级上册 Unit 1 - Good habits
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Unit 1 的原创配套课程
+- `description`: 用第三人称介绍日常习惯并制定习惯记录卡；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-unit1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-unit1/textbook.md`
+
+#### `new-yilin-grade5-semester1-unit2`
+
+- `name`: 五年级上册 Unit 2 - I feel good
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Unit 2 的原创配套课程
+- `description`: 在演出准备中表达感受并给予具体支持；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-unit2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-unit2/textbook.md`
+
+#### `new-yilin-grade5-semester1-unit3`
+
+- `name`: 五年级上册 Unit 3 - Hobbies
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Unit 3 的原创配套课程
+- `description`: 制作兴趣交流板，询问并介绍同伴的爱好；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-unit3/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-unit3/textbook.md`
+
+#### `new-yilin-grade5-semester1-unit4`
+
+- `name`: 五年级上册 Unit 4 - Safety first
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Unit 4 的原创配套课程
+- `description`: 为学校作品展布置安全规则并说明原因；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-unit4/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-unit4/textbook.md`
+
+#### `new-yilin-grade5-semester1-project1`
+
+- `name`: 五年级上册 Project 1 - A happy life poster
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Project 1 的原创配套课程
+- `description`: 把安全、好习惯、爱好和感受组织成幸福生活海报；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-project1/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-project1/textbook.md`
+
+#### `new-yilin-grade5-semester1-unit5`
+
+- `name`: 五年级上册 Unit 5 - At weekends
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Unit 5 的原创配套课程
+- `description`: 制作周末活动轮盘并用频率词交流安排；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-unit5/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-unit5/textbook.md`
+
+#### `new-yilin-grade5-semester1-unit6`
+
+- `name`: 五年级上册 Unit 6 - Getting along with others
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Unit 6 的原创配套课程
+- `description`: 解决共享手工材料的问题并提出友好建议；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-unit6/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-unit6/textbook.md`
+
+#### `new-yilin-grade5-semester1-unit7`
+
+- `name`: 五年级上册 Unit 7 - Shopping smart
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Unit 7 的原创配套课程
+- `description`: 为木偶演出列购物清单、询价并核算预算；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-unit7/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-unit7/textbook.md`
+
+#### `new-yilin-grade5-semester1-unit8`
+
+- `name`: 五年级上册 Unit 8 - We love festivals!
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Unit 8 的原创配套课程
+- `description`: 制作节日历卡并说明时间与庆祝活动；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-unit8/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-unit8/textbook.md`
+
+#### `new-yilin-grade5-semester1-project2`
+
+- `name`: 五年级上册 Project 2 - An invitation card
+- `subject`: `english`
+- `scope`: 译林2022课标修订版小学英语五年级上册 Project 2 的原创配套课程
+- `description`: 规划节日前的班级聚会并制作邀请卡；依据2022课标修订版教材重点编写的原创配套练习。
+- `manifest`: `小学/英语/新苏教译林版/grade5-semester1-project2/manifest.json`
+- `source`: `小学/英语/新苏教译林版/grade5-semester1-project2/textbook.md`
+
 #### `new-yilin-grade6-semester1-unit1`
 
 - `name`: 六年级上册 Unit 1 - Try your best
@@ -449,7 +908,7 @@
 ## 内容制作入口
 
 - 英语课文课程：[英语课程内容规则](learn-english-course-content-rules.md)
-- 新苏教译林版的单元词汇、音标、释义及配套词族统一维护在各课程的 `textbook.md`，不再发布独立词表；全部10个课程的同步练习已对齐当前教材文件，两个 Project 的练习明确按原创任务导读生成。
+- 新苏教译林版的教材重点、单元词汇、音标、释义及练习源统一维护在各课程的 `textbook.md`。六年级上册现有10个课程的同步练习已对齐当前教材文件，两个 Project 明确按原创任务导读生成；新增修订版配套课程分别标明官方教材事实和原创练习来源，具体活动以各课 manifest 为准。
 - 译林自然拼读：[自然拼读规则](小学/英语/译林自然拼读/phonics-rules.md)
 - 有声读本制作：[构建工具与发布文件说明](.scripts/readalong/README.md)。脚本、模板、分镜与时文编排、提示词、预览和校验档案集中在工具目录，不随课程资源发布；各课程内的读本入口文件名和相对路径保持不变。
 

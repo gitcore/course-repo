@@ -1,0 +1,124 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-unit1",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "06666034559803a11d6b56d89b3ba71261c2d45da7e8da70fb3cab06eabcddea",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "morning-greeting",
+      "displayName": "Good morning：上午问候",
+      "examples": [
+        "Good morning, Ben."
+      ],
+      "transferExamples": [
+        "Good morning, May."
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "上午见面时使用Good morning，之后可加称呼。",
+      "sourceExamples": [
+        {
+          "sentence": "Good morning, Ben.",
+          "chinese": "早上好，Ben。",
+          "sourceLine": "line-3",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Good morning, May.",
+          "chinese": "早上好，May。",
+          "words": [
+            {
+              "text": "Good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "morning",
+              "phonetic": "/ˈmɔːnɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "早晨（问候语中的词）"
+            },
+            {
+              "text": "May",
+              "phonetic": "/meɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "May（原创角色）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "self-introduction",
+      "displayName": "I'm：介绍自己的姓名",
+      "examples": [
+        "I'm May."
+      ],
+      "transferExamples": [
+        "I'm Ben."
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I'm是I am的缩写，后接姓名。",
+      "sourceExamples": [
+        {
+          "sentence": "I'm May.",
+          "chinese": "我是May。",
+          "sourceLine": "line-5",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I'm Ben.",
+          "chinese": "我是Ben。",
+          "words": [
+            {
+              "text": "I'm",
+              "phonetic": "/aɪm/",
+              "partOfSpeech": "contraction",
+              "meaning": "I am的缩写；我是"
+            },
+            {
+              "text": "Ben",
+              "phonetic": "/ben/",
+              "partOfSpeech": "proper n.",
+              "meaning": "Ben（原创角色）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "morning-greeting",
+      "targetPattern": "morning-greeting",
+      "prompt": "把上午问候中的称呼换成May。",
+      "answer": "Good morning, May.",
+      "chinese": "早上好，May。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "self-introduction",
+      "targetPattern": "self-introduction",
+      "prompt": "扮演Ben，用I'm介绍自己的姓名。",
+      "answer": "I'm Ben.",
+      "chinese": "我是Ben。",
+      "isSourceText": false
+    }
+  ]
+}

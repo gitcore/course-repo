@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester1-unit3",
+  "name": "四年级上册 Unit 3 - My week",
+  "description": "认识一周七天并把活动安排到对应星期；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "bb9fb63b6c97bbae1c8b1db51351b24bbbac7b15e5c1d45e1af05219085eee59",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "bb9fb63b6c97bbae1c8b1db51351b24bbbac7b15e5c1d45e1af05219085eee59",
+      "content/sentence-practice.json": "6248f64805dbbdb9509e649debe771c65581d10189e538e2237c34d480ae1333",
+      "content/conversation-practice.json": "ee74b4549cce6ebd3ec457a75d5284d4bdbf134fd71aa719de28a02f74a77e5a",
+      "content/growth-content.json": "05251f004429b3ee6808bc41fdc75b142b8a903d314126be12b275f8b8e11b13"
+    },
+    "manifestHash": "61145bee327bfaaaf992ccc68b704935bbabc35046a2144683a6fa552693e078"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "认识一周七天并把活动安排到对应星期"
+      },
+      "grade": 4,
+      "semester": 1,
+      "unit": 3,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "My week",
+        "认识一周七天并把活动安排到对应星期"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

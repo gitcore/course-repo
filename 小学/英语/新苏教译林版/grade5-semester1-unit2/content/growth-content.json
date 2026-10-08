@@ -1,0 +1,208 @@
+{
+  "manifestId": "new-yilin-grade5-semester1-unit2",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "e524c2a4fafa26b42f2d91b865c0f58d46143e802a066fd419be44ccc775c114",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "third-person-negative",
+      "displayName": "does not + 原形：表达第三人称否定",
+      "examples": [
+        "He does not speak loudly."
+      ],
+      "transferExamples": [
+        "He does not speak fast."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "does not后接动词原形speak；loudly修饰说话方式。",
+      "sourceExamples": [
+        {
+          "sentence": "He does not speak loudly.",
+          "chinese": "他说话声音不大。",
+          "sourceLine": "line-2",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "not",
+              "phonetic": "/nɒt/",
+              "partOfSpeech": "adv.",
+              "meaning": "不"
+            },
+            {
+              "text": "speak",
+              "phonetic": "/spiːk/",
+              "partOfSpeech": "v.",
+              "meaning": "说话"
+            },
+            {
+              "text": "loudly",
+              "phonetic": "/ˈlaʊdli/",
+              "partOfSpeech": "adv.",
+              "meaning": "大声地"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "He does not speak fast.",
+          "chinese": "他说话不快。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "not",
+              "phonetic": "/nɒt/",
+              "partOfSpeech": "adv.",
+              "meaning": "不"
+            },
+            {
+              "text": "speak",
+              "phonetic": "/spiːk/",
+              "partOfSpeech": "v.",
+              "meaning": "说话"
+            },
+            {
+              "text": "fast",
+              "phonetic": "/fɑːst/",
+              "partOfSpeech": "adv.",
+              "meaning": "快，快速，迅速"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "study-studies",
+      "displayName": "studies：说明一个人的学习行为",
+      "examples": [
+        "He reads the card and studies the words."
+      ],
+      "transferExamples": [
+        "She studies the words every day."
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "同一主语he对应reads和studies；study变y为ies。",
+      "sourceExamples": [
+        {
+          "sentence": "He reads the card and studies the words.",
+          "chinese": "他读这张卡片并学习这些词。",
+          "sourceLine": "line-6",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "She studies the words every day.",
+          "chinese": "她每天学习这些词。",
+          "words": [
+            {
+              "text": "She",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她"
+            },
+            {
+              "text": "studies",
+              "phonetic": "/ˈstʌdiz/",
+              "partOfSpeech": "v.",
+              "meaning": "学习；study的第三人称单数"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "words",
+              "phonetic": "/wɜːdz/",
+              "partOfSpeech": "n.",
+              "meaning": "词；word的复数"
+            },
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一个"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "third-person-negative",
+      "targetPattern": "third-person-negative",
+      "prompt": "说明这个男孩说话不快，用does not和speak。",
+      "answer": "He does not speak fast.",
+      "chinese": "他说话不快。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "study-studies",
+      "targetPattern": "study-studies",
+      "prompt": "用She介绍一个女孩每天学习这些词。",
+      "answer": "She studies the words every day.",
+      "chinese": "她每天学习这些词。",
+      "isSourceText": false
+    }
+  ]
+}

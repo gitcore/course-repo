@@ -1,0 +1,136 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-unit7",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "c8cecbdf90614e676fc54fe6fb57119ede457778f0030506edf460705ee2a157",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "tell-age",
+      "displayName": "I'm加数字：表达年龄",
+      "examples": [
+        "I'm nine."
+      ],
+      "transferExamples": [
+        "I'm eight."
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I'm后接数字表示年龄。",
+      "sourceExamples": [
+        {
+          "sentence": "I'm nine.",
+          "chinese": "我九岁。",
+          "sourceLine": "line-4",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I'm eight.",
+          "chinese": "我八岁。",
+          "words": [
+            {
+              "text": "I'm",
+              "phonetic": "/aɪm/",
+              "partOfSpeech": "contraction",
+              "meaning": "I am的缩写；我是"
+            },
+            {
+              "text": "eight",
+              "phonetic": "/eɪt/",
+              "partOfSpeech": "num.",
+              "meaning": "八"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "want-a-thing",
+      "displayName": "I want a：说出想要的物品",
+      "examples": [
+        "I want a cake, please."
+      ],
+      "transferExamples": [
+        "I want a ball, please."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I want后接物品；句末please让请求更礼貌。",
+      "sourceExamples": [
+        {
+          "sentence": "I want a cake, please.",
+          "chinese": "请给我一个蛋糕。",
+          "sourceLine": "line-7",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I want a ball, please.",
+          "chinese": "请给我一个球。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "ball",
+              "phonetic": "/bɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "球"
+            },
+            {
+              "text": "please",
+              "phonetic": "/pliːz/",
+              "partOfSpeech": "interj.",
+              "meaning": "请"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "tell-age",
+      "targetPattern": "tell-age",
+      "prompt": "扮演八岁的同学，把nine换成eight。",
+      "answer": "I'm eight.",
+      "chinese": "我八岁。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "want-a-thing",
+      "targetPattern": "want-a-thing",
+      "prompt": "把礼貌请求中的cake换成ball。",
+      "answer": "I want a ball, please.",
+      "chinese": "请给我一个球。",
+      "isSourceText": false
+    }
+  ]
+}

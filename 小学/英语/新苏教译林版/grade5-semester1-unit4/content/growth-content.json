@@ -1,0 +1,142 @@
+{
+  "manifestId": "new-yilin-grade5-semester1-unit4",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "32fde3d874ba51f1ba5591134101bc1c5bcc1625da82c89a876c659a13713f75",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "safety-positive",
+      "displayName": "should + 原形：说明应该做什么",
+      "examples": [
+        "We should listen to the teacher."
+      ],
+      "transferExamples": [
+        "We should walk slowly."
+      ],
+      "sourceItemKeys": [
+        "line-11"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "should后用listen；listen to表示听从或听。",
+      "sourceExamples": [
+        {
+          "sentence": "We should listen to the teacher.",
+          "chinese": "我们应该听从老师。",
+          "sourceLine": "line-11",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "We should walk slowly.",
+          "chinese": "我们应该慢慢走。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "should",
+              "phonetic": "/ʃʊd/",
+              "partOfSpeech": "modal v.",
+              "meaning": "应该，应当"
+            },
+            {
+              "text": "walk",
+              "phonetic": "/wɔːk/",
+              "partOfSpeech": "v.",
+              "meaning": "走，行走"
+            },
+            {
+              "text": "slowly",
+              "phonetic": "/ˈsləʊli/",
+              "partOfSpeech": "adv.",
+              "meaning": "慢速地，缓慢地"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "safety-negative",
+      "displayName": "shouldn't + 原形：说明不应该做什么",
+      "examples": [
+        "We shouldn't climb on the chairs."
+      ],
+      "transferExamples": [
+        "We shouldn't push others."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "shouldn’t后用climb原形，说明不安全行为。",
+      "sourceExamples": [
+        {
+          "sentence": "We shouldn't climb on the chairs.",
+          "chinese": "我们不应该爬到椅子上。",
+          "sourceLine": "line-7",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "We shouldn't push others.",
+          "chinese": "我们不应该推别人。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们"
+            },
+            {
+              "text": "shouldn't",
+              "phonetic": "/ˈʃʊdnt/",
+              "partOfSpeech": "modal v.",
+              "meaning": "不应该"
+            },
+            {
+              "text": "push",
+              "phonetic": "/pʊʃ/",
+              "partOfSpeech": "v.",
+              "meaning": "推（教材星号拓展词）"
+            },
+            {
+              "text": "others",
+              "phonetic": "/ˈʌðəz/",
+              "partOfSpeech": "pron.",
+              "meaning": "别人，其他人"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "safety-positive",
+      "targetPattern": "safety-positive",
+      "prompt": "为作品展写一条应该慢慢行走的提示。",
+      "answer": "We should walk slowly.",
+      "chinese": "我们应该慢慢走。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "safety-negative",
+      "targetPattern": "safety-negative",
+      "prompt": "提醒同伴不要推别人，用shouldn’t开头。",
+      "answer": "We shouldn't push others.",
+      "chinese": "我们不应该推别人。",
+      "isSourceText": false
+    }
+  ]
+}

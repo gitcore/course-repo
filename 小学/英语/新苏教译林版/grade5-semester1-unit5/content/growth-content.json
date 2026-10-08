@@ -1,0 +1,238 @@
+{
+  "manifestId": "new-yilin-grade5-semester1-unit5",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "b77635d3e6f13d935b325203b5f3ad37c9f1b2b3d4ae2e7866ae2e28383f7946",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "frequency-third-person",
+      "displayName": "He/She often ...：频率与第三人称",
+      "examples": [
+        "He always reads after breakfast."
+      ],
+      "transferExamples": [
+        "He often reads after breakfast."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "always放在reads前；he对应第三人称单数reads。",
+      "sourceExamples": [
+        {
+          "sentence": "He always reads after breakfast.",
+          "chinese": "他总在早餐后读书。",
+          "sourceLine": "line-7",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "He often reads after breakfast.",
+          "chinese": "他经常在早餐后读书。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "often",
+              "phonetic": "/ˈɒfən/",
+              "partOfSpeech": "adv.",
+              "meaning": "时常，常常"
+            },
+            {
+              "text": "reads",
+              "phonetic": "/riːdz/",
+              "partOfSpeech": "v.",
+              "meaning": "阅读；read的第三人称单数"
+            },
+            {
+              "text": "after",
+              "phonetic": "/ˈɑːftə/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……之后"
+            },
+            {
+              "text": "breakfast",
+              "phonetic": "/ˈbrekfəst/",
+              "partOfSpeech": "n.",
+              "meaning": "早餐"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "ask-weekends",
+      "displayName": "What does ... do at weekends?：询问他人",
+      "examples": [
+        "What does your brother do at weekends?"
+      ],
+      "transferExamples": [
+        "What does Lily do at weekends?"
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "第三人称单数疑问句使用does，后面的do用原形。",
+      "sourceExamples": [
+        {
+          "sentence": "What does your brother do at weekends?",
+          "chinese": "你的哥哥周末做什么？",
+          "sourceLine": "line-6",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的"
+            },
+            {
+              "text": "brother",
+              "phonetic": "/ˈbrʌðə/",
+              "partOfSpeech": "n.",
+              "meaning": "哥哥；弟弟"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（at weekends表示在周末）"
+            },
+            {
+              "text": "weekends",
+              "phonetic": "/ˌwiːkˈendz/",
+              "partOfSpeech": "n.",
+              "meaning": "周末；weekend的复数"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的"
+            },
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（at weekends表示在周末）"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "What does Lily do at weekends?",
+          "chinese": "Lily周末做什么？",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "Lily",
+              "phonetic": "/ˈlɪli/",
+              "partOfSpeech": "proper n.",
+              "meaning": "Lily（原创角色）"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（at weekends表示在周末）"
+            },
+            {
+              "text": "weekends",
+              "phonetic": "/ˌwiːkˈendz/",
+              "partOfSpeech": "n.",
+              "meaning": "周末；weekend的复数"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "aux. v.",
+              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（at weekends表示在周末）"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "frequency-third-person",
+      "targetPattern": "frequency-third-person",
+      "prompt": "把“总是”改为“经常”，保持正确第三人称动词。",
+      "answer": "He often reads after breakfast.",
+      "chinese": "他经常在早餐后读书。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "ask-weekends",
+      "targetPattern": "ask-weekends",
+      "prompt": "向同伴询问Lily的周末活动。",
+      "answer": "What does Lily do at weekends?",
+      "chinese": "Lily周末做什么？",
+      "isSourceText": false
+    }
+  ]
+}

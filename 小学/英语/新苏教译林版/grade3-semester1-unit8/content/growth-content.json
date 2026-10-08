@@ -1,0 +1,160 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-unit8",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "84339e6b04e74487b57b530ec26f807f628b325448374dbb9cbf6580ce885798",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "can-for-you",
+      "displayName": "I can：说出能为别人做的事",
+      "examples": [
+        "I can sing for you, May."
+      ],
+      "transferExamples": [
+        "I can dance for you, May."
+      ],
+      "sourceItemKeys": [
+        "line-1"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I can后接动作sing，for you说明为谁做。",
+      "sourceExamples": [
+        {
+          "sentence": "I can sing for you, May.",
+          "chinese": "我能为你唱歌，May。",
+          "sourceLine": "line-1",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I can dance for you, May.",
+          "chinese": "我能为你跳舞，May。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；会"
+            },
+            {
+              "text": "dance",
+              "phonetic": "/dɑːns/",
+              "partOfSpeech": "v.",
+              "meaning": "跳舞"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "May",
+              "phonetic": "/meɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "May（原创角色）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "can-clean-table",
+      "displayName": "I/We can：共同或个人能力",
+      "examples": [
+        "We can clean the table."
+      ],
+      "transferExamples": [
+        "I can clean the table."
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "We can表达大家共同能做的事；clean the table是动作词组。",
+      "sourceExamples": [
+        {
+          "sentence": "We can clean the table.",
+          "chinese": "我们能擦桌子。",
+          "sourceLine": "line-5",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I can clean the table.",
+          "chinese": "我能擦桌子。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；会"
+            },
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "打扫；使……干净"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个；这些；那些"
+            },
+            {
+              "text": "table",
+              "phonetic": "/ˈteɪbəl/",
+              "partOfSpeech": "n.",
+              "meaning": "桌子"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "can-for-you",
+      "targetPattern": "can-for-you",
+      "prompt": "把能力表达中的sing换成dance，保留受益人。",
+      "answer": "I can dance for you, May.",
+      "chinese": "我能为你跳舞，May。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "can-clean-table",
+      "targetPattern": "can-clean-table",
+      "prompt": "把We换成I，说明自己能做的事。",
+      "answer": "I can clean the table.",
+      "chinese": "我能擦桌子。",
+      "isSourceText": false
+    }
+  ]
+}

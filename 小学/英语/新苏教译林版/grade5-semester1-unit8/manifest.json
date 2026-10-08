@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade5-semester1-unit8",
+  "name": "五年级上册 Unit 8 - We love festivals!",
+  "description": "制作节日历卡并说明时间与庆祝活动；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "43fc6e2149df418ecaed2ad230392f2f03794028ae0cff554950b80a33c437bf",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "43fc6e2149df418ecaed2ad230392f2f03794028ae0cff554950b80a33c437bf",
+      "content/sentence-practice.json": "8c31ec8ac8be4ed238e7675cdc96bb82fc0ee4dce8a21cfeba67a6762047bb1b",
+      "content/conversation-practice.json": "9a904d0afefe06d81e03bde23dd58865f33b911b6560e50815066810560a3bcc",
+      "content/growth-content.json": "92079002ea6bd6427d0a754d524dc16a996e11c568856793a9798ed023342436"
+    },
+    "manifestHash": "a929e45da8be8c6ea3befe4ddd45b23301bea83d1c70c18ce9550e5e2f6d64e8"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "制作节日历卡并说明时间与庆祝活动"
+      },
+      "grade": 5,
+      "semester": 1,
+      "unit": 8,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "We love festivals!",
+        "制作节日历卡并说明时间与庆祝活动"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

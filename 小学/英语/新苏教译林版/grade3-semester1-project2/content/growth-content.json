@@ -1,0 +1,148 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-project2",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "b48d41d1ca75b2a244b8d5820b9d3a7d1d65c77e4d7769ef511507aa40737b6f",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "poster-family-relation",
+      "displayName": "She's my：介绍海报中的家人",
+      "examples": [
+        "She's my grandma."
+      ],
+      "transferExamples": [
+        "She's my mother."
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "用She's my加关系词介绍人物。",
+      "sourceExamples": [
+        {
+          "sentence": "She's my grandma.",
+          "chinese": "她是我的奶奶。",
+          "sourceLine": "line-5",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "She's my mother.",
+          "chinese": "她是我的妈妈。",
+          "words": [
+            {
+              "text": "She's",
+              "phonetic": "/ʃiːz/",
+              "partOfSpeech": "contraction",
+              "meaning": "She is的缩写；她是"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "mother",
+              "phonetic": "/ˈmʌðə/",
+              "partOfSpeech": "n.",
+              "meaning": "妈妈；母亲"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "poster-care-action",
+      "displayName": "I can：分享关爱行动",
+      "examples": [
+        "I can draw for my family."
+      ],
+      "transferExamples": [
+        "I can sing for my family."
+      ],
+      "sourceItemKeys": [
+        "line-9"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I can draw说明能力，for my family说明为谁做。",
+      "sourceExamples": [
+        {
+          "sentence": "I can draw for my family.",
+          "chinese": "我能为我的家人画画。",
+          "sourceLine": "line-9",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I can sing for my family.",
+          "chinese": "我能为我的家人唱歌。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；会"
+            },
+            {
+              "text": "sing",
+              "phonetic": "/sɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭；家人"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "poster-family-relation",
+      "targetPattern": "poster-family-relation",
+      "prompt": "把海报人物关系grandma换成mother。",
+      "answer": "She's my mother.",
+      "chinese": "她是我的妈妈。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "poster-care-action",
+      "targetPattern": "poster-care-action",
+      "prompt": "把关爱行动draw换成sing。",
+      "answer": "I can sing for my family.",
+      "chinese": "我能为我的家人唱歌。",
+      "isSourceText": false
+    }
+  ]
+}

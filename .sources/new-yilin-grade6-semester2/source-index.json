@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0",
+  "target": {
+    "publisher": "译林出版社",
+    "edition": "根据2022年版课程标准修订、2024年国家教材委员会审核通过",
+    "subject": "english",
+    "stage": "primary",
+    "grade": 6,
+    "semester": 2,
+    "requestedScope": "整册8个Unit和2个Project"
+  },
+  "status": "新版全册目录和课文原文尚未取得",
+  "productionReady": false,
+  "verifiedAt": "2026-10-08",
+  "limitations": [
+    "没有证据证明新版六下尚未出版；只能说明本次未取得可核对的公开原文。",
+    "获准教学用书目录、营销页的新版本标题及专题相关文章均不能代替实际课本目录和原页。"
+  ],
+  "confirmedFacts": [
+    {
+      "fact": "新版每册8个Unit，每4个Unit后设置1个Project。",
+      "source": "https://flts.bnu.edu.cn/node/16681"
+    },
+    {
+      "fact": "教材主编和核心作者文章说明，新版六下Unit 3涉及塞罕坝植树造林、长江及江豚保护；未给六下完整单元名或原文。",
+      "source": "https://flts.bnu.edu.cn/node/16681"
+    },
+    {
+      "fact": "教育部修订教材目录列有译林版三年级上册至六年级下册；该目录不提供单元名、原文或公开发布日期。",
+      "source": "https://www.moe.gov.cn/srcsite/A26/s8001/202408/W020240805496325238752.pdf"
+    },
+    {
+      "fact": "国家中小学智慧教育平台教材库中，译林版六年级英语只有两条：六年级上册带「根据2022年版课程标准修订」标注（id 32d2e60a-...），六年级下册为旧版（id 2b63b996-...，无修订标注）。即新版六下尚未上线。",
+      "source": "https://s-file-1.ykt.cbern.com.cn/zxx/ndrs/resources/tch_material/version/data_version.json"
+    },
+    {
+      "fact": "教材编者文章确认：新版六上 Unit 1 为 Try Your Best、六上 Unit 8 为今昔对比、六下 Unit 3 涉及塞罕坝植树造林与长江江豚保护；新版单元板块为 Lead-in / Cartoon Time / Story Time / Wrap-up Time / Assessment Time，每册8个 Unit 分2个模块并配2个 Project。",
+      "source": "https://flts.bnu.edu.cn/node/16681"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://basic.smartedu.cn/tchMaterial",
+      "kind": "official-catalog",
+      "status": "已实际查看小学/英语/译林版/六年级筛选",
+      "observation": "六上带2022课标修订标注，六下可见条目未带该标注。"
+    },
+    {
+      "url": "https://s-file-1.ykt.cbern.com.cn/zxx/ndrs/resources/tch_material/version/data_version.json",
+      "kind": "official-catalog-api",
+      "status": "2026-10-08 直接解析平台教材库 part_100–103 复核",
+      "observation": "按 译林版+英语+六年级 过滤，只有六上（新版）与六下（旧版）两条，确认新版六下未上线。"
+    },
+    {
+      "url": "https://www.dzkbw.org/book/5852.html",
+      "kind": "public-book-index",
+      "status": "旧版；不可作为目标新版源",
+      "observation": "译林版六年级英语下册目录仍为 The lion and the mouse / Good habits / A healthy diet 等旧版单元。"
+    },
+    {
+      "url": "https://basic.smartedu.cn/tchMaterial/detail?contentType=assets_document&contentId=2b63b996-3f8c-439a-bb0c-3f127c9507af&catalogType=tchMaterial&subCatalog=tchMaterial",
+      "kind": "official-student-book",
+      "status": "已打开并核对PDF；旧版，不作为目标新版源",
+      "observation": "版权页为2014年10月第2版、2025年12月第12次印刷；目录Unit3为A healthy diet，与新版编者主题说明不符。",
+      "evidence": [
+        "evidence/official-copyright.png",
+        "evidence/official-contents-1.png",
+        "evidence/official-contents-2.png"
+      ]
+    },
+    {
+      "url": "https://r3-ndr-oversea.ykt.cbern.com.cn/edu_product/esp/assets/2b63b996-3f8c-439a-bb0c-3f127c9507af.pkg/pdf_1772437816214.pdf",
+      "kind": "official-pdf",
+      "status": "已下载并核对；旧版，不作为目标新版源",
+      "edition": "2014年10月第2版",
+      "printing": "2025年12月第12次印刷",
+      "isbn": "978-7-5447-2452-4",
+      "pages": 106,
+      "bytes": 55748383,
+      "sha256": "3311d3421f77e9ecb579a58c787aff06fe4ea5db5d42d46ee1d95f3dd011673a",
+      "evidence": [
+        "evidence/official-copyright.png",
+        "evidence/official-contents-1.png",
+        "evidence/official-contents-2.png"
+      ]
+    },
+    {
+      "url": "https://www.cozylingo.com/content/wxt_1081",
+      "kind": "previous-provider",
+      "status": "旧版结构；不可作为目标新版源",
+      "observation": "66板块，含Sound time/Culture time/Checkout time/Ticking time，Project为Being a good student和A travel book；正文需要登录。"
+    },
+    {
+      "url": "https://www.bilibili.com/video/BV1gLTx6CEW8",
+      "kind": "previous-provider",
+      "status": "已验证仅新版六上",
+      "observation": "英语精品课堂发布，9个分P均为六上单词或Unit1至Unit8课文。"
+    },
+    {
+      "url": "https://ylyy.yilin.com/",
+      "kind": "official-provider",
+      "status": "发现出版社新站；普通读取403，尚未取得新版六下目录"
+    },
+    {
+      "url": "http://www.textbook-info.com/post/1449.html",
+      "kind": "public-book-index",
+      "status": "可读新版索引；译林小学英语条目未列新版六下"
+    },
+    {
+      "url": "https://www.renjiaoshe.com/jiaocai/2549.html",
+      "kind": "public-course-index",
+      "status": "存在2024系列六下入口；实际目录及资源为空"
+    },
+    {
+      "url": "https://www.dzkbw.org/book/5852.html",
+      "kind": "public-book-index",
+      "status": "旧版；不可作为目标新版源",
+      "observation": "目录含The lion and the mouse、Good habits、A healthy diet。"
+    },
+    {
+      "url": "https://pan.quark.cn/s/45ef36fb3d86",
+      "kind": "public-pdf-candidate",
+      "status": "已通过公开预览核对首三页；旧版，不作为目标新版源",
+      "observation": "封面教育部审定2013；版权页2014年10月第2版、2024年12月第11次印刷。",
+      "isbn": "978-7-5447-2452-4",
+      "pages": 107,
+      "bytes": 40224121,
+      "sourceNote": "未下载整本，仅正常公开预览。"
+    },
+    {
+      "url": "https://www.renrendoc.com/paper/533741481.html",
+      "kind": "rejected-teaching-note",
+      "status": "不采用",
+      "observation": "塞罕坝文本可追到冀教八上Unit8 Lesson3，不是已验证的译林六下原页。"
+    }
+  ],
+  "publisherContact": {
+    "email": "jiaocai@yilin.com",
+    "phones": [
+      "025-83658349",
+      "025-83658378"
+    ],
+    "source": "https://edu.yilin.com/index.php/Category/index?nav_id=28",
+    "localInquiry": "publisher-inquiry.txt",
+    "sendStatus": "未发送"
+  },
+  "acceptanceBeforeCourseCreation": [
+    "核对2024审核标志、2022课标修订说明、出版社及版次。",
+    "取得全册目录以及8个Unit与2个Project的原文原页。",
+    "交叉核对Unit3的实际课文与教材编者公布的主题。",
+    "原文确认后沿用六上课程包结构与单词→自然词组→整句制作规范。"
+  ],
+  "research": {
+    "exaSearchResultsReviewed": 95,
+    "exaSearchRequests": 10,
+    "method": "Exa检索、原来源复查、官方目录实页查看及两份PDF的版权页核对",
+    "interpretation": "计数包含重复搜索结果，不能理解为95个独立来源。"
+  },
+  "unfulfilledRequirements": [
+    "真正新版六下的全册目录",
+    "8个Unit与2个Project可核对的课文原文原页",
+    "新版官方数字资源入口或经核实的正版获取渠道"
+  ],
+  "nextStep": "新版六下公开前无法生成与课本一致的原文。推进六下 Unit 1 课程需二选一：用户提供新版六下 Unit 1 原文/样页；或确认改用当前在用的旧版（2013审定）六下 Unit 1「The lion and the mouse」。出版社询问信已备好，等待用户明确授权后发送。"
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-unit6",
+  "name": "三年级下册 Unit 6 - On the farm",
+  "description": "辨认农场动物并进行近处、远处的复数问答；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "53aede87fc7825dce72e87ae92078ad2e178c2b757a3cdbdacaa06f5bcc57384",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "53aede87fc7825dce72e87ae92078ad2e178c2b757a3cdbdacaa06f5bcc57384",
+      "content/sentence-practice.json": "a754f126942d2081081496dc4863057e6ff96f9315839c4f174f5e862b09f41e",
+      "content/conversation-practice.json": "76aba92c0d21e5c04ba19f8aaf5a52e4ea2d6f5ee45ae1aca24dbfb0692755fb",
+      "content/growth-content.json": "d8b62aee61ddeccafd7b2a36f5e7229fbc0a61925044a638722fbd1f214fc8b8"
+    },
+    "manifestHash": "0b9f073cec8d87cc9b784c9be3a6d466c53d698ced0aa89dcbf7d5a32700845a"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "辨认农场动物并进行近处、远处的复数问答"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": 6,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "On the farm",
+        "辨认农场动物并进行近处、远处的复数问答"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

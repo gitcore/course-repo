@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester1-unit4",
+  "name": "四年级上册 Unit 4 - I like sport",
+  "description": "交流运动喜好并在运动中相互鼓励；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "155c059ca689b947ac8e9891e5e63002d69b6ae8719697fd2f1cb7dd60d697cd",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "155c059ca689b947ac8e9891e5e63002d69b6ae8719697fd2f1cb7dd60d697cd",
+      "content/sentence-practice.json": "bddee3fb7180a1fe00db7af555a6558dd57831260a6d4a9f85981e0fe1ac2274",
+      "content/conversation-practice.json": "818dc38faa6e7c914eba753b0c448f6e5b04dbabf3e3008821f397116f9c0080",
+      "content/growth-content.json": "85687299139452320bc8aa1bff8691d3bb84f09293b0d0b2f6067b43d019959b"
+    },
+    "manifestHash": "1c93f593b637fd0746017a0310a801f886d61e33be20ea58a6baf883fd137a50"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "交流运动喜好并在运动中相互鼓励"
+      },
+      "grade": 4,
+      "semester": 1,
+      "unit": 4,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "I like sport",
+        "交流运动喜好并在运动中相互鼓励"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

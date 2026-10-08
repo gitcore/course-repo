@@ -1,0 +1,298 @@
+{
+  "manifestId": "new-yilin-grade4-semester2-unit8",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "42daa9002d9ed62de0a1fffed0c563094a6d481a1385308ca1940ec0a3774139",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "ask-kitchen-action",
+      "displayName": "Are you ...-ing?：询问厨房动作",
+      "examples": [
+        "Are you cooking the chicken now?"
+      ],
+      "transferExamples": [
+        "Are you washing the potatoes now?"
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Are you ...-ing?询问当前动作；chicken在此是食材，不是活鸡。",
+      "sourceExamples": [
+        {
+          "sentence": "Are you cooking the chicken now?",
+          "chinese": "你现在正在做鸡肉吗？",
+          "sourceLine": "line-7",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "Are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "auxiliary v.",
+              "meaning": "与cooking连用，询问正在进行的动作"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们（复习或原创场景支持词）"
+            },
+            {
+              "text": "cooking",
+              "phonetic": "/ˈkʊkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "烹饪；cook的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "chicken",
+              "phonetic": "/ˈtʃɪkɪn/",
+              "partOfSpeech": "n.",
+              "meaning": "鸡肉"
+            },
+            {
+              "text": "now",
+              "phonetic": "/naʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "现在（复习或原创场景支持词）"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "Are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "auxiliary v.",
+              "meaning": "与cooking连用，询问正在进行的动作"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Are you washing the potatoes now?",
+          "chinese": "你现在正在洗土豆吗？",
+          "words": [
+            {
+              "text": "Are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "auxiliary v.",
+              "meaning": "与washing连用，询问正在进行的动作"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们（复习或原创场景支持词）"
+            },
+            {
+              "text": "washing",
+              "phonetic": "/ˈwɒʃɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "洗；wash的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "potatoes",
+              "phonetic": "/pəˈteɪtəʊz/",
+              "partOfSpeech": "n.",
+              "meaning": "土豆；potato的复数（复习或原创场景支持词）"
+            },
+            {
+              "text": "now",
+              "phonetic": "/naʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "现在（复习或原创场景支持词）"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "Are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "auxiliary v.",
+              "meaning": "与washing连用，询问正在进行的动作"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "name-dinner-food",
+      "displayName": "I am making ...：说明正在准备的汤",
+      "examples": [
+        "Yes, I am making tomato and egg soup."
+      ],
+      "transferExamples": [
+        "Yes, I am making potato soup."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "am making表示正在做；tomato and egg soup整体是菜名。",
+      "sourceExamples": [
+        {
+          "sentence": "Yes, I am making tomato and egg soup.",
+          "chinese": "是的，我正在做番茄鸡蛋汤。",
+          "sourceLine": "line-2",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "Yes",
+              "phonetic": "/jes/",
+              "partOfSpeech": "interj.",
+              "meaning": "是的（确认做晚饭）"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（复习或原创场景支持词）"
+            },
+            {
+              "text": "am",
+              "phonetic": "/æm/",
+              "partOfSpeech": "auxiliary v.",
+              "meaning": "与making连用，表示正在进行"
+            },
+            {
+              "text": "making",
+              "phonetic": "/ˈmeɪkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；整理；make的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "tomato",
+              "phonetic": "/təˈmɑːtəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "番茄；西红柿"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和；并且（复习或原创场景支持词）"
+            },
+            {
+              "text": "egg",
+              "phonetic": "/eɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "鸡蛋"
+            },
+            {
+              "text": "soup",
+              "phonetic": "/suːp/",
+              "partOfSpeech": "n.",
+              "meaning": "汤"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "Yes",
+              "phonetic": "/jes/",
+              "partOfSpeech": "interj.",
+              "meaning": "是的（确认做晚饭）"
+            },
+            {
+              "text": "am",
+              "phonetic": "/æm/",
+              "partOfSpeech": "auxiliary v.",
+              "meaning": "与making连用，表示正在进行"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Yes, I am making potato soup.",
+          "chinese": "是的，我正在做土豆汤。",
+          "words": [
+            {
+              "text": "Yes",
+              "phonetic": "/jes/",
+              "partOfSpeech": "interj.",
+              "meaning": "是的（确认做晚饭）"
+            },
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（复习或原创场景支持词）"
+            },
+            {
+              "text": "am",
+              "phonetic": "/æm/",
+              "partOfSpeech": "auxiliary v.",
+              "meaning": "与making连用，表示正在进行"
+            },
+            {
+              "text": "making",
+              "phonetic": "/ˈmeɪkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；整理；make的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "potato",
+              "phonetic": "/pəˈteɪtəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "马铃薯；土豆"
+            },
+            {
+              "text": "soup",
+              "phonetic": "/suːp/",
+              "partOfSpeech": "n.",
+              "meaning": "汤"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "Yes",
+              "phonetic": "/jes/",
+              "partOfSpeech": "interj.",
+              "meaning": "是的（确认做晚饭）"
+            },
+            {
+              "text": "am",
+              "phonetic": "/æm/",
+              "partOfSpeech": "auxiliary v.",
+              "meaning": "与making连用，表示正在进行"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "ask-kitchen-action",
+      "targetPattern": "ask-kitchen-action",
+      "prompt": "把询问做鸡肉改成询问洗土豆，保留now。",
+      "answer": "Are you washing the potatoes now?",
+      "chinese": "你现在正在洗土豆吗？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "name-dinner-food",
+      "targetPattern": "name-dinner-food",
+      "prompt": "把番茄鸡蛋汤换成土豆汤，保留Yes回应和进行时。",
+      "answer": "Yes, I am making potato soup.",
+      "chinese": "是的，我正在做土豆汤。",
+      "isSourceText": false
+    }
+  ]
+}

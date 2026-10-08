@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-unit8",
+  "name": "三年级下册 Unit 8 - Colours",
+  "description": "辨认颜色并描述图中物品；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "3b87c9a88c78654df4eac57c924cd333300adc35b8e70c0e053700c34ef6b74e",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "3b87c9a88c78654df4eac57c924cd333300adc35b8e70c0e053700c34ef6b74e",
+      "content/sentence-practice.json": "24e53a3e4be6aec6209e66fcf8be502fb1eabda0cbb65ca2f551c5504a275dcb",
+      "content/conversation-practice.json": "ab20fd798c3232fb7222ea165de29d93d9f940e79d51c6bbe9e568eaab58a781",
+      "content/growth-content.json": "9aa8e5184b15fc43c356870c26ab2d70ade08dd08cc2ed7a21ee6a074ca4afe2"
+    },
+    "manifestHash": "2b8a62e47c866952bd40ecb8f63840a8b2cf22809b2094efa895b9813a848bc6"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "辨认颜色并描述图中物品"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": 8,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Colours",
+        "辨认颜色并描述图中物品"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

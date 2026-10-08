@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester1-unit5",
+  "name": "四年级上册 Unit 5 - Different toys, same fun",
+  "description": "描述不同玩具的五官身体和带来的乐趣；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "f9673b7333f555436f28177f171cff18cada2b76cdfa4161a9c49de271fb048c",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "f9673b7333f555436f28177f171cff18cada2b76cdfa4161a9c49de271fb048c",
+      "content/sentence-practice.json": "306b12351af0e44882ce51afcc43d519f2a1e290cad2afc2b52c68dfcf7ffdd5",
+      "content/conversation-practice.json": "486c06904c4c5ce72d3abf6980eb5407561e696e0c5b7f485d15614c964f2f56",
+      "content/growth-content.json": "b4bd46fe80adb7d298335431e43bb38ad17e3bec6d45053385969b7bea5c206a"
+    },
+    "manifestHash": "973975200546a62234a863bf07403a15946d7d352f365815e29994c0fd240a8b"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "描述不同玩具的五官身体和带来的乐趣"
+      },
+      "grade": 4,
+      "semester": 1,
+      "unit": 5,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Different toys, same fun",
+        "描述不同玩具的五官身体和带来的乐趣"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

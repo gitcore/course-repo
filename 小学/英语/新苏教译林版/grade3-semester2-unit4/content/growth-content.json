@@ -1,0 +1,148 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-unit4",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "534c4d4267622940d21ea33abf94bec7bc54eb0c5bd5c5ed4df860962eb8d2a0",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "ask-location",
+      "displayName": "Where's ...?：询问位置",
+      "examples": [
+        "Where's my toy duck?"
+      ],
+      "transferExamples": [
+        "Where's my pencil case?"
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Where’s加物品，用来询问单个物品的位置。",
+      "sourceExamples": [
+        {
+          "sentence": "Where's my toy duck?",
+          "chinese": "我的玩具鸭在哪里？",
+          "sourceLine": "line-3",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Where's my pencil case?",
+          "chinese": "我的铅笔盒在哪里？",
+          "words": [
+            {
+              "text": "Where's",
+              "phonetic": "/weəz/",
+              "partOfSpeech": "缩略式",
+              "meaning": "where is，在哪里"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "pencil",
+              "phonetic": "/ˈpensəl/",
+              "partOfSpeech": "n.",
+              "meaning": "铅笔"
+            },
+            {
+              "text": "case",
+              "phonetic": "/keɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "盒；容器（pencil case中的词）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "describe-location",
+      "displayName": "... is by ...：说明相对位置",
+      "examples": [
+        "The duck is by the tree."
+      ],
+      "transferExamples": [
+        "The plane is by the tree."
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "The duck是单数主语；is后接位置短语。",
+      "sourceExamples": [
+        {
+          "sentence": "The duck is by the tree.",
+          "chinese": "鸭子在树旁边。",
+          "sourceLine": "line-6",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "The plane is by the tree.",
+          "chinese": "飞机在树旁边。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "plane",
+              "phonetic": "/pleɪn/",
+              "partOfSpeech": "n.",
+              "meaning": "飞机"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（用于单数）"
+            },
+            {
+              "text": "by",
+              "phonetic": "/baɪ/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……旁边"
+            },
+            {
+              "text": "tree",
+              "phonetic": "/triː/",
+              "partOfSpeech": "n.",
+              "meaning": "树；树木"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "ask-location",
+      "targetPattern": "ask-location",
+      "prompt": "想知道铅笔盒的位置，用Where’s询问。",
+      "answer": "Where's my pencil case?",
+      "chinese": "我的铅笔盒在哪里？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "describe-location",
+      "targetPattern": "describe-location",
+      "prompt": "图中的飞机在树旁边，写出一句位置说明。",
+      "answer": "The plane is by the tree.",
+      "chinese": "飞机在树旁边。",
+      "isSourceText": false
+    }
+  ]
+}

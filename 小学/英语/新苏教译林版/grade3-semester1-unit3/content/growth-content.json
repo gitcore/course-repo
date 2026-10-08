@@ -1,0 +1,136 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-unit3",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "5c105830c5dceccb38dd8ac025215ce2093fb456a88ab675f895a99979c46c1d",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "confirm-identity",
+      "displayName": "Are you：确认身份",
+      "examples": [
+        "Are you Tom?"
+      ],
+      "transferExamples": [
+        "Are you May?"
+      ],
+      "sourceItemKeys": [
+        "line-1"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Are you加姓名构成确认身份的问句。",
+      "sourceExamples": [
+        {
+          "sentence": "Are you Tom?",
+          "chinese": "你是Tom吗？",
+          "sourceLine": "line-1",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Are you May?",
+          "chinese": "你是May吗？",
+          "words": [
+            {
+              "text": "Are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "May",
+              "phonetic": "/meɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "May（原创角色）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "tell-class",
+      "displayName": "I'm in Class：说明班级",
+      "examples": [
+        "I'm in Class 2."
+      ],
+      "transferExamples": [
+        "I'm in Class 1."
+      ],
+      "sourceItemKeys": [
+        "line-9"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I'm in Class后接班级编号。",
+      "sourceExamples": [
+        {
+          "sentence": "I'm in Class 2.",
+          "chinese": "我在二班。",
+          "sourceLine": "line-9",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I'm in Class 1.",
+          "chinese": "我在一班。",
+          "words": [
+            {
+              "text": "I'm",
+              "phonetic": "/aɪm/",
+              "partOfSpeech": "contraction",
+              "meaning": "I am的缩写；我是"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……中"
+            },
+            {
+              "text": "Class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "同学们；班级"
+            },
+            {
+              "text": "1",
+              "phonetic": "/wʌn/",
+              "partOfSpeech": "num.",
+              "meaning": "一（班级编号）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "confirm-identity",
+      "targetPattern": "confirm-identity",
+      "prompt": "把身份确认问句中的Tom换成May。",
+      "answer": "Are you May?",
+      "chinese": "你是May吗？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "tell-class",
+      "targetPattern": "tell-class",
+      "prompt": "扮演一班同学，把班级编号2换成1。",
+      "answer": "I'm in Class 1.",
+      "chinese": "我在一班。",
+      "isSourceText": false
+    }
+  ]
+}

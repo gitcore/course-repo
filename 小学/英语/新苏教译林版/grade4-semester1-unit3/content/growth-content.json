@@ -1,0 +1,292 @@
+{
+  "manifestId": "new-yilin-grade4-semester1-unit3",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "bb9fb63b6c97bbae1c8b1db51351b24bbbac7b15e5c1d45e1af05219085eee59",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "weekday-activity",
+      "displayName": "I ... on ...：周计划",
+      "examples": [
+        "I walk my dog on Wednesday."
+      ],
+      "transferExamples": [
+        "I walk my dog on Saturday."
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "walk my dog表示遛狗，on Wednesday说明哪天做。",
+      "sourceExamples": [
+        {
+          "sentence": "I walk my dog on Wednesday.",
+          "chinese": "我星期三遛狗。",
+          "sourceLine": "line-6",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "walk",
+              "phonetic": "/wɔːk/",
+              "partOfSpeech": "v.",
+              "meaning": "遛（动物）；步行"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            },
+            {
+              "text": "dog",
+              "phonetic": "/dɒɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "狗"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（星期几）"
+            },
+            {
+              "text": "Wednesday",
+              "phonetic": "/ˈwenzdeɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "星期三"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I walk my dog on Saturday.",
+          "chinese": "我星期六遛狗。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "walk",
+              "phonetic": "/wɔːk/",
+              "partOfSpeech": "v.",
+              "meaning": "遛（动物）；步行"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            },
+            {
+              "text": "dog",
+              "phonetic": "/dɒɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "狗"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（星期几）"
+            },
+            {
+              "text": "Saturday",
+              "phonetic": "/ˈsætədeɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "星期六"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "ask-lesson-time",
+      "displayName": "When do you：问课程时间",
+      "examples": [
+        "When do you have dancing lessons?"
+      ],
+      "transferExamples": [
+        "When do you have an Art lesson?"
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "when询问活动时间，dancing在这里修饰lessons，表示舞蹈课。",
+      "sourceExamples": [
+        {
+          "sentence": "When do you have dancing lessons?",
+          "chinese": "你什么时候上舞蹈课？",
+          "sourceLine": "line-4",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "When",
+              "phonetic": "/wen/",
+              "partOfSpeech": "adv.",
+              "meaning": "什么时候"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "aux.",
+              "meaning": "助动词；用于构成疑问句或肯定回答，无单独的“做”义"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "上（课）"
+            },
+            {
+              "text": "dancing",
+              "phonetic": "/ˈdɑːnsɪŋ/",
+              "partOfSpeech": "n. (modifier)",
+              "meaning": "舞蹈；在dancing lessons中修饰课程"
+            },
+            {
+              "text": "lessons",
+              "phonetic": "/ˈlesənz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "课；lesson的复数"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "上（课）"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "aux.",
+              "meaning": "助动词；用于构成疑问句或肯定回答，无单独的“做”义"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "When do you have an Art lesson?",
+          "chinese": "你什么时候上美术课？",
+          "words": [
+            {
+              "text": "When",
+              "phonetic": "/wen/",
+              "partOfSpeech": "adv.",
+              "meaning": "什么时候"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "aux.",
+              "meaning": "助动词；用于构成疑问句或肯定回答，无单独的“做”义"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有课程安排；在本句表示上相应课程"
+            },
+            {
+              "text": "an",
+              "phonetic": "/ən/",
+              "partOfSpeech": "art.",
+              "meaning": "一（用于元音音素前）"
+            },
+            {
+              "text": "Art",
+              "phonetic": "/ɑːt/",
+              "partOfSpeech": "n.",
+              "meaning": "美术（课）"
+            },
+            {
+              "text": "lesson",
+              "phonetic": "/ˈlesən/",
+              "partOfSpeech": "n.",
+              "meaning": "一节课"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有课程安排；在本句表示上相应课程"
+            },
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "aux.",
+              "meaning": "助动词；用于构成疑问句或肯定回答，无单独的“做”义"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "weekday-activity",
+      "targetPattern": "weekday-activity",
+      "prompt": "把遛狗的日期由Wednesday换成Saturday。",
+      "answer": "I walk my dog on Saturday.",
+      "chinese": "我星期六遛狗。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "ask-lesson-time",
+      "targetPattern": "ask-lesson-time",
+      "prompt": "把dancing lessons换成an Art lesson。",
+      "answer": "When do you have an Art lesson?",
+      "chinese": "你什么时候上美术课？",
+      "isSourceText": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-unit2",
+  "name": "三年级下册 Unit 2 - Clean our classroom",
+  "description": "分工整理教室并表达可承担的清洁任务；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "e1144e3af148938cfdb4e1f8e405876ceea840573a84f58f8de2d0b9ea86c5a2",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "e1144e3af148938cfdb4e1f8e405876ceea840573a84f58f8de2d0b9ea86c5a2",
+      "content/sentence-practice.json": "9c8cca80a75ada1913622dc880e0b298c6beff9b3f92c8cb0a357f7540ddbe7e",
+      "content/conversation-practice.json": "e38d8503409d02162fb1eb75bc3c3e9dbd5aa4f44a77b9e404917942256bb647",
+      "content/growth-content.json": "2b0f09992ad37fb48584bfad95fe5cae978c81110ec3943890e86f35e4c0f0e0"
+    },
+    "manifestHash": "34ec4f8506ac66736e00677276fd4aad114d9da9ab1eca08d547857a31404a38"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "分工整理教室并表达可承担的清洁任务"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": 2,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Clean our classroom",
+        "分工整理教室并表达可承担的清洁任务"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

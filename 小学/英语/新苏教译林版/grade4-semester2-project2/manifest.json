@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-project2",
+  "name": "四年级下册 Project 2 - A good helper",
+  "description": "结合家人职业、家务能力与做菜分工介绍自己怎样帮忙；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "381acb93432e6e53e228604c211a70b407d4f7b0f8fc5a7bc9b7c47dfd37d608",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "381acb93432e6e53e228604c211a70b407d4f7b0f8fc5a7bc9b7c47dfd37d608",
+      "content/sentence-practice.json": "1dd60b3d0a950431e66879db2b63c14f80c3d3183aab804a4579a407e37d744f",
+      "content/conversation-practice.json": "155eeb3ca6ea979b5953ea9d61a3a433842752a7bdfa664e30dcfa792c4a9c8d",
+      "content/growth-content.json": "3e694aa966e354f4b821c2ddd133ee6cba1f40422f07750a4021904c505c2d04"
+    },
+    "manifestHash": "edc8caff1f691ae1e858cccc7f2247868cedc7105ae8c6b161410b9d1e5caff0"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "结合家人职业、家务能力与做菜分工介绍自己怎样帮忙"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": null,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "A good helper",
+        "结合家人职业、家务能力与做菜分工介绍自己怎样帮忙"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

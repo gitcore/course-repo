@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-unit3",
+  "name": "四年级下册 Unit 3 - Road safety",
+  "description": "乘车出行与按顺序安全过马路；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "6cf927ffd851105a9337f101557cec1b80ce79588b644cde94d4b0feee22a806",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "6cf927ffd851105a9337f101557cec1b80ce79588b644cde94d4b0feee22a806",
+      "content/sentence-practice.json": "e193227cb6663852c86d0ec9da195448358ed53e76e0349c2967e3b803b8e615",
+      "content/conversation-practice.json": "a3eb21cdb91dbdce8dd343010daf7041b2633ccc5e9d81dff62a847114034d71",
+      "content/growth-content.json": "3f289dff261599ec401771132e2f4e6544b9f9eb7c0c03a1a6ad9ff840f7499c"
+    },
+    "manifestHash": "e1844f7daa3a056c96f3ff6bbc0eb58b0f2dada70f48227c563ca27ac0fcfc4f"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "乘车出行与按顺序安全过马路"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": 3,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Road safety",
+        "乘车出行与按顺序安全过马路"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester1-unit2",
+  "name": "四年级上册 Unit 2 - My day",
+  "description": "把时间和一天的生活学习活动对应起来；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "7d8fe47027f77d0fd79654c1c399b481523c88b86d73cfaa37f7a60e7eefc227",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "7d8fe47027f77d0fd79654c1c399b481523c88b86d73cfaa37f7a60e7eefc227",
+      "content/sentence-practice.json": "23815b9860c758cf1225720506e3c8c069d4255c9934395621c0b72f96ae621d",
+      "content/conversation-practice.json": "c06deccab425bca1460c9aa0262fd38a90857fb2031963956a3c093d23064458",
+      "content/growth-content.json": "31232a71233a17896c6aa87cb29227d051a4e61ee6ca3d5d2c21fce2816b59af"
+    },
+    "manifestHash": "62e2b2a97859650b686bc191b4ecb3a06e5556e8456be1bb7f7b3b7900bee8b4"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "把时间和一天的生活学习活动对应起来"
+      },
+      "grade": 4,
+      "semester": 1,
+      "unit": 2,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "My day",
+        "把时间和一天的生活学习活动对应起来"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

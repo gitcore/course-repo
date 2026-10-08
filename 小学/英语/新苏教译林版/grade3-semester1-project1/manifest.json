@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester1-project1",
+  "name": "三年级上册 Project 1 - Making friends",
+  "description": "制作姓名牌并综合完成结识与介绍朋友的交流；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "cf1523800cbca6bbdc1b1381fa2f933108512505d4abb8112c0f6712f12e31e5",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "cf1523800cbca6bbdc1b1381fa2f933108512505d4abb8112c0f6712f12e31e5",
+      "content/sentence-practice.json": "d131ce592d9536ae4df082997dc602bc4f0bc4753c7b97754429787795acc78a",
+      "content/conversation-practice.json": "752044a58a39ebcbbd7581cfe3696178b56a3bcecd6591a51001d21619fe09e2",
+      "content/growth-content.json": "25030d4284ffaf400446b30017ce9400f11b274fd9916bc7221ee700ba068280"
+    },
+    "manifestHash": "cbc6df9daf175c24949f066bb18c43327b7371d1b8fd85fff7955a9dbe79258a"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "制作姓名牌并综合完成结识与介绍朋友的交流"
+      },
+      "grade": 3,
+      "semester": 1,
+      "unit": null,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Making friends",
+        "制作姓名牌并综合完成结识与介绍朋友的交流"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

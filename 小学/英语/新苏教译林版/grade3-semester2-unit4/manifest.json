@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-unit4",
+  "name": "三年级下册 Unit 4 - Have fun after class",
+  "description": "安排课后活动并说明物品的位置；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "534c4d4267622940d21ea33abf94bec7bc54eb0c5bd5c5ed4df860962eb8d2a0",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "534c4d4267622940d21ea33abf94bec7bc54eb0c5bd5c5ed4df860962eb8d2a0",
+      "content/sentence-practice.json": "b93cae2dd1a7976708829efb74031f9a1eeae784f688901446bec2bfb3d79a8e",
+      "content/conversation-practice.json": "3471ae515720d3516f5fee462bbfee01fc0eab320d8d9d3ab94a4909543bb01c",
+      "content/growth-content.json": "64dea84eec6faff2bbf78475034fd430805ef9dac09914ba4402c99cccc142b8"
+    },
+    "manifestHash": "bfad22386c84fcc0c68ddf45e0163e9279281b09bafcccd7ad962ffe51357488"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "安排课后活动并说明物品的位置"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": 4,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Have fun after class",
+        "安排课后活动并说明物品的位置"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

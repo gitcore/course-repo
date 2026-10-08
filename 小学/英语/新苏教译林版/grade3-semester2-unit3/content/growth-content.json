@@ -1,0 +1,160 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-unit3",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "6069a82e052f0dab6d3118a4e0fdc9d4a25b56746d663f243f7219e3258dd3ee",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "prohibit-action",
+      "displayName": "Don't ...：用规则表达禁止",
+      "examples": [
+        "Don't run in the classroom."
+      ],
+      "transferExamples": [
+        "Don't run in the library."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Don’t加run表达禁止；in the classroom说明适用地点。",
+      "sourceExamples": [
+        {
+          "sentence": "Don't run in the classroom.",
+          "chinese": "不要在教室里跑。",
+          "sourceLine": "line-2",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Don't run in the library.",
+          "chinese": "不要在图书馆里跑。",
+          "words": [
+            {
+              "text": "Don't",
+              "phonetic": "/dəʊnt/",
+              "partOfSpeech": "contraction",
+              "meaning": "do not的缩写；不"
+            },
+            {
+              "text": "run",
+              "phonetic": "/rʌn/",
+              "partOfSpeech": "v.",
+              "meaning": "跑；奔跑"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里面（配套表达）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "library",
+              "phonetic": "/ˈlaɪbrəri/",
+              "partOfSpeech": "n.",
+              "meaning": "图书馆"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "polite-instruction",
+      "displayName": "Keep ...：礼貌提出要求",
+      "examples": [
+        "Keep quiet in class, please."
+      ],
+      "transferExamples": [
+        "Keep quiet in the library, please."
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Keep quiet表达保持安静；please使要求更礼貌。",
+      "sourceExamples": [
+        {
+          "sentence": "Keep quiet in class, please.",
+          "chinese": "上课时请保持安静。",
+          "sourceLine": "line-4",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Keep quiet in the library, please.",
+          "chinese": "请在图书馆里保持安静。",
+          "words": [
+            {
+              "text": "Keep",
+              "phonetic": "/kiːp/",
+              "partOfSpeech": "v.",
+              "meaning": "使保持；处于"
+            },
+            {
+              "text": "quiet",
+              "phonetic": "/ˈkwaɪət/",
+              "partOfSpeech": "adj.",
+              "meaning": "安静的"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里面（配套表达）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "library",
+              "phonetic": "/ˈlaɪbrəri/",
+              "partOfSpeech": "n.",
+              "meaning": "图书馆"
+            },
+            {
+              "text": "please",
+              "phonetic": "/pliːz/",
+              "partOfSpeech": "interj.",
+              "meaning": "请"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "prohibit-action",
+      "targetPattern": "prohibit-action",
+      "prompt": "为图书馆做一条禁止奔跑的规则。",
+      "answer": "Don't run in the library.",
+      "chinese": "不要在图书馆里跑。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "polite-instruction",
+      "targetPattern": "polite-instruction",
+      "prompt": "在图书馆中礼貌提醒同伴保持安静。",
+      "answer": "Keep quiet in the library, please.",
+      "chinese": "请在图书馆里保持安静。",
+      "isSourceText": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-unit2",
+  "name": "四年级下册 Unit 2 - Helping others at school",
+  "description": "帮助新同学认识校园设施与所在楼层；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "c6e08f2647d953df67b8fd65a6e0388e467d33f3616c6f1bc3cb04c09fc974b5",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "c6e08f2647d953df67b8fd65a6e0388e467d33f3616c6f1bc3cb04c09fc974b5",
+      "content/sentence-practice.json": "f0c9e1de76043fcc0778dee51a6045ba6ef1645dcfe945408dddd12c6a6d4a7c",
+      "content/conversation-practice.json": "d95467c4be6231896c020473cf5df5bc2606d2fd50f62f0d55c1bec8ee1fe902",
+      "content/growth-content.json": "82e0b8ff698b6911785f83d03dbd7226fde406f2a7c464f22a97327aa9967d82"
+    },
+    "manifestHash": "abb344f2bdf3e15bdea883b79aa9d4f4c29cc2b7ff0d2319804e9b6325c724ac"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "帮助新同学认识校园设施与所在楼层"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": 2,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Helping others at school",
+        "帮助新同学认识校园设施与所在楼层"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-unit6",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "30a12e32e292ee3f45d8966fea30d549f9dfc9ef432c34111a57468bc58abc34",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "confirm-grandparent",
+      "displayName": "Is he/she your：确认家人身份",
+      "examples": [
+        "Is he your grandpa?"
+      ],
+      "transferExamples": [
+        "Is she your grandma?"
+      ],
+      "sourceItemKeys": [
+        "line-1"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Is he your加男性家庭关系词，询问是否为该关系。",
+      "sourceExamples": [
+        {
+          "sentence": "Is he your grandpa?",
+          "chinese": "他是你的爷爷吗？",
+          "sourceLine": "line-1",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Is she your grandma?",
+          "chinese": "她是你的奶奶吗？",
+          "words": [
+            {
+              "text": "Is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "she",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的"
+            },
+            {
+              "text": "grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "correct-family-relation",
+      "displayName": "He's/She's my：说明正确关系",
+      "examples": [
+        "He's my uncle."
+      ],
+      "transferExamples": [
+        "She's my aunt."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "uncle可表示叔叔、伯伯、舅舅等；具体中文称呼需看家庭关系。",
+      "sourceExamples": [
+        {
+          "sentence": "He's my uncle.",
+          "chinese": "他是我的叔叔。",
+          "sourceLine": "line-7",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "She's my aunt.",
+          "chinese": "她是我的姨妈。",
+          "words": [
+            {
+              "text": "She's",
+              "phonetic": "/ʃiːz/",
+              "partOfSpeech": "contraction",
+              "meaning": "She is的缩写；她是"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "aunt",
+              "phonetic": "/ɑːnt/",
+              "partOfSpeech": "n.",
+              "meaning": "姑姑、姨妈、婶婶等女性长辈"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "confirm-grandparent",
+      "targetPattern": "confirm-grandparent",
+      "prompt": "把男性祖辈问句换成询问女性祖辈的问句。",
+      "answer": "Is she your grandma?",
+      "chinese": "她是你的奶奶吗？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "correct-family-relation",
+      "targetPattern": "correct-family-relation",
+      "prompt": "把男性亲属介绍换成介绍女性长辈aunt。",
+      "answer": "She's my aunt.",
+      "chinese": "她是我的姨妈。",
+      "isSourceText": false
+    }
+  ]
+}

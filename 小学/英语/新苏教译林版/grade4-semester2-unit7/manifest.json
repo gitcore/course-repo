@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-unit7",
+  "name": "四年级下册 Unit 7 - Doing chores at home",
+  "description": "观察家务分工并制作家务时间表；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "5724ee1fb3f479b4adf73408f322ee8a268d76636ead8d967bc2332f466602dd",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "5724ee1fb3f479b4adf73408f322ee8a268d76636ead8d967bc2332f466602dd",
+      "content/sentence-practice.json": "fd4ba02394033574f124b34d2d6bbf42dcb387a4d8abc6992ecc71ccb5993450",
+      "content/conversation-practice.json": "7f4a7f047eaddc870a571b1bf97c8f20c68b463a6657d082d29b2788afce1968",
+      "content/growth-content.json": "3f4b4557310757cede413a85ea8647b3e0c9c86d139ffe9d9c4957b74f04d186"
+    },
+    "manifestHash": "91e4a73a8e9882f6bdc09c7d0d48442968b34656d72d182abb1142bffbfa99d1"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "观察家务分工并制作家务时间表"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": 7,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Doing chores at home",
+        "观察家务分工并制作家务时间表"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

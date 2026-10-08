@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-unit7",
+  "name": "三年级下册 Unit 7 - Animals",
+  "description": "描述动物并交流喜好，制作动物卡；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "91b6c8a2b38f26d0b1fc81282746e9648451b9346a8c85bedccf54132c000522",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "91b6c8a2b38f26d0b1fc81282746e9648451b9346a8c85bedccf54132c000522",
+      "content/sentence-practice.json": "5a5587c490a15257ca6bf74f6c042378e1aa25be997be4192515976c8888fa9a",
+      "content/conversation-practice.json": "fb14e7ed89d2a812014eeefc9bdcaec7150cc2a13c4279d8c2a29ea8ed77f020",
+      "content/growth-content.json": "1f57801e6cdf05f842934f1ee42264190df5bda103af44829c3cb7feeb59c40a"
+    },
+    "manifestHash": "35c6809c966dc120d6ed1dbd96ae1a41a753c2f56a865b67298c3993fa6e515c"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "描述动物并交流喜好，制作动物卡"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": 7,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Animals",
+        "描述动物并交流喜好，制作动物卡"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

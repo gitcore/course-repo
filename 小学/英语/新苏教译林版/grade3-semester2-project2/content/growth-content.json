@@ -1,0 +1,154 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-project2",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "86bd6b21ee529cada9043fb7e3aea6f37f1f9708540106f3ce1d2bfe6a38295f",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "park-plural-location",
+      "displayName": "... are by ...：说明多个动物的位置",
+      "examples": [
+        "The ducks are by the pond."
+      ],
+      "transferExamples": [
+        "The rabbits are by the tree."
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "复数主语ducks用are；by the pond说明位置。",
+      "sourceExamples": [
+        {
+          "sentence": "The ducks are by the pond.",
+          "chinese": "这些鸭子在池塘旁边。",
+          "sourceLine": "line-5",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "The rabbits are by the tree.",
+          "chinese": "这些兔子在树旁边。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "rabbits",
+              "phonetic": "/ˈræbɪts/",
+              "partOfSpeech": "n.",
+              "meaning": "兔子；rabbit的复数"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是（与you及复数搭配）"
+            },
+            {
+              "text": "by",
+              "phonetic": "/baɪ/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……旁边"
+            },
+            {
+              "text": "tree",
+              "phonetic": "/triː/",
+              "partOfSpeech": "n.",
+              "meaning": "树；树木"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "park-colour",
+      "displayName": "What colour is ...?：公园中的颜色问答",
+      "examples": [
+        "What colour is the rabbit?"
+      ],
+      "transferExamples": [
+        "What colour is the flower?"
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "What colour is询问一个动物的颜色。",
+      "sourceExamples": [
+        {
+          "sentence": "What colour is the rabbit?",
+          "chinese": "这只兔子是什么颜色的？",
+          "sourceLine": "line-6",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "What colour is the flower?",
+          "chinese": "这朵花是什么颜色的？",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "det.",
+              "meaning": "什么"
+            },
+            {
+              "text": "colour",
+              "phonetic": "/ˈkʌlə/",
+              "partOfSpeech": "n.",
+              "meaning": "颜色；色彩（美式拼写color）"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（用于单数）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "flower",
+              "phonetic": "/ˈflaʊə/",
+              "partOfSpeech": "n.",
+              "meaning": "花；花朵"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "park-plural-location",
+      "targetPattern": "park-plural-location",
+      "prompt": "根据公园图，介绍树旁边的几只兔子。",
+      "answer": "The rabbits are by the tree.",
+      "chinese": "这些兔子在树旁边。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "park-colour",
+      "targetPattern": "park-colour",
+      "prompt": "指着公园图中的一朵花，向同伴询问颜色。",
+      "answer": "What colour is the flower?",
+      "chinese": "这朵花是什么颜色的？",
+      "isSourceText": false
+    }
+  ]
+}

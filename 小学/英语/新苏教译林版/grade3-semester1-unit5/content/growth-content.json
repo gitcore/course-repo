@@ -1,0 +1,124 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-unit5",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "2e67b34017b57ec9609d9a6cb67cdb1803a0e44a99bcc6a908fa20df36f5d038",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "ask-family-person",
+      "displayName": "Who's he/she：询问家人身份",
+      "examples": [
+        "Who's he?"
+      ],
+      "transferExamples": [
+        "Who's she?"
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Who's he用来询问男性人物的身份。",
+      "sourceExamples": [
+        {
+          "sentence": "Who's he?",
+          "chinese": "他是谁？",
+          "sourceLine": "line-3",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Who's she?",
+          "chinese": "她是谁？",
+          "words": [
+            {
+              "text": "Who's",
+              "phonetic": "/huːz/",
+              "partOfSpeech": "contraction",
+              "meaning": "Who is的缩写；是谁"
+            },
+            {
+              "text": "she",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "tell-family-relation",
+      "displayName": "She's my：介绍女性家人",
+      "examples": [
+        "She's my mother."
+      ],
+      "transferExamples": [
+        "She's my sister."
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "She's my后接女性家庭成员的称呼。",
+      "sourceExamples": [
+        {
+          "sentence": "She's my mother.",
+          "chinese": "她是我妈妈。",
+          "sourceLine": "line-6",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "She's my sister.",
+          "chinese": "她是我的姐姐。",
+          "words": [
+            {
+              "text": "She's",
+              "phonetic": "/ʃiːz/",
+              "partOfSpeech": "contraction",
+              "meaning": "She is的缩写；她是"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "sister",
+              "phonetic": "/ˈsɪstə/",
+              "partOfSpeech": "n.",
+              "meaning": "姐姐；妹妹"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "ask-family-person",
+      "targetPattern": "ask-family-person",
+      "prompt": "把人物身份问句中的he换成she。",
+      "answer": "Who's she?",
+      "chinese": "她是谁？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "tell-family-relation",
+      "targetPattern": "tell-family-relation",
+      "prompt": "把介绍中的mother换成sister。",
+      "answer": "She's my sister.",
+      "chinese": "她是我的姐姐。",
+      "isSourceText": false
+    }
+  ]
+}

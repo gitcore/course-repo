@@ -1,0 +1,202 @@
+{
+  "manifestId": "new-yilin-grade5-semester1-unit1",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "c38008564514c443b0ca10256a01504044eccfe0485bc6f7584cadaf04729f12",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "third-person-habits",
+      "displayName": "He/She does ...：第三人称习惯",
+      "examples": [
+        "She listens carefully in class."
+      ],
+      "transferExamples": [
+        "He listens carefully in class."
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "第三人称单数用listens；carefully修饰听的方式。",
+      "sourceExamples": [
+        {
+          "sentence": "She listens carefully in class.",
+          "chinese": "她上课认真听讲。",
+          "sourceLine": "line-4",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "She",
+              "phonetic": "/ʃiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她"
+            },
+            {
+              "text": "listens",
+              "phonetic": "/ˈlɪsənz/",
+              "partOfSpeech": "v.",
+              "meaning": "听；listen的第三人称单数"
+            },
+            {
+              "text": "carefully",
+              "phonetic": "/ˈkeəfəli/",
+              "partOfSpeech": "adv.",
+              "meaning": "仔细地，小心翼翼地"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（in class表示上课时）"
+            },
+            {
+              "text": "class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "课；课堂"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（in class表示上课时）"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "He listens carefully in class.",
+          "chinese": "他上课认真听讲。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他"
+            },
+            {
+              "text": "listens",
+              "phonetic": "/ˈlɪsənz/",
+              "partOfSpeech": "v.",
+              "meaning": "听；listen的第三人称单数"
+            },
+            {
+              "text": "carefully",
+              "phonetic": "/ˈkeəfəli/",
+              "partOfSpeech": "adv.",
+              "meaning": "仔细地，小心翼翼地"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（in class表示上课时）"
+            },
+            {
+              "text": "class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "课；课堂"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（in class表示上课时）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "have-has",
+      "displayName": "has：介绍一个人的习惯",
+      "examples": [
+        "Lily has many good habits."
+      ],
+      "transferExamples": [
+        "Tom has many good habits."
+      ],
+      "sourceItemKeys": [
+        "line-6"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "have的第三人称单数是不规则形式has。",
+      "sourceExamples": [
+        {
+          "sentence": "Lily has many good habits.",
+          "chinese": "Lily有很多好习惯。",
+          "sourceLine": "line-6",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Tom has many good habits.",
+          "chinese": "Tom有很多好习惯。",
+          "words": [
+            {
+              "text": "Tom",
+              "phonetic": "/tɒm/",
+              "partOfSpeech": "proper n.",
+              "meaning": "Tom（原创角色）"
+            },
+            {
+              "text": "has",
+              "phonetic": "/hæz/",
+              "partOfSpeech": "v.",
+              "meaning": "有；have的第三人称单数"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "adj.",
+              "meaning": "许多的"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "habits",
+              "phonetic": "/ˈhæbɪts/",
+              "partOfSpeech": "n.",
+              "meaning": "习惯；habit的复数"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "third-person-habits",
+      "targetPattern": "third-person-habits",
+      "prompt": "把认真听讲的同伴换成一个男孩，用He介绍。",
+      "answer": "He listens carefully in class.",
+      "chinese": "他上课认真听讲。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "have-has",
+      "targetPattern": "have-has",
+      "prompt": "用Tom作主语，介绍他有很多好习惯。",
+      "answer": "Tom has many good habits.",
+      "chinese": "Tom有很多好习惯。",
+      "isSourceText": false
+    }
+  ]
+}

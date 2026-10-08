@@ -1,0 +1,214 @@
+{
+  "manifestId": "new-yilin-grade4-semester1-project1",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "930175c567771e4d945087150813347daa5d84f650b6372c82f877bca6779899",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "weekly-reading-time",
+      "displayName": "I ... at ...：日程时间",
+      "examples": [
+        "I read books at seven o'clock."
+      ],
+      "transferExamples": [
+        "I read books at eight o'clock."
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "at seven o'clock说明读书的时间。",
+      "sourceExamples": [
+        {
+          "sentence": "I read books at seven o'clock.",
+          "chinese": "我七点读书。",
+          "sourceLine": "line-5",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "read",
+              "phonetic": "/riːd/",
+              "partOfSpeech": "v.",
+              "meaning": "阅读"
+            },
+            {
+              "text": "books",
+              "phonetic": "/bʊks/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "书；book的复数"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（具体时间）"
+            },
+            {
+              "text": "seven",
+              "phonetic": "/ˈsevən/",
+              "partOfSpeech": "num.",
+              "meaning": "七"
+            },
+            {
+              "text": "o'clock",
+              "phonetic": "/əˈklɒk/",
+              "partOfSpeech": "adv.",
+              "meaning": "……点钟（整点表达）"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（具体时间）"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I read books at eight o'clock.",
+          "chinese": "我八点读书。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "read",
+              "phonetic": "/riːd/",
+              "partOfSpeech": "v.",
+              "meaning": "阅读"
+            },
+            {
+              "text": "books",
+              "phonetic": "/bʊks/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "书；book的复数"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（具体时间）"
+            },
+            {
+              "text": "eight",
+              "phonetic": "/eɪt/",
+              "partOfSpeech": "num.",
+              "meaning": "八"
+            },
+            {
+              "text": "o'clock",
+              "phonetic": "/əˈklɒk/",
+              "partOfSpeech": "adv.",
+              "meaning": "……点钟（整点表达）"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（具体时间）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "weekly-sport-plan",
+      "displayName": "I ... on ...：每周运动安排",
+      "examples": [
+        "I play football on Friday."
+      ],
+      "transferExamples": [
+        "I play ping-pong on Saturday."
+      ],
+      "sourceItemKeys": [
+        "line-9"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "on Friday说明一周中的具体日期。",
+      "sourceExamples": [
+        {
+          "sentence": "I play football on Friday.",
+          "chinese": "我星期五踢足球。",
+          "sourceLine": "line-9",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I play ping-pong on Saturday.",
+          "chinese": "我星期六打乒乓球。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "打球；踢球；玩"
+            },
+            {
+              "text": "ping-pong",
+              "phonetic": "/ˈpɪŋpɒŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "乒乓球运动"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（星期几）"
+            },
+            {
+              "text": "Saturday",
+              "phonetic": "/ˈsætədeɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "星期六"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "weekly-reading-time",
+      "targetPattern": "weekly-reading-time",
+      "prompt": "把日程表的读书时间由七点改为八点。",
+      "answer": "I read books at eight o'clock.",
+      "chinese": "我八点读书。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "weekly-sport-plan",
+      "targetPattern": "weekly-sport-plan",
+      "prompt": "把运动和日期分别改为ping-pong与Saturday。",
+      "answer": "I play ping-pong on Saturday.",
+      "chinese": "我星期六打乒乓球。",
+      "isSourceText": false
+    }
+  ]
+}

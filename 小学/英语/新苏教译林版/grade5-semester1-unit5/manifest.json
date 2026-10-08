@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade5-semester1-unit5",
+  "name": "五年级上册 Unit 5 - At weekends",
+  "description": "制作周末活动轮盘并用频率词交流安排；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "b77635d3e6f13d935b325203b5f3ad37c9f1b2b3d4ae2e7866ae2e28383f7946",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "b77635d3e6f13d935b325203b5f3ad37c9f1b2b3d4ae2e7866ae2e28383f7946",
+      "content/sentence-practice.json": "97d6b04c2e617042563354785c936ca65ec7f7d04b4dcbb90b4dc079113128a2",
+      "content/conversation-practice.json": "254c378a71575b96834968dbabb9c9dab86d75026fb040bc1e90215e623eb126",
+      "content/growth-content.json": "4182b72c002048a44607dfc8758e367fd29d7ec9bfa276d16527ed007a999e08"
+    },
+    "manifestHash": "346590fb249c1c122040fcd810ecec8d480ac5f5c2edbd8dff4bda059773541d"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "制作周末活动轮盘并用频率词交流安排"
+      },
+      "grade": 5,
+      "semester": 1,
+      "unit": 5,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "At weekends",
+        "制作周末活动轮盘并用频率词交流安排"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

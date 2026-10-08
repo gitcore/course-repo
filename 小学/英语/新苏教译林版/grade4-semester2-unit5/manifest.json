@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-unit5",
+  "name": "四年级下册 Unit 5 - Eating out",
+  "description": "在新的餐馆场景中礼貌点餐、分享与打包；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "4427e321f4f6a124b16f950af357729f41979dca737ae24fc698ff6a4b64f1ee",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "4427e321f4f6a124b16f950af357729f41979dca737ae24fc698ff6a4b64f1ee",
+      "content/sentence-practice.json": "d2b436f336d6ccf28c0c2d791d8646f16d546eea1c7d459ad8f4a3ef8470b64b",
+      "content/conversation-practice.json": "f24dcef527d3ad95ba9b1eb0cc1e8dcd7b1cb12345119c3102a767dfb804b76c",
+      "content/growth-content.json": "609cbbcebe35cc1fc3e66753cd0bcfc17b3633ea91e1af60d5490e42c4001304"
+    },
+    "manifestHash": "7a43bf6dfe18ffa244910b5ac72f36a183000283d44d992d3cf5d5ebcde9dc5f"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "在新的餐馆场景中礼貌点餐、分享与打包"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": 5,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Eating out",
+        "在新的餐馆场景中礼貌点餐、分享与打包"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

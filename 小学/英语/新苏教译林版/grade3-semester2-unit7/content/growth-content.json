@@ -1,0 +1,136 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-unit7",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "91b6c8a2b38f26d0b1fc81282746e9648451b9346a8c85bedccf54132c000522",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "animal-preference",
+      "displayName": "I like ...：表达动物喜好",
+      "examples": [
+        "I like pandas."
+      ],
+      "transferExamples": [
+        "I like tigers."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "like后用pandas表示这一类动物。",
+      "sourceExamples": [
+        {
+          "sentence": "I like pandas.",
+          "chinese": "我喜欢大熊猫。",
+          "sourceLine": "line-2",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I like tigers.",
+          "chinese": "我喜欢老虎。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢；喜爱"
+            },
+            {
+              "text": "tigers",
+              "phonetic": "/ˈtaɪɡəz/",
+              "partOfSpeech": "n.",
+              "meaning": "老虎；tiger的复数"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "ask-preference",
+      "displayName": "Do you like ...?：询问喜好",
+      "examples": [
+        "Do you like monkeys?"
+      ],
+      "transferExamples": [
+        "Do you like lions?"
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Do you like ...?询问动物喜好；monkeys为复数。",
+      "sourceExamples": [
+        {
+          "sentence": "Do you like monkeys?",
+          "chinese": "你喜欢猴子吗？",
+          "sourceLine": "line-3",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Do you like lions?",
+          "chinese": "你喜欢狮子吗？",
+          "words": [
+            {
+              "text": "Do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢；喜爱"
+            },
+            {
+              "text": "lions",
+              "phonetic": "/ˈlaɪənz/",
+              "partOfSpeech": "n.",
+              "meaning": "狮子；lion的复数"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "animal-preference",
+      "targetPattern": "animal-preference",
+      "prompt": "把自己喜欢的动物换成老虎，写一句喜好表达。",
+      "answer": "I like tigers.",
+      "chinese": "我喜欢老虎。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "ask-preference",
+      "targetPattern": "ask-preference",
+      "prompt": "向同伴询问是否喜欢狮子。",
+      "answer": "Do you like lions?",
+      "chinese": "你喜欢狮子吗？",
+      "isSourceText": false
+    }
+  ]
+}

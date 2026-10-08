@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-unit1",
+  "name": "四年级下册 Unit 1 - We're friends",
+  "description": "在班级联欢会准备与画画活动中互相帮助；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "f9ff61651def6fdd4cb5cf988e460c0c4e6009cada8cc80022074fce530cbc91",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "f9ff61651def6fdd4cb5cf988e460c0c4e6009cada8cc80022074fce530cbc91",
+      "content/sentence-practice.json": "555c45ba4f8d81ef19092584a099de8bb92edebb2607d947d5a14dcf527442d7",
+      "content/conversation-practice.json": "012040085d526405eeb6c2136dff4dc411ba97670de53d9ba4edc6465a510587",
+      "content/growth-content.json": "c1fdf054a221e85a44be4f28eb70f471a88dea802c51757b72ef75a78118eb62"
+    },
+    "manifestHash": "2c7fcc2a1c18fa659dd54bc09750ee13330455bd90349ddfa7cb073caeba120e"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "在班级联欢会准备与画画活动中互相帮助"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": 1,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "We're friends",
+        "在班级联欢会准备与画画活动中互相帮助"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

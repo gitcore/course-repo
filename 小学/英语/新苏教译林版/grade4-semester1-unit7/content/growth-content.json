@@ -1,0 +1,244 @@
+{
+  "manifestId": "new-yilin-grade4-semester1-unit7",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "376c68d08f4d4888ae09b46551ffdd5d39d08b3055847c12763c15b1a85507de",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "favourite-season",
+      "displayName": "I like ... best：最喜欢的季节",
+      "examples": [
+        "I like spring best."
+      ],
+      "transferExamples": [
+        "I like winter best."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "用I like加季节再加best说明最喜欢的季节。",
+      "sourceExamples": [
+        {
+          "sentence": "I like spring best.",
+          "chinese": "我最喜欢春天。",
+          "sourceLine": "line-2",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "spring",
+              "phonetic": "/sprɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "春天"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adv.",
+              "meaning": "最；最喜欢的程度"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I like winter best.",
+          "chinese": "我最喜欢冬天。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "winter",
+              "phonetic": "/ˈwɪntə/",
+              "partOfSpeech": "n.",
+              "meaning": "冬天"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adv.",
+              "meaning": "最；最喜欢的程度"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "season-activity",
+      "displayName": "I ... in ...：季节活动",
+      "examples": [
+        "I go swimming in summer."
+      ],
+      "transferExamples": [
+        "I go boating in summer."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "go swimming是去游泳，in summer说明季节。",
+      "sourceExamples": [
+        {
+          "sentence": "I go swimming in summer.",
+          "chinese": "我在夏天去游泳。",
+          "sourceLine": "line-7",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "去"
+            },
+            {
+              "text": "swimming",
+              "phonetic": "/ˈswɪmɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "游泳；与go构成go swimming"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "summer",
+              "phonetic": "/ˈsʌmə/",
+              "partOfSpeech": "n.",
+              "meaning": "夏天"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "swimming",
+              "phonetic": "/ˈswɪmɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "游泳；与go构成go swimming"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I go boating in summer.",
+          "chinese": "我在夏天去划船。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "去"
+            },
+            {
+              "text": "boating",
+              "phonetic": "/ˈbəʊtɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "在go boating中表示划船"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "summer",
+              "phonetic": "/ˈsʌmə/",
+              "partOfSpeech": "n.",
+              "meaning": "夏天"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "favourite-season",
+      "targetPattern": "favourite-season",
+      "prompt": "把spring换成winter。",
+      "answer": "I like winter best.",
+      "chinese": "我最喜欢冬天。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "season-activity",
+      "targetPattern": "season-activity",
+      "prompt": "把活动go swimming换成go boating，保留summer。",
+      "answer": "I go boating in summer.",
+      "chinese": "我在夏天去划船。",
+      "isSourceText": false
+    }
+  ]
+}

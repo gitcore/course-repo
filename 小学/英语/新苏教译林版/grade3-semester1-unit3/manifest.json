@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester1-unit3",
+  "name": "三年级上册 Unit 3 - Are you Su Hai?",
+  "description": "确认新朋友身份并交流所在班级；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "5c105830c5dceccb38dd8ac025215ce2093fb456a88ab675f895a99979c46c1d",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "5c105830c5dceccb38dd8ac025215ce2093fb456a88ab675f895a99979c46c1d",
+      "content/sentence-practice.json": "8d4c1d06ba41f28427e7eb0b4b6074dc947c1f34763a66f670449e2dfd931931",
+      "content/conversation-practice.json": "7caa1a4bd854a7176f124a468fb6da094828ab9baa58a02eb183bab6c3cd187b",
+      "content/growth-content.json": "8eea74fa0e976ee8e5bb4dc3fc99e8858d14ca22001c76501f772847b117362f"
+    },
+    "manifestHash": "95779308a7fb2d80a026a598441dbdf72b79f93f0e54426d28559facd520e424"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "确认新朋友身份并交流所在班级"
+      },
+      "grade": 3,
+      "semester": 1,
+      "unit": 3,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Are you Su Hai?",
+        "确认新朋友身份并交流所在班级"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "manifestId": "new-yilin-grade4-semester2-unit5",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "4427e321f4f6a124b16f950af357729f41979dca737ae24fc698ff6a4b64f1ee",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "order-food",
+      "displayName": "I'd like ...：点一种食物",
+      "examples": [
+        "I'd like some noodles."
+      ],
+      "transferExamples": [
+        "I'd like some hot dogs."
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I’d是I would缩写；noodles为复数食物名词。",
+      "sourceExamples": [
+        {
+          "sentence": "I'd like some noodles.",
+          "chinese": "我想吃一些面条。",
+          "sourceLine": "line-4",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I'd like some hot dogs.",
+          "chinese": "我想吃几个热狗。",
+          "words": [
+            {
+              "text": "I'd",
+              "phonetic": "/aɪd/",
+              "partOfSpeech": "contraction",
+              "meaning": "I would的缩写（复习或原创场景支持词）"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "想要；喜欢（复习或原创场景支持词）"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些（复习或原创场景支持词）"
+            },
+            {
+              "text": "hot",
+              "phonetic": "/hɒt/",
+              "partOfSpeech": "adj.",
+              "meaning": "hot dogs中的名称组成词，整体表示热狗"
+            },
+            {
+              "text": "dogs",
+              "phonetic": "/dɒɡz/",
+              "partOfSpeech": "n.",
+              "meaning": "hot dogs中指多个热狗，dog为词组中的实际词形（复习或原创场景支持词）"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "hot",
+              "phonetic": "/hɒt/",
+              "partOfSpeech": "adj.",
+              "meaning": "hot dogs中的名称组成词，整体表示热狗"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "order-drink",
+      "displayName": "I'd like a cup of ...：点饮料",
+      "examples": [
+        "I'd like a cup of tea."
+      ],
+      "transferExamples": [
+        "I'd like a cup of juice."
+      ],
+      "sourceItemKeys": [
+        "line-5"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "a cup of tea作为完整饮料数量表达；tea不可数。",
+      "sourceExamples": [
+        {
+          "sentence": "I'd like a cup of tea.",
+          "chinese": "我想喝一杯茶。",
+          "sourceLine": "line-5",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I'd like a cup of juice.",
+          "chinese": "我想喝一杯果汁。",
+          "words": [
+            {
+              "text": "I'd",
+              "phonetic": "/aɪd/",
+              "partOfSpeech": "contraction",
+              "meaning": "I would的缩写（复习或原创场景支持词）"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "想要；喜欢（复习或原创场景支持词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "cup",
+              "phonetic": "/kʌp/",
+              "partOfSpeech": "n.",
+              "meaning": "茶杯（复习或原创场景支持词）"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的（复习或原创场景支持词）"
+            },
+            {
+              "text": "juice",
+              "phonetic": "/dʒuːs/",
+              "partOfSpeech": "n.",
+              "meaning": "果汁"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "order-food",
+      "targetPattern": "order-food",
+      "prompt": "用I’d like点几个热狗，把面条换成热狗。",
+      "answer": "I'd like some hot dogs.",
+      "chinese": "我想吃几个热狗。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "order-drink",
+      "targetPattern": "order-drink",
+      "prompt": "把茶换成果汁，保留a cup of表达。",
+      "answer": "I'd like a cup of juice.",
+      "chinese": "我想喝一杯果汁。",
+      "isSourceText": false
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade5-semester1-project1",
+  "name": "五年级上册 Project 1 - A happy life poster",
+  "description": "把安全、好习惯、爱好和感受组织成幸福生活海报；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "975137b064c53a61ef7e64107a66da30972fdb612cbefcb6465a50ca3f728be5",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "975137b064c53a61ef7e64107a66da30972fdb612cbefcb6465a50ca3f728be5",
+      "content/sentence-practice.json": "ce700593eb847ed199fb3acc909874b5b38fc7a99b66a59b56d76bc1e0791cff",
+      "content/conversation-practice.json": "7418a14002f3649d0b68dfccd8f1314e9a966c0bb4a5ffc83976fd1e4041e43f",
+      "content/growth-content.json": "f14807f0a42d6f168c196160ee85e59f44aced32cb58ac34bf116a65223b7191"
+    },
+    "manifestHash": "2b482ceef6370f4f9dad26d1c44a72295120498472a31441450d04a64f0b704e"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "把安全、好习惯、爱好和感受组织成幸福生活海报"
+      },
+      "grade": 5,
+      "semester": 1,
+      "unit": null,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "A happy life poster",
+        "把安全、好习惯、爱好和感受组织成幸福生活海报"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

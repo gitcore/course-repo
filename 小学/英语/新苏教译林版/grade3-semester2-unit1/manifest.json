@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-unit1",
+  "name": "三年级下册 Unit 1 - School things",
+  "description": "识别、询问并妥善收放学习用品；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "5867e709828b0fe61e71553def4cf56451a22133f9f98f1f5ddd137c3a6b2eb9",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "5867e709828b0fe61e71553def4cf56451a22133f9f98f1f5ddd137c3a6b2eb9",
+      "content/sentence-practice.json": "69a6e9c6f8c8b58558c9c996feb19e46a395c6aecb9d80f1055a8750d429e60e",
+      "content/conversation-practice.json": "cfaa6d390308258414144d4ccc483c0ef96ac3f64c025aeca40e48de2400ba33",
+      "content/growth-content.json": "f2367531b9b7b7f076149176b06cb84b6e697bbf1a5217bf0b34b72363d54148"
+    },
+    "manifestHash": "25e8d56fb2eec2f917589901051737b912b5a1921bb94d3b7460d7d43acd890e"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "识别、询问并妥善收放学习用品"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": 1,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "School things",
+        "识别、询问并妥善收放学习用品"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

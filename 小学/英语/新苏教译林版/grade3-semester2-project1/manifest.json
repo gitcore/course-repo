@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-project1",
+  "name": "三年级下册 Project 1 - A good student",
+  "description": "展示保管文具、参与清洁和遵守校规的做法；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "fca622ff5c93689280f96e1c715b3491251d0428814b9b9398a95712fff16f5a",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "fca622ff5c93689280f96e1c715b3491251d0428814b9b9398a95712fff16f5a",
+      "content/sentence-practice.json": "a34cfb8ca21c4f0c99e00c9a6afa7d8ab31b12848e72d02e052778b3e253d2fd",
+      "content/conversation-practice.json": "fa98cacdc23a72a484054b4b70de8440ff4029e9553b6fa5b007998f9c26a22d",
+      "content/growth-content.json": "e5b78107f08c9a4b9244f344c98c27d21580654269824a1359122a96bb66309a"
+    },
+    "manifestHash": "c92ed5ed7eccf7139d453dbd9bd834f62d2957122d658e582aa6ab3a547ca53a"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "展示保管文具、参与清洁和遵守校规的做法"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": null,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "A good student",
+        "展示保管文具、参与清洁和遵守校规的做法"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

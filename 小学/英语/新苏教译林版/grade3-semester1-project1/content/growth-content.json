@@ -1,0 +1,148 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-project1",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "cf1523800cbca6bbdc1b1381fa2f933108512505d4abb8112c0f6712f12e31e5",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "project-tell-name",
+      "displayName": "My name is：姓名牌自我介绍",
+      "examples": [
+        "My name is Tom."
+      ],
+      "transferExamples": [
+        "My name is May."
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "My name is后接自己的姓名。",
+      "sourceExamples": [
+        {
+          "sentence": "My name is Tom.",
+          "chinese": "我叫Tom。",
+          "sourceLine": "line-4",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "My name is May.",
+          "chinese": "我叫May。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "name",
+              "phonetic": "/neɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "名字"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "May",
+              "phonetic": "/meɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "May（原创角色）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "project-introduce-friend",
+      "displayName": "This is my friend：介绍新朋友",
+      "examples": [
+        "This is my friend, Tom."
+      ],
+      "transferExamples": [
+        "This is my friend, May."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "把刚认识的同伴介绍给其他人。",
+      "sourceExamples": [
+        {
+          "sentence": "This is my friend, Tom.",
+          "chinese": "这是我的朋友Tom。",
+          "sourceLine": "line-7",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "This is my friend, May.",
+          "chinese": "这是我的朋友May。",
+          "words": [
+            {
+              "text": "This",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "friend",
+              "phonetic": "/frend/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友"
+            },
+            {
+              "text": "May",
+              "phonetic": "/meɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "May（原创角色）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "project-tell-name",
+      "targetPattern": "project-tell-name",
+      "prompt": "扮演May，依据姓名牌介绍自己。",
+      "answer": "My name is May.",
+      "chinese": "我叫May。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "project-introduce-friend",
+      "targetPattern": "project-introduce-friend",
+      "prompt": "把新朋友Tom换成May介绍给小组。",
+      "answer": "This is my friend, May.",
+      "chinese": "这是我的朋友May。",
+      "isSourceText": false
+    }
+  ]
+}

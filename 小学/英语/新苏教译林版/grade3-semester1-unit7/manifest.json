@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester1-unit7",
+  "name": "三年级上册 Unit 7 - Happy Birthday!",
+  "description": "生日祝福、年龄交流与礼貌交换礼物；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "c8cecbdf90614e676fc54fe6fb57119ede457778f0030506edf460705ee2a157",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "c8cecbdf90614e676fc54fe6fb57119ede457778f0030506edf460705ee2a157",
+      "content/sentence-practice.json": "74d9fd6eb6385f5e527e8b81154844807b8d6a4d37f00500bf2adeb6f6a234f5",
+      "content/conversation-practice.json": "1b8f33a24746741d9c70857a896bc29bb4e8f4ea642cd92cc51c9a56c6c0ac87",
+      "content/growth-content.json": "e572c370598e2649c505179d0b88fc46bfd35f216208c7b1f455efbf034a4b8b"
+    },
+    "manifestHash": "9067f37fbd501e4f0c33127c92db680d3165a564efba4b8bdf8ec5e58236f0d0"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "生日祝福、年龄交流与礼貌交换礼物"
+      },
+      "grade": 3,
+      "semester": 1,
+      "unit": 7,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Happy Birthday!",
+        "生日祝福、年龄交流与礼貌交换礼物"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

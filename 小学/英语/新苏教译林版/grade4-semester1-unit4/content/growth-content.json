@@ -1,0 +1,190 @@
+{
+  "manifestId": "new-yilin-grade4-semester1-unit4",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "155c059ca689b947ac8e9891e5e63002d69b6ae8719697fd2f1cb7dd60d697cd",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "sport-preference",
+      "displayName": "I like playing：喜欢的球类",
+      "examples": [
+        "I like playing football."
+      ],
+      "transferExamples": [
+        "I like playing basketball."
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "like playing加球类说明喜欢进行这项运动。",
+      "sourceExamples": [
+        {
+          "sentence": "I like playing football.",
+          "chinese": "我喜欢踢足球。",
+          "sourceLine": "line-3",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "playing",
+              "phonetic": "/ˈpleɪɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "玩；打球（like playing中的动名词）"
+            },
+            {
+              "text": "football",
+              "phonetic": "/ˈfʊtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "足球；足球运动"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I like playing basketball.",
+          "chinese": "我喜欢打篮球。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "playing",
+              "phonetic": "/ˈpleɪɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "玩；打球（like playing中的动名词）"
+            },
+            {
+              "text": "basketball",
+              "phonetic": "/ˈbɑːskɪtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "篮球；篮球运动"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "play-well",
+      "displayName": "I can ... well：运动能力",
+      "examples": [
+        "I can play football well."
+      ],
+      "transferExamples": [
+        "I can play ping-pong well."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "can说明能力；well是副词，说明踢得好。",
+      "sourceExamples": [
+        {
+          "sentence": "I can play football well.",
+          "chinese": "我足球踢得好。",
+          "sourceLine": "line-7",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I can play ping-pong well.",
+          "chinese": "我乒乓球打得好。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；会"
+            },
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "打球；踢球；玩"
+            },
+            {
+              "text": "ping-pong",
+              "phonetic": "/ˈpɪŋpɒŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "乒乓球运动"
+            },
+            {
+              "text": "well",
+              "phonetic": "/wel/",
+              "partOfSpeech": "adv.",
+              "meaning": "好；动作做得好"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "sport-preference",
+      "targetPattern": "sport-preference",
+      "prompt": "把football换成basketball。",
+      "answer": "I like playing basketball.",
+      "chinese": "我喜欢打篮球。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "play-well",
+      "targetPattern": "play-well",
+      "prompt": "把能力表达中的football换成ping-pong。",
+      "answer": "I can play ping-pong well.",
+      "chinese": "我乒乓球打得好。",
+      "isSourceText": false
+    }
+  ]
+}

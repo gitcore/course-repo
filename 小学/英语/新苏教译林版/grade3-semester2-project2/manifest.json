@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester2-project2",
+  "name": "三年级下册 Project 2 - My nature park",
+  "description": "纸上设计自然公园并介绍动物、果树、颜色和位置；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "86bd6b21ee529cada9043fb7e3aea6f37f1f9708540106f3ce1d2bfe6a38295f",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "86bd6b21ee529cada9043fb7e3aea6f37f1f9708540106f3ce1d2bfe6a38295f",
+      "content/sentence-practice.json": "9b0858e618863fd5f8bca16d1330f5602d650a438835b194d153dcd0f6486b48",
+      "content/conversation-practice.json": "6e6f4fe8de9415629af1ca785196d628b29862e62fd84b0635efb28f49ab6653",
+      "content/growth-content.json": "6e38280aa4b304a62c2e7d93822e5279f706e52400bb72904f084307ca5c3d83"
+    },
+    "manifestHash": "7142f773e1f6bff5f119e25681165d61bd327ae4fed263425ec67d1400094ae7"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "纸上设计自然公园并介绍动物、果树、颜色和位置"
+      },
+      "grade": 3,
+      "semester": 2,
+      "unit": null,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "My nature park",
+        "纸上设计自然公园并介绍动物、果树、颜色和位置"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

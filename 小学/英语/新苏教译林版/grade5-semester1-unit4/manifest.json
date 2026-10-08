@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade5-semester1-unit4",
+  "name": "五年级上册 Unit 4 - Safety first",
+  "description": "为学校作品展布置安全规则并说明原因；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "32fde3d874ba51f1ba5591134101bc1c5bcc1625da82c89a876c659a13713f75",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "32fde3d874ba51f1ba5591134101bc1c5bcc1625da82c89a876c659a13713f75",
+      "content/sentence-practice.json": "eaae810a25480738c7f19759f666d2e886ac0cefd93630e64941d53214c90662",
+      "content/conversation-practice.json": "feb6c084425da3daf256bd984610558297082502069294e52ffa408a1917f21c",
+      "content/growth-content.json": "712c4bf136a7f9a54b9ed1cc0e32bb069f3ad39419a6f91fa1b7346e28cde337"
+    },
+    "manifestHash": "aa9e89d1f9a46f08e2f59052ea00761e00983224f12649489f36f5771c99f4f0"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "为学校作品展布置安全规则并说明原因"
+      },
+      "grade": 5,
+      "semester": 1,
+      "unit": 4,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Safety first",
+        "为学校作品展布置安全规则并说明原因"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

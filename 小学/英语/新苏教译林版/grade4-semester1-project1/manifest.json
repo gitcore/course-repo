@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester1-project1",
+  "name": "四年级上册 Project 1 - My weekly plan",
+  "description": "整合日程、学科喜好和运动安排制作周计划；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "930175c567771e4d945087150813347daa5d84f650b6372c82f877bca6779899",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "930175c567771e4d945087150813347daa5d84f650b6372c82f877bca6779899",
+      "content/sentence-practice.json": "e4200c10e6f8490b9c548e5d5a83a6d07cd742a9c114c54fa703c69943e85be4",
+      "content/conversation-practice.json": "1a9d5e1726e91a04a23976dec1c2e6f5a2768c3de67120a3a6bee3e7f02b9d55",
+      "content/growth-content.json": "f02b5bf51540cb7798005ac76d86f8ab76f3c2c36693b17aa439642648e46495"
+    },
+    "manifestHash": "9f9c493800f71ff58e4792b7f4e88b3848f7fe3369bc458fe67acc387c835b89"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "整合日程、学科喜好和运动安排制作周计划"
+      },
+      "grade": 4,
+      "semester": 1,
+      "unit": null,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "My weekly plan",
+        "整合日程、学科喜好和运动安排制作周计划"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

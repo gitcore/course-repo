@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade5-semester1-unit3",
+  "name": "五年级上册 Unit 3 - Hobbies",
+  "description": "制作兴趣交流板，询问并介绍同伴的爱好；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "5bfa535ccf77e21d76e32ea1d2ae5844826e99814523a18ee9c7702121755273",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "5bfa535ccf77e21d76e32ea1d2ae5844826e99814523a18ee9c7702121755273",
+      "content/sentence-practice.json": "568640db8ee52ce0a7e061077592c6950295ad48cdbd18aac2391ac5bed08c03",
+      "content/conversation-practice.json": "fda735083048e47b7e3f28eb31202b792f4044dee12b3d6ed6f2650b065889f3",
+      "content/growth-content.json": "2932eb0a574212c48421989521dfc52a62b491c76e404af36d9f0af99318d3a1"
+    },
+    "manifestHash": "c9090b0ddb245c18622d3b79fc6ac8a625be64ee968cd658e710e97b8dc880c5"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "制作兴趣交流板，询问并介绍同伴的爱好"
+      },
+      "grade": 5,
+      "semester": 1,
+      "unit": 3,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Hobbies",
+        "制作兴趣交流板，询问并介绍同伴的爱好"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

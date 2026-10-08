@@ -1,0 +1,166 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-unit4",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "7846833a1028d1604ac4e56265f9fb6d252c36c32bd3b670e1e90c660d154637",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "introduce-friend",
+      "displayName": "This is my friend：介绍朋友",
+      "examples": [
+        "This is my friend, May."
+      ],
+      "transferExamples": [
+        "This is my friend, Tom."
+      ],
+      "sourceItemKeys": [
+        "line-1"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "This is用于介绍别人，my friend说明与自己的关系。",
+      "sourceExamples": [
+        {
+          "sentence": "This is my friend, May.",
+          "chinese": "这是我的朋友May。",
+          "sourceLine": "line-1",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "This is my friend, Tom.",
+          "chinese": "这是我的朋友Tom。",
+          "words": [
+            {
+              "text": "This",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "pron.",
+              "meaning": "这；这个"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "friend",
+              "phonetic": "/frend/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友"
+            },
+            {
+              "text": "Tom",
+              "phonetic": "/tɒm/",
+              "partOfSpeech": "proper n.",
+              "meaning": "Tom（原创角色）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "have-friends",
+      "displayName": "I have many friends：说出朋友情况",
+      "examples": [
+        "I have many friends."
+      ],
+      "transferExamples": [
+        "I have many friends in my class."
+      ],
+      "sourceItemKeys": [
+        "line-8"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "I have表示“我有”，many后用复数名词friends。",
+      "sourceExamples": [
+        {
+          "sentence": "I have many friends.",
+          "chinese": "我有很多朋友。",
+          "sourceLine": "line-8",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I have many friends in my class.",
+          "chinese": "我在班里有很多朋友。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "det.",
+              "meaning": "许多"
+            },
+            {
+              "text": "friends",
+              "phonetic": "/frendz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "朋友们；friend的复数"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……中"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "同学们；班级"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "introduce-friend",
+      "targetPattern": "introduce-friend",
+      "prompt": "把介绍中的朋友May换成Tom。",
+      "answer": "This is my friend, Tom.",
+      "chinese": "这是我的朋友Tom。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "have-friends",
+      "targetPattern": "have-friends",
+      "prompt": "在朋友数量表达后，加上in my class说明范围。",
+      "answer": "I have many friends in my class.",
+      "chinese": "我在班里有很多朋友。",
+      "isSourceText": false
+    }
+  ]
+}

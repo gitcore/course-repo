@@ -1,0 +1,130 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-unit6",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "53aede87fc7825dce72e87ae92078ad2e178c2b757a3cdbdacaa06f5bcc57384",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "plural-identity",
+      "displayName": "What are these?：询问近处多个事物",
+      "examples": [
+        "What are these?"
+      ],
+      "transferExamples": [
+        "What are those?"
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "these指近处多个事物，be动词用are。",
+      "sourceExamples": [
+        {
+          "sentence": "What are these?",
+          "chinese": "这些是什么？",
+          "sourceLine": "line-2",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "What are those?",
+          "chinese": "那些是什么？",
+          "words": [
+            {
+              "text": "What",
+              "phonetic": "/wɒt/",
+              "partOfSpeech": "pron.",
+              "meaning": "什么"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是（与you及复数搭配）"
+            },
+            {
+              "text": "those",
+              "phonetic": "/ðəʊz/",
+              "partOfSpeech": "pron.",
+              "meaning": "那些"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "plural-confirmation",
+      "displayName": "Are those ...?：确认多个动物",
+      "examples": [
+        "Are those cows?"
+      ],
+      "transferExamples": [
+        "Are those chickens?"
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Are those ...?确认远处多个事物的身份。",
+      "sourceExamples": [
+        {
+          "sentence": "Are those cows?",
+          "chinese": "那些是奶牛吗？",
+          "sourceLine": "line-4",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Are those chickens?",
+          "chinese": "那些是鸡吗？",
+          "words": [
+            {
+              "text": "Are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "是（与you及复数搭配）"
+            },
+            {
+              "text": "those",
+              "phonetic": "/ðəʊz/",
+              "partOfSpeech": "det.",
+              "meaning": "那些"
+            },
+            {
+              "text": "chickens",
+              "phonetic": "/ˈtʃɪkɪnz/",
+              "partOfSpeech": "n.",
+              "meaning": "鸡；chicken的复数"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "plural-identity",
+      "targetPattern": "plural-identity",
+      "prompt": "把询问对象换为远处的多个事物，改写问题。",
+      "answer": "What are those?",
+      "chinese": "那些是什么？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "plural-confirmation",
+      "targetPattern": "plural-confirmation",
+      "prompt": "看到远处几只鸡，用Are those进行确认。",
+      "answer": "Are those chickens?",
+      "chinese": "那些是鸡吗？",
+      "isSourceText": false
+    }
+  ]
+}

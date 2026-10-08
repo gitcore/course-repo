@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester1-unit7",
+  "name": "四年级上册 Unit 7 - Seasons",
+  "description": "介绍四季天气、活动与自己最喜欢的季节；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "376c68d08f4d4888ae09b46551ffdd5d39d08b3055847c12763c15b1a85507de",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "376c68d08f4d4888ae09b46551ffdd5d39d08b3055847c12763c15b1a85507de",
+      "content/sentence-practice.json": "2b7276296a51edd8cc0e17ca3e7e4f9cbd2becdd20058ca8b5f36ddd84d3b19a",
+      "content/conversation-practice.json": "314480d1bca2acefecf60df7614ae7a399ed6e25d59e378cc12d7a6e829f836c",
+      "content/growth-content.json": "b03339d0caad1d2a55c8156f1ce1c2fb033b342234643387356eb4cb8a4bbd91"
+    },
+    "manifestHash": "a48771320a420eb178bd08c73f8e7f9db5bbd45a6e396a7f5872a3f3ae66fd2d"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "介绍四季天气、活动与自己最喜欢的季节"
+      },
+      "grade": 4,
+      "semester": 1,
+      "unit": 7,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Seasons",
+        "介绍四季天气、活动与自己最喜欢的季节"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

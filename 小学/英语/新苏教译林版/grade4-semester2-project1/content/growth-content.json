@@ -1,0 +1,250 @@
+{
+  "manifestId": "new-yilin-grade4-semester2-project1",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "0a3e6229f96b377d308eed1814db2e0f0e7e13b9a414cf4ec1538080a0b1debd",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "model-floors",
+      "displayName": "There are ... on ...：修改模型设施",
+      "examples": [
+        "There are two classrooms on the first floor."
+      ],
+      "transferExamples": [
+        "There are three classrooms on the second floor."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "there are后接复数classrooms；on the first floor说明楼层。",
+      "sourceExamples": [
+        {
+          "sentence": "There are two classrooms on the first floor.",
+          "chinese": "一楼有两间教室。",
+          "sourceLine": "line-2",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "There",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "adv.",
+              "meaning": "there is/are中的引导词，表示有（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            },
+            {
+              "text": "two",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "num.",
+              "meaning": "二（已学数量词复习）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "classrooms",
+              "phonetic": "/ˈklɑːsruːmz/",
+              "partOfSpeech": "n.",
+              "meaning": "教室；classroom的复数（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上面（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "first",
+              "phonetic": "/fɜːst/",
+              "partOfSpeech": "num.",
+              "meaning": "第一（序数词，the first floor指一楼）"
+            },
+            {
+              "text": "floor",
+              "phonetic": "/flɔː/",
+              "partOfSpeech": "n.",
+              "meaning": "楼层（模块项目复习或配套支持词）"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "first",
+              "phonetic": "/fɜːst/",
+              "partOfSpeech": "num.",
+              "meaning": "第一（序数词，the first floor指一楼）"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "There are three classrooms on the second floor.",
+          "chinese": "二楼有三间教室。",
+          "words": [
+            {
+              "text": "There",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "adv.",
+              "meaning": "there is/are中的引导词，表示有（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            },
+            {
+              "text": "three",
+              "phonetic": "/θriː/",
+              "partOfSpeech": "num.",
+              "meaning": "三（已学数量词复习）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "classrooms",
+              "phonetic": "/ˈklɑːsruːmz/",
+              "partOfSpeech": "n.",
+              "meaning": "教室；classroom的复数（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上面（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "second",
+              "phonetic": "/ˈsekənd/",
+              "partOfSpeech": "num.",
+              "meaning": "第二（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "floor",
+              "phonetic": "/flɔː/",
+              "partOfSpeech": "n.",
+              "meaning": "楼层（模块项目复习或配套支持词）"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "road-model-rule",
+      "displayName": "can’t ...：补充道路规则",
+      "examples": [
+        "We can't cross the road now."
+      ],
+      "transferExamples": [
+        "We can't run on the road."
+      ],
+      "sourceItemKeys": [
+        "line-9"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "can’t cross说明红灯时不能横过；now限定当前情况。",
+      "sourceExamples": [
+        {
+          "sentence": "We can't cross the road now.",
+          "chinese": "我们现在不能过马路。",
+          "sourceLine": "line-9",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "We can't run on the road.",
+          "chinese": "我们不能在道路上跑。",
+          "words": [
+            {
+              "text": "We",
+              "phonetic": "/wiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "can't",
+              "phonetic": "/kɑːnt/",
+              "partOfSpeech": "contraction",
+              "meaning": "can not的缩写；不能（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "run",
+              "phonetic": "/rʌn/",
+              "partOfSpeech": "v.",
+              "meaning": "跑（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上面（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "road",
+              "phonetic": "/rəʊd/",
+              "partOfSpeech": "n.",
+              "meaning": "道路；公路（模块项目复习或配套支持词）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "model-floors",
+      "targetPattern": "model-floors",
+      "prompt": "按新模型把两间教室改成三间，把一楼改成二楼。",
+      "answer": "There are three classrooms on the second floor.",
+      "chinese": "二楼有三间教室。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "road-model-rule",
+      "targetPattern": "road-model-rule",
+      "prompt": "用can’t为模型补充不能在道路上跑的规则。",
+      "answer": "We can't run on the road.",
+      "chinese": "我们不能在道路上跑。",
+      "isSourceText": false
+    }
+  ]
+}

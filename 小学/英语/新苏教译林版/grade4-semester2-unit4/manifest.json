@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-unit4",
+  "name": "四年级下册 Unit 4 - Caring about others",
+  "description": "关心家人和同学的状态并提供帮助；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "ddf80a81e9e8c303d3f6710ceac8300c73548f851afbd0a0ccf0f42db6f4f331",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "ddf80a81e9e8c303d3f6710ceac8300c73548f851afbd0a0ccf0f42db6f4f331",
+      "content/sentence-practice.json": "35951fa9144e3ebcb5908035fcf372c891489503864b173af9f0e4d0c6f1e5eb",
+      "content/conversation-practice.json": "926aa4341962c6fe6ba5d7fadf69ed37f385bf8988b5c19523c8be835e9a30af",
+      "content/growth-content.json": "b500fc1dbafbccdc68a5e174039bd35bcb2e6073da6b8a1517e31bb8595ff9d3"
+    },
+    "manifestHash": "3479e80dcf1e6d13a9d4e44e0e5ce798ddcfe541fbb5f43c21eeecde477460de"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "关心家人和同学的状态并提供帮助"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": 4,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Caring about others",
+        "关心家人和同学的状态并提供帮助"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

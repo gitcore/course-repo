@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester2-unit6",
+  "name": "四年级下册 Unit 6 - Jobs",
+  "description": "介绍家人的职业与工作对他人的帮助；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "f1133f4cdb6b3e30df20ff2d90ca922dbd9f554d4c2edf87420fbf736056579e",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "f1133f4cdb6b3e30df20ff2d90ca922dbd9f554d4c2edf87420fbf736056579e",
+      "content/sentence-practice.json": "4eef6f319904c03c4865a287c76a35c2d1486250bd8e0169636f4e1bceada970",
+      "content/conversation-practice.json": "4fae2e6cf94e41db38ecfba8669e9533d9554a385ab22e7209fbceb14374fd0c",
+      "content/growth-content.json": "167337855818d65ba83bcf6593096374d8e719c12ccd2860c84563a55d292377"
+    },
+    "manifestHash": "10235980eaa316cbb12edc1de55e34d95651edab8769b8cd9565e647768a26ed"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "介绍家人的职业与工作对他人的帮助"
+      },
+      "grade": 4,
+      "semester": 2,
+      "unit": 6,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Jobs",
+        "介绍家人的职业与工作对他人的帮助"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

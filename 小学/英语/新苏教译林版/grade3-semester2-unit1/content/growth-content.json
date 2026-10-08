@@ -1,0 +1,154 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-unit1",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "5867e709828b0fe61e71553def4cf56451a22133f9f98f1f5ddd137c3a6b2eb9",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "identify-item",
+      "displayName": "Is that a ...?：确认一个物品",
+      "examples": [
+        "Is that a pencil case?"
+      ],
+      "transferExamples": [
+        "Is that a pen?"
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Is that a ...?用于确认所指的单个物品。",
+      "sourceExamples": [
+        {
+          "sentence": "Is that a pencil case?",
+          "chinese": "那是一个铅笔盒吗？",
+          "sourceLine": "line-2",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Is that a pen?",
+          "chinese": "那是一支钢笔吗？",
+          "words": [
+            {
+              "text": "Is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（用于单数）"
+            },
+            {
+              "text": "that",
+              "phonetic": "/ðæt/",
+              "partOfSpeech": "pron.",
+              "meaning": "那，那个"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "pen",
+              "phonetic": "/pen/",
+              "partOfSpeech": "n.",
+              "meaning": "笔，钢笔"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "put-item-away",
+      "displayName": "Put ... in ...：收放文具",
+      "examples": [
+        "Put the ruler in the pencil case."
+      ],
+      "transferExamples": [
+        "Put the rubber in the pencil case."
+      ],
+      "sourceItemKeys": [
+        "line-8"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "Put开头的祈使句提出收放要求；in表示在内部。",
+      "sourceExamples": [
+        {
+          "sentence": "Put the ruler in the pencil case.",
+          "chinese": "把直尺放进铅笔盒里。",
+          "sourceLine": "line-8",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Put the rubber in the pencil case.",
+          "chinese": "把橡皮放进铅笔盒里。",
+          "words": [
+            {
+              "text": "Put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放，安置"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "rubber",
+              "phonetic": "/ˈrʌbə/",
+              "partOfSpeech": "n.",
+              "meaning": "橡皮"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里面（配套表达）"
+            },
+            {
+              "text": "pencil",
+              "phonetic": "/ˈpensəl/",
+              "partOfSpeech": "n.",
+              "meaning": "铅笔"
+            },
+            {
+              "text": "case",
+              "phonetic": "/keɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "盒；容器（pencil case中的词）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "identify-item",
+      "targetPattern": "identify-item",
+      "prompt": "看到较远处的一支钢笔，用Is that询问。",
+      "answer": "Is that a pen?",
+      "chinese": "那是一支钢笔吗？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "put-item-away",
+      "targetPattern": "put-item-away",
+      "prompt": "请同伴把橡皮放进铅笔盒，用Put开头说一句话。",
+      "answer": "Put the rubber in the pencil case.",
+      "chinese": "把橡皮放进铅笔盒里。",
+      "isSourceText": false
+    }
+  ]
+}

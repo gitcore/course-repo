@@ -1,0 +1,154 @@
+{
+  "manifestId": "new-yilin-grade4-semester2-unit6",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "f1133f4cdb6b3e30df20ff2d90ca922dbd9f554d4c2edf87420fbf736056579e",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "name-family-job",
+      "displayName": "My ... is a ...：介绍家人职业",
+      "examples": [
+        "My father is a taxi driver."
+      ],
+      "transferExamples": [
+        "My father is a train driver."
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "taxi driver整体表示出租车司机；a用于单数职业前。",
+      "sourceExamples": [
+        {
+          "sentence": "My father is a taxi driver.",
+          "chinese": "我的爸爸是一名出租车司机。",
+          "sourceLine": "line-4",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "My father is a train driver.",
+          "chinese": "我的爸爸是一名火车司机。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（复习或原创场景支持词）"
+            },
+            {
+              "text": "father",
+              "phonetic": "/ˈfɑːðə/",
+              "partOfSpeech": "n.",
+              "meaning": "爸爸；父亲（复习或原创场景支持词）"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（用于单数）（复习或原创场景支持词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "train",
+              "phonetic": "/treɪn/",
+              "partOfSpeech": "n.",
+              "meaning": "火车"
+            },
+            {
+              "text": "driver",
+              "phonetic": "/ˈdraɪvə/",
+              "partOfSpeech": "n.",
+              "meaning": "驾驶员；司机"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "job-service",
+      "displayName": "He/She helps ...：说明工作帮助谁",
+      "examples": [
+        "She helps sick people."
+      ],
+      "transferExamples": [
+        "He helps sick people."
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "主语she为第三人称单数，用helps；sick修饰people。",
+      "sourceExamples": [
+        {
+          "sentence": "She helps sick people.",
+          "chinese": "她帮助生病的人。",
+          "sourceLine": "line-3",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "He helps sick people.",
+          "chinese": "他帮助生病的人。",
+          "words": [
+            {
+              "text": "He",
+              "phonetic": "/hiː/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（复习或原创场景支持词）"
+            },
+            {
+              "text": "helps",
+              "phonetic": "/helps/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助；help的第三人称单数（复习或原创场景支持词）"
+            },
+            {
+              "text": "sick",
+              "phonetic": "/sɪk/",
+              "partOfSpeech": "adj.",
+              "meaning": "生病的；有病的（教材星号支持词）"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpəl/",
+              "partOfSpeech": "n.",
+              "meaning": "人；人们"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "name-family-job",
+      "targetPattern": "name-family-job",
+      "prompt": "把出租车司机改成火车司机，完整介绍爸爸职业。",
+      "answer": "My father is a train driver.",
+      "chinese": "我的爸爸是一名火车司机。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "job-service",
+      "targetPattern": "job-service",
+      "prompt": "用He介绍一位男医生的工作，把She换成He。",
+      "answer": "He helps sick people.",
+      "chinese": "他帮助生病的人。",
+      "isSourceText": false
+    }
+  ]
+}

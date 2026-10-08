@@ -1,0 +1,142 @@
+{
+  "manifestId": "new-yilin-grade3-semester1-unit2",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "f9011092267a3f81cc7fd60ac9a1d79325c201fbca69b388bdef1c45b18d0e17",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "ask-name",
+      "displayName": "What's your name：询问姓名",
+      "examples": [
+        "What's your name?"
+      ],
+      "transferExamples": [
+        "Hello, what's your name?"
+      ],
+      "sourceItemKeys": [
+        "line-1"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "What's your name是询问对方姓名的完整表达。",
+      "sourceExamples": [
+        {
+          "sentence": "What's your name?",
+          "chinese": "你叫什么名字？",
+          "sourceLine": "line-1",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "Hello, what's your name?",
+          "chinese": "你好，你叫什么名字？",
+          "words": [
+            {
+              "text": "Hello",
+              "phonetic": "/həˈləʊ/",
+              "partOfSpeech": "interj.",
+              "meaning": "你好"
+            },
+            {
+              "text": "what's",
+              "phonetic": "/wɒts/",
+              "partOfSpeech": "contraction",
+              "meaning": "What is的缩写；是什么"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的"
+            },
+            {
+              "text": "name",
+              "phonetic": "/neɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "名字"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "tell-name",
+      "displayName": "My name is：说出姓名",
+      "examples": [
+        "My name is May."
+      ],
+      "transferExamples": [
+        "My name is Tom."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "My name is后接自己的姓名。",
+      "sourceExamples": [
+        {
+          "sentence": "My name is May.",
+          "chinese": "我叫May。",
+          "sourceLine": "line-2",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "My name is Tom.",
+          "chinese": "我叫Tom。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "name",
+              "phonetic": "/neɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "名字"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是"
+            },
+            {
+              "text": "Tom",
+              "phonetic": "/tɒm/",
+              "partOfSpeech": "proper n.",
+              "meaning": "Tom（原创角色）"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "ask-name",
+      "targetPattern": "ask-name",
+      "prompt": "先用Hello打招呼，再询问对方的姓名。",
+      "answer": "Hello, what's your name?",
+      "chinese": "你好，你叫什么名字？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "tell-name",
+      "targetPattern": "tell-name",
+      "prompt": "扮演Tom，把姓名回答中的May换成Tom。",
+      "answer": "My name is Tom.",
+      "chinese": "我叫Tom。",
+      "isSourceText": false
+    }
+  ]
+}

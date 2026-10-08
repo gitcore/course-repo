@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester1-unit5",
+  "name": "三年级上册 Unit 5 - She's my mother",
+  "description": "借人物卡介绍父母和兄弟姐妹；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "2e67b34017b57ec9609d9a6cb67cdb1803a0e44a99bcc6a908fa20df36f5d038",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "2e67b34017b57ec9609d9a6cb67cdb1803a0e44a99bcc6a908fa20df36f5d038",
+      "content/sentence-practice.json": "bbe4f52e2f1836887424997761d32581499ee3b77cf05177077bd50ec45ed942",
+      "content/conversation-practice.json": "5a2eeda3949934c85299412b9900e57210ad3bb4523106046159a7c8fd3cf4d4",
+      "content/growth-content.json": "e171acd4af0570895a68a9092990e9d06a468e79fbc748e073ff07fb61d5867d"
+    },
+    "manifestHash": "490f1e0ac9778e8247f9c26312e343909db40ce85cbdb54278ec314da19a90a2"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "借人物卡介绍父母和兄弟姐妹"
+      },
+      "grade": 3,
+      "semester": 1,
+      "unit": 5,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "She's my mother",
+        "借人物卡介绍父母和兄弟姐妹"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

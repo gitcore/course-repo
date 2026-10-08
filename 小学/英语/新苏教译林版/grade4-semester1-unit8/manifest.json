@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade4-semester1-unit8",
+  "name": "四年级上册 Unit 8 - What we wear",
+  "description": "介绍节日衣服并询问物品归属和穿戴理由；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "b05adfbeada8aebfbc7a7a2557614230603809852a3e59e813313dbd1824e6a7",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "b05adfbeada8aebfbc7a7a2557614230603809852a3e59e813313dbd1824e6a7",
+      "content/sentence-practice.json": "1f4d4fc7cf1049c84f310d8bcd70a30748c8c5c3a80fdfe870bb2d5f8d725827",
+      "content/conversation-practice.json": "054f02ed0237b248f3323c94dccf278f9e7b065c71793915dff1b78d2239e165",
+      "content/growth-content.json": "14560084755764890b891a1a7955c92951d92389210ff41d380774630e4e7d6d"
+    },
+    "manifestHash": "3313879b8729d091559880bcde8955b2f08e80d8e550b699b33b81f03ee770b8"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-4",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "9-10",
+        "teachingGoal": "介绍节日衣服并询问物品归属和穿戴理由"
+      },
+      "grade": 4,
+      "semester": 1,
+      "unit": 8,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "What we wear",
+        "介绍节日衣服并询问物品归属和穿戴理由"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

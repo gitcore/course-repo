@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade5-semester1-unit7",
+  "name": "五年级上册 Unit 7 - Shopping smart",
+  "description": "为木偶演出列购物清单、询价并核算预算；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "834d10494141fa0b06881f27fd3c4b05ff0673a7bb1322b9e83c807da8bf77fe",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "834d10494141fa0b06881f27fd3c4b05ff0673a7bb1322b9e83c807da8bf77fe",
+      "content/sentence-practice.json": "543e94476ea3463323be2d6f4d12c574aa61d2f7c1c637534b041ac066b48f91",
+      "content/conversation-practice.json": "778bd7636fd577392bc2b18f67cfd2922b5f203d8f63b19ece13b144b1f0bfd5",
+      "content/growth-content.json": "5d805060c8e3dc558bad100d895866f73da5817d79a6ce662401b093adee298d"
+    },
+    "manifestHash": "c6cdbaab2d48e86f87ca5be2ed475cbc592fa30c087446eaf780a80825dc076a"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-5",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "10-11",
+        "teachingGoal": "为木偶演出列购物清单、询价并核算预算"
+      },
+      "grade": 5,
+      "semester": 1,
+      "unit": 7,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Shopping smart",
+        "为木偶演出列购物清单、询价并核算预算"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

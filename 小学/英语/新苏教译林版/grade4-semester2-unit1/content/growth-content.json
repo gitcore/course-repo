@@ -1,0 +1,310 @@
+{
+  "manifestId": "new-yilin-grade4-semester2-unit1",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "f9ff61651def6fdd4cb5cf988e460c0c4e6009cada8cc80022074fce530cbc91",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "single-scene-object",
+      "displayName": "There is ...：描述一个物品",
+      "examples": [
+        "There is a small hole in the bag."
+      ],
+      "transferExamples": [
+        "There is a small hole in the box."
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "a small hole是单数；in the bag在这里说明袋子上的洞。",
+      "sourceExamples": [
+        {
+          "sentence": "There is a small hole in the bag.",
+          "chinese": "袋子上有一个小洞。",
+          "sourceLine": "line-7",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "There",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "adv.",
+              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "small",
+              "phonetic": "/smɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "小的（复习或原创场景支持词）"
+            },
+            {
+              "text": "hole",
+              "phonetic": "/həʊl/",
+              "partOfSpeech": "n.",
+              "meaning": "洞（教材星号支持词）"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里面（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "bag",
+              "phonetic": "/bæɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "包；袋（复习或原创场景支持词）"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "There is a small hole in the box.",
+          "chinese": "盒子上有一个小洞。",
+          "words": [
+            {
+              "text": "There",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "adv.",
+              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "small",
+              "phonetic": "/smɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "小的（复习或原创场景支持词）"
+            },
+            {
+              "text": "hole",
+              "phonetic": "/həʊl/",
+              "partOfSpeech": "n.",
+              "meaning": "洞（教材星号支持词）"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里面（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "box",
+              "phonetic": "/bɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "盒子（复习或原创场景支持词）"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "plural-scene-objects",
+      "displayName": "There are ...：描述多个物品",
+      "examples": [
+        "There are three games at the party."
+      ],
+      "transferExamples": [
+        "There are two chairs in our classroom."
+      ],
+      "sourceItemKeys": [
+        "line-2"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "games是复数，用there are；three说明数量。",
+      "sourceExamples": [
+        {
+          "sentence": "There are three games at the party.",
+          "chinese": "联欢会上有三个游戏。",
+          "sourceLine": "line-2",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "There",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "adv.",
+              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            },
+            {
+              "text": "three",
+              "phonetic": "/θriː/",
+              "partOfSpeech": "num.",
+              "meaning": "三（已学数量词复习）（复习或原创场景支持词）"
+            },
+            {
+              "text": "games",
+              "phonetic": "/ɡeɪmz/",
+              "partOfSpeech": "n.",
+              "meaning": "游戏；game的复数（复习或原创场景支持词）"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "party",
+              "phonetic": "/ˈpɑːti/",
+              "partOfSpeech": "n.",
+              "meaning": "聚会；联欢会"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "There are two chairs in our classroom.",
+          "chinese": "我们教室里有两把椅子。",
+          "words": [
+            {
+              "text": "There",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "adv.",
+              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            },
+            {
+              "text": "two",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "num.",
+              "meaning": "二（已学数量词复习）（复习或原创场景支持词）"
+            },
+            {
+              "text": "chairs",
+              "phonetic": "/tʃeəz/",
+              "partOfSpeech": "n.",
+              "meaning": "椅子；chair的复数（复习或原创场景支持词）"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里面（复习或原创场景支持词）"
+            },
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的（复习或原创场景支持词）"
+            },
+            {
+              "text": "classroom",
+              "phonetic": "/ˈklɑːsruːm/",
+              "partOfSpeech": "n.",
+              "meaning": "教室（复习或原创场景支持词）"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "v.",
+              "meaning": "有（there be结构，与后面的单复数对应）"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "single-scene-object",
+      "targetPattern": "single-scene-object",
+      "prompt": "把袋子换成盒子，完整说明盒子上有一个小洞。",
+      "answer": "There is a small hole in the box.",
+      "chinese": "盒子上有一个小洞。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "plural-scene-objects",
+      "targetPattern": "plural-scene-objects",
+      "prompt": "用there are介绍教室里有两把椅子。",
+      "answer": "There are two chairs in our classroom.",
+      "chinese": "我们教室里有两把椅子。",
+      "isSourceText": false
+    }
+  ]
+}

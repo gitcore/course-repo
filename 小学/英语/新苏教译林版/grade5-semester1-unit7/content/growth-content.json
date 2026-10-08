@@ -1,0 +1,250 @@
+{
+  "manifestId": "new-yilin-grade5-semester1-unit7",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "834d10494141fa0b06881f27fd3c4b05ff0673a7bb1322b9e83c807da8bf77fe",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "single-price",
+      "displayName": "How much is ...?：单数物品询价",
+      "examples": [
+        "How much is this sweater?"
+      ],
+      "transferExamples": [
+        "How much is this schoolbag?"
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "sweater为单个物品，询价用is。",
+      "sourceExamples": [
+        {
+          "sentence": "How much is this sweater?",
+          "chinese": "这件毛衣多少钱？",
+          "sourceLine": "line-3",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "How",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            },
+            {
+              "text": "much",
+              "phonetic": "/mʌtʃ/",
+              "partOfSpeech": "adv./det.",
+              "meaning": "非常；许多"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "linking v.",
+              "meaning": "说明价格"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "det.",
+              "meaning": "这个"
+            },
+            {
+              "text": "sweater",
+              "phonetic": "/ˈswetə/",
+              "partOfSpeech": "n.",
+              "meaning": "毛衣，线衣"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "linking v.",
+              "meaning": "说明价格"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "How much is this schoolbag?",
+          "chinese": "这个书包多少钱？",
+          "words": [
+            {
+              "text": "How",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            },
+            {
+              "text": "much",
+              "phonetic": "/mʌtʃ/",
+              "partOfSpeech": "adv./det.",
+              "meaning": "非常；许多"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "linking v.",
+              "meaning": "说明价格"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "det.",
+              "meaning": "这个"
+            },
+            {
+              "text": "schoolbag",
+              "phonetic": "/ˈskuːlbæɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "书包"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "linking v.",
+              "meaning": "说明价格"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "patternKey": "plural-price",
+      "displayName": "How much are ...?：复数名词询价",
+      "examples": [
+        "How much are these socks?"
+      ],
+      "transferExamples": [
+        "How much are these shoes?"
+      ],
+      "sourceItemKeys": [
+        "line-7"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "socks为复数，询价用are。",
+      "sourceExamples": [
+        {
+          "sentence": "How much are these socks?",
+          "chinese": "这些短袜多少钱？",
+          "sourceLine": "line-7",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "How",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            },
+            {
+              "text": "much",
+              "phonetic": "/mʌtʃ/",
+              "partOfSpeech": "adv./det.",
+              "meaning": "非常；许多"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "linking v.",
+              "meaning": "说明价格"
+            },
+            {
+              "text": "these",
+              "phonetic": "/ðiːz/",
+              "partOfSpeech": "det.",
+              "meaning": "这些"
+            },
+            {
+              "text": "socks",
+              "phonetic": "/sɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "短袜；sock的复数"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "linking v.",
+              "meaning": "说明价格"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "How much are these shoes?",
+          "chinese": "这些鞋多少钱？",
+          "words": [
+            {
+              "text": "How",
+              "phonetic": "/haʊ/",
+              "partOfSpeech": "adv.",
+              "meaning": "怎样"
+            },
+            {
+              "text": "much",
+              "phonetic": "/mʌtʃ/",
+              "partOfSpeech": "adv./det.",
+              "meaning": "非常；许多"
+            },
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "linking v.",
+              "meaning": "说明价格"
+            },
+            {
+              "text": "these",
+              "phonetic": "/ðiːz/",
+              "partOfSpeech": "det.",
+              "meaning": "这些"
+            },
+            {
+              "text": "shoes",
+              "phonetic": "/ʃuːz/",
+              "partOfSpeech": "n.",
+              "meaning": "鞋；shoe的复数"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "are",
+              "phonetic": "/ɑː/",
+              "partOfSpeech": "linking v.",
+              "meaning": "说明价格"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "single-price",
+      "targetPattern": "single-price",
+      "prompt": "询问一个书包的价格，用is。",
+      "answer": "How much is this schoolbag?",
+      "chinese": "这个书包多少钱？",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "plural-price",
+      "targetPattern": "plural-price",
+      "prompt": "把询价对象换成一双鞋，用复数名词shoes提问。",
+      "answer": "How much are these shoes?",
+      "chinese": "这些鞋多少钱？",
+      "isSourceText": false
+    }
+  ]
+}

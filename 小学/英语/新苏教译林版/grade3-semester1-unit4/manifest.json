@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester1-unit4",
+  "name": "三年级上册 Unit 4 - This is my friend",
+  "description": "把朋友介绍给别人并区分he和she；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "7846833a1028d1604ac4e56265f9fb6d252c36c32bd3b670e1e90c660d154637",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "7846833a1028d1604ac4e56265f9fb6d252c36c32bd3b670e1e90c660d154637",
+      "content/sentence-practice.json": "597ca056bd929928f1132683682708a6474991bf316400d2916fe619886434ec",
+      "content/conversation-practice.json": "50af278aad056a60c6643b1da68bb6e1b423645ac71a034e5251c0f8a356b9fd",
+      "content/growth-content.json": "a4b0bf578178ed1c9b4311f1fa90e3d264930e14554f2b16c3fcd09d7f0400da"
+    },
+    "manifestHash": "c7454e30619d03f15ec485ae06432c437ad0f2d0cbe6e0b8328b960c9ec529c0"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "把朋友介绍给别人并区分he和she"
+      },
+      "grade": 3,
+      "semester": 1,
+      "unit": 4,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "This is my friend",
+        "把朋友介绍给别人并区分he和she"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "2.0",
+  "id": "new-yilin-grade3-semester1-unit6",
+  "name": "三年级上册 Unit 6 - Is he your grandpa?",
+  "description": "确认祖辈及其他家人的身份并认识家庭关系；依据2022课标修订版教材重点编写的原创配套练习。",
+  "subject": "english",
+  "publisher": {
+    "name": "Learn with daddy's love"
+  },
+  "generation": {
+    "sourceHash": "30a12e32e292ee3f45d8966fea30d549f9dfc9ef432c34111a57468bc58abc34",
+    "generatorVersion": "original-aligned-primary-v1",
+    "generatedAt": "2026-10-08",
+    "sourceKind": "original-aligned-practice",
+    "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+    "fileHashes": {
+      "textbook.md": "30a12e32e292ee3f45d8966fea30d549f9dfc9ef432c34111a57468bc58abc34",
+      "content/sentence-practice.json": "0288376d716aa33ef3f9694f08b34d4f05b1720d80021e7d0264f27a7767f365",
+      "content/conversation-practice.json": "8b5e5d883012cff2af4113d442c568008e77b0b63862d6c5c4080a9f81dfdd02",
+      "content/growth-content.json": "b6fd7b46030ee8664afc4166a303cd82f7b65077d50c023befb97b8117871aa9"
+    },
+    "manifestHash": "b0999f020e3e168d8ad43a13c39dd7cc8b6404dacc391805fd3bfda6fb03e73d"
+  },
+  "domain": {
+    "key": "english",
+    "planning": {
+      "language": "en",
+      "wordlist": null,
+      "vocabulary": null,
+      "languageLevel": "primary-grade-3",
+      "phonicsStage": null,
+      "courseType": null,
+      "audience": {
+        "stage": "primary",
+        "ageRange": "8-9",
+        "teachingGoal": "确认祖辈及其他家人的身份并认识家庭关系"
+      },
+      "grade": 3,
+      "semester": 1,
+      "unit": 6,
+      "tags": [
+        "2022课标修订版",
+        "原创配套练习",
+        "Is he your grandpa?",
+        "确认祖辈及其他家人的身份并认识家庭关系"
+      ],
+      "growth": {
+        "growthAvailable": true,
+        "growthTypes": [
+          "pattern-transfer"
+        ],
+        "foundationActivityTypes": [
+          "sentence-practice",
+          "conversation-practice"
+        ],
+        "growthActivityTypes": [
+          "pattern-transfer-practice"
+        ]
+      }
+    },
+    "package": {
+      "source": {
+        "type": "textbook-markdown",
+        "path": "textbook.md"
+      },
+      "activities": [
+        {
+          "type": "sentence-practice",
+          "name": "配套拆句练习",
+          "data": "content/sentence-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "conversation-practice",
+          "name": "原创对话练习",
+          "data": "content/conversation-practice.json",
+          "enabled": true
+        },
+        {
+          "type": "pattern-transfer-practice",
+          "name": "句型迁移",
+          "data": "content/growth-content.json",
+          "enabled": true
+        }
+      ]
+    }
+  }
+}

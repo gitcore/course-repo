@@ -1,0 +1,202 @@
+{
+  "manifestId": "new-yilin-grade3-semester2-project1",
+  "activityType": "pattern-transfer-practice",
+  "sourceHash": "fca622ff5c93689280f96e1c715b3491251d0428814b9b9398a95712fff16f5a",
+  "generatorVersion": "original-aligned-primary-v1",
+  "generatedAt": "2026-10-08",
+  "sourceKind": "original-aligned-practice",
+  "sourceNotice": "依据2022年版课程标准修订的译林版教材目录、单元目标和重点词汇编写的原创配套练习；对话、中文译文、提示和迁移例句不是教材逐字原文。",
+  "wordFamilies": [],
+  "patterns": [
+    {
+      "patternKey": "present-supplies",
+      "displayName": "... is in ...：展示文具收放",
+      "examples": [
+        "It's in my pencil case."
+      ],
+      "transferExamples": [
+        "My ruler is in my schoolbag."
+      ],
+      "sourceItemKeys": [
+        "line-3"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "it指ruler；in表示放在内部。",
+      "sourceExamples": [
+        {
+          "sentence": "It's in my pencil case.",
+          "chinese": "它在我的铅笔盒里。",
+          "sourceLine": "line-3",
+          "isSourceText": true
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "My ruler is in my schoolbag.",
+          "chinese": "我的直尺在我的书包里。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "ruler",
+              "phonetic": "/ˈruːlə/",
+              "partOfSpeech": "n.",
+              "meaning": "直尺"
+            },
+            {
+              "text": "is",
+              "phonetic": "/ɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "是（用于单数）"
+            },
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里面（配套表达）"
+            },
+            {
+              "text": "schoolbag",
+              "phonetic": "/ˈskuːlbæɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "书包"
+            }
+          ],
+          "isSourceText": false
+        }
+      ]
+    },
+    {
+      "patternKey": "show-help",
+      "displayName": "I can ...：说明自己的贡献",
+      "examples": [
+        "I can clean the chairs."
+      ],
+      "transferExamples": [
+        "I can clean the desk."
+      ],
+      "sourceItemKeys": [
+        "line-4"
+      ],
+      "relatedWordFamilies": [],
+      "explanation": "can后接动词原形；chairs是复数对象。",
+      "sourceExamples": [
+        {
+          "sentence": "I can clean the chairs.",
+          "chinese": "我能擦椅子。",
+          "sourceLine": "line-4",
+          "isSourceText": true,
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；可以"
+            },
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "chairs",
+              "phonetic": "/tʃeəz/",
+              "partOfSpeech": "n.",
+              "meaning": "椅子；chair的复数"
+            }
+          ],
+          "wordOverrides": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            }
+          ]
+        }
+      ],
+      "transferExampleDetails": [
+        {
+          "sentence": "I can clean the desk.",
+          "chinese": "我能擦课桌。",
+          "words": [
+            {
+              "text": "I",
+              "phonetic": "/aɪ/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            },
+            {
+              "text": "can",
+              "phonetic": "/kæn/",
+              "partOfSpeech": "modal v.",
+              "meaning": "能；可以"
+            },
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "desk",
+              "phonetic": "/desk/",
+              "partOfSpeech": "n.",
+              "meaning": "课桌；书桌"
+            }
+          ],
+          "isSourceText": false,
+          "wordOverrides": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "transferPrompts": [
+    {
+      "sourcePattern": "present-supplies",
+      "targetPattern": "present-supplies",
+      "prompt": "介绍自己的直尺现在放在哪里：在书包里。",
+      "answer": "My ruler is in my schoolbag.",
+      "chinese": "我的直尺在我的书包里。",
+      "isSourceText": false
+    },
+    {
+      "sourcePattern": "show-help",
+      "targetPattern": "show-help",
+      "prompt": "展示中说出自己能完成的一项任务：擦课桌。",
+      "answer": "I can clean the desk.",
+      "chinese": "我能擦课桌。",
+      "isSourceText": false
+    }
+  ]
+}
