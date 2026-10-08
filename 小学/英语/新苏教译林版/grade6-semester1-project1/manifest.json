@@ -29,8 +29,7 @@
         ],
         "foundationActivityTypes": [
           "readalong",
-          "sentence-practice",
-          "conversation-practice"
+          "sentence-practice"
         ],
         "growthActivityTypes": [
           "word-family-practice",
@@ -70,12 +69,6 @@
           "type": "sentence-practice",
           "name": "任务导读拆句",
           "data": "content/sentence-practice.json",
-          "enabled": true
-        },
-        {
-          "type": "conversation-practice",
-          "name": "任务导读跟读",
-          "data": "content/conversation-practice.json",
           "enabled": true
         },
         {
