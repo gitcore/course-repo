@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -32,9 +32,79 @@
           "structureBlocks": []
         },
         {
-          "id": "1-2",
+          "id": "1-3",
           "sequenceNumber": 1,
           "segmentNumber": 2,
+          "english": "have seven subjects",
+          "chinese": "有七门学科",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“有七门学科”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有"
+            },
+            {
+              "text": "seven",
+              "phonetic": "/ˈsevən/",
+              "partOfSpeech": "num.",
+              "meaning": "七"
+            },
+            {
+              "text": "subjects",
+              "phonetic": "/ˈsʌbdʒɪkts/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "学科；subject的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have seven subjects"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
+          "english": "at school",
+          "chinese": "在学校",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在学校”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（学校）"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at school"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
           "english": "We have seven subjects at school.",
           "chinese": "我们在学校有七门学科。",
           "speaker": "Ben",
@@ -201,7 +271,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -214,9 +284,47 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-3",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "like Science best",
+          "chinese": "最喜欢科学课",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“最喜欢科学课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "Science",
+              "phonetic": "/ˈsaɪəns/",
+              "partOfSpeech": "n.",
+              "meaning": "科学（课）"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adv.",
+              "meaning": "最；最喜欢的程度"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like Science best"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "I like Science best.",
           "chinese": "我最喜欢科学课。",
           "speaker": "Ben",
@@ -335,7 +443,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -348,9 +456,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-3",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "like Art best",
+          "chinese": "最喜欢美术课",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“最喜欢美术课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "Art",
+              "phonetic": "/ɑːt/",
+              "partOfSpeech": "n.",
+              "meaning": "美术（课）"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adv.",
+              "meaning": "最；最喜欢的程度"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like Art best"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "I like Art best.",
           "chinese": "我最喜欢美术课。",
           "speaker": "May",
@@ -412,7 +558,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -425,9 +571,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-3",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "good at Maths",
+          "chinese": "擅长数学",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的形容词短语，表达“擅长数学”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "用于be good at，说明擅长的学科或活动"
+            },
+            {
+              "text": "Maths",
+              "phonetic": "/mæθs/",
+              "partOfSpeech": "n.",
+              "meaning": "数学（课）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "good at Maths"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "I'm good at Maths.",
           "chinese": "我擅长数学。",
           "speaker": "Tom",
@@ -481,7 +665,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -494,9 +678,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "like Maths",
+          "chinese": "喜欢数学课",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢数学课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "Maths",
+              "phonetic": "/mæθs/",
+              "partOfSpeech": "n.",
+              "meaning": "数学（课）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like Maths"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "I also like Maths.",
           "chinese": "我也喜欢数学课。",
           "speaker": "Ben",
@@ -558,7 +774,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -571,9 +787,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-3",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "like English",
+          "chinese": "喜欢英语课",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢英语课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "English",
+              "phonetic": "/ˈɪŋɡlɪʃ/",
+              "partOfSpeech": "n.",
+              "meaning": "英语（课）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like English"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "Do you like English?",
           "chinese": "你喜欢英语课吗？",
           "speaker": "May",
@@ -681,7 +929,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -702,7 +950,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -715,9 +963,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-3",
+          "id": "10-4",
           "sequenceNumber": 10,
           "segmentNumber": 3,
+          "english": "like reading stories",
+          "chinese": "喜欢读故事",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢读故事”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "reading",
+              "phonetic": "/ˈriːdɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "阅读（like reading中的动名词）"
+            },
+            {
+              "text": "stories",
+              "phonetic": "/ˈstɔːriz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "故事；story的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like reading stories"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
           "english": "I like reading stories.",
           "chinese": "我喜欢读故事。",
           "speaker": "Tom",
@@ -775,7 +1061,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -788,9 +1074,41 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-3",
           "sequenceNumber": 11,
           "segmentNumber": 2,
+          "english": "have Chinese",
+          "chinese": "上语文课",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“上语文课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "上（语文课）"
+            },
+            {
+              "text": "Chinese",
+              "phonetic": "/ˌtʃaɪˈniːz/",
+              "partOfSpeech": "n.",
+              "meaning": "语文（课）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have Chinese"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
           "english": "We all have Chinese today.",
           "chinese": "我们今天都上语文课。",
           "speaker": "Ben",
@@ -862,7 +1180,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -875,9 +1193,47 @@
           "structureBlocks": []
         },
         {
-          "id": "12-2",
+          "id": "12-3",
           "sequenceNumber": 12,
           "segmentNumber": 2,
+          "english": "time for Music",
+          "chinese": "上音乐课的时间",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“上音乐课的时间”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "time",
+              "phonetic": "/taɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "时间"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "用于time for，说明该开始的课程或活动"
+            },
+            {
+              "text": "Music",
+              "phonetic": "/ˈmjuːzɪk/",
+              "partOfSpeech": "n.",
+              "meaning": "音乐（课）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "time for Music"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
           "english": "It's time for Music.",
           "chinese": "到上音乐课的时间了。",
           "speaker": "May",
@@ -931,7 +1287,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -944,9 +1300,47 @@
           "structureBlocks": []
         },
         {
-          "id": "13-2",
+          "id": "13-3",
           "sequenceNumber": 13,
           "segmentNumber": 2,
+          "english": "go to class",
+          "chinese": "去上课",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“去上课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "去"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "prep.",
+              "meaning": "到；用于go to加目的地的表达"
+            },
+            {
+              "text": "class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "课；上课"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "go to class"
+            }
+          ]
+        },
+        {
+          "id": "13-2",
+          "sequenceNumber": 13,
+          "segmentNumber": 3,
           "english": "Let's go to class.",
           "chinese": "我们去上课吧。",
           "speaker": "Tom",
@@ -1092,7 +1486,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1105,9 +1499,41 @@
           "structureBlocks": []
         },
         {
-          "id": "15-2",
+          "id": "15-3",
           "sequenceNumber": 15,
           "segmentNumber": 2,
+          "english": "like PE",
+          "chinese": "喜欢体育课",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢体育课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "PE",
+              "phonetic": "/ˌpiːˈiː/",
+              "partOfSpeech": "n.",
+              "meaning": "体育（课）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like PE"
+            }
+          ]
+        },
+        {
+          "id": "15-2",
+          "sequenceNumber": 15,
+          "segmentNumber": 3,
           "english": "I like PE too.",
           "chinese": "我也喜欢体育课。",
           "speaker": "May",

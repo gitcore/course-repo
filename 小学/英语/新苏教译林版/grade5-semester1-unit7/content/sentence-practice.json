@@ -74,23 +74,17 @@
           "structureBlocks": []
         },
         {
-          "id": "1-6",
+          "id": "1-9",
           "sequenceNumber": 1,
           "segmentNumber": 4,
-          "english": "We need a shopping list",
-          "chinese": "我们需要一张购物清单",
+          "english": "need a shopping list",
+          "chinese": "需要一张购物清单",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“需要一张购物清单”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
             {
               "text": "need",
               "phonetic": "/niːd/",
@@ -116,7 +110,12 @@
               "meaning": "清单（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "need a shopping list"
+            }
+          ]
         },
         {
           "id": "1-4",
@@ -161,16 +160,16 @@
           "structureBlocks": []
         },
         {
-          "id": "1-7",
+          "id": "1-10",
           "sequenceNumber": 1,
           "segmentNumber": 7,
           "english": "for the puppet show",
-          "chinese": "用于木偶演出",
+          "chinese": "为木偶演出",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“为木偶演出”；将它接回完整表达。",
           "words": [
             {
               "text": "for",
@@ -197,7 +196,12 @@
               "meaning": "演出"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "for the puppet show"
+            }
+          ]
         },
         {
           "id": "1-8",
@@ -328,48 +332,9 @@
           "structureBlocks": []
         },
         {
-          "id": "2-5",
-          "sequenceNumber": 2,
-          "segmentNumber": 3,
-          "english": "We need one sweater",
-          "chinese": "我们需要一件毛衣",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "need",
-              "phonetic": "/niːd/",
-              "partOfSpeech": "v.",
-              "meaning": "需要，必需（教材星号拓展词）"
-            },
-            {
-              "text": "one",
-              "phonetic": "/wʌn/",
-              "partOfSpeech": "num.",
-              "meaning": "一"
-            },
-            {
-              "text": "sweater",
-              "phonetic": "/ˈswetə/",
-              "partOfSpeech": "n.",
-              "meaning": "毛衣，线衣"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "2-3",
           "sequenceNumber": 2,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "pairs",
           "chinese": "双；pair的复数",
           "speaker": "Tom",
@@ -390,7 +355,7 @@
         {
           "id": "2-4",
           "sequenceNumber": 2,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "socks",
           "chinese": "短袜；sock的复数",
           "speaker": "Tom",
@@ -409,17 +374,35 @@
           "structureBlocks": []
         },
         {
-          "id": "2-6",
+          "id": "2-8",
           "sequenceNumber": 2,
-          "segmentNumber": 6,
-          "english": "and two pairs of socks",
-          "chinese": "和两双短袜",
+          "segmentNumber": 5,
+          "english": "need one sweater and two pairs of socks",
+          "chinese": "需要一件毛衣和两双短袜",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“需要一件毛衣和两双短袜”；将它接回完整表达。",
           "words": [
+            {
+              "text": "need",
+              "phonetic": "/niːd/",
+              "partOfSpeech": "v.",
+              "meaning": "需要，必需（教材星号拓展词）"
+            },
+            {
+              "text": "one",
+              "phonetic": "/wʌn/",
+              "partOfSpeech": "num.",
+              "meaning": "一"
+            },
+            {
+              "text": "sweater",
+              "phonetic": "/ˈswetə/",
+              "partOfSpeech": "n.",
+              "meaning": "毛衣，线衣"
+            },
             {
               "text": "and",
               "phonetic": "/ænd/",
@@ -451,12 +434,17 @@
               "meaning": "短袜；sock的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "need one sweater and two pairs of socks"
+            }
+          ]
         },
         {
           "id": "2-7",
           "sequenceNumber": 2,
-          "segmentNumber": 7,
+          "segmentNumber": 6,
           "english": "We need one sweater and two pairs of socks.",
           "chinese": "我们需要一件毛衣和两双短袜。",
           "speaker": "Tom",
@@ -544,7 +532,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -557,9 +545,41 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-3",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "this sweater",
+          "chinese": "这件毛衣",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这件毛衣”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "det.",
+              "meaning": "这个"
+            },
+            {
+              "text": "sweater",
+              "phonetic": "/ˈswetə/",
+              "partOfSpeech": "n.",
+              "meaning": "毛衣，线衣"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "this sweater"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "How much is this sweater?",
           "chinese": "这件毛衣多少钱？",
           "speaker": "Lily",
@@ -623,7 +643,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -644,7 +664,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -657,9 +677,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "forty yuan",
+          "chinese": "四十元",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“四十元”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "forty",
+              "phonetic": "/ˈfɔːti/",
+              "partOfSpeech": "num.",
+              "meaning": "四十"
+            },
+            {
+              "text": "yuan",
+              "phonetic": "/juˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "元，中国货币单位（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "forty yuan"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "It is forty yuan.",
           "chinese": "它是四十元。",
           "speaker": "Ben",
@@ -717,7 +769,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -730,9 +782,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-3",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "try it on",
+          "chinese": "试穿它",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“试穿它”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "try",
+              "phonetic": "/traɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "试用（与on搭配组成try on，表示试穿）"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它（指毛衣）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "adv. particle",
+              "meaning": "与try组成try on，整体表示试穿"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "try it on"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "Can I try it on?",
           "chinese": "我可以试穿它吗？",
           "speaker": "Tom",
@@ -842,7 +932,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -855,9 +945,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "these socks",
+          "chinese": "这些短袜",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些短袜”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "these",
+              "phonetic": "/ðiːz/",
+              "partOfSpeech": "det.",
+              "meaning": "这些"
+            },
+            {
+              "text": "socks",
+              "phonetic": "/sɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "短袜；sock的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "these socks"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "How much are these socks?",
           "chinese": "这些短袜多少钱？",
           "speaker": "Lily",
@@ -921,7 +1043,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -942,7 +1064,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -955,9 +1077,53 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 3,
+          "english": "twelve yuan a pair",
+          "chinese": "每双十二元",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“每双十二元”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "twelve",
+              "phonetic": "/twelv/",
+              "partOfSpeech": "num.",
+              "meaning": "十二"
+            },
+            {
+              "text": "yuan",
+              "phonetic": "/juˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "元，中国货币单位（教材星号拓展词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "pair",
+              "phonetic": "/peə/",
+              "partOfSpeech": "n.",
+              "meaning": "一双，一对"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "twelve yuan a pair"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
           "english": "They are twelve yuan a pair.",
           "chinese": "它们每双十二元。",
           "speaker": "Ben",
@@ -1027,7 +1193,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1040,15 +1206,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 2,
+          "english": "Two pairs",
+          "chinese": "两双",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“两双”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Two",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "num.",
+              "meaning": "二"
+            },
+            {
+              "text": "pairs",
+              "phonetic": "/peəz/",
+              "partOfSpeech": "n.",
+              "meaning": "双；pair的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Two pairs"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
           "english": "twenty-four",
           "chinese": "二十四",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1063,13 +1261,13 @@
         {
           "id": "9-3",
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "yuan",
           "chinese": "元，中国货币单位（教材星号拓展词）",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1082,9 +1280,41 @@
           "structureBlocks": []
         },
         {
+          "id": "9-6",
+          "sequenceNumber": 9,
+          "segmentNumber": 5,
+          "english": "twenty-four yuan",
+          "chinese": "二十四元",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“二十四元”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "twenty-four",
+              "phonetic": "/ˌtwenti ˈfɔː/",
+              "partOfSpeech": "num.",
+              "meaning": "二十四"
+            },
+            {
+              "text": "yuan",
+              "phonetic": "/juˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "元，中国货币单位（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "twenty-four yuan"
+            }
+          ]
+        },
+        {
           "id": "9-4",
           "sequenceNumber": 9,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "Two pairs are twenty-four yuan.",
           "chinese": "两双是二十四元。",
           "speaker": "Tom",
@@ -1148,7 +1378,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1169,7 +1399,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1190,7 +1420,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1203,9 +1433,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-4",
+          "id": "10-5",
           "sequenceNumber": 10,
           "segmentNumber": 4,
+          "english": "spend sixty-eight yuan",
+          "chinese": "花六十八元",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“花六十八元”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "spend",
+              "phonetic": "/spend/",
+              "partOfSpeech": "v.",
+              "meaning": "花钱"
+            },
+            {
+              "text": "sixty-eight",
+              "phonetic": "/ˌsɪksti ˈeɪt/",
+              "partOfSpeech": "num.",
+              "meaning": "六十八"
+            },
+            {
+              "text": "yuan",
+              "phonetic": "/juˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "元，中国货币单位（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "spend sixty-eight yuan"
+            }
+          ]
+        },
+        {
+          "id": "10-4",
+          "sequenceNumber": 10,
+          "segmentNumber": 5,
           "english": "We can spend sixty-eight yuan.",
           "chinese": "我们可以花六十八元。",
           "speaker": "Lily",
@@ -1312,7 +1580,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“毛衣和短袜”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -1339,7 +1607,12 @@
               "meaning": "短袜；sock的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The sweater and socks"
+            }
+          ]
         },
         {
           "id": "11-3",
@@ -1384,16 +1657,16 @@
           "structureBlocks": []
         },
         {
-          "id": "11-6",
+          "id": "11-8",
           "sequenceNumber": 11,
           "segmentNumber": 6,
           "english": "cost sixty-four yuan",
-          "chinese": "总共六十四元",
+          "chinese": "花费六十四元",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“花费六十四元”；将它接回完整表达。",
           "words": [
             {
               "text": "cost",
@@ -1414,7 +1687,12 @@
               "meaning": "元，中国货币单位（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "cost sixty-four yuan"
+            }
+          ]
         },
         {
           "id": "11-7",
@@ -1495,7 +1773,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1516,7 +1794,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1537,7 +1815,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1550,9 +1828,53 @@
           "structureBlocks": []
         },
         {
-          "id": "12-4",
+          "id": "12-5",
           "sequenceNumber": 12,
           "segmentNumber": 4,
+          "english": "have four yuan left",
+          "chinese": "还剩四元",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“还剩四元”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有"
+            },
+            {
+              "text": "four",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "num.",
+              "meaning": "四"
+            },
+            {
+              "text": "yuan",
+              "phonetic": "/juˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "元，中国货币单位（教材星号拓展词）"
+            },
+            {
+              "text": "left",
+              "phonetic": "/left/",
+              "partOfSpeech": "adj.",
+              "meaning": "剩下的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have four yuan left"
+            }
+          ]
+        },
+        {
+          "id": "12-4",
+          "sequenceNumber": 12,
+          "segmentNumber": 5,
           "english": "We have four yuan left.",
           "chinese": "我们还剩四元。",
           "speaker": "Lily",
@@ -1620,7 +1942,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1633,9 +1955,41 @@
           "structureBlocks": []
         },
         {
-          "id": "13-2",
+          "id": "13-3",
           "sequenceNumber": 13,
           "segmentNumber": 2,
+          "english": "these shoes",
+          "chinese": "这些鞋",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些鞋”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "these",
+              "phonetic": "/ðiːz/",
+              "partOfSpeech": "det.",
+              "meaning": "这些"
+            },
+            {
+              "text": "shoes",
+              "phonetic": "/ʃuːz/",
+              "partOfSpeech": "n.",
+              "meaning": "鞋；shoe的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "these shoes"
+            }
+          ]
+        },
+        {
+          "id": "13-2",
+          "sequenceNumber": 13,
+          "segmentNumber": 3,
           "english": "Would you like these shoes too?",
           "chinese": "你们也想要这些鞋吗？",
           "speaker": "Ben",

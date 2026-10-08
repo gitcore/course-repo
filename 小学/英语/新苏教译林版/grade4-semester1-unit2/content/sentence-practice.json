@@ -84,9 +84,41 @@
           ]
         },
         {
-          "id": "2-1",
+          "id": "2-2",
           "sequenceNumber": 2,
           "segmentNumber": 1,
+          "english": "seven o'clock",
+          "chinese": "七点整",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“七点整”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "seven",
+              "phonetic": "/ˈsevən/",
+              "partOfSpeech": "num.",
+              "meaning": "七"
+            },
+            {
+              "text": "o'clock",
+              "phonetic": "/əˈklɒk/",
+              "partOfSpeech": "adv.",
+              "meaning": "……点钟（整点表达）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "seven o'clock"
+            }
+          ]
+        },
+        {
+          "id": "2-1",
+          "sequenceNumber": 2,
+          "segmentNumber": 2,
           "english": "It's seven o'clock.",
           "chinese": "现在七点整。",
           "speaker": "Ben",
@@ -126,9 +158,53 @@
           ]
         },
         {
-          "id": "3-1",
+          "id": "3-2",
           "sequenceNumber": 3,
           "segmentNumber": 1,
+          "english": "time to get up",
+          "chinese": "起床的时间",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“起床的时间”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "time",
+              "phonetic": "/taɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "时间"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "动词不定式标记；引出该做的动作，无独立译义"
+            },
+            {
+              "text": "get",
+              "phonetic": "/ɡet/",
+              "partOfSpeech": "v.",
+              "meaning": "用于get up，表示起床"
+            },
+            {
+              "text": "up",
+              "phonetic": "/ʌp/",
+              "partOfSpeech": "adv.",
+              "meaning": "用于get up，表示起床"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "time to get up"
+            }
+          ]
+        },
+        {
+          "id": "3-1",
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
           "english": "It's time to get up.",
           "chinese": "该起床了。",
           "speaker": "Tom",
@@ -188,7 +264,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -209,7 +285,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -222,9 +298,47 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "wash my face",
+          "chinese": "洗脸",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“洗脸”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "wash",
+              "phonetic": "/wɒʃ/",
+              "partOfSpeech": "v.",
+              "meaning": "洗"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            },
+            {
+              "text": "face",
+              "phonetic": "/feɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "脸"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "wash my face"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "I wash my face first.",
           "chinese": "我先洗脸。",
           "speaker": "May",
@@ -305,23 +419,17 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-5",
           "sequenceNumber": 5,
           "segmentNumber": 2,
-          "english": "I have breakfast",
-          "chinese": "我吃早餐",
+          "english": "have breakfast",
+          "chinese": "吃早餐",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“吃早餐”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "have",
               "phonetic": "/hæv/",
@@ -335,7 +443,12 @@
               "meaning": "早餐"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have breakfast"
+            }
+          ]
         },
         {
           "id": "5-3",
@@ -347,7 +460,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在七点半”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -368,7 +481,12 @@
               "meaning": "三十"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at seven thirty"
+            }
+          ]
         },
         {
           "id": "5-4",
@@ -460,23 +578,17 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-5",
           "sequenceNumber": 6,
           "segmentNumber": 2,
-          "english": "I go to school",
-          "chinese": "我去上学",
+          "english": "go to school",
+          "chinese": "去学校",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“去学校”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "go",
               "phonetic": "/ɡəʊ/",
@@ -496,7 +608,12 @@
               "meaning": "学校"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "go to school"
+            }
+          ]
         },
         {
           "id": "6-3",
@@ -508,7 +625,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在八点整”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -529,7 +646,12 @@
               "meaning": "……点钟（整点表达）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at eight o'clock"
+            }
+          ]
         },
         {
           "id": "6-4",
@@ -614,7 +736,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -635,7 +757,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -648,9 +770,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-3",
+          "id": "7-4",
           "sequenceNumber": 7,
           "segmentNumber": 3,
+          "english": "eleven thirty",
+          "chinese": "十一点半",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“十一点半”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "eleven",
+              "phonetic": "/ɪˈlevən/",
+              "partOfSpeech": "num.",
+              "meaning": "十一"
+            },
+            {
+              "text": "thirty",
+              "phonetic": "/ˈθɜːti/",
+              "partOfSpeech": "num.",
+              "meaning": "三十"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "eleven thirty"
+            }
+          ]
+        },
+        {
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
           "english": "It's eleven thirty now.",
           "chinese": "现在十一点半。",
           "speaker": "May",
@@ -708,7 +862,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -721,9 +875,47 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-3",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "time for lunch",
+          "chinese": "吃午餐的时间",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“吃午餐的时间”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "time",
+              "phonetic": "/taɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "时间"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "用于time for，说明该开始的课程或活动"
+            },
+            {
+              "text": "lunch",
+              "phonetic": "/lʌntʃ/",
+              "partOfSpeech": "n.",
+              "meaning": "午餐"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "time for lunch"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "It's time for lunch.",
           "chinese": "到吃午餐的时间了。",
           "speaker": "Ben",
@@ -790,23 +982,17 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 2,
-          "english": "I have lessons",
-          "chinese": "我上课",
+          "english": "have lessons",
+          "chinese": "上课",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“上课”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "have",
               "phonetic": "/hæv/",
@@ -820,7 +1006,12 @@
               "meaning": "课；lesson的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have lessons"
+            }
+          ]
         },
         {
           "id": "9-3",
@@ -832,7 +1023,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在下午”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -853,7 +1044,12 @@
               "meaning": "下午（问候语中的词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the afternoon"
+            }
+          ]
         },
         {
           "id": "9-4",
@@ -932,7 +1128,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -945,9 +1141,79 @@
           "structureBlocks": []
         },
         {
-          "id": "10-2",
+          "id": "10-3",
           "sequenceNumber": 10,
           "segmentNumber": 2,
+          "english": "do sport",
+          "chinese": "做运动",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做运动”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "做；在do sport中表示做运动"
+            },
+            {
+              "text": "sport",
+              "phonetic": "/spɔːt/",
+              "partOfSpeech": "n.",
+              "meaning": "体育运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "do sport"
+            }
+          ]
+        },
+        {
+          "id": "10-4",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
+          "english": "at four fifteen",
+          "chinese": "在四点十五分",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在四点十五分”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（具体时间）"
+            },
+            {
+              "text": "four",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "num.",
+              "meaning": "四"
+            },
+            {
+              "text": "fifteen",
+              "phonetic": "/ˌfɪfˈtiːn/",
+              "partOfSpeech": "num.",
+              "meaning": "十五"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at four fifteen"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
           "english": "I do sport at four fifteen.",
           "chinese": "我四点十五分做运动。",
           "speaker": "May",
@@ -1021,7 +1287,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1034,9 +1300,79 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-3",
           "sequenceNumber": 11,
           "segmentNumber": 2,
+          "english": "have dinner",
+          "chinese": "吃晚餐",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“吃晚餐”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "吃；在本句表示用餐"
+            },
+            {
+              "text": "dinner",
+              "phonetic": "/ˈdɪnə/",
+              "partOfSpeech": "n.",
+              "meaning": "晚餐"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have dinner"
+            }
+          ]
+        },
+        {
+          "id": "11-4",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
+          "english": "at six twenty",
+          "chinese": "在六点二十分",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在六点二十分”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（具体时间）"
+            },
+            {
+              "text": "six",
+              "phonetic": "/sɪks/",
+              "partOfSpeech": "num.",
+              "meaning": "六"
+            },
+            {
+              "text": "twenty",
+              "phonetic": "/ˈtwenti/",
+              "partOfSpeech": "num.",
+              "meaning": "二十"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at six twenty"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "I have dinner at six twenty.",
           "chinese": "我六点二十分吃晚餐。",
           "speaker": "Ben",
@@ -1110,7 +1446,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1131,7 +1467,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1144,9 +1480,79 @@
           "structureBlocks": []
         },
         {
-          "id": "12-3",
+          "id": "12-4",
           "sequenceNumber": 12,
           "segmentNumber": 3,
+          "english": "read books",
+          "chinese": "读书",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“读书”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "read",
+              "phonetic": "/riːd/",
+              "partOfSpeech": "v.",
+              "meaning": "阅读"
+            },
+            {
+              "text": "books",
+              "phonetic": "/bʊks/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "书；book的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "read books"
+            }
+          ]
+        },
+        {
+          "id": "12-5",
+          "sequenceNumber": 12,
+          "segmentNumber": 4,
+          "english": "at eight o'clock",
+          "chinese": "在八点整",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在八点整”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（具体时间）"
+            },
+            {
+              "text": "eight",
+              "phonetic": "/eɪt/",
+              "partOfSpeech": "num.",
+              "meaning": "八"
+            },
+            {
+              "text": "o'clock",
+              "phonetic": "/əˈklɒk/",
+              "partOfSpeech": "adv.",
+              "meaning": "……点钟（整点表达）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at eight o'clock"
+            }
+          ]
+        },
+        {
+          "id": "12-3",
+          "sequenceNumber": 12,
+          "segmentNumber": 5,
           "english": "I read books at eight o'clock.",
           "chinese": "我八点读书。",
           "speaker": "Tom",
@@ -1212,9 +1618,41 @@
           ]
         },
         {
-          "id": "13-1",
+          "id": "13-2",
           "sequenceNumber": 13,
           "segmentNumber": 1,
+          "english": "nine o'clock",
+          "chinese": "九点整",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“九点整”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "nine",
+              "phonetic": "/naɪn/",
+              "partOfSpeech": "num.",
+              "meaning": "九"
+            },
+            {
+              "text": "o'clock",
+              "phonetic": "/əˈklɒk/",
+              "partOfSpeech": "adv.",
+              "meaning": "……点钟（整点表达）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "nine o'clock"
+            }
+          ]
+        },
+        {
+          "id": "13-1",
+          "sequenceNumber": 13,
+          "segmentNumber": 2,
           "english": "It's nine o'clock.",
           "chinese": "现在九点整。",
           "speaker": "May",
@@ -1262,7 +1700,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1275,9 +1713,53 @@
           "structureBlocks": []
         },
         {
-          "id": "14-2",
+          "id": "14-3",
           "sequenceNumber": 14,
           "segmentNumber": 2,
+          "english": "time to go to bed",
+          "chinese": "上床睡觉的时间",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“上床睡觉的时间”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "time",
+              "phonetic": "/taɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "时间"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker / prep.",
+              "meaning": "第一个to是不定式标记（time to go）；第二个to是介词（go to bed）；按各自词组理解"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "去"
+            },
+            {
+              "text": "bed",
+              "phonetic": "/bed/",
+              "partOfSpeech": "n.",
+              "meaning": "床"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "time to go to bed"
+            }
+          ]
+        },
+        {
+          "id": "14-2",
+          "sequenceNumber": 14,
+          "segmentNumber": 3,
           "english": "It's time to go to bed.",
           "chinese": "该上床睡觉了。",
           "speaker": "Ben",

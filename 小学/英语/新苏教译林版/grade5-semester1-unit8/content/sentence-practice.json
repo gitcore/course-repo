@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,53 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "make a festival calendar",
+          "chinese": "做一份节日日历",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做一份节日日历”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "制作"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "festival",
+              "phonetic": "/ˈfestɪvəl/",
+              "partOfSpeech": "n.",
+              "meaning": "节日（教材星号拓展词）"
+            },
+            {
+              "text": "calendar",
+              "phonetic": "/ˈkælɪndə/",
+              "partOfSpeech": "n.",
+              "meaning": "日历"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make a festival calendar"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Let's make a festival calendar.",
           "chinese": "我们做一份节日日历吧。",
           "speaker": "Ben",
@@ -162,7 +206,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“春节”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -183,7 +227,12 @@
               "meaning": "节日（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The Spring Festival"
+            }
+          ]
         },
         {
           "id": "2-2",
@@ -228,23 +277,17 @@
           "structureBlocks": []
         },
         {
-          "id": "2-5",
+          "id": "2-7",
           "sequenceNumber": 2,
           "segmentNumber": 5,
-          "english": "is in January or February",
+          "english": "in January or February",
           "chinese": "在一月或二月",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在一月或二月”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "linking v.",
-              "meaning": "说明节日所处的时间"
-            },
             {
               "text": "in",
               "phonetic": "/ɪn/",
@@ -270,7 +313,12 @@
               "meaning": "二月"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in January or February"
+            }
+          ]
         },
         {
           "id": "2-6",
@@ -370,9 +418,41 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-7",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "My family",
+          "chinese": "我的家人",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的家人”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家人；家庭"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My family"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "cleans",
           "chinese": "打扫；clean的第三人称单数",
           "speaker": "Lily",
@@ -391,29 +471,17 @@
           "structureBlocks": []
         },
         {
-          "id": "3-4",
+          "id": "3-8",
           "sequenceNumber": 3,
-          "segmentNumber": 3,
-          "english": "My family cleans our house",
-          "chinese": "我们一家人打扫房子",
+          "segmentNumber": 4,
+          "english": "cleans our house",
+          "chinese": "打扫我们的房子",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“打扫我们的房子”；将它接回完整表达。",
           "words": [
-            {
-              "text": "My",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "det.",
-              "meaning": "我的"
-            },
-            {
-              "text": "family",
-              "phonetic": "/ˈfæməli/",
-              "partOfSpeech": "n.",
-              "meaning": "家人；家庭"
-            },
             {
               "text": "cleans",
               "phonetic": "/kliːnz/",
@@ -433,12 +501,17 @@
               "meaning": "房子，家"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "cleans our house"
+            }
+          ]
         },
         {
           "id": "3-3",
           "sequenceNumber": 3,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
           "english": "festival",
           "chinese": "节日（教材星号拓展词）",
           "speaker": "Lily",
@@ -459,14 +532,14 @@
         {
           "id": "3-5",
           "sequenceNumber": 3,
-          "segmentNumber": 5,
+          "segmentNumber": 6,
           "english": "before this festival",
           "chinese": "在这个节日前",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在这个节日前”；将它接回完整表达。",
           "words": [
             {
               "text": "before",
@@ -487,12 +560,17 @@
               "meaning": "节日（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "before this festival"
+            }
+          ]
         },
         {
           "id": "3-6",
           "sequenceNumber": 3,
-          "segmentNumber": 6,
+          "segmentNumber": 7,
           "english": "My family cleans our house before this festival.",
           "chinese": "这个节日前，我们一家人打扫房子。",
           "speaker": "Lily",
@@ -612,23 +690,17 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-6",
           "sequenceNumber": 4,
           "segmentNumber": 3,
-          "english": "We visit our friends",
-          "chinese": "我们拜访朋友",
+          "english": "visit our friends",
+          "chinese": "拜访我们的朋友",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“拜访我们的朋友”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
             {
               "text": "visit",
               "phonetic": "/ˈvɪzɪt/",
@@ -648,7 +720,12 @@
               "meaning": "朋友；friend的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "visit our friends"
+            }
+          ]
         },
         {
           "id": "4-4",
@@ -660,7 +737,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在元旦”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -687,7 +764,12 @@
               "meaning": "天，日子"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on New Year's Day"
+            }
+          ]
         },
         {
           "id": "4-5",
@@ -800,7 +882,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“端午节”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -827,7 +909,12 @@
               "meaning": "节日（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The Dragon Boat Festival"
+            }
+          ]
         },
         {
           "id": "5-2",
@@ -872,23 +959,17 @@
           "structureBlocks": []
         },
         {
-          "id": "5-5",
+          "id": "5-7",
           "sequenceNumber": 5,
           "segmentNumber": 5,
-          "english": "is in May or June",
+          "english": "in May or June",
           "chinese": "在五月或六月",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在五月或六月”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "linking v.",
-              "meaning": "说明节日所处的时间"
-            },
             {
               "text": "in",
               "phonetic": "/ɪn/",
@@ -914,7 +995,12 @@
               "meaning": "六月"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in May or June"
+            }
+          ]
         },
         {
           "id": "5-6",
@@ -1007,7 +1093,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1028,7 +1114,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1041,9 +1127,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "your favourite festival",
+          "chinese": "你最喜欢的节日",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你最喜欢的节日”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的"
+            },
+            {
+              "text": "favourite",
+              "phonetic": "/ˈfeɪvərɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "特别喜爱的"
+            },
+            {
+              "text": "festival",
+              "phonetic": "/ˈfestɪvəl/",
+              "partOfSpeech": "n.",
+              "meaning": "节日（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your favourite festival"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "What is your favourite festival?",
           "chinese": "你最喜欢的节日是什么？",
           "speaker": "Lily",
@@ -1150,7 +1274,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我最喜欢的节日”；将它接回完整表达。",
           "words": [
             {
               "text": "My",
@@ -1171,26 +1295,25 @@
               "meaning": "节日（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My favourite festival"
+            }
+          ]
         },
         {
-          "id": "7-4",
+          "id": "7-6",
           "sequenceNumber": 7,
           "segmentNumber": 4,
-          "english": "is the Mid-Autumn Festival",
-          "chinese": "是中秋节",
+          "english": "the Mid-Autumn Festival",
+          "chinese": "中秋节",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“中秋节”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "linking v.",
-              "meaning": "是（说明最喜欢的节日）"
-            },
             {
               "text": "the",
               "phonetic": "/ðə/",
@@ -1210,7 +1333,12 @@
               "meaning": "节日（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "the Mid-Autumn Festival"
+            }
+          ]
         },
         {
           "id": "7-5",
@@ -1285,7 +1413,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1306,7 +1434,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1319,9 +1447,53 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 3,
+          "english": "in September or October",
+          "chinese": "在九月或十月",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在九月或十月”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（月份或时间段前）"
+            },
+            {
+              "text": "September",
+              "phonetic": "/sepˈtembə/",
+              "partOfSpeech": "proper n.",
+              "meaning": "九月"
+            },
+            {
+              "text": "or",
+              "phonetic": "/ɔː/",
+              "partOfSpeech": "conj.",
+              "meaning": "或者"
+            },
+            {
+              "text": "October",
+              "phonetic": "/ɒkˈtəʊbə/",
+              "partOfSpeech": "proper n.",
+              "meaning": "十月"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in September or October"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
           "english": "It is in September or October.",
           "chinese": "它在九月或十月。",
           "speaker": "Tom",
@@ -1391,7 +1563,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1412,7 +1584,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1425,15 +1597,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "eat mooncakes",
+          "chinese": "吃月饼",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“吃月饼”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "eat",
+              "phonetic": "/iːt/",
+              "partOfSpeech": "v.",
+              "meaning": "吃"
+            },
+            {
+              "text": "mooncakes",
+              "phonetic": "/ˈmuːnkeɪks/",
+              "partOfSpeech": "n.",
+              "meaning": "月饼；mooncake的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "eat mooncakes"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "festival",
           "chinese": "节日（教材星号拓展词）",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1446,9 +1650,47 @@
           "structureBlocks": []
         },
         {
+          "id": "9-6",
+          "sequenceNumber": 9,
+          "segmentNumber": 5,
+          "english": "at this festival",
+          "chinese": "在这个节日",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在这个节日”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "det.",
+              "meaning": "这个"
+            },
+            {
+              "text": "festival",
+              "phonetic": "/ˈfestɪvəl/",
+              "partOfSpeech": "n.",
+              "meaning": "节日（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at this festival"
+            }
+          ]
+        },
+        {
           "id": "9-4",
           "sequenceNumber": 9,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "We eat mooncakes at this festival.",
           "chinese": "我们在这个节日吃月饼。",
           "speaker": "Ben",
@@ -1577,23 +1819,17 @@
           "structureBlocks": []
         },
         {
-          "id": "10-5",
+          "id": "10-8",
           "sequenceNumber": 10,
           "segmentNumber": 4,
-          "english": "We look at the bright moon",
-          "chinese": "我们赏明月",
+          "english": "look at the bright moon",
+          "chinese": "赏明月",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“赏明月”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
             {
               "text": "look",
               "phonetic": "/lʊk/",
@@ -1625,7 +1861,12 @@
               "meaning": "月亮"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "look at the bright moon"
+            }
+          ]
         },
         {
           "id": "10-4",
@@ -1658,7 +1899,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在夜晚”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -1673,7 +1914,12 @@
               "meaning": "夜晚"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at night"
+            }
+          ]
         },
         {
           "id": "10-7",
@@ -1758,7 +2004,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1771,9 +2017,41 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-3",
           "sequenceNumber": 11,
           "segmentNumber": 2,
+          "english": "in December",
+          "chinese": "在十二月",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在十二月”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（月份或时间段前）"
+            },
+            {
+              "text": "December",
+              "phonetic": "/dɪˈsembə/",
+              "partOfSpeech": "proper n.",
+              "meaning": "十二月"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in December"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
           "english": "Christmas is in December.",
           "chinese": "圣诞节在十二月。",
           "speaker": "Tom",
@@ -1844,9 +2122,41 @@
           "structureBlocks": []
         },
         {
-          "id": "12-2",
+          "id": "12-8",
           "sequenceNumber": 12,
           "segmentNumber": 2,
+          "english": "My family",
+          "chinese": "我的家人",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的家人”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家人；家庭"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My family"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
           "english": "gives",
           "chinese": "给；give的第三人称单数",
           "speaker": "Lily",
@@ -1867,7 +2177,7 @@
         {
           "id": "12-3",
           "sequenceNumber": 12,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "small",
           "chinese": "小的",
           "speaker": "Lily",
@@ -1888,7 +2198,7 @@
         {
           "id": "12-4",
           "sequenceNumber": 12,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
           "english": "gifts",
           "chinese": "礼物；gift的复数",
           "speaker": "Lily",
@@ -1907,29 +2217,17 @@
           "structureBlocks": []
         },
         {
-          "id": "12-5",
+          "id": "12-9",
           "sequenceNumber": 12,
-          "segmentNumber": 5,
-          "english": "My family gives small gifts",
-          "chinese": "我的家人赠送小礼物",
+          "segmentNumber": 6,
+          "english": "gives small gifts",
+          "chinese": "赠送小礼物",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“赠送小礼物”；将它接回完整表达。",
           "words": [
-            {
-              "text": "My",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "det.",
-              "meaning": "我的"
-            },
-            {
-              "text": "family",
-              "phonetic": "/ˈfæməli/",
-              "partOfSpeech": "n.",
-              "meaning": "家人；家庭"
-            },
             {
               "text": "gives",
               "phonetic": "/ɡɪvz/",
@@ -1949,19 +2247,24 @@
               "meaning": "礼物；gift的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "gives small gifts"
+            }
+          ]
         },
         {
           "id": "12-6",
           "sequenceNumber": 12,
-          "segmentNumber": 6,
+          "segmentNumber": 7,
           "english": "at Christmas",
           "chinese": "在圣诞节",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在圣诞节”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -1976,12 +2279,17 @@
               "meaning": "圣诞节"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at Christmas"
+            }
+          ]
         },
         {
           "id": "12-7",
           "sequenceNumber": 12,
-          "segmentNumber": 7,
+          "segmentNumber": 8,
           "english": "My family gives small gifts at Christmas.",
           "chinese": "我的家人在圣诞节赠送小礼物。",
           "speaker": "Lily",
@@ -2095,48 +2403,9 @@
           "structureBlocks": []
         },
         {
-          "id": "13-4",
-          "sequenceNumber": 13,
-          "segmentNumber": 3,
-          "english": "We can put pictures",
-          "chinese": "我们可以放图画",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以"
-            },
-            {
-              "text": "put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放"
-            },
-            {
-              "text": "pictures",
-              "phonetic": "/ˈpɪktʃəz/",
-              "partOfSpeech": "n.",
-              "meaning": "图画；picture的复数"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "13-3",
           "sequenceNumber": 13,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "calendar",
           "chinese": "日历",
           "speaker": "Ben",
@@ -2155,17 +2424,29 @@
           "structureBlocks": []
         },
         {
-          "id": "13-5",
+          "id": "13-7",
           "sequenceNumber": 13,
-          "segmentNumber": 5,
-          "english": "on our calendar",
-          "chinese": "在我们的日历上",
+          "segmentNumber": 4,
+          "english": "put pictures on our calendar",
+          "chinese": "把图画放到我们的日历上",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把图画放到我们的日历上”；将它接回完整表达。",
           "words": [
+            {
+              "text": "put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放"
+            },
+            {
+              "text": "pictures",
+              "phonetic": "/ˈpɪktʃəz/",
+              "partOfSpeech": "n.",
+              "meaning": "图画；picture的复数"
+            },
             {
               "text": "on",
               "phonetic": "/ɒn/",
@@ -2185,12 +2466,17 @@
               "meaning": "日历"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "put pictures on our calendar"
+            }
+          ]
         },
         {
           "id": "13-6",
           "sequenceNumber": 13,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "We can put pictures on our calendar.",
           "chinese": "我们可以把图画放到日历上。",
           "speaker": "Ben",
@@ -2270,7 +2556,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2283,15 +2569,47 @@
           "structureBlocks": []
         },
         {
-          "id": "14-2",
+          "id": "14-5",
           "sequenceNumber": 14,
           "segmentNumber": 2,
+          "english": "Our calendar",
+          "chinese": "我们的日历",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们的日历”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "calendar",
+              "phonetic": "/ˈkælɪndə/",
+              "partOfSpeech": "n.",
+              "meaning": "日历"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Our calendar"
+            }
+          ]
+        },
+        {
+          "id": "14-2",
+          "sequenceNumber": 14,
+          "segmentNumber": 3,
           "english": "show",
           "chinese": "展示",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2306,13 +2624,13 @@
         {
           "id": "14-3",
           "sequenceNumber": 14,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "festivals",
           "chinese": "节日；festival的复数",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2325,9 +2643,47 @@
           "structureBlocks": []
         },
         {
+          "id": "14-6",
+          "sequenceNumber": 14,
+          "segmentNumber": 5,
+          "english": "show different festivals",
+          "chinese": "展示不同节日",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“展示不同节日”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "展示"
+            },
+            {
+              "text": "different",
+              "phonetic": "/ˈdɪfrənt/",
+              "partOfSpeech": "adj.",
+              "meaning": "不同的"
+            },
+            {
+              "text": "festivals",
+              "phonetic": "/ˈfestɪvəlz/",
+              "partOfSpeech": "n.",
+              "meaning": "节日；festival的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "show different festivals"
+            }
+          ]
+        },
+        {
           "id": "14-4",
           "sequenceNumber": 14,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "Our calendar can show different festivals.",
           "chinese": "我们的日历可以展示不同节日。",
           "speaker": "Tom",

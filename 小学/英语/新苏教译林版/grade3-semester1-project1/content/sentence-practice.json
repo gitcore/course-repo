@@ -145,7 +145,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -158,9 +158,41 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-3",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "your name",
+          "chinese": "你的名字",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的名字”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的"
+            },
+            {
+              "text": "name",
+              "phonetic": "/neɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "名字"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your name"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "What's your name?",
           "chinese": "你叫什么名字？",
           "speaker": "Ben",
@@ -208,7 +240,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -221,9 +253,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-3",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "My name",
+          "chinese": "我的名字",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的名字”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "name",
+              "phonetic": "/neɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "名字"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My name"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "My name is Tom.",
           "chinese": "我叫Tom。",
           "speaker": "Tom",
@@ -364,7 +428,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -377,9 +441,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-3",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "in Class 2",
+          "chinese": "在二班",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在二班”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……中"
+            },
+            {
+              "text": "Class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "同学们；班级"
+            },
+            {
+              "text": "2",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "num.",
+              "meaning": "二（班级编号）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in Class 2"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "I'm in Class 2.",
           "chinese": "我在二班。",
           "speaker": "Tom",
@@ -433,7 +535,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -446,9 +548,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "my friend",
+          "chinese": "我的朋友",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的朋友”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "friend",
+              "phonetic": "/frend/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my friend"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "This is my friend, Tom.",
           "chinese": "这是我的朋友Tom。",
           "speaker": "Ben",
@@ -516,7 +650,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -537,7 +671,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -550,9 +684,53 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 3,
+          "english": "Nice to meet you",
+          "chinese": "很高兴认识你",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“很高兴认识你”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "愉快的；友好的（见面问候语中的词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "meet",
+              "phonetic": "/miːt/",
+              "partOfSpeech": "v.",
+              "meaning": "见面；认识"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
           "english": "Nice to meet you, Tom.",
           "chinese": "很高兴认识你，Tom。",
           "speaker": "May",
@@ -612,7 +790,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -633,7 +811,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -646,9 +824,53 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "Nice to meet you",
+          "chinese": "很高兴认识你",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“很高兴认识你”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "愉快的；友好的（见面问候语中的词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "meet",
+              "phonetic": "/miːt/",
+              "partOfSpeech": "v.",
+              "meaning": "见面；认识"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "Nice to meet you too, May.",
           "chinese": "我也很高兴认识你，May。",
           "speaker": "Tom",
@@ -718,7 +940,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -731,9 +953,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-2",
+          "id": "10-3",
           "sequenceNumber": 10,
           "segmentNumber": 2,
+          "english": "in Class 2",
+          "chinese": "在二班",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在二班”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……中"
+            },
+            {
+              "text": "Class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "同学们；班级"
+            },
+            {
+              "text": "2",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "num.",
+              "meaning": "二（班级编号）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in Class 2"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
           "english": "He's in Class 2.",
           "chinese": "他在二班。",
           "speaker": "Ben",

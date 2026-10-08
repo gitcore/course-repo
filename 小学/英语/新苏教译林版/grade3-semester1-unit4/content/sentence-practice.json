@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -32,9 +32,41 @@
           "structureBlocks": []
         },
         {
-          "id": "1-2",
+          "id": "1-3",
           "sequenceNumber": 1,
           "segmentNumber": 2,
+          "english": "my friend",
+          "chinese": "我的朋友",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的朋友”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "friend",
+              "phonetic": "/frend/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my friend"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
           "english": "This is my friend, May.",
           "chinese": "这是我的朋友May。",
           "speaker": "Ben",
@@ -102,7 +134,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -123,7 +155,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -136,9 +168,53 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-4",
           "sequenceNumber": 3,
           "segmentNumber": 3,
+          "english": "Nice to meet you",
+          "chinese": "很高兴认识你",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“很高兴认识你”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "愉快的；友好的（见面问候语中的词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "meet",
+              "phonetic": "/miːt/",
+              "partOfSpeech": "v.",
+              "meaning": "见面；认识"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
           "english": "Nice to meet you, May.",
           "chinese": "很高兴认识你，May。",
           "speaker": "Tom",
@@ -198,7 +274,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -219,7 +295,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -232,9 +308,53 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "Nice to meet you",
+          "chinese": "很高兴认识你",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“很高兴认识你”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "愉快的；友好的（见面问候语中的词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "meet",
+              "phonetic": "/miːt/",
+              "partOfSpeech": "v.",
+              "meaning": "见面；认识"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "Nice to meet you too.",
           "chinese": "我也很高兴认识你。",
           "speaker": "May",
@@ -294,7 +414,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -307,9 +427,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-3",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "in Class 2",
+          "chinese": "在二班",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在二班”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……中"
+            },
+            {
+              "text": "Class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "同学们；班级"
+            },
+            {
+              "text": "2",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "num.",
+              "meaning": "二（班级编号）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in Class 2"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "She's in Class 2.",
           "chinese": "她在二班。",
           "speaker": "Ben",
@@ -363,7 +521,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -376,9 +534,41 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-3",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "my friend",
+          "chinese": "我的朋友",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的朋友”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "friend",
+              "phonetic": "/frend/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my friend"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "This is my friend, Ben.",
           "chinese": "这是我的朋友Ben。",
           "speaker": "Tom",
@@ -446,7 +636,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -459,9 +649,47 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "in Class 1",
+          "chinese": "在一班",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在一班”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……中"
+            },
+            {
+              "text": "Class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "同学们；班级"
+            },
+            {
+              "text": "1",
+              "phonetic": "/wʌn/",
+              "partOfSpeech": "num.",
+              "meaning": "一（班级编号）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in Class 1"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "He's in Class 1.",
           "chinese": "他在一班。",
           "speaker": "May",
@@ -515,7 +743,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -536,7 +764,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -549,9 +777,47 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 3,
+          "english": "have many friends",
+          "chinese": "有很多朋友",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“有很多朋友”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "det.",
+              "meaning": "许多"
+            },
+            {
+              "text": "friends",
+              "phonetic": "/frendz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "朋友们；friend的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have many friends"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
           "english": "I have many friends.",
           "chinese": "我有很多朋友。",
           "speaker": "Ben",
@@ -609,7 +875,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -630,7 +896,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -643,9 +909,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "have many friends",
+          "chinese": "有很多朋友",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“有很多朋友”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "det.",
+              "meaning": "许多"
+            },
+            {
+              "text": "friends",
+              "phonetic": "/frendz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "朋友们；friend的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have many friends"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "I have many friends too.",
           "chinese": "我也有很多朋友。",
           "speaker": "Tom",

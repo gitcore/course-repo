@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,53 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "make a habits card",
+          "chinese": "做一张习惯记录卡",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做一张习惯记录卡”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "制作"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "habits",
+              "phonetic": "/ˈhæbɪts/",
+              "partOfSpeech": "n.",
+              "meaning": "习惯；habit的复数"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make a habits card"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Let's make a habits card.",
           "chinese": "我们做一张习惯记录卡吧。",
           "speaker": "Ben",
@@ -140,7 +184,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -161,7 +205,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -182,7 +226,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -195,9 +239,53 @@
           "structureBlocks": []
         },
         {
-          "id": "2-4",
+          "id": "2-5",
           "sequenceNumber": 2,
           "segmentNumber": 4,
+          "english": "keeps her desk tidy",
+          "chinese": "保持课桌整洁",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“保持课桌整洁”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "keeps",
+              "phonetic": "/kiːps/",
+              "partOfSpeech": "v.",
+              "meaning": "保持；keep的第三人称单数"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "det.",
+              "meaning": "她的"
+            },
+            {
+              "text": "desk",
+              "phonetic": "/desk/",
+              "partOfSpeech": "n.",
+              "meaning": "课桌"
+            },
+            {
+              "text": "tidy",
+              "phonetic": "/ˈtaɪdi/",
+              "partOfSpeech": "adj.",
+              "meaning": "整洁的，井然有序的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "keeps her desk tidy"
+            }
+          ]
+        },
+        {
+          "id": "2-4",
+          "sequenceNumber": 2,
+          "segmentNumber": 5,
           "english": "Lily keeps her desk tidy.",
           "chinese": "Lily保持课桌整洁。",
           "speaker": "Tom",
@@ -320,23 +408,17 @@
           "structureBlocks": []
         },
         {
-          "id": "3-5",
+          "id": "3-8",
           "sequenceNumber": 3,
           "segmentNumber": 4,
-          "english": "She puts her books in order",
-          "chinese": "她把书整理好",
+          "english": "puts her books in order",
+          "chinese": "把她的书整理好",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把她的书整理好”；将它接回完整表达。",
           "words": [
-            {
-              "text": "She",
-              "phonetic": "/ʃiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "她"
-            },
             {
               "text": "puts",
               "phonetic": "/pʊts/",
@@ -368,7 +450,12 @@
               "meaning": "整齐；秩序"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "puts her books in order"
+            }
+          ]
         },
         {
           "id": "3-4",
@@ -401,7 +488,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在课后”；将它接回完整表达。",
           "words": [
             {
               "text": "after",
@@ -416,7 +503,12 @@
               "meaning": "课；课堂"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "after class"
+            }
+          ]
         },
         {
           "id": "3-7",
@@ -511,7 +603,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -532,7 +624,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -545,15 +637,47 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-5",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "listens carefully",
+          "chinese": "认真听讲",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“认真听讲”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "listens",
+              "phonetic": "/ˈlɪsənz/",
+              "partOfSpeech": "v.",
+              "meaning": "听；listen的第三人称单数"
+            },
+            {
+              "text": "carefully",
+              "phonetic": "/ˈkeəfəli/",
+              "partOfSpeech": "adv.",
+              "meaning": "仔细地，小心翼翼地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "listens carefully"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "class",
           "chinese": "课；课堂",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -566,9 +690,41 @@
           "structureBlocks": []
         },
         {
+          "id": "4-6",
+          "sequenceNumber": 4,
+          "segmentNumber": 5,
+          "english": "in class",
+          "chinese": "在上课时",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在上课时”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（in class表示上课时）"
+            },
+            {
+              "text": "class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "课；课堂"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in class"
+            }
+          ]
+        },
+        {
           "id": "4-4",
           "sequenceNumber": 4,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "She listens carefully in class.",
           "chinese": "她上课认真听讲。",
           "speaker": "Tom",
@@ -636,7 +792,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -657,7 +813,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -670,9 +826,41 @@
           "structureBlocks": []
         },
         {
-          "id": "5-3",
+          "id": "5-4",
           "sequenceNumber": 5,
           "segmentNumber": 3,
+          "english": "takes notes",
+          "chinese": "记笔记",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“记笔记”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "takes",
+              "phonetic": "/teɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "记（take notes整体表示记笔记）"
+            },
+            {
+              "text": "notes",
+              "phonetic": "/nəʊts/",
+              "partOfSpeech": "n.",
+              "meaning": "笔记；note的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "takes notes"
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
           "english": "She takes notes too.",
           "chinese": "她也记笔记。",
           "speaker": "Ben",
@@ -734,7 +922,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -755,7 +943,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -768,9 +956,53 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "has many good habits",
+          "chinese": "有很多好习惯",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“有很多好习惯”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "has",
+              "phonetic": "/hæz/",
+              "partOfSpeech": "v.",
+              "meaning": "有；have的第三人称单数"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "adj.",
+              "meaning": "许多的"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "habits",
+              "phonetic": "/ˈhæbɪts/",
+              "partOfSpeech": "n.",
+              "meaning": "习惯；habit的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "has many good habits"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "Lily has many good habits.",
           "chinese": "Lily有很多好习惯。",
           "speaker": "Tom",
@@ -826,15 +1058,47 @@
           ]
         },
         {
-          "id": "7-1",
+          "id": "7-5",
           "sequenceNumber": 7,
           "segmentNumber": 1,
+          "english": "your brother",
+          "chinese": "你的哥哥",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的哥哥”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的"
+            },
+            {
+              "text": "brother",
+              "phonetic": "/ˈbrʌðə/",
+              "partOfSpeech": "n.",
+              "meaning": "哥哥；弟弟"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your brother"
+            }
+          ]
+        },
+        {
+          "id": "7-1",
+          "sequenceNumber": 7,
+          "segmentNumber": 2,
           "english": "do",
           "chinese": "做",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -847,61 +1111,16 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
-          "sequenceNumber": 7,
-          "segmentNumber": 2,
-          "english": "What does your brother do",
-          "chinese": "你的哥哥做什么",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "What",
-              "phonetic": "/wɒt/",
-              "partOfSpeech": "pron.",
-              "meaning": "什么"
-            },
-            {
-              "text": "does",
-              "phonetic": "/dʌz/",
-              "partOfSpeech": "aux. v.",
-              "meaning": "用于第三人称单数的疑问、否定或简短回答的助动词"
-            },
-            {
-              "text": "your",
-              "phonetic": "/jɔː/",
-              "partOfSpeech": "det.",
-              "meaning": "你的"
-            },
-            {
-              "text": "brother",
-              "phonetic": "/ˈbrʌðə/",
-              "partOfSpeech": "n.",
-              "meaning": "哥哥；弟弟"
-            },
-            {
-              "text": "do",
-              "phonetic": "/duː/",
-              "partOfSpeech": "v.",
-              "meaning": "做"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
-          "id": "7-3",
+          "id": "7-6",
           "sequenceNumber": 7,
           "segmentNumber": 3,
           "english": "at home",
-          "chinese": "在家里",
+          "chinese": "在家",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在家”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -916,7 +1135,12 @@
               "meaning": "家"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at home"
+            }
+          ]
         },
         {
           "id": "7-4",
@@ -1005,7 +1229,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1026,7 +1250,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1039,9 +1263,73 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 3,
+          "english": "does chores",
+          "chinese": "做家务",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做家务”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "does",
+              "phonetic": "/dʌz/",
+              "partOfSpeech": "v.",
+              "meaning": "做；do的第三人称单数"
+            },
+            {
+              "text": "chores",
+              "phonetic": "/tʃɔːz/",
+              "partOfSpeech": "n.",
+              "meaning": "家务；chore的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "does chores"
+            }
+          ]
+        },
+        {
+          "id": "8-5",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
+          "english": "every evening",
+          "chinese": "每天晚上",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“每天晚上”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一个"
+            },
+            {
+              "text": "evening",
+              "phonetic": "/ˈiːvnɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "晚上"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "every evening"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 5,
           "english": "He does chores every evening.",
           "chinese": "他每天晚上做家务。",
           "speaker": "Tom",
@@ -1109,7 +1397,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1130,7 +1418,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1151,7 +1439,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1164,9 +1452,53 @@
           "structureBlocks": []
         },
         {
-          "id": "9-4",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 4,
+          "english": "go to bed early",
+          "chinese": "早睡",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“早睡”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "去"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到"
+            },
+            {
+              "text": "bed",
+              "phonetic": "/bed/",
+              "partOfSpeech": "n.",
+              "meaning": "床"
+            },
+            {
+              "text": "early",
+              "phonetic": "/ˈɜːli/",
+              "partOfSpeech": "adv.",
+              "meaning": "早；提早"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "go to bed early"
+            }
+          ]
+        },
+        {
+          "id": "9-4",
+          "sequenceNumber": 9,
+          "segmentNumber": 5,
           "english": "Does he go to bed early?",
           "chinese": "他早睡吗？",
           "speaker": "Ben",
@@ -1261,7 +1593,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1282,7 +1614,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1303,7 +1635,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1316,9 +1648,53 @@
           "structureBlocks": []
         },
         {
-          "id": "10-5",
+          "id": "10-6",
           "sequenceNumber": 10,
           "segmentNumber": 5,
+          "english": "goes to bed late",
+          "chinese": "很晚才睡",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“很晚才睡”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "goes",
+              "phonetic": "/ɡəʊz/",
+              "partOfSpeech": "v.",
+              "meaning": "去；go的第三人称单数"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到"
+            },
+            {
+              "text": "bed",
+              "phonetic": "/bed/",
+              "partOfSpeech": "n.",
+              "meaning": "床"
+            },
+            {
+              "text": "late",
+              "phonetic": "/leɪt/",
+              "partOfSpeech": "adv.",
+              "meaning": "迟，晚"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "goes to bed late"
+            }
+          ]
+        },
+        {
+          "id": "10-5",
+          "sequenceNumber": 10,
+          "segmentNumber": 6,
           "english": "He often goes to bed late.",
           "chinese": "他经常很晚才睡。",
           "speaker": "Tom",
@@ -1392,7 +1768,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1413,7 +1789,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1426,9 +1802,47 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "a bad habit",
+          "chinese": "一个坏习惯",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一个坏习惯”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "bad",
+              "phonetic": "/bæd/",
+              "partOfSpeech": "adj.",
+              "meaning": "坏的"
+            },
+            {
+              "text": "habit",
+              "phonetic": "/ˈhæbɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "习惯（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a bad habit"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "That is a bad habit.",
           "chinese": "那是一个坏习惯。",
           "speaker": "Ben",
@@ -1492,7 +1906,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1505,9 +1919,59 @@
           "structureBlocks": []
         },
         {
-          "id": "12-2",
+          "id": "12-3",
           "sequenceNumber": 12,
           "segmentNumber": 2,
+          "english": "wants to change that habit",
+          "chinese": "想改掉那个习惯",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“想改掉那个习惯”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "wants",
+              "phonetic": "/wɒnts/",
+              "partOfSpeech": "v.",
+              "meaning": "想要；want的第三人称单数"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "change",
+              "phonetic": "/tʃeɪndʒ/",
+              "partOfSpeech": "v.",
+              "meaning": "改变"
+            },
+            {
+              "text": "that",
+              "phonetic": "/ðæt/",
+              "partOfSpeech": "det.",
+              "meaning": "那个"
+            },
+            {
+              "text": "habit",
+              "phonetic": "/ˈhæbɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "习惯（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "wants to change that habit"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
           "english": "He wants to change that habit.",
           "chinese": "他想改掉那个习惯。",
           "speaker": "Tom",
@@ -1577,7 +2041,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1598,7 +2062,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1611,9 +2075,73 @@
           "structureBlocks": []
         },
         {
-          "id": "13-3",
+          "id": "13-4",
           "sequenceNumber": 13,
           "segmentNumber": 3,
+          "english": "do exercise",
+          "chinese": "锻炼",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“锻炼”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "do",
+              "phonetic": "/duː/",
+              "partOfSpeech": "v.",
+              "meaning": "进行（do exercise整体表示锻炼）"
+            },
+            {
+              "text": "exercise",
+              "phonetic": "/ˈeksəsaɪz/",
+              "partOfSpeech": "n.",
+              "meaning": "锻炼"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "do exercise"
+            }
+          ]
+        },
+        {
+          "id": "13-5",
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
+          "english": "every day",
+          "chinese": "每天",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“每天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一个"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "every day"
+            }
+          ]
+        },
+        {
+          "id": "13-3",
+          "sequenceNumber": 13,
+          "segmentNumber": 5,
           "english": "I do exercise every day.",
           "chinese": "我每天锻炼。",
           "speaker": "Ben",
@@ -1694,37 +2222,16 @@
           "structureBlocks": []
         },
         {
-          "id": "14-2",
+          "id": "14-7",
           "sequenceNumber": 14,
           "segmentNumber": 2,
-          "english": "show",
-          "chinese": "展示",
-          "speaker": "Tom",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "show",
-              "phonetic": "/ʃəʊ/",
-              "partOfSpeech": "v.",
-              "meaning": "展示"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
-          "id": "14-4",
-          "sequenceNumber": 14,
-          "segmentNumber": 3,
-          "english": "Our cards can show",
-          "chinese": "我们的卡片可以展示",
+          "english": "Our cards",
+          "chinese": "我们的卡片",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们的卡片”；将它接回完整表达。",
           "words": [
             {
               "text": "Our",
@@ -1737,13 +2244,27 @@
               "phonetic": "/kɑːdz/",
               "partOfSpeech": "n.",
               "meaning": "卡片；card的复数"
-            },
+            }
+          ],
+          "structureBlocks": [
             {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以"
-            },
+              "label": "名词短语",
+              "text": "Our cards"
+            }
+          ]
+        },
+        {
+          "id": "14-2",
+          "sequenceNumber": 14,
+          "segmentNumber": 3,
+          "english": "show",
+          "chinese": "展示",
+          "speaker": "Tom",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
             {
               "text": "show",
               "phonetic": "/ʃəʊ/",
@@ -1775,17 +2296,23 @@
           "structureBlocks": []
         },
         {
-          "id": "14-5",
+          "id": "14-8",
           "sequenceNumber": 14,
           "segmentNumber": 5,
-          "english": "one good habit each",
-          "chinese": "各一个好习惯",
+          "english": "show one good habit each",
+          "chinese": "各展示一个好习惯",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“各展示一个好习惯”；将它接回完整表达。",
           "words": [
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "展示"
+            },
             {
               "text": "one",
               "phonetic": "/wʌn/",
@@ -1811,7 +2338,12 @@
               "meaning": "每个"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "show one good habit each"
+            }
+          ]
         },
         {
           "id": "14-6",

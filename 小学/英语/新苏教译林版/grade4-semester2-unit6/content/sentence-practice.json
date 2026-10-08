@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -32,9 +32,47 @@
           "structureBlocks": []
         },
         {
-          "id": "1-2",
+          "id": "1-3",
           "sequenceNumber": 1,
           "segmentNumber": 2,
+          "english": "your mother's job",
+          "chinese": "你妈妈的职业",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你妈妈的职业”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的（复习或原创场景支持词）"
+            },
+            {
+              "text": "mother's",
+              "phonetic": "/ˈmʌðəz/",
+              "partOfSpeech": "possessive n.",
+              "meaning": "母亲的（复习或原创场景支持词）"
+            },
+            {
+              "text": "job",
+              "phonetic": "/dʒɒb/",
+              "partOfSpeech": "n.",
+              "meaning": "工作；职业"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your mother's job"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
           "english": "What is your mother's job?",
           "chinese": "你妈妈的职业是什么？",
           "speaker": "Ben",
@@ -111,29 +149,17 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-6",
           "sequenceNumber": 2,
           "segmentNumber": 2,
-          "english": "She is a nurse",
-          "chinese": "她是一名护士",
+          "english": "a nurse",
+          "chinese": "一名护士",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一名护士”；将它接回完整表达。",
           "words": [
-            {
-              "text": "She",
-              "phonetic": "/ʃiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "她（复习或原创场景支持词）"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）（复习或原创场景支持词）"
-            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -147,7 +173,12 @@
               "meaning": "护士"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a nurse"
+            }
+          ]
         },
         {
           "id": "2-2",
@@ -171,16 +202,16 @@
           "structureBlocks": []
         },
         {
-          "id": "2-4",
+          "id": "2-7",
           "sequenceNumber": 2,
           "segmentNumber": 4,
           "english": "in a hospital",
-          "chinese": "在一家医院里",
+          "chinese": "在一所医院里",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在一所医院里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -201,7 +232,12 @@
               "meaning": "医院"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in a hospital"
+            }
+          ]
         },
         {
           "id": "2-5",
@@ -280,7 +316,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -301,7 +337,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -322,7 +358,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -335,9 +371,47 @@
           "structureBlocks": []
         },
         {
-          "id": "3-4",
+          "id": "3-5",
           "sequenceNumber": 3,
           "segmentNumber": 4,
+          "english": "helps sick people",
+          "chinese": "帮助生病的人",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮助生病的人”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "helps",
+              "phonetic": "/helps/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助；help的第三人称单数（复习或原创场景支持词）"
+            },
+            {
+              "text": "sick",
+              "phonetic": "/sɪk/",
+              "partOfSpeech": "adj.",
+              "meaning": "生病的；有病的（教材星号支持词）"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpəl/",
+              "partOfSpeech": "n.",
+              "meaning": "人；人们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "helps sick people"
+            }
+          ]
+        },
+        {
+          "id": "3-4",
+          "sequenceNumber": 3,
+          "segmentNumber": 5,
           "english": "She helps sick people.",
           "chinese": "她帮助生病的人。",
           "speaker": "May",
@@ -395,7 +469,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -408,15 +482,47 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-5",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "My father",
+          "chinese": "我的爸爸",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的爸爸”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（复习或原创场景支持词）"
+            },
+            {
+              "text": "father",
+              "phonetic": "/ˈfɑːðə/",
+              "partOfSpeech": "n.",
+              "meaning": "爸爸；父亲（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My father"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "taxi",
           "chinese": "出租汽车；的士",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -431,13 +537,13 @@
         {
           "id": "4-3",
           "sequenceNumber": 4,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "driver",
           "chinese": "驾驶员；司机",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -450,9 +556,47 @@
           "structureBlocks": []
         },
         {
+          "id": "4-6",
+          "sequenceNumber": 4,
+          "segmentNumber": 5,
+          "english": "a taxi driver",
+          "chinese": "一名出租车司机",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一名出租车司机”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "taxi",
+              "phonetic": "/ˈtæksi/",
+              "partOfSpeech": "n.",
+              "meaning": "出租汽车；的士"
+            },
+            {
+              "text": "driver",
+              "phonetic": "/ˈdraɪvə/",
+              "partOfSpeech": "n.",
+              "meaning": "驾驶员；司机"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a taxi driver"
+            }
+          ]
+        },
+        {
           "id": "4-4",
           "sequenceNumber": 4,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "My father is a taxi driver.",
           "chinese": "我的爸爸是一名出租车司机。",
           "speaker": "Tom",
@@ -556,42 +700,9 @@
           "structureBlocks": []
         },
         {
-          "id": "5-4",
-          "sequenceNumber": 5,
-          "segmentNumber": 3,
-          "english": "He takes people",
-          "chinese": "他送人们",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "He",
-              "phonetic": "/hiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "他（复习或原创场景支持词）"
-            },
-            {
-              "text": "takes",
-              "phonetic": "/teɪks/",
-              "partOfSpeech": "v.",
-              "meaning": "带；拿；take的第三人称单数（复习或原创场景支持词）"
-            },
-            {
-              "text": "people",
-              "phonetic": "/ˈpiːpəl/",
-              "partOfSpeech": "n.",
-              "meaning": "人；人们"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "5-3",
           "sequenceNumber": 5,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "places",
           "chinese": "地方；place的复数（复习或原创场景支持词）",
           "speaker": "Tom",
@@ -610,17 +721,29 @@
           "structureBlocks": []
         },
         {
-          "id": "5-5",
+          "id": "5-7",
           "sequenceNumber": 5,
-          "segmentNumber": 5,
-          "english": "to different places",
-          "chinese": "去不同的地方",
+          "segmentNumber": 4,
+          "english": "takes people to different places",
+          "chinese": "送人们去不同的地方",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“送人们去不同的地方”；将它接回完整表达。",
           "words": [
+            {
+              "text": "takes",
+              "phonetic": "/teɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿；take的第三人称单数（复习或原创场景支持词）"
+            },
+            {
+              "text": "people",
+              "phonetic": "/ˈpiːpəl/",
+              "partOfSpeech": "n.",
+              "meaning": "人；人们"
+            },
             {
               "text": "to",
               "phonetic": "/tuː/",
@@ -640,12 +763,17 @@
               "meaning": "地方；place的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "takes people to different places"
+            }
+          ]
         },
         {
           "id": "5-6",
           "sequenceNumber": 5,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "He takes people to different places.",
           "chinese": "他送人们去不同的地方。",
           "speaker": "Tom",
@@ -719,7 +847,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -732,15 +860,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "your mother",
+          "chinese": "你的妈妈",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的妈妈”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的（复习或原创场景支持词）"
+            },
+            {
+              "text": "mother",
+              "phonetic": "/ˈmʌðə/",
+              "partOfSpeech": "n.",
+              "meaning": "妈妈；母亲（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your mother"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "teacher",
           "chinese": "教师",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -753,9 +913,41 @@
           "structureBlocks": []
         },
         {
+          "id": "6-5",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
+          "english": "a teacher",
+          "chinese": "一名教师",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一名教师”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "teacher",
+              "phonetic": "/ˈtiːtʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "教师"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a teacher"
+            }
+          ]
+        },
+        {
           "id": "6-3",
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "Is your mother a teacher, Tom?",
           "chinese": "汤姆，你妈妈是一名教师吗？",
           "speaker": "Ben",
@@ -829,7 +1021,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -850,7 +1042,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -871,7 +1063,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -884,9 +1076,47 @@
           "structureBlocks": []
         },
         {
-          "id": "7-4",
+          "id": "7-5",
           "sequenceNumber": 7,
           "segmentNumber": 4,
+          "english": "helps children learn",
+          "chinese": "帮助孩子们学习",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮助孩子们学习”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "helps",
+              "phonetic": "/helps/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助；help的第三人称单数（复习或原创场景支持词）"
+            },
+            {
+              "text": "children",
+              "phonetic": "/ˈtʃɪldrən/",
+              "partOfSpeech": "n.",
+              "meaning": "孩子们；child的复数（复习或原创场景支持词）"
+            },
+            {
+              "text": "learn",
+              "phonetic": "/lɜːn/",
+              "partOfSpeech": "v.",
+              "meaning": "学习（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "helps children learn"
+            }
+          ]
+        },
+        {
+          "id": "7-4",
+          "sequenceNumber": 7,
+          "segmentNumber": 5,
           "english": "Yes, she helps children learn.",
           "chinese": "是的，她帮助孩子们学习。",
           "speaker": "Tom",
@@ -963,7 +1193,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -976,15 +1206,47 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "My uncle",
+          "chinese": "我的叔叔",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的叔叔”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（复习或原创场景支持词）"
+            },
+            {
+              "text": "uncle",
+              "phonetic": "/ˈʌŋkəl/",
+              "partOfSpeech": "n.",
+              "meaning": "叔叔；舅舅等（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My uncle"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "cook",
           "chinese": "厨师（a cook中的职业名词）",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -997,9 +1259,41 @@
           "structureBlocks": []
         },
         {
+          "id": "8-5",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
+          "english": "a cook",
+          "chinese": "一名厨师",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一名厨师”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "cook",
+              "phonetic": "/kʊk/",
+              "partOfSpeech": "n.",
+              "meaning": "厨师（a cook中的职业名词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a cook"
+            }
+          ]
+        },
+        {
           "id": "8-3",
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "My uncle is a cook.",
           "chinese": "我的叔叔是一名厨师。",
           "speaker": "Ben",
@@ -1063,7 +1357,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1084,7 +1378,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1097,9 +1391,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "makes delicious food",
+          "chinese": "制作美味的食物",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“制作美味的食物”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "makes",
+              "phonetic": "/meɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；make的第三人称单数（复习或原创场景支持词）"
+            },
+            {
+              "text": "delicious",
+              "phonetic": "/dɪˈlɪʃəs/",
+              "partOfSpeech": "adj.",
+              "meaning": "美味的；可口的（复习或原创场景支持词）"
+            },
+            {
+              "text": "food",
+              "phonetic": "/fuːd/",
+              "partOfSpeech": "n.",
+              "meaning": "食物；食品（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "makes delicious food"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "He makes delicious food.",
           "chinese": "他制作美味的食物。",
           "speaker": "Ben",
@@ -1157,7 +1489,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1170,15 +1502,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-2",
+          "id": "10-4",
           "sequenceNumber": 10,
           "segmentNumber": 2,
+          "english": "My aunt",
+          "chinese": "我的阿姨",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的阿姨”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（复习或原创场景支持词）"
+            },
+            {
+              "text": "aunt",
+              "phonetic": "/ɑːnt/",
+              "partOfSpeech": "n.",
+              "meaning": "阿姨；姑母等（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My aunt"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
           "english": "farmer",
           "chinese": "农民",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1191,9 +1555,41 @@
           "structureBlocks": []
         },
         {
+          "id": "10-5",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
+          "english": "a farmer",
+          "chinese": "一位农民",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一位农民”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "farmer",
+              "phonetic": "/ˈfɑːmə/",
+              "partOfSpeech": "n.",
+              "meaning": "农民"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a farmer"
+            }
+          ]
+        },
+        {
           "id": "10-3",
           "sequenceNumber": 10,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "My aunt is a farmer.",
           "chinese": "我的阿姨是一位农民。",
           "speaker": "Tom",
@@ -1257,7 +1653,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1278,7 +1674,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1291,9 +1687,53 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "grows food for us",
+          "chinese": "为我们种植粮食",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“为我们种植粮食”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "grows",
+              "phonetic": "/ɡrəʊz/",
+              "partOfSpeech": "v.",
+              "meaning": "种植；grow的第三人称单数（复习或原创场景支持词）"
+            },
+            {
+              "text": "food",
+              "phonetic": "/fuːd/",
+              "partOfSpeech": "n.",
+              "meaning": "食物；食品（复习或原创场景支持词）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（复习或原创场景支持词）"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "grows food for us"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "She grows food for us.",
           "chinese": "她为我们种植粮食。",
           "speaker": "Tom",
@@ -1382,7 +1822,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1403,7 +1843,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1416,9 +1856,53 @@
           "structureBlocks": []
         },
         {
-          "id": "12-4",
+          "id": "12-5",
           "sequenceNumber": 12,
           "segmentNumber": 4,
+          "english": "make things for us",
+          "chinese": "为我们制造用品",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“为我们制造用品”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "做；制作（复习或原创场景支持词）"
+            },
+            {
+              "text": "things",
+              "phonetic": "/θɪŋz/",
+              "partOfSpeech": "n.",
+              "meaning": "东西；thing的复数（复习或原创场景支持词）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（复习或原创场景支持词）"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make things for us"
+            }
+          ]
+        },
+        {
+          "id": "12-4",
+          "sequenceNumber": 12,
+          "segmentNumber": 5,
           "english": "Workers make things for us.",
           "chinese": "工人为我们制造用品。",
           "speaker": "May",
@@ -1507,7 +1991,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1520,9 +2004,41 @@
           "structureBlocks": []
         },
         {
-          "id": "13-3",
+          "id": "13-4",
           "sequenceNumber": 13,
           "segmentNumber": 3,
+          "english": "every day",
+          "chinese": "每天",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“每天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一；每个（复习或原创场景支持词）"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "一天；日子（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "every day"
+            }
+          ]
+        },
+        {
+          "id": "13-3",
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
           "english": "They are busy every day.",
           "chinese": "他们每天都很忙。",
           "speaker": "May",
@@ -1603,37 +2119,16 @@
           "structureBlocks": []
         },
         {
-          "id": "14-2",
+          "id": "14-8",
           "sequenceNumber": 14,
           "segmentNumber": 2,
-          "english": "great",
-          "chinese": "了不起的；很好的（复习或原创场景支持词）",
-          "speaker": "Ben",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "great",
-              "phonetic": "/ɡreɪt/",
-              "partOfSpeech": "adj.",
-              "meaning": "了不起的；很好的（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
-          "id": "14-5",
-          "sequenceNumber": 14,
-          "segmentNumber": 3,
-          "english": "These jobs are great",
-          "chinese": "这些职业很了不起",
+          "english": "These jobs",
+          "chinese": "这些职业",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些职业”；将它接回完整表达。",
           "words": [
             {
               "text": "These",
@@ -1646,13 +2141,27 @@
               "phonetic": "/dʒɒbz/",
               "partOfSpeech": "n.",
               "meaning": "工作；job的复数（复习或原创场景支持词）"
-            },
+            }
+          ],
+          "structureBlocks": [
             {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "是（与you及复数搭配）（复习或原创场景支持词）"
-            },
+              "label": "名词短语",
+              "text": "These jobs"
+            }
+          ]
+        },
+        {
+          "id": "14-2",
+          "sequenceNumber": 14,
+          "segmentNumber": 3,
+          "english": "great",
+          "chinese": "了不起的；很好的（复习或原创场景支持词）",
+          "speaker": "Ben",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记本句的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
             {
               "text": "great",
               "phonetic": "/ɡreɪt/",
@@ -1705,29 +2214,17 @@
           "structureBlocks": []
         },
         {
-          "id": "14-6",
+          "id": "14-9",
           "sequenceNumber": 14,
           "segmentNumber": 6,
-          "english": "because they help people",
-          "chinese": "因为它们帮助人们",
+          "english": "help people",
+          "chinese": "帮助人们",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮助人们”；将它接回完整表达。",
           "words": [
-            {
-              "text": "because",
-              "phonetic": "/bɪˈkɒz/",
-              "partOfSpeech": "conj.",
-              "meaning": "因为（复习或原创场景支持词）"
-            },
-            {
-              "text": "they",
-              "phonetic": "/ðeɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "他们；她们；它们（复习或原创场景支持词）"
-            },
             {
               "text": "help",
               "phonetic": "/help/",
@@ -1741,7 +2238,12 @@
               "meaning": "人；人们"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "help people"
+            }
+          ]
         },
         {
           "id": "14-7",

@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -32,9 +32,41 @@
           "structureBlocks": []
         },
         {
-          "id": "1-2",
+          "id": "1-3",
           "sequenceNumber": 1,
           "segmentNumber": 2,
+          "english": "my family",
+          "chinese": "我的家人",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的家人”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭；家人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my family"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
           "english": "This is my family.",
           "chinese": "这是我的家人。",
           "speaker": "Ben",
@@ -92,7 +124,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -105,9 +137,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-3",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "your grandpa",
+          "chinese": "你的爷爷",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的爷爷”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的"
+            },
+            {
+              "text": "grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your grandpa"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "Is he your grandpa?",
           "chinese": "他是你的爷爷吗？",
           "speaker": "May",
@@ -247,7 +311,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -260,9 +324,41 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-3",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "my grandma",
+          "chinese": "我的奶奶",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的奶奶”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "grandma",
+              "phonetic": "/ˈɡrænmɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "奶奶；外婆"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my grandma"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "She's my grandma.",
           "chinese": "她是我的奶奶。",
           "speaker": "Ben",
@@ -315,7 +411,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -328,9 +424,41 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-3",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "your mother",
+          "chinese": "你的妈妈",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的妈妈”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的"
+            },
+            {
+              "text": "mother",
+              "phonetic": "/ˈmʌðə/",
+              "partOfSpeech": "n.",
+              "meaning": "妈妈；母亲"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your mother"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "Is she your mother?",
           "chinese": "她是你的妈妈吗？",
           "speaker": "May",
@@ -434,7 +562,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -447,9 +575,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-3",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "my aunt",
+          "chinese": "我的姨妈",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的姨妈”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "aunt",
+              "phonetic": "/ɑːnt/",
+              "partOfSpeech": "n.",
+              "meaning": "姑姑、姨妈、婶婶等女性长辈"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my aunt"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "She's my aunt.",
           "chinese": "她是我的姨妈。",
           "speaker": "Ben",
@@ -502,7 +662,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -523,7 +683,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -536,9 +696,53 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "draw for my family",
+          "chinese": "为我的家人画画",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“为我的家人画画”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "draw",
+              "phonetic": "/drɔː/",
+              "partOfSpeech": "v.",
+              "meaning": "画"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭；家人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "draw for my family"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "I can draw for my family.",
           "chinese": "我能为我的家人画画。",
           "speaker": "Tom",
@@ -608,7 +812,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -629,7 +833,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -642,9 +846,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-3",
+          "id": "10-4",
           "sequenceNumber": 10,
           "segmentNumber": 3,
+          "english": "clean the table",
+          "chinese": "擦桌子",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“擦桌子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "打扫；使……干净"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个；这些；那些"
+            },
+            {
+              "text": "table",
+              "phonetic": "/ˈteɪbəl/",
+              "partOfSpeech": "n.",
+              "meaning": "桌子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "clean the table"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
           "english": "I can clean the table.",
           "chinese": "我能擦桌子。",
           "speaker": "May",
@@ -708,7 +950,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -729,7 +971,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -742,9 +984,53 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "sing for my family",
+          "chinese": "为我的家人唱歌",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“为我的家人唱歌”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "sing",
+              "phonetic": "/sɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭；家人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "sing for my family"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "I can sing for my family.",
           "chinese": "我能为我的家人唱歌。",
           "speaker": "Ben",
@@ -814,7 +1100,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -835,7 +1121,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -848,9 +1134,47 @@
           "structureBlocks": []
         },
         {
-          "id": "12-3",
+          "id": "12-4",
           "sequenceNumber": 12,
           "segmentNumber": 3,
+          "english": "love my family",
+          "chinese": "爱我的家人",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“爱我的家人”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "love",
+              "phonetic": "/lʌv/",
+              "partOfSpeech": "v.",
+              "meaning": "爱"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭；家人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "love my family"
+            }
+          ]
+        },
+        {
+          "id": "12-3",
+          "sequenceNumber": 12,
+          "segmentNumber": 4,
           "english": "I love my family.",
           "chinese": "我爱我的家人。",
           "speaker": "Tom",

@@ -19,7 +19,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -32,9 +32,41 @@
           "structureBlocks": []
         },
         {
-          "id": "1-2",
+          "id": "1-3",
           "sequenceNumber": 1,
           "segmentNumber": 2,
+          "english": "eat out",
+          "chinese": "去饭店吃饭",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“去饭店吃饭”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "eat",
+              "phonetic": "/iːt/",
+              "partOfSpeech": "v.",
+              "meaning": "吃（复习或原创场景支持词）"
+            },
+            {
+              "text": "out",
+              "phonetic": "/aʊt/",
+              "partOfSpeech": "adv.",
+              "meaning": "在外；外出（eat out中的词）（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "eat out"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
           "english": "We can eat out today.",
           "chinese": "我们今天可以去饭店吃饭。",
           "speaker": "May",
@@ -98,7 +130,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -119,7 +151,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -132,9 +164,53 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 3,
+          "english": "look at the menu",
+          "chinese": "看看菜单",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“看看菜单”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "look",
+              "phonetic": "/lʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "看；看起来（复习或原创场景支持词）"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "menu",
+              "phonetic": "/ˈmenjuː/",
+              "partOfSpeech": "n.",
+              "meaning": "菜单（教材星号支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "look at the menu"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
           "english": "Let's look at the menu.",
           "chinese": "我们看看菜单吧。",
           "speaker": "Ben",
@@ -198,7 +274,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -211,9 +287,41 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-3",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "for lunch",
+          "chinese": "作为午餐",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“作为午餐”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（复习或原创场景支持词）"
+            },
+            {
+              "text": "lunch",
+              "phonetic": "/lʌntʃ/",
+              "partOfSpeech": "n.",
+              "meaning": "午餐（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "for lunch"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "What would you like for lunch?",
           "chinese": "你午餐想吃什么？",
           "speaker": "Tom",
@@ -291,7 +399,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -304,9 +412,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-3",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "some noodles",
+          "chinese": "一些面条",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一些面条”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些（复习或原创场景支持词）"
+            },
+            {
+              "text": "noodles",
+              "phonetic": "/ˈnuːdəlz/",
+              "partOfSpeech": "n.",
+              "meaning": "面条；noodle的复数（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "some noodles"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "I'd like some noodles.",
           "chinese": "我想吃一些面条。",
           "speaker": "May",
@@ -356,36 +496,9 @@
           ]
         },
         {
-          "id": "5-3",
-          "sequenceNumber": 5,
-          "segmentNumber": 1,
-          "english": "I'd like",
-          "chinese": "我想要",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I'd",
-              "phonetic": "/aɪd/",
-              "partOfSpeech": "contraction",
-              "meaning": "I would的缩写（复习或原创场景支持词）"
-            },
-            {
-              "text": "like",
-              "phonetic": "/laɪk/",
-              "partOfSpeech": "v.",
-              "meaning": "想要；喜欢（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "5-1",
           "sequenceNumber": 5,
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "english": "cup",
           "chinese": "茶杯（复习或原创场景支持词）",
           "speaker": "Ben",
@@ -406,7 +519,7 @@
         {
           "id": "5-2",
           "sequenceNumber": 5,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "tea",
           "chinese": "茶",
           "speaker": "Ben",
@@ -427,14 +540,14 @@
         {
           "id": "5-4",
           "sequenceNumber": 5,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "a cup of tea",
           "chinese": "一杯茶",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一杯茶”；将它接回完整表达。",
           "words": [
             {
               "text": "a",
@@ -461,12 +574,17 @@
               "meaning": "茶"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a cup of tea"
+            }
+          ]
         },
         {
           "id": "5-5",
           "sequenceNumber": 5,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "I'd like a cup of tea.",
           "chinese": "我想喝一杯茶。",
           "speaker": "Ben",
@@ -536,7 +654,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -549,9 +667,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-3",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "some spring rolls",
+          "chinese": "一些春卷",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一些春卷”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些（复习或原创场景支持词）"
+            },
+            {
+              "text": "spring",
+              "phonetic": "/sprɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "spring roll中表示春卷名称的词（复习或原创场景支持词）"
+            },
+            {
+              "text": "rolls",
+              "phonetic": "/rəʊlz/",
+              "partOfSpeech": "n.",
+              "meaning": "卷；roll的复数，spring rolls表示春卷（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "some spring rolls"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "Would you like some spring rolls?",
           "chinese": "你们想吃一些春卷吗？",
           "speaker": "Tom",
@@ -625,7 +781,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -638,9 +794,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "share them",
+          "chinese": "分着吃它们",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“分着吃它们”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "share",
+              "phonetic": "/ʃeə/",
+              "partOfSpeech": "v.",
+              "meaning": "分享；分着吃（复习或原创场景支持词）"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "它们；他们；她们（宾格）（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "share them"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "Yes, we can share them.",
           "chinese": "好的，我们可以分着吃这些春卷。",
           "speaker": "May",
@@ -708,7 +896,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -721,9 +909,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "This food",
+          "chinese": "这些食物",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些食物”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "This",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "det.",
+              "meaning": "这个（复习或原创场景支持词）"
+            },
+            {
+              "text": "food",
+              "phonetic": "/fuːd/",
+              "partOfSpeech": "n.",
+              "meaning": "食物；食品"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "This food"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "delicious",
           "chinese": "美味的；可口的（教材星号支持词）",
           "speaker": "Ben",
@@ -744,7 +964,7 @@
         {
           "id": "8-3",
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "This food is delicious.",
           "chinese": "这些食物很美味。",
           "speaker": "Ben",
@@ -807,7 +1027,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -820,9 +1040,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 2,
+          "english": "The hot pot",
+          "chinese": "这份火锅",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这份火锅”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "hot",
+              "phonetic": "/hɒt/",
+              "partOfSpeech": "adj.",
+              "meaning": "hot pot中的名称组成词，整体表示火锅"
+            },
+            {
+              "text": "pot",
+              "phonetic": "/pɒt/",
+              "partOfSpeech": "n.",
+              "meaning": "锅；hot pot中表示火锅（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The hot pot"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
           "english": "ready",
           "chinese": "准备好的（复习或原创场景支持词）",
           "speaker": "Tom",
@@ -843,7 +1101,7 @@
         {
           "id": "9-4",
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "The hot pot is ready now.",
           "chinese": "这份火锅现在准备好了。",
           "speaker": "Tom",
@@ -909,36 +1167,9 @@
           ]
         },
         {
-          "id": "10-3",
-          "sequenceNumber": 10,
-          "segmentNumber": 1,
-          "english": "I'd like",
-          "chinese": "我想要",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I'd",
-              "phonetic": "/aɪd/",
-              "partOfSpeech": "contraction",
-              "meaning": "I would的缩写（复习或原创场景支持词）"
-            },
-            {
-              "text": "like",
-              "phonetic": "/laɪk/",
-              "partOfSpeech": "v.",
-              "meaning": "想要；喜欢（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "10-1",
           "sequenceNumber": 10,
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "english": "glass",
           "chinese": "玻璃杯（复习或原创场景支持词）",
           "speaker": "Tom",
@@ -959,7 +1190,7 @@
         {
           "id": "10-2",
           "sequenceNumber": 10,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "juice",
           "chinese": "果汁",
           "speaker": "Tom",
@@ -980,14 +1211,14 @@
         {
           "id": "10-4",
           "sequenceNumber": 10,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "a glass of juice",
           "chinese": "一杯果汁",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一杯果汁”；将它接回完整表达。",
           "words": [
             {
               "text": "a",
@@ -1014,12 +1245,17 @@
               "meaning": "果汁"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a glass of juice"
+            }
+          ]
         },
         {
           "id": "10-5",
           "sequenceNumber": 10,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "I'd like a glass of juice.",
           "chinese": "我想喝一杯果汁。",
           "speaker": "Tom",
@@ -1089,7 +1325,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1110,7 +1346,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1123,9 +1359,53 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "want any more food",
+          "chinese": "想要更多食物",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“想要更多食物”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要（复习或原创场景支持词）"
+            },
+            {
+              "text": "any",
+              "phonetic": "/ˈeni/",
+              "partOfSpeech": "det.",
+              "meaning": "任何；一些（疑问句中的用法）（复习或原创场景支持词）"
+            },
+            {
+              "text": "more",
+              "phonetic": "/mɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "更多的（复习或原创场景支持词）"
+            },
+            {
+              "text": "food",
+              "phonetic": "/fuːd/",
+              "partOfSpeech": "n.",
+              "meaning": "食物；食品"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "want any more food"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "Do you want any more food?",
           "chinese": "你还想再要一些食物吗？",
           "speaker": "Ben",
@@ -1199,7 +1479,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1220,7 +1500,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1233,9 +1513,47 @@
           "structureBlocks": []
         },
         {
-          "id": "12-3",
+          "id": "12-4",
           "sequenceNumber": 12,
           "segmentNumber": 3,
+          "english": "have enough food",
+          "chinese": "有足够的食物",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“有足够的食物”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有（复习或原创场景支持词）"
+            },
+            {
+              "text": "enough",
+              "phonetic": "/ɪˈnʌf/",
+              "partOfSpeech": "det.",
+              "meaning": "足够的（复习或原创场景支持词）"
+            },
+            {
+              "text": "food",
+              "phonetic": "/fuːd/",
+              "partOfSpeech": "n.",
+              "meaning": "食物；食品"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have enough food"
+            }
+          ]
+        },
+        {
+          "id": "12-3",
+          "sequenceNumber": 12,
+          "segmentNumber": 4,
           "english": "No, we have enough food.",
           "chinese": "不，我们有足够的食物了。",
           "speaker": "May",
@@ -1295,42 +1613,9 @@
           ]
         },
         {
-          "id": "13-2",
-          "sequenceNumber": 13,
-          "segmentNumber": 1,
-          "english": "Can we have",
-          "chinese": "我们可以要吗",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "we",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们（复习或原创场景支持词）"
-            },
-            {
-              "text": "have",
-              "phonetic": "/hæv/",
-              "partOfSpeech": "v.",
-              "meaning": "要；得到（礼貌请求物品）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "13-1",
           "sequenceNumber": 13,
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "english": "box",
           "chinese": "盒子（复习或原创场景支持词）",
           "speaker": "Ben",
@@ -1349,17 +1634,23 @@
           "structureBlocks": []
         },
         {
-          "id": "13-3",
+          "id": "13-5",
           "sequenceNumber": 13,
-          "segmentNumber": 3,
-          "english": "a takeaway box please",
-          "chinese": "请给一个打包盒",
+          "segmentNumber": 2,
+          "english": "have a takeaway box",
+          "chinese": "要一个打包盒",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“要一个打包盒”；将它接回完整表达。",
           "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "要；得到（礼貌请求物品）"
+            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -1377,20 +1668,19 @@
               "phonetic": "/bɒks/",
               "partOfSpeech": "n.",
               "meaning": "盒子（复习或原创场景支持词）"
-            },
-            {
-              "text": "please",
-              "phonetic": "/pliːz/",
-              "partOfSpeech": "interj.",
-              "meaning": "请（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have a takeaway box"
+            }
+          ]
         },
         {
           "id": "13-4",
           "sequenceNumber": 13,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "Can we have a takeaway box, please?",
           "chinese": "请问我们可以要一个打包盒吗？",
           "speaker": "Ben",
@@ -1508,29 +1798,17 @@
           "structureBlocks": []
         },
         {
-          "id": "14-3",
+          "id": "14-6",
           "sequenceNumber": 14,
           "segmentNumber": 3,
-          "english": "We can eat the noodles",
-          "chinese": "我们可以吃这些面条",
+          "english": "eat the noodles",
+          "chinese": "吃这些面条",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“吃这些面条”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
             {
               "text": "eat",
               "phonetic": "/iːt/",
@@ -1550,19 +1828,24 @@
               "meaning": "面条；noodle的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "eat the noodles"
+            }
+          ]
         },
         {
-          "id": "14-4",
+          "id": "14-7",
           "sequenceNumber": 14,
           "segmentNumber": 4,
           "english": "next time",
-          "chinese": "下次再吃",
+          "chinese": "下次",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“下次”；将它接回完整表达。",
           "words": [
             {
               "text": "next",
@@ -1577,7 +1860,12 @@
               "meaning": "次；回（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "next time"
+            }
+          ]
         },
         {
           "id": "14-5",

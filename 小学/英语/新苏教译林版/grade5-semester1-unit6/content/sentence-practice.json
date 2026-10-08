@@ -53,48 +53,9 @@
           "structureBlocks": []
         },
         {
-          "id": "1-5",
-          "sequenceNumber": 1,
-          "segmentNumber": 3,
-          "english": "We have a problem",
-          "chinese": "我们遇到一个问题",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "have",
-              "phonetic": "/hæv/",
-              "partOfSpeech": "v.",
-              "meaning": "有"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "art.",
-              "meaning": "一（个）"
-            },
-            {
-              "text": "problem",
-              "phonetic": "/ˈprɒbləm/",
-              "partOfSpeech": "n.",
-              "meaning": "问题，困难"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "1-3",
           "sequenceNumber": 1,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "shared",
           "chinese": "共享的",
           "speaker": "Ben",
@@ -115,7 +76,7 @@
         {
           "id": "1-4",
           "sequenceNumber": 1,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "table",
           "chinese": "桌子",
           "speaker": "Ben",
@@ -134,17 +95,35 @@
           "structureBlocks": []
         },
         {
-          "id": "1-6",
+          "id": "1-8",
           "sequenceNumber": 1,
-          "segmentNumber": 6,
-          "english": "with our shared table",
-          "chinese": "在使用共用桌子时",
+          "segmentNumber": 5,
+          "english": "have a problem with our shared table",
+          "chinese": "使用我们的共用桌子时遇到问题",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“使用我们的共用桌子时遇到问题”；将它接回完整表达。",
           "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "problem",
+              "phonetic": "/ˈprɒbləm/",
+              "partOfSpeech": "n.",
+              "meaning": "问题，困难"
+            },
             {
               "text": "with",
               "phonetic": "/wɪð/",
@@ -170,12 +149,17 @@
               "meaning": "桌子"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have a problem with our shared table"
+            }
+          ]
         },
         {
           "id": "1-7",
           "sequenceNumber": 1,
-          "segmentNumber": 7,
+          "segmentNumber": 6,
           "english": "We have a problem with our shared table.",
           "chinese": "我们使用共用桌子时遇到了一个问题。",
           "speaker": "Ben",
@@ -261,7 +245,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -274,15 +258,47 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "Their paper",
+          "chinese": "他们的纸",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“他们的纸”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Their",
+              "phonetic": "/ðeə/",
+              "partOfSpeech": "det.",
+              "meaning": "他们的"
+            },
+            {
+              "text": "paper",
+              "phonetic": "/ˈpeɪpə/",
+              "partOfSpeech": "n.",
+              "meaning": "纸"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Their paper"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "space",
           "chinese": "空地，空间",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -295,9 +311,59 @@
           "structureBlocks": []
         },
         {
+          "id": "2-5",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
+          "english": "takes up too much space",
+          "chinese": "占了太多空间",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“占了太多空间”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "takes",
+              "phonetic": "/teɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "take up中的第三人称动词；短语整体表示占用"
+            },
+            {
+              "text": "up",
+              "phonetic": "/ʌp/",
+              "partOfSpeech": "adv.",
+              "meaning": "与take搭配组成take up，整体表示占用"
+            },
+            {
+              "text": "too",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "adv.",
+              "meaning": "太，过于"
+            },
+            {
+              "text": "much",
+              "phonetic": "/mʌtʃ/",
+              "partOfSpeech": "adv./det.",
+              "meaning": "非常；许多"
+            },
+            {
+              "text": "space",
+              "phonetic": "/speɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "空地，空间"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "takes up too much space"
+            }
+          ]
+        },
+        {
           "id": "2-3",
           "sequenceNumber": 2,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "Their paper takes up too much space.",
           "chinese": "他们的纸占了太多空间。",
           "speaker": "Tom",
@@ -373,7 +439,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -386,15 +452,47 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-5",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "Our team",
+          "chinese": "我们这一组",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们这一组”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "team",
+              "phonetic": "/tiːm/",
+              "partOfSpeech": "n.",
+              "meaning": "队；组"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Our team"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "needs",
           "chinese": "需要；need的第三人称单数",
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -409,13 +507,13 @@
         {
           "id": "3-3",
           "sequenceNumber": 3,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "room",
           "chinese": "空间",
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -428,9 +526,41 @@
           "structureBlocks": []
         },
         {
+          "id": "3-6",
+          "sequenceNumber": 3,
+          "segmentNumber": 5,
+          "english": "needs room",
+          "chinese": "需要空间",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“需要空间”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "needs",
+              "phonetic": "/niːdz/",
+              "partOfSpeech": "v.",
+              "meaning": "需要；need的第三人称单数"
+            },
+            {
+              "text": "room",
+              "phonetic": "/ruːm/",
+              "partOfSpeech": "n.",
+              "meaning": "空间"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "needs room"
+            }
+          ]
+        },
+        {
           "id": "3-4",
           "sequenceNumber": 3,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "Our team needs room too.",
           "chinese": "我们这一组也需要空间。",
           "speaker": "Lily",
@@ -532,60 +662,9 @@
           "structureBlocks": []
         },
         {
-          "id": "4-4",
-          "sequenceNumber": 4,
-          "segmentNumber": 3,
-          "english": "Why don't we use one box",
-          "chinese": "我们为什么不用一个盒子呢",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Why",
-              "phonetic": "/waɪ/",
-              "partOfSpeech": "adv.",
-              "meaning": "为什么"
-            },
-            {
-              "text": "don't",
-              "phonetic": "/dəʊnt/",
-              "partOfSpeech": "contraction",
-              "meaning": "do not的缩写；不"
-            },
-            {
-              "text": "we",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "use",
-              "phonetic": "/juːz/",
-              "partOfSpeech": "v.",
-              "meaning": "使用，利用"
-            },
-            {
-              "text": "one",
-              "phonetic": "/wʌn/",
-              "partOfSpeech": "num.",
-              "meaning": "一"
-            },
-            {
-              "text": "box",
-              "phonetic": "/bɒks/",
-              "partOfSpeech": "n.",
-              "meaning": "盒子"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "4-3",
           "sequenceNumber": 4,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "paper",
           "chinese": "纸",
           "speaker": "Ben",
@@ -604,17 +683,35 @@
           "structureBlocks": []
         },
         {
-          "id": "4-5",
+          "id": "4-7",
           "sequenceNumber": 4,
-          "segmentNumber": 5,
-          "english": "for the paper",
-          "chinese": "用来装纸",
+          "segmentNumber": 4,
+          "english": "use one box for the paper",
+          "chinese": "用一个盒子装这些纸",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“用一个盒子装这些纸”；将它接回完整表达。",
           "words": [
+            {
+              "text": "use",
+              "phonetic": "/juːz/",
+              "partOfSpeech": "v.",
+              "meaning": "使用，利用"
+            },
+            {
+              "text": "one",
+              "phonetic": "/wʌn/",
+              "partOfSpeech": "num.",
+              "meaning": "一"
+            },
+            {
+              "text": "box",
+              "phonetic": "/bɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "盒子"
+            },
             {
               "text": "for",
               "phonetic": "/fɔː/",
@@ -634,12 +731,17 @@
               "meaning": "纸"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "use one box for the paper"
+            }
+          ]
         },
         {
           "id": "4-6",
           "sequenceNumber": 4,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "Why don't we use one box for the paper?",
           "chinese": "我们为什么不用一个盒子装纸呢？",
           "speaker": "Ben",
@@ -739,7 +841,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -752,9 +854,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-3",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "a good idea",
+          "chinese": "一个好主意",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一个好主意”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "idea",
+              "phonetic": "/aɪˈdɪə/",
+              "partOfSpeech": "n.",
+              "meaning": "主意"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a good idea"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "That's a good idea.",
           "chinese": "这是一个好主意。",
           "speaker": "Tom",
@@ -842,54 +982,9 @@
           "structureBlocks": []
         },
         {
-          "id": "6-4",
-          "sequenceNumber": 6,
-          "segmentNumber": 3,
-          "english": "Why not put the box",
-          "chinese": "为什么不放这个盒子呢",
-          "speaker": "Lily",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Why",
-              "phonetic": "/waɪ/",
-              "partOfSpeech": "adv.",
-              "meaning": "为什么"
-            },
-            {
-              "text": "not",
-              "phonetic": "/nɒt/",
-              "partOfSpeech": "adv.",
-              "meaning": "不"
-            },
-            {
-              "text": "put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "art.",
-              "meaning": "这个；那个（定冠词）"
-            },
-            {
-              "text": "box",
-              "phonetic": "/bɒks/",
-              "partOfSpeech": "n.",
-              "meaning": "盒子"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "6-3",
           "sequenceNumber": 6,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "teams",
           "chinese": "队；team的复数",
           "speaker": "Lily",
@@ -908,22 +1003,22 @@
           "structureBlocks": []
         },
         {
-          "id": "6-5",
+          "id": "6-7",
           "sequenceNumber": 6,
-          "segmentNumber": 5,
-          "english": "between the teams",
-          "chinese": "在两组之间",
+          "segmentNumber": 4,
+          "english": "put the box between the teams",
+          "chinese": "把盒子放在两组之间",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把盒子放在两组之间”；将它接回完整表达。",
           "words": [
             {
-              "text": "between",
-              "phonetic": "/bɪˈtwiːn/",
-              "partOfSpeech": "prep.",
-              "meaning": "在……中间"
+              "text": "put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放"
             },
             {
               "text": "the",
@@ -932,18 +1027,35 @@
               "meaning": "这个；那个（定冠词）"
             },
             {
+              "text": "box",
+              "phonetic": "/bɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "盒子"
+            },
+            {
+              "text": "between",
+              "phonetic": "/bɪˈtwiːn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……中间"
+            },
+            {
               "text": "teams",
               "phonetic": "/tiːmz/",
               "partOfSpeech": "n.",
               "meaning": "队；team的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "put the box between the teams"
+            }
+          ]
         },
         {
           "id": "6-6",
           "sequenceNumber": 6,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "Why not put the box between the teams?",
           "chinese": "为什么不把盒子放在两组之间呢？",
           "speaker": "Lily",
@@ -1023,7 +1135,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1036,9 +1148,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "use it",
+          "chinese": "使用它",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“使用它”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "use",
+              "phonetic": "/juːz/",
+              "partOfSpeech": "v.",
+              "meaning": "使用，利用"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它（指共用的盒子）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "use it"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "Then we can both use it.",
           "chinese": "这样我们都可以使用它。",
           "speaker": "Ben",
@@ -1112,7 +1256,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1125,9 +1269,47 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "These coloured pencils",
+          "chinese": "这些彩色铅笔",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些彩色铅笔”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "These",
+              "phonetic": "/ðiːz/",
+              "partOfSpeech": "det.",
+              "meaning": "这些"
+            },
+            {
+              "text": "coloured",
+              "phonetic": "/ˈkʌləd/",
+              "partOfSpeech": "adj.",
+              "meaning": "彩色的"
+            },
+            {
+              "text": "pencils",
+              "phonetic": "/ˈpensəlz/",
+              "partOfSpeech": "n.",
+              "meaning": "铅笔；pencil的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "These coloured pencils"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "heavy",
           "chinese": "重的，沉的",
           "speaker": "Tom",
@@ -1148,7 +1330,7 @@
         {
           "id": "8-3",
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "These coloured pencils are heavy.",
           "chinese": "这些彩色铅笔很重。",
           "speaker": "Tom",
@@ -1212,7 +1394,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1233,7 +1415,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1246,9 +1428,53 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "take turns carrying them",
+          "chinese": "轮流搬它们",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“轮流搬它们”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "take turns中的动词；短语整体表示轮流"
+            },
+            {
+              "text": "turns",
+              "phonetic": "/tɜːnz/",
+              "partOfSpeech": "n.",
+              "meaning": "轮次；turn的复数"
+            },
+            {
+              "text": "carrying",
+              "phonetic": "/ˈkæriɪŋ/",
+              "partOfSpeech": "v.-ing",
+              "meaning": "搬；carry的-ing形式"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "它们（指彩色铅笔）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take turns carrying them"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "Why don't we take turns carrying them?",
           "chinese": "我们为什么不轮流搬它们呢？",
           "speaker": "Lily",
@@ -1328,7 +1554,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1349,7 +1575,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1362,9 +1588,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-3",
+          "id": "10-5",
           "sequenceNumber": 10,
           "segmentNumber": 3,
+          "english": "help your team",
+          "chinese": "帮助你们这一组",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮助你们这一组”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你们的"
+            },
+            {
+              "text": "team",
+              "phonetic": "/tiːm/",
+              "partOfSpeech": "n.",
+              "meaning": "队；组"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "help your team"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
           "english": "first",
           "chinese": "第一的；首先",
           "speaker": "Ben",
@@ -1385,7 +1649,7 @@
         {
           "id": "10-4",
           "sequenceNumber": 10,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
           "english": "I can help your team first.",
           "chinese": "我可以先帮助你们这一组。",
           "speaker": "Ben",
@@ -1459,7 +1723,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1480,7 +1744,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1493,9 +1757,53 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "give them some space",
+          "chinese": "给他们腾一些空间",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“给他们腾一些空间”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "他们（指另一组成员）"
+            },
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些"
+            },
+            {
+              "text": "space",
+              "phonetic": "/speɪs/",
+              "partOfSpeech": "n.",
+              "meaning": "空地，空间"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "give them some space"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "We can give them some space.",
           "chinese": "我们可以给他们腾一些空间。",
           "speaker": "Tom",
@@ -1569,7 +1877,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1582,15 +1890,47 @@
           "structureBlocks": []
         },
         {
-          "id": "12-2",
+          "id": "12-5",
           "sequenceNumber": 12,
           "segmentNumber": 2,
+          "english": "Being friendly",
+          "chinese": "友好相待",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“友好相待”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Being",
+              "phonetic": "/ˈbiːɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "是（be的-ing形式）"
+            },
+            {
+              "text": "friendly",
+              "phonetic": "/ˈfrendli/",
+              "partOfSpeech": "adj.",
+              "meaning": "友好的，友爱的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "Being friendly"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
           "english": "helps",
           "chinese": "帮助；help的第三人称单数",
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1605,13 +1945,13 @@
         {
           "id": "12-3",
           "sequenceNumber": 12,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "work",
           "chinese": "工作",
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1624,9 +1964,53 @@
           "structureBlocks": []
         },
         {
+          "id": "12-6",
+          "sequenceNumber": 12,
+          "segmentNumber": 5,
+          "english": "helps us work together",
+          "chinese": "帮助我们一起合作",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮助我们一起合作”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "helps",
+              "phonetic": "/helps/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助；help的第三人称单数"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）"
+            },
+            {
+              "text": "work",
+              "phonetic": "/wɜːk/",
+              "partOfSpeech": "v.",
+              "meaning": "工作"
+            },
+            {
+              "text": "together",
+              "phonetic": "/təˈɡeðə/",
+              "partOfSpeech": "adv.",
+              "meaning": "一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "helps us work together"
+            }
+          ]
+        },
+        {
           "id": "12-4",
           "sequenceNumber": 12,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "Being friendly helps us work together.",
           "chinese": "友好相待能帮助我们一起合作。",
           "speaker": "Lily",
@@ -1700,7 +2084,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1721,7 +2105,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1734,9 +2118,53 @@
           "structureBlocks": []
         },
         {
-          "id": "13-3",
+          "id": "13-4",
           "sequenceNumber": 13,
           "segmentNumber": 3,
+          "english": "write a thank-you letter",
+          "chinese": "写一封感谢信",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“写一封感谢信”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "write",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "书写，写字"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "thank-you",
+              "phonetic": "/ˈθæŋk juː/",
+              "partOfSpeech": "adj.",
+              "meaning": "感谢的"
+            },
+            {
+              "text": "letter",
+              "phonetic": "/ˈletə/",
+              "partOfSpeech": "n.",
+              "meaning": "信，函"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "write a thank-you letter"
+            }
+          ]
+        },
+        {
+          "id": "13-3",
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
           "english": "Let's write a thank-you letter.",
           "chinese": "我们写一封感谢信吧。",
           "speaker": "Ben",

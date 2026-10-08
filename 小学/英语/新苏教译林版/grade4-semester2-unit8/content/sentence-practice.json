@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -53,9 +53,41 @@
           "structureBlocks": []
         },
         {
-          "id": "1-3",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 3,
+          "english": "cooking dinner",
+          "chinese": "做晚饭",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做晚饭”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "cooking",
+              "phonetic": "/ˈkʊkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "烹饪；cook的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "dinner",
+              "phonetic": "/ˈdɪnə/",
+              "partOfSpeech": "n.",
+              "meaning": "晚餐（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "cooking dinner"
+            }
+          ]
+        },
+        {
+          "id": "1-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
           "english": "Dad",
           "chinese": "爸爸（复习或原创场景支持词）",
           "speaker": "Ben",
@@ -76,7 +108,7 @@
         {
           "id": "1-4",
           "sequenceNumber": 1,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
           "english": "Are you cooking dinner, Dad?",
           "chinese": "爸爸，你正在做晚饭吗？",
           "speaker": "Ben",
@@ -161,48 +193,9 @@
           "structureBlocks": []
         },
         {
-          "id": "2-5",
-          "sequenceNumber": 2,
-          "segmentNumber": 2,
-          "english": "Yes I am making",
-          "chinese": "是的 我正在做",
-          "speaker": "Dad",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Yes",
-              "phonetic": "/jes/",
-              "partOfSpeech": "interj.",
-              "meaning": "是的（确认做晚饭）"
-            },
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "am",
-              "phonetic": "/æm/",
-              "partOfSpeech": "auxiliary v.",
-              "meaning": "与making连用，表示正在进行"
-            },
-            {
-              "text": "making",
-              "phonetic": "/ˈmeɪkɪŋ/",
-              "partOfSpeech": "v.",
-              "meaning": "制作；整理；make的-ing形式（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "2-2",
           "sequenceNumber": 2,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "tomato",
           "chinese": "番茄；西红柿",
           "speaker": "Dad",
@@ -223,7 +216,7 @@
         {
           "id": "2-3",
           "sequenceNumber": 2,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "egg",
           "chinese": "鸡蛋",
           "speaker": "Dad",
@@ -244,7 +237,7 @@
         {
           "id": "2-4",
           "sequenceNumber": 2,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "soup",
           "chinese": "汤",
           "speaker": "Dad",
@@ -263,17 +256,23 @@
           "structureBlocks": []
         },
         {
-          "id": "2-6",
+          "id": "2-8",
           "sequenceNumber": 2,
-          "segmentNumber": 6,
-          "english": "tomato and egg soup",
-          "chinese": "番茄鸡蛋汤",
+          "segmentNumber": 5,
+          "english": "making tomato and egg soup",
+          "chinese": "做番茄鸡蛋汤",
           "speaker": "Dad",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做番茄鸡蛋汤”；将它接回完整表达。",
           "words": [
+            {
+              "text": "making",
+              "phonetic": "/ˈmeɪkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；整理；make的-ing形式（复习或原创场景支持词）"
+            },
             {
               "text": "tomato",
               "phonetic": "/təˈmɑːtəʊ/",
@@ -299,12 +298,17 @@
               "meaning": "汤"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "making tomato and egg soup"
+            }
+          ]
         },
         {
           "id": "2-7",
           "sequenceNumber": 2,
-          "segmentNumber": 7,
+          "segmentNumber": 6,
           "english": "Yes, I am making tomato and egg soup.",
           "chinese": "是的，我正在做番茄鸡蛋汤。",
           "speaker": "Dad",
@@ -403,42 +407,9 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
-          "sequenceNumber": 3,
-          "segmentNumber": 2,
-          "english": "Can I help",
-          "chinese": "我可以帮忙吗",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "help",
-              "phonetic": "/help/",
-              "partOfSpeech": "v.",
-              "meaning": "帮助（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "3-2",
           "sequenceNumber": 3,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "kitchen",
           "chinese": "厨房",
           "speaker": "Ben",
@@ -457,17 +428,23 @@
           "structureBlocks": []
         },
         {
-          "id": "3-4",
+          "id": "3-6",
           "sequenceNumber": 3,
-          "segmentNumber": 4,
-          "english": "in the kitchen",
-          "chinese": "在厨房里",
+          "segmentNumber": 3,
+          "english": "help in the kitchen",
+          "chinese": "在厨房里帮忙",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“在厨房里帮忙”；将它接回完整表达。",
           "words": [
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助（复习或原创场景支持词）"
+            },
             {
               "text": "in",
               "phonetic": "/ɪn/",
@@ -487,12 +464,17 @@
               "meaning": "厨房"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "help in the kitchen"
+            }
+          ]
         },
         {
           "id": "3-5",
           "sequenceNumber": 3,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Can I help in the kitchen?",
           "chinese": "我可以在厨房里帮忙吗？",
           "speaker": "Ben",
@@ -566,7 +548,7 @@
           "speaker": "Dad",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -587,7 +569,7 @@
           "speaker": "Dad",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -600,9 +582,47 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "wash the tomatoes",
+          "chinese": "洗这些番茄",
+          "speaker": "Dad",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“洗这些番茄”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "wash",
+              "phonetic": "/wɒʃ/",
+              "partOfSpeech": "v.",
+              "meaning": "洗（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "tomatoes",
+              "phonetic": "/təˈmɑːtəʊz/",
+              "partOfSpeech": "n.",
+              "meaning": "番茄；tomato的复数（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "wash the tomatoes"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "You can wash the tomatoes.",
           "chinese": "你可以洗这些番茄。",
           "speaker": "Dad",
@@ -687,7 +707,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -708,7 +728,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -721,9 +741,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-4",
+          "id": "5-5",
           "sequenceNumber": 5,
           "segmentNumber": 4,
+          "english": "cutting the potatoes",
+          "chinese": "切土豆",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“切土豆”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "cutting",
+              "phonetic": "/ˈkʌtɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "切；cut的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "potatoes",
+              "phonetic": "/pəˈteɪtəʊz/",
+              "partOfSpeech": "n.",
+              "meaning": "土豆；potato的复数（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "cutting the potatoes"
+            }
+          ]
+        },
+        {
+          "id": "5-4",
+          "sequenceNumber": 5,
+          "segmentNumber": 5,
           "english": "Mum is cutting the potatoes.",
           "chinese": "妈妈正在切土豆。",
           "speaker": "Ben",
@@ -800,42 +858,9 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
-          "sequenceNumber": 6,
-          "segmentNumber": 2,
-          "english": "She is careful",
-          "chinese": "她很小心",
-          "speaker": "Dad",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "She",
-              "phonetic": "/ʃiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "她（复习或原创场景支持词）"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）（复习或原创场景支持词）"
-            },
-            {
-              "text": "careful",
-              "phonetic": "/ˈkeəfəl/",
-              "partOfSpeech": "adj.",
-              "meaning": "小心的；谨慎的（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "6-2",
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "knife",
           "chinese": "刀（复习或原创场景支持词）",
           "speaker": "Dad",
@@ -854,17 +879,23 @@
           "structureBlocks": []
         },
         {
-          "id": "6-4",
+          "id": "6-6",
           "sequenceNumber": 6,
-          "segmentNumber": 4,
-          "english": "with the knife",
-          "chinese": "使用刀具时",
+          "segmentNumber": 3,
+          "english": "careful with the knife",
+          "chinese": "小心使用这把刀",
           "speaker": "Dad",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的形容词短语，表达“小心使用这把刀”；将它接回完整表达。",
           "words": [
+            {
+              "text": "careful",
+              "phonetic": "/ˈkeəfəl/",
+              "partOfSpeech": "adj.",
+              "meaning": "小心的；谨慎的（复习或原创场景支持词）"
+            },
             {
               "text": "with",
               "phonetic": "/wɪð/",
@@ -884,12 +915,17 @@
               "meaning": "刀（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "careful with the knife"
+            }
+          ]
         },
         {
           "id": "6-5",
           "sequenceNumber": 6,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "She is careful with the knife.",
           "chinese": "她用刀时很小心。",
           "speaker": "Dad",
@@ -963,7 +999,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -984,7 +1020,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -997,9 +1033,47 @@
           "structureBlocks": []
         },
         {
-          "id": "7-4",
+          "id": "7-5",
           "sequenceNumber": 7,
           "segmentNumber": 3,
+          "english": "cooking the chicken",
+          "chinese": "做鸡肉",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做鸡肉”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "cooking",
+              "phonetic": "/ˈkʊkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "烹饪；cook的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "chicken",
+              "phonetic": "/ˈtʃɪkɪn/",
+              "partOfSpeech": "n.",
+              "meaning": "鸡肉"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "cooking the chicken"
+            }
+          ]
+        },
+        {
+          "id": "7-4",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
           "english": "Are you cooking the chicken now?",
           "chinese": "你现在正在做鸡肉吗？",
           "speaker": "Ben",
@@ -1077,7 +1151,7 @@
           "speaker": "Dad",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1098,7 +1172,7 @@
           "speaker": "Dad",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1111,9 +1185,47 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 3,
+          "english": "washing the vegetables",
+          "chinese": "洗蔬菜",
+          "speaker": "Dad",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“洗蔬菜”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "washing",
+              "phonetic": "/ˈwɒʃɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "洗；wash的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "vegetables",
+              "phonetic": "/ˈvedʒtəbəlz/",
+              "partOfSpeech": "n.",
+              "meaning": "蔬菜；vegetable的复数（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "washing the vegetables"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
           "english": "No, I am washing the vegetables.",
           "chinese": "不，我正在洗蔬菜。",
           "speaker": "Dad",
@@ -1187,7 +1299,7 @@
           "speaker": "Dad",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1208,7 +1320,7 @@
           "speaker": "Dad",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1221,9 +1333,59 @@
           "structureBlocks": []
         },
         {
-          "id": "9-5",
+          "id": "9-6",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "get a dish for me",
+          "chinese": "帮我拿一个碟子",
+          "speaker": "Dad",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮我拿一个碟子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "get",
+              "phonetic": "/ɡet/",
+              "partOfSpeech": "v.",
+              "meaning": "去取"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "dish",
+              "phonetic": "/dɪʃ/",
+              "partOfSpeech": "n.",
+              "meaning": "碟子（此处指取用的餐具）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（复习或原创场景支持词）"
+            },
+            {
+              "text": "me",
+              "phonetic": "/miː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（宾格）（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "get a dish for me"
+            }
+          ]
+        },
+        {
+          "id": "9-5",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "Please get a dish for me.",
           "chinese": "请帮我拿一个碟子。",
           "speaker": "Dad",
@@ -1310,29 +1472,17 @@
           "structureBlocks": []
         },
         {
-          "id": "10-3",
+          "id": "10-6",
           "sequenceNumber": 10,
           "segmentNumber": 2,
-          "english": "There is some milk",
-          "chinese": "有一些牛奶",
+          "english": "some milk",
+          "chinese": "一些牛奶",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一些牛奶”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "some",
               "phonetic": "/sʌm/",
@@ -1346,7 +1496,12 @@
               "meaning": "牛奶"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "some milk"
+            }
+          ]
         },
         {
           "id": "10-2",
@@ -1370,16 +1525,16 @@
           "structureBlocks": []
         },
         {
-          "id": "10-4",
+          "id": "10-7",
           "sequenceNumber": 10,
           "segmentNumber": 4,
           "english": "on the table",
-          "chinese": "在桌子上",
+          "chinese": "在桌上",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在桌上”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -1400,7 +1555,12 @@
               "meaning": "桌子；表格（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the table"
+            }
+          ]
         },
         {
           "id": "10-5",
@@ -1499,37 +1659,16 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-7",
           "sequenceNumber": 11,
           "segmentNumber": 2,
-          "english": "ready",
-          "chinese": "准备好的（复习或原创场景支持词）",
-          "speaker": "Dad",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "ready",
-              "phonetic": "/ˈredi/",
-              "partOfSpeech": "adj.",
-              "meaning": "准备好的（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
-          "id": "11-4",
-          "sequenceNumber": 11,
-          "segmentNumber": 3,
-          "english": "The soup is ready",
-          "chinese": "汤已经准备好了",
+          "english": "The soup",
+          "chinese": "这份汤",
           "speaker": "Dad",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这份汤”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -1542,13 +1681,27 @@
               "phonetic": "/suːp/",
               "partOfSpeech": "n.",
               "meaning": "汤"
-            },
+            }
+          ],
+          "structureBlocks": [
             {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）（复习或原创场景支持词）"
-            },
+              "label": "名词短语",
+              "text": "The soup"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
+          "english": "ready",
+          "chinese": "准备好的（复习或原创场景支持词）",
+          "speaker": "Dad",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记这一词组中的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
             {
               "text": "ready",
               "phonetic": "/ˈredi/",
@@ -1580,17 +1733,23 @@
           "structureBlocks": []
         },
         {
-          "id": "11-5",
+          "id": "11-8",
           "sequenceNumber": 11,
           "segmentNumber": 5,
-          "english": "for your brother",
-          "chinese": "这是给你弟弟的",
+          "english": "ready for your brother",
+          "chinese": "为你的弟弟准备好",
           "speaker": "Dad",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的形容词短语，表达“为你的弟弟准备好”；将它接回完整表达。",
           "words": [
+            {
+              "text": "ready",
+              "phonetic": "/ˈredi/",
+              "partOfSpeech": "adj.",
+              "meaning": "准备好的（复习或原创场景支持词）"
+            },
             {
               "text": "for",
               "phonetic": "/fɔː/",
@@ -1610,7 +1769,12 @@
               "meaning": "兄弟（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "ready for your brother"
+            }
+          ]
         },
         {
           "id": "11-6",
@@ -1695,7 +1859,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1708,9 +1872,53 @@
           "structureBlocks": []
         },
         {
-          "id": "12-2",
+          "id": "12-3",
           "sequenceNumber": 12,
           "segmentNumber": 2,
+          "english": "take it to him",
+          "chinese": "把它端给他",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把它端给他”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（复习或原创场景支持词）"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它（复习或原创场景支持词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到（复习或原创场景支持词）"
+            },
+            {
+              "text": "him",
+              "phonetic": "/hɪm/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take it to him"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
           "english": "Let's take it to him.",
           "chinese": "我们把它端给他吧。",
           "speaker": "Ben",
@@ -1778,7 +1986,7 @@
           "speaker": "Dad",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1799,7 +2007,7 @@
           "speaker": "Dad",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1812,9 +2020,47 @@
           "structureBlocks": []
         },
         {
-          "id": "13-3",
+          "id": "13-4",
           "sequenceNumber": 13,
           "segmentNumber": 3,
+          "english": "his birthday dinner",
+          "chinese": "他的生日晚餐",
+          "speaker": "Dad",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“他的生日晚餐”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "det.",
+              "meaning": "他的（复习或原创场景支持词）"
+            },
+            {
+              "text": "birthday",
+              "phonetic": "/ˈbɜːθdeɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "生日"
+            },
+            {
+              "text": "dinner",
+              "phonetic": "/ˈdɪnə/",
+              "partOfSpeech": "n.",
+              "meaning": "晚餐（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "his birthday dinner"
+            }
+          ]
+        },
+        {
+          "id": "13-3",
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
           "english": "This is his birthday dinner.",
           "chinese": "这是他的生日晚餐。",
           "speaker": "Dad",
@@ -1942,7 +2188,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们的土豆肉菜”；将它接回完整表达。",
           "words": [
             {
               "text": "Our",
@@ -1975,7 +2221,12 @@
               "meaning": "一道菜（食材组成的菜肴）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Our meat and potato dish"
+            }
+          ]
         },
         {
           "id": "14-4",
@@ -1986,7 +2237,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1999,42 +2250,9 @@
           "structureBlocks": []
         },
         {
-          "id": "14-6",
-          "sequenceNumber": 14,
-          "segmentNumber": 6,
-          "english": "is ready too",
-          "chinese": "也准备好了",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）（复习或原创场景支持词）"
-            },
-            {
-              "text": "ready",
-              "phonetic": "/ˈredi/",
-              "partOfSpeech": "adj.",
-              "meaning": "准备好的（复习或原创场景支持词）"
-            },
-            {
-              "text": "too",
-              "phonetic": "/tuː/",
-              "partOfSpeech": "adv.",
-              "meaning": "也（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "14-7",
           "sequenceNumber": 14,
-          "segmentNumber": 7,
+          "segmentNumber": 6,
           "english": "Our meat and potato dish is ready too.",
           "chinese": "我们的土豆肉菜也准备好了。",
           "speaker": "Ben",
@@ -2120,7 +2338,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2141,7 +2359,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2154,9 +2372,47 @@
           "structureBlocks": []
         },
         {
-          "id": "15-3",
+          "id": "15-4",
           "sequenceNumber": 15,
           "segmentNumber": 3,
+          "english": "wait for dinner",
+          "chinese": "等待晚饭",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“等待晚饭”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "wait",
+              "phonetic": "/weɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "等待；等候（复习或原创场景支持词）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（复习或原创场景支持词）"
+            },
+            {
+              "text": "dinner",
+              "phonetic": "/ˈdɪnə/",
+              "partOfSpeech": "n.",
+              "meaning": "晚餐（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "wait for dinner"
+            }
+          ]
+        },
+        {
+          "id": "15-3",
+          "sequenceNumber": 15,
+          "segmentNumber": 4,
           "english": "I can't wait for dinner!",
           "chinese": "我等不及要吃晚饭了！",
           "speaker": "Ben",

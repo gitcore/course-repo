@@ -19,7 +19,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -32,9 +32,41 @@
           "structureBlocks": []
         },
         {
-          "id": "1-2",
+          "id": "1-3",
           "sequenceNumber": 1,
           "segmentNumber": 2,
+          "english": "my doll",
+          "chinese": "我的玩具娃娃",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的玩具娃娃”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            },
+            {
+              "text": "doll",
+              "phonetic": "/dɒl/",
+              "partOfSpeech": "n.",
+              "meaning": "玩具娃娃"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my doll"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
           "english": "This is my doll.",
           "chinese": "这是我的玩具娃娃。",
           "speaker": "May",
@@ -92,7 +124,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -105,15 +137,47 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "your doll",
+          "chinese": "你的娃娃",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的娃娃”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的（后接名词）"
+            },
+            {
+              "text": "doll",
+              "phonetic": "/dɒl/",
+              "partOfSpeech": "n.",
+              "meaning": "玩具娃娃"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your doll"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "girl",
           "chinese": "女孩",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -126,9 +190,41 @@
           "structureBlocks": []
         },
         {
+          "id": "2-5",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
+          "english": "a girl",
+          "chinese": "女孩造型",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“女孩造型”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "girl",
+              "phonetic": "/ɡɜːl/",
+              "partOfSpeech": "n.",
+              "meaning": "女孩"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a girl"
+            }
+          ]
+        },
+        {
           "id": "2-3",
           "sequenceNumber": 2,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "Is your doll a girl?",
           "chinese": "你的娃娃是女孩造型的吗？",
           "speaker": "Ben",
@@ -238,7 +334,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -251,9 +347,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "Her hair",
+          "chinese": "她的头发",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“她的头发”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "det.",
+              "meaning": "她的；指May的女孩造型娃娃的部位"
+            },
+            {
+              "text": "hair",
+              "phonetic": "/heə/",
+              "partOfSpeech": "n.",
+              "meaning": "头发"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Her hair"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "short",
           "chinese": "短的",
           "speaker": "Tom",
@@ -274,7 +402,7 @@
         {
           "id": "4-3",
           "sequenceNumber": 4,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Her hair is short.",
           "chinese": "她的头发很短。",
           "speaker": "Tom",
@@ -332,7 +460,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -345,9 +473,41 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-4",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "Her eyes",
+          "chinese": "她的眼睛",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“她的眼睛”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "det.",
+              "meaning": "她的；指May的女孩造型娃娃的部位"
+            },
+            {
+              "text": "eyes",
+              "phonetic": "/aɪz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "眼睛；eye的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Her eyes"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "small",
           "chinese": "小的",
           "speaker": "May",
@@ -368,7 +528,7 @@
         {
           "id": "5-3",
           "sequenceNumber": 5,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Her eyes are small.",
           "chinese": "她的眼睛很小。",
           "speaker": "May",
@@ -426,7 +586,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -439,9 +599,41 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "Her nose",
+          "chinese": "她的鼻子",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“她的鼻子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "det.",
+              "meaning": "她的；指May的女孩造型娃娃的部位"
+            },
+            {
+              "text": "nose",
+              "phonetic": "/nəʊz/",
+              "partOfSpeech": "n.",
+              "meaning": "鼻子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Her nose"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "small",
           "chinese": "小的",
           "speaker": "Ben",
@@ -462,7 +654,7 @@
         {
           "id": "6-3",
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Her nose is small too.",
           "chinese": "她的鼻子也很小。",
           "speaker": "Ben",
@@ -530,7 +722,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -543,9 +735,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-4",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "Her mouth",
+          "chinese": "她的嘴巴",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“她的嘴巴”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "det.",
+              "meaning": "她的；指May的女孩造型娃娃的部位"
+            },
+            {
+              "text": "mouth",
+              "phonetic": "/maʊθ/",
+              "partOfSpeech": "n.",
+              "meaning": "嘴"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Her mouth"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "big",
           "chinese": "大的",
           "speaker": "Tom",
@@ -566,7 +790,7 @@
         {
           "id": "7-3",
           "sequenceNumber": 7,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Her mouth is big.",
           "chinese": "她的嘴巴很大。",
           "speaker": "Tom",
@@ -624,7 +848,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -637,9 +861,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-3",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "my robot",
+          "chinese": "我的机器人",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的机器人”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            },
+            {
+              "text": "robot",
+              "phonetic": "/ˈrəʊbɒt/",
+              "partOfSpeech": "n.",
+              "meaning": "机器人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my robot"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "This is my robot.",
           "chinese": "这是我的机器人。",
           "speaker": "Ben",
@@ -697,7 +953,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -710,15 +966,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 2,
+          "english": "My robot",
+          "chinese": "我的机器人",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的机器人”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            },
+            {
+              "text": "robot",
+              "phonetic": "/ˈrəʊbɒt/",
+              "partOfSpeech": "n.",
+              "meaning": "机器人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My robot"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
           "english": "boy",
           "chinese": "男孩",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -731,9 +1019,41 @@
           "structureBlocks": []
         },
         {
+          "id": "9-5",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
+          "english": "a boy",
+          "chinese": "男孩造型",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“男孩造型”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "boy",
+              "phonetic": "/bɔɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "男孩"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a boy"
+            }
+          ]
+        },
+        {
           "id": "9-3",
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "My robot is a boy.",
           "chinese": "我的机器人是男孩造型。",
           "speaker": "Ben",
@@ -854,7 +1174,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -867,9 +1187,41 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 2,
+          "english": "His arms",
+          "chinese": "他的手臂",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“他的手臂”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "His",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "det.",
+              "meaning": "他的；指Ben的男孩造型机器人的部位"
+            },
+            {
+              "text": "arms",
+              "phonetic": "/ɑːmz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "手臂；arm的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "His arms"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
           "english": "short",
           "chinese": "短的",
           "speaker": "Tom",
@@ -890,7 +1242,7 @@
         {
           "id": "11-3",
           "sequenceNumber": 11,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "His arms are short.",
           "chinese": "他的手臂很短。",
           "speaker": "Tom",
@@ -948,7 +1300,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -961,9 +1313,41 @@
           "structureBlocks": []
         },
         {
-          "id": "12-2",
+          "id": "12-4",
           "sequenceNumber": 12,
           "segmentNumber": 2,
+          "english": "His legs",
+          "chinese": "他的腿",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“他的腿”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "His",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "det.",
+              "meaning": "他的；指Ben的男孩造型机器人的部位"
+            },
+            {
+              "text": "legs",
+              "phonetic": "/leɡz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "腿；leg的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "His legs"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
           "english": "long",
           "chinese": "长的",
           "speaker": "Ben",
@@ -984,7 +1368,7 @@
         {
           "id": "12-3",
           "sequenceNumber": 12,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "His legs are long.",
           "chinese": "他的腿很长。",
           "speaker": "Ben",
@@ -1042,7 +1426,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1055,9 +1439,41 @@
           "structureBlocks": []
         },
         {
-          "id": "13-2",
+          "id": "13-4",
           "sequenceNumber": 13,
           "segmentNumber": 2,
+          "english": "His ears",
+          "chinese": "他的耳朵",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“他的耳朵”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "His",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "det.",
+              "meaning": "他的；指Ben的男孩造型机器人的部位"
+            },
+            {
+              "text": "ears",
+              "phonetic": "/ɪəz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "耳朵；ear的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "His ears"
+            }
+          ]
+        },
+        {
+          "id": "13-2",
+          "sequenceNumber": 13,
+          "segmentNumber": 3,
           "english": "small",
           "chinese": "小的",
           "speaker": "May",
@@ -1078,7 +1494,7 @@
         {
           "id": "13-3",
           "sequenceNumber": 13,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "His ears are small.",
           "chinese": "他的耳朵很小。",
           "speaker": "May",
@@ -1249,7 +1665,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1270,7 +1686,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1283,9 +1699,53 @@
           "structureBlocks": []
         },
         {
-          "id": "16-3",
+          "id": "16-4",
           "sequenceNumber": 16,
           "segmentNumber": 3,
+          "english": "have a toy show",
+          "chinese": "举办一场玩具展示",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“举办一场玩具展示”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "举办（展示或表演）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "toy",
+              "phonetic": "/tɔɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "玩具"
+            },
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "表演"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have a toy show"
+            }
+          ]
+        },
+        {
+          "id": "16-3",
+          "sequenceNumber": 16,
+          "segmentNumber": 4,
           "english": "Let's have a toy show.",
           "chinese": "我们来举办一场玩具展示吧。",
           "speaker": "May",

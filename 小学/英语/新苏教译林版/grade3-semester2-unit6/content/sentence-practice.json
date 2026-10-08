@@ -40,7 +40,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,47 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "my farm picture",
+          "chinese": "我的农场图",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的农场图”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "farm",
+              "phonetic": "/fɑːm/",
+              "partOfSpeech": "n.",
+              "meaning": "农场"
+            },
+            {
+              "text": "picture",
+              "phonetic": "/ˈpɪktʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "图画（配套活动用语）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my farm picture"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Look at my farm picture.",
           "chinese": "看看我的农场图。",
           "speaker": "May",
@@ -401,42 +439,9 @@
           ]
         },
         {
-          "id": "7-2",
-          "sequenceNumber": 7,
-          "segmentNumber": 1,
-          "english": "What are those",
-          "chinese": "那些是什么",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "What",
-              "phonetic": "/wɒt/",
-              "partOfSpeech": "pron.",
-              "meaning": "什么"
-            },
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "是（与you及复数搭配）"
-            },
-            {
-              "text": "those",
-              "phonetic": "/ðəʊz/",
-              "partOfSpeech": "pron.",
-              "meaning": "那些"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "7-1",
           "sequenceNumber": 7,
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "english": "tree",
           "chinese": "树；树木",
           "speaker": "Ben",
@@ -455,16 +460,16 @@
           "structureBlocks": []
         },
         {
-          "id": "7-3",
+          "id": "7-5",
           "sequenceNumber": 7,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "under the tree",
-          "chinese": "在树下的",
+          "chinese": "在树下面",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在树下面”；将它接回完整表达。",
           "words": [
             {
               "text": "under",
@@ -485,12 +490,17 @@
               "meaning": "树；树木"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "under the tree"
+            }
+          ]
         },
         {
           "id": "7-4",
           "sequenceNumber": 7,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "What are those under the tree?",
           "chinese": "树下的那些是什么？",
           "speaker": "Ben",
@@ -621,7 +631,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -634,9 +644,41 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 2,
+          "english": "The rabbits",
+          "chinese": "这些兔子",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些兔子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "rabbits",
+              "phonetic": "/ˈræbɪts/",
+              "partOfSpeech": "n.",
+              "meaning": "兔子；rabbit的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The rabbits"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
           "english": "cute",
           "chinese": "可爱的",
           "speaker": "Tom",
@@ -657,7 +699,7 @@
         {
           "id": "9-3",
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "The rabbits are cute.",
           "chinese": "这些兔子真可爱。",
           "speaker": "Tom",
@@ -749,23 +791,17 @@
           "structureBlocks": []
         },
         {
-          "id": "10-4",
+          "id": "10-7",
           "sequenceNumber": 10,
           "segmentNumber": 3,
-          "english": "Let's draw carrots",
-          "chinese": "我们画些胡萝卜",
+          "english": "draw carrots",
+          "chinese": "画胡萝卜",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“画胡萝卜”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Let's",
-              "phonetic": "/lets/",
-              "partOfSpeech": "contraction",
-              "meaning": "let us的缩写；让我们"
-            },
             {
               "text": "draw",
               "phonetic": "/drɔː/",
@@ -779,7 +815,12 @@
               "meaning": "胡萝卜；carrot的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "draw carrots"
+            }
+          ]
         },
         {
           "id": "10-3",
@@ -803,16 +844,16 @@
           "structureBlocks": []
         },
         {
-          "id": "10-5",
+          "id": "10-8",
           "sequenceNumber": 10,
           "segmentNumber": 5,
           "english": "by the rabbits",
-          "chinese": "画在兔子旁边",
+          "chinese": "在兔子旁边",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在兔子旁边”；将它接回完整表达。",
           "words": [
             {
               "text": "by",
@@ -833,7 +874,12 @@
               "meaning": "兔子；rabbit的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "by the rabbits"
+            }
+          ]
         },
         {
           "id": "10-6",

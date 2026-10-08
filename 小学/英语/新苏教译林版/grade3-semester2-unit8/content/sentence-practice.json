@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,53 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "colour our garden picture",
+          "chinese": "给我们的花园图涂色",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“给我们的花园图涂色”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "colour",
+              "phonetic": "/ˈkʌlə/",
+              "partOfSpeech": "v.",
+              "meaning": "给……涂色"
+            },
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "garden",
+              "phonetic": "/ˈɡɑːdən/",
+              "partOfSpeech": "n.",
+              "meaning": "花园；园圃"
+            },
+            {
+              "text": "picture",
+              "phonetic": "/ˈpɪktʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "图画（配套活动用语）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "colour our garden picture"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Let's colour our garden picture.",
           "chinese": "我们给花园图涂色吧。",
           "speaker": "Ben",
@@ -161,7 +205,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -174,9 +218,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 3,
+          "english": "the flower",
+          "chinese": "这朵花",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这朵花”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "flower",
+              "phonetic": "/ˈflaʊə/",
+              "partOfSpeech": "n.",
+              "meaning": "花；花朵"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "the flower"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
           "english": "What colour is the flower?",
           "chinese": "这朵花是什么颜色的？",
           "speaker": "May",
@@ -297,7 +373,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -310,9 +386,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "the tree",
+          "chinese": "这棵树",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这棵树”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "tree",
+              "phonetic": "/triː/",
+              "partOfSpeech": "n.",
+              "meaning": "树；树木"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "the tree"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "green",
           "chinese": "绿色的",
           "speaker": "Ben",
@@ -333,7 +441,7 @@
         {
           "id": "4-3",
           "sequenceNumber": 4,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Is the tree green?",
           "chinese": "这棵树是绿色的吗？",
           "speaker": "Ben",
@@ -437,7 +545,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -450,9 +558,41 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "The duck",
+          "chinese": "这只鸭子",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这只鸭子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "duck",
+              "phonetic": "/dʌk/",
+              "partOfSpeech": "n.",
+              "meaning": "鸭子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The duck"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "yellow",
           "chinese": "黄色的",
           "speaker": "Tom",
@@ -473,7 +613,7 @@
         {
           "id": "6-3",
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "The duck is yellow.",
           "chinese": "这只鸭子是黄色的。",
           "speaker": "Tom",
@@ -552,7 +692,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -565,9 +705,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-3",
+          "id": "7-4",
           "sequenceNumber": 7,
           "segmentNumber": 3,
+          "english": "the rabbit",
+          "chinese": "这只兔子",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这只兔子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "rabbit",
+              "phonetic": "/ˈræbɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "兔子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "the rabbit"
+            }
+          ]
+        },
+        {
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
           "english": "What colour is the rabbit?",
           "chinese": "这只兔子是什么颜色的？",
           "speaker": "Ben",
@@ -688,7 +860,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -743,23 +915,17 @@
           "structureBlocks": []
         },
         {
-          "id": "9-5",
+          "id": "9-8",
           "sequenceNumber": 9,
           "segmentNumber": 4,
-          "english": "Put the blue pencil",
-          "chinese": "把蓝色铅笔放好",
+          "english": "the blue pencil",
+          "chinese": "这支蓝色铅笔",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这支蓝色铅笔”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放，安置"
-            },
             {
               "text": "the",
               "phonetic": "/ðə/",
@@ -779,7 +945,12 @@
               "meaning": "铅笔"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "the blue pencil"
+            }
+          ]
         },
         {
           "id": "9-4",
@@ -803,16 +974,16 @@
           "structureBlocks": []
         },
         {
-          "id": "9-6",
+          "id": "9-9",
           "sequenceNumber": 9,
           "segmentNumber": 6,
           "english": "by the picture",
-          "chinese": "放在图画旁边",
+          "chinese": "在图画旁边",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在图画旁边”；将它接回完整表达。",
           "words": [
             {
               "text": "by",
@@ -833,7 +1004,12 @@
               "meaning": "图画（配套活动用语）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "by the picture"
+            }
+          ]
         },
         {
           "id": "9-7",

@@ -112,7 +112,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -125,9 +125,47 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-3",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "like spring best",
+          "chinese": "最喜欢春天",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“最喜欢春天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "spring",
+              "phonetic": "/sprɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "春天"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adv.",
+              "meaning": "最；最喜欢的程度"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like spring best"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "I like spring best.",
           "chinese": "我最喜欢春天。",
           "speaker": "May",
@@ -210,7 +248,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -223,9 +261,41 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-4",
           "sequenceNumber": 3,
           "segmentNumber": 3,
+          "english": "in spring",
+          "chinese": "在春天",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在春天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "spring",
+              "phonetic": "/sprɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "春天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in spring"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
           "english": "It's warm in spring.",
           "chinese": "春天天气暖和。",
           "speaker": "Ben",
@@ -283,7 +353,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -304,7 +374,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -317,15 +387,47 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-5",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "plant trees",
+          "chinese": "种树",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“种树”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "plant",
+              "phonetic": "/plɑːnt/",
+              "partOfSpeech": "v.",
+              "meaning": "种植"
+            },
+            {
+              "text": "trees",
+              "phonetic": "/triːz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "树；tree的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "plant trees"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "spring",
           "chinese": "春天",
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -338,9 +440,41 @@
           "structureBlocks": []
         },
         {
+          "id": "4-6",
+          "sequenceNumber": 4,
+          "segmentNumber": 5,
+          "english": "in spring",
+          "chinese": "在春天",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在春天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "spring",
+              "phonetic": "/sprɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "春天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in spring"
+            }
+          ]
+        },
+        {
           "id": "4-4",
           "sequenceNumber": 4,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "I plant trees in spring.",
           "chinese": "我在春天种树。",
           "speaker": "May",
@@ -408,7 +542,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -421,9 +555,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-3",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "like summer best",
+          "chinese": "最喜欢夏天",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“最喜欢夏天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "summer",
+              "phonetic": "/ˈsʌmə/",
+              "partOfSpeech": "n.",
+              "meaning": "夏天"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adv.",
+              "meaning": "最；最喜欢的程度"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like summer best"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "I like summer best.",
           "chinese": "我最喜欢夏天。",
           "speaker": "Tom",
@@ -506,7 +678,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -519,9 +691,41 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "in summer",
+          "chinese": "在夏天",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在夏天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "summer",
+              "phonetic": "/ˈsʌmə/",
+              "partOfSpeech": "n.",
+              "meaning": "夏天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in summer"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "It's hot in summer.",
           "chinese": "夏天天气炎热。",
           "speaker": "Ben",
@@ -579,7 +783,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -592,15 +796,47 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-4",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "go swimming",
+          "chinese": "去游泳",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“去游泳”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "去"
+            },
+            {
+              "text": "swimming",
+              "phonetic": "/ˈswɪmɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "游泳；与go构成go swimming"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "go swimming"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "summer",
           "chinese": "夏天",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -613,9 +849,41 @@
           "structureBlocks": []
         },
         {
+          "id": "7-5",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
+          "english": "in summer",
+          "chinese": "在夏天",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在夏天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "summer",
+              "phonetic": "/ˈsʌmə/",
+              "partOfSpeech": "n.",
+              "meaning": "夏天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in summer"
+            }
+          ]
+        },
+        {
           "id": "7-3",
           "sequenceNumber": 7,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "I go swimming in summer.",
           "chinese": "我在夏天去游泳。",
           "speaker": "Tom",
@@ -671,23 +939,17 @@
           ]
         },
         {
-          "id": "8-2",
+          "id": "8-5",
           "sequenceNumber": 8,
           "segmentNumber": 1,
-          "english": "I eat ice cream",
-          "chinese": "我吃冰激凌",
+          "english": "eat ice cream",
+          "chinese": "吃冰激凌",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“吃冰激凌”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "eat",
               "phonetic": "/iːt/",
@@ -707,7 +969,12 @@
               "meaning": "在ice cream中组成“冰激凌”一词"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "eat ice cream"
+            }
+          ]
         },
         {
           "id": "8-1",
@@ -740,7 +1007,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在夏天”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -755,7 +1022,12 @@
               "meaning": "夏天"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in summer"
+            }
+          ]
         },
         {
           "id": "8-4",
@@ -834,7 +1106,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -847,9 +1119,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-3",
           "sequenceNumber": 9,
           "segmentNumber": 2,
+          "english": "like autumn best",
+          "chinese": "最喜欢秋天",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“最喜欢秋天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "autumn",
+              "phonetic": "/ˈɔːtəm/",
+              "partOfSpeech": "n.",
+              "meaning": "秋天"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adv.",
+              "meaning": "最；最喜欢的程度"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like autumn best"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
           "english": "I like autumn best.",
           "chinese": "我最喜欢秋天。",
           "speaker": "Ben",
@@ -932,7 +1242,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -945,9 +1255,41 @@
           "structureBlocks": []
         },
         {
-          "id": "10-3",
+          "id": "10-4",
           "sequenceNumber": 10,
           "segmentNumber": 3,
+          "english": "in autumn",
+          "chinese": "在秋天",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在秋天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "autumn",
+              "phonetic": "/ˈɔːtəm/",
+              "partOfSpeech": "n.",
+              "meaning": "秋天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in autumn"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
           "english": "It's cool in autumn.",
           "chinese": "秋天天气凉爽。",
           "speaker": "May",
@@ -1005,7 +1347,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1018,15 +1360,47 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 2,
+          "english": "go boating",
+          "chinese": "去划船",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“去划船”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "去"
+            },
+            {
+              "text": "boating",
+              "phonetic": "/ˈbəʊtɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "在go boating中表示划船"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "go boating"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
           "english": "autumn",
           "chinese": "秋天",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1039,9 +1413,41 @@
           "structureBlocks": []
         },
         {
+          "id": "11-5",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
+          "english": "in autumn",
+          "chinese": "在秋天",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在秋天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "autumn",
+              "phonetic": "/ˈɔːtəm/",
+              "partOfSpeech": "n.",
+              "meaning": "秋天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in autumn"
+            }
+          ]
+        },
+        {
           "id": "11-3",
           "sequenceNumber": 11,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "I go boating in autumn.",
           "chinese": "我在秋天去划船。",
           "speaker": "Ben",
@@ -1105,7 +1511,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1118,9 +1524,41 @@
           "structureBlocks": []
         },
         {
-          "id": "12-2",
+          "id": "12-3",
           "sequenceNumber": 12,
           "segmentNumber": 2,
+          "english": "like winter",
+          "chinese": "喜欢冬天",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢冬天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "winter",
+              "phonetic": "/ˈwɪntə/",
+              "partOfSpeech": "n.",
+              "meaning": "冬天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like winter"
+            }
+          ]
+        },
+        {
+          "id": "12-2",
+          "sequenceNumber": 12,
+          "segmentNumber": 3,
           "english": "I like winter too.",
           "chinese": "我也喜欢冬天。",
           "speaker": "Tom",
@@ -1203,7 +1641,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1216,9 +1654,41 @@
           "structureBlocks": []
         },
         {
-          "id": "13-3",
+          "id": "13-4",
           "sequenceNumber": 13,
           "segmentNumber": 3,
+          "english": "in winter",
+          "chinese": "在冬天",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在冬天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "winter",
+              "phonetic": "/ˈwɪntə/",
+              "partOfSpeech": "n.",
+              "meaning": "冬天"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in winter"
+            }
+          ]
+        },
+        {
+          "id": "13-3",
+          "sequenceNumber": 13,
+          "segmentNumber": 4,
           "english": "It's cold in winter.",
           "chinese": "冬天天气寒冷。",
           "speaker": "May",
@@ -1297,7 +1767,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1310,9 +1780,47 @@
           "structureBlocks": []
         },
         {
-          "id": "14-3",
+          "id": "14-4",
           "sequenceNumber": 14,
           "segmentNumber": 3,
+          "english": "in the snow",
+          "chinese": "在雪地里",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在雪地里”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里；本句说明雪地这一环境"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个；这些；那些"
+            },
+            {
+              "text": "snow",
+              "phonetic": "/snəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "雪"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the snow"
+            }
+          ]
+        },
+        {
+          "id": "14-3",
+          "sequenceNumber": 14,
+          "segmentNumber": 4,
           "english": "I play in the snow.",
           "chinese": "我在雪地里玩。",
           "speaker": "Tom",
@@ -1376,7 +1884,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1389,15 +1897,53 @@
           "structureBlocks": []
         },
         {
-          "id": "15-2",
+          "id": "15-4",
           "sequenceNumber": 15,
           "segmentNumber": 2,
+          "english": "have four seasons",
+          "chinese": "有四个季节",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“有四个季节”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有"
+            },
+            {
+              "text": "four",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "num.",
+              "meaning": "四"
+            },
+            {
+              "text": "seasons",
+              "phonetic": "/ˈsiːzənz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "季节；season的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have four seasons"
+            }
+          ]
+        },
+        {
+          "id": "15-2",
+          "sequenceNumber": 15,
+          "segmentNumber": 3,
           "english": "year",
           "chinese": "年",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1410,9 +1956,47 @@
           "structureBlocks": []
         },
         {
+          "id": "15-5",
+          "sequenceNumber": 15,
+          "segmentNumber": 4,
+          "english": "in a year",
+          "chinese": "在一年里",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在一年里”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（某段时间）内"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "year",
+              "phonetic": "/jɪə/",
+              "partOfSpeech": "n.",
+              "meaning": "年"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in a year"
+            }
+          ]
+        },
+        {
           "id": "15-3",
           "sequenceNumber": 15,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "We have four seasons in a year.",
           "chinese": "我们一年有四个季节。",
           "speaker": "Ben",

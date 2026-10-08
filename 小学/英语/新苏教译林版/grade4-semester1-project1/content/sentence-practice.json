@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -53,9 +53,47 @@
           "structureBlocks": []
         },
         {
-          "id": "1-3",
+          "id": "1-4",
           "sequenceNumber": 1,
           "segmentNumber": 3,
+          "english": "my weekly plan",
+          "chinese": "我的周计划",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的周计划”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            },
+            {
+              "text": "weekly",
+              "phonetic": "/ˈwiːkli/",
+              "partOfSpeech": "adj.",
+              "meaning": "每周的"
+            },
+            {
+              "text": "plan",
+              "phonetic": "/plæn/",
+              "partOfSpeech": "n.",
+              "meaning": "计划"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my weekly plan"
+            }
+          ]
+        },
+        {
+          "id": "1-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
           "english": "This is my weekly plan.",
           "chinese": "这是我的周计划。",
           "speaker": "Ben",
@@ -212,7 +250,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -225,9 +263,47 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-3",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "like Science best",
+          "chinese": "最喜欢科学课",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“最喜欢科学课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "Science",
+              "phonetic": "/ˈsaɪəns/",
+              "partOfSpeech": "n.",
+              "meaning": "科学（课）"
+            },
+            {
+              "text": "best",
+              "phonetic": "/best/",
+              "partOfSpeech": "adv.",
+              "meaning": "最；最喜欢的程度"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like Science best"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "I like Science best.",
           "chinese": "我最喜欢科学课。",
           "speaker": "Ben",
@@ -289,7 +365,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -310,7 +386,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -323,9 +399,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "read books",
+          "chinese": "读书",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“读书”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "read",
+              "phonetic": "/riːd/",
+              "partOfSpeech": "v.",
+              "meaning": "阅读"
+            },
+            {
+              "text": "books",
+              "phonetic": "/bʊks/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "书；book的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "read books"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "When do you read books?",
           "chinese": "你什么时候读书？",
           "speaker": "Tom",
@@ -431,23 +539,17 @@
           "structureBlocks": []
         },
         {
-          "id": "5-3",
+          "id": "5-6",
           "sequenceNumber": 5,
           "segmentNumber": 3,
-          "english": "I read books",
-          "chinese": "我读书",
+          "english": "read books",
+          "chinese": "读书",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“读书”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "read",
               "phonetic": "/riːd/",
@@ -461,7 +563,12 @@
               "meaning": "书；book的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "read books"
+            }
+          ]
         },
         {
           "id": "5-4",
@@ -473,7 +580,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在七点整”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -494,7 +601,12 @@
               "meaning": "……点钟（整点表达）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at seven o'clock"
+            }
+          ]
         },
         {
           "id": "5-5",
@@ -573,7 +685,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -586,15 +698,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "play football",
+          "chinese": "踢足球",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“踢足球”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "打球；踢球；玩"
+            },
+            {
+              "text": "football",
+              "phonetic": "/ˈfʊtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "足球；足球运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "play football"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "week",
           "chinese": "星期；一周",
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -607,9 +751,41 @@
           "structureBlocks": []
         },
         {
+          "id": "6-5",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
+          "english": "every week",
+          "chinese": "每周",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“每周”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每个"
+            },
+            {
+              "text": "week",
+              "phonetic": "/wiːk/",
+              "partOfSpeech": "n.",
+              "meaning": "星期；一周"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "every week"
+            }
+          ]
+        },
+        {
           "id": "6-3",
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "Do you play football every week?",
           "chinese": "你每周都踢足球吗？",
           "speaker": "May",
@@ -733,7 +909,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -746,9 +922,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-3",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "play football",
+          "chinese": "踢足球",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“踢足球”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "打球；踢球；玩"
+            },
+            {
+              "text": "football",
+              "phonetic": "/ˈfʊtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "足球；足球运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "play football"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "When do you play football?",
           "chinese": "你什么时候踢足球？",
           "speaker": "Tom",
@@ -820,7 +1028,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -833,15 +1041,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 2,
+          "english": "play football",
+          "chinese": "踢足球",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“踢足球”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "打球；踢球；玩"
+            },
+            {
+              "text": "football",
+              "phonetic": "/ˈfʊtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "足球；足球运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "play football"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
           "english": "Friday",
           "chinese": "星期五",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -854,9 +1094,41 @@
           "structureBlocks": []
         },
         {
+          "id": "9-5",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
+          "english": "on Friday",
+          "chinese": "在星期五",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在星期五”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（星期几）"
+            },
+            {
+              "text": "Friday",
+              "phonetic": "/ˈfraɪdeɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "星期五"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on Friday"
+            }
+          ]
+        },
+        {
           "id": "9-3",
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "I play football on Friday.",
           "chinese": "我星期五踢足球。",
           "speaker": "Ben",
@@ -924,7 +1196,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -937,15 +1209,53 @@
           "structureBlocks": []
         },
         {
-          "id": "10-2",
+          "id": "10-4",
           "sequenceNumber": 10,
           "segmentNumber": 2,
+          "english": "have dancing lessons",
+          "chinese": "上舞蹈课",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“上舞蹈课”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "上（课）"
+            },
+            {
+              "text": "dancing",
+              "phonetic": "/ˈdɑːnsɪŋ/",
+              "partOfSpeech": "n. (modifier)",
+              "meaning": "舞蹈；在dancing lessons中修饰课程"
+            },
+            {
+              "text": "lessons",
+              "phonetic": "/ˈlesənz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "课；lesson的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have dancing lessons"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
           "english": "Saturday",
           "chinese": "星期六",
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -958,9 +1268,41 @@
           "structureBlocks": []
         },
         {
+          "id": "10-5",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
+          "english": "on Saturday",
+          "chinese": "在星期六",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在星期六”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（星期几）"
+            },
+            {
+              "text": "Saturday",
+              "phonetic": "/ˈsætədeɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "星期六"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on Saturday"
+            }
+          ]
+        },
+        {
           "id": "10-3",
           "sequenceNumber": 10,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "I have dancing lessons on Saturday.",
           "chinese": "我星期六上舞蹈课。",
           "speaker": "May",
@@ -1034,7 +1376,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1047,15 +1389,53 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 2,
+          "english": "see my grandpa",
+          "chinese": "看望我的爷爷",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“看望我的爷爷”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见；看望；见面"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的（后接名词）"
+            },
+            {
+              "text": "grandpa",
+              "phonetic": "/ˈɡrænpɑː/",
+              "partOfSpeech": "n.",
+              "meaning": "爷爷；外公"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "see my grandpa"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
           "english": "Sunday",
           "chinese": "星期日",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1068,9 +1448,41 @@
           "structureBlocks": []
         },
         {
+          "id": "11-5",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
+          "english": "on Sunday",
+          "chinese": "在星期日",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在星期日”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（星期几）"
+            },
+            {
+              "text": "Sunday",
+              "phonetic": "/ˈsʌndeɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "星期日"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on Sunday"
+            }
+          ]
+        },
+        {
           "id": "11-3",
           "sequenceNumber": 11,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "I see my grandpa on Sunday.",
           "chinese": "我星期日去看爷爷。",
           "speaker": "Tom",
@@ -1157,23 +1569,17 @@
           "structureBlocks": []
         },
         {
-          "id": "12-2",
+          "id": "12-5",
           "sequenceNumber": 12,
           "segmentNumber": 2,
-          "english": "I go to bed",
-          "chinese": "我上床睡觉",
+          "english": "go to bed",
+          "chinese": "上床睡觉",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“上床睡觉”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "go",
               "phonetic": "/ɡəʊ/",
@@ -1193,7 +1599,12 @@
               "meaning": "床"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "go to bed"
+            }
+          ]
         },
         {
           "id": "12-3",
@@ -1205,7 +1616,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在九点整”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -1226,7 +1637,12 @@
               "meaning": "……点钟（整点表达）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at nine o'clock"
+            }
+          ]
         },
         {
           "id": "12-4",

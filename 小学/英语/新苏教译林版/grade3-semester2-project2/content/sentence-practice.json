@@ -19,7 +19,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,53 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "make a paper park",
+          "chinese": "做一个纸上公园",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做一个纸上公园”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "做；制造"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "paper",
+              "phonetic": "/ˈpeɪpə/",
+              "partOfSpeech": "n.; adj.",
+              "meaning": "纸；纸做的（Project制作情境）"
+            },
+            {
+              "text": "park",
+              "phonetic": "/pɑːk/",
+              "partOfSpeech": "n.",
+              "meaning": "公园（Project主题词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make a paper park"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Let's make a paper park.",
           "chinese": "我们做一个纸上公园吧。",
           "speaker": "May",
@@ -140,7 +184,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -161,7 +205,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -182,7 +226,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -195,9 +239,47 @@
           "structureBlocks": []
         },
         {
-          "id": "2-4",
+          "id": "2-5",
           "sequenceNumber": 2,
           "segmentNumber": 4,
+          "english": "like apple trees",
+          "chinese": "喜欢苹果树",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢苹果树”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢；喜爱"
+            },
+            {
+              "text": "apple",
+              "phonetic": "/ˈæpəl/",
+              "partOfSpeech": "n.",
+              "meaning": "苹果"
+            },
+            {
+              "text": "trees",
+              "phonetic": "/triːz/",
+              "partOfSpeech": "n.",
+              "meaning": "树；tree的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like apple trees"
+            }
+          ]
+        },
+        {
+          "id": "2-4",
+          "sequenceNumber": 2,
+          "segmentNumber": 5,
           "english": "I like apple trees.",
           "chinese": "我喜欢苹果树。",
           "speaker": "Ben",
@@ -380,7 +462,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些鸭子”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -395,7 +477,12 @@
               "meaning": "鸭子；duck的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The ducks"
+            }
+          ]
         },
         {
           "id": "5-2",
@@ -419,23 +506,17 @@
           "structureBlocks": []
         },
         {
-          "id": "5-4",
+          "id": "5-6",
           "sequenceNumber": 5,
           "segmentNumber": 4,
-          "english": "are by the pond",
+          "english": "by the pond",
           "chinese": "在池塘旁边",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在池塘旁边”；将它接回完整表达。",
           "words": [
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "是（与you及复数搭配）"
-            },
             {
               "text": "by",
               "phonetic": "/baɪ/",
@@ -455,7 +536,12 @@
               "meaning": "池塘（原创公园图上的地点）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "by the pond"
+            }
+          ]
         },
         {
           "id": "5-5",
@@ -545,7 +631,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -558,9 +644,41 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "the rabbit",
+          "chinese": "这只兔子",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这只兔子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "rabbit",
+              "phonetic": "/ˈræbɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "兔子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "the rabbit"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "What colour is the rabbit?",
           "chinese": "这只兔子是什么颜色的？",
           "speaker": "Tom",
@@ -703,7 +821,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这只兔子”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -718,7 +836,12 @@
               "meaning": "兔子"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The rabbit"
+            }
+          ]
         },
         {
           "id": "8-2",
@@ -763,23 +886,17 @@
           "structureBlocks": []
         },
         {
-          "id": "8-5",
+          "id": "8-7",
           "sequenceNumber": 8,
           "segmentNumber": 5,
-          "english": "is under the apple tree",
+          "english": "under the apple tree",
           "chinese": "在苹果树下面",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在苹果树下面”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）"
-            },
             {
               "text": "under",
               "phonetic": "/ˈʌndə/",
@@ -805,7 +922,12 @@
               "meaning": "树；树木"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "under the apple tree"
+            }
+          ]
         },
         {
           "id": "8-6",

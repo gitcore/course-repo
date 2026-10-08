@@ -62,7 +62,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我最喜欢的节日”；将它接回完整表达。",
           "words": [
             {
               "text": "My",
@@ -83,26 +83,25 @@
               "meaning": "节日（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My favourite festival"
+            }
+          ]
         },
         {
-          "id": "1-4",
+          "id": "1-6",
           "sequenceNumber": 1,
           "segmentNumber": 4,
-          "english": "is the Mid-Autumn Festival",
-          "chinese": "是中秋节",
+          "english": "the Mid-Autumn Festival",
+          "chinese": "中秋节",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“中秋节”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "linking v.",
-              "meaning": "是（说明最喜欢的节日）"
-            },
             {
               "text": "the",
               "phonetic": "/ðə/",
@@ -122,7 +121,12 @@
               "meaning": "节日（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "the Mid-Autumn Festival"
+            }
+          ]
         },
         {
           "id": "1-5",
@@ -197,7 +201,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -218,7 +222,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -231,9 +235,53 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 3,
+          "english": "in September or October",
+          "chinese": "在九月或十月",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在九月或十月”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（月份或时间段前）"
+            },
+            {
+              "text": "September",
+              "phonetic": "/sepˈtembə/",
+              "partOfSpeech": "proper n.",
+              "meaning": "九月"
+            },
+            {
+              "text": "or",
+              "phonetic": "/ɔː/",
+              "partOfSpeech": "conj.",
+              "meaning": "或者"
+            },
+            {
+              "text": "October",
+              "phonetic": "/ɒkˈtəʊbə/",
+              "partOfSpeech": "proper n.",
+              "meaning": "十月"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in September or October"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
           "english": "It is in September or October.",
           "chinese": "它在九月或十月。",
           "speaker": "Tom",
@@ -337,23 +385,17 @@
           "structureBlocks": []
         },
         {
-          "id": "3-4",
+          "id": "3-7",
           "sequenceNumber": 3,
           "segmentNumber": 3,
-          "english": "Let's plan a party",
-          "chinese": "我们计划一次聚会吧",
+          "english": "plan a party",
+          "chinese": "计划一次聚会",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“计划一次聚会”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Let's",
-              "phonetic": "/lets/",
-              "partOfSpeech": "contraction",
-              "meaning": "let us的缩写；让我们"
-            },
             {
               "text": "plan",
               "phonetic": "/plæn/",
@@ -373,7 +415,12 @@
               "meaning": "聚会"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "plan a party"
+            }
+          ]
         },
         {
           "id": "3-3",
@@ -406,7 +453,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在节日前”；将它接回完整表达。",
           "words": [
             {
               "text": "before",
@@ -427,7 +474,12 @@
               "meaning": "节日（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "before the festival"
+            }
+          ]
         },
         {
           "id": "3-6",
@@ -534,7 +586,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们的聚会”；将它接回完整表达。",
           "words": [
             {
               "text": "Our",
@@ -549,7 +601,12 @@
               "meaning": "聚会"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Our party"
+            }
+          ]
         },
         {
           "id": "4-2",
@@ -573,23 +630,17 @@
           "structureBlocks": []
         },
         {
-          "id": "4-4",
+          "id": "4-6",
           "sequenceNumber": 4,
           "segmentNumber": 4,
-          "english": "is on Friday afternoon",
+          "english": "on Friday afternoon",
           "chinese": "在周五下午",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在周五下午”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "linking v.",
-              "meaning": "说明聚会安排的时间"
-            },
             {
               "text": "on",
               "phonetic": "/ɒn/",
@@ -609,7 +660,12 @@
               "meaning": "下午"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on Friday afternoon"
+            }
+          ]
         },
         {
           "id": "4-5",
@@ -705,7 +761,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -718,9 +774,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-3",
+          "id": "5-4",
           "sequenceNumber": 5,
           "segmentNumber": 3,
+          "english": "at two o'clock",
+          "chinese": "在两点整",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在两点整”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（具体钟点前）"
+            },
+            {
+              "text": "two",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "num.",
+              "meaning": "二"
+            },
+            {
+              "text": "o'clock",
+              "phonetic": "/əˈklɒk/",
+              "partOfSpeech": "adv.",
+              "meaning": "……点钟"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at two o'clock"
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
           "english": "It starts at two o'clock.",
           "chinese": "它在两点开始。",
           "speaker": "Ben",
@@ -818,29 +912,17 @@
           "structureBlocks": []
         },
         {
-          "id": "6-6",
+          "id": "6-9",
           "sequenceNumber": 6,
           "segmentNumber": 3,
-          "english": "We can draw mooncakes",
-          "chinese": "我们可以画月饼",
+          "english": "draw mooncakes",
+          "chinese": "画月饼",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“画月饼”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以"
-            },
             {
               "text": "draw",
               "phonetic": "/drɔː/",
@@ -854,7 +936,12 @@
               "meaning": "月饼；mooncake的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "draw mooncakes"
+            }
+          ]
         },
         {
           "id": "6-3",
@@ -920,23 +1007,17 @@
           "structureBlocks": []
         },
         {
-          "id": "6-7",
+          "id": "6-10",
           "sequenceNumber": 6,
           "segmentNumber": 7,
-          "english": "and look at festival pictures",
-          "chinese": "也可以看节日图片",
+          "english": "look at festival pictures",
+          "chinese": "看节日图片",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“看节日图片”；将它接回完整表达。",
           "words": [
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "conj.",
-              "meaning": "和；并且"
-            },
             {
               "text": "look",
               "phonetic": "/lʊk/",
@@ -962,7 +1043,12 @@
               "meaning": "图画；picture的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "look at festival pictures"
+            }
+          ]
         },
         {
           "id": "6-8",
@@ -1122,23 +1208,17 @@
           "structureBlocks": []
         },
         {
-          "id": "7-5",
+          "id": "7-8",
           "sequenceNumber": 7,
           "segmentNumber": 4,
-          "english": "We need paper and pencils",
-          "chinese": "我们需要纸和铅笔",
+          "english": "need paper and pencils",
+          "chinese": "需要纸和铅笔",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“需要纸和铅笔”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
             {
               "text": "need",
               "phonetic": "/niːd/",
@@ -1164,7 +1244,12 @@
               "meaning": "铅笔；pencil的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "need paper and pencils"
+            }
+          ]
         },
         {
           "id": "7-4",
@@ -1188,16 +1273,16 @@
           "structureBlocks": []
         },
         {
-          "id": "7-6",
+          "id": "7-9",
           "sequenceNumber": 7,
           "segmentNumber": 6,
           "english": "for the party",
-          "chinese": "用于聚会",
+          "chinese": "为聚会",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“为聚会”；将它接回完整表达。",
           "words": [
             {
               "text": "for",
@@ -1218,7 +1303,12 @@
               "meaning": "聚会"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "for the party"
+            }
+          ]
         },
         {
           "id": "7-7",
@@ -1392,7 +1482,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1413,7 +1503,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1434,7 +1524,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1447,9 +1537,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-4",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 4,
+          "english": "spend forty yuan",
+          "chinese": "花四十元",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“花四十元”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "spend",
+              "phonetic": "/spend/",
+              "partOfSpeech": "v.",
+              "meaning": "花钱"
+            },
+            {
+              "text": "forty",
+              "phonetic": "/ˈfɔːti/",
+              "partOfSpeech": "num.",
+              "meaning": "四十"
+            },
+            {
+              "text": "yuan",
+              "phonetic": "/juˈɑːn/",
+              "partOfSpeech": "n.",
+              "meaning": "元，中国货币单位（教材星号拓展词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "spend forty yuan"
+            }
+          ]
+        },
+        {
+          "id": "9-4",
+          "sequenceNumber": 9,
+          "segmentNumber": 5,
           "english": "We can spend forty yuan.",
           "chinese": "我们可以花四十元。",
           "speaker": "Ben",
@@ -1547,23 +1675,17 @@
           "structureBlocks": []
         },
         {
-          "id": "10-4",
+          "id": "10-7",
           "sequenceNumber": 10,
           "segmentNumber": 3,
-          "english": "Please come to our party",
-          "chinese": "请来参加我们的聚会",
+          "english": "come to our party",
+          "chinese": "来参加我们的聚会",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“来参加我们的聚会”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Please",
-              "phonetic": "/pliːz/",
-              "partOfSpeech": "interj.",
-              "meaning": "请"
-            },
             {
               "text": "come",
               "phonetic": "/kʌm/",
@@ -1589,7 +1711,12 @@
               "meaning": "聚会"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "come to our party"
+            }
+          ]
         },
         {
           "id": "10-3",
@@ -1613,16 +1740,16 @@
           "structureBlocks": []
         },
         {
-          "id": "10-5",
+          "id": "10-8",
           "sequenceNumber": 10,
           "segmentNumber": 5,
           "english": "in the art room",
-          "chinese": "聚会在美术教室举行",
+          "chinese": "在美术教室里",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在美术教室里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -1649,7 +1776,12 @@
               "meaning": "房间（art room中的名词，合起来为美术教室）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the art room"
+            }
+          ]
         },
         {
           "id": "10-6",

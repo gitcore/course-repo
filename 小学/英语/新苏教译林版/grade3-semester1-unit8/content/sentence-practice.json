@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -32,9 +32,47 @@
           "structureBlocks": []
         },
         {
-          "id": "1-2",
+          "id": "1-3",
           "sequenceNumber": 1,
           "segmentNumber": 2,
+          "english": "sing for you",
+          "chinese": "为你唱歌",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“为你唱歌”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "sing",
+              "phonetic": "/sɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "唱歌"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "sing for you"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
           "english": "I can sing for you, May.",
           "chinese": "我能为你唱歌，May。",
           "speaker": "Ben",
@@ -108,7 +146,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -121,9 +159,47 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-3",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "dance for you",
+          "chinese": "为你跳舞",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“为你跳舞”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "dance",
+              "phonetic": "/dɑːns/",
+              "partOfSpeech": "v.",
+              "meaning": "跳舞"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "dance for you"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "I can dance for you, Ben.",
           "chinese": "我能为你跳舞，Ben。",
           "speaker": "May",
@@ -231,29 +307,17 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-6",
           "sequenceNumber": 3,
           "segmentNumber": 3,
-          "english": "I can draw a picture",
-          "chinese": "我能画一幅画",
+          "english": "draw a picture for you",
+          "chinese": "为你画一幅画",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“为你画一幅画”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；会"
-            },
             {
               "text": "draw",
               "phonetic": "/drɔː/",
@@ -271,22 +335,7 @@
               "phonetic": "/ˈpɪktʃə/",
               "partOfSpeech": "n.",
               "meaning": "图画；照片"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
-          "id": "3-4",
-          "sequenceNumber": 3,
-          "segmentNumber": 4,
-          "english": "for you",
-          "chinese": "给你",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
+            },
             {
               "text": "for",
               "phonetic": "/fɔː/",
@@ -300,12 +349,17 @@
               "meaning": "你；你们"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "draw a picture for you"
+            }
+          ]
         },
         {
           "id": "3-5",
           "sequenceNumber": 3,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "I can draw a picture for you.",
           "chinese": "我能为你画一幅画。",
           "speaker": "Tom",
@@ -385,7 +439,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -406,7 +460,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -419,9 +473,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "take pictures",
+          "chinese": "拍照",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“拍照”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "用于take pictures，表示拍照"
+            },
+            {
+              "text": "pictures",
+              "phonetic": "/ˈpɪktʃəz/",
+              "partOfSpeech": "n. (plural)",
+              "meaning": "照片；picture的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take pictures"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "I can take pictures.",
           "chinese": "我会拍照。",
           "speaker": "Ben",
@@ -479,7 +565,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -500,7 +586,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -513,9 +599,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-3",
+          "id": "5-4",
           "sequenceNumber": 5,
           "segmentNumber": 3,
+          "english": "clean the table",
+          "chinese": "擦桌子",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“擦桌子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "打扫；使……干净"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个；这些；那些"
+            },
+            {
+              "text": "table",
+              "phonetic": "/ˈteɪbəl/",
+              "partOfSpeech": "n.",
+              "meaning": "桌子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "clean the table"
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
           "english": "We can clean the table.",
           "chinese": "我们能擦桌子。",
           "speaker": "May",
@@ -579,7 +703,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -600,7 +724,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -613,9 +737,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "clean the table",
+          "chinese": "擦桌子",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“擦桌子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "打扫；使……干净"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个；这些；那些"
+            },
+            {
+              "text": "table",
+              "phonetic": "/ˈteɪbəl/",
+              "partOfSpeech": "n.",
+              "meaning": "桌子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "clean the table"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "We can clean the table too.",
           "chinese": "我们也能擦桌子。",
           "speaker": "Tom",
@@ -689,7 +851,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -702,9 +864,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "my picture",
+          "chinese": "我的画",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的画”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "picture",
+              "phonetic": "/ˈpɪktʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "图画；照片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my picture"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "This is my picture.",
           "chinese": "这是我的画。",
           "speaker": "Ben",
@@ -882,7 +1076,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -903,7 +1097,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -916,9 +1110,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-3",
+          "id": "10-4",
           "sequenceNumber": 10,
           "segmentNumber": 3,
+          "english": "love my family",
+          "chinese": "爱我的家人",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“爱我的家人”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "love",
+              "phonetic": "/lʌv/",
+              "partOfSpeech": "v.",
+              "meaning": "爱"
+            },
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭；家人"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "love my family"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
           "english": "I love my family.",
           "chinese": "我爱我的家人。",
           "speaker": "Ben",

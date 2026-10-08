@@ -19,7 +19,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -53,9 +53,47 @@
           "structureBlocks": []
         },
         {
-          "id": "1-3",
+          "id": "1-4",
           "sequenceNumber": 1,
           "segmentNumber": 3,
+          "english": "our school model",
+          "chinese": "我们的校园模型",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们的校园模型”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "model",
+              "phonetic": "/ˈmɒdəl/",
+              "partOfSpeech": "n.",
+              "meaning": "模型（模块项目复习或配套支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "our school model"
+            }
+          ]
+        },
+        {
+          "id": "1-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
           "english": "This is our school model.",
           "chinese": "这是我们的校园模型。",
           "speaker": "May",
@@ -132,29 +170,17 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-5",
           "sequenceNumber": 2,
           "segmentNumber": 2,
-          "english": "There are two classrooms",
-          "chinese": "有两间教室",
+          "english": "two classrooms",
+          "chinese": "两间教室",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“两间教室”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（模块项目复习或配套支持词）"
-            },
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "two",
               "phonetic": "/tuː/",
@@ -168,7 +194,12 @@
               "meaning": "教室；classroom的复数（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "two classrooms"
+            }
+          ]
         },
         {
           "id": "2-3",
@@ -180,7 +211,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在一楼”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -207,7 +238,12 @@
               "meaning": "楼层（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the first floor"
+            }
+          ]
         },
         {
           "id": "2-4",
@@ -307,29 +343,17 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-6",
           "sequenceNumber": 3,
           "segmentNumber": 2,
-          "english": "Is there a library",
-          "chinese": "有图书馆吗",
+          "english": "a library",
+          "chinese": "一个图书馆",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一个图书馆”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
-            {
-              "text": "there",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（模块项目复习或配套支持词）"
-            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -343,7 +367,12 @@
               "meaning": "图书馆（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a library"
+            }
+          ]
         },
         {
           "id": "3-2",
@@ -376,7 +405,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在你的模型里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -397,7 +426,12 @@
               "meaning": "模型（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in your model"
+            }
+          ]
         },
         {
           "id": "3-5",
@@ -478,7 +512,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -491,9 +525,53 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-3",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "on the second floor",
+          "chinese": "在二楼",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在二楼”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上面（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "second",
+              "phonetic": "/ˈsekənd/",
+              "partOfSpeech": "num.",
+              "meaning": "第二（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "floor",
+              "phonetic": "/flɔː/",
+              "partOfSpeech": "n.",
+              "meaning": "楼层（模块项目复习或配套支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the second floor"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "Yes, it is on the second floor.",
           "chinese": "有，它在二楼。",
           "speaker": "May",
@@ -607,29 +685,17 @@
           "structureBlocks": []
         },
         {
-          "id": "5-4",
+          "id": "5-7",
           "sequenceNumber": 5,
           "segmentNumber": 3,
-          "english": "There is a computer room",
-          "chinese": "有一间电脑室",
+          "english": "a computer room",
+          "chinese": "一间电脑室",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一间电脑室”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（模块项目复习或配套支持词）"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -649,7 +715,12 @@
               "meaning": "房间（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a computer room"
+            }
+          ]
         },
         {
           "id": "5-3",
@@ -682,7 +753,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在三楼”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -709,7 +780,12 @@
               "meaning": "楼层（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the third floor"
+            }
+          ]
         },
         {
           "id": "5-6",
@@ -802,7 +878,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -815,42 +891,9 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
-          "sequenceNumber": 6,
-          "segmentNumber": 2,
-          "english": "There are trees",
-          "chinese": "有一些树",
-          "speaker": "May",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（模块项目复习或配套支持词）"
-            },
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
-            {
-              "text": "trees",
-              "phonetic": "/triːz/",
-              "partOfSpeech": "n.",
-              "meaning": "树；tree的复数（模块项目复习或配套支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "6-2",
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "playground",
           "chinese": "游戏场（模块项目复习或配套支持词）",
           "speaker": "May",
@@ -871,14 +914,14 @@
         {
           "id": "6-4",
           "sequenceNumber": 6,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "near the playground",
           "chinese": "在游戏场附近",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在游戏场附近”；将它接回完整表达。",
           "words": [
             {
               "text": "near",
@@ -899,12 +942,17 @@
               "meaning": "游戏场（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "near the playground"
+            }
+          ]
         },
         {
           "id": "6-5",
           "sequenceNumber": 6,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "There are trees near the playground.",
           "chinese": "游戏场附近有树。",
           "speaker": "May",
@@ -979,7 +1027,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1013,29 +1061,17 @@
           "structureBlocks": []
         },
         {
-          "id": "7-4",
+          "id": "7-7",
           "sequenceNumber": 7,
           "segmentNumber": 3,
-          "english": "Let's put traffic lights",
-          "chinese": "我们把交通信号灯放好",
+          "english": "traffic lights",
+          "chinese": "交通信号灯",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“交通信号灯”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Let's",
-              "phonetic": "/lets/",
-              "partOfSpeech": "contraction",
-              "meaning": "let us的缩写；让我们（模块项目复习或配套支持词）"
-            },
-            {
-              "text": "put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放置（模块项目复习或配套支持词）"
-            },
             {
               "text": "traffic",
               "phonetic": "/ˈtræfɪk/",
@@ -1049,7 +1085,12 @@
               "meaning": "灯；light的复数（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "traffic lights"
+            }
+          ]
         },
         {
           "id": "7-3",
@@ -1073,16 +1114,16 @@
           "structureBlocks": []
         },
         {
-          "id": "7-5",
+          "id": "7-8",
           "sequenceNumber": 7,
           "segmentNumber": 5,
           "english": "near the school",
-          "chinese": "放在学校附近",
+          "chinese": "在学校附近",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在学校附近”；将它接回完整表达。",
           "words": [
             {
               "text": "near",
@@ -1103,7 +1144,12 @@
               "meaning": "学校（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "near the school"
+            }
+          ]
         },
         {
           "id": "7-6",
@@ -1201,37 +1247,16 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-7",
           "sequenceNumber": 8,
           "segmentNumber": 2,
-          "english": "red",
-          "chinese": "红色的（模块项目复习或配套支持词）",
-          "speaker": "May",
-          "category": "word",
-          "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
-          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
-          "words": [
-            {
-              "text": "red",
-              "phonetic": "/red/",
-              "partOfSpeech": "adj.",
-              "meaning": "红色的（模块项目复习或配套支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
-          "id": "8-4",
-          "sequenceNumber": 8,
-          "segmentNumber": 3,
-          "english": "The light is red",
-          "chinese": "信号灯是红色的",
+          "english": "The light",
+          "chinese": "这个信号灯",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这个信号灯”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -1244,13 +1269,27 @@
               "phonetic": "/laɪt/",
               "partOfSpeech": "n.",
               "meaning": "灯；信号灯（模块项目复习或配套支持词）"
-            },
+            }
+          ],
+          "structureBlocks": [
             {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）（模块项目复习或配套支持词）"
-            },
+              "label": "名词短语",
+              "text": "The light"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
+          "english": "red",
+          "chinese": "红色的（模块项目复习或配套支持词）",
+          "speaker": "May",
+          "category": "word",
+          "difficulty": 1,
+          "hint": "先记本句的必记单词",
+          "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
+          "words": [
             {
               "text": "red",
               "phonetic": "/red/",
@@ -1291,7 +1330,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在这一侧”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -1312,7 +1351,12 @@
               "meaning": "边；一侧（模块项目复习或配套支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on this side"
+            }
+          ]
         },
         {
           "id": "8-6",
@@ -1397,7 +1441,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1418,7 +1462,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1431,9 +1475,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-4",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "cross the road",
+          "chinese": "过马路",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“过马路”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "cross",
+              "phonetic": "/krɒs/",
+              "partOfSpeech": "v.",
+              "meaning": "穿越；横过（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "road",
+              "phonetic": "/rəʊd/",
+              "partOfSpeech": "n.",
+              "meaning": "道路；公路（模块项目复习或配套支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "cross the road"
+            }
+          ]
+        },
+        {
+          "id": "9-4",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "We can't cross the road now.",
           "chinese": "我们现在不能过马路。",
           "speaker": "Ben",
@@ -1507,7 +1589,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1528,7 +1610,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1549,7 +1631,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1562,9 +1644,59 @@
           "structureBlocks": []
         },
         {
-          "id": "10-4",
+          "id": "10-5",
           "sequenceNumber": 10,
           "segmentNumber": 4,
+          "english": "wait for the green light",
+          "chinese": "等待绿色信号灯",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“等待绿色信号灯”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "wait",
+              "phonetic": "/weɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "等待；等候（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "green",
+              "phonetic": "/ɡriːn/",
+              "partOfSpeech": "adj.",
+              "meaning": "绿色的（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "light",
+              "phonetic": "/laɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "灯；信号灯（模块项目复习或配套支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "wait for the green light"
+            }
+          ]
+        },
+        {
+          "id": "10-4",
+          "sequenceNumber": 10,
+          "segmentNumber": 5,
           "english": "We wait for the green light.",
           "chinese": "我们等待绿色信号灯。",
           "speaker": "May",
@@ -1639,7 +1771,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1652,15 +1784,47 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-5",
           "sequenceNumber": 11,
           "segmentNumber": 2,
+          "english": "Our friends",
+          "chinese": "我们的朋友",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们的朋友”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "friends",
+              "phonetic": "/frendz/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友；friend的复数（模块项目复习或配套支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Our friends"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
           "english": "help",
           "chinese": "帮助（模块项目复习或配套支持词）",
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1673,15 +1837,47 @@
           "structureBlocks": []
         },
         {
+          "id": "11-6",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
+          "english": "help us",
+          "chinese": "帮助我们",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮助我们”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）（模块项目复习或配套支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "help us"
+            }
+          ]
+        },
+        {
           "id": "11-3",
           "sequenceNumber": 11,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "school",
           "chinese": "学校（模块项目复习或配套支持词）",
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1694,9 +1890,41 @@
           "structureBlocks": []
         },
         {
+          "id": "11-7",
+          "sequenceNumber": 11,
+          "segmentNumber": 6,
+          "english": "at school",
+          "chinese": "在学校",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在学校”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校（模块项目复习或配套支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at school"
+            }
+          ]
+        },
+        {
           "id": "11-4",
           "sequenceNumber": 11,
-          "segmentNumber": 4,
+          "segmentNumber": 7,
           "english": "Our friends help us at school.",
           "chinese": "我们的朋友在学校帮助我们。",
           "speaker": "May",
@@ -1770,7 +1998,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1791,7 +2019,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1812,7 +2040,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1825,9 +2053,71 @@
           "structureBlocks": []
         },
         {
-          "id": "12-6",
+          "id": "12-7",
           "sequenceNumber": 12,
           "segmentNumber": 4,
+          "english": "take books to the library for them",
+          "chinese": "帮他们把书带到图书馆",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮他们把书带到图书馆”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "books",
+              "phonetic": "/bʊks/",
+              "partOfSpeech": "n.",
+              "meaning": "书；book的复数（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "library",
+              "phonetic": "/ˈlaɪbrəri/",
+              "partOfSpeech": "n.",
+              "meaning": "图书馆（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（模块项目复习或配套支持词）"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "它们；他们；她们（宾格）（模块项目复习或配套支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take books to the library for them"
+            }
+          ]
+        },
+        {
+          "id": "12-6",
+          "sequenceNumber": 12,
+          "segmentNumber": 5,
           "english": "We can take books to the library for them.",
           "chinese": "我们可以帮他们把书带到图书馆。",
           "speaker": "Ben",

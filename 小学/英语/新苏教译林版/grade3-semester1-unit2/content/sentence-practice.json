@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -32,9 +32,41 @@
           "structureBlocks": []
         },
         {
-          "id": "1-2",
+          "id": "1-3",
           "sequenceNumber": 1,
           "segmentNumber": 2,
+          "english": "your name",
+          "chinese": "你的名字",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的名字”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的"
+            },
+            {
+              "text": "name",
+              "phonetic": "/neɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "名字"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your name"
+            }
+          ]
+        },
+        {
+          "id": "1-2",
+          "sequenceNumber": 1,
+          "segmentNumber": 3,
           "english": "What's your name?",
           "chinese": "你叫什么名字？",
           "speaker": "Ben",
@@ -82,7 +114,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -95,9 +127,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-3",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "My name",
+          "chinese": "我的名字",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的名字”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "name",
+              "phonetic": "/neɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "名字"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My name"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "My name is May.",
           "chinese": "我叫May。",
           "speaker": "May",
@@ -155,7 +219,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -176,7 +240,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -189,9 +253,53 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-4",
           "sequenceNumber": 3,
           "segmentNumber": 3,
+          "english": "Nice to meet you",
+          "chinese": "很高兴认识你",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“很高兴认识你”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "愉快的；友好的（见面问候语中的词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "meet",
+              "phonetic": "/miːt/",
+              "partOfSpeech": "v.",
+              "meaning": "见面；认识"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
           "english": "Nice to meet you, May.",
           "chinese": "很高兴认识你，May。",
           "speaker": "Ben",
@@ -251,7 +359,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -272,7 +380,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -285,9 +393,53 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "Nice to meet you",
+          "chinese": "很高兴认识你",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“很高兴认识你”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "愉快的；友好的（见面问候语中的词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "meet",
+              "phonetic": "/miːt/",
+              "partOfSpeech": "v.",
+              "meaning": "见面；认识"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "Nice to meet you too, Ben.",
           "chinese": "我也很高兴认识你，Ben。",
           "speaker": "May",
@@ -393,7 +545,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -414,7 +566,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -427,9 +579,53 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 3,
+          "english": "Nice to meet you",
+          "chinese": "很高兴认识你",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“很高兴认识你”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "愉快的；友好的（见面问候语中的词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "meet",
+              "phonetic": "/miːt/",
+              "partOfSpeech": "v.",
+              "meaning": "见面；认识"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
           "english": "Nice to meet you, Tom.",
           "chinese": "很高兴认识你，Tom。",
           "speaker": "May",
@@ -489,7 +685,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -510,7 +706,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -523,9 +719,53 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "Nice to meet you",
+          "chinese": "很高兴认识你",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“很高兴认识你”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Nice",
+              "phonetic": "/naɪs/",
+              "partOfSpeech": "adj.",
+              "meaning": "愉快的；友好的（见面问候语中的词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tə/",
+              "partOfSpeech": "infinitive marker",
+              "meaning": "不定式标记，后接动词原形"
+            },
+            {
+              "text": "meet",
+              "phonetic": "/miːt/",
+              "partOfSpeech": "v.",
+              "meaning": "见面；认识"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Nice to meet you"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "Nice to meet you too, May.",
           "chinese": "我也很高兴认识你，May。",
           "speaker": "Tom",

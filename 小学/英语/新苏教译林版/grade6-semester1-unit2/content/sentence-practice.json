@@ -15,12 +15,12 @@
           "sequenceNumber": 1,
           "segmentNumber": 1,
           "english": "One day",
-          "chinese": "有一天",
+          "chinese": "一天",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：一天。把这个短语放回原句理解。",
           "words": [
             {
               "text": "One",
@@ -37,7 +37,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "时间",
+              "label": "名词短语",
               "text": "One day"
             }
           ]
@@ -51,7 +51,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -72,7 +72,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -85,23 +85,17 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-10",
           "sequenceNumber": 1,
           "segmentNumber": 4,
-          "english": "Sam found a storybook",
-          "chinese": "Sam 发现了一本故事书",
+          "english": "found a storybook",
+          "chinese": "发现一本故事书",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：发现一本故事书。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "Sam",
-              "phonetic": "/sæm/",
-              "partOfSpeech": "n.",
-              "meaning": "萨姆（人名）"
-            },
             {
               "text": "found",
               "phonetic": "/faʊnd/",
@@ -123,16 +117,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "Sam"
-            },
-            {
-              "label": "谓语动作",
-              "text": "found"
-            },
-            {
-              "label": "宾语对象",
-              "text": "a storybook"
+              "label": "动词短语",
+              "text": "found a storybook"
             }
           ]
         },
@@ -141,12 +127,12 @@
           "sequenceNumber": 1,
           "segmentNumber": 5,
           "english": "on his way home",
-          "chinese": "在回家的路上",
+          "chinese": "在他回家的路上",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个介词短语",
+          "grammarAnalysis": "介词短语：在他回家的路上。把这个短语放回原句理解。",
           "words": [
             {
               "text": "on",
@@ -175,7 +161,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "场景",
+              "label": "介词短语",
               "text": "on his way home"
             }
           ]
@@ -285,7 +271,7 @@
           "speaker": "Sam",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -298,9 +284,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-8",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "Whose book",
+          "chinese": "谁的书",
+          "speaker": "Sam",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：谁的书。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "Whose",
+              "phonetic": "/huːz/",
+              "partOfSpeech": "det.",
+              "meaning": "谁的"
+            },
+            {
+              "text": "book",
+              "phonetic": "/bʊk/",
+              "partOfSpeech": "n.",
+              "meaning": "书"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Whose book"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "Whose book is this?",
           "chinese": "这是谁的书？",
           "speaker": "Sam",
@@ -352,13 +370,13 @@
         {
           "id": "2-3",
           "sequenceNumber": 2,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "give",
           "chinese": "给",
           "speaker": "Sam",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这个关键词，再背出完整表达",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -371,15 +389,59 @@
           "structureBlocks": []
         },
         {
+          "id": "2-9",
+          "sequenceNumber": 2,
+          "segmentNumber": 5,
+          "english": "give it to Mrs Fox",
+          "chinese": "把它交给狐狸老师",
+          "speaker": "Sam",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：把它交给狐狸老师。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "给"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到；给"
+            },
+            {
+              "text": "Mrs Fox",
+              "phonetic": "/ˈmɪsɪz fɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "狐狸老师（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "give it to Mrs Fox"
+            }
+          ]
+        },
+        {
           "id": "2-4",
           "sequenceNumber": 2,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "tomorrow",
           "chinese": "明天",
           "speaker": "Sam",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这个关键词，再背出完整表达",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -394,7 +456,7 @@
         {
           "id": "2-7",
           "sequenceNumber": 2,
-          "segmentNumber": 5,
+          "segmentNumber": 7,
           "english": "I can give it to Mrs Fox tomorrow.",
           "chinese": "我可以明天把它交给狐狸老师。",
           "speaker": "Sam",
@@ -482,7 +544,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -495,9 +557,59 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-15",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "began to read the book",
+          "chinese": "开始读这本书",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：开始读这本书。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "began",
+              "phonetic": "/bɪˈɡæn/",
+              "partOfSpeech": "v.",
+              "meaning": "开始（begin的过去式）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "part.",
+              "meaning": "动词不定式标记"
+            },
+            {
+              "text": "read",
+              "phonetic": "/riːd/",
+              "partOfSpeech": "v.",
+              "meaning": "读，阅读"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "book",
+              "phonetic": "/bʊk/",
+              "partOfSpeech": "n.",
+              "meaning": "书"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "began to read the book"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
           "english": "Sam began to read the book.",
           "chinese": "Sam开始读这本书。",
           "speaker": "narrator",
@@ -561,13 +673,13 @@
         {
           "id": "3-3",
           "sequenceNumber": 3,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "fun",
           "chinese": "乐趣；趣事",
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -580,9 +692,41 @@
           "structureBlocks": []
         },
         {
+          "id": "3-16",
+          "sequenceNumber": 3,
+          "segmentNumber": 5,
+          "english": "great fun",
+          "chinese": "很大的乐趣",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：很大的乐趣。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "great",
+              "phonetic": "/ɡreɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "极好的；真棒"
+            },
+            {
+              "text": "fun",
+              "phonetic": "/fʌn/",
+              "partOfSpeech": "n.",
+              "meaning": "乐趣；趣事"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "great fun"
+            }
+          ]
+        },
+        {
           "id": "3-4",
           "sequenceNumber": 3,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "It was great fun.",
           "chinese": "这很有趣。",
           "speaker": "narrator",
@@ -640,7 +784,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -653,83 +797,15 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
-          "sequenceNumber": 4,
-          "segmentNumber": 2,
-          "english": "Then he tried to put it",
-          "chinese": "然后他试着把它放进去",
-          "speaker": "narrator",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
-          "words": [
-            {
-              "text": "Then",
-              "phonetic": "/ðen/",
-              "partOfSpeech": "adv.",
-              "meaning": "然后"
-            },
-            {
-              "text": "he",
-              "phonetic": "/hiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "他"
-            },
-            {
-              "text": "tried",
-              "phonetic": "/traɪd/",
-              "partOfSpeech": "v.",
-              "meaning": "尝试（try的过去式）"
-            },
-            {
-              "text": "to",
-              "phonetic": "/tuː/",
-              "partOfSpeech": "part.",
-              "meaning": "动词不定式标记"
-            },
-            {
-              "text": "put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放（过去式也是put）"
-            },
-            {
-              "text": "it",
-              "phonetic": "/ɪt/",
-              "partOfSpeech": "pron.",
-              "meaning": "它"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "时间顺序",
-              "text": "Then"
-            },
-            {
-              "label": "主语",
-              "text": "he"
-            },
-            {
-              "label": "谓语动作",
-              "text": "tried"
-            },
-            {
-              "label": "尝试做的事",
-              "text": "to put it"
-            }
-          ]
-        },
-        {
           "id": "4-2",
           "sequenceNumber": 4,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "schoolbag",
           "chinese": "书包",
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -742,17 +818,29 @@
           "structureBlocks": []
         },
         {
-          "id": "4-4",
+          "id": "4-8",
           "sequenceNumber": 4,
-          "segmentNumber": 4,
-          "english": "in his schoolbag",
-          "chinese": "在他的书包里",
+          "segmentNumber": 3,
+          "english": "put it in his schoolbag",
+          "chinese": "把它放进他的书包",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：把它放进他的书包。把这个短语放回原句理解。",
           "words": [
+            {
+              "text": "put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放（过去式也是put）"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
             {
               "text": "in",
               "phonetic": "/ɪn/",
@@ -774,15 +862,15 @@
           ],
           "structureBlocks": [
             {
-              "label": "地点",
-              "text": "in his schoolbag"
+              "label": "动词短语",
+              "text": "put it in his schoolbag"
             }
           ]
         },
         {
           "id": "4-5",
           "sequenceNumber": 4,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Then he tried to put it in his schoolbag.",
           "chinese": "然后他试着把它放进书包。",
           "speaker": "narrator",
@@ -878,7 +966,7 @@
           "speaker": "Sam",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -891,9 +979,41 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-7",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "broke it",
+          "chinese": "弄坏了它",
+          "speaker": "Sam",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：弄坏了它。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "broke",
+              "phonetic": "/brəʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "打破，弄坏（break的过去式）"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "broke it"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "Oh no, I broke it!",
           "chinese": "哦不，我把它弄坏了！",
           "speaker": "Sam",
@@ -961,7 +1081,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -974,15 +1094,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-7",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "my storybook",
+          "chinese": "我的故事书",
+          "speaker": "Bobby",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：我的故事书。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "storybook",
+              "phonetic": "/ˈstɔːribʊk/",
+              "partOfSpeech": "n.",
+              "meaning": "故事书"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my storybook"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "yesterday",
           "chinese": "昨天",
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -997,7 +1149,7 @@
         {
           "id": "6-3",
           "sequenceNumber": 6,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "Did you see my storybook yesterday?",
           "chinese": "你昨天看见我的故事书了吗？",
           "speaker": "Bobby",
@@ -1069,13 +1221,13 @@
         {
           "id": "6-4",
           "sequenceNumber": 6,
-          "segmentNumber": 4,
+          "segmentNumber": 5,
           "english": "blue",
           "chinese": "蓝色的",
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -1090,7 +1242,7 @@
         {
           "id": "6-5",
           "sequenceNumber": 6,
-          "segmentNumber": 5,
+          "segmentNumber": 6,
           "english": "It's blue.",
           "chinese": "它是蓝色的。",
           "speaker": "Bobby",
@@ -1224,7 +1376,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -1237,9 +1389,41 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 2,
+          "english": "feel good",
+          "chinese": "感觉舒服",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：感觉舒服。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "feel",
+              "phonetic": "/fiːl/",
+              "partOfSpeech": "v.",
+              "meaning": "感觉"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "舒适的；好受的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feel good"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
           "english": "Sam did not feel good.",
           "chinese": "Sam感到不好受。",
           "speaker": "narrator",
@@ -1307,7 +1491,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -1320,9 +1504,53 @@
           "structureBlocks": []
         },
         {
-          "id": "10-2",
+          "id": "10-5",
           "sequenceNumber": 10,
           "segmentNumber": 2,
+          "english": "to repair Bobby's book",
+          "chinese": "修补Bobby的书",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：修补Bobby的书。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "part.",
+              "meaning": "动词不定式标记"
+            },
+            {
+              "text": "repair",
+              "phonetic": "/rɪˈpeə/",
+              "partOfSpeech": "v.",
+              "meaning": "修理，修补"
+            },
+            {
+              "text": "Bobby's",
+              "phonetic": "/ˈbɒbiz/",
+              "partOfSpeech": "n.",
+              "meaning": "博比的（Bobby的所有格）"
+            },
+            {
+              "text": "book",
+              "phonetic": "/bʊk/",
+              "partOfSpeech": "n.",
+              "meaning": "书"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "to repair Bobby's book"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
           "english": "He wanted to repair Bobby's book.",
           "chinese": "他想修好Bobby的书。",
           "speaker": "narrator",
@@ -1392,8 +1620,8 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个介词短语",
+          "grammarAnalysis": "介词短语：放学后。把这个短语放回原句理解。",
           "words": [
             {
               "text": "After",
@@ -1410,7 +1638,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "时间",
+              "label": "介词短语",
               "text": "After school"
             }
           ]
@@ -1424,7 +1652,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1445,7 +1673,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1458,23 +1686,17 @@
           "structureBlocks": []
         },
         {
-          "id": "11-4",
+          "id": "11-9",
           "sequenceNumber": 11,
           "segmentNumber": 4,
-          "english": "Sam repaired the book carefully",
-          "chinese": "Sam 仔细地修好了书",
+          "english": "repaired the book carefully",
+          "chinese": "仔细修补这本书",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：仔细修补这本书。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "Sam",
-              "phonetic": "/sæm/",
-              "partOfSpeech": "n.",
-              "meaning": "萨姆（人名）"
-            },
             {
               "text": "repaired",
               "phonetic": "/rɪˈpeəd/",
@@ -1502,20 +1724,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "Sam"
-            },
-            {
-              "label": "谓语动作",
-              "text": "repaired"
-            },
-            {
-              "label": "宾语对象",
-              "text": "the book"
-            },
-            {
-              "label": "方式",
-              "text": "carefully"
+              "label": "动词短语",
+              "text": "repaired the book carefully"
             }
           ]
         },
@@ -1606,7 +1816,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1619,29 +1829,17 @@
           "structureBlocks": []
         },
         {
-          "id": "12-3",
+          "id": "12-6",
           "sequenceNumber": 12,
           "segmentNumber": 2,
-          "english": "It was not easy",
-          "chinese": "这并不容易",
+          "english": "not easy",
+          "chinese": "不容易",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个形容词短语",
+          "grammarAnalysis": "形容词短语：不容易。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "It",
-              "phonetic": "/ɪt/",
-              "partOfSpeech": "pron.",
-              "meaning": "这（指修好书这件事）"
-            },
-            {
-              "text": "was",
-              "phonetic": "/wɒz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（am/is的过去式）"
-            },
             {
               "text": "not",
               "phonetic": "/nɒt/",
@@ -1657,20 +1855,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "It"
-            },
-            {
-              "label": "系动词",
-              "text": "was"
-            },
-            {
-              "label": "否定",
-              "text": "not"
-            },
-            {
-              "label": "表语状态",
-              "text": "easy"
+              "label": "形容词短语",
+              "text": "not easy"
             }
           ]
         },
@@ -1683,7 +1869,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1696,29 +1882,17 @@
           "structureBlocks": []
         },
         {
-          "id": "12-4",
+          "id": "12-7",
           "sequenceNumber": 12,
           "segmentNumber": 4,
-          "english": "but he tried his best",
-          "chinese": "但他尽了最大的努力",
+          "english": "tried his best",
+          "chinese": "尽他最大的努力",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：尽他最大的努力。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "but",
-              "phonetic": "/bʌt/",
-              "partOfSpeech": "conj.",
-              "meaning": "但是"
-            },
-            {
-              "text": "he",
-              "phonetic": "/hiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "他"
-            },
             {
               "text": "tried",
               "phonetic": "/traɪd/",
@@ -1740,20 +1914,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "连接词",
-              "text": "but"
-            },
-            {
-              "label": "主语",
-              "text": "he"
-            },
-            {
-              "label": "谓语动作",
-              "text": "tried"
-            },
-            {
-              "label": "程度",
-              "text": "his best"
+              "label": "动词短语",
+              "text": "tried his best"
             }
           ]
         },
@@ -1868,7 +2030,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -1881,53 +2043,23 @@
           "structureBlocks": []
         },
         {
-          "id": "13-2",
+          "id": "13-10",
           "sequenceNumber": 13,
           "segmentNumber": 2,
-          "english": "Sam walked",
-          "chinese": "Sam 步行",
+          "english": "walked to Bobby's house",
+          "chinese": "走到Bobby家",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：走到Bobby家。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "Sam",
-              "phonetic": "/sæm/",
-              "partOfSpeech": "n.",
-              "meaning": "萨姆（人名）"
-            },
             {
               "text": "walked",
               "phonetic": "/wɔːkt/",
               "partOfSpeech": "v.",
               "meaning": "走（过去式）"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "主语",
-              "text": "Sam"
             },
-            {
-              "label": "谓语动作",
-              "text": "walked"
-            }
-          ]
-        },
-        {
-          "id": "13-3",
-          "sequenceNumber": 13,
-          "segmentNumber": 3,
-          "english": "to Bobby's house",
-          "chinese": "到 Bobby 家",
-          "speaker": "narrator",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
-          "words": [
             {
               "text": "to",
               "phonetic": "/tuː/",
@@ -1949,15 +2081,15 @@
           ],
           "structureBlocks": [
             {
-              "label": "目的地",
-              "text": "to Bobby's house"
+              "label": "动词短语",
+              "text": "walked to Bobby's house"
             }
           ]
         },
         {
           "id": "13-4",
           "sequenceNumber": 13,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "Sam walked to Bobby's house.",
           "chinese": "Sam走到了Bobby家。",
           "speaker": "narrator",
@@ -2015,13 +2147,13 @@
         {
           "id": "13-5",
           "sequenceNumber": 13,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "sorry",
           "chinese": "对不起，抱歉",
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这个关键词，再背出完整表达",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -2032,6 +2164,50 @@
             }
           ],
           "structureBlocks": []
+        },
+        {
+          "id": "13-11",
+          "sequenceNumber": 13,
+          "segmentNumber": 5,
+          "english": "say sorry to Bobby",
+          "chinese": "向Bobby道歉",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：向Bobby道歉。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "say",
+              "phonetic": "/seɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "说"
+            },
+            {
+              "text": "sorry",
+              "phonetic": "/ˈsɒri/",
+              "partOfSpeech": "int.",
+              "meaning": "对不起，抱歉"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "part./prep.",
+              "meaning": "动词不定式标记；向 Bobby"
+            },
+            {
+              "text": "Bobby",
+              "phonetic": "/ˈbɒbi/",
+              "partOfSpeech": "n.",
+              "meaning": "博比（人名）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "say sorry to Bobby"
+            }
+          ]
         },
         {
           "id": "13-8",
@@ -2110,7 +2286,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -2167,7 +2343,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -2180,9 +2356,53 @@
           "structureBlocks": []
         },
         {
-          "id": "15-2",
+          "id": "15-10",
           "sequenceNumber": 15,
           "segmentNumber": 2,
+          "english": "looked at his storybook",
+          "chinese": "看着他的故事书",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：看着他的故事书。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "looked",
+              "phonetic": "/lʊkt/",
+              "partOfSpeech": "v.",
+              "meaning": "看（过去式）"
+            },
+            {
+              "text": "at",
+              "phonetic": "/æt/",
+              "partOfSpeech": "prep.",
+              "meaning": "在"
+            },
+            {
+              "text": "his",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "det.",
+              "meaning": "他的"
+            },
+            {
+              "text": "storybook",
+              "phonetic": "/ˈstɔːribʊk/",
+              "partOfSpeech": "n.",
+              "meaning": "故事书"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "looked at his storybook"
+            }
+          ]
+        },
+        {
+          "id": "15-2",
+          "sequenceNumber": 15,
+          "segmentNumber": 3,
           "english": "Bobby looked at his storybook.",
           "chinese": "Bobby看了看自己的故事书。",
           "speaker": "narrator",
@@ -2246,7 +2466,7 @@
           "speaker": "Sam",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -2303,7 +2523,7 @@
           "speaker": "Sam",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -2316,9 +2536,47 @@
           "structureBlocks": []
         },
         {
-          "id": "16-4",
+          "id": "16-8",
           "sequenceNumber": 16,
           "segmentNumber": 4,
+          "english": "broke your book",
+          "chinese": "弄坏了你的书",
+          "speaker": "Sam",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：弄坏了你的书。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "broke",
+              "phonetic": "/brəʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "打破，弄坏（break的过去式）"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的，你们的"
+            },
+            {
+              "text": "book",
+              "phonetic": "/bʊk/",
+              "partOfSpeech": "n.",
+              "meaning": "书"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "broke your book"
+            }
+          ]
+        },
+        {
+          "id": "16-4",
+          "sequenceNumber": 16,
+          "segmentNumber": 5,
           "english": "I broke your book.",
           "chinese": "我弄坏了你的书。",
           "speaker": "Sam",
@@ -2422,7 +2680,7 @@
           "speaker": "Bobby",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -2435,23 +2693,17 @@
           "structureBlocks": []
         },
         {
-          "id": "17-3",
+          "id": "17-10",
           "sequenceNumber": 17,
           "segmentNumber": 3,
-          "english": "I broke it",
-          "chinese": "我把它弄坏了",
+          "english": "broke it",
+          "chinese": "弄坏了它",
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：弄坏了它。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "broke",
               "phonetic": "/brəʊk/",
@@ -2467,16 +2719,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "I"
-            },
-            {
-              "label": "谓语动作",
-              "text": "broke"
-            },
-            {
-              "label": "宾语对象",
-              "text": "it"
+              "label": "动词短语",
+              "text": "broke it"
             }
           ]
         },
@@ -2489,8 +2733,8 @@
           "speaker": "Bobby",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：上周。把这个短语放回原句理解。",
           "words": [
             {
               "text": "last",
@@ -2507,7 +2751,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "时间",
+              "label": "名词短语",
               "text": "last week"
             }
           ]
@@ -2588,7 +2832,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -2609,8 +2853,8 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：我的老师。把这个短语放回原句理解。",
           "words": [
             {
               "text": "My",
@@ -2627,7 +2871,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
+              "label": "名词短语",
               "text": "My teacher"
             }
           ]
@@ -2641,7 +2885,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -2658,12 +2902,12 @@
           "sequenceNumber": 18,
           "segmentNumber": 4,
           "english": "taught me",
-          "chinese": "教导我",
+          "chinese": "教我",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：教我。把这个短语放回原句理解。",
           "words": [
             {
               "text": "taught",
@@ -2680,12 +2924,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "谓语动作",
-              "text": "taught"
-            },
-            {
-              "label": "学习者",
-              "text": "me"
+              "label": "动词短语",
+              "text": "taught me"
             }
           ]
         },
@@ -2750,7 +2990,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -2771,7 +3011,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -2784,9 +3024,53 @@
           "structureBlocks": []
         },
         {
-          "id": "19-3",
+          "id": "19-7",
           "sequenceNumber": 19,
           "segmentNumber": 3,
+          "english": "search for the truth",
+          "chinese": "寻找真相",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：寻找真相。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "search",
+              "phonetic": "/sɜːtʃ/",
+              "partOfSpeech": "v.",
+              "meaning": "寻找；搜索"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "与 search 搭配，指寻找的对象"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "truth",
+              "phonetic": "/truːθ/",
+              "partOfSpeech": "n.",
+              "meaning": "真相；事实"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "search for the truth"
+            }
+          ]
+        },
+        {
+          "id": "19-3",
+          "sequenceNumber": 19,
+          "segmentNumber": 4,
           "english": "To search for the truth,",
           "chinese": "要寻找真相，",
           "speaker": "narrator",
@@ -2846,7 +3130,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -2859,9 +3143,53 @@
           "structureBlocks": []
         },
         {
-          "id": "20-2",
+          "id": "20-4",
           "sequenceNumber": 20,
           "segmentNumber": 2,
+          "english": "to tell a lie",
+          "chinese": "说谎",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：说谎。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "part.",
+              "meaning": "动词不定式标记"
+            },
+            {
+              "text": "tell",
+              "phonetic": "/tel/",
+              "partOfSpeech": "v.",
+              "meaning": "告诉"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "lie",
+              "phonetic": "/laɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "谎言"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "to tell a lie"
+            }
+          ]
+        },
+        {
+          "id": "20-2",
+          "sequenceNumber": 20,
+          "segmentNumber": 3,
           "english": "And never to tell a lie.",
           "chinese": "并且永远不要说谎。",
           "speaker": "narrator",
@@ -2935,7 +3263,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -2948,9 +3276,47 @@
           "structureBlocks": []
         },
         {
-          "id": "21-2",
+          "id": "21-5",
           "sequenceNumber": 21,
           "segmentNumber": 2,
+          "english": "not always easy",
+          "chinese": "不总是容易的",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个形容词短语",
+          "grammarAnalysis": "形容词短语：不总是容易的。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "not",
+              "phonetic": "/nɒt/",
+              "partOfSpeech": "adv.",
+              "meaning": "不"
+            },
+            {
+              "text": "always",
+              "phonetic": "/ˈɔːlweɪz/",
+              "partOfSpeech": "adv.",
+              "meaning": "总是"
+            },
+            {
+              "text": "easy",
+              "phonetic": "/ˈiːzi/",
+              "partOfSpeech": "adj.",
+              "meaning": "容易的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "not always easy"
+            }
+          ]
+        },
+        {
+          "id": "21-2",
+          "sequenceNumber": 21,
+          "segmentNumber": 3,
           "english": "It is not always easy.",
           "chinese": "这并不总是容易的。",
           "speaker": "narrator",
@@ -3018,7 +3384,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3031,23 +3397,17 @@
           "structureBlocks": []
         },
         {
-          "id": "22-3",
+          "id": "22-7",
           "sequenceNumber": 22,
           "segmentNumber": 2,
-          "english": "But each of us",
-          "chinese": "但是我们每一个人",
+          "english": "each of us",
+          "chinese": "我们每个人",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：我们每个人。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "But",
-              "phonetic": "/bʌt/",
-              "partOfSpeech": "conj.",
-              "meaning": "但是"
-            },
             {
               "text": "each",
               "phonetic": "/iːtʃ/",
@@ -3069,11 +3429,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "连接词",
-              "text": "But"
-            },
-            {
-              "label": "主语",
+              "label": "名词短语",
               "text": "each of us"
             }
           ]
@@ -3087,7 +3443,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3100,45 +3456,9 @@
           "structureBlocks": []
         },
         {
-          "id": "22-4",
-          "sequenceNumber": 22,
-          "segmentNumber": 4,
-          "english": "should try",
-          "chinese": "都应尝试",
-          "speaker": "narrator",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
-          "words": [
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "modal v.",
-              "meaning": "应该"
-            },
-            {
-              "text": "try",
-              "phonetic": "/traɪ/",
-              "partOfSpeech": "v.",
-              "meaning": "尝试"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "情态动词",
-              "text": "should"
-            },
-            {
-              "label": "谓语动作",
-              "text": "try"
-            }
-          ]
-        },
-        {
           "id": "22-5",
           "sequenceNumber": 22,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "But each of us should try.",
           "chinese": "但是我们每一个人都应尝试。",
           "speaker": "narrator",
@@ -3217,8 +3537,8 @@
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个副词短语",
+          "grammarAnalysis": "副词短语：很久以前。把这个短语放回原句理解。",
           "words": [
             {
               "text": "Long",
@@ -3235,7 +3555,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "时间",
+              "label": "副词短语",
               "text": "Long ago"
             }
           ]
@@ -3249,7 +3569,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3262,29 +3582,17 @@
           "structureBlocks": []
         },
         {
-          "id": "23-3",
+          "id": "23-7",
           "sequenceNumber": 23,
           "segmentNumber": 3,
-          "english": "there was a poor man",
-          "chinese": "有一个穷人",
+          "english": "a poor man",
+          "chinese": "一个穷人",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：一个穷人。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "there",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "there be 引导词",
-              "meaning": "与 was 构成“有”的表达"
-            },
-            {
-              "text": "was",
-              "phonetic": "/wɒz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（am/is的过去式）"
-            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -3306,11 +3614,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "存在句式",
-              "text": "there was"
-            },
-            {
-              "label": "存在的人物",
+              "label": "名词短语",
               "text": "a poor man"
             }
           ]
@@ -3394,7 +3698,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -3467,7 +3771,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -3488,7 +3792,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -3501,9 +3805,53 @@
           "structureBlocks": []
         },
         {
-          "id": "24-3",
+          "id": "24-10",
           "sequenceNumber": 24,
           "segmentNumber": 3,
+          "english": "a sick old ox",
+          "chinese": "一头年老多病的牛",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：一头年老多病的牛。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "sick",
+              "phonetic": "/sɪk/",
+              "partOfSpeech": "adj.",
+              "meaning": "生病的"
+            },
+            {
+              "text": "old",
+              "phonetic": "/əʊld/",
+              "partOfSpeech": "adj.",
+              "meaning": "老的，年老的"
+            },
+            {
+              "text": "ox",
+              "phonetic": "/ɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "牛"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a sick old ox"
+            }
+          ]
+        },
+        {
+          "id": "24-3",
+          "sequenceNumber": 24,
+          "segmentNumber": 4,
           "english": "He had a sick old ox.",
           "chinese": "他有一头生病的老牛。",
           "speaker": "narrator",
@@ -3569,12 +3917,12 @@
           "sequenceNumber": 25,
           "segmentNumber": 1,
           "english": "One day",
-          "chinese": "有一天",
+          "chinese": "一天",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：一天。把这个短语放回原句理解。",
           "words": [
             {
               "text": "One",
@@ -3591,7 +3939,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "时间",
+              "label": "名词短语",
               "text": "One day"
             }
           ]
@@ -3605,7 +3953,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -3618,29 +3966,17 @@
           "structureBlocks": []
         },
         {
-          "id": "25-3",
+          "id": "25-7",
           "sequenceNumber": 25,
           "segmentNumber": 3,
-          "english": "Meng Xin was away from home",
-          "chinese": "孟信不在家",
+          "english": "away from home",
+          "chinese": "不在家",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个副词短语",
+          "grammarAnalysis": "副词短语：不在家。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "Meng Xin",
-              "phonetic": "/meŋ ʃɪn/",
-              "partOfSpeech": "n.",
-              "meaning": "孟信（人名）"
-            },
-            {
-              "text": "was",
-              "phonetic": "/wɒz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（am/is的过去式）"
-            },
             {
               "text": "away",
               "phonetic": "/əˈweɪ/",
@@ -3662,20 +3998,8 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "Meng Xin"
-            },
-            {
-              "label": "系动词",
-              "text": "was"
-            },
-            {
-              "label": "表语状态",
-              "text": "away"
-            },
-            {
-              "label": "离开的地点",
-              "text": "from home"
+              "label": "副词短语",
+              "text": "away from home"
             }
           ]
         },
@@ -3766,7 +4090,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -3779,15 +4103,47 @@
           "structureBlocks": []
         },
         {
-          "id": "26-2",
+          "id": "26-6",
           "sequenceNumber": 26,
           "segmentNumber": 2,
+          "english": "His nephew",
+          "chinese": "他的侄子",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：他的侄子。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "His",
+              "phonetic": "/hɪz/",
+              "partOfSpeech": "det.",
+              "meaning": "他的"
+            },
+            {
+              "text": "nephew",
+              "phonetic": "/ˈnefjuː/",
+              "partOfSpeech": "n.",
+              "meaning": "侄子；外甥"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "His nephew"
+            }
+          ]
+        },
+        {
+          "id": "26-2",
+          "sequenceNumber": 26,
+          "segmentNumber": 3,
           "english": "sold",
           "chinese": "卖，出售（sell的过去式）",
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -3800,9 +4156,47 @@
           "structureBlocks": []
         },
         {
+          "id": "26-7",
+          "sequenceNumber": 26,
+          "segmentNumber": 4,
+          "english": "sold the ox",
+          "chinese": "卖了这头牛",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：卖了这头牛。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "sold",
+              "phonetic": "/səʊld/",
+              "partOfSpeech": "v.",
+              "meaning": "卖，出售（sell的过去式）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "ox",
+              "phonetic": "/ɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "牛"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "sold the ox"
+            }
+          ]
+        },
+        {
           "id": "26-3",
           "sequenceNumber": 26,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "His nephew sold the ox.",
           "chinese": "他的侄子卖掉了牛。",
           "speaker": "narrator",
@@ -3866,7 +4260,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -3879,9 +4273,47 @@
           "structureBlocks": []
         },
         {
-          "id": "27-2",
+          "id": "27-6",
           "sequenceNumber": 27,
           "segmentNumber": 2,
+          "english": "came back home",
+          "chinese": "回到家",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：回到家。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "came",
+              "phonetic": "/keɪm/",
+              "partOfSpeech": "v.",
+              "meaning": "来（come的过去式）"
+            },
+            {
+              "text": "back",
+              "phonetic": "/bæk/",
+              "partOfSpeech": "adv.",
+              "meaning": "回，回来"
+            },
+            {
+              "text": "home",
+              "phonetic": "/həʊm/",
+              "partOfSpeech": "n.",
+              "meaning": "家"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "came back home"
+            }
+          ]
+        },
+        {
+          "id": "27-2",
+          "sequenceNumber": 27,
+          "segmentNumber": 3,
           "english": "Meng Xin came back home.",
           "chinese": "孟信回到了家。",
           "speaker": "narrator",
@@ -3933,13 +4365,13 @@
         {
           "id": "27-3",
           "sequenceNumber": 27,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "ox",
           "chinese": "牛",
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -3952,9 +4384,47 @@
           "structureBlocks": []
         },
         {
+          "id": "27-7",
+          "sequenceNumber": 27,
+          "segmentNumber": 5,
+          "english": "see the ox",
+          "chinese": "看到这头牛",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：看到这头牛。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "see",
+              "phonetic": "/siː/",
+              "partOfSpeech": "v.",
+              "meaning": "看见，看到"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这，那"
+            },
+            {
+              "text": "ox",
+              "phonetic": "/ɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "牛"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "see the ox"
+            }
+          ]
+        },
+        {
           "id": "27-4",
           "sequenceNumber": 27,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "He did not see the ox.",
           "chinese": "他没有看见牛。",
           "speaker": "narrator",
@@ -4028,7 +4498,7 @@
           "speaker": "Meng Xin",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -4091,7 +4561,7 @@
           "speaker": "Meng Xin",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -4104,9 +4574,41 @@
           "structureBlocks": []
         },
         {
-          "id": "28-4",
+          "id": "28-5",
           "sequenceNumber": 28,
           "segmentNumber": 4,
+          "english": "sell it",
+          "chinese": "卖掉它",
+          "speaker": "Meng Xin",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：卖掉它。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "sell",
+              "phonetic": "/sel/",
+              "partOfSpeech": "v.",
+              "meaning": "卖，出售"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "sell it"
+            }
+          ]
+        },
+        {
+          "id": "28-4",
+          "sequenceNumber": 28,
+          "segmentNumber": 5,
           "english": "Did you sell it?",
           "chinese": "你把它卖了吗？",
           "speaker": "Meng Xin",
@@ -4214,7 +4716,7 @@
           "speaker": "Nephew",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -4235,7 +4737,7 @@
           "speaker": "Nephew",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -4248,29 +4750,17 @@
           "structureBlocks": []
         },
         {
-          "id": "29-4",
+          "id": "29-7",
           "sequenceNumber": 29,
           "segmentNumber": 4,
-          "english": "We need the money",
-          "chinese": "我们需要这笔钱",
+          "english": "the money",
+          "chinese": "这笔钱",
           "speaker": "Nephew",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：这笔钱。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "need",
-              "phonetic": "/niːd/",
-              "partOfSpeech": "v.",
-              "meaning": "需要"
-            },
             {
               "text": "the",
               "phonetic": "/ðə/",
@@ -4286,15 +4776,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "We"
-            },
-            {
-              "label": "谓语动作",
-              "text": "need"
-            },
-            {
-              "label": "宾语对象",
+              "label": "名词短语",
               "text": "the money"
             }
           ]
@@ -4304,12 +4786,12 @@
           "sequenceNumber": 29,
           "segmentNumber": 5,
           "english": "to buy food",
-          "chinese": "来买食物",
+          "chinese": "买食物",
           "speaker": "Nephew",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：买食物。把这个短语放回原句理解。",
           "words": [
             {
               "text": "to",
@@ -4332,7 +4814,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "目的",
+              "label": "动词短语",
               "text": "to buy food"
             }
           ]
@@ -4420,7 +4902,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -4433,41 +4915,17 @@
           "structureBlocks": []
         },
         {
-          "id": "30-3",
+          "id": "30-9",
           "sequenceNumber": 30,
           "segmentNumber": 2,
-          "english": "Meng Xin did not want to sell a sick old ox",
-          "chinese": "孟信不想卖掉一头生病的老牛",
+          "english": "to sell a sick old ox",
+          "chinese": "卖掉一头年老多病的牛",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：卖掉一头年老多病的牛。把这个短语放回原句理解。",
           "words": [
-            {
-              "text": "Meng Xin",
-              "phonetic": "/meŋ ʃɪn/",
-              "partOfSpeech": "n.",
-              "meaning": "孟信（人名）"
-            },
-            {
-              "text": "did",
-              "phonetic": "/dɪd/",
-              "partOfSpeech": "aux.",
-              "meaning": "do的过去式（助动词）"
-            },
-            {
-              "text": "not",
-              "phonetic": "/nɒt/",
-              "partOfSpeech": "adv.",
-              "meaning": "不"
-            },
-            {
-              "text": "want",
-              "phonetic": "/wɒnt/",
-              "partOfSpeech": "v.",
-              "meaning": "想要"
-            },
             {
               "text": "to",
               "phonetic": "/tuː/",
@@ -4507,19 +4965,7 @@
           ],
           "structureBlocks": [
             {
-              "label": "主语",
-              "text": "Meng Xin"
-            },
-            {
-              "label": "否定助动词",
-              "text": "did not"
-            },
-            {
-              "label": "谓语动作",
-              "text": "want"
-            },
-            {
-              "label": "想做的事",
+              "label": "动词短语",
               "text": "to sell a sick old ox"
             }
           ]
@@ -4533,7 +4979,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -4546,41 +4992,9 @@
           "structureBlocks": []
         },
         {
-          "id": "30-4",
-          "sequenceNumber": 30,
-          "segmentNumber": 4,
-          "english": "to others",
-          "chinese": "给别人",
-          "speaker": "narrator",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
-          "words": [
-            {
-              "text": "to",
-              "phonetic": "/tuː/",
-              "partOfSpeech": "part./prep.",
-              "meaning": "动词不定式标记；给别人"
-            },
-            {
-              "text": "others",
-              "phonetic": "/ˈʌðəz/",
-              "partOfSpeech": "pron.",
-              "meaning": "别人，其他人"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "买方对象",
-              "text": "to others"
-            }
-          ]
-        },
-        {
           "id": "30-5",
           "sequenceNumber": 30,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Meng Xin did not want to sell a sick old ox to others.",
           "chinese": "孟信不想把一头生病的老牛卖给别人。",
           "speaker": "narrator",
@@ -4688,7 +5102,7 @@
           "speaker": "Meng Xin",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词，再背出完整句",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -4709,7 +5123,7 @@
           "speaker": "Meng Xin",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -4722,9 +5136,41 @@
           "structureBlocks": []
         },
         {
-          "id": "31-3",
+          "id": "31-4",
           "sequenceNumber": 31,
           "segmentNumber": 3,
+          "english": "my ox",
+          "chinese": "我的牛",
+          "speaker": "Meng Xin",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：我的牛。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "ox",
+              "phonetic": "/ɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "牛"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my ox"
+            }
+          ]
+        },
+        {
+          "id": "31-3",
+          "sequenceNumber": 31,
+          "segmentNumber": 4,
           "english": "Did you buy my ox?",
           "chinese": "你买了我的牛吗？",
           "speaker": "Meng Xin",
@@ -4838,7 +5284,7 @@
           "speaker": "Meng Xin",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这个关键词，再背出完整表达",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -4851,9 +5297,53 @@
           "structureBlocks": []
         },
         {
-          "id": "33-4",
+          "id": "33-7",
           "sequenceNumber": 33,
           "segmentNumber": 2,
+          "english": "sell it to you",
+          "chinese": "把它卖给你",
+          "speaker": "Meng Xin",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：把它卖给你。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "sell",
+              "phonetic": "/sel/",
+              "partOfSpeech": "v.",
+              "meaning": "卖，出售"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到；给"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你，你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "sell it to you"
+            }
+          ]
+        },
+        {
+          "id": "33-4",
+          "sequenceNumber": 33,
+          "segmentNumber": 3,
           "english": "Sorry, I can't sell it to you.",
           "chinese": "抱歉，我不能把它卖给你。",
           "speaker": "Meng Xin",
@@ -4935,13 +5425,13 @@
         {
           "id": "33-5",
           "sequenceNumber": 33,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "sick",
           "chinese": "生病的",
           "speaker": "Meng Xin",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -4954,9 +5444,47 @@
           "structureBlocks": []
         },
         {
+          "id": "33-8",
+          "sequenceNumber": 33,
+          "segmentNumber": 5,
+          "english": "old and sick",
+          "chinese": "年老多病的",
+          "speaker": "Meng Xin",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个形容词短语",
+          "grammarAnalysis": "形容词短语：年老多病的。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "old",
+              "phonetic": "/əʊld/",
+              "partOfSpeech": "adj.",
+              "meaning": "老的，年老的"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和，又"
+            },
+            {
+              "text": "sick",
+              "phonetic": "/sɪk/",
+              "partOfSpeech": "adj.",
+              "meaning": "生病的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "old and sick"
+            }
+          ]
+        },
+        {
           "id": "33-6",
           "sequenceNumber": 33,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "It's old and sick.",
           "chinese": "它又老又病。",
           "speaker": "Meng Xin",
@@ -5010,7 +5538,7 @@
           "speaker": "Buyer",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -5023,9 +5551,41 @@
           "structureBlocks": []
         },
         {
-          "id": "34-4",
+          "id": "34-6",
           "sequenceNumber": 34,
           "segmentNumber": 2,
+          "english": "very kind",
+          "chinese": "非常善良",
+          "speaker": "Buyer",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个形容词短语",
+          "grammarAnalysis": "形容词短语：非常善良。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "very",
+              "phonetic": "/ˈveri/",
+              "partOfSpeech": "adv.",
+              "meaning": "非常"
+            },
+            {
+              "text": "kind",
+              "phonetic": "/kaɪnd/",
+              "partOfSpeech": "adj.",
+              "meaning": "善良的，友好的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "very kind"
+            }
+          ]
+        },
+        {
+          "id": "34-4",
+          "sequenceNumber": 34,
+          "segmentNumber": 3,
           "english": "It's very kind of you. Thank you.",
           "chinese": "你真是太善良了。谢谢你。",
           "speaker": "Buyer",
@@ -5095,57 +5655,15 @@
           ]
         },
         {
-          "id": "35-3",
-          "sequenceNumber": 35,
-          "segmentNumber": 1,
-          "english": "Meng Xin got back",
-          "chinese": "孟信取回了",
-          "speaker": "narrator",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
-          "words": [
-            {
-              "text": "Meng Xin",
-              "phonetic": "/meŋ ʃɪn/",
-              "partOfSpeech": "n.",
-              "meaning": "孟信（人名）"
-            },
-            {
-              "text": "got",
-              "phonetic": "/ɡɒt/",
-              "partOfSpeech": "v.",
-              "meaning": "得到（get的过去式）"
-            },
-            {
-              "text": "back",
-              "phonetic": "/bæk/",
-              "partOfSpeech": "adv.",
-              "meaning": "回，回来"
-            }
-          ],
-          "structureBlocks": [
-            {
-              "label": "主语",
-              "text": "Meng Xin"
-            },
-            {
-              "label": "谓语动作",
-              "text": "got back"
-            }
-          ]
-        },
-        {
           "id": "35-1",
           "sequenceNumber": 35,
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "english": "sick",
           "chinese": "生病的",
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -5160,13 +5678,13 @@
         {
           "id": "35-2",
           "sequenceNumber": 35,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "ox",
           "chinese": "牛",
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到本句词组和完整句中找到它。",
           "words": [
             {
@@ -5179,17 +5697,29 @@
           "structureBlocks": []
         },
         {
-          "id": "35-4",
+          "id": "35-6",
           "sequenceNumber": 35,
-          "segmentNumber": 4,
-          "english": "his sick old ox",
-          "chinese": "他那头生病的老牛",
+          "segmentNumber": 3,
+          "english": "got back his sick old ox",
+          "chinese": "要回他那头年老多病的牛",
           "speaker": "narrator",
           "category": "phrase",
           "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这组词是原句中连续的一段；与相邻词组连起来组成完整句。",
+          "hint": "把关键词连成这个动词短语",
+          "grammarAnalysis": "动词短语：要回他那头年老多病的牛。把这个短语放回原句理解。",
           "words": [
+            {
+              "text": "got",
+              "phonetic": "/ɡɒt/",
+              "partOfSpeech": "v.",
+              "meaning": "得到（get的过去式）"
+            },
+            {
+              "text": "back",
+              "phonetic": "/bæk/",
+              "partOfSpeech": "adv.",
+              "meaning": "回，回来"
+            },
             {
               "text": "his",
               "phonetic": "/hɪz/",
@@ -5217,15 +5747,15 @@
           ],
           "structureBlocks": [
             {
-              "label": "宾语对象",
-              "text": "his sick old ox"
+              "label": "动词短语",
+              "text": "got back his sick old ox"
             }
           ]
         },
         {
           "id": "35-5",
           "sequenceNumber": 35,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Meng Xin got back his sick old ox.",
           "chinese": "孟信取回了他那头生病的老牛。",
           "speaker": "narrator",
@@ -5301,7 +5831,7 @@
           "speaker": "narrator",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这个关键词 再记它所在的词组",
           "grammarAnalysis": "认读这个关键词，再到完整句中找到它。",
           "words": [
             {
@@ -5314,9 +5844,47 @@
           "structureBlocks": []
         },
         {
-          "id": "36-2",
+          "id": "36-3",
           "sequenceNumber": 36,
           "segmentNumber": 2,
+          "english": "a good name",
+          "chinese": "好名声",
+          "speaker": "narrator",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把关键词连成这个名词短语",
+          "grammarAnalysis": "名词短语：好名声。把这个短语放回原句理解。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "name",
+              "phonetic": "/neɪm/",
+              "partOfSpeech": "n.",
+              "meaning": "名声"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a good name"
+            }
+          ]
+        },
+        {
+          "id": "36-2",
+          "sequenceNumber": 36,
+          "segmentNumber": 3,
           "english": "He got a good name too.",
           "chinese": "他也获得了好名声。",
           "speaker": "narrator",

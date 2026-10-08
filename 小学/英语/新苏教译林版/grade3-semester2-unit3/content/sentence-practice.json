@@ -19,7 +19,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,47 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "make school rules",
+          "chinese": "制定校规",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“制定校规”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "做；制造"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校"
+            },
+            {
+              "text": "rules",
+              "phonetic": "/ruːlz/",
+              "partOfSpeech": "n.",
+              "meaning": "规则；rule的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make school rules"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Let's make school rules.",
           "chinese": "我们来制定校规吧。",
           "speaker": "May",
@@ -134,7 +172,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -147,36 +185,9 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
-          "sequenceNumber": 2,
-          "segmentNumber": 2,
-          "english": "Don't run",
-          "chinese": "不要跑",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Don't",
-              "phonetic": "/dəʊnt/",
-              "partOfSpeech": "contraction",
-              "meaning": "do not的缩写；不"
-            },
-            {
-              "text": "run",
-              "phonetic": "/rʌn/",
-              "partOfSpeech": "v.",
-              "meaning": "跑；奔跑"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "2-2",
           "sequenceNumber": 2,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "classroom",
           "chinese": "教室；课堂",
           "speaker": "Ben",
@@ -197,14 +208,14 @@
         {
           "id": "2-4",
           "sequenceNumber": 2,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "in the classroom",
           "chinese": "在教室里",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在教室里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -225,12 +236,17 @@
               "meaning": "教室；课堂"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the classroom"
+            }
+          ]
         },
         {
           "id": "2-5",
           "sequenceNumber": 2,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Don't run in the classroom.",
           "chinese": "不要在教室里跑。",
           "speaker": "Ben",
@@ -294,7 +310,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -307,36 +323,9 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
-          "sequenceNumber": 3,
-          "segmentNumber": 2,
-          "english": "Don't eat",
-          "chinese": "不要吃东西",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Don't",
-              "phonetic": "/dəʊnt/",
-              "partOfSpeech": "contraction",
-              "meaning": "do not的缩写；不"
-            },
-            {
-              "text": "eat",
-              "phonetic": "/iːt/",
-              "partOfSpeech": "v.",
-              "meaning": "吃"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "3-2",
           "sequenceNumber": 3,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "library",
           "chinese": "图书馆",
           "speaker": "Tom",
@@ -357,14 +346,14 @@
         {
           "id": "3-4",
           "sequenceNumber": 3,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "in the library",
           "chinese": "在图书馆里",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在图书馆里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -385,12 +374,17 @@
               "meaning": "图书馆"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the library"
+            }
+          ]
         },
         {
           "id": "3-5",
           "sequenceNumber": 3,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Don't eat in the library.",
           "chinese": "不要在图书馆里吃东西。",
           "speaker": "Tom",
@@ -497,7 +491,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“保持安静”；将它接回完整表达。",
           "words": [
             {
               "text": "Keep",
@@ -512,7 +506,12 @@
               "meaning": "安静的"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "Keep quiet"
+            }
+          ]
         },
         {
           "id": "4-3",
@@ -536,16 +535,16 @@
           "structureBlocks": []
         },
         {
-          "id": "4-5",
+          "id": "4-7",
           "sequenceNumber": 4,
           "segmentNumber": 5,
-          "english": "in class please",
-          "chinese": "上课时请这样做",
+          "english": "in class",
+          "chinese": "在上课时",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在上课时”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -558,15 +557,14 @@
               "phonetic": "/klɑːs/",
               "partOfSpeech": "n.",
               "meaning": "课；课堂（after class中的词）"
-            },
-            {
-              "text": "please",
-              "phonetic": "/pliːz/",
-              "partOfSpeech": "interj.",
-              "meaning": "请"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in class"
+            }
+          ]
         },
         {
           "id": "4-6",
@@ -639,7 +637,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -652,42 +650,9 @@
           "structureBlocks": []
         },
         {
-          "id": "5-3",
-          "sequenceNumber": 5,
-          "segmentNumber": 2,
-          "english": "Can I talk",
-          "chinese": "我可以说话吗",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以"
-            },
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
-            {
-              "text": "talk",
-              "phonetic": "/tɔːk/",
-              "partOfSpeech": "v.",
-              "meaning": "说话；讲话"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "5-2",
           "sequenceNumber": 5,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "class",
           "chinese": "课；课堂（after class中的词）",
           "speaker": "Ben",
@@ -708,14 +673,14 @@
         {
           "id": "5-4",
           "sequenceNumber": 5,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "after class",
           "chinese": "在课后",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在课后”；将它接回完整表达。",
           "words": [
             {
               "text": "after",
@@ -730,12 +695,17 @@
               "meaning": "课；课堂（after class中的词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "after class"
+            }
+          ]
         },
         {
           "id": "5-5",
           "sequenceNumber": 5,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Can I talk after class?",
           "chinese": "我可以在课后说话吗？",
           "speaker": "Ben",
@@ -849,7 +819,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -862,9 +832,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "be late",
+          "chinese": "迟到",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“迟到”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "be",
+              "phonetic": "/biː/",
+              "partOfSpeech": "v.",
+              "meaning": "是；成为"
+            },
+            {
+              "text": "late",
+              "phonetic": "/leɪt/",
+              "partOfSpeech": "adj.",
+              "meaning": "迟的；晚的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "be late"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "Don't be late.",
           "chinese": "不要迟到。",
           "speaker": "Tom",
@@ -916,7 +918,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -929,9 +931,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-3",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "Sit down",
+          "chinese": "坐下",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“坐下”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Sit",
+              "phonetic": "/sɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "坐（sit down中的实际词形）"
+            },
+            {
+              "text": "down",
+              "phonetic": "/daʊn/",
+              "partOfSpeech": "adv.",
+              "meaning": "与 calm 搭配，表示平静下来"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "Sit down"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "Sit down, please.",
           "chinese": "请坐。",
           "speaker": "Ben",
@@ -979,7 +1013,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1013,29 +1047,17 @@
           "structureBlocks": []
         },
         {
-          "id": "9-4",
+          "id": "9-7",
           "sequenceNumber": 9,
           "segmentNumber": 3,
-          "english": "Let's put the rules",
-          "chinese": "我们把规则放好",
+          "english": "the rules",
+          "chinese": "这些规则",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些规则”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Let's",
-              "phonetic": "/lets/",
-              "partOfSpeech": "contraction",
-              "meaning": "let us的缩写；让我们"
-            },
-            {
-              "text": "put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放，安置"
-            },
             {
               "text": "the",
               "phonetic": "/ðə/",
@@ -1049,7 +1071,12 @@
               "meaning": "规则；rule的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "the rules"
+            }
+          ]
         },
         {
           "id": "9-3",
@@ -1073,16 +1100,16 @@
           "structureBlocks": []
         },
         {
-          "id": "9-5",
+          "id": "9-8",
           "sequenceNumber": 9,
           "segmentNumber": 5,
           "english": "on the desk",
-          "chinese": "放在课桌上",
+          "chinese": "在课桌上",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在课桌上”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -1103,7 +1130,12 @@
               "meaning": "课桌；书桌"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the desk"
+            }
+          ]
         },
         {
           "id": "9-6",

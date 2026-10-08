@@ -107,7 +107,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -128,7 +128,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -141,9 +141,47 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 3,
+          "english": "draw a garden",
+          "chinese": "画一个花园",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“画一个花园”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "draw",
+              "phonetic": "/drɔː/",
+              "partOfSpeech": "v.",
+              "meaning": "画（配套活动用语）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "garden",
+              "phonetic": "/ˈɡɑːdən/",
+              "partOfSpeech": "n.",
+              "meaning": "花园；园圃"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "draw a garden"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
           "english": "Let's draw a garden.",
           "chinese": "我们画一个花园吧。",
           "speaker": "May",
@@ -201,7 +239,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -222,7 +260,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -235,9 +273,47 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-4",
           "sequenceNumber": 3,
           "segmentNumber": 3,
+          "english": "my toy duck",
+          "chinese": "我的玩具鸭",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的玩具鸭”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "toy",
+              "phonetic": "/tɔɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "玩具（配套情境词）"
+            },
+            {
+              "text": "duck",
+              "phonetic": "/dʌk/",
+              "partOfSpeech": "n.",
+              "meaning": "鸭子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my toy duck"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
           "english": "Where's my toy duck?",
           "chinese": "我的玩具鸭在哪里？",
           "speaker": "Ben",
@@ -291,7 +367,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -304,9 +380,47 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-3",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "under the desk",
+          "chinese": "在课桌下面",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在课桌下面”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "under",
+              "phonetic": "/ˈʌndə/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……下面"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "desk",
+              "phonetic": "/desk/",
+              "partOfSpeech": "n.",
+              "meaning": "课桌；书桌"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "under the desk"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "It's under the desk.",
           "chinese": "它在课桌下面。",
           "speaker": "Tom",
@@ -381,7 +495,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -394,9 +508,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-3",
+          "id": "5-4",
           "sequenceNumber": 5,
           "segmentNumber": 3,
+          "english": "by the tree",
+          "chinese": "在树旁边",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在树旁边”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "by",
+              "phonetic": "/baɪ/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……旁边"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "tree",
+              "phonetic": "/triː/",
+              "partOfSpeech": "n.",
+              "meaning": "树；树木"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "by the tree"
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
           "english": "Put it by the tree.",
           "chinese": "把它放在树旁边。",
           "speaker": "May",
@@ -482,7 +634,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这只鸭子”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -497,7 +649,12 @@
               "meaning": "鸭子"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The duck"
+            }
+          ]
         },
         {
           "id": "6-2",
@@ -521,23 +678,17 @@
           "structureBlocks": []
         },
         {
-          "id": "6-4",
+          "id": "6-6",
           "sequenceNumber": 6,
           "segmentNumber": 4,
-          "english": "is by the tree",
+          "english": "by the tree",
           "chinese": "在树旁边",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在树旁边”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）"
-            },
             {
               "text": "by",
               "phonetic": "/baɪ/",
@@ -557,7 +708,12 @@
               "meaning": "树；树木"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "by the tree"
+            }
+          ]
         },
         {
           "id": "6-5",
@@ -660,16 +816,16 @@
           "structureBlocks": []
         },
         {
-          "id": "7-4",
+          "id": "7-7",
           "sequenceNumber": 7,
           "segmentNumber": 3,
           "english": "Draw flowers",
-          "chinese": "画些花",
+          "chinese": "画花",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“画花”；将它接回完整表达。",
           "words": [
             {
               "text": "Draw",
@@ -684,7 +840,12 @@
               "meaning": "花；flower的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "Draw flowers"
+            }
+          ]
         },
         {
           "id": "7-3",
@@ -708,16 +869,16 @@
           "structureBlocks": []
         },
         {
-          "id": "7-5",
+          "id": "7-8",
           "sequenceNumber": 7,
           "segmentNumber": 5,
           "english": "behind the tree",
-          "chinese": "画在树后面",
+          "chinese": "在树后面",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在树后面”；将它接回完整表达。",
           "words": [
             {
               "text": "behind",
@@ -738,7 +899,12 @@
               "meaning": "树；树木"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "behind the tree"
+            }
+          ]
         },
         {
           "id": "7-6",
@@ -807,7 +973,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -820,9 +986,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "The flowers",
+          "chinese": "这些花",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些花”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "flowers",
+              "phonetic": "/ˈflaʊəz/",
+              "partOfSpeech": "n.",
+              "meaning": "花；flower的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The flowers"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "beautiful",
           "chinese": "美丽的；美好的",
           "speaker": "May",
@@ -843,7 +1041,7 @@
         {
           "id": "8-3",
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "The flowers are beautiful.",
           "chinese": "这些花很漂亮。",
           "speaker": "May",
@@ -922,7 +1120,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -935,9 +1133,41 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "after class",
+          "chinese": "在课后",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在课后”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "after",
+              "phonetic": "/ˈɑːftə/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……之后（after class中的词）"
+            },
+            {
+              "text": "class",
+              "phonetic": "/klɑːs/",
+              "partOfSpeech": "n.",
+              "meaning": "课；课堂（after class中的词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "after class"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "Let's play after class.",
           "chinese": "课后我们一起玩吧。",
           "speaker": "Ben",

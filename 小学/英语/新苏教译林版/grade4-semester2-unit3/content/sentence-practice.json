@@ -53,48 +53,9 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
-          "sequenceNumber": 1,
-          "segmentNumber": 3,
-          "english": "We take a bus",
-          "chinese": "我们乘公共汽车",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们（复习或原创场景支持词）"
-            },
-            {
-              "text": "take",
-              "phonetic": "/teɪk/",
-              "partOfSpeech": "v.",
-              "meaning": "乘坐；搭乘"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "art.",
-              "meaning": "一（个）（复习或原创场景支持词）"
-            },
-            {
-              "text": "bus",
-              "phonetic": "/bʌs/",
-              "partOfSpeech": "n.",
-              "meaning": "公共汽车；巴士"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "1-3",
           "sequenceNumber": 1,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "park",
           "chinese": "公园（复习或原创场景支持词）",
           "speaker": "Ben",
@@ -113,17 +74,35 @@
           "structureBlocks": []
         },
         {
-          "id": "1-5",
+          "id": "1-7",
           "sequenceNumber": 1,
-          "segmentNumber": 5,
-          "english": "to the park",
-          "chinese": "去公园",
+          "segmentNumber": 4,
+          "english": "take a bus to the park",
+          "chinese": "乘公共汽车去公园",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“乘公共汽车去公园”；将它接回完整表达。",
           "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "乘坐；搭乘"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "bus",
+              "phonetic": "/bʌs/",
+              "partOfSpeech": "n.",
+              "meaning": "公共汽车；巴士"
+            },
             {
               "text": "to",
               "phonetic": "/tuː/",
@@ -143,12 +122,17 @@
               "meaning": "公园（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take a bus to the park"
+            }
+          ]
         },
         {
           "id": "1-6",
           "sequenceNumber": 1,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "We take a bus to the park.",
           "chinese": "我们乘公共汽车去公园。",
           "speaker": "Ben",
@@ -228,7 +212,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -241,9 +225,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-5",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "This road",
+          "chinese": "这条路",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这条路”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "This",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "det.",
+              "meaning": "这个（复习或原创场景支持词）"
+            },
+            {
+              "text": "road",
+              "phonetic": "/rəʊd/",
+              "partOfSpeech": "n.",
+              "meaning": "道路；公路"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "This road"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "busy",
           "chinese": "人来车往的",
           "speaker": "Mum",
@@ -264,7 +280,7 @@
         {
           "id": "2-4",
           "sequenceNumber": 2,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "This road is busy today.",
           "chinese": "这条路今天人来车往。",
           "speaker": "Mum",
@@ -324,9 +340,47 @@
           ]
         },
         {
-          "id": "3-1",
+          "id": "3-3",
           "sequenceNumber": 3,
           "segmentNumber": 1,
+          "english": "The traffic light",
+          "chinese": "这个交通信号灯",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这个交通信号灯”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "traffic",
+              "phonetic": "/ˈtræfɪk/",
+              "partOfSpeech": "n.",
+              "meaning": "交通（复习或原创场景支持词）"
+            },
+            {
+              "text": "light",
+              "phonetic": "/laɪt/",
+              "partOfSpeech": "n.",
+              "meaning": "灯；信号灯（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The traffic light"
+            }
+          ]
+        },
+        {
+          "id": "3-1",
+          "sequenceNumber": 3,
+          "segmentNumber": 2,
           "english": "red",
           "chinese": "红色的（复习或原创场景支持词）",
           "speaker": "Ben",
@@ -347,7 +401,7 @@
         {
           "id": "3-2",
           "sequenceNumber": 3,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "The traffic light is red.",
           "chinese": "交通信号灯是红色的。",
           "speaker": "Ben",
@@ -411,7 +465,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -424,9 +478,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-5",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "The bus",
+          "chinese": "这辆公共汽车",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这辆公共汽车”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "bus",
+              "phonetic": "/bʌs/",
+              "partOfSpeech": "n.",
+              "meaning": "公共汽车；巴士"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The bus"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "go",
           "chinese": "走；前进（复习或原创场景支持词）",
           "speaker": "Mum",
@@ -447,7 +533,7 @@
         {
           "id": "4-4",
           "sequenceNumber": 4,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "The bus can't go now.",
           "chinese": "公共汽车现在不能前进。",
           "speaker": "Mum",
@@ -511,7 +597,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -524,9 +610,53 @@
           "structureBlocks": []
         },
         {
-          "id": "5-2",
+          "id": "5-3",
           "sequenceNumber": 5,
           "segmentNumber": 2,
+          "english": "stay close to me",
+          "chinese": "靠近我",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“靠近我”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "stay",
+              "phonetic": "/steɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "保持（教材星号支持词）"
+            },
+            {
+              "text": "close",
+              "phonetic": "/kləʊs/",
+              "partOfSpeech": "adv.",
+              "meaning": "靠近（stay close to中的用法）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到（复习或原创场景支持词）"
+            },
+            {
+              "text": "me",
+              "phonetic": "/miː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我（宾格）（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "stay close to me"
+            }
+          ]
+        },
+        {
+          "id": "5-2",
+          "sequenceNumber": 5,
+          "segmentNumber": 3,
           "english": "Please stay close to me.",
           "chinese": "请靠近我。",
           "speaker": "Mum",
@@ -594,7 +724,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -607,9 +737,41 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-3",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "wait here",
+          "chinese": "在这里等",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“在这里等”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "wait",
+              "phonetic": "/weɪt/",
+              "partOfSpeech": "v.",
+              "meaning": "等待；等候"
+            },
+            {
+              "text": "here",
+              "phonetic": "/hɪə/",
+              "partOfSpeech": "adv.",
+              "meaning": "在这里（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "wait here"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "We can wait here.",
           "chinese": "我们可以在这里等。",
           "speaker": "Ben",
@@ -685,16 +847,16 @@
           "structureBlocks": []
         },
         {
-          "id": "7-4",
+          "id": "7-7",
           "sequenceNumber": 7,
           "segmentNumber": 2,
           "english": "The light for us",
-          "chinese": "供我们行人通行的信号灯",
+          "chinese": "供我们通行的信号灯",
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“供我们通行的信号灯”；将它接回完整表达。",
           "words": [
             {
               "text": "The",
@@ -721,7 +883,12 @@
               "meaning": "我们（宾格）（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The light for us"
+            }
+          ]
         },
         {
           "id": "7-2",
@@ -732,7 +899,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -745,42 +912,9 @@
           "structureBlocks": []
         },
         {
-          "id": "7-5",
-          "sequenceNumber": 7,
-          "segmentNumber": 4,
-          "english": "is green now",
-          "chinese": "现在变绿了",
-          "speaker": "Mum",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）（复习或原创场景支持词）"
-            },
-            {
-              "text": "green",
-              "phonetic": "/ɡriːn/",
-              "partOfSpeech": "adj.",
-              "meaning": "绿色的（复习或原创场景支持词）"
-            },
-            {
-              "text": "now",
-              "phonetic": "/naʊ/",
-              "partOfSpeech": "adv.",
-              "meaning": "现在（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "7-6",
           "sequenceNumber": 7,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "The light for us is green now.",
           "chinese": "供行人通行的信号灯现在变绿了。",
           "speaker": "Mum",
@@ -860,7 +994,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -881,7 +1015,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -902,7 +1036,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -915,9 +1049,53 @@
           "structureBlocks": []
         },
         {
-          "id": "8-4",
+          "id": "8-5",
           "sequenceNumber": 8,
           "segmentNumber": 4,
+          "english": "look left and right",
+          "chinese": "看左右两边",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“看左右两边”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "look",
+              "phonetic": "/lʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "看；看起来（复习或原创场景支持词）"
+            },
+            {
+              "text": "left",
+              "phonetic": "/left/",
+              "partOfSpeech": "adv.",
+              "meaning": "向左边"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和；并且（复习或原创场景支持词）"
+            },
+            {
+              "text": "right",
+              "phonetic": "/raɪt/",
+              "partOfSpeech": "adv.",
+              "meaning": "向右边"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "look left and right"
+            }
+          ]
+        },
+        {
+          "id": "8-4",
+          "sequenceNumber": 8,
+          "segmentNumber": 5,
           "english": "Let's look left and right first.",
           "chinese": "我们先看看左边和右边吧。",
           "speaker": "Mum",
@@ -1004,29 +1182,17 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-6",
           "sequenceNumber": 9,
           "segmentNumber": 2,
-          "english": "Are there any cars",
-          "chinese": "有汽车吗",
+          "english": "any cars",
+          "chinese": "一些汽车",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一些汽车”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
-            {
-              "text": "there",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
             {
               "text": "any",
               "phonetic": "/ˈeni/",
@@ -1040,7 +1206,12 @@
               "meaning": "汽车；car的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "any cars"
+            }
+          ]
         },
         {
           "id": "9-2",
@@ -1073,7 +1244,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在路上”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -1094,7 +1265,12 @@
               "meaning": "道路；公路"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the road"
+            }
+          ]
         },
         {
           "id": "9-5",
@@ -1188,29 +1364,17 @@
           "structureBlocks": []
         },
         {
-          "id": "10-2",
+          "id": "10-5",
           "sequenceNumber": 10,
           "segmentNumber": 2,
-          "english": "There are no cars",
+          "english": "no cars",
           "chinese": "没有汽车",
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“没有汽车”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "no",
               "phonetic": "/nəʊ/",
@@ -1224,7 +1388,12 @@
               "meaning": "汽车；car的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "no cars"
+            }
+          ]
         },
         {
           "id": "10-3",
@@ -1236,7 +1405,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在我们附近”；将它接回完整表达。",
           "words": [
             {
               "text": "near",
@@ -1251,7 +1420,12 @@
               "meaning": "我们（宾格）（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "near us"
+            }
+          ]
         },
         {
           "id": "10-4",
@@ -1326,7 +1500,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1347,7 +1521,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1360,9 +1534,47 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "cross the road",
+          "chinese": "过马路",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“过马路”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "cross",
+              "phonetic": "/krɒs/",
+              "partOfSpeech": "v.",
+              "meaning": "穿越；横过（教材星号支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "road",
+              "phonetic": "/rəʊd/",
+              "partOfSpeech": "n.",
+              "meaning": "道路；公路"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "cross the road"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "Now we can cross the road.",
           "chinese": "现在我们可以过马路了。",
           "speaker": "Mum",
@@ -1436,7 +1648,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1449,36 +1661,9 @@
           "structureBlocks": []
         },
         {
-          "id": "12-3",
-          "sequenceNumber": 12,
-          "segmentNumber": 2,
-          "english": "Don't run",
-          "chinese": "不要跑",
-          "speaker": "Mum",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Don't",
-              "phonetic": "/dəʊnt/",
-              "partOfSpeech": "contraction",
-              "meaning": "do not的缩写；不（复习或原创场景支持词）"
-            },
-            {
-              "text": "run",
-              "phonetic": "/rʌn/",
-              "partOfSpeech": "v.",
-              "meaning": "跑（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "12-2",
           "sequenceNumber": 12,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "road",
           "chinese": "道路；公路",
           "speaker": "Mum",
@@ -1499,14 +1684,14 @@
         {
           "id": "12-4",
           "sequenceNumber": 12,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "on the road",
           "chinese": "在道路上",
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在道路上”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -1527,12 +1712,17 @@
               "meaning": "道路；公路"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the road"
+            }
+          ]
         },
         {
           "id": "12-5",
           "sequenceNumber": 12,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Don't run on the road.",
           "chinese": "不要在道路上跑。",
           "speaker": "Mum",
@@ -1596,7 +1786,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1609,15 +1799,47 @@
           "structureBlocks": []
         },
         {
-          "id": "13-2",
+          "id": "13-5",
           "sequenceNumber": 13,
           "segmentNumber": 2,
+          "english": "These rules",
+          "chinese": "这些规则",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些规则”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "These",
+              "phonetic": "/ðiːz/",
+              "partOfSpeech": "det.",
+              "meaning": "这些（复习或原创场景支持词）"
+            },
+            {
+              "text": "rules",
+              "phonetic": "/ruːlz/",
+              "partOfSpeech": "n.",
+              "meaning": "规则；rule的复数（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "These rules"
+            }
+          ]
+        },
+        {
+          "id": "13-2",
+          "sequenceNumber": 13,
+          "segmentNumber": 3,
           "english": "keep",
           "chinese": "使保持（复习或原创场景支持词）",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1632,13 +1854,13 @@
         {
           "id": "13-3",
           "sequenceNumber": 13,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "safe",
           "chinese": "安全的",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1651,9 +1873,47 @@
           "structureBlocks": []
         },
         {
+          "id": "13-6",
+          "sequenceNumber": 13,
+          "segmentNumber": 5,
+          "english": "keep us safe",
+          "chinese": "让我们保持安全",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“让我们保持安全”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "keep",
+              "phonetic": "/kiːp/",
+              "partOfSpeech": "v.",
+              "meaning": "使保持（复习或原创场景支持词）"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）（复习或原创场景支持词）"
+            },
+            {
+              "text": "safe",
+              "phonetic": "/seɪf/",
+              "partOfSpeech": "adj.",
+              "meaning": "安全的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "keep us safe"
+            }
+          ]
+        },
+        {
           "id": "13-4",
           "sequenceNumber": 13,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "These rules keep us safe.",
           "chinese": "这些规则让我们保持安全。",
           "speaker": "Ben",
@@ -1734,42 +1994,9 @@
           "structureBlocks": []
         },
         {
-          "id": "14-4",
-          "sequenceNumber": 14,
-          "segmentNumber": 2,
-          "english": "I can make",
-          "chinese": "我能制作",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "make",
-              "phonetic": "/meɪk/",
-              "partOfSpeech": "v.",
-              "meaning": "做；制作（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "14-2",
           "sequenceNumber": 14,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "safety",
           "chinese": "安全；平安（教材星号支持词）",
           "speaker": "Ben",
@@ -1790,7 +2017,7 @@
         {
           "id": "14-3",
           "sequenceNumber": 14,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "poster",
           "chinese": "海报（复习或原创场景支持词）",
           "speaker": "Ben",
@@ -1809,17 +2036,23 @@
           "structureBlocks": []
         },
         {
-          "id": "14-5",
+          "id": "14-7",
           "sequenceNumber": 14,
-          "segmentNumber": 5,
-          "english": "a road safety poster",
-          "chinese": "一张道路安全海报",
+          "segmentNumber": 4,
+          "english": "make a road safety poster",
+          "chinese": "制作一张道路安全海报",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“制作一张道路安全海报”；将它接回完整表达。",
           "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "做；制作（复习或原创场景支持词）"
+            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -1845,12 +2078,17 @@
               "meaning": "海报（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make a road safety poster"
+            }
+          ]
         },
         {
           "id": "14-6",
           "sequenceNumber": 14,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "I can make a road safety poster.",
           "chinese": "我能制作一张道路安全海报。",
           "speaker": "Ben",

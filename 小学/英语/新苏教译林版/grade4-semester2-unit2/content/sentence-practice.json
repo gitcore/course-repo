@@ -19,7 +19,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -53,9 +53,53 @@
           "structureBlocks": []
         },
         {
-          "id": "1-3",
+          "id": "1-4",
           "sequenceNumber": 1,
           "segmentNumber": 3,
+          "english": "Welcome to our school",
+          "chinese": "欢迎来到我们学校",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“欢迎来到我们学校”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Welcome",
+              "phonetic": "/ˈwelkəm/",
+              "partOfSpeech": "interj.",
+              "meaning": "欢迎（复习或原创场景支持词）"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到（复习或原创场景支持词）"
+            },
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的（复习或原创场景支持词）"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Welcome to our school"
+            }
+          ]
+        },
+        {
+          "id": "1-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
           "english": "Welcome to our school, Tom.",
           "chinese": "汤姆，欢迎来到我们学校。",
           "speaker": "May",
@@ -132,29 +176,17 @@
           "structureBlocks": []
         },
         {
-          "id": "2-4",
+          "id": "2-7",
           "sequenceNumber": 2,
           "segmentNumber": 2,
-          "english": "There is a library",
-          "chinese": "有一个图书馆",
+          "english": "a library",
+          "chinese": "一个图书馆",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一个图书馆”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -168,7 +200,12 @@
               "meaning": "图书馆（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a library"
+            }
+          ]
         },
         {
           "id": "2-2",
@@ -222,7 +259,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在二楼”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -249,7 +286,12 @@
               "meaning": "楼层"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the second floor"
+            }
+          ]
         },
         {
           "id": "2-6",
@@ -336,7 +378,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -357,7 +399,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -370,9 +412,47 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-4",
           "sequenceNumber": 3,
           "segmentNumber": 3,
+          "english": "a computer room",
+          "chinese": "一间电脑室",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一间电脑室”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "computer",
+              "phonetic": "/kəmˈpjuːtə/",
+              "partOfSpeech": "n.",
+              "meaning": "计算机；电脑"
+            },
+            {
+              "text": "room",
+              "phonetic": "/ruːm/",
+              "partOfSpeech": "n.",
+              "meaning": "房间"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a computer room"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
           "english": "Is there a computer room?",
           "chinese": "有电脑室吗？",
           "speaker": "Tom",
@@ -474,7 +554,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -495,7 +575,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -508,9 +588,53 @@
           "structureBlocks": []
         },
         {
-          "id": "5-3",
+          "id": "5-4",
           "sequenceNumber": 5,
           "segmentNumber": 3,
+          "english": "on the third floor",
+          "chinese": "在三楼",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在三楼”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上面（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "third",
+              "phonetic": "/θɜːd/",
+              "partOfSpeech": "num.",
+              "meaning": "第三"
+            },
+            {
+              "text": "floor",
+              "phonetic": "/flɔː/",
+              "partOfSpeech": "n.",
+              "meaning": "楼层"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the third floor"
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
           "english": "It is on the third floor.",
           "chinese": "它在三楼。",
           "speaker": "May",
@@ -593,29 +717,17 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-6",
           "sequenceNumber": 6,
           "segmentNumber": 2,
-          "english": "Are there any computers",
-          "chinese": "有电脑吗",
+          "english": "any computers",
+          "chinese": "一些电脑",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一些电脑”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
-            {
-              "text": "there",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
             {
               "text": "any",
               "phonetic": "/ˈeni/",
@@ -629,7 +741,12 @@
               "meaning": "电脑；computer的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "any computers"
+            }
+          ]
         },
         {
           "id": "6-2",
@@ -662,7 +779,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在那间房里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -683,7 +800,12 @@
               "meaning": "房间"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in that room"
+            }
+          ]
         },
         {
           "id": "6-5",
@@ -819,29 +941,17 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-6",
           "sequenceNumber": 8,
           "segmentNumber": 2,
-          "english": "There are ten computers",
-          "chinese": "有十台电脑",
+          "english": "ten computers",
+          "chinese": "十台电脑",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“十台电脑”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "ten",
               "phonetic": "/ten/",
@@ -855,7 +965,12 @@
               "meaning": "电脑；computer的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "ten computers"
+            }
+          ]
         },
         {
           "id": "8-2",
@@ -879,16 +994,16 @@
           "structureBlocks": []
         },
         {
-          "id": "8-4",
+          "id": "8-7",
           "sequenceNumber": 8,
           "segmentNumber": 4,
           "english": "in the room",
-          "chinese": "在那间房里",
+          "chinese": "在这间房里",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在这间房里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -909,7 +1024,12 @@
               "meaning": "房间"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the room"
+            }
+          ]
         },
         {
           "id": "8-5",
@@ -1024,54 +1144,9 @@
           "structureBlocks": []
         },
         {
-          "id": "9-4",
-          "sequenceNumber": 9,
-          "segmentNumber": 3,
-          "english": "Can you take these books",
-          "chinese": "你能带上这些书吗",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "pron.",
-              "meaning": "你；你们（复习或原创场景支持词）"
-            },
-            {
-              "text": "take",
-              "phonetic": "/teɪk/",
-              "partOfSpeech": "v.",
-              "meaning": "带；拿"
-            },
-            {
-              "text": "these",
-              "phonetic": "/ðiːz/",
-              "partOfSpeech": "det.",
-              "meaning": "这些（复习或原创场景支持词）"
-            },
-            {
-              "text": "books",
-              "phonetic": "/bʊks/",
-              "partOfSpeech": "n.",
-              "meaning": "书；book的复数（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "9-3",
           "sequenceNumber": 9,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "library",
           "chinese": "图书馆（复习或原创场景支持词）",
           "speaker": "Tom",
@@ -1090,17 +1165,35 @@
           "structureBlocks": []
         },
         {
-          "id": "9-5",
+          "id": "9-7",
           "sequenceNumber": 9,
-          "segmentNumber": 5,
-          "english": "to the library",
-          "chinese": "带到图书馆",
+          "segmentNumber": 4,
+          "english": "take these books to the library",
+          "chinese": "把这些书带到图书馆",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把这些书带到图书馆”；将它接回完整表达。",
           "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿"
+            },
+            {
+              "text": "these",
+              "phonetic": "/ðiːz/",
+              "partOfSpeech": "det.",
+              "meaning": "这些（复习或原创场景支持词）"
+            },
+            {
+              "text": "books",
+              "phonetic": "/bʊks/",
+              "partOfSpeech": "n.",
+              "meaning": "书；book的复数（复习或原创场景支持词）"
+            },
             {
               "text": "to",
               "phonetic": "/tuː/",
@@ -1120,12 +1213,17 @@
               "meaning": "图书馆（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take these books to the library"
+            }
+          ]
         },
         {
           "id": "9-6",
           "sequenceNumber": 9,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "Can you take these books to the library?",
           "chinese": "你能把这些书带到图书馆吗？",
           "speaker": "Tom",
@@ -1215,7 +1313,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1228,9 +1326,53 @@
           "structureBlocks": []
         },
         {
-          "id": "10-4",
+          "id": "10-5",
           "sequenceNumber": 10,
           "segmentNumber": 2,
+          "english": "take them for you",
+          "chinese": "帮你带上它们",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮你带上它们”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿"
+            },
+            {
+              "text": "them",
+              "phonetic": "/ðem/",
+              "partOfSpeech": "pron.",
+              "meaning": "它们；他们；她们（宾格）（复习或原创场景支持词）"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（复习或原创场景支持词）"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take them for you"
+            }
+          ]
+        },
+        {
+          "id": "10-4",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
           "english": "I can take them for you.",
           "chinese": "我可以帮你带上它们。",
           "speaker": "Ben",
@@ -1317,42 +1459,9 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
-          "sequenceNumber": 11,
-          "segmentNumber": 2,
-          "english": "Please be careful",
-          "chinese": "请小心",
-          "speaker": "May",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Please",
-              "phonetic": "/pliːz/",
-              "partOfSpeech": "interj.",
-              "meaning": "请（复习或原创场景支持词）"
-            },
-            {
-              "text": "be",
-              "phonetic": "/biː/",
-              "partOfSpeech": "v.",
-              "meaning": "是；处于某种状态（复习或原创场景支持词）"
-            },
-            {
-              "text": "careful",
-              "phonetic": "/ˈkeəfəl/",
-              "partOfSpeech": "adj.",
-              "meaning": "小心的；谨慎的"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "11-2",
           "sequenceNumber": 11,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "books",
           "chinese": "书；book的复数（复习或原创场景支持词）",
           "speaker": "May",
@@ -1371,17 +1480,23 @@
           "structureBlocks": []
         },
         {
-          "id": "11-4",
+          "id": "11-6",
           "sequenceNumber": 11,
-          "segmentNumber": 4,
-          "english": "with the books",
-          "chinese": "拿这些书",
+          "segmentNumber": 3,
+          "english": "careful with the books",
+          "chinese": "小心拿这些书",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的形容词短语，表达“小心拿这些书”；将它接回完整表达。",
           "words": [
+            {
+              "text": "careful",
+              "phonetic": "/ˈkeəfəl/",
+              "partOfSpeech": "adj.",
+              "meaning": "小心的；谨慎的"
+            },
             {
               "text": "with",
               "phonetic": "/wɪð/",
@@ -1401,12 +1516,17 @@
               "meaning": "书；book的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "careful with the books"
+            }
+          ]
         },
         {
           "id": "11-5",
           "sequenceNumber": 11,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Please be careful with the books.",
           "chinese": "请小心拿这些书。",
           "speaker": "May",
@@ -1477,48 +1597,9 @@
       "title": "原创场景二：认识其他校园地点",
       "sentences": [
         {
-          "id": "12-2",
-          "sequenceNumber": 12,
-          "segmentNumber": 1,
-          "english": "Let's have a look",
-          "chinese": "我们一起看看",
-          "speaker": "May",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Let's",
-              "phonetic": "/lets/",
-              "partOfSpeech": "contraction",
-              "meaning": "let us的缩写；让我们（复习或原创场景支持词）"
-            },
-            {
-              "text": "have",
-              "phonetic": "/hæv/",
-              "partOfSpeech": "v.",
-              "meaning": "have a look中与look搭配，表示看一看"
-            },
-            {
-              "text": "a",
-              "phonetic": "/ə/",
-              "partOfSpeech": "art.",
-              "meaning": "一（个）（复习或原创场景支持词）"
-            },
-            {
-              "text": "look",
-              "phonetic": "/lʊk/",
-              "partOfSpeech": "n.",
-              "meaning": "看；have a look表示看一看"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "12-1",
           "sequenceNumber": 12,
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "english": "playground",
           "chinese": "游戏场",
           "speaker": "May",
@@ -1537,17 +1618,35 @@
           "structureBlocks": []
         },
         {
-          "id": "12-3",
+          "id": "12-5",
           "sequenceNumber": 12,
-          "segmentNumber": 3,
-          "english": "at the playground",
-          "chinese": "看看游戏场",
+          "segmentNumber": 2,
+          "english": "have a look at the playground",
+          "chinese": "去看看游戏场",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“去看看游戏场”；将它接回完整表达。",
           "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "have a look中与look搭配，表示看一看"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "look",
+              "phonetic": "/lʊk/",
+              "partOfSpeech": "n.",
+              "meaning": "看；have a look表示看一看"
+            },
             {
               "text": "at",
               "phonetic": "/æt/",
@@ -1567,12 +1666,17 @@
               "meaning": "游戏场"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have a look at the playground"
+            }
+          ]
         },
         {
           "id": "12-4",
           "sequenceNumber": 12,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "Let's have a look at the playground.",
           "chinese": "我们去看看游戏场吧。",
           "speaker": "May",
@@ -1661,29 +1765,17 @@
           "structureBlocks": []
         },
         {
-          "id": "13-3",
+          "id": "13-6",
           "sequenceNumber": 13,
           "segmentNumber": 2,
-          "english": "There is a swing",
-          "chinese": "有一个秋千",
+          "english": "a swing",
+          "chinese": "一个秋千",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一个秋千”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -1697,7 +1789,12 @@
               "meaning": "秋千（教材星号支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a swing"
+            }
+          ]
         },
         {
           "id": "13-2",
@@ -1730,7 +1827,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在树附近”；将它接回完整表达。",
           "words": [
             {
               "text": "near",
@@ -1751,7 +1848,12 @@
               "meaning": "树（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "near the tree"
+            }
+          ]
         },
         {
           "id": "13-5",
@@ -1953,23 +2055,17 @@
           "structureBlocks": []
         },
         {
-          "id": "15-4",
+          "id": "15-7",
           "sequenceNumber": 15,
           "segmentNumber": 3,
-          "english": "I feel happy",
-          "chinese": "我感到很高兴",
+          "english": "feel happy",
+          "chinese": "感到高兴",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“感到高兴”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
             {
               "text": "feel",
               "phonetic": "/fiːl/",
@@ -1983,7 +2079,12 @@
               "meaning": "高兴的（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feel happy"
+            }
+          ]
         },
         {
           "id": "15-3",
@@ -2007,16 +2108,16 @@
           "structureBlocks": []
         },
         {
-          "id": "15-5",
+          "id": "15-8",
           "sequenceNumber": 15,
           "segmentNumber": 5,
           "english": "in my new school",
-          "chinese": "在新学校里",
+          "chinese": "在我的新学校里",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在我的新学校里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -2043,7 +2144,12 @@
               "meaning": "学校（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in my new school"
+            }
+          ]
         },
         {
           "id": "15-6",
@@ -2162,29 +2268,17 @@
           "structureBlocks": []
         },
         {
-          "id": "16-5",
+          "id": "16-8",
           "sequenceNumber": 16,
           "segmentNumber": 3,
-          "english": "We can play the piano",
-          "chinese": "我们能弹钢琴",
+          "english": "play the piano",
+          "chinese": "弹钢琴",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“弹钢琴”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
             {
               "text": "play",
               "phonetic": "/pleɪ/",
@@ -2204,7 +2298,12 @@
               "meaning": "钢琴"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "play the piano"
+            }
+          ]
         },
         {
           "id": "16-3",
@@ -2258,7 +2357,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在音乐室里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -2285,7 +2384,12 @@
               "meaning": "房间"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the music room"
+            }
+          ]
         },
         {
           "id": "16-7",

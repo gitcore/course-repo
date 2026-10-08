@@ -40,7 +40,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,47 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "this dirty chair",
+          "chinese": "这把脏椅子",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这把脏椅子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "det.",
+              "meaning": "这个"
+            },
+            {
+              "text": "dirty",
+              "phonetic": "/ˈdɜːti/",
+              "partOfSpeech": "adj.",
+              "meaning": "脏的"
+            },
+            {
+              "text": "chair",
+              "phonetic": "/tʃeə/",
+              "partOfSpeech": "n.",
+              "meaning": "椅子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "this dirty chair"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Look at this dirty chair.",
           "chinese": "看这把脏椅子。",
           "speaker": "Ben",
@@ -136,7 +174,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -149,9 +187,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-3",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "clean it",
+          "chinese": "把它擦干净",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把它擦干净”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            },
+            {
+              "text": "it",
+              "phonetic": "/ɪt/",
+              "partOfSpeech": "pron.",
+              "meaning": "它"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "clean it"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "I can clean it.",
           "chinese": "我能把它擦干净。",
           "speaker": "May",
@@ -222,48 +292,9 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
-          "sequenceNumber": 3,
-          "segmentNumber": 2,
-          "english": "I can put away",
-          "chinese": "我能收好",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以"
-            },
-            {
-              "text": "put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放，安置"
-            },
-            {
-              "text": "away",
-              "phonetic": "/əˈweɪ/",
-              "partOfSpeech": "adv.",
-              "meaning": "副词小品词；put away整体表示“收好，放回原处”"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "3-2",
           "sequenceNumber": 3,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "books",
           "chinese": "书；book的复数（配套表达）",
           "speaker": "Tom",
@@ -282,17 +313,29 @@
           "structureBlocks": []
         },
         {
-          "id": "3-4",
+          "id": "3-6",
           "sequenceNumber": 3,
-          "segmentNumber": 4,
-          "english": "the books",
-          "chinese": "这些书",
+          "segmentNumber": 3,
+          "english": "put away the books",
+          "chinese": "把书收好",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把书收好”；将它接回完整表达。",
           "words": [
+            {
+              "text": "put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放，安置"
+            },
+            {
+              "text": "away",
+              "phonetic": "/əˈweɪ/",
+              "partOfSpeech": "adv.",
+              "meaning": "副词小品词；put away整体表示“收好，放回原处”"
+            },
             {
               "text": "the",
               "phonetic": "/ðə/",
@@ -306,12 +349,17 @@
               "meaning": "书；book的复数（配套表达）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "put away the books"
+            }
+          ]
         },
         {
           "id": "3-5",
           "sequenceNumber": 3,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "I can put away the books.",
           "chinese": "我能把书收好。",
           "speaker": "Tom",
@@ -381,7 +429,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -402,7 +450,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -415,9 +463,47 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "close the window",
+          "chinese": "关窗户",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“关窗户”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "close",
+              "phonetic": "/kləʊz/",
+              "partOfSpeech": "v.",
+              "meaning": "关，关闭"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "window",
+              "phonetic": "/ˈwɪndəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "窗；窗户"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "close the window"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "Please close the window.",
           "chinese": "请把窗户关上。",
           "speaker": "Ben",
@@ -528,7 +614,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -549,7 +635,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -562,9 +648,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "sweep the floor",
+          "chinese": "扫地",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“扫地”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "sweep",
+              "phonetic": "/swiːp/",
+              "partOfSpeech": "v.",
+              "meaning": "打扫；清扫"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "floor",
+              "phonetic": "/flɔː/",
+              "partOfSpeech": "n.",
+              "meaning": "地板；地面"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "sweep the floor"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "Let's sweep the floor.",
           "chinese": "我们一起扫地吧。",
           "speaker": "May",
@@ -622,7 +746,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -643,7 +767,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -656,9 +780,47 @@
           "structureBlocks": []
         },
         {
-          "id": "7-3",
+          "id": "7-4",
           "sequenceNumber": 7,
           "segmentNumber": 3,
+          "english": "clean the desk",
+          "chinese": "擦课桌",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“擦课桌”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "v.",
+              "meaning": "擦干净；清洁"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "desk",
+              "phonetic": "/desk/",
+              "partOfSpeech": "n.",
+              "meaning": "课桌；书桌"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "clean the desk"
+            }
+          ]
+        },
+        {
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
           "english": "I can clean the desk.",
           "chinese": "我能把课桌擦干净。",
           "speaker": "Ben",
@@ -722,7 +884,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -735,9 +897,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-5",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "The chair",
+          "chinese": "这把椅子",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这把椅子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "chair",
+              "phonetic": "/tʃeə/",
+              "partOfSpeech": "n.",
+              "meaning": "椅子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The chair"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
           "english": "clean",
           "chinese": "干净的",
           "speaker": "May",
@@ -758,7 +952,7 @@
         {
           "id": "8-4",
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "The chair is clean now.",
           "chinese": "椅子现在干净了。",
           "speaker": "May",
@@ -826,7 +1020,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -847,7 +1041,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -868,7 +1062,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -881,9 +1075,53 @@
           "structureBlocks": []
         },
         {
-          "id": "9-4",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 4,
+          "english": "keep our classroom clean",
+          "chinese": "保持教室干净",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“保持教室干净”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "keep",
+              "phonetic": "/kiːp/",
+              "partOfSpeech": "v.",
+              "meaning": "使保持；处于"
+            },
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "classroom",
+              "phonetic": "/ˈklɑːsruːm/",
+              "partOfSpeech": "n.",
+              "meaning": "教室；课堂"
+            },
+            {
+              "text": "clean",
+              "phonetic": "/kliːn/",
+              "partOfSpeech": "adj.",
+              "meaning": "干净的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "keep our classroom clean"
+            }
+          ]
+        },
+        {
+          "id": "9-4",
+          "sequenceNumber": 9,
+          "segmentNumber": 5,
           "english": "Let's keep our classroom clean.",
           "chinese": "让我们保持教室干净吧。",
           "speaker": "Tom",

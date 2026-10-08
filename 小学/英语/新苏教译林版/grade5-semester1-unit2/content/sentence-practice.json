@@ -53,23 +53,17 @@
           "structureBlocks": []
         },
         {
-          "id": "1-5",
+          "id": "1-8",
           "sequenceNumber": 1,
           "segmentNumber": 3,
-          "english": "Tom feels worried",
-          "chinese": "Tom感到担心",
+          "english": "feels worried",
+          "chinese": "感到担心",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“感到担心”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Tom",
-              "phonetic": "/tɒm/",
-              "partOfSpeech": "proper n.",
-              "meaning": "Tom（原创角色）"
-            },
             {
               "text": "feels",
               "phonetic": "/fiːlz/",
@@ -83,7 +77,12 @@
               "meaning": "担心的，担忧的（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feels worried"
+            }
+          ]
         },
         {
           "id": "1-3",
@@ -137,7 +136,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在学校演出前”；将它接回完整表达。",
           "words": [
             {
               "text": "before",
@@ -164,7 +163,12 @@
               "meaning": "演出"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "before the school show"
+            }
+          ]
         },
         {
           "id": "1-7",
@@ -249,7 +253,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -270,7 +274,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -283,9 +287,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 3,
+          "english": "speak loudly",
+          "chinese": "大声说话",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“大声说话”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "speak",
+              "phonetic": "/spiːk/",
+              "partOfSpeech": "v.",
+              "meaning": "说话"
+            },
+            {
+              "text": "loudly",
+              "phonetic": "/ˈlaʊdli/",
+              "partOfSpeech": "adv.",
+              "meaning": "大声地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "speak loudly"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
           "english": "He does not speak loudly.",
           "chinese": "他说话声音不大。",
           "speaker": "Ben",
@@ -383,23 +419,17 @@
           "structureBlocks": []
         },
         {
-          "id": "3-5",
+          "id": "3-8",
           "sequenceNumber": 3,
           "segmentNumber": 3,
-          "english": "He knows the words",
-          "chinese": "他知道这些词",
+          "english": "knows the words",
+          "chinese": "知道这些词",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“知道这些词”；将它接回完整表达。",
           "words": [
-            {
-              "text": "He",
-              "phonetic": "/hiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "他"
-            },
             {
               "text": "knows",
               "phonetic": "/nəʊz/",
@@ -419,7 +449,12 @@
               "meaning": "词；word的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "knows the words"
+            }
+          ]
         },
         {
           "id": "3-3",
@@ -464,29 +499,17 @@
           "structureBlocks": []
         },
         {
-          "id": "3-6",
+          "id": "3-9",
           "sequenceNumber": 3,
           "segmentNumber": 6,
-          "english": "but he speaks too fast",
-          "chinese": "但是他说得太快",
+          "english": "speaks too fast",
+          "chinese": "说话太快",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“说话太快”；将它接回完整表达。",
           "words": [
-            {
-              "text": "but",
-              "phonetic": "/bʌt/",
-              "partOfSpeech": "conj.",
-              "meaning": "但是"
-            },
-            {
-              "text": "he",
-              "phonetic": "/hiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "他"
-            },
             {
               "text": "speaks",
               "phonetic": "/spiːks/",
@@ -506,7 +529,12 @@
               "meaning": "快，快速，迅速"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "speaks too fast"
+            }
+          ]
         },
         {
           "id": "3-7",
@@ -609,7 +637,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -630,7 +658,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -643,9 +671,73 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "tries hard",
+          "chinese": "努力尝试",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“努力尝试”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "tries",
+              "phonetic": "/traɪz/",
+              "partOfSpeech": "v.",
+              "meaning": "尝试；try的第三人称单数"
+            },
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adv.",
+              "meaning": "努力地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "tries hard"
+            }
+          ]
+        },
+        {
+          "id": "4-5",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
+          "english": "every day",
+          "chinese": "每天",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“每天”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "every",
+              "phonetic": "/ˈevri/",
+              "partOfSpeech": "det.",
+              "meaning": "每一个"
+            },
+            {
+              "text": "day",
+              "phonetic": "/deɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "天，日子"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "every day"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 5,
           "english": "He tries hard every day.",
           "chinese": "他每天努力尝试。",
           "speaker": "Ben",
@@ -768,23 +860,17 @@
           "structureBlocks": []
         },
         {
-          "id": "5-5",
+          "id": "5-8",
           "sequenceNumber": 5,
           "segmentNumber": 4,
-          "english": "I write the first word",
-          "chinese": "我写下第一个词",
+          "english": "write the first word",
+          "chinese": "写第一个词",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“写第一个词”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "write",
               "phonetic": "/raɪt/",
@@ -810,7 +896,12 @@
               "meaning": "单词，字"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "write the first word"
+            }
+          ]
         },
         {
           "id": "5-4",
@@ -843,7 +934,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在这张卡片上”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -864,7 +955,12 @@
               "meaning": "卡片"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on this card"
+            }
+          ]
         },
         {
           "id": "5-7",
@@ -989,23 +1085,17 @@
           "structureBlocks": []
         },
         {
-          "id": "6-5",
+          "id": "6-8",
           "sequenceNumber": 6,
           "segmentNumber": 3,
-          "english": "He reads the card",
-          "chinese": "他读这张卡片",
+          "english": "reads the card",
+          "chinese": "读这张卡片",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“读这张卡片”；将它接回完整表达。",
           "words": [
-            {
-              "text": "He",
-              "phonetic": "/hiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "他"
-            },
             {
               "text": "reads",
               "phonetic": "/riːdz/",
@@ -1025,7 +1115,12 @@
               "meaning": "卡片"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "reads the card"
+            }
+          ]
         },
         {
           "id": "6-3",
@@ -1070,23 +1165,17 @@
           "structureBlocks": []
         },
         {
-          "id": "6-6",
+          "id": "6-9",
           "sequenceNumber": 6,
           "segmentNumber": 6,
-          "english": "and studies the words",
-          "chinese": "并学习这些词",
+          "english": "studies the words",
+          "chinese": "学习这些词",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“学习这些词”；将它接回完整表达。",
           "words": [
-            {
-              "text": "and",
-              "phonetic": "/ænd/",
-              "partOfSpeech": "conj.",
-              "meaning": "和；并且"
-            },
             {
               "text": "studies",
               "phonetic": "/ˈstʌdiz/",
@@ -1106,7 +1195,12 @@
               "meaning": "词；word的复数"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "studies the words"
+            }
+          ]
         },
         {
           "id": "6-7",
@@ -1199,7 +1293,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1212,9 +1306,41 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "hear you",
+          "chinese": "听见你说话",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“听见你说话”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "hear",
+              "phonetic": "/hɪə/",
+              "partOfSpeech": "v.",
+              "meaning": "听见，听到"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "hear you"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "I can hear you now.",
           "chinese": "我现在能听见你说话。",
           "speaker": "Tom",
@@ -1282,7 +1408,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1303,7 +1429,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1316,9 +1442,41 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 3,
+          "english": "speak slowly",
+          "chinese": "慢慢说",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“慢慢说”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "speak",
+              "phonetic": "/spiːk/",
+              "partOfSpeech": "v.",
+              "meaning": "说话"
+            },
+            {
+              "text": "slowly",
+              "phonetic": "/ˈsləʊli/",
+              "partOfSpeech": "adv.",
+              "meaning": "慢速地，缓慢地"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "speak slowly"
+            }
+          ]
+        },
+        {
+          "id": "8-3",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
           "english": "Please speak slowly.",
           "chinese": "请说慢一点。",
           "speaker": "Lily",
@@ -1370,7 +1528,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1383,15 +1541,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-2",
+          "id": "9-5",
           "sequenceNumber": 9,
           "segmentNumber": 2,
+          "english": "My hands",
+          "chinese": "我的手",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的手”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "hands",
+              "phonetic": "/hændz/",
+              "partOfSpeech": "n.",
+              "meaning": "手；hand的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My hands"
+            }
+          ]
+        },
+        {
+          "id": "9-2",
+          "sequenceNumber": 9,
+          "segmentNumber": 3,
           "english": "feel",
           "chinese": "感觉",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1406,13 +1596,13 @@
         {
           "id": "9-3",
           "sequenceNumber": 9,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "cold",
           "chinese": "冷的",
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1425,9 +1615,41 @@
           "structureBlocks": []
         },
         {
+          "id": "9-6",
+          "sequenceNumber": 9,
+          "segmentNumber": 5,
+          "english": "feel cold",
+          "chinese": "感觉很冷",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“感觉很冷”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "feel",
+              "phonetic": "/fiːl/",
+              "partOfSpeech": "v.",
+              "meaning": "感觉"
+            },
+            {
+              "text": "cold",
+              "phonetic": "/kəʊld/",
+              "partOfSpeech": "adj.",
+              "meaning": "冷的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feel cold"
+            }
+          ]
+        },
+        {
           "id": "9-4",
           "sequenceNumber": 9,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "My hands feel cold.",
           "chinese": "我的手感觉很冷。",
           "speaker": "Tom",
@@ -1477,9 +1699,41 @@
           ]
         },
         {
-          "id": "10-1",
+          "id": "10-2",
           "sequenceNumber": 10,
           "segmentNumber": 1,
+          "english": "give up",
+          "chinese": "放弃",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的动词短语，表达“放弃”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "give",
+              "phonetic": "/ɡɪv/",
+              "partOfSpeech": "v.",
+              "meaning": "give up中的动词；短语整体表示放弃"
+            },
+            {
+              "text": "up",
+              "phonetic": "/ʌp/",
+              "partOfSpeech": "adv.",
+              "meaning": "与give搭配组成give up，整体表示放弃"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "give up"
+            }
+          ]
+        },
+        {
+          "id": "10-1",
+          "sequenceNumber": 10,
+          "segmentNumber": 2,
           "english": "He does not give up.",
           "chinese": "他没有放弃。",
           "speaker": "Ben",
@@ -1539,7 +1793,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1560,7 +1814,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1573,15 +1827,53 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-5",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "The small card",
+          "chinese": "这张小卡片",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这张小卡片”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "The",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "small",
+              "phonetic": "/smɔːl/",
+              "partOfSpeech": "adj.",
+              "meaning": "小的"
+            },
+            {
+              "text": "card",
+              "phonetic": "/kɑːd/",
+              "partOfSpeech": "n.",
+              "meaning": "卡片"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "The small card"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "helps",
           "chinese": "帮助；help的第三人称单数",
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1594,9 +1886,41 @@
           "structureBlocks": []
         },
         {
+          "id": "11-6",
+          "sequenceNumber": 11,
+          "segmentNumber": 5,
+          "english": "helps him",
+          "chinese": "帮助他",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮助他”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "helps",
+              "phonetic": "/helps/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助；help的第三人称单数"
+            },
+            {
+              "text": "him",
+              "phonetic": "/hɪm/",
+              "partOfSpeech": "pron.",
+              "meaning": "他（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "helps him"
+            }
+          ]
+        },
+        {
           "id": "11-4",
           "sequenceNumber": 11,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "The small card helps him.",
           "chinese": "这张小卡片帮助了他。",
           "speaker": "Lily",
@@ -1694,23 +2018,17 @@
           "structureBlocks": []
         },
         {
-          "id": "12-5",
+          "id": "12-8",
           "sequenceNumber": 12,
           "segmentNumber": 3,
-          "english": "I feel good",
-          "chinese": "我感觉很好",
+          "english": "feel good",
+          "chinese": "感觉很好",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“感觉很好”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
             {
               "text": "feel",
               "phonetic": "/fiːl/",
@@ -1724,7 +2042,12 @@
               "meaning": "好的"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feel good"
+            }
+          ]
         },
         {
           "id": "12-3",
@@ -1748,9 +2071,41 @@
           "structureBlocks": []
         },
         {
-          "id": "12-4",
+          "id": "12-9",
           "sequenceNumber": 12,
           "segmentNumber": 5,
+          "english": "my friends",
+          "chinese": "我的朋友",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的朋友”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "my",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "friends",
+              "phonetic": "/frendz/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友；friend的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "my friends"
+            }
+          ]
+        },
+        {
+          "id": "12-4",
+          "sequenceNumber": 12,
+          "segmentNumber": 6,
           "english": "help",
           "chinese": "帮助",
           "speaker": "Tom",
@@ -1769,35 +2124,17 @@
           "structureBlocks": []
         },
         {
-          "id": "12-6",
+          "id": "12-10",
           "sequenceNumber": 12,
-          "segmentNumber": 6,
-          "english": "when my friends help me",
-          "chinese": "当朋友帮助我时",
+          "segmentNumber": 7,
+          "english": "help me",
+          "chinese": "帮助我",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮助我”；将它接回完整表达。",
           "words": [
-            {
-              "text": "when",
-              "phonetic": "/wen/",
-              "partOfSpeech": "conj.",
-              "meaning": "当……时"
-            },
-            {
-              "text": "my",
-              "phonetic": "/maɪ/",
-              "partOfSpeech": "det.",
-              "meaning": "我的"
-            },
-            {
-              "text": "friends",
-              "phonetic": "/frendz/",
-              "partOfSpeech": "n.",
-              "meaning": "朋友；friend的复数"
-            },
             {
               "text": "help",
               "phonetic": "/help/",
@@ -1811,12 +2148,17 @@
               "meaning": "我（宾格）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "help me"
+            }
+          ]
         },
         {
           "id": "12-7",
           "sequenceNumber": 12,
-          "segmentNumber": 7,
+          "segmentNumber": 8,
           "english": "I feel good when my friends help me.",
           "chinese": "朋友帮助我时，我感觉很好。",
           "speaker": "Tom",
@@ -1965,7 +2307,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1986,7 +2328,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2007,7 +2349,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2020,9 +2362,59 @@
           "structureBlocks": []
         },
         {
-          "id": "14-4",
+          "id": "14-5",
           "sequenceNumber": 14,
           "segmentNumber": 4,
+          "english": "feels excited about the show",
+          "chinese": "对演出感到兴奋",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“对演出感到兴奋”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "feels",
+              "phonetic": "/fiːlz/",
+              "partOfSpeech": "v.",
+              "meaning": "感觉；feel的第三人称单数"
+            },
+            {
+              "text": "excited",
+              "phonetic": "/ɪkˈsaɪtɪd/",
+              "partOfSpeech": "adj.",
+              "meaning": "激动的，兴奋的"
+            },
+            {
+              "text": "about",
+              "phonetic": "/əˈbaʊt/",
+              "partOfSpeech": "prep.",
+              "meaning": "关于，对于"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "演出"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feels excited about the show"
+            }
+          ]
+        },
+        {
+          "id": "14-4",
+          "sequenceNumber": 14,
+          "segmentNumber": 5,
           "english": "He feels excited about the show now.",
           "chinese": "他现在对演出感到兴奋。",
           "speaker": "Lily",

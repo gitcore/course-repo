@@ -106,7 +106,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -127,7 +127,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -140,9 +140,47 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 3,
+          "english": "making the bed",
+          "chinese": "铺床",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“铺床”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "making",
+              "phonetic": "/ˈmeɪkɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "制作；整理；make的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "bed",
+              "phonetic": "/bed/",
+              "partOfSpeech": "n.",
+              "meaning": "床（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "making the bed"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
           "english": "I am making the bed.",
           "chinese": "我正在铺床。",
           "speaker": "Ben",
@@ -219,16 +257,16 @@
           "structureBlocks": []
         },
         {
-          "id": "3-4",
+          "id": "3-7",
           "sequenceNumber": 3,
           "segmentNumber": 2,
           "english": "My brother",
-          "chinese": "我哥哥",
+          "chinese": "我的哥哥",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的哥哥”；将它接回完整表达。",
           "words": [
             {
               "text": "My",
@@ -243,7 +281,12 @@
               "meaning": "兄弟（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My brother"
+            }
+          ]
         },
         {
           "id": "3-2",
@@ -288,23 +331,17 @@
           "structureBlocks": []
         },
         {
-          "id": "3-5",
+          "id": "3-8",
           "sequenceNumber": 3,
           "segmentNumber": 5,
-          "english": "is washing the dishes",
-          "chinese": "正在洗碗",
+          "english": "washing the dishes",
+          "chinese": "洗碗",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“洗碗”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "auxiliary v.",
-              "meaning": "与washing连用，表示正在进行"
-            },
             {
               "text": "washing",
               "phonetic": "/ˈwɒʃɪŋ/",
@@ -324,7 +361,12 @@
               "meaning": "碗碟；dish的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "washing the dishes"
+            }
+          ]
         },
         {
           "id": "3-6",
@@ -412,16 +454,16 @@
           "structureBlocks": []
         },
         {
-          "id": "4-4",
+          "id": "4-7",
           "sequenceNumber": 4,
           "segmentNumber": 2,
           "english": "My mother",
-          "chinese": "我妈妈",
+          "chinese": "我的妈妈",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的妈妈”；将它接回完整表达。",
           "words": [
             {
               "text": "My",
@@ -436,7 +478,12 @@
               "meaning": "妈妈；母亲（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My mother"
+            }
+          ]
         },
         {
           "id": "4-2",
@@ -481,23 +528,17 @@
           "structureBlocks": []
         },
         {
-          "id": "4-5",
+          "id": "4-8",
           "sequenceNumber": 4,
           "segmentNumber": 5,
-          "english": "is cooking lunch",
-          "chinese": "正在做午饭",
+          "english": "cooking lunch",
+          "chinese": "做午饭",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做午饭”；将它接回完整表达。",
           "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "auxiliary v.",
-              "meaning": "与cooking连用，表示正在进行"
-            },
             {
               "text": "cooking",
               "phonetic": "/ˈkʊkɪŋ/",
@@ -511,7 +552,12 @@
               "meaning": "午餐（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "cooking lunch"
+            }
+          ]
         },
         {
           "id": "4-6",
@@ -593,23 +639,17 @@
           "structureBlocks": []
         },
         {
-          "id": "5-4",
+          "id": "5-7",
           "sequenceNumber": 5,
           "segmentNumber": 2,
-          "english": "Is your father",
-          "chinese": "你爸爸是否",
+          "english": "your father",
+          "chinese": "你的爸爸",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的爸爸”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "auxiliary v.",
-              "meaning": "与washing连用，询问正在进行的动作"
-            },
             {
               "text": "your",
               "phonetic": "/jɔː/",
@@ -623,7 +663,12 @@
               "meaning": "爸爸；父亲（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your father"
+            }
+          ]
         },
         {
           "id": "5-2",
@@ -668,16 +713,16 @@
           "structureBlocks": []
         },
         {
-          "id": "5-5",
+          "id": "5-8",
           "sequenceNumber": 5,
           "segmentNumber": 5,
           "english": "washing the clothes",
-          "chinese": "正在洗衣服",
+          "chinese": "洗衣服",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“洗衣服”；将它接回完整表达。",
           "words": [
             {
               "text": "washing",
@@ -698,7 +743,12 @@
               "meaning": "衣服（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "washing the clothes"
+            }
+          ]
         },
         {
           "id": "5-6",
@@ -777,7 +827,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -798,7 +848,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -811,9 +861,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "sweeping the floor",
+          "chinese": "扫地",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“扫地”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "sweeping",
+              "phonetic": "/ˈswiːpɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "扫；sweep的-ing形式（复习或原创场景支持词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "floor",
+              "phonetic": "/flɔː/",
+              "partOfSpeech": "n.",
+              "meaning": "楼层（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "sweeping the floor"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "No, he is sweeping the floor.",
           "chinese": "不，他正在扫地。",
           "speaker": "Ben",
@@ -909,7 +997,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们全家”；将它接回完整表达。",
           "words": [
             {
               "text": "Our",
@@ -924,7 +1012,12 @@
               "meaning": "家庭；家人（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Our family"
+            }
+          ]
         },
         {
           "id": "7-2",
@@ -990,23 +1083,17 @@
           "structureBlocks": []
         },
         {
-          "id": "7-6",
+          "id": "7-8",
           "sequenceNumber": 7,
           "segmentNumber": 6,
-          "english": "are doing chores together",
-          "chinese": "正在一起做家务",
+          "english": "doing chores together",
+          "chinese": "一起做家务",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“一起做家务”；将它接回完整表达。",
           "words": [
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "auxiliary v.",
-              "meaning": "与doing连用，表示正在进行"
-            },
             {
               "text": "doing",
               "phonetic": "/ˈduːɪŋ/",
@@ -1026,7 +1113,12 @@
               "meaning": "一起（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "doing chores together"
+            }
+          ]
         },
         {
           "id": "7-7",
@@ -1118,48 +1210,9 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
-          "sequenceNumber": 8,
-          "segmentNumber": 2,
-          "english": "We are all helping",
-          "chinese": "我们都正在帮忙",
-          "speaker": "May",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们（复习或原创场景支持词）"
-            },
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "auxiliary v.",
-              "meaning": "与helping连用，表示正在进行"
-            },
-            {
-              "text": "all",
-              "phonetic": "/ɔːl/",
-              "partOfSpeech": "adv.",
-              "meaning": "都；全（复习或原创场景支持词）"
-            },
-            {
-              "text": "helping",
-              "phonetic": "/ˈhelpɪŋ/",
-              "partOfSpeech": "v.",
-              "meaning": "帮助；help的-ing形式（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "8-2",
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "home",
           "chinese": "家（at home中的用法）（复习或原创场景支持词）",
           "speaker": "May",
@@ -1178,17 +1231,23 @@
           "structureBlocks": []
         },
         {
-          "id": "8-4",
+          "id": "8-6",
           "sequenceNumber": 8,
-          "segmentNumber": 4,
-          "english": "at home",
-          "chinese": "在家里",
+          "segmentNumber": 3,
+          "english": "helping at home",
+          "chinese": "在家里帮忙",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“在家里帮忙”；将它接回完整表达。",
           "words": [
+            {
+              "text": "helping",
+              "phonetic": "/ˈhelpɪŋ/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助；help的-ing形式（复习或原创场景支持词）"
+            },
             {
               "text": "at",
               "phonetic": "/æt/",
@@ -1202,12 +1261,17 @@
               "meaning": "家（at home中的用法）（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "helping at home"
+            }
+          ]
         },
         {
           "id": "8-5",
           "sequenceNumber": 8,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "We are all helping at home.",
           "chinese": "我们都在家里帮忙。",
           "speaker": "May",
@@ -1282,7 +1346,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1303,7 +1367,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1316,9 +1380,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "water the flowers",
+          "chinese": "给花浇水",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“给花浇水”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "water",
+              "phonetic": "/ˈwɔːtə/",
+              "partOfSpeech": "v.",
+              "meaning": "给……浇水"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）（复习或原创场景支持词）"
+            },
+            {
+              "text": "flowers",
+              "phonetic": "/ˈflaʊəz/",
+              "partOfSpeech": "n.",
+              "meaning": "花；flower的复数（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "water the flowers"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "I can water the flowers.",
           "chinese": "我能给花浇水。",
           "speaker": "May",
@@ -1395,16 +1497,16 @@
           "structureBlocks": []
         },
         {
-          "id": "10-4",
+          "id": "10-7",
           "sequenceNumber": 10,
           "segmentNumber": 2,
           "english": "My brother",
-          "chinese": "我弟弟",
+          "chinese": "我的弟弟",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的弟弟”；将它接回完整表达。",
           "words": [
             {
               "text": "My",
@@ -1419,7 +1521,12 @@
               "meaning": "兄弟（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My brother"
+            }
+          ]
         },
         {
           "id": "10-2",
@@ -1464,23 +1571,17 @@
           "structureBlocks": []
         },
         {
-          "id": "10-5",
+          "id": "10-8",
           "sequenceNumber": 10,
           "segmentNumber": 5,
-          "english": "can feed the cat",
-          "chinese": "能喂猫",
+          "english": "feed the cat",
+          "chinese": "喂猫",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喂猫”；将它接回完整表达。",
           "words": [
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
             {
               "text": "feed",
               "phonetic": "/fiːd/",
@@ -1500,7 +1601,12 @@
               "meaning": "猫（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feed the cat"
+            }
+          ]
         },
         {
           "id": "10-6",
@@ -1575,7 +1681,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1588,61 +1694,16 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
-          "sequenceNumber": 11,
-          "segmentNumber": 2,
-          "english": "What chores can you do",
-          "chinese": "你能做什么家务",
-          "speaker": "May",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "What",
-              "phonetic": "/wɒt/",
-              "partOfSpeech": "det.",
-              "meaning": "什么（修饰chores）"
-            },
-            {
-              "text": "chores",
-              "phonetic": "/tʃɔːz/",
-              "partOfSpeech": "n.",
-              "meaning": "家务；chore的复数（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "pron.",
-              "meaning": "你；你们（复习或原创场景支持词）"
-            },
-            {
-              "text": "do",
-              "phonetic": "/duː/",
-              "partOfSpeech": "v.",
-              "meaning": "做（本句在can后为动作动词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "11-3",
           "sequenceNumber": 11,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "on Sunday",
           "chinese": "在星期日",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在星期日”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -1657,12 +1718,17 @@
               "meaning": "星期日（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on Sunday"
+            }
+          ]
         },
         {
           "id": "11-4",
           "sequenceNumber": 11,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "What chores can you do on Sunday?",
           "chinese": "你星期日能做什么家务？",
           "speaker": "May",
@@ -1780,23 +1846,17 @@
           "structureBlocks": []
         },
         {
-          "id": "12-4",
+          "id": "12-7",
           "sequenceNumber": 12,
           "segmentNumber": 3,
-          "english": "I clean the table",
-          "chinese": "我擦桌子",
+          "english": "clean the table",
+          "chinese": "擦桌子",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“擦桌子”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
             {
               "text": "clean",
               "phonetic": "/kliːn/",
@@ -1816,7 +1876,12 @@
               "meaning": "桌子；表格（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "clean the table"
+            }
+          ]
         },
         {
           "id": "12-3",
@@ -1849,7 +1914,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在晚饭后”；将它接回完整表达。",
           "words": [
             {
               "text": "after",
@@ -1864,7 +1929,12 @@
               "meaning": "晚餐（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "after dinner"
+            }
+          ]
         },
         {
           "id": "12-6",
@@ -1943,7 +2013,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1964,7 +2034,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1985,7 +2055,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1998,9 +2068,53 @@
           "structureBlocks": []
         },
         {
-          "id": "13-4",
+          "id": "13-5",
           "sequenceNumber": 13,
           "segmentNumber": 4,
+          "english": "make a chore table",
+          "chinese": "制作一张家务表",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“制作一张家务表”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "做；制作（复习或原创场景支持词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "chore",
+              "phonetic": "/tʃɔː/",
+              "partOfSpeech": "n.",
+              "meaning": "日常事务"
+            },
+            {
+              "text": "table",
+              "phonetic": "/ˈteɪbəl/",
+              "partOfSpeech": "n.",
+              "meaning": "桌子；表格（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make a chore table"
+            }
+          ]
+        },
+        {
+          "id": "13-4",
+          "sequenceNumber": 13,
+          "segmentNumber": 5,
           "english": "Let's make a chore table.",
           "chinese": "我们制作一张家务表吧。",
           "speaker": "May",
@@ -2085,7 +2199,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2106,7 +2220,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2127,7 +2241,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2140,9 +2254,53 @@
           "structureBlocks": []
         },
         {
-          "id": "14-5",
+          "id": "14-6",
           "sequenceNumber": 14,
           "segmentNumber": 5,
+          "english": "part of family life",
+          "chinese": "家庭生活的一部分",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“家庭生活的一部分”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "part",
+              "phonetic": "/pɑːt/",
+              "partOfSpeech": "n.",
+              "meaning": "部分（复习或原创场景支持词）"
+            },
+            {
+              "text": "of",
+              "phonetic": "/ɒv/",
+              "partOfSpeech": "prep.",
+              "meaning": "……的（复习或原创场景支持词）"
+            },
+            {
+              "text": "family",
+              "phonetic": "/ˈfæməli/",
+              "partOfSpeech": "n.",
+              "meaning": "家庭；家人（复习或原创场景支持词）"
+            },
+            {
+              "text": "life",
+              "phonetic": "/laɪf/",
+              "partOfSpeech": "n.",
+              "meaning": "生活（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "part of family life"
+            }
+          ]
+        },
+        {
+          "id": "14-5",
+          "sequenceNumber": 14,
+          "segmentNumber": 6,
           "english": "Chores are part of family life.",
           "chinese": "家务是家庭生活的一部分。",
           "speaker": "Tom",
@@ -2246,23 +2404,17 @@
           "structureBlocks": []
         },
         {
-          "id": "15-4",
+          "id": "15-7",
           "sequenceNumber": 15,
           "segmentNumber": 3,
-          "english": "I water the flowers",
-          "chinese": "我给花浇水",
+          "english": "water the flowers",
+          "chinese": "给花浇水",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“给花浇水”；将它接回完整表达。",
           "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
             {
               "text": "water",
               "phonetic": "/ˈwɔːtə/",
@@ -2282,7 +2434,12 @@
               "meaning": "花；flower的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "water the flowers"
+            }
+          ]
         },
         {
           "id": "15-3",
@@ -2315,7 +2472,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在六点半”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -2342,7 +2499,12 @@
               "meaning": "六（已学数量词复习）（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at half past six"
+            }
+          ]
         },
         {
           "id": "15-6",

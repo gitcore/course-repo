@@ -32,29 +32,17 @@
           "structureBlocks": []
         },
         {
-          "id": "1-3",
+          "id": "1-6",
           "sequenceNumber": 1,
           "segmentNumber": 2,
-          "english": "There is a party",
-          "chinese": "有一场联欢会",
+          "english": "a party",
+          "chinese": "一场联欢会",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一场联欢会”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -68,7 +56,12 @@
               "meaning": "聚会；联欢会"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a party"
+            }
+          ]
         },
         {
           "id": "1-2",
@@ -101,7 +94,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在我们教室里”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -122,7 +115,12 @@
               "meaning": "教室（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in our classroom"
+            }
+          ]
         },
         {
           "id": "1-5",
@@ -216,29 +214,17 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-5",
           "sequenceNumber": 2,
           "segmentNumber": 2,
-          "english": "There are three games",
-          "chinese": "有三个游戏",
+          "english": "three games",
+          "chinese": "三个游戏",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“三个游戏”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
-            {
-              "text": "are",
-              "phonetic": "/ɑː/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "three",
               "phonetic": "/θriː/",
@@ -252,7 +238,12 @@
               "meaning": "游戏；game的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "three games"
+            }
+          ]
         },
         {
           "id": "2-3",
@@ -264,7 +255,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在联欢会上”；将它接回完整表达。",
           "words": [
             {
               "text": "at",
@@ -285,7 +276,12 @@
               "meaning": "聚会；联欢会"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "at the party"
+            }
+          ]
         },
         {
           "id": "2-4",
@@ -379,42 +375,9 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
-          "sequenceNumber": 3,
-          "segmentNumber": 2,
-          "english": "I can help",
-          "chinese": "我能帮忙",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "help",
-              "phonetic": "/help/",
-              "partOfSpeech": "v.",
-              "meaning": "帮助（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "3-2",
           "sequenceNumber": 3,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "chairs",
           "chinese": "椅子；chair的复数（复习或原创场景支持词）",
           "speaker": "Ben",
@@ -433,17 +396,23 @@
           "structureBlocks": []
         },
         {
-          "id": "3-4",
+          "id": "3-6",
           "sequenceNumber": 3,
-          "segmentNumber": 4,
-          "english": "with the chairs",
+          "segmentNumber": 3,
+          "english": "help with the chairs",
           "chinese": "帮忙搬放椅子",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮忙搬放椅子”；将它接回完整表达。",
           "words": [
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助（复习或原创场景支持词）"
+            },
             {
               "text": "with",
               "phonetic": "/wɪð/",
@@ -463,12 +432,17 @@
               "meaning": "椅子；chair的复数（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "help with the chairs"
+            }
+          ]
         },
         {
           "id": "3-5",
           "sequenceNumber": 3,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "I can help with the chairs.",
           "chinese": "我能帮忙搬放椅子。",
           "speaker": "Ben",
@@ -615,7 +589,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -636,7 +610,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -649,9 +623,47 @@
           "structureBlocks": []
         },
         {
-          "id": "5-3",
+          "id": "5-4",
           "sequenceNumber": 5,
           "segmentNumber": 3,
+          "english": "take this chair",
+          "chinese": "搬这把椅子",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“搬这把椅子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "搬；拿（当前椅子场景）"
+            },
+            {
+              "text": "this",
+              "phonetic": "/ðɪs/",
+              "partOfSpeech": "det.",
+              "meaning": "这个（复习或原创场景支持词）"
+            },
+            {
+              "text": "chair",
+              "phonetic": "/tʃeə/",
+              "partOfSpeech": "n.",
+              "meaning": "椅子（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take this chair"
+            }
+          ]
+        },
+        {
+          "id": "5-3",
+          "sequenceNumber": 5,
+          "segmentNumber": 4,
           "english": "Please take this chair.",
           "chinese": "请搬这把椅子。",
           "speaker": "Tom",
@@ -709,7 +721,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -730,7 +742,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -743,9 +755,59 @@
           "structureBlocks": []
         },
         {
-          "id": "6-5",
+          "id": "6-6",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "get a chair from Tom",
+          "chinese": "从Tom那里拿一把椅子",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“从Tom那里拿一把椅子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "get",
+              "phonetic": "/ɡet/",
+              "partOfSpeech": "v.",
+              "meaning": "去取（复习或原创场景支持词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "chair",
+              "phonetic": "/tʃeə/",
+              "partOfSpeech": "n.",
+              "meaning": "椅子（复习或原创场景支持词）"
+            },
+            {
+              "text": "from",
+              "phonetic": "/frɒm/",
+              "partOfSpeech": "prep.",
+              "meaning": "来自"
+            },
+            {
+              "text": "Tom",
+              "phonetic": "/tɒm/",
+              "partOfSpeech": "proper n.",
+              "meaning": "Tom（原创角色）（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "get a chair from Tom"
+            }
+          ]
+        },
+        {
+          "id": "6-5",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "I can get a chair from Tom.",
           "chinese": "我可以从汤姆那里拿一把椅子。",
           "speaker": "Ben",
@@ -859,29 +921,17 @@
           "structureBlocks": []
         },
         {
-          "id": "7-4",
+          "id": "7-7",
           "sequenceNumber": 7,
           "segmentNumber": 3,
-          "english": "There is a small hole",
-          "chinese": "有一个小洞",
+          "english": "a small hole",
+          "chinese": "一个小洞",
           "speaker": "May",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一个小洞”；将它接回完整表达。",
           "words": [
-            {
-              "text": "There",
-              "phonetic": "/ðeə/",
-              "partOfSpeech": "adv.",
-              "meaning": "there is/are中的引导词，表示有（复习或原创场景支持词）"
-            },
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "有（there be结构，与后面的单复数对应）"
-            },
             {
               "text": "a",
               "phonetic": "/ə/",
@@ -901,7 +951,12 @@
               "meaning": "洞（教材星号支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a small hole"
+            }
+          ]
         },
         {
           "id": "7-3",
@@ -934,7 +989,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在袋子上”；将它接回完整表达。",
           "words": [
             {
               "text": "in",
@@ -955,7 +1010,12 @@
               "meaning": "包；袋（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the bag"
+            }
+          ]
         },
         {
           "id": "7-6",
@@ -1055,48 +1115,9 @@
           "structureBlocks": []
         },
         {
-          "id": "8-3",
-          "sequenceNumber": 8,
-          "segmentNumber": 2,
-          "english": "I can help you",
-          "chinese": "我能帮助你",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "help",
-              "phonetic": "/help/",
-              "partOfSpeech": "v.",
-              "meaning": "帮助（复习或原创场景支持词）"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "pron.",
-              "meaning": "你；你们（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "8-2",
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "bag",
           "chinese": "包；袋（复习或原创场景支持词）",
           "speaker": "Ben",
@@ -1115,17 +1136,29 @@
           "structureBlocks": []
         },
         {
-          "id": "8-4",
+          "id": "8-6",
           "sequenceNumber": 8,
-          "segmentNumber": 4,
-          "english": "with the bag",
-          "chinese": "处理这个袋子",
+          "segmentNumber": 3,
+          "english": "help you with the bag",
+          "chinese": "帮你处理这个袋子",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮你处理这个袋子”；将它接回完整表达。",
           "words": [
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助（复习或原创场景支持词）"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们（复习或原创场景支持词）"
+            },
             {
               "text": "with",
               "phonetic": "/wɪð/",
@@ -1145,12 +1178,17 @@
               "meaning": "包；袋（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "help you with the bag"
+            }
+          ]
         },
         {
           "id": "8-5",
           "sequenceNumber": 8,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "I can help you with the bag.",
           "chinese": "我能帮你处理这个袋子。",
           "speaker": "Ben",
@@ -1251,7 +1289,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1264,9 +1302,41 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "your help",
+          "chinese": "你的帮助",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“你的帮助”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的（复习或原创场景支持词）"
+            },
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "n.",
+              "meaning": "帮助（for your help中的名词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "your help"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "Thank you for your help.",
           "chinese": "谢谢你的帮助。",
           "speaker": "May",
@@ -1326,7 +1396,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1347,7 +1417,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1360,9 +1430,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-3",
+          "id": "10-4",
           "sequenceNumber": 10,
           "segmentNumber": 3,
+          "english": "a kind friend",
+          "chinese": "一位体贴的朋友",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一位体贴的朋友”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "kind",
+              "phonetic": "/kaɪnd/",
+              "partOfSpeech": "adj.",
+              "meaning": "友好的；体贴的"
+            },
+            {
+              "text": "friend",
+              "phonetic": "/frend/",
+              "partOfSpeech": "n.",
+              "meaning": "朋友（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a kind friend"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
           "english": "You are a kind friend.",
           "chinese": "你是一位体贴的朋友。",
           "speaker": "Tom",
@@ -1474,7 +1582,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我这幅画里的老鼠”；将它接回完整表达。",
           "words": [
             {
               "text": "My",
@@ -1507,7 +1615,12 @@
               "meaning": "图画（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My mouse in this picture"
+            }
+          ]
         },
         {
           "id": "11-3",
@@ -1518,7 +1631,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1531,36 +1644,9 @@
           "structureBlocks": []
         },
         {
-          "id": "11-5",
-          "sequenceNumber": 11,
-          "segmentNumber": 5,
-          "english": "is thin",
-          "chinese": "很瘦",
-          "speaker": "May",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）（复习或原创场景支持词）"
-            },
-            {
-              "text": "thin",
-              "phonetic": "/θɪn/",
-              "partOfSpeech": "adj.",
-              "meaning": "瘦的"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "11-6",
           "sequenceNumber": 11,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "My mouse in this picture is thin.",
           "chinese": "我这幅画里的老鼠很瘦。",
           "speaker": "May",
@@ -1679,7 +1765,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我这幅画里的狮子”；将它接回完整表达。",
           "words": [
             {
               "text": "My",
@@ -1712,7 +1798,12 @@
               "meaning": "图画（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My lion in this picture"
+            }
+          ]
         },
         {
           "id": "12-3",
@@ -1723,7 +1814,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记这一词组中的必记单词",
+          "hint": "先记本句的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1736,36 +1827,9 @@
           "structureBlocks": []
         },
         {
-          "id": "12-5",
-          "sequenceNumber": 12,
-          "segmentNumber": 5,
-          "english": "is angry",
-          "chinese": "很生气",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "is",
-              "phonetic": "/ɪz/",
-              "partOfSpeech": "v.",
-              "meaning": "是（用于单数）（复习或原创场景支持词）"
-            },
-            {
-              "text": "angry",
-              "phonetic": "/ˈæŋɡri/",
-              "partOfSpeech": "adj.",
-              "meaning": "发怒的；生气的"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "12-6",
           "sequenceNumber": 12,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "My lion in this picture is angry.",
           "chinese": "我这幅画里的狮子很生气。",
           "speaker": "Ben",
@@ -1854,42 +1918,9 @@
           "structureBlocks": []
         },
         {
-          "id": "13-3",
-          "sequenceNumber": 13,
-          "segmentNumber": 2,
-          "english": "I am sad",
-          "chinese": "我感到难过",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "am",
-              "phonetic": "/æm/",
-              "partOfSpeech": "v.",
-              "meaning": "是（与I搭配）（复习或原创场景支持词）"
-            },
-            {
-              "text": "sad",
-              "phonetic": "/sæd/",
-              "partOfSpeech": "adj.",
-              "meaning": "悲哀的；难过的"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "13-2",
           "sequenceNumber": 13,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "picture",
           "chinese": "图画（复习或原创场景支持词）",
           "speaker": "Tom",
@@ -1908,17 +1939,23 @@
           "structureBlocks": []
         },
         {
-          "id": "13-4",
+          "id": "13-6",
           "sequenceNumber": 13,
-          "segmentNumber": 4,
-          "english": "about my picture",
-          "chinese": "因为自己的画",
+          "segmentNumber": 3,
+          "english": "sad about my picture",
+          "chinese": "对自己的画感到难过",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的形容词短语，表达“对自己的画感到难过”；将它接回完整表达。",
           "words": [
+            {
+              "text": "sad",
+              "phonetic": "/sæd/",
+              "partOfSpeech": "adj.",
+              "meaning": "悲哀的；难过的"
+            },
             {
               "text": "about",
               "phonetic": "/əˈbaʊt/",
@@ -1938,12 +1975,17 @@
               "meaning": "图画（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "sad about my picture"
+            }
+          ]
         },
         {
           "id": "13-5",
           "sequenceNumber": 13,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "I am sad about my picture.",
           "chinese": "我对自己的画感到难过。",
           "speaker": "Tom",
@@ -2017,7 +2059,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2038,7 +2080,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2059,7 +2101,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -2072,9 +2114,53 @@
           "structureBlocks": []
         },
         {
-          "id": "14-4",
+          "id": "14-5",
           "sequenceNumber": 14,
           "segmentNumber": 4,
+          "english": "make a picture together",
+          "chinese": "一起画一幅画",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“一起画一幅画”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "做；制作（复习或原创场景支持词）"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）（复习或原创场景支持词）"
+            },
+            {
+              "text": "picture",
+              "phonetic": "/ˈpɪktʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "图画（复习或原创场景支持词）"
+            },
+            {
+              "text": "together",
+              "phonetic": "/təˈɡeðə/",
+              "partOfSpeech": "adv.",
+              "meaning": "一起（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make a picture together"
+            }
+          ]
+        },
+        {
+          "id": "14-4",
+          "sequenceNumber": 14,
+          "segmentNumber": 5,
           "english": "We can make a picture together.",
           "chinese": "我们可以一起画一幅画。",
           "speaker": "May",

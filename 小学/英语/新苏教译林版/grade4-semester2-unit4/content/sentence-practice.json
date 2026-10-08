@@ -40,7 +40,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,41 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "look tired",
+          "chinese": "看起来很累",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“看起来很累”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "look",
+              "phonetic": "/lʊk/",
+              "partOfSpeech": "v.",
+              "meaning": "看；看起来（复习或原创场景支持词）"
+            },
+            {
+              "text": "tired",
+              "phonetic": "/ˈtaɪəd/",
+              "partOfSpeech": "adj.",
+              "meaning": "疲倦的；疲劳的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "look tired"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Mum, you look tired today.",
           "chinese": "妈妈，你今天看起来很累。",
           "speaker": "Ben",
@@ -225,7 +257,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -246,7 +278,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -267,7 +299,7 @@
           "speaker": "Mum",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -280,9 +312,53 @@
           "structureBlocks": []
         },
         {
-          "id": "3-4",
+          "id": "3-5",
           "sequenceNumber": 3,
           "segmentNumber": 4,
+          "english": "feel hot and thirsty",
+          "chinese": "感觉很热而且口渴",
+          "speaker": "Mum",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“感觉很热而且口渴”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "feel",
+              "phonetic": "/fiːl/",
+              "partOfSpeech": "v.",
+              "meaning": "觉得；感到（复习或原创场景支持词）"
+            },
+            {
+              "text": "hot",
+              "phonetic": "/hɒt/",
+              "partOfSpeech": "adj.",
+              "meaning": "觉得闷热的"
+            },
+            {
+              "text": "and",
+              "phonetic": "/ænd/",
+              "partOfSpeech": "conj.",
+              "meaning": "和；并且（复习或原创场景支持词）"
+            },
+            {
+              "text": "thirsty",
+              "phonetic": "/ˈθɜːsti/",
+              "partOfSpeech": "adj.",
+              "meaning": "渴的；口渴的（教材星号支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feel hot and thirsty"
+            }
+          ]
+        },
+        {
+          "id": "3-4",
+          "sequenceNumber": 3,
+          "segmentNumber": 5,
           "english": "I feel hot and thirsty.",
           "chinese": "我感觉很热，还很口渴。",
           "speaker": "Mum",
@@ -346,7 +422,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -359,9 +435,41 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-3",
           "sequenceNumber": 4,
           "segmentNumber": 2,
+          "english": "some water",
+          "chinese": "一些水",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一些水”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "some",
+              "phonetic": "/sʌm/",
+              "partOfSpeech": "det.",
+              "meaning": "一些（复习或原创场景支持词）"
+            },
+            {
+              "text": "water",
+              "phonetic": "/ˈwɔːtə/",
+              "partOfSpeech": "n.",
+              "meaning": "水"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "some water"
+            }
+          ]
+        },
+        {
+          "id": "4-2",
+          "sequenceNumber": 4,
+          "segmentNumber": 3,
           "english": "Would you like some water?",
           "chinese": "你想喝点水吗？",
           "speaker": "Ben",
@@ -421,42 +529,9 @@
           ]
         },
         {
-          "id": "5-3",
-          "sequenceNumber": 5,
-          "segmentNumber": 1,
-          "english": "Yes I'd like",
-          "chinese": "好的 我想要",
-          "speaker": "Mum",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "Yes",
-              "phonetic": "/jes/",
-              "partOfSpeech": "interj.",
-              "meaning": "好的；是的（接受提议）"
-            },
-            {
-              "text": "I'd",
-              "phonetic": "/aɪd/",
-              "partOfSpeech": "contraction",
-              "meaning": "I would的缩写（复习或原创场景支持词）"
-            },
-            {
-              "text": "like",
-              "phonetic": "/laɪk/",
-              "partOfSpeech": "v.",
-              "meaning": "想要；喜欢（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "5-1",
           "sequenceNumber": 5,
-          "segmentNumber": 2,
+          "segmentNumber": 1,
           "english": "glass",
           "chinese": "玻璃杯（复习或原创场景支持词）",
           "speaker": "Mum",
@@ -477,7 +552,7 @@
         {
           "id": "5-2",
           "sequenceNumber": 5,
-          "segmentNumber": 3,
+          "segmentNumber": 2,
           "english": "water",
           "chinese": "水",
           "speaker": "Mum",
@@ -498,14 +573,14 @@
         {
           "id": "5-4",
           "sequenceNumber": 5,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "a glass of water",
           "chinese": "一杯水",
           "speaker": "Mum",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的名词短语，表达“一杯水”；将它接回完整表达。",
           "words": [
             {
               "text": "a",
@@ -532,12 +607,17 @@
               "meaning": "水"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "a glass of water"
+            }
+          ]
         },
         {
           "id": "5-5",
           "sequenceNumber": 5,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "Yes, I'd like a glass of water.",
           "chinese": "好的，我想喝一杯水。",
           "speaker": "Mum",
@@ -630,23 +710,17 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-6",
           "sequenceNumber": 6,
           "segmentNumber": 2,
-          "english": "Please have a rest",
-          "chinese": "请休息一下",
+          "english": "have a rest",
+          "chinese": "休息一下",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“休息一下”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Please",
-              "phonetic": "/pliːz/",
-              "partOfSpeech": "interj.",
-              "meaning": "请（复习或原创场景支持词）"
-            },
             {
               "text": "have",
               "phonetic": "/hæv/",
@@ -666,7 +740,12 @@
               "meaning": "休息（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have a rest"
+            }
+          ]
         },
         {
           "id": "6-2",
@@ -699,7 +778,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“坐在这把椅子上”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -720,7 +799,12 @@
               "meaning": "椅子（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on this chair"
+            }
+          ]
         },
         {
           "id": "6-5",
@@ -805,7 +889,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -826,7 +910,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -839,9 +923,59 @@
           "structureBlocks": []
         },
         {
-          "id": "7-5",
+          "id": "7-6",
           "sequenceNumber": 7,
           "segmentNumber": 3,
+          "english": "take your bag for you",
+          "chinese": "帮你拿包",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“帮你拿包”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "take",
+              "phonetic": "/teɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "带；拿（复习或原创场景支持词）"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的；你们的（复习或原创场景支持词）"
+            },
+            {
+              "text": "bag",
+              "phonetic": "/bæɡ/",
+              "partOfSpeech": "n.",
+              "meaning": "包；袋"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了（复习或原创场景支持词）"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "take your bag for you"
+            }
+          ]
+        },
+        {
+          "id": "7-5",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
           "english": "I can take your bag for you.",
           "chinese": "我可以帮你拿包。",
           "speaker": "Ben",
@@ -1068,7 +1202,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1089,7 +1223,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1102,9 +1236,41 @@
           "structureBlocks": []
         },
         {
-          "id": "10-3",
+          "id": "10-4",
           "sequenceNumber": 10,
           "segmentNumber": 3,
+          "english": "feel ill",
+          "chinese": "觉得不舒服",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“觉得不舒服”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "feel",
+              "phonetic": "/fiːl/",
+              "partOfSpeech": "v.",
+              "meaning": "觉得；感到（复习或原创场景支持词）"
+            },
+            {
+              "text": "ill",
+              "phonetic": "/ɪl/",
+              "partOfSpeech": "adj.",
+              "meaning": "不舒服的；有病的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "feel ill"
+            }
+          ]
+        },
+        {
+          "id": "10-3",
+          "sequenceNumber": 10,
+          "segmentNumber": 4,
           "english": "I feel ill.",
           "chinese": "我觉得不舒服。",
           "speaker": "Ben",
@@ -1156,7 +1322,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1177,7 +1343,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1190,9 +1356,47 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "tell our teacher",
+          "chinese": "告诉我们的老师",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“告诉我们的老师”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "tell",
+              "phonetic": "/tel/",
+              "partOfSpeech": "v.",
+              "meaning": "告诉（复习或原创场景支持词）"
+            },
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的（复习或原创场景支持词）"
+            },
+            {
+              "text": "teacher",
+              "phonetic": "/ˈtiːtʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "教师（复习或原创场景支持词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "tell our teacher"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "Let's tell our teacher.",
           "chinese": "我们告诉老师吧。",
           "speaker": "Tom",
@@ -1284,54 +1488,9 @@
           "structureBlocks": []
         },
         {
-          "id": "12-4",
-          "sequenceNumber": 12,
-          "segmentNumber": 3,
-          "english": "I can help you go",
-          "chinese": "我可以帮助你去",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我（复习或原创场景支持词）"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以（复习或原创场景支持词）"
-            },
-            {
-              "text": "help",
-              "phonetic": "/help/",
-              "partOfSpeech": "v.",
-              "meaning": "帮助（复习或原创场景支持词）"
-            },
-            {
-              "text": "you",
-              "phonetic": "/juː/",
-              "partOfSpeech": "pron.",
-              "meaning": "你；你们（复习或原创场景支持词）"
-            },
-            {
-              "text": "go",
-              "phonetic": "/ɡəʊ/",
-              "partOfSpeech": "v.",
-              "meaning": "走；前进（复习或原创场景支持词）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "12-3",
           "sequenceNumber": 12,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "nurse",
           "chinese": "护士（复习或原创场景支持词）",
           "speaker": "Tom",
@@ -1350,17 +1509,35 @@
           "structureBlocks": []
         },
         {
-          "id": "12-5",
+          "id": "12-7",
           "sequenceNumber": 12,
-          "segmentNumber": 5,
-          "english": "to the nurse",
-          "chinese": "找护士",
+          "segmentNumber": 4,
+          "english": "help you go to the nurse",
+          "chinese": "陪你去找护士",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“陪你去找护士”；将它接回完整表达。",
           "words": [
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助（复习或原创场景支持词）"
+            },
+            {
+              "text": "you",
+              "phonetic": "/juː/",
+              "partOfSpeech": "pron.",
+              "meaning": "你；你们（复习或原创场景支持词）"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "v.",
+              "meaning": "走；前进（复习或原创场景支持词）"
+            },
             {
               "text": "to",
               "phonetic": "/tuː/",
@@ -1380,12 +1557,17 @@
               "meaning": "护士（复习或原创场景支持词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "help you go to the nurse"
+            }
+          ]
         },
         {
           "id": "12-6",
           "sequenceNumber": 12,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "I can help you go to the nurse.",
           "chinese": "我可以陪你去找护士。",
           "speaker": "Tom",
@@ -1548,7 +1730,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1569,7 +1751,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1582,9 +1764,47 @@
           "structureBlocks": []
         },
         {
-          "id": "14-3",
+          "id": "14-4",
           "sequenceNumber": 14,
           "segmentNumber": 3,
+          "english": "want any bread",
+          "chinese": "想要一些面包",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“想要一些面包”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "want",
+              "phonetic": "/wɒnt/",
+              "partOfSpeech": "v.",
+              "meaning": "想要（复习或原创场景支持词）"
+            },
+            {
+              "text": "any",
+              "phonetic": "/ˈeni/",
+              "partOfSpeech": "det.",
+              "meaning": "任何；一些（疑问句中的用法）（复习或原创场景支持词）"
+            },
+            {
+              "text": "bread",
+              "phonetic": "/bred/",
+              "partOfSpeech": "n.",
+              "meaning": "面包"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "want any bread"
+            }
+          ]
+        },
+        {
+          "id": "14-3",
+          "sequenceNumber": 14,
+          "segmentNumber": 4,
           "english": "No, I don't want any bread.",
           "chinese": "不，我不想吃面包。",
           "speaker": "Ben",

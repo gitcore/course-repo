@@ -102,7 +102,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -115,9 +115,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-2",
+          "id": "2-3",
           "sequenceNumber": 2,
           "segmentNumber": 2,
+          "english": "like swimming",
+          "chinese": "喜欢游泳",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢游泳”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "swimming",
+              "phonetic": "/ˈswɪmɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "游泳；游泳运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like swimming"
+            }
+          ]
+        },
+        {
+          "id": "2-2",
+          "sequenceNumber": 2,
+          "segmentNumber": 3,
           "english": "I like swimming.",
           "chinese": "我喜欢游泳。",
           "speaker": "May",
@@ -169,7 +201,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -190,7 +222,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -203,9 +235,47 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-4",
           "sequenceNumber": 3,
           "segmentNumber": 3,
+          "english": "like playing football",
+          "chinese": "喜欢踢足球",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢踢足球”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "playing",
+              "phonetic": "/ˈpleɪɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "玩；打球（like playing中的动名词）"
+            },
+            {
+              "text": "football",
+              "phonetic": "/ˈfʊtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "足球；足球运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like playing football"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
           "english": "I like playing football.",
           "chinese": "我喜欢踢足球。",
           "speaker": "Tom",
@@ -263,7 +333,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -284,7 +354,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -297,9 +367,47 @@
           "structureBlocks": []
         },
         {
-          "id": "4-3",
+          "id": "4-4",
           "sequenceNumber": 4,
           "segmentNumber": 3,
+          "english": "like playing basketball",
+          "chinese": "喜欢打篮球",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢打篮球”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "playing",
+              "phonetic": "/ˈpleɪɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "玩；打球（like playing中的动名词）"
+            },
+            {
+              "text": "basketball",
+              "phonetic": "/ˈbɑːskɪtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "篮球；篮球运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like playing basketball"
+            }
+          ]
+        },
+        {
+          "id": "4-3",
+          "sequenceNumber": 4,
+          "segmentNumber": 4,
           "english": "Do you like playing basketball?",
           "chinese": "你喜欢打篮球吗？",
           "speaker": "Ben",
@@ -413,7 +521,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -434,7 +542,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -447,9 +555,47 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "like playing ping-pong",
+          "chinese": "喜欢打乒乓球",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢打乒乓球”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "playing",
+              "phonetic": "/ˈpleɪɪŋ/",
+              "partOfSpeech": "gerund",
+              "meaning": "玩；打球（like playing中的动名词）"
+            },
+            {
+              "text": "ping-pong",
+              "phonetic": "/ˈpɪŋpɒŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "乒乓球运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like playing ping-pong"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "I like playing ping-pong.",
           "chinese": "我喜欢打乒乓球。",
           "speaker": "May",
@@ -507,7 +653,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -520,9 +666,47 @@
           "structureBlocks": []
         },
         {
-          "id": "7-2",
+          "id": "7-3",
           "sequenceNumber": 7,
           "segmentNumber": 2,
+          "english": "play football well",
+          "chinese": "足球踢得好",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“足球踢得好”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "打球；踢球；玩"
+            },
+            {
+              "text": "football",
+              "phonetic": "/ˈfʊtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "足球；足球运动"
+            },
+            {
+              "text": "well",
+              "phonetic": "/wel/",
+              "partOfSpeech": "adv.",
+              "meaning": "好；动作做得好"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "play football well"
+            }
+          ]
+        },
+        {
+          "id": "7-2",
+          "sequenceNumber": 7,
+          "segmentNumber": 3,
           "english": "I can play football well.",
           "chinese": "我足球踢得好。",
           "speaker": "Tom",
@@ -590,7 +774,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -603,9 +787,73 @@
           "structureBlocks": []
         },
         {
-          "id": "8-2",
+          "id": "8-3",
           "sequenceNumber": 8,
           "segmentNumber": 2,
+          "english": "play football",
+          "chinese": "踢足球",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“踢足球”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "play",
+              "phonetic": "/pleɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "打球；踢球；玩"
+            },
+            {
+              "text": "football",
+              "phonetic": "/ˈfʊtbɔːl/",
+              "partOfSpeech": "n.",
+              "meaning": "足球；足球运动"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "play football"
+            }
+          ]
+        },
+        {
+          "id": "8-4",
+          "sequenceNumber": 8,
+          "segmentNumber": 3,
+          "english": "on Friday",
+          "chinese": "在星期五",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在星期五”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在（星期几）"
+            },
+            {
+              "text": "Friday",
+              "phonetic": "/ˈfraɪdeɪ/",
+              "partOfSpeech": "proper n.",
+              "meaning": "星期五"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on Friday"
+            }
+          ]
+        },
+        {
+          "id": "8-2",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
           "english": "Let's play football on Friday.",
           "chinese": "我们星期五踢足球吧。",
           "speaker": "Ben",
@@ -694,7 +942,7 @@
           "speaker": "May",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -707,9 +955,47 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "hard for me",
+          "chinese": "对我来说很难",
+          "speaker": "May",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的形容词短语，表达“对我来说很难”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "hard",
+              "phonetic": "/hɑːd/",
+              "partOfSpeech": "adj.",
+              "meaning": "难做的"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "对……而言；本句指对我而言"
+            },
+            {
+              "text": "me",
+              "phonetic": "/miː/",
+              "partOfSpeech": "pron.",
+              "meaning": "我"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "hard for me"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "Football is hard for me.",
           "chinese": "足球对我来说很难。",
           "speaker": "May",
@@ -823,7 +1109,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -844,7 +1130,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -857,9 +1143,41 @@
           "structureBlocks": []
         },
         {
-          "id": "11-3",
+          "id": "11-4",
           "sequenceNumber": 11,
           "segmentNumber": 3,
+          "english": "try together",
+          "chinese": "一起试试",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“一起试试”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "try",
+              "phonetic": "/traɪ/",
+              "partOfSpeech": "v.",
+              "meaning": "尝试"
+            },
+            {
+              "text": "together",
+              "phonetic": "/təˈɡeðə/",
+              "partOfSpeech": "adv.",
+              "meaning": "一起"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "try together"
+            }
+          ]
+        },
+        {
+          "id": "11-3",
+          "sequenceNumber": 11,
+          "segmentNumber": 4,
           "english": "We can try together.",
           "chinese": "我们可以一起试试。",
           "speaker": "Ben",
@@ -909,9 +1227,47 @@
           ]
         },
         {
-          "id": "12-1",
+          "id": "12-2",
           "sequenceNumber": 12,
           "segmentNumber": 1,
+          "english": "Have a go",
+          "chinese": "试一试",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的固定搭配，表达“试一试”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "用于Have a go，表示尝试"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "go",
+              "phonetic": "/ɡəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "一次尝试（have a go中的词）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "固定搭配",
+              "text": "Have a go"
+            }
+          ]
+        },
+        {
+          "id": "12-1",
+          "sequenceNumber": 12,
+          "segmentNumber": 2,
           "english": "Have a go, May.",
           "chinese": "试一试吧，May。",
           "speaker": "Tom",
@@ -1156,9 +1512,47 @@
           "structureBlocks": []
         },
         {
-          "id": "16-2",
+          "id": "16-3",
           "sequenceNumber": 16,
           "segmentNumber": 2,
+          "english": "good for us",
+          "chinese": "对我们有益",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的形容词短语，表达“对我们有益”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "good",
+              "phonetic": "/ɡʊd/",
+              "partOfSpeech": "adj.",
+              "meaning": "好的"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "对……有益；本句说明对我们有益"
+            },
+            {
+              "text": "us",
+              "phonetic": "/ʌs/",
+              "partOfSpeech": "pron.",
+              "meaning": "我们（宾格）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "形容词短语",
+              "text": "good for us"
+            }
+          ]
+        },
+        {
+          "id": "16-2",
+          "sequenceNumber": 16,
+          "segmentNumber": 3,
           "english": "Sport is good for us.",
           "chinese": "运动对我们有益。",
           "speaker": "Ben",

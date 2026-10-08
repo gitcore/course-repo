@@ -19,7 +19,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -53,9 +53,53 @@
           "structureBlocks": []
         },
         {
-          "id": "1-3",
+          "id": "1-4",
           "sequenceNumber": 1,
           "segmentNumber": 3,
+          "english": "have a school show",
+          "chinese": "举办一场学校作品展",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“举办一场学校作品展”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "have",
+              "phonetic": "/hæv/",
+              "partOfSpeech": "v.",
+              "meaning": "有"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "school",
+              "phonetic": "/skuːl/",
+              "partOfSpeech": "n.",
+              "meaning": "学校"
+            },
+            {
+              "text": "show",
+              "phonetic": "/ʃəʊ/",
+              "partOfSpeech": "n.",
+              "meaning": "作品展"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "have a school show"
+            }
+          ]
+        },
+        {
+          "id": "1-3",
+          "sequenceNumber": 1,
+          "segmentNumber": 4,
           "english": "We have a school show today.",
           "chinese": "我们今天有学校作品展。",
           "speaker": "Tom",
@@ -129,7 +173,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -150,7 +194,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -163,9 +207,53 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 3,
+          "english": "keep the door clear",
+          "chinese": "让门口保持畅通",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“让门口保持畅通”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "keep",
+              "phonetic": "/kiːp/",
+              "partOfSpeech": "v.",
+              "meaning": "保持"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "door",
+              "phonetic": "/dɔː/",
+              "partOfSpeech": "n.",
+              "meaning": "门"
+            },
+            {
+              "text": "clear",
+              "phonetic": "/klɪə/",
+              "partOfSpeech": "adj.",
+              "meaning": "畅通的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "keep the door clear"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
           "english": "We should keep the door clear.",
           "chinese": "我们应该让门口保持畅通。",
           "speaker": "Ben",
@@ -239,7 +327,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -252,9 +340,79 @@
           "structureBlocks": []
         },
         {
-          "id": "3-2",
+          "id": "3-3",
           "sequenceNumber": 3,
           "segmentNumber": 2,
+          "english": "These boxes",
+          "chinese": "这些盒子",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“这些盒子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "These",
+              "phonetic": "/ðiːz/",
+              "partOfSpeech": "det.",
+              "meaning": "这些"
+            },
+            {
+              "text": "boxes",
+              "phonetic": "/ˈbɒksɪz/",
+              "partOfSpeech": "n.",
+              "meaning": "盒子；box的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "These boxes"
+            }
+          ]
+        },
+        {
+          "id": "3-4",
+          "sequenceNumber": 3,
+          "segmentNumber": 3,
+          "english": "in the way",
+          "chinese": "挡路",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的介词短语，表达“挡路”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "in",
+              "phonetic": "/ɪn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……里面"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "way",
+              "phonetic": "/weɪ/",
+              "partOfSpeech": "n.",
+              "meaning": "路，方式"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "in the way"
+            }
+          ]
+        },
+        {
+          "id": "3-2",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
           "english": "These boxes are in the way.",
           "chinese": "这些盒子挡路了。",
           "speaker": "Lily",
@@ -337,29 +495,17 @@
           "structureBlocks": []
         },
         {
-          "id": "4-2",
+          "id": "4-5",
           "sequenceNumber": 4,
           "segmentNumber": 2,
-          "english": "We should move them",
-          "chinese": "我们应该移动它们",
+          "english": "move them out of the way",
+          "chinese": "把它们移到不挡路的地方",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把它们移到不挡路的地方”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "modal v.",
-              "meaning": "应该，应当"
-            },
             {
               "text": "move",
               "phonetic": "/muːv/",
@@ -371,22 +517,7 @@
               "phonetic": "/ðem/",
               "partOfSpeech": "pron.",
               "meaning": "它们（指前句的盒子）"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
-          "id": "4-3",
-          "sequenceNumber": 4,
-          "segmentNumber": 3,
-          "english": "out of the way",
-          "chinese": "到不挡路的地方",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "按原句顺序记住这一组词",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
+            },
             {
               "text": "out",
               "phonetic": "/aʊt/",
@@ -412,12 +543,17 @@
               "meaning": "路，方式"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "move them out of the way"
+            }
+          ]
         },
         {
           "id": "4-4",
           "sequenceNumber": 4,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "We should move them out of the way.",
           "chinese": "我们应该把它们移到不挡路的地方。",
           "speaker": "Tom",
@@ -503,7 +639,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -524,7 +660,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -545,7 +681,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -558,9 +694,59 @@
           "structureBlocks": []
         },
         {
-          "id": "5-4",
+          "id": "5-5",
           "sequenceNumber": 5,
           "segmentNumber": 4,
+          "english": "push the heavy box alone",
+          "chinese": "独自推这个重盒子",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“独自推这个重盒子”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "push",
+              "phonetic": "/pʊʃ/",
+              "partOfSpeech": "v.",
+              "meaning": "推（教材星号拓展词）"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "heavy",
+              "phonetic": "/ˈhevi/",
+              "partOfSpeech": "adj.",
+              "meaning": "重的，沉的"
+            },
+            {
+              "text": "box",
+              "phonetic": "/bɒks/",
+              "partOfSpeech": "n.",
+              "meaning": "盒子"
+            },
+            {
+              "text": "alone",
+              "phonetic": "/əˈləʊn/",
+              "partOfSpeech": "adv.",
+              "meaning": "独自"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "push the heavy box alone"
+            }
+          ]
+        },
+        {
+          "id": "5-4",
+          "sequenceNumber": 5,
+          "segmentNumber": 5,
           "english": "You shouldn't push the heavy box alone.",
           "chinese": "你不应该独自推这个重盒子。",
           "speaker": "Ben",
@@ -640,7 +826,7 @@
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -653,9 +839,59 @@
           "structureBlocks": []
         },
         {
-          "id": "6-2",
+          "id": "6-3",
           "sequenceNumber": 6,
           "segmentNumber": 2,
+          "english": "ask our teacher for help",
+          "chinese": "向我们的老师求助",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“向我们的老师求助”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "ask",
+              "phonetic": "/ɑːsk/",
+              "partOfSpeech": "v.",
+              "meaning": "请求；询问"
+            },
+            {
+              "text": "our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "teacher",
+              "phonetic": "/ˈtiːtʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "老师"
+            },
+            {
+              "text": "for",
+              "phonetic": "/fɔː/",
+              "partOfSpeech": "prep.",
+              "meaning": "给；为了"
+            },
+            {
+              "text": "help",
+              "phonetic": "/help/",
+              "partOfSpeech": "v.",
+              "meaning": "帮助"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "ask our teacher for help"
+            }
+          ]
+        },
+        {
+          "id": "6-2",
+          "sequenceNumber": 6,
+          "segmentNumber": 3,
           "english": "We should ask our teacher for help.",
           "chinese": "我们应该向老师求助。",
           "speaker": "Lily",
@@ -735,7 +971,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -756,7 +992,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -769,9 +1005,53 @@
           "structureBlocks": []
         },
         {
-          "id": "7-3",
+          "id": "7-4",
           "sequenceNumber": 7,
           "segmentNumber": 3,
+          "english": "climb on the chairs",
+          "chinese": "爬到椅子上",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“爬到椅子上”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "climb",
+              "phonetic": "/klaɪm/",
+              "partOfSpeech": "v.",
+              "meaning": "攀登，爬（教材星号拓展词）"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上面"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "chairs",
+              "phonetic": "/tʃeəz/",
+              "partOfSpeech": "n.",
+              "meaning": "椅子；chair的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "climb on the chairs"
+            }
+          ]
+        },
+        {
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
           "english": "We shouldn't climb on the chairs.",
           "chinese": "我们不应该爬到椅子上。",
           "speaker": "Tom",
@@ -875,54 +1155,9 @@
           "structureBlocks": []
         },
         {
-          "id": "8-4",
-          "sequenceNumber": 8,
-          "segmentNumber": 3,
-          "english": "We can put the posters",
-          "chinese": "我们可以张贴海报",
-          "speaker": "Ben",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以"
-            },
-            {
-              "text": "put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放"
-            },
-            {
-              "text": "the",
-              "phonetic": "/ðə/",
-              "partOfSpeech": "art.",
-              "meaning": "这个；那个（定冠词）"
-            },
-            {
-              "text": "posters",
-              "phonetic": "/ˈpəʊstəz/",
-              "partOfSpeech": "n.",
-              "meaning": "海报；poster的复数"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "8-3",
           "sequenceNumber": 8,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "wall",
           "chinese": "围墙；墙，壁",
           "speaker": "Ben",
@@ -941,22 +1176,22 @@
           "structureBlocks": []
         },
         {
-          "id": "8-5",
+          "id": "8-7",
           "sequenceNumber": 8,
-          "segmentNumber": 5,
-          "english": "on the wall",
-          "chinese": "在墙上",
+          "segmentNumber": 4,
+          "english": "put the posters on the wall",
+          "chinese": "把海报贴在墙上",
           "speaker": "Ben",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把海报贴在墙上”；将它接回完整表达。",
           "words": [
             {
-              "text": "on",
-              "phonetic": "/ɒn/",
-              "partOfSpeech": "prep.",
-              "meaning": "在……上面"
+              "text": "put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放"
             },
             {
               "text": "the",
@@ -965,18 +1200,35 @@
               "meaning": "这个；那个（定冠词）"
             },
             {
+              "text": "posters",
+              "phonetic": "/ˈpəʊstəz/",
+              "partOfSpeech": "n.",
+              "meaning": "海报；poster的复数"
+            },
+            {
+              "text": "on",
+              "phonetic": "/ɒn/",
+              "partOfSpeech": "prep.",
+              "meaning": "在……上面"
+            },
+            {
               "text": "wall",
               "phonetic": "/wɔːl/",
               "partOfSpeech": "n.",
               "meaning": "围墙；墙，壁"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "put the posters on the wall"
+            }
+          ]
         },
         {
           "id": "8-6",
           "sequenceNumber": 8,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "We can put the posters on the wall.",
           "chinese": "我们可以把海报贴在墙上。",
           "speaker": "Ben",
@@ -1090,23 +1342,17 @@
           "structureBlocks": []
         },
         {
-          "id": "9-4",
+          "id": "9-7",
           "sequenceNumber": 9,
           "segmentNumber": 3,
-          "english": "Please walk slowly",
-          "chinese": "请慢慢走",
+          "english": "walk slowly",
+          "chinese": "慢慢走",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“慢慢走”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Please",
-              "phonetic": "/pliːz/",
-              "partOfSpeech": "interj.",
-              "meaning": "请"
-            },
             {
               "text": "walk",
               "phonetic": "/wɔːk/",
@@ -1120,7 +1366,12 @@
               "meaning": "慢速地，缓慢地"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "walk slowly"
+            }
+          ]
         },
         {
           "id": "9-3",
@@ -1153,7 +1404,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在门附近”；将它接回完整表达。",
           "words": [
             {
               "text": "near",
@@ -1174,7 +1425,12 @@
               "meaning": "门"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "near the door"
+            }
+          ]
         },
         {
           "id": "9-6",
@@ -1253,7 +1509,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1266,9 +1522,47 @@
           "structureBlocks": []
         },
         {
-          "id": "10-2",
+          "id": "10-3",
           "sequenceNumber": 10,
           "segmentNumber": 2,
+          "english": "pull others' clothes",
+          "chinese": "拉扯别人的衣服",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“拉扯别人的衣服”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "pull",
+              "phonetic": "/pʊl/",
+              "partOfSpeech": "v.",
+              "meaning": "拉，拽，扯（教材星号拓展词）"
+            },
+            {
+              "text": "others",
+              "phonetic": "/ˈʌðəz/",
+              "partOfSpeech": "pron.",
+              "meaning": "别人，其他人"
+            },
+            {
+              "text": "clothes",
+              "phonetic": "/kləʊðz/",
+              "partOfSpeech": "n.",
+              "meaning": "衣服（复数）"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "pull others' clothes"
+            }
+          ]
+        },
+        {
+          "id": "10-2",
+          "sequenceNumber": 10,
+          "segmentNumber": 3,
           "english": "We shouldn't pull others' clothes.",
           "chinese": "我们不应该拉扯别人的衣服。",
           "speaker": "Tom",
@@ -1332,7 +1626,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1345,9 +1639,53 @@
           "structureBlocks": []
         },
         {
-          "id": "11-2",
+          "id": "11-3",
           "sequenceNumber": 11,
           "segmentNumber": 2,
+          "english": "listen to the teacher",
+          "chinese": "听从老师",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“听从老师”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "listen",
+              "phonetic": "/ˈlɪsən/",
+              "partOfSpeech": "v.",
+              "meaning": "听从"
+            },
+            {
+              "text": "to",
+              "phonetic": "/tuː/",
+              "partOfSpeech": "prep.",
+              "meaning": "向；到"
+            },
+            {
+              "text": "the",
+              "phonetic": "/ðə/",
+              "partOfSpeech": "art.",
+              "meaning": "这个；那个（定冠词）"
+            },
+            {
+              "text": "teacher",
+              "phonetic": "/ˈtiːtʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "老师"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "listen to the teacher"
+            }
+          ]
+        },
+        {
+          "id": "11-2",
+          "sequenceNumber": 11,
+          "segmentNumber": 3,
           "english": "We should listen to the teacher.",
           "chinese": "我们应该听从老师。",
           "speaker": "Ben",
@@ -1430,29 +1768,17 @@
           "structureBlocks": []
         },
         {
-          "id": "12-3",
+          "id": "12-6",
           "sequenceNumber": 12,
           "segmentNumber": 2,
-          "english": "We should keep to the right",
-          "chinese": "我们应该靠右走",
+          "english": "keep to the right",
+          "chinese": "靠右走",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“靠右走”；将它接回完整表达。",
           "words": [
-            {
-              "text": "We",
-              "phonetic": "/wiː/",
-              "partOfSpeech": "pron.",
-              "meaning": "我们"
-            },
-            {
-              "text": "should",
-              "phonetic": "/ʃʊd/",
-              "partOfSpeech": "modal v.",
-              "meaning": "应该，应当"
-            },
             {
               "text": "keep",
               "phonetic": "/kiːp/",
@@ -1478,7 +1804,12 @@
               "meaning": "右边"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "keep to the right"
+            }
+          ]
         },
         {
           "id": "12-2",
@@ -1511,7 +1842,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“在楼梯上”；将它接回完整表达。",
           "words": [
             {
               "text": "on",
@@ -1532,7 +1863,12 @@
               "meaning": "楼梯（教材星号拓展词）"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "on the stairs"
+            }
+          ]
         },
         {
           "id": "12-5",
@@ -1678,23 +2014,17 @@
           "structureBlocks": []
         },
         {
-          "id": "13-5",
+          "id": "13-8",
           "sequenceNumber": 13,
           "segmentNumber": 4,
-          "english": "Let's make a safety card",
-          "chinese": "我们做一张安全提示卡",
+          "english": "make a safety card",
+          "chinese": "做一张安全提示卡",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做一张安全提示卡”；将它接回完整表达。",
           "words": [
-            {
-              "text": "Let's",
-              "phonetic": "/lets/",
-              "partOfSpeech": "contraction",
-              "meaning": "let us的缩写；让我们"
-            },
             {
               "text": "make",
               "phonetic": "/meɪk/",
@@ -1720,7 +2050,12 @@
               "meaning": "卡片"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make a safety card"
+            }
+          ]
         },
         {
           "id": "13-4",
@@ -1753,7 +2088,7 @@
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的介词短语，表达“为作品展”；将它接回完整表达。",
           "words": [
             {
               "text": "for",
@@ -1774,7 +2109,12 @@
               "meaning": "作品展"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "介词短语",
+              "text": "for the show"
+            }
+          ]
         },
         {
           "id": "13-7",

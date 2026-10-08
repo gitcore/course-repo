@@ -19,7 +19,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -40,7 +40,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -61,7 +61,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -74,9 +74,53 @@
           "structureBlocks": []
         },
         {
-          "id": "1-4",
+          "id": "1-5",
           "sequenceNumber": 1,
           "segmentNumber": 4,
+          "english": "make a hobbies board",
+          "chinese": "做一块兴趣交流板",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“做一块兴趣交流板”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "make",
+              "phonetic": "/meɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "制作"
+            },
+            {
+              "text": "a",
+              "phonetic": "/ə/",
+              "partOfSpeech": "art.",
+              "meaning": "一（个）"
+            },
+            {
+              "text": "hobbies",
+              "phonetic": "/ˈhɒbiz/",
+              "partOfSpeech": "n.",
+              "meaning": "业余爱好；hobby的复数"
+            },
+            {
+              "text": "board",
+              "phonetic": "/bɔːd/",
+              "partOfSpeech": "n.",
+              "meaning": "板；展示板"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "make a hobbies board"
+            }
+          ]
+        },
+        {
+          "id": "1-4",
+          "sequenceNumber": 1,
+          "segmentNumber": 5,
           "english": "Let's make a hobbies board.",
           "chinese": "我们做一块兴趣交流板吧。",
           "speaker": "Ben",
@@ -140,7 +184,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -161,7 +205,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -174,9 +218,41 @@
           "structureBlocks": []
         },
         {
-          "id": "2-3",
+          "id": "2-4",
           "sequenceNumber": 2,
           "segmentNumber": 3,
+          "english": "likes drawing",
+          "chinese": "喜欢画画",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢画画”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "likes",
+              "phonetic": "/laɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢；like的第三人称单数"
+            },
+            {
+              "text": "drawing",
+              "phonetic": "/ˈdrɔːɪŋ/",
+              "partOfSpeech": "n.; v.-ing",
+              "meaning": "绘画；draw的-ing形式"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "likes drawing"
+            }
+          ]
+        },
+        {
+          "id": "2-3",
+          "sequenceNumber": 2,
+          "segmentNumber": 4,
           "english": "Lily likes drawing.",
           "chinese": "Lily喜欢画画。",
           "speaker": "Tom",
@@ -228,7 +304,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -249,7 +325,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -262,9 +338,41 @@
           "structureBlocks": []
         },
         {
-          "id": "3-3",
+          "id": "3-4",
           "sequenceNumber": 3,
           "segmentNumber": 3,
+          "english": "like painting",
+          "chinese": "喜欢用颜料画画",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢用颜料画画”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "painting",
+              "phonetic": "/ˈpeɪntɪŋ/",
+              "partOfSpeech": "n.; v.-ing",
+              "meaning": "用颜料画；paint的-ing形式"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like painting"
+            }
+          ]
+        },
+        {
+          "id": "3-3",
+          "sequenceNumber": 3,
+          "segmentNumber": 4,
           "english": "Does she like painting too?",
           "chinese": "她也喜欢用颜料画画吗？",
           "speaker": "Ben",
@@ -469,7 +577,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -490,7 +598,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -503,9 +611,41 @@
           "structureBlocks": []
         },
         {
-          "id": "6-3",
+          "id": "6-4",
           "sequenceNumber": 6,
           "segmentNumber": 3,
+          "english": "likes paper-cutting",
+          "chinese": "喜欢剪纸",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢剪纸”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "likes",
+              "phonetic": "/laɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢；like的第三人称单数"
+            },
+            {
+              "text": "paper-cutting",
+              "phonetic": "/ˈpeɪpə ˌkʌtɪŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "剪纸"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "likes paper-cutting"
+            }
+          ]
+        },
+        {
+          "id": "6-3",
+          "sequenceNumber": 6,
+          "segmentNumber": 4,
           "english": "She likes paper-cutting.",
           "chinese": "她喜欢剪纸。",
           "speaker": "Tom",
@@ -557,7 +697,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -578,7 +718,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -591,9 +731,47 @@
           "structureBlocks": []
         },
         {
-          "id": "7-3",
+          "id": "7-4",
           "sequenceNumber": 7,
           "segmentNumber": 3,
+          "english": "makes her happy",
+          "chinese": "使她感到快乐",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“使她感到快乐”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "makes",
+              "phonetic": "/meɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "使；make的第三人称单数"
+            },
+            {
+              "text": "her",
+              "phonetic": "/hɜː/",
+              "partOfSpeech": "pron.",
+              "meaning": "她（宾格）"
+            },
+            {
+              "text": "happy",
+              "phonetic": "/ˈhæpi/",
+              "partOfSpeech": "adj.",
+              "meaning": "快乐的"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "makes her happy"
+            }
+          ]
+        },
+        {
+          "id": "7-3",
+          "sequenceNumber": 7,
+          "segmentNumber": 4,
           "english": "It makes her happy.",
           "chinese": "这使她感到快乐。",
           "speaker": "Ben",
@@ -647,15 +825,47 @@
           ]
         },
         {
-          "id": "8-1",
+          "id": "8-4",
           "sequenceNumber": 8,
           "segmentNumber": 1,
+          "english": "My brother",
+          "chinese": "我的哥哥",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "按原句顺序记住这一组词",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我的哥哥”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "My",
+              "phonetic": "/maɪ/",
+              "partOfSpeech": "det.",
+              "meaning": "我的"
+            },
+            {
+              "text": "brother",
+              "phonetic": "/ˈbrʌðə/",
+              "partOfSpeech": "n.",
+              "meaning": "哥哥；弟弟"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "My brother"
+            }
+          ]
+        },
+        {
+          "id": "8-1",
+          "sequenceNumber": 8,
+          "segmentNumber": 2,
           "english": "likes",
           "chinese": "喜欢；like的第三人称单数",
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -670,13 +880,13 @@
         {
           "id": "8-2",
           "sequenceNumber": 8,
-          "segmentNumber": 2,
+          "segmentNumber": 3,
           "english": "skipping",
           "chinese": "跳绳；skip的-ing形式",
           "speaker": "Lily",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -689,9 +899,41 @@
           "structureBlocks": []
         },
         {
+          "id": "8-5",
+          "sequenceNumber": 8,
+          "segmentNumber": 4,
+          "english": "likes skipping",
+          "chinese": "喜欢跳绳",
+          "speaker": "Lily",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢跳绳”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "likes",
+              "phonetic": "/laɪks/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢；like的第三人称单数"
+            },
+            {
+              "text": "skipping",
+              "phonetic": "/ˈskɪpɪŋ/",
+              "partOfSpeech": "n.; v.-ing",
+              "meaning": "跳绳；skip的-ing形式"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "likes skipping"
+            }
+          ]
+        },
+        {
           "id": "8-3",
           "sequenceNumber": 8,
-          "segmentNumber": 3,
+          "segmentNumber": 5,
           "english": "My brother likes skipping.",
           "chinese": "我的哥哥喜欢跳绳。",
           "speaker": "Lily",
@@ -749,7 +991,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -770,7 +1012,7 @@
           "speaker": "Tom",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -783,9 +1025,41 @@
           "structureBlocks": []
         },
         {
-          "id": "9-3",
+          "id": "9-4",
           "sequenceNumber": 9,
           "segmentNumber": 3,
+          "english": "like dancing",
+          "chinese": "喜欢跳舞",
+          "speaker": "Tom",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢跳舞”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "dancing",
+              "phonetic": "/ˈdɑːnsɪŋ/",
+              "partOfSpeech": "n.; v.-ing",
+              "meaning": "跳舞；dance的-ing形式"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like dancing"
+            }
+          ]
+        },
+        {
+          "id": "9-3",
+          "sequenceNumber": 9,
+          "segmentNumber": 4,
           "english": "Does he like dancing?",
           "chinese": "他喜欢跳舞吗？",
           "speaker": "Tom",
@@ -893,7 +1167,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -914,7 +1188,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -935,7 +1209,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -948,9 +1222,47 @@
           "structureBlocks": []
         },
         {
-          "id": "11-4",
+          "id": "11-5",
           "sequenceNumber": 11,
           "segmentNumber": 4,
+          "english": "like playing ping-pong",
+          "chinese": "喜欢打乒乓球",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“喜欢打乒乓球”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "like",
+              "phonetic": "/laɪk/",
+              "partOfSpeech": "v.",
+              "meaning": "喜欢"
+            },
+            {
+              "text": "playing",
+              "phonetic": "/ˈpleɪɪŋ/",
+              "partOfSpeech": "v.-ing",
+              "meaning": "打（本句为打乒乓球）"
+            },
+            {
+              "text": "ping-pong",
+              "phonetic": "/ˈpɪŋpɒŋ/",
+              "partOfSpeech": "n.",
+              "meaning": "乒乓球"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "like playing ping-pong"
+            }
+          ]
+        },
+        {
+          "id": "11-4",
+          "sequenceNumber": 11,
+          "segmentNumber": 5,
           "english": "I like playing ping-pong.",
           "chinese": "我喜欢打乒乓球。",
           "speaker": "Ben",
@@ -1063,48 +1375,9 @@
           "structureBlocks": []
         },
         {
-          "id": "12-5",
-          "sequenceNumber": 12,
-          "segmentNumber": 4,
-          "english": "I learn new things",
-          "chinese": "我学到新东西",
-          "speaker": "Tom",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
-            {
-              "text": "learn",
-              "phonetic": "/lɜːn/",
-              "partOfSpeech": "v.",
-              "meaning": "学习"
-            },
-            {
-              "text": "new",
-              "phonetic": "/njuː/",
-              "partOfSpeech": "adj.",
-              "meaning": "新的"
-            },
-            {
-              "text": "things",
-              "phonetic": "/θɪŋz/",
-              "partOfSpeech": "n.",
-              "meaning": "物品；thing的复数"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "12-4",
           "sequenceNumber": 12,
-          "segmentNumber": 5,
+          "segmentNumber": 4,
           "english": "reading",
           "chinese": "阅读；read的-ing形式",
           "speaker": "Tom",
@@ -1123,17 +1396,35 @@
           "structureBlocks": []
         },
         {
-          "id": "12-6",
+          "id": "12-8",
           "sequenceNumber": 12,
-          "segmentNumber": 6,
-          "english": "from reading",
-          "chinese": "从阅读中",
+          "segmentNumber": 5,
+          "english": "learn new things from reading",
+          "chinese": "从阅读中学到新东西",
           "speaker": "Tom",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“从阅读中学到新东西”；将它接回完整表达。",
           "words": [
+            {
+              "text": "learn",
+              "phonetic": "/lɜːn/",
+              "partOfSpeech": "v.",
+              "meaning": "学习"
+            },
+            {
+              "text": "new",
+              "phonetic": "/njuː/",
+              "partOfSpeech": "adj.",
+              "meaning": "新的"
+            },
+            {
+              "text": "things",
+              "phonetic": "/θɪŋz/",
+              "partOfSpeech": "n.",
+              "meaning": "物品；thing的复数"
+            },
             {
               "text": "from",
               "phonetic": "/frɒm/",
@@ -1147,12 +1438,17 @@
               "meaning": "阅读；read的-ing形式"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "learn new things from reading"
+            }
+          ]
         },
         {
           "id": "12-7",
           "sequenceNumber": 12,
-          "segmentNumber": 7,
+          "segmentNumber": 6,
           "english": "I learn new things from reading.",
           "chinese": "我从阅读中学到新东西。",
           "speaker": "Tom",
@@ -1260,54 +1556,9 @@
           "structureBlocks": []
         },
         {
-          "id": "13-4",
-          "sequenceNumber": 13,
-          "segmentNumber": 3,
-          "english": "I can put your picture",
-          "chinese": "我可以放你的图画",
-          "speaker": "Lily",
-          "category": "phrase",
-          "difficulty": 1,
-          "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
-          "words": [
-            {
-              "text": "I",
-              "phonetic": "/aɪ/",
-              "partOfSpeech": "pron.",
-              "meaning": "我"
-            },
-            {
-              "text": "can",
-              "phonetic": "/kæn/",
-              "partOfSpeech": "modal v.",
-              "meaning": "能；可以"
-            },
-            {
-              "text": "put",
-              "phonetic": "/pʊt/",
-              "partOfSpeech": "v.",
-              "meaning": "放"
-            },
-            {
-              "text": "your",
-              "phonetic": "/jɔː/",
-              "partOfSpeech": "det.",
-              "meaning": "你的"
-            },
-            {
-              "text": "picture",
-              "phonetic": "/ˈpɪktʃə/",
-              "partOfSpeech": "n.",
-              "meaning": "图画"
-            }
-          ],
-          "structureBlocks": []
-        },
-        {
           "id": "13-3",
           "sequenceNumber": 13,
-          "segmentNumber": 4,
+          "segmentNumber": 3,
           "english": "board",
           "chinese": "板；展示板",
           "speaker": "Lily",
@@ -1326,17 +1577,35 @@
           "structureBlocks": []
         },
         {
-          "id": "13-5",
+          "id": "13-7",
           "sequenceNumber": 13,
-          "segmentNumber": 5,
-          "english": "on the board",
-          "chinese": "在交流板上",
+          "segmentNumber": 4,
+          "english": "put your picture on the board",
+          "chinese": "把你的图画放在交流板上",
           "speaker": "Lily",
           "category": "phrase",
           "difficulty": 1,
           "hint": "把刚练的单词放回这一词组",
-          "grammarAnalysis": "这是原句中的连续自然意群，与相邻词组连接可还原整句。",
+          "grammarAnalysis": "这是原句中的动词短语，表达“把你的图画放在交流板上”；将它接回完整表达。",
           "words": [
+            {
+              "text": "put",
+              "phonetic": "/pʊt/",
+              "partOfSpeech": "v.",
+              "meaning": "放"
+            },
+            {
+              "text": "your",
+              "phonetic": "/jɔː/",
+              "partOfSpeech": "det.",
+              "meaning": "你的"
+            },
+            {
+              "text": "picture",
+              "phonetic": "/ˈpɪktʃə/",
+              "partOfSpeech": "n.",
+              "meaning": "图画"
+            },
             {
               "text": "on",
               "phonetic": "/ɒn/",
@@ -1356,12 +1625,17 @@
               "meaning": "板；展示板"
             }
           ],
-          "structureBlocks": []
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "put your picture on the board"
+            }
+          ]
         },
         {
           "id": "13-6",
           "sequenceNumber": 13,
-          "segmentNumber": 6,
+          "segmentNumber": 5,
           "english": "I can put your picture on the board.",
           "chinese": "我可以把你的图画放在交流板上。",
           "speaker": "Lily",
@@ -1447,7 +1721,7 @@
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1460,15 +1734,47 @@
           "structureBlocks": []
         },
         {
-          "id": "14-2",
+          "id": "14-5",
           "sequenceNumber": 14,
           "segmentNumber": 2,
+          "english": "Our board",
+          "chinese": "我们的交流板",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的名词短语，表达“我们的交流板”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "Our",
+              "phonetic": "/aʊə/",
+              "partOfSpeech": "det.",
+              "meaning": "我们的"
+            },
+            {
+              "text": "board",
+              "phonetic": "/bɔːd/",
+              "partOfSpeech": "n.",
+              "meaning": "板；展示板"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "名词短语",
+              "text": "Our board"
+            }
+          ]
+        },
+        {
+          "id": "14-2",
+          "sequenceNumber": 14,
+          "segmentNumber": 3,
           "english": "shows",
           "chinese": "展示；show的第三人称单数",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1483,13 +1789,13 @@
         {
           "id": "14-3",
           "sequenceNumber": 14,
-          "segmentNumber": 3,
+          "segmentNumber": 4,
           "english": "hobbies",
           "chinese": "业余爱好；hobby的复数",
           "speaker": "Ben",
           "category": "word",
           "difficulty": 1,
-          "hint": "先记本句的必记单词",
+          "hint": "先记这一词组中的必记单词",
           "grammarAnalysis": "认读这个关键词，再接回本句的完整表达。",
           "words": [
             {
@@ -1502,9 +1808,53 @@
           "structureBlocks": []
         },
         {
+          "id": "14-6",
+          "sequenceNumber": 14,
+          "segmentNumber": 5,
+          "english": "shows many different hobbies",
+          "chinese": "展示多种不同爱好",
+          "speaker": "Ben",
+          "category": "phrase",
+          "difficulty": 1,
+          "hint": "把刚练的单词放回这一词组",
+          "grammarAnalysis": "这是原句中的动词短语，表达“展示多种不同爱好”；将它接回完整表达。",
+          "words": [
+            {
+              "text": "shows",
+              "phonetic": "/ʃəʊz/",
+              "partOfSpeech": "v.",
+              "meaning": "展示；show的第三人称单数"
+            },
+            {
+              "text": "many",
+              "phonetic": "/ˈmeni/",
+              "partOfSpeech": "adj.",
+              "meaning": "许多的"
+            },
+            {
+              "text": "different",
+              "phonetic": "/ˈdɪfrənt/",
+              "partOfSpeech": "adj.",
+              "meaning": "不同的"
+            },
+            {
+              "text": "hobbies",
+              "phonetic": "/ˈhɒbiz/",
+              "partOfSpeech": "n.",
+              "meaning": "业余爱好；hobby的复数"
+            }
+          ],
+          "structureBlocks": [
+            {
+              "label": "动词短语",
+              "text": "shows many different hobbies"
+            }
+          ]
+        },
+        {
           "id": "14-4",
           "sequenceNumber": 14,
-          "segmentNumber": 4,
+          "segmentNumber": 6,
           "english": "Our board shows many different hobbies.",
           "chinese": "我们的交流板展示了多种不同爱好。",
           "speaker": "Ben",
